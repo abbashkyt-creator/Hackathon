@@ -1,0 +1,18 @@
+{
+  "name": "Tip Tap Games",
+  "short_name": "TipTap",
+  "description": "The infinite feed of instant one-thumb games.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090b0f",
+  "theme_color": "#090b0f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

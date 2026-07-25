@@ -1,0 +1,10 @@
+entrypoint = "server/index.ts"
+run = "npm run dev"
+
+[deployment]
+build = "npm run build"
+run = "npm start"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

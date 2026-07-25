@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="70%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#26340a"/>
+      <stop offset=".5" stop-color="#11141a"/>
+      <stop offset="1" stop-color="#07080b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1010" cy="95" r="190" fill="#c8ff00" opacity=".08"/>
+  <g transform="translate(94 96)">
+    <rect width="112" height="112" rx="30" fill="#c8ff00"/>
+    <path d="M37 65V31a10 10 0 0 1 20 0v21l9-3a15 15 0 0 1 19 9l5 14a18 18 0 0 1-5 19l-21 18H42L24 77a12 12 0 0 1 21-12Z" fill="#090b0f"/>
+  </g>
+  <text x="236" y="165" fill="#fff" font-family="Arial Black,Arial" font-style="italic" font-size="72">TIP TAP <tspan fill="#c8ff00">GAMES</tspan></text>
+  <text x="94" y="330" fill="#fff" font-family="Arial Black,Arial" font-style="italic" font-size="96">PLAY THE FEED.</text>
+  <text x="99" y="414" fill="#c8ff00" font-family="Arial,Helvetica" font-weight="700" font-size="40">Doomscroll — except you're the one playing.</text>
+  <text x="99" y="500" fill="#a9b0bd" font-family="Arial,Helvetica" font-size="30">Instant games · Live scores · One swipe away</text>
+</svg>
