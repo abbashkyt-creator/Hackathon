@@ -95,7 +95,7 @@ export function createApp(config: Config, store: Store) {
                   mode === "legacy-game"
                     ? ["'self'", "'unsafe-eval'"]
                     : mode === "wasm-game"
-                      ? ["'self'", "'wasm-unsafe-eval'"]
+                      ? ["'self'", "'wasm-unsafe-eval'", "blob:"]
                       : ["'self'"],
                 styleSrc: ["'self'", "'unsafe-inline'"],
                 workerSrc: mode === "app" ? ["'self'"] : ["'self'", "blob:"],
@@ -113,8 +113,20 @@ export function createApp(config: Config, store: Store) {
   // scoped to their local engine mirrors rather than weakening the catalog.
   const cityCabRushSecurityHeaders = securityHeaders("legacy-game");
   const plonkySecurityHeaders = securityHeaders("legacy-game");
+  // Kitty Loves Birds 2 is a Construct 3 runtime (Box2D wasm + new Function),
+  // same engine family as Plonky, so it needs the unsafe-eval policy too.
+  const kittyLovesBirds2SecurityHeaders = securityHeaders("legacy-game");
   const theftCitySecurityHeaders = securityHeaders("wasm-game");
   const supercarLegendsSecurityHeaders = securityHeaders("wasm-game");
+  // Count Control Legends and Johnny Trigger use a Unity loader that injects
+  // its framework as a blob: <script>, so they need the wasm-game policy
+  // (which permits 'wasm-unsafe-eval' and blob: script sources).
+  const countControlSecurityHeaders = securityHeaders("wasm-game");
+  const johnnyTriggerSecurityHeaders = securityHeaders("wasm-game");
+  // Fruit Ninja's enable3d/Ammo physics feature-detects WebAssembly; without
+  // 'wasm-unsafe-eval' that probe fails and it falls back to a non-existent
+  // asm.js ammo.js (404). Serve it under the wasm policy so it loads ammo.wasm.js.
+  const fruitNinjaSecurityHeaders = securityHeaders("wasm-game");
   app.use((req, res, next) => {
     const headers = req.path.startsWith("/games/subway-surfers/")
       ? subwaySecurityHeaders
@@ -122,10 +134,18 @@ export function createApp(config: Config, store: Store) {
         ? cityCabRushSecurityHeaders
       : req.path.startsWith("/games/plonky/")
         ? plonkySecurityHeaders
+      : req.path.startsWith("/games/kitty-loves-birds-2/")
+        ? kittyLovesBirds2SecurityHeaders
       : req.path.startsWith("/games/theft-city/")
         ? theftCitySecurityHeaders
       : req.path.startsWith("/games/supercar-legends/")
         ? supercarLegendsSecurityHeaders
+      : req.path.startsWith("/games/count-control-legends/")
+        ? countControlSecurityHeaders
+      : req.path.startsWith("/games/johnny-trigger-sniper/")
+        ? johnnyTriggerSecurityHeaders
+      : req.path.startsWith("/games/fruit-ninja/")
+        ? fruitNinjaSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
