@@ -3,7 +3,17 @@ import { extname, join, resolve } from "node:path";
 import { brotliCompressSync, constants } from "node:zlib";
 
 const gamesRoot = resolve(import.meta.dirname, "..", "dist", "games");
-const compressibleExtensions = new Set([".css", ".gb", ".html", ".js", ".json", ".svg"]);
+const compressibleExtensions = new Set([
+  ".bundle",
+  ".css",
+  ".data",
+  ".gb",
+  ".html",
+  ".js",
+  ".json",
+  ".svg",
+  ".wasm",
+]);
 const minimumBytes = 1_024;
 let sourceBytes = 0;
 let compressedBytes = 0;

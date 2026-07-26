@@ -12,9 +12,17 @@ export const GAME_SCORE_POLICIES = {
   "dino-runner": { maxScore: 999_999, maxPerSecond: 2_000, burstAllowance: 1_500 },
   "arithmetica": { maxScore: 100_000, maxPerSecond: 5_000, burstAllowance: 2_000 },
   "67-game": { maxScore: 130_000, maxPerSecond: 4_000, burstAllowance: 2_000 },
+  "archery-king": { maxScore: 100_000, maxPerSecond: 2_000, burstAllowance: 1_000 },
+  "fruit-ninja": { maxScore: 10_000_000, maxPerSecond: 10_000, burstAllowance: 2_000 },
+  "ping-pong-go": { maxScore: 100_000, maxPerSecond: 25, burstAllowance: 200 },
+  "ping-pong-bugs": { maxScore: 200_000, maxPerSecond: 2_000, burstAllowance: 2_000 },
 } as const;
 
 export type GameSlug = keyof typeof GAME_SCORE_POLICIES;
+
+export function isRankedGame(gameSlug: string): gameSlug is GameSlug {
+  return gameSlug in GAME_SCORE_POLICIES;
+}
 
 export type ScoreValidation =
   | { ok: true }

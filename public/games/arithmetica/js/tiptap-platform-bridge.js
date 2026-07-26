@@ -1,13 +1,17 @@
 /*
- * Tip Tap local Poki SDK bridge for ArithmeticA.
- * The game itself has no PokiSDK calls — Poki's loader injects it.
- * This bridge provides stubs so the game runs cleanly when loaded directly.
+ * Tip Tap local platform bridge for ArithmeticA.
+ *
+ * The original Phaser bundle injects Poki's SDK itself.  In this local copy,
+ * we replace that one script insertion with a synthetic, local load event and
+ * expose only the game lifecycle methods the bundle calls.  No ad, analytics,
+ * identity, or source-site request is made by this bridge.
  */
 (function () {
   'use strict';
 
   var GAME_SOURCE = 'tiptap-arithmetica';
   var PARENT_SOURCE = 'tiptap-parent';
+  var SOURCE_SDK_URL = 'https://game-cdn.poki.com/scripts/v2/poki-sdk.js';
 
   function postToParent(type, data) {
     try {
@@ -25,9 +29,6 @@
     if (d.type === 'set-muted') {
       try { Howler.mute(!!d.muted); } catch (e) {}
     }
-    if (d.type === 'auto-start') {
-      /* Phaser games auto-start via their own scene lifecycle */
-    }
   });
 
   window.PokiSDK = {
@@ -43,5 +44,22 @@
     happytime: function () {},
     loadingStart: function () {},
     loadingFinished: function () {}
+  };
+
+  // The copied Phaser bundle is intentionally left as the original game
+  // bundle. It creates a <script> for Poki's SDK during Phaser start-up.
+  // Resolve that exact request locally instead of allowing a remote request.
+  var appendChild = Node.prototype.appendChild;
+  Node.prototype.appendChild = function (node) {
+    if (
+      node instanceof HTMLScriptElement &&
+      node.src === SOURCE_SDK_URL
+    ) {
+      queueMicrotask(function () {
+        node.dispatchEvent(new Event('load'));
+      });
+      return node;
+    }
+    return appendChild.call(this, node);
   };
 })();

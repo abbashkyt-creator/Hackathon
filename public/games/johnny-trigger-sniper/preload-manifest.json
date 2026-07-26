@@ -1,0 +1,18 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/johnny-trigger-sniper/index.html",
+    "/games/johnny-trigger-sniper/tiptap-platform-bridge.js",
+    "/games/johnny-trigger-sniper/tiptap-config.js",
+    "/games/johnny-trigger-sniper/tiptap-unity-2020.js",
+    "/games/johnny-trigger-sniper/Build/jt-sniper-v2022.3.18f1-store-v1_0_0-build40.loader.js",
+    "/games/johnny-trigger-sniper/Build/2ccb62f18123b5b9f5fe3c4e93552948.js",
+    "/games/johnny-trigger-sniper/Build/ced0c6748fa27ccd26d9db875271b400.wasm",
+    "/games/johnny-trigger-sniper/Build/da03c09927164da0a1bb2ad5a08766ca.data",
+    "/games/johnny-trigger-sniper/StreamingAssets/aa/settings.json",
+    "/games/johnny-trigger-sniper/StreamingAssets/aa/catalog.json",
+    "/games/johnny-trigger-sniper/StreamingAssets/aa/WebGL/gameplay_assets_all_bbf127fb71dded261559df65bdb9acbb.bundle",
+    "/games/johnny-trigger-sniper/StreamingAssets/aa/WebGL/duplicateassetisolation_assets_all_45c544d7f1393cd53536430851ffb4b3.bundle",
+    "/games/johnny-trigger-sniper/StreamingAssets/aa/WebGL/levels_assets_level_1_1_7d1e164990c07a1b14416fe6f26c0803.bundle"
+  ]
+}

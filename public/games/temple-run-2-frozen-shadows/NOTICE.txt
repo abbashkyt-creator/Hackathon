@@ -1,0 +1,10 @@
+Temple Run 2: Frozen Shadows is a local Tip Tap Games mirror of the source
+runtime supplied for this project. The Poki page shell, advertising, analytics,
+leaderboards, and remote platform SDK are not included in this deployment.
+
+Tip Tap Games loads the local `poki-sdk-local.js` compatibility layer and the
+shared same-origin network lock before the game runtime. No game asset or
+runtime request is permitted to target an external host while playing.
+
+Deployment permission and any required source-game licence remain the
+responsibility of the project owner.

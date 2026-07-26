@@ -23,8 +23,8 @@ The production target is **Replit**, imported from GitHub. The Android target is
 
 - Product repository: `C:\Project C\Hackation`
 - VEU browser toolkit: `C:\Project C\Auction Main\Main\Auction\visual-editor\visual-editor-workspace`
-- Local product URL currently used: `http://localhost:3000/`
-- Direct copied-game routes: `http://localhost:3000/?game=subway-surfers`, `http://localhost:3000/?game=dino-runner`, `http://localhost:3000/?game=arithmetica`
+- Current confirmed Tip Tap development URL: `http://127.0.0.1:3103/` (do not assume port 3000; prove the process owner and `/api/health` first)
+- Direct copied-game routes: `http://127.0.0.1:3103/?game=subway-surfers`, `http://127.0.0.1:3103/?game=dino-runner`, `http://127.0.0.1:3103/?game=arithmetica`, `http://127.0.0.1:3103/?game=67-game`, `http://127.0.0.1:3103/?game=archery-king`, `http://127.0.0.1:3103/?game=smash-room`, `http://127.0.0.1:3103/?game=plonky`
 - VEU launcher: run `.\veu.cmd` from the VEU workspace
 
 Quality gate:
@@ -49,6 +49,9 @@ The gate statically enforces the copied-game packaging contract, validates PWA i
 - Five lightweight original games (Pulse Lock, Color Clash, Stack Shift, Memory Grid, Meteor Dodge)
 - Authorized local Subway Surfers, Dino Runner mirrors in `public/games`
 - ArithmeticA (copied game) in `public/games/arithmetica`
+- Archery King (copied source mirror) in `public/games/archery-king`
+- Smash Room (copied source mirror) in `public/games/smash-room`
+- Plonky (copied Construct 3 source mirror) in `public/games/plonky`
 - Original platform dependencies replaced by a local Tip Tap bridge
 - Strict Content Security Policy plus `public/games/_shared/network-lock.js`
 - Critical-path warm-up manifest per copied game
@@ -63,6 +66,36 @@ Subway mirror facts:
 - Proven score callback path from game to parent and server
 - `NOTICE.txt`, `MIRROR-MANIFEST.json`, license files, local bridge, and preload manifest are included
 - Source identity is preserved; Poki host UI, account, ads, analytics, and tracking are not included
+
+ArithmeticA mirror facts (verified 2026-07-26):
+
+- The original launcher requires the Phaser runtime, bitmap font, 63 image assets, and 16 audio assets. An earlier partial mirror had only the two JavaScript files and three preload images; missing assets caused the incomplete loading/audio behavior.
+- `public/games/arithmetica` now contains the complete 84-file game-owned source bundle, with a full 86-entry warm-up manifest. Its local bridge intercepts the source's exact Poki SDK insertion and resolves it locally; it never downloads the SDK, ads, analytics, or source-host resources.
+- The source's own `SKIP_TITLE_SCREEN` configuration is enabled so a visible feed card enters the original countdown/gameplay flow without a Play tap. This does not alter questions, timers, or the source game-over calculation.
+- VEU's isolated feature-5 browser verified the visible feed iframe loads 85 local resources, creates its canvas, and records zero source/ad/analytics requests. The source does not expose a verified parent score callback, so it remains unranked rather than fabricating submissions.
+
+Archery King mirror facts (verified 2026-07-26):
+
+- The user-supplied 4J page is a GameDistribution wrapper around the direct Code This Lab srl HTML5/CreateJS package. The 4J shell, GameDistribution wrapper, consent UI, advertising, analytics, remote SDK, and Code This Lab more-games service are excluded.
+- `public/games/archery-king` contains all 451 game-owned source files (34,727,166 raw bytes): the original CreateJS/Howler runtime, all sprites, fonts, sounds, 24-level solo content, and local launcher/bridge. Its 455-entry warm-up manifest includes every required local source asset plus the entry bridge.
+- The copied source remote GameDistribution loader is removed. A narrow local no-ad compatibility object supplies only the legacy methods the source requires, and the remote multiplayer entry is hidden because it depends on a third-party service. The original 24-level solo game is unchanged in its rendering, aiming, physics, assets, and score logic.
+- The isolated feature-5 browser verified the local source at 390×844: clean issues/failures, a live rendered canvas, original pointer-driven aiming/shooting, no network-lock reports, and the real copied-source `save_score` event reaching the local parent bridge. VEU's own injected panel can add unrelated `__vwe_panel` image resources; do not count those as product traffic.
+- The source intro panel is allowed to appear, then its own hide path is invoked so the visible feed card reaches genuine solo level-one play without a Play/Next tap. Audio can remain muted until a real gesture because that is a browser policy, not a game-load failure.
+
+Plonky mirror facts (source audit 2026-07-26):
+
+- The Poki source frame resolves to Gametornado's Construct 3 / Box2D package. `public/games/plonky` contains the local launcher, runtime, 68 source image assets, 31 source audio assets, and the source `data.json` project graph.
+- The original launcher inserted the Poki SDK and could emit lifecycle/analytics beacons. The local launcher omits the host shell/service worker, redirects the SDK path to a local no-ad compatibility shim, and removes the source beacon path.
+- Source inspection found only lifecycle/ad hooks, not a trustworthy final integer score or completion callback. Plonky remains unranked; do not add a score policy or manufacture a result.
+- For browser proof, use a fresh dedicated VEU worktree/profile, clear history, load only the direct local Plonky URL, then inspect fresh network evidence. Do not count historical VEU panel or another-card requests as Plonky traffic.
+
+Smash Room mirror facts (verified 2026-07-26):
+
+- The user-selected Poki page is a host shell. VEU isolated feature-5 discovery traced the actual Happylander Ltd HTML5/Three.js package to `17e020cd-042a-46c5-a13c-434fd4c49dfd.gdn.poki.com/292f3ed1-b297-4a5f-be11-aa0288c391a7`.
+- `public/games/smash-room` mirrors the 42 game source assets: source launcher/runtime scripts, 24 voxel object definitions, all source images, font, and audio. The local wrapper is intentionally small: it supplies the original required canvas elements, loads the original source files locally, and calls its original `loadLang("en")` entry point.
+- Do not add `PokiSDK`, advertising, analytics, tracking, or source URLs back into the local page. Smash Room checks for `window.PokiSDK` before its host-only ad/measurement calls; the local launcher deliberately leaves it absent. The local source therefore starts actual gameplay with no ad break or third-party game request.
+- Direct isolated VEU verification loaded every required source asset from `127.0.0.1:3103`, entered original `game` state, created an active Three.js scene, and rendered the real voxel laptop sandbox. VEU's `clean` utility can accidentally set a full-screen game canvas to `display:none`; do not treat that tool-side side effect as a product failure. Restore the canvas or reload instead.
+- The copied source exposes no verified completion/score callback suitable for Tip Tap submission. Keep it unranked rather than fabricating a score event.
 
 Performance truth recorded on 2026-07-26:
 
@@ -106,6 +139,19 @@ For copied games there are two isolation layers:
 Do not weaken either layer to make an old remote call succeed. Localize the required asset or replace the host API with a minimal local bridge.
 
 ## Standard operating procedure for each new copied game
+
+### 0. Mandatory source-bundle audit — before any diagnosis or edit
+
+Do **not** conclude that a copied game is unsupported, broken, or requires a rebuild after finding only its main payload (`.swf`, `.wasm`, `.data`, bundle JS, etc.). Use the assigned VEU instance and prove the whole running bundle first:
+
+1. Run `veu status`; the server must be UP and the browser CONNECTED. If it is not, repair that before collecting evidence.
+2. Navigate to the real source game, wait for its frame, then inspect **all** document, script, fetch, worker, image, audio, WASM, and data requests—not only `net api`.
+3. Save and review the source frame's `index.html` plus every game-owned launcher/bootstrap script. Identify platform SDK calls, source callbacks, orientation hooks, preload UI, renderer/runtime configuration, and ad/reward behavior.
+4. Record the exact runtime build and every companion file required by the payload: for example an SWF may require a particular Ruffle build, a launcher such as `67_webgl.js`, preload images, and `ExternalInterface` callbacks. A newer generic runtime is not automatically compatible.
+5. Play enough of the original source to identify the actual required answer/control. Never call a puzzle "stuck" merely because an assumed button did not advance it.
+6. Only after source and local direct-page behavior are compared may an agent call something a true compatibility blocker. If anything is unverified, say "incomplete asset/lifecycle audit"—not "impossible".
+
+When localizing, retain only source-game assets and a narrowly reviewed local adapter. Remove host SDK, ads, analytics, identity, remote scoreboards, and trackers; replace mandatory callbacks with explicit no-ad/no-network local behavior. Record every source URL, byte size, hash, purpose, and license in the manifest.
 
 ### 1. Candidate review before edits
 
@@ -228,6 +274,78 @@ Use VEU request evidence, not only fixture tests. Delete any synthetic QA score 
 
 Current external blockers: no destination GitHub remote, Replit app/database, final hostname, deployment secrets, OAuth registrations, or public production smoke test have been provided in this workspace.
 
+## Fruit Ninja status (verified 2026-07-26)
+
+- Feed slug: `fruit-ninja`
+- Local source mirror: `public/games/fruit-ninja`
+- Creator shown in product: Storms
+- Source game ID: `8b32c0f4-2dcb-4fdd-bf8b-16df63b01532`
+- Source version: `255af3fb-6d80-441b-8cef-e07ff9a9075c`
+- Original files captured: 121; local package is about 34.6 MB before build compression
+- Runtime: Phaser/Three.js with Ammo WASM, FBX models, local images, font, and audio
+- Poki shell, SDK, ads, analytics, tracking, and remote services are absent locally
+- The visible card enters the source gameplay transition automatically
+- Desktop and 390x844 touch-emulated feed views passed with no page errors or failed game requests
+- The source's real `showResult()` score was proven through the bridge and stored by the local server
+- Production orientation recommendation: landscape for the APK, because the source game is landscape; portrait preserves the full playfield with letterboxing rather than cropping
+- Isolation proof: dedicated VEU server 3470, CDP 9240, one Chrome profile. Shared feature-5 was abandoned after another agent navigated it.
+
+Verification caveat: typecheck, all 97 tests, production build, and `git diff --check` pass. The combined `npm run check` release-audit phase is currently blocked by unrelated incomplete `count-control-legends` and `kitty-loves-birds-2` folders created by other work; do not delete those folders without coordinating with their owners.
+
+## Stickman Fury status (verified 2026-07-26)
+
+- Feed slug: `stickman-fury`
+- Local source mirror: `public/games/stickman-fury`
+- Source page: `https://poki.com/en/g/stickman-fury`
+- Captured source package contains 97 original assets, including all 56 level
+  files, the original physics/runtime libraries, font, audio, images, tuning,
+  weapons, and animal data.
+- The Poki portal, SDK download, advertising, analytics, accounts, and remote
+  services are absent. The local bridge resolves commercial breaks immediately
+  and rewarded breaks as `false`.
+- A fresh feed run entered Stage 1 without a click. Desktop input changed the
+  fight; at 390x844 the canvas fit at 360x592 and its on-screen jump control
+  worked.
+- Scrolling to the next card removed the iframe; scrolling back recreated it
+  and resumed autoplay.
+- A clean direct-game reload captured 101 requests, all local, with zero failed
+  requests, zero external HTTP/WebSocket requests, and zero console warnings or
+  errors.
+- The game is deliberately unranked because no verified source score callback
+  was found. Do not fabricate one.
+- Typecheck, 97 tests, production build, Brotli precompression, manifest hashes,
+  and `git diff --check` pass for this integration.
+- Full evidence and restart notes: `docs/STICKMAN_FURY_PROGRESS.md`.
+
+## Johnny Trigger - Sniper status (verified 2026-07-27)
+
+- Feed slug: `johnny-trigger-sniper`
+- Creator: SayGames
+- Source game/version IDs: `994568e9-1512-4e00-a24d-e431e3eae6b1` / `1642d4b2-69f2-40ac-b15f-44bbefebb761`
+- Runtime: Unity 2022.3.18f1 WebGL with Addressables
+- Mirror integrity: 276 files, 75,472,239 bytes, 263/263 catalog runtime files present
+- Local SDK bridge: no ads; rewarded requests return false; no source leaderboard or remote identity
+- Isolated proof: VEU 3487 with dedicated CDP 9264 and a unique Chrome profile
+- Desktop and 390x844 runs reached the genuine Mission 1 aiming scene without a Play button
+- A trusted 390x844 touch interaction advanced the source from Mission 1 to Mission 2
+- Product network proof: no source/CDN/ad/analytics requests and no network-lock reports; observed localhost:3456 entries were VEU toolbar diagnostics
+- Feed teardown proof: switching to Dino Runner left `johnnyFrame: null`
+- The source exposes no verified score callback, so this game remains unranked
+- `warmFullMirror: false` is intentional: warming all later-level bundles delayed the visible first mission
+- Only the active copied game and one next copied game are mounted; the Johnny
+  feed check observed exactly two game iframes rather than a hidden multi-game
+  farm.
+- Feed sound changes use same-origin `postMessage`; the Unity iframe URL and
+  instance remain live. Runtime inspection proved mute `true` and then `false`
+  without changing the iframe `src`.
+- Johnny is returned as `ranked: false`, creates no run ticket, and renders no
+  Ranks button.
+- Production Brotli sizes: WASM 19,177,397 -> 6,074,820 bytes; data
+  6,144,797 -> 1,926,127 bytes.
+- Current validation: release audit passed, TypeScript passed, 28 test files /
+  119 tests passed, and the production build completed.
+- Cold Unity startup is still substantial. Ahead-of-swipe hidden preboot reduces perceived delay, but do not claim a never-cached 75 MB package is literally instant.
+
 ## APK checklist
 
 Follow `docs/APK-RELEASE.md` only after the Replit URL is final. The permanent external inputs are:
@@ -277,13 +395,13 @@ Non-negotiables:
 Work in four stages: (1) inspect the full picture, (2) implement the complete scoped change, (3) run npm run check plus VEU desktop/mobile/network verification, (4) perform a final adjacent-risk review.
 
 VEU workspace: C:\Project C\Auction Main\Main\Auction\visual-editor\visual-editor-workspace
-Local target: http://localhost:3000/
+Local target: http://127.0.0.1:3103/ (verify the actual owner and health endpoint before using it)
 Direct copied-game targets:
-- http://localhost:3000/?game=subway-surfers
-- http://localhost:3000/?game=dino-runner
-- http://localhost:3000/?game=67-game
+- http://127.0.0.1:3103/?game=subway-surfers
+- http://127.0.0.1:3103/?game=dino-runner
+- http://127.0.0.1:3103/?game=67-game
 
-For the complete repeatable local-game workflow, read docs/LOCAL_GAME_INTEGRATION_PLAYBOOK.md. 67 Game is the original local SWF hosted through local Ruffle, not a rebuild. A real browser input verified its start and first phone-puzzle interaction. It remains deliberately unranked: the copied source exposes no verified Tip Tap score callback, and its own start button requires one genuine user tap.
+For the complete repeatable local-game workflow, read docs/LOCAL_GAME_INTEGRATION_PLAYBOOK.md. 67 Game is the original local source bundle, not a rebuild: the SWF, source `67_webgl` lifecycle, source-deployed Ruffle 2023-12-16 runtime, and both preloader images are stored locally. Real browser input verified level 1 advancing to level 2, and a 390×844 touch-emulated run entered gameplay. It remains deliberately unranked: the copied source exposes no verified Tip Tap score callback, and its own start button requires one genuine user tap.
 
 Begin by reporting current git status, test status, runtime owner, and the single highest-value next milestone. Then complete that milestone without weakening the documented contracts.
 ```

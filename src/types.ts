@@ -7,13 +7,28 @@ export type GameSlug =
   | "subway-surfers"
   | "dino-runner"
   | "arithmetica"
-  | "67-game";
+  | "67-game"
+  | "archery-king"
+  | "smash-room"
+  | "temple-run-2-frozen-shadows"
+  | "stickman-fury"
+  | "plonky"
+  | "fruit-ninja"
+  | "count-control-legends"
+  | "johnny-trigger-sniper"
+  | "kitty-loves-birds-2"
+  | "theft-city"
+  | "city-cab-rush"
+  | "supercar-legends"
+  | "ping-pong-go"
+  | "ping-pong-bugs";
 
 export interface GameDefinition {
   slug: GameSlug;
   title: string;
   rule_text: string;
   accent: string;
+  ranked?: boolean;
 }
 
 export interface Player {
@@ -66,6 +81,7 @@ export interface Challenge {
 
 export interface GameProps {
   active: boolean;
+  preparing?: boolean;
   runKey: number;
   soundEnabled: boolean;
   hapticsEnabled: boolean;

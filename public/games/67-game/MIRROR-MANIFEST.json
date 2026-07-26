@@ -3,24 +3,27 @@
   "sourcePage": "https://poki.com/en/g/67-game",
   "sourceRoot": "https://a155a05b-3e04-4c13-9053-ef50e4bb82ed.gdn.poki.com/91b5f9b8-520f-4e06-9de2-3c5ac0efe931/",
   "sourceAsset": "67.swf",
+  "sourceLauncher": "67_webgl.js (captured with VEU and adapted locally; the Poki SDK and advertising calls are not included)",
   "capturedWith": "Visual Editor Ultimate feature-5 (port 3460, CDP 9226)",
   "runtime": {
     "name": "Ruffle",
-    "version": "0.4.1",
+    "version": "Poki-deployed 2023-12-16 build",
     "license": "MIT OR Apache-2.0",
     "localOnly": true
   },
   "integrationFiles": [
-    { "assetPath": "index.html", "bytes": 885, "sha256": "f77cdee75c5c6de9ad7bb0e6db3c6e10316818aacb59861bf2d8950be4b09bf2", "purpose": "Local Ruffle host and network isolation" },
+    { "assetPath": "index.html", "bytes": 1258, "sha256": "1fcce6dec4ad2f18636318bbaa7a622451db7198557de19ba6b46878e2555b37", "purpose": "Local source-compatible Ruffle host and network isolation" },
     { "assetPath": "js/ruffle-config.js", "bytes": 191, "sha256": "d3c4563627a0701a741d9d6b3d4491ba28bb4c1467b49d1824ef814d1e3f6e96", "purpose": "CSP-safe local Ruffle configuration" },
-    { "assetPath": "js/tiptap-platform-bridge.js", "bytes": 3646, "sha256": "f68778dd450d679b51e26633b6c879930122c05751dae362f5310b308595dc53", "purpose": "Mute and lifecycle bridge; source-owned start gesture remains intact" },
-    { "assetPath": "NOTICE.txt", "bytes": 815, "sha256": "be807ea00f34b21e0ccfcf47aa7c55b91bdb4759fe1aa1992eb35bfe2ad5f7c6", "purpose": "Attribution and deployment-permission reminder" }
+    { "assetPath": "js/tiptap-platform-bridge.js", "bytes": 4333, "sha256": "a5b93c5fc4ccff627d265b29d8f81eff7baba145a5e44613b30a37937ecb4618", "purpose": "Local adaptation of the source 67_webgl lifecycle, with ads and Poki SDK removed" },
+    { "assetPath": "NOTICE.txt", "bytes": 1036, "sha256": "e02482caf28697a487a40356963d2a674fb5e58fce4689f0c1da3f3d51c6206a", "purpose": "Attribution and deployment-permission reminder" }
   ],
   "files": [
     { "assetPath": "67.swf", "bytes": 3961719 },
-    { "assetPath": "ruffle/ruffle.js", "purpose": "Local Flash compatibility runtime" },
-    { "assetPath": "ruffle/1ef41ff58c9763bed027.wasm", "purpose": "SIMD runtime variant" },
-    { "assetPath": "ruffle/63468f5322aed2e768a8.wasm", "purpose": "baseline runtime variant" }
+    { "assetPath": "preloader_67_hor.jpg", "purpose": "Source desktop preloader" },
+    { "assetPath": "preloader_67_ver.jpg", "purpose": "Source mobile preloader" },
+    { "assetPath": "ruffle-poki-2023-12-16/ruffle.js", "purpose": "Exact Ruffle launcher used by the source game" },
+    { "assetPath": "ruffle-poki-2023-12-16/core.ruffle.a3b58c9561ea1b1ac807.js", "purpose": "Exact source Ruffle core" },
+    { "assetPath": "ruffle-poki-2023-12-16/7d8ce55eac07b090e911.wasm", "purpose": "Exact source Ruffle WebAssembly runtime" }
   ],
   "limitations": [
     "The SWF exposes no verified score or completion callback. It is playable but deliberately unranked.",

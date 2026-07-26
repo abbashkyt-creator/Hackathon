@@ -1,0 +1,20 @@
+{
+  "critical": [
+    "/games/ping-pong-go/index.html",
+    "/games/ping-pong-go/js/tiptap-platform-bridge.js",
+    "/games/ping-pong-go/js/tiptap-boot.js",
+    "/games/ping-pong-go/netlib.js",
+    "/games/ping-pong-go/seedRandom.js",
+    "/games/ping-pong-go/gsap.min.js",
+    "/games/ping-pong-go/Howler.min.js",
+    "/games/ping-pong-go/VisibilityManager.js",
+    "/games/ping-pong-go/app.js",
+    "/games/ping-pong-go/json/text.json",
+    "/games/ping-pong-go/images/loader.png",
+    "/games/ping-pong-go/images/gameElements.png",
+    "/games/ping-pong-go/images/uiButs.png",
+    "/games/ping-pong-go/images/uiElements.png",
+    "/games/ping-pong-go/images/bugs.png",
+    "/games/ping-pong-go/fonts/LuckiestGuy-Regular.ttf"
+  ]
+}

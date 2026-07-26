@@ -11,9 +11,12 @@ Distribution permission: represented by the Tip Tap Games project owner.
 Before a public GitHub, Replit, or APK release, retain written permission that
 specifically covers redistribution of this SWF and public deployment.
 
-Runtime: Ruffle 0.4.1, dual licensed MIT OR Apache-2.0.
-Ruffle notices are retained in this mirror's ruffle/LICENSE_MIT and
-ruffle/LICENSE_APACHE files and documented in the integration playbook.
+Runtime: the exact Ruffle build deployed by the source game (`ruffle_2023_12_16`),
+dual licensed MIT OR Apache-2.0. The original `67_webgl.js` lifecycle has been
+adapted locally so Poki SDK, ads, analytics, and remote services are not included.
+Ruffle notices are retained in this mirror's ruffle-poki-2023-12-16/LICENSE_MIT
+and ruffle-poki-2023-12-16/LICENSE_APACHE files and documented in the
+integration playbook.
 
 This local mirror intentionally contains no Poki SDK, advertising SDK,
 analytics, or remote service dependency.

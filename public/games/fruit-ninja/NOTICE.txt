@@ -1,0 +1,22 @@
+Fruit Ninja local source mirror
+===============================
+
+Source page supplied for this integration:
+https://poki.com/en/g/fruit-ninja
+
+The Poki page identifies this browser edition's developer as Storms. The
+versioned source package audited for this mirror is:
+https://8b32c0f4-2dcb-4fdd-bf8b-16df63b01532.gdn.poki.com/255af3fb-6d80-441b-8cef-e07ff9a9075c/
+
+This directory contains the authorized, same-origin game package required for
+Tip Tap deployment. The Poki page shell, host wrapper, SDK, ads, analytics,
+identity, tracking, and remote service calls are not included.
+
+The original Phaser/Three.js gameplay, graphics, audio, 3D models, touch swipe
+controls, bomb rules, and score logic remain intact. A local SDK substitute
+resolves the source's lifecycle and ad calls without displaying ads or making
+network requests. At the source's real game-over function, the existing score
+is forwarded to Tip Tap's same-origin leaderboard.
+
+The original creator identity is preserved. Tip Tap does not represent this
+copied work as its own creation.

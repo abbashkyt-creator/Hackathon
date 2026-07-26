@@ -37,9 +37,18 @@ describe("Tip Tap API", () => {
     const first = await agent.get("/api/bootstrap").expect(200);
     const second = await agent.get("/api/bootstrap").expect(200);
 
-    expect(first.body.games).toHaveLength(9);
+    expect(first.body.games).toHaveLength(23);
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "subway-surfers" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "supercar-legends" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "ping-pong-go" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "ping-pong-bugs" })]),
     );
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "dino-runner" })]),
@@ -50,14 +59,51 @@ describe("Tip Tap API", () => {
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "67-game" })]),
     );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "archery-king" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "smash-room" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "temple-run-2-frozen-shadows" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "stickman-fury" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "plonky" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "fruit-ninja" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "city-cab-rush" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ slug: "pulse-lock", ranked: true }),
+        expect.objectContaining({ slug: "johnny-trigger-sniper", ranked: false }),
+        expect.objectContaining({ slug: "stickman-fury", ranked: false }),
+      ]),
+    );
     expect(first.body.player.isGuest).toBe(true);
     expect(second.body.player.id).toBe(first.body.player.id);
     expect(first.headers["set-cookie"]?.[0]).toContain("HttpOnly");
   });
 
-  it("scopes the legacy game CSP exception to Subway Surfers assets", async () => {
+  it("scopes the legacy Unity CSP exception to the local Unity game assets", async () => {
     const app = createApp(config, store);
     app.get("/games/subway-surfers/csp-probe.js", (_request, response) =>
+      response.type("text/javascript").send("void 0;"),
+    );
+    app.get("/games/city-cab-rush/csp-probe.js", (_request, response) =>
+      response.type("text/javascript").send("void 0;"),
+    );
+    app.get("/games/plonky/csp-probe.js", (_request, response) =>
+      response.type("text/javascript").send("void 0;"),
+    );
+    app.get("/games/theft-city/csp-probe.js", (_request, response) =>
       response.type("text/javascript").send("void 0;"),
     );
     app.get("/games/dino-game/csp-probe.js", (_request, response) =>
@@ -68,10 +114,16 @@ describe("Tip Tap API", () => {
     );
     const regular = await request(app).get("/api/health").expect(200);
     const subwayAsset = await request(app).get("/games/subway-surfers/csp-probe.js").expect(200);
+    const cityCabRushAsset = await request(app).get("/games/city-cab-rush/csp-probe.js").expect(200);
+    const plonkyAsset = await request(app).get("/games/plonky/csp-probe.js").expect(200);
+    const theftCityAsset = await request(app).get("/games/theft-city/csp-probe.js").expect(200);
     const dinoAsset = await request(app).get("/games/dino-game/csp-probe.js").expect(200);
     const futureGameAsset = await request(app).get("/games/future-copy/csp-probe.js").expect(200);
     const regularCsp = regular.headers["content-security-policy"];
     const subwayCsp = subwayAsset.headers["content-security-policy"];
+    const cityCabRushCsp = cityCabRushAsset.headers["content-security-policy"];
+    const plonkyCsp = plonkyAsset.headers["content-security-policy"];
+    const theftCityCsp = theftCityAsset.headers["content-security-policy"];
     const dinoCsp = dinoAsset.headers["content-security-policy"];
     const futureGameCsp = futureGameAsset.headers["content-security-policy"];
 
@@ -80,12 +132,39 @@ describe("Tip Tap API", () => {
     expect(subwayCsp).toContain("script-src 'self' 'unsafe-eval'");
     expect(subwayCsp).toContain("connect-src 'self' data: blob:");
     expect(subwayCsp).toContain("frame-src 'none'");
+    expect(cityCabRushCsp).toContain("script-src 'self' 'unsafe-eval'");
+    expect(cityCabRushCsp).toContain("connect-src 'self' data: blob:");
+    expect(cityCabRushCsp).toContain("frame-src 'none'");
+    expect(plonkyCsp).toContain("script-src 'self' 'unsafe-eval'");
+    expect(plonkyCsp).toContain("connect-src 'self' data: blob:");
+    expect(plonkyCsp).toContain("frame-src 'none'");
+    expect(theftCityCsp).toContain("script-src 'self' 'wasm-unsafe-eval'");
+    expect(theftCityCsp).not.toContain("'unsafe-eval'");
+    expect(theftCityCsp).toContain("connect-src 'self' data: blob:");
+    expect(theftCityCsp).toContain("frame-src 'none'");
     expect(dinoCsp).toContain("script-src 'self';");
     expect(dinoCsp).not.toContain("script-src 'self' 'unsafe-inline'");
     expect(dinoCsp).not.toContain("'unsafe-eval'");
     expect(futureGameCsp).toContain("script-src 'self'");
     expect(futureGameCsp).not.toContain("'unsafe-eval'");
     expect(futureGameCsp).not.toContain("poki.com");
+  });
+
+  it("keeps copied-game CSP active during local development", async () => {
+    const developmentConfig: Config = { ...config, NODE_ENV: "development" };
+    const app = createApp(developmentConfig, store);
+    app.get("/games/stickman-fury/index.html", (_request, response) =>
+      response.type("text/html").send("<!doctype html><title>Stickman Fury</title>"),
+    );
+    const regular = await request(app).get("/api/health").expect(200);
+    const game = await request(app).get("/games/stickman-fury/index.html").expect(200);
+
+    expect(regular.headers["content-security-policy"]).toBeUndefined();
+    expect(game.headers["content-security-policy"]).toContain("script-src 'self'");
+    expect(game.headers["content-security-policy"]).toContain("connect-src 'self' data: blob:");
+    expect(game.headers["content-security-policy"]).toContain("frame-src 'none'");
+    expect(game.headers["access-control-allow-origin"]).toBe("null");
+    expect(game.headers["cross-origin-resource-policy"]).toBe("cross-origin");
   });
 
   it("accepts one plausible run, rejects replay, and creates a canonical challenge", async () => {

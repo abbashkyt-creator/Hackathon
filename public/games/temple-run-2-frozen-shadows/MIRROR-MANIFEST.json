@@ -1,0 +1,381 @@
+{
+  "game": "temple-run-2-frozen-shadows",
+  "title": "Temple Run 2: Frozen Shadows",
+  "source": {
+    "page": "https://poki.com/en/g/temple-run-2-frozen-shadows",
+    "runtime": "Imangi Studios Babylon/WebGL source captured into this local mirror"
+  },
+  "runtimePolicy": {
+    "externalRequests": false,
+    "ads": false,
+    "leaderboards": false,
+    "start": "The source PLAY control is clicked once when autoplay=1."
+  },
+  "files": [
+    {
+      "path": "2.bundle.js",
+      "bytes": 2102,
+      "sha256": "a5102a713989e1b25e83301a186a6109cacaceeecf2d2df44900bcfc0096f99d"
+    },
+    {
+      "path": "379241e29c75c9e274f9190a2e0874bb.jpg",
+      "bytes": 7225,
+      "sha256": "58a156ef35a50e47a32a4b2cb5c875b19ef551db7eb26fc525f54e052ece49a0"
+    },
+    {
+      "path": "4720d910d9d723ec173e17ce10f31bfb.jpg",
+      "bytes": 22192,
+      "sha256": "63aa6c8ee175a8cbdb7c6f266211f669684959f2fa896a6cb5bb2f979c4057dc"
+    },
+    {
+      "path": "52d79153235ad2a88f8b1ff2ffdbe067.jpg",
+      "bytes": 105819,
+      "sha256": "2aedd4756c26ca4905341326f7a9d62c65208e616082fb141c07a8586203d4e7"
+    },
+    {
+      "path": "6bbd8797ffdaf4e4c44b49e4732c9bf1.webp",
+      "bytes": 452462,
+      "sha256": "a3bb06a4be45bf185ea845f457abde4c1f43a296c4bc0bc9ed7847bc4e921ec4"
+    },
+    {
+      "path": "72bdc992cae069c7b8720c3106e5d3c8.webp",
+      "bytes": 715892,
+      "sha256": "ce69c043a82835e87f404c525a0b4282a227272c508ff262b16a3e58f1fcf25b"
+    },
+    {
+      "path": "859534eabad5724a69cd5381dc82428f.webp",
+      "bytes": 6072,
+      "sha256": "b6415e13b8f9ba40aaaa857aa167979e22f68ada7e49d55616e173a83858a256"
+    },
+    {
+      "path": "ac268c48131d7ef2e42100beed84990f.webp",
+      "bytes": 396754,
+      "sha256": "6371dc9ebad96bb216e131f7bf83a0be9876d7384d4ef0762df1eec8e1a98d0d"
+    },
+    {
+      "path": "assets/characters/demon_monkey/demon_monkey_chaser.glb",
+      "bytes": 393880,
+      "sha256": "c255cce14bcd7a027865f4ba5eed57af7af0bc564ce857edc8d98ebe6a4e246d"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/Arctic_Forest_junction_a_Turn_Left_Skullmonkey.glb",
+      "bytes": 564152,
+      "sha256": "28393442ac6a16291a7dcdcb9337d42dd78862348ec2137f493fb30a945dfc1a"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/Arctic_Forest_junction_a_Turn_Right_Skullmonkey.glb",
+      "bytes": 564156,
+      "sha256": "a69f18debb5218ab750d5c5b2ab566dbe93943d3c39674e9df7c3ab437447219"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/Arctic_Forest_junction_b_Turn_Left_Skullmonkey.glb",
+      "bytes": 505568,
+      "sha256": "fad9a4611120c8d562f36f512ebd6d8451c2733eca1412dd7b470ea392c756eb"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/Arctic_Forest_junction_b_Turn_Right_Skullmonkey.glb",
+      "bytes": 505572,
+      "sha256": "e82596d15b6cc6b5e874c2de522ede051252e24d22351d31bd97e880fb1baded"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/Scarlett_Fox_Arctic.glb",
+      "bytes": 1393360,
+      "sha256": "a3518a1ca158e357bd52430c46cb44a145f84451b659ff5ab8c2b594b8f6c2ce"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/Scarlett_Fox_Skin_Arctic.jpg",
+      "bytes": 166779,
+      "sha256": "dce609ea22cbf6f418c2a251bebf29bc40570bc9e9edb90c50b366028f098fd4"
+    },
+    {
+      "path": "assets/characters/scarlett_fox/skull_sled_a_prefab.glb",
+      "bytes": 20924,
+      "sha256": "a1b7d0cfc0e713c1f58597792446a9f76940534937dde83ca905356492138b1e"
+    },
+    {
+      "path": "assets/effects/effects_additive.jpg",
+      "bytes": 48256,
+      "sha256": "660c54a91f7b7f8c3dfb4ab7c4925f215e6fb205416b3c3e4b7a857d515759d4"
+    },
+    {
+      "path": "assets/effects/effects_transparent_Arctic.webp",
+      "bytes": 43394,
+      "sha256": "253dd42914893e1a29d75547fe02b4256054b9d92e0c005ae97913ad3e9dcc17"
+    },
+    {
+      "path": "assets/effects/effects_transparent.webp",
+      "bytes": 79392,
+      "sha256": "7a67040c9bbdfb40a5aa2ad6aeffa89ad2c781232cdbf86ec7ef2e14495f964b"
+    },
+    {
+      "path": "assets/effects/power_up_fx_mesh.glb",
+      "bytes": 91100,
+      "sha256": "26869b2dd70d14dba99746b3d1e8c6ebd03c05864dcf6be61bcb53221c7ea671"
+    },
+    {
+      "path": "assets/environments/Arctic_Skybox.glb",
+      "bytes": 10968,
+      "sha256": "b027cd4b964a21ae6103b2bd085a5d7dc0b99aeb7526fea08b6b3ad2cd3b886d"
+    },
+    {
+      "path": "assets/objects/chest/chest.glb",
+      "bytes": 109468,
+      "sha256": "7971b4271193229bcaa9205700345a79db4cc7aa4fb450f546a033908ca048e3"
+    },
+    {
+      "path": "assets/objects/chest/chest.jpg",
+      "bytes": 20464,
+      "sha256": "77090621e1ce50f3445050b4d4758c13856a73d80c35bc2894dfbc0275435c7e"
+    },
+    {
+      "path": "assets/objects/coins/coin_default.jpg",
+      "bytes": 6879,
+      "sha256": "7c4c1c36f9cd3a345889b3080b3338b611d8c30cd148e3e161c1ba21b93b7d69"
+    },
+    {
+      "path": "assets/objects/coins/default_coin_gold.glb",
+      "bytes": 3820,
+      "sha256": "cb47b8ebabd2167c84e4f1e8c42295d60c3c4037f8fcb2c5b2e1a29259aacb06"
+    },
+    {
+      "path": "assets/objects/pickups/pickupBoost.glb",
+      "bytes": 4756,
+      "sha256": "d78adda4da44c15dbb47008d41a559b39762a2737160da0e96e626504bfa8ee8"
+    },
+    {
+      "path": "assets/objects/pickups/PickUps01.jpg",
+      "bytes": 55439,
+      "sha256": "7fbf6f7309ad604c9cdd6c0ca418426412c0bf1693eca890c48e74dbcfda3ebe"
+    },
+    {
+      "path": "assets/objects/pickups/pickupShield.glb",
+      "bytes": 4744,
+      "sha256": "cdccb9569efdf6b0c8736cc0d6d3f0c14ec88024b78687bcf7a692dd50d6c9b4"
+    },
+    {
+      "path": "assets/objects/pickups/pickupVacuum.glb",
+      "bytes": 4776,
+      "sha256": "6104f6a245db3abe986480c3cac04fae9dedcb42c298168d8125b506381dc0a8"
+    },
+    {
+      "path": "assets/sounds/music/Game.ogg",
+      "bytes": 915050,
+      "sha256": "999bd0698117a6199845580c0ac5548d9baea66837538be5d2c5e9efad451fba"
+    },
+    {
+      "path": "assets/sounds/music/NightMusic.ogg",
+      "bytes": 454951,
+      "sha256": "f25a2c2e63cfe46040fbe9c25910813762b046a489d49ff0fe6c70610af4d9ec"
+    },
+    {
+      "path": "assets/sounds/sfx/sfx.ogg",
+      "bytes": 284157,
+      "sha256": "9652cdd11eff7e5827ba6e1dfb941a96cec03621e4252ca2e0f9b190b70b810f"
+    },
+    {
+      "path": "assets/sounds/sfx/track_sfx.ogg",
+      "bytes": 562977,
+      "sha256": "17ac31e63edcad8104106e7c1e2efa91165c1a74c5cb3fdae2cf7e732a691f28"
+    },
+    {
+      "path": "assets/textures/Arctic_Flags01.jpg",
+      "bytes": 12906,
+      "sha256": "b102f70e07e0a2e41f026a0a2db195c63994e819d43d4688f9563d155e707bb4"
+    },
+    {
+      "path": "assets/textures/Arrow.jpg",
+      "bytes": 42319,
+      "sha256": "55c9c76f2e9a9388a0b305fb77099666b05c1eb4718aa590f6176fb19a03143c"
+    },
+    {
+      "path": "assets/textures/Atlas_Opaque_Arctic_B.jpg",
+      "bytes": 236988,
+      "sha256": "e97364adce8b00928beb2183382b3c42e015cd9de8009b9789413d959762f1bf"
+    },
+    {
+      "path": "assets/textures/Atlas_Opaque_Arctic_Gloss_B.png",
+      "bytes": 40134,
+      "sha256": "f8723106f5bbfa0caa65c0e2279f1d8648ff7fe76ace71055179da2f91d406b1"
+    },
+    {
+      "path": "assets/textures/Atlas_Opaque_Arctic_Gloss.png",
+      "bytes": 27038,
+      "sha256": "a27519693d6a62b53aa661e11c61d95bae88894492ef6103a5df48739e624a33"
+    },
+    {
+      "path": "assets/textures/Atlas_Opaque_Arctic.jpg",
+      "bytes": 236200,
+      "sha256": "e70c7224af8b3386f825e84850fa1ef468b10c05dc3bdcb2f1cb789b5d07b061"
+    },
+    {
+      "path": "assets/textures/beige_bg.jpg",
+      "bytes": 7225,
+      "sha256": "58a156ef35a50e47a32a4b2cb5c875b19ef551db7eb26fc525f54e052ece49a0"
+    },
+    {
+      "path": "assets/textures/BlobShadow.webp",
+      "bytes": 7260,
+      "sha256": "5baef16b1dfbd474770522f57bfdc644676d6f456f1bc840938f1782cdf268db"
+    },
+    {
+      "path": "assets/textures/foliage_transparent.webp",
+      "bytes": 129918,
+      "sha256": "c0beed0075e97e72f6bdd2db442323961566cca20a1fd6f3b4e83ca0c358e2d3"
+    },
+    {
+      "path": "assets/textures/Sky_Arctic01.jpg",
+      "bytes": 49215,
+      "sha256": "ac3f8b073ae943a71b8eaa7680c320f138501141c8b68919d98c45e9c1401939"
+    },
+    {
+      "path": "assets/tracks/Arctic/Base/base_pack_1.glb",
+      "bytes": 1822936,
+      "sha256": "cf02d515d374cf8a5e6da8fadab5a4323287a4bf9865a4db43275cd5cceae41a"
+    },
+    {
+      "path": "assets/tracks/Arctic/Base/base_pack_2.glb",
+      "bytes": 4917036,
+      "sha256": "6cd4eda9262aa4837f9130477707f83c2f601e6a7e6be2fdf0e1802a645ec3b2"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Curve_Right_45_A.glb",
+      "bytes": 80704,
+      "sha256": "c63c6901a1718895971e6e79b886d236e82596869961c78f4b3aa1478837888d"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Entrance_A.glb",
+      "bytes": 111892,
+      "sha256": "aa225eb7aab7814477d74b5384974bc6032382035eb5c609fc6d41831936804a"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Exit_A.glb",
+      "bytes": 44056,
+      "sha256": "bfebfac3a610370b6956ce97b6fc3c3499fa450f5f2e8a1490e343735e0b0915"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Obstacle_Jump_B.glb",
+      "bytes": 16468,
+      "sha256": "ceb375c17ec372f445eef7dd45722cf7107cfd4c8155456c66dc48484d33d6d5"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Obstacle_Jump_C.glb",
+      "bytes": 84368,
+      "sha256": "0cee3ee3fc7f21a7f349353b04c4129a8581780df9f7f01c7ce8b6fd7a7a5e5c"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Obstacle_Left_B.glb",
+      "bytes": 129680,
+      "sha256": "736451e9d895ddb2090bb961e20d2ccd1afff2ae75b4d9254008ddf4fe7aece6"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Obstacle_Right_B.glb",
+      "bytes": 130484,
+      "sha256": "a7133472333009b84d76e84a1841190c1a15bbfe97a3a480225f09eb14dd7936"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Straight_A.glb",
+      "bytes": 15728,
+      "sha256": "fe1010fa57b4684e40729c73b3f726c4a46d0a7b0eeb15ae03c8454991f7e52c"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Straight_B.glb",
+      "bytes": 19844,
+      "sha256": "54e8768328ec9f0fe56edff3d1bd896f851fd7645440bea61acee0f275a46c61"
+    },
+    {
+      "path": "assets/tracks/Arctic/Tunnels/Arctic_Tunnels_Straight_C.glb",
+      "bytes": 19392,
+      "sha256": "bd6d072fa18207a5bbd57292c0977cd08b190c4338e889ea0a322c2426c5c077"
+    },
+    {
+      "path": "bundle.js",
+      "bytes": 7917161,
+      "sha256": "374729adc49606a59ddaa70df0fa345e4d3c4c375f9b49fa34d20717e8f37a24"
+    },
+    {
+      "path": "c3a474ec7869a10db304b9734dc161a8.webp",
+      "bytes": 36710,
+      "sha256": "5aeb303cf7b23b1d8f6fff197f4ecd31b47fd0b2b6e455aada0df5957e350c83"
+    },
+    {
+      "path": "c3cf9d3b00dfee96270d5a3986dff067.webp",
+      "bytes": 5536,
+      "sha256": "cd22a7aa59d3d5386ca99eb3df0606efb4269f1d63eea557d225f8d07be150c6"
+    },
+    {
+      "path": "cd718180b9204d15f661250c7741c545.webp",
+      "bytes": 9552,
+      "sha256": "7c6bea807d7e1858220fc31514276dbf5a71fb414f1d74c4c0d8f2aaffd7b482"
+    },
+    {
+      "path": "d4a3141421fd427168cf625156fee2ab.webp",
+      "bytes": 4914,
+      "sha256": "95cb507426cb9ad4416dcdc551b6af885fcde77302f347865a1bb822ee2ec099"
+    },
+    {
+      "path": "e27e9516fb177e6a09bedd53cf084336.webp",
+      "bytes": 3294,
+      "sha256": "eef02677496339dcdd895a277be71cd65fb6f824072df36720465575fba73e4e"
+    },
+    {
+      "path": "e93fa90f989e4a13e0cdcbd0f1d1e33e.webp",
+      "bytes": 28454,
+      "sha256": "91bf7b4d84abfc2f3519bcc4aa3b6e69376f9a90557bb36356d719e749ebffdd"
+    },
+    {
+      "path": "ecb75761cc5768501b9345d4417c76f7.png",
+      "bytes": 78720,
+      "sha256": "9a31b18cbac294ffa0e35e27af6f8e865b9349540e25d24d04f289895c41e5e5"
+    },
+    {
+      "path": "f36d52fb2504971b038c976792cda83a.webp",
+      "bytes": 67582,
+      "sha256": "4749ce5def89eff5cd097d79efef1946c0e0287aa84162074c7c717df94d517e"
+    },
+    {
+      "path": "f56ee7e8556446da578df0b7c3ffceaf.webp",
+      "bytes": 371556,
+      "sha256": "1f193d8c9de65a77063a5e23dc7e2a70634ff533ae2f9ba7072f40e049df3849"
+    },
+    {
+      "path": "fonts/temple-run-small-caps.woff2",
+      "bytes": 46168,
+      "sha256": "cf8d475c1f548414019135d9d4b7f0cdb6bcd33cb4557dad08bf632cf9a523c8"
+    },
+    {
+      "path": "global.css",
+      "bytes": 2957,
+      "sha256": "373fba1a91ad7f9437efc506495fdbdaab856187f492e0fc4bbf8d32ec0e8f80"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1036,
+      "sha256": "5d08d55f151cb187b42bd09fed352b0b6873428a324a1104783bf686c1514681"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 562,
+      "sha256": "9a314d5ab265ce64697679818359b077779e4fb7a57904734f03d809766ccdc1"
+    },
+    {
+      "path": "poki-sdk-local.js",
+      "bytes": 439,
+      "sha256": "d4757d5b0d57c8e1537b497bab534edd2a6ffa0782d06b2f60aa0fb1a11f1cef"
+    },
+    {
+      "path": "preload-manifest.json",
+      "bytes": 844,
+      "sha256": "1e885651801d70d1c50014a0e87d9440568327cf8267063a857fcaf226b4cd23"
+    },
+    {
+      "path": "tiptap-autostart.js",
+      "bytes": 1434,
+      "sha256": "3a1c85208be1e25e6cb3a269552935904e63b9bdd86781ba29a6d663fc64aba2"
+    },
+    {
+      "path": "vendor/draco_decoder_gltf.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    }
+  ]
+}

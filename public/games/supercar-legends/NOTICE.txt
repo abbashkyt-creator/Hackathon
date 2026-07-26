@@ -1,0 +1,33 @@
+Supercar Legends — Tip Tap integration
+======================================
+
+Supercar Legends, its game code, characters, artwork, audio, and branding are
+owned by Jungle Tavern and its applicable licensors.
+
+Source page:
+https://poki.com/en/g/supercar-legends
+
+Captured build:
+  game_id          79bd041a-c68d-4987-8884-702425c1cc3f
+  game_version_id  9ae86e2d-d431-4d2f-b661-4b1f236767d4
+  engine           Unity 2021.3.45f2 WebGL (Addressables)
+
+The project owner (Abbas) represented on 2026-07-26 that they received
+permission to copy, modify, integrate, and deploy this game build, and that the
+permission covers public GitHub redistribution and public Replit hosting. The
+written permission should be retained with the project's deployment records and
+checked before making the repository or deployment public.
+
+Poki's hosted page shell, master-loader, advertising stack, IMA/DoubleClick/
+Amazon ad requests, analytics, remote configuration, and remote SDK were not
+copied. Tip Tap supplies a local Unity bootstrapper and a local PokiSDK
+compatibility bridge (public/games/supercar-legends/js).
+
+Score note: the captured build calls no score, highscore, or leaderboard
+method (only ad and gameplay-lifecycle hooks). Rather than invent a score, this
+card is intentionally UNRANKED, matching the 67 Game policy.
+
+Asset note: the Unity build files were captured with their brotli transport
+compression removed (the bytes are the genuine decompressed WebAssembly, Unity
+data, framework, and asset bundles). The production build regenerates lossless
+brotli (.br) sidecars for transport, so nothing about gameplay is altered.

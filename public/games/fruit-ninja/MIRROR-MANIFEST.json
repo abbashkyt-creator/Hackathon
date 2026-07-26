@@ -1,0 +1,685 @@
+{
+  "name": "Fruit Ninja",
+  "sourcePage": "https://poki.com/en/g/fruit-ninja",
+  "sourceRoot": "https://8b32c0f4-2dcb-4fdd-bf8b-16df63b01532.gdn.poki.com/255af3fb-6d80-441b-8cef-e07ff9a9075c/",
+  "gameId": "8b32c0f4-2dcb-4fdd-bf8b-16df63b01532",
+  "gameVersionId": "255af3fb-6d80-441b-8cef-e07ff9a9075c",
+  "sourceDeveloper": "Storms",
+  "capturedWith": "Dedicated Visual Editor Ultimate session (server 3470 / isolated CDP 9240)",
+  "sourceBundleAudit": {
+    "verifiedOn": "2026-07-26",
+    "requiredOriginalAssets": 121,
+    "includedSourceAssets": 121,
+    "activeLiteralAssetReferences": 118,
+    "inactiveCommentOnlyReferences": [
+      "assets/UI/ScrollBackingQuad.png",
+      "assets/UI/SenseiOrange.png",
+      "assets/effects/SplashSlice.png",
+      "assets/effects/SplashSlice2.png",
+      "assets/fruits/CWatermelon.FBX",
+      "assets/pics/sukasuka-chtholly.png",
+      "assets/pics/taikodrummaster.jpg",
+      "assets/textures/LogoLarge.png"
+    ],
+    "launcher": "index.html",
+    "runtime": "main.bundle.js",
+    "scoreEvent": "source showResult game-over path using gameData.score",
+    "verifiedRuntimeBranches": [
+      "home screen",
+      "automatic gameplay transition",
+      "gameplay and three-miss game over",
+      "retry into a second live round",
+      "settings, credits, and audio controls"
+    ],
+    "excluded": [
+      "Poki page shell",
+      "Poki host wrapper",
+      "Poki SDK",
+      "ads",
+      "analytics",
+      "identity",
+      "tracking",
+      "remote services"
+    ]
+  },
+  "localAdaptations": [
+    "network-lock is the first executable script",
+    "Poki SDK is replaced with an ad-free local lifecycle substitute",
+    "source game-over score is forwarded to the same-origin Tip Tap leaderboard",
+    "sound follows the Tip Tap feed mute state"
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Same-origin local launcher with network lock first and no external SDK",
+      "bytes": 1880,
+      "sha256": "85855224b0ca3fed17215329a54aa7d4c6f1d27e466299fd6496a8a340185981"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Local ad-free Poki lifecycle substitute, mute control, and score bridge",
+      "bytes": 2292,
+      "sha256": "1f50598133b3680139695977e5b4697ac07e7d99f25a64e0b43a6ea6d22a33df"
+    },
+    {
+      "assetPath": "main.bundle.js",
+      "purpose": "Copied source runtime with one verified game-over score handoff",
+      "bytes": 608270,
+      "sha256": "1f3cfefcd4b6086e125c7140f042969031c1b84b1c6dfb2b9db4d8932257a892"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "purpose": "Attribution and deployment-permission record",
+      "bytes": 1056,
+      "sha256": "fcd6e48854ca7a69af10fc82985057c789d65e52df5d19c44c0b29c586ddd900"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Instant-load critical asset plan",
+      "bytes": 568,
+      "sha256": "11a65924b0a9d11fa16976cd732552bdc09d9fd153c3dc2acad2f6436cf87c5f"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/ammo/ammo.wasm.js",
+      "bytes": 242084,
+      "sha256": "b791b245cc126205473cefa12d623dbcb33f75552cd867c37be6a45aca876ab2"
+    },
+    {
+      "assetPath": "assets/ammo/ammo.wasm.wasm",
+      "bytes": 845592,
+      "sha256": "67570ed1b03475c86dabed786f746e9ad1578e7e7199ec6b88314dee0a2b7362"
+    },
+    {
+      "assetPath": "assets/effects/BombRay.png",
+      "bytes": 2600,
+      "sha256": "62015843479e31742c8a2e1b3d66fe34eb2946aca2ad94171e4fe57c7c2660ca"
+    },
+    {
+      "assetPath": "assets/effects/FruitSplash.png",
+      "bytes": 4143,
+      "sha256": "bd67dfde6d98de0bfb82a9e003434c757ff1e4115bee8198833d0efebac5cd17"
+    },
+    {
+      "assetPath": "assets/effects/Glow.png",
+      "bytes": 3005,
+      "sha256": "366d30e25f3be346dceca2dbe89d048a9c10def2a6631c73c07c4e57a24468a0"
+    },
+    {
+      "assetPath": "assets/effects/ImpactClassic.png",
+      "bytes": 4546,
+      "sha256": "05049e360eff5d7f1f8181c94c02c9b9f9573b38631f97a5b9bfd88660d3f964"
+    },
+    {
+      "assetPath": "assets/effects/PomegranateRay.fbx",
+      "bytes": 11888,
+      "sha256": "e16ff79cff29c8cbcd7d4077d56a62a95152640cc8298cfd7c7be15dec542c5b"
+    },
+    {
+      "assetPath": "assets/effects/Ring01.png",
+      "bytes": 1232,
+      "sha256": "12a4eec44d30072f333d1d6e18a43d0f7d6da6ee46e0e313cf3b35cee456ff83"
+    },
+    {
+      "assetPath": "assets/effects/SliceDiamondCritical.png",
+      "bytes": 2126,
+      "sha256": "98d39beaded2c524e7323598af5b9e4d19e033cd68872195c8db49b55305c962"
+    },
+    {
+      "assetPath": "assets/effects/SliceDiamondNeutral.png",
+      "bytes": 1750,
+      "sha256": "e5e6c61dafe7e8b28fab1fca8321213f1c1ce5fa9b1ada13e97e0616664069cd"
+    },
+    {
+      "assetPath": "assets/font/gangofchinese.ttf",
+      "bytes": 4952688,
+      "sha256": "14e4841571c6306f27b73a4a553af4c552279f2f29a333747a23989d00fc48cc"
+    },
+    {
+      "assetPath": "assets/fruits/AppleGreen.FBX",
+      "bytes": 148608,
+      "sha256": "ae0dcbcb4aa43ca40835a518040ffc7a08df3815c973115d60f0133e5b4ccd1b"
+    },
+    {
+      "assetPath": "assets/fruits/Banana.FBX",
+      "bytes": 102288,
+      "sha256": "9b6ed106fe3dcbeec75a40980ccc8ba45b78d4413885086bbfe09195ffabe8e3"
+    },
+    {
+      "assetPath": "assets/fruits/Bomb.fbx",
+      "bytes": 54240,
+      "sha256": "03ba2efc110298ef952c975dd5976580b88143d7c6b0b822d51cb6e5b6d6b719"
+    },
+    {
+      "assetPath": "assets/fruits/Coconut.FBX",
+      "bytes": 110144,
+      "sha256": "43ddb76ef0ab54a2e33f48a3ecd338825019bb51b0743d0d09d2085a35c6e77b"
+    },
+    {
+      "assetPath": "assets/fruits/Kiwifruit.FBX",
+      "bytes": 118768,
+      "sha256": "c829dd11b3b60fa17dc11df9c6a60221ae5398248af67bbe669d4d7dd82300bc"
+    },
+    {
+      "assetPath": "assets/fruits/Lemon.FBX",
+      "bytes": 125056,
+      "sha256": "9b161552db7c6c66149ba677335811a44b2fe5e2ccfbe3d2832c21914bfc8abf"
+    },
+    {
+      "assetPath": "assets/fruits/Mango.FBX",
+      "bytes": 123248,
+      "sha256": "70b704f49a6fee7d32f4be2020eebb70798c0d20d26825ab4cf5b87ae6e9e677"
+    },
+    {
+      "assetPath": "assets/fruits/Orange.FBX",
+      "bytes": 94048,
+      "sha256": "2e7d2ee57c1009c2510e7ae51f52775144bae1b9c05ee53cb1e5b5d6b3b22d83"
+    },
+    {
+      "assetPath": "assets/fruits/Peach.FBX",
+      "bytes": 180224,
+      "sha256": "087c17cc728f52bb4aaa7712343e54905e32cc526dc5db4be545f9cca78c7869"
+    },
+    {
+      "assetPath": "assets/fruits/Pineapple.FBX",
+      "bytes": 249952,
+      "sha256": "c76838af23c1314674f151d5d304f1eed0438ab7e3c7085b5ec8c3dc6a398a93"
+    },
+    {
+      "assetPath": "assets/fruits/Watermelon.FBX",
+      "bytes": 177328,
+      "sha256": "79ad132d585e484cddd8786909a081f8d6b0e63a12c02c12b959b2e59e9a33be"
+    },
+    {
+      "assetPath": "assets/sound/AmbArenaClassicLP.mp3",
+      "bytes": 679413,
+      "sha256": "0b913d7c5c42d5408759c56fe9b9e6ce0e775930bce4c39484915f9f5cf7082a"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe01.mp3",
+      "bytes": 2290,
+      "sha256": "19700a0569ef8448df4da7401f4c28bafc1ae5bb03de9c0fd64dc005c8c73e3a"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe02.mp3",
+      "bytes": 1848,
+      "sha256": "8d40208840960dfc501c4486953f91e43bed45334e7b6c5abddb28e867671940"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe03.mp3",
+      "bytes": 1978,
+      "sha256": "a1d44faa0035a1fd4ff8c3f371cf80f06c73ade90461ca9d7545bd9c7085a70a"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe04.mp3",
+      "bytes": 1640,
+      "sha256": "812fd67ca6ba119d1740d12ba516d0d00f56fb2e109622312eb0d58765fd8aa9"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe05.mp3",
+      "bytes": 1796,
+      "sha256": "671b99605411e6a6263d2f1e386887e6bbf0c3eaeda9a0127012befc7891a813"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe06.mp3",
+      "bytes": 1848,
+      "sha256": "fb3cddcc8187f20baa4598f759571209430231d0ae385b279f69bd0e55fdb475"
+    },
+    {
+      "assetPath": "assets/sound/BladeRegularSwipe07.mp3",
+      "bytes": 1796,
+      "sha256": "3ea141c77e0e42d22b72f873faba60f2783cbc4b454099e4bbf610683f1efa05"
+    },
+    {
+      "assetPath": "assets/sound/BombExplodeGameOver.mp3",
+      "bytes": 26245,
+      "sha256": "fd776cda06bf5b435abd107fcfb5e2a9e5f14efca1ec17b7b0ca6abf514265fe"
+    },
+    {
+      "assetPath": "assets/sound/BombFuseLP.mp3",
+      "bytes": 37909,
+      "sha256": "933b1ed0e9b91086d322cfe9a2d602da58e74605ad876f65830be343d798f80d"
+    },
+    {
+      "assetPath": "assets/sound/BombLaunch.mp3",
+      "bytes": 4506,
+      "sha256": "cafb610801e53002fec0c846cad9ffdf39e3daf5c199af336bfa0699f8a32dbb"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactApple.mp3",
+      "bytes": 3069,
+      "sha256": "94c7812f04c3e074389101670337fa9adb989a44b2cd9df10f24081e6247b578"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactBigHollow.mp3",
+      "bytes": 4421,
+      "sha256": "47de1ee55ddbc393c8d87522eccfdd4fe0f325a204d73162efbef77476ffbb99"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactBigWet01.mp3",
+      "bytes": 3460,
+      "sha256": "d8c27248d8c804170967aa3fc74dc720ef9035468dff48751cd61f42e5355ce8"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactBigWet02.mp3",
+      "bytes": 3667,
+      "sha256": "a39950efb0263ee9ee78c693d8501aac0b16a083f56f8a163a7c8d9705b7ad26"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactBigWet03.mp3",
+      "bytes": 5517,
+      "sha256": "e211ae522057db68096be73ad52bf989845a3ad52137d3c3bdae2576e8fc1141"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactMediumDry.mp3",
+      "bytes": 1691,
+      "sha256": "de382a64d20f1a33a6193b0e6c691fc59d62250c00a775a7939c67576e49de65"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactMediumWet01.mp3",
+      "bytes": 3694,
+      "sha256": "81fae38602272f0fb888e2b8237b2681b0af482ec6c6e847ec64c25fa519f8a0"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactMediumWet02.mp3",
+      "bytes": 2890,
+      "sha256": "b9cbfd3c9bbb2a336fb18d9ef3d6945d34275e82805804bb76c649114626506a"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactMediumWet03.mp3",
+      "bytes": 3642,
+      "sha256": "2601ecfa18c858b15fa57bc1b8008831c94cc2cda42ac95127e77aca1c1599e1"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactSmallWet01.mp3",
+      "bytes": 2577,
+      "sha256": "aa17b0ae4d950ecdc1ab5659efc979ecb81cd4c009b269619fc3c7a383df1c72"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactSmallWet02.mp3",
+      "bytes": 2004,
+      "sha256": "1f1a6a2b6daff3401528dac146a8e4497451dc7a8d7cfc5192b5ba7297bab8f4"
+    },
+    {
+      "assetPath": "assets/sound/FruitImpactSmallWet03.mp3",
+      "bytes": 2602,
+      "sha256": "56c83a502d96e0c78ee59c6907444f972a7df0206e77f6cb03de8cfe457d3ec8"
+    },
+    {
+      "assetPath": "assets/sound/FruitLaunch.mp3",
+      "bytes": 4266,
+      "sha256": "f8467067a525768ad7fecfe3de40c4db519a54671b28eeada0b8895c7aff71f8"
+    },
+    {
+      "assetPath": "assets/sound/MusicMenu.mp3",
+      "bytes": 951700,
+      "sha256": "1df2b0b2be632c8e9903b2c5b69fcd30f50f78c68cca5187c7b57ab04a143bf5"
+    },
+    {
+      "assetPath": "assets/sound/UICombo10FruitPlus.mp3",
+      "bytes": 7152,
+      "sha256": "ff7140af78d092c6a2d509866ee8c6ac19d7cf887b08b9e115b9abde290db3c3"
+    },
+    {
+      "assetPath": "assets/sound/UICombo3Fruit.mp3",
+      "bytes": 6112,
+      "sha256": "06f1ca202cdca175f91f833cf9cbef17fd9605b8109647412fc0fcab63844a96"
+    },
+    {
+      "assetPath": "assets/sound/UICombo4Fruit.mp3",
+      "bytes": 7594,
+      "sha256": "c9093957f98b76eb13e7c5082854a18897535e5c1b99806d530fd47f8945ac8c"
+    },
+    {
+      "assetPath": "assets/sound/UICombo5Fruit.mp3",
+      "bytes": 6892,
+      "sha256": "f67cfb0b5fc97a69eb30967b1b5a23e8473fb7c9eaacf3332c855a783c2dd9ee"
+    },
+    {
+      "assetPath": "assets/sound/UICombo6Fruit.mp3",
+      "bytes": 6788,
+      "sha256": "14d3d82dd067204cc4b3e695f2b90e854234f1134340bb8ccf14e2aaa0ac6f9e"
+    },
+    {
+      "assetPath": "assets/sound/UICombo7Fruit.mp3",
+      "bytes": 7516,
+      "sha256": "2072dc78f2b203017bd23591eec729bb57b8360ea806325d5e59be05d9917537"
+    },
+    {
+      "assetPath": "assets/sound/UICombo8Fruit.mp3",
+      "bytes": 7437,
+      "sha256": "70cdec16b6972a5c74f1d2f1e37bc129cf21b8b0152e543fe5b15f6f941b0642"
+    },
+    {
+      "assetPath": "assets/sound/UICombo9Fruit.mp3",
+      "bytes": 7698,
+      "sha256": "66e6291c1af0c8616cf1d36255a924d2094837b4595528a4252ebc91349d775f"
+    },
+    {
+      "assetPath": "assets/sound/UICritical.mp3",
+      "bytes": 5202,
+      "sha256": "976133398a7688b102fd816b97cb24066c18ed272548ef735b17f2c61f035e09"
+    },
+    {
+      "assetPath": "assets/sound/UIExtraLife.mp3",
+      "bytes": 24717,
+      "sha256": "59666e911fb7a9b293a36aadf6a71484370b54c9b85ad2a4ab196bcfc0dbd6e8"
+    },
+    {
+      "assetPath": "assets/sound/UIGameOver.mp3",
+      "bytes": 49417,
+      "sha256": "f40b4f85e65208d3ac75e643bdead3f5438ff9f6635e08dc2d8221d03cf145c6"
+    },
+    {
+      "assetPath": "assets/sound/UIGameStart.mp3",
+      "bytes": 29178,
+      "sha256": "f7455440e822543d638a7d93ca335aa5a71db4df3de784dd87b2d640c372c8e9"
+    },
+    {
+      "assetPath": "assets/sound/UIGank.mp3",
+      "bytes": 2783,
+      "sha256": "ec8843e5226ea23a6c0f9862c0664a2d1e60f5b356132f5d15e68502d872e5cb"
+    },
+    {
+      "assetPath": "assets/splash/loading text.png",
+      "bytes": 2066,
+      "sha256": "2d7f6cb80055e494b9732d26949e79379b4c40a7eed93739638ef4d2efe545e0"
+    },
+    {
+      "assetPath": "assets/splash/LoadingBar.png",
+      "bytes": 217,
+      "sha256": "d663d59e8f8796b93ce8bd51163964d3945657f0b8da21f20e2a124062598a96"
+    },
+    {
+      "assetPath": "assets/splash/splash screen.png",
+      "bytes": 302211,
+      "sha256": "f3f93eddb923bcb56766b5aa72d08e0c8b86cf42e0c738918cc73e11a1ea1533"
+    },
+    {
+      "assetPath": "assets/textures/BombRedCross.png",
+      "bytes": 16866,
+      "sha256": "157df47a6a5361662e5a212448290e2a19f1674397fae8aabef113329623386f"
+    },
+    {
+      "assetPath": "assets/textures/Dojo_Basic.png",
+      "bytes": 319610,
+      "sha256": "3bd38defce59af6b3870be3e503146c07fabde2ca6a9eef35f6e3bc4051a7f7b"
+    },
+    {
+      "assetPath": "assets/textures/Fruit_shadow.png",
+      "bytes": 1859,
+      "sha256": "121daeafd06b5c23fd181d4f78438ec2ca6705640cd65eb4e1f6c84fcd8cfaec"
+    },
+    {
+      "assetPath": "assets/textures/FruitAtlas.png",
+      "bytes": 365402,
+      "sha256": "62467b3b1f64a25fe4df4e95c7cabcfda17f091057f8f63f637059ad98188eaf"
+    },
+    {
+      "assetPath": "assets/textures/FruitRingBack.png",
+      "bytes": 33125,
+      "sha256": "08ecf987e7202ae60f2fa6518293866dbdd1ffc5bef22b57ec1d2af7ecb31925"
+    },
+    {
+      "assetPath": "assets/textures/FruitRingClassic.png",
+      "bytes": 75347,
+      "sha256": "802a5622ed21ee4807f39ee793d5c3feae839903ba681b1a202f0b0cced347e5"
+    },
+    {
+      "assetPath": "assets/textures/FruitRingPurple.png",
+      "bytes": 42213,
+      "sha256": "ec29e5f38ab60cc2426545cb3a2b65e64f84f3898128d71ec391ace40926b372"
+    },
+    {
+      "assetPath": "assets/textures/FruitRingQuit.png",
+      "bytes": 31183,
+      "sha256": "757f68188a997d56c0ffa544aa2ea7587eecb612fb33b2cbb249632b526af8a3"
+    },
+    {
+      "assetPath": "assets/textures/FruitRingRetry.png",
+      "bytes": 36002,
+      "sha256": "126d3a71536c63bbacefb31cc103c050b9807f9412319e7d5ed11e4d42250e94"
+    },
+    {
+      "assetPath": "assets/textures/FruitRingShadow.png",
+      "bytes": 3478,
+      "sha256": "0b85714e860738c2ac2183d07076a7972ed6aee312857236cef78f9aef95ece8"
+    },
+    {
+      "assetPath": "assets/textures/particles/FruitTrail.png",
+      "bytes": 855,
+      "sha256": "49c5b36ebaf1245f48ea158fe0d350b173e160df17f17036ff321a0182864440"
+    },
+    {
+      "assetPath": "assets/textures/particles/JuiceDragonfruit.png",
+      "bytes": 1565,
+      "sha256": "142ecaca20fffb991d70c22add2e922817525039d626d04009be9c48336217f7"
+    },
+    {
+      "assetPath": "assets/textures/particles/JuiceGreen.png",
+      "bytes": 1846,
+      "sha256": "7ade9bdf520c3c1e5f4b86193df5aca78a1899521653ee39b300d0440e66c132"
+    },
+    {
+      "assetPath": "assets/textures/particles/JuiceMango.png",
+      "bytes": 1836,
+      "sha256": "2362ea01b304fedfd5db4a03ce7646fb5df86608a34125ccbdc631c1ce9edffd"
+    },
+    {
+      "assetPath": "assets/textures/particles/JuiceOrange.png",
+      "bytes": 1815,
+      "sha256": "9c0c69feaa3d115df76b3b9f4f176b6671228f2e2e5423ed10db0c5828362ce2"
+    },
+    {
+      "assetPath": "assets/textures/particles/JuicePineapple.png",
+      "bytes": 1842,
+      "sha256": "062f18212ae2c08ac74717d43c4870df5e15b7fafecc70da787eeb2678b43933"
+    },
+    {
+      "assetPath": "assets/textures/particles/JuiceRed.png",
+      "bytes": 1683,
+      "sha256": "8983a2dae57fe4d512be95a87aa25ed5700bfdc3fd1f59b674279da9ddbf085b"
+    },
+    {
+      "assetPath": "assets/textures/particles/SmokeYellow.png",
+      "bytes": 1932,
+      "sha256": "80f694b9bc8440df3fac781153f24354b03091c0f7268d8c679bdb99772573fd"
+    },
+    {
+      "assetPath": "assets/textures/particles/Spark01.png",
+      "bytes": 2390,
+      "sha256": "79be8370674c1e2f3e9dcb1645662c50e475726544bb0dab3dab7b2e98a7e998"
+    },
+    {
+      "assetPath": "assets/textures/particles/Star.png",
+      "bytes": 1357,
+      "sha256": "37ac42708bd6f7d3ab6c7acac2067e1c181caae3e19f9812c4a31e8af6dd0e1d"
+    },
+    {
+      "assetPath": "assets/textures/particles/StarCritical.png",
+      "bytes": 1357,
+      "sha256": "37ac42708bd6f7d3ab6c7acac2067e1c181caae3e19f9812c4a31e8af6dd0e1d"
+    },
+    {
+      "assetPath": "assets/textures/SplashSlice.png",
+      "bytes": 18012,
+      "sha256": "00e82c5fd9052edd3334732322b34b8d970ddf09c0a49d94ca58577f79627d2a"
+    },
+    {
+      "assetPath": "assets/textures/SplashSlice2.png",
+      "bytes": 12319,
+      "sha256": "349d8c841adfa035771a4b68f4e3861ff2bb74d55d9c5f62382c38829e5cc4d8"
+    },
+    {
+      "assetPath": "assets/textures/splat11.png",
+      "bytes": 5398,
+      "sha256": "c651ecb639540a8f16bf2ded99b09b5d6753d82012a0659e34c3336fb33d97b5"
+    },
+    {
+      "assetPath": "assets/textures/splat12.png",
+      "bytes": 14934,
+      "sha256": "554b113cc55afea1acea85617049250bce7a3ccfe92147fda5d3f57299e52c59"
+    },
+    {
+      "assetPath": "assets/textures/splat13.png",
+      "bytes": 5617,
+      "sha256": "2bba798a2d09b11ff28d94c19ff14c15de9ed13930ecb15c7a8d4be34c211c03"
+    },
+    {
+      "assetPath": "assets/textures/splat14.png",
+      "bytes": 8557,
+      "sha256": "f57a01fd829f95b824152ad991db22f3041841d5ff9d7c4c768aedff37edff04"
+    },
+    {
+      "assetPath": "assets/UI/BackingPaper.png",
+      "bytes": 195391,
+      "sha256": "b8bb7e69383d90191a9110223eb2de47b1ec7ed435e89906435f200f67d561e8"
+    },
+    {
+      "assetPath": "assets/UI/blackAreaforTitle.png",
+      "bytes": 2497,
+      "sha256": "5bd636b1381d76c7f5a0e773b07e11f39ec1de5aa79932e2c8f7e6e4ec6cedff"
+    },
+    {
+      "assetPath": "assets/UI/BorderWood.png",
+      "bytes": 19391,
+      "sha256": "6cbed3b329153310ec224889c22023424385f5a31170439fb6ed3fb5c019f2e3"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodBottom.png",
+      "bytes": 1025,
+      "sha256": "86452c157c1a328dd88fb68694f3dc5c5d05e7859ea7d657daf5dcd0f523a09e"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodBottomLeft.png",
+      "bytes": 2340,
+      "sha256": "6ec3cffbcd13828a42c62cdaa0b342f8db14bbff72349fe70efb9024f6561447"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodBottomRight.png",
+      "bytes": 2360,
+      "sha256": "cec4ee09974300e959649e71bdbedb66899d1f5e88804382791cd56f8dde9654"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodLeft.png",
+      "bytes": 1087,
+      "sha256": "516f4830756065a400d9f2453f6f8aac49ff8f0a3c3a135b185aeb5221930397"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodRight.png",
+      "bytes": 1211,
+      "sha256": "cfcaf83d774c147646bb56a7ba3131782d8427303391931d9dd184c3105d08c3"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodTop.png",
+      "bytes": 927,
+      "sha256": "80d627e5c494ede98930c11c905eb71ad217c3c60e89ca04ac183f675b8d8187"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodTopLeft.png",
+      "bytes": 2225,
+      "sha256": "df1520ac2db3cebc38b8eea8a6e572dce5c8d6c4a34e7cb346c4688a9c52392c"
+    },
+    {
+      "assetPath": "assets/UI/BorderWoodTopRight.png",
+      "bytes": 2184,
+      "sha256": "379b3e262254995a3bde1031c6395342f72dbe12b030461ee3f86410854525f9"
+    },
+    {
+      "assetPath": "assets/UI/ButtonMusic.png",
+      "bytes": 3917,
+      "sha256": "f7d170b3d928aef9526511db82f35197d5d3043fe52ed2d0a531ba3487c76f8a"
+    },
+    {
+      "assetPath": "assets/UI/ButtonMusicMute.png",
+      "bytes": 4211,
+      "sha256": "8012002715b8096ac639c2e2221b586522b1b26d32ce081f35b85d9ce9452d56"
+    },
+    {
+      "assetPath": "assets/UI/ButtonSFX.png",
+      "bytes": 4659,
+      "sha256": "7c4a19738243c4d994562e99ad1bd4596f5835e9899f9352f8a7720cb545c77e"
+    },
+    {
+      "assetPath": "assets/UI/ButtonSFXMute.png",
+      "bytes": 4451,
+      "sha256": "2027f82743db931f9869a02f26a7e008ca1f097afeaee3d23771bda0d7aa90e3"
+    },
+    {
+      "assetPath": "assets/UI/circle2.png",
+      "bytes": 113,
+      "sha256": "d9f58f3f603c2bc2bf813894b8bd93d21a85287bc1e98ef7f23f744eda45ce7b"
+    },
+    {
+      "assetPath": "assets/UI/CrossBlue.png",
+      "bytes": 5987,
+      "sha256": "9377a6e6ea2eeb033a83551a09c2639bbc427f914b9a407be953586cf4ef31b7"
+    },
+    {
+      "assetPath": "assets/UI/CrossRed.png",
+      "bytes": 5444,
+      "sha256": "57b95c5763d36f42fd43f3bea45355841603253cd6fd75efd4af9fb2fcebed80"
+    },
+    {
+      "assetPath": "assets/UI/gameover text.png",
+      "bytes": 21726,
+      "sha256": "72fbadd3141729610b5c3c7a114ffaf4659d5363c1976c0b5b1300c9969499bf"
+    },
+    {
+      "assetPath": "assets/UI/HeaderWood.png",
+      "bytes": 12805,
+      "sha256": "fdbabff4ce0dd55681755a5fe1c0e605fdbb86b52b3e8998d909c8d266b357e3"
+    },
+    {
+      "assetPath": "assets/UI/HUDWatermelon.png",
+      "bytes": 23637,
+      "sha256": "2b05cd06e89f44af201b8e454a5941e6a0d72a540db1cdf1b106eb140b69e35e"
+    },
+    {
+      "assetPath": "assets/UI/LogoFruit.png",
+      "bytes": 27418,
+      "sha256": "83c1334fc0a36dbd4fa43b71224354776c5d88778fe6850d9e55e5a943512bab"
+    },
+    {
+      "assetPath": "assets/UI/LogoNinja.png",
+      "bytes": 27264,
+      "sha256": "4a0269be792b8d466820265189a6a8eca3cccb9b49b4ca3b7f6b43dd136823cb"
+    },
+    {
+      "assetPath": "assets/UI/medium_button.png",
+      "bytes": 110,
+      "sha256": "ad7e59c30c7df6f24418cb6bbe84a7beb658d62f30284c768394d6c77f16a8bd"
+    },
+    {
+      "assetPath": "assets/UI/medium_small_button.png",
+      "bytes": 110,
+      "sha256": "dde9533a8970b4f49dffe762479a8eb67fe062110bc14236c45f5bd44389666f"
+    },
+    {
+      "assetPath": "assets/UI/ParchmentBackingLarge.png",
+      "bytes": 86565,
+      "sha256": "30a38d81bad665ad5c4d4f40ccbc91c3d6eaa4da271d8c05ccba7aec4bf3bdf7"
+    },
+    {
+      "assetPath": "assets/UI/ParchmentBackingSmall.png",
+      "bytes": 22521,
+      "sha256": "1c020c52146f81f5e3fcaef97335e4cf7f8550115a5a31c2d5d990df0dfcd9a7"
+    },
+    {
+      "assetPath": "assets/UI/SenseiHead.png",
+      "bytes": 13499,
+      "sha256": "fa5e215b0e50d6874d3ff4d6a5db9b5347b8ce2316367568e2f508a8fd0b2db5"
+    },
+    {
+      "assetPath": "assets/UI/small_button.png",
+      "bytes": 109,
+      "sha256": "714996e2d7a3e8b57e1e75c3b249cf7214186a1d710b3df8d64fdf141845e948"
+    },
+    {
+      "assetPath": "vendors.bundle.js",
+      "bytes": 22667160,
+      "sha256": "2fb83889f29c3b16bd8df65f897bf4ef99a8eb8e22cdf2b8997106ef360fe90f"
+    }
+  ]
+}

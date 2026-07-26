@@ -1,0 +1,421 @@
+.ctl-multiplayer-icons-attention-alt{
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+.ctl-multiplayer-spinner-container{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctl-multiplayer-dlg-header h1{
+  font-size: 26px;
+}
+
+.ctl-multiplayer-dlg-content *{
+    font-family: 'RoundedMplus1c';
+}
+
+.tippy-content {
+    font-family: 'RoundedMplus1c';
+}
+
+.ctl-multiplayer-form-group{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ctl-multiplayer-form-group p{
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.ctl-multiplayer-inline-list li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.ctl-multiplayer-display-none{
+    display: none !important;
+}
+
+.ctl-multiplayer-inline-list input[type=radio]{
+    margin: 0px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.ctl-multiplayer-inline-list li span{
+    font-size: 14px;
+}
+
+.ctl-multiplayer-dlg-content label,
+.ctl-multiplayer-dlg-content p,
+.ctl-multiplayer-dlg-content a,
+.ctl-multiplayer-dlg-content h1{    
+    color: #fff;
+}
+
+.ctl-multiplayer-dlg-content input[type=number],
+.ctl-multiplayer-dlg-content input[type=text],
+.ctl-multiplayer-dlg-content input[type=password]{
+    color: #3b97c2;
+}
+
+.ctl-multiplayer-dlg-content input[type=number],
+.ctl-multiplayer-dlg-content input[type=text],
+.ctl-multiplayer-dlg-content input[type=password],
+.ctl-multiplayer-dlg-content button{
+    outline: 0;    
+    box-sizing: border-box; 
+    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;     
+}
+
+.ctl-multiplayer-dlg-content label{
+    font-size: 14px;  
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.ctl-multiplayer-dlg-content input[type=number],
+.ctl-multiplayer-dlg-content input[type=text],
+.ctl-multiplayer-dlg-content input[type=password]{
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+}
+
+.ctl-multiplayer-dlg-content button{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border: solid 1px #77797d;
+    background-color: #000;
+    box-shadow: 0px -5px 15px #1f5168 inset;
+}
+
+.ctl-multiplayer-dlg-content button:hover,
+.ctl-multiplayer-dlg-content button:active{
+    background-color: #3b97c2;
+    box-shadow: none;
+}
+
+.ctl-multiplayer-dlg-content button:active{
+    top: 1px;
+}
+
+.ctl-multiplayer-dlg-content label,
+.ctl-multiplayer-dlg-content input[type=number],
+.ctl-multiplayer-dlg-content input[type=text],
+.ctl-multiplayer-dlg-content input[type=password]{
+    width: 100%;
+    display: block;
+}
+
+.ctl-multiplayer-dlg-content button:focus{
+    outline:0;
+}
+
+.ctl-multiplayer-current-users{
+    position: absolute;
+    right: 25px;
+    top: 6px;
+    font-size: 10px;
+}
+
+
+button.ctl-multiplayer-mini{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.ctl-multiplayer-dlg-wrapper,
+.ctl-multiplayer-dlg-block{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px; 
+}
+
+.ctl-multiplayer-dlg-wrapper{
+    overflow: hidden;
+    position: fixed;    
+}
+
+.ctl-multiplayer-dlg-scroll{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.ctl-multiplayer-dlg-block{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;    
+}
+
+.ctl-multiplayer-dlg-content{
+    color: #FFF;
+    box-shadow: 0px 0px 25px #6d6d6d inset;
+    background-color: #000;
+    background-clip: padding-box;
+    border: solid 1px #FFF;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    margin: auto;
+}
+
+.ctl-multiplayer-list li i.ctl-multiplayer-icons-skin{
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    position:absolute;
+    left:0%;
+    top:12%;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.ctl-multiplayer-dlg-content-body{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: calc(100% - 180px);
+    overflow-y: auto;
+    min-height: 50px;
+}
+
+.ctl-multiplayer-room-list{
+    margin-top: 15px;
+}
+
+
+.ctl-multiplayer-dlg-footer{
+    text-align: center;
+}
+
+.ctl-multiplayer-dlg-footer{
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+.ctl-multiplayer-dlg-footer button{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+    position: relative;
+    z-index: 1;   
+}
+
+.ctl-multiplayer-list{
+    border: 1px solid #aaa;
+    max-height: 300px;
+    min-height: 50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.ctl-multiplayer-list li{
+    padding: 5px;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;   
+    padding-right: 20px;
+}
+
+.ctl-multiplayer-list li i{
+    position: absolute;
+    right: 5px;
+    font-size: 12px;
+    color: #d10101;  
+}
+
+.ctl-multiplayer-list li i.ctl-multiplayer-icons-login{
+    color: #3ebe09;   
+}
+
+.ctl-multiplayer-list li i.ctl-multiplayer-icons-lock{
+    color: #ffcc00;    
+}
+
+.ctl-multiplayer-list li:nth-child(odd) {
+    background-color: #1f5168;
+}
+
+.ctl-multiplayer-list li:hover{
+    color: #fff;
+    background-color: #3b97c2;    
+}
+
+.ctl-multiplayer-list li:hover > i{
+    color: #fff;
+}
+
+.ctl-multiplayer-user-list{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.ctl-multiplayer-room-info{
+    font-size: 11px;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.ctl-multiplayer-align-center{
+    text-align: center;
+}
+
+.ctl-multiplayer-align-v-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctl-multiplayer-update{
+    width: 100%;
+    font-size: 14px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+.ctl-multiplayer-center{
+    text-align: center;
+}
+
+.ctl-multiplayer-copyright{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ctl-multiplayer-copyright a{
+    font-size: 11px;
+    line-height: 11px;
+    text-decoration: none;
+    display: block;    
+}
+
+.ctl-multiplayer-copyright a:hover,
+.ctl-multiplayer-copyright a:active{
+    color: #ffcc00;
+}
+
+.ctl-multiplayer-room-link{
+    margin-top: 15px;
+    font-size: 12px !important;
+}
+
+.ctl-multiplayer-room-name{
+    margin-left: 30px;
+}
+
+.ctl-multiplayer-icons-spin5{
+    margin-top: 15px;
+}
+
+.ctl-multiplayer-input-v-list input{
+    margin-bottom: 5px;
+}
+
+.ctl-multiplayer-input-v-list input:last-child{
+    margin-bottom: 0px;
+}
+
+.ctl-multiplayer-alert-text{
+    font-size: 12px;
+    color: #3b97c2 !important;
+    text-align: center;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .ctl-multiplayer-dlg-content {
+    width: 70%;
+  }
+  button.ctl-multiplayer-mini{
+    padding: 7px 10px;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .ctl-multiplayer-dlg-content {
+    width: calc(100% - 30px);
+    padding: 15px 15px;
+  }
+  
+  button.ctl-multiplayer-mini{
+    padding: 5px 7px;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }  
+  
+  .ctl-multiplayer-dlg-header h1{
+    font-size: 20px;
+  }  
+}
+
+
+@media screen and (max-height: 500px) {
+  .ctl-multiplayer-dlg-header h1{
+    font-size: 20px;
+  }
+  
+  .ctl-multiplayer-dlg-content{
+     padding: 10px 30px; 
+  }
+  
+  .ctl-multiplayer-dlg-content-body{
+      max-height: calc(100% - 160px);
+  }
+  
+  .ctl-multiplayer-form-group label{
+      width: 30%;
+      display: inline-block;
+  }
+  
+  .ctl-multiplayer-form-content{
+      width: 70%;
+      display: inline-block;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .ctl-multiplayer-dlg-content {
+    padding: 15px 15px;
+  }
+  
+  button.ctl-multiplayer-mini{
+    padding: 5px 7px;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }  
+  
+  .ctl-multiplayer-dlg-header h1{
+    font-size: 20px;
+  }  
+}
+
+

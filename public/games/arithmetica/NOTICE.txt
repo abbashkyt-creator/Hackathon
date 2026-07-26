@@ -14,6 +14,12 @@ This build was captured from Poki's hosted version. Poki's page shell,
 advertising stack, analytics, authentication, and remote SDK were not
 copied. Tip Tap supplies a local compatibility bridge.
 
+The full source-owned asset bundle (launcher, Phaser runtime, font, images,
+and audio) is self-hosted in this folder. The copied source's own automatic
+start configuration is enabled for Tip Tap's swipe-to-play feed; questions,
+timing, and game-over score logic are otherwise untouched. This source does
+not expose a verified parent score callback, so Tip Tap does not invent one.
+
 The game engine (Phaser.js) is included as-is from the original build.
 The original creator identity is preserved. Tip Tap does not present
 this copied work as its own creation.

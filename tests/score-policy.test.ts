@@ -1,7 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { validateScore } from "../server/score-policy";
+import { isRankedGame, validateScore } from "../server/score-policy";
 
 describe("score validation", () => {
+  it("only advertises leaderboards for games with a server score policy", () => {
+    expect(isRankedGame("pulse-lock")).toBe(true);
+    expect(isRankedGame("johnny-trigger-sniper")).toBe(false);
+  });
+
   it("accepts a plausible integer score", () => {
     expect(validateScore("pulse-lock", 2_500, 1_000)).toEqual({ ok: true });
   });

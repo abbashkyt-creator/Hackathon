@@ -1,0 +1,23 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/plonky/index.html",
+    "/games/plonky/tiptap-runtime-bridge.js",
+    "/games/plonky/style.css",
+    "/games/plonky/file.css",
+    "/games/plonky/scripts/modernjscheck.js",
+    "/games/plonky/scripts/supportcheck.js",
+    "/games/plonky/scripts/tiptap-poki-sdk.js",
+    "/games/plonky/scripts/main.js",
+    "/games/plonky/scripts/c3main.js",
+    "/games/plonky/scripts/jobworker.js",
+    "/games/plonky/data.json",
+    "/games/plonky/box2d.wasm.js",
+    "/games/plonky/box2d.wasm",
+    "/games/plonky/panko1.scon",
+    "/games/plonky/images/shared-0-sheet0.webp",
+    "/games/plonky/images/shared-0-sheet1.webp",
+    "/games/plonky/images/shared-0-sheet2.webp",
+    "/games/plonky/images/shared-0-lsheet3.webp"
+  ]
+}

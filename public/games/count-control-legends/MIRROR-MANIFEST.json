@@ -1,0 +1,99 @@
+{
+  "source": {
+    "title": "Count Control Legends",
+    "developer": "Jungle Tavern",
+    "sourceGameId": "b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c",
+    "sourceVersionId": "8ddc40b5-de13-4132-9c3b-976cde6a4b9e"
+  },
+  "files": [
+    {
+      "assetPath": "Build/180b03074745078a7fe292b2c22f6060.data.unityweb",
+      "bytes": 10402814
+    },
+    {
+      "assetPath": "Build/2320a17ab13f3e61f4a62a2cc0382528.framework.js.unityweb",
+      "bytes": 391672
+    },
+    {
+      "assetPath": "Build/c7cea366ea8eaab59722a8d24073643f.loader.js",
+      "bytes": 112735
+    },
+    {
+      "assetPath": "Build/f1c87ec2ef0c4ed9b3c34bb439b0c5de.wasm.unityweb",
+      "bytes": 17211796
+    },
+    {
+      "assetPath": "fonts/torus-bold-webfont.woff2",
+      "bytes": 23064
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 507
+    },
+    {
+      "assetPath": "MIRROR-MANIFEST.json",
+      "bytes": 2036
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 430
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 640
+    },
+    {
+      "assetPath": "screenshots/1.jpg",
+      "bytes": 29342
+    },
+    {
+      "assetPath": "screenshots/2.jpg",
+      "bytes": 24238
+    },
+    {
+      "assetPath": "screenshots/3.jpg",
+      "bytes": 20842
+    },
+    {
+      "assetPath": "screenshots/4.jpg",
+      "bytes": 33356
+    },
+    {
+      "assetPath": "StreamingAssets/aa/catalog.json",
+      "bytes": 19311
+    },
+    {
+      "assetPath": "StreamingAssets/aa/settings.json",
+      "bytes": 845
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/b7dd0afc6c7865c5a7740f870727888c_unitybuiltinshaders_5995e5c22425cbcdacd5f986ea5949ac.bundle",
+      "bytes": 48795
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_b7be949d0a931d33aab1f8aa3d2e1424.bundle",
+      "bytes": 783255
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "bytes": 1561
+    },
+    {
+      "assetPath": "tiptap-config.js",
+      "bytes": 752
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "bytes": 2118
+    },
+    {
+      "assetPath": "tiptap-shell.css",
+      "bytes": 821
+    },
+    {
+      "assetPath": "tiptap-unity-2020.js",
+      "bytes": 28645
+    }
+  ],
+  "integrationFiles": []
+}

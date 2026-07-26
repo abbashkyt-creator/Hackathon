@@ -1,0 +1,8 @@
+Count Control Legends local source mirror
+=========================================
+
+Source game: Count Control Legends by Jungle Tavern, supplied from Poki for
+this authorized hackathon integration. The local package preserves the Unity
+WebGL game source and removes the Poki page shell, advertising, analytics,
+authentication, tracking, and all remote runtime dependencies. Tip Tap does
+not claim authorship of the source game.

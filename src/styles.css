@@ -294,8 +294,28 @@ a:focus-visible {
   --accent: #f59e0b;
 }
 
+.theme-archery-king {
+  --accent: #ef4444;
+}
+
+.theme-smash-room {
+  --accent: #fb923c;
+}
+
+.theme-stickman-fury {
+  --accent: #ef4444;
+}
+
+.theme-fruit-ninja {
+  --accent: #84cc16;
+}
+
 .theme-ping-pong-go {
   --accent: #06b6d4;
+}
+
+.theme-ping-pong-bugs {
+  --accent: #d946ef;
 }
 
 .theme-67-game {
@@ -389,6 +409,49 @@ a:focus-visible {
   background: #0b316b;
   cursor: default;
   touch-action: none;
+}
+
+/* Smash Room uses press-and-hold / drag input.  It must receive the complete
+   gesture instead of the feed interpreting the first movement as a swipe. */
+.smash-room-game {
+  display: block;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+/* Temple Run's original controls are full-surface swipes. */
+.temple-run-2-frozen-shadows-game {
+  display: block;
+  background: #a8dff3;
+  cursor: default;
+  touch-action: none;
+}
+
+.temple-run-2-frozen-shadows-placeholder {
+  background: linear-gradient(160deg, #dff9ff 0%, #7fc6e5 54%, #263754 100%);
+}
+
+/* Plonky receives tap/drag gestures directly in its Construct canvas. Do not
+   let the TikTok-style feed convert a jump attempt into a vertical scroll. */
+.plonky-game {
+  display: block;
+  cursor: default;
+  touch-action: none;
+}
+
+/* City Cab Rush uses full-screen Unity touch controls. Give the active frame
+   the gesture instead of letting the feed treat steering as a vertical swipe. */
+.city-cab-rush-game {
+  display: block;
+  background: #05070c;
+  cursor: default;
+  touch-action: none;
+}
+
+.city-cab-rush-placeholder {
+  background:
+    radial-gradient(circle at 50% 32%, rgba(251, 191, 36, 0.24), transparent 38%),
+    #05070c;
 }
 
 .subway-surfers-placeholder {
@@ -1054,6 +1117,145 @@ a:focus-visible {
     #0a0a0a;
 }
 
+/* Archery King */
+.archery-king-game {
+  display: block;
+  background: #111;
+  cursor: default;
+  touch-action: none;
+}
+
+.archery-king-placeholder {
+  background:
+    radial-gradient(circle at 50% 70%, rgba(239, 68, 68, 0.15), transparent 40%),
+    linear-gradient(180deg, #12384d, #191411);
+}
+
+/* Smash Room */
+.smash-room-game {
+  display: block;
+  background: #10151c;
+  cursor: default;
+  touch-action: none;
+}
+
+.smash-room-placeholder {
+  background:
+    radial-gradient(circle at 50% 72%, rgba(251, 146, 60, 0.16), transparent 42%),
+    linear-gradient(180deg, #23414a, #10151c);
+}
+
+/* Stickman Fury */
+.stickman-fury-game {
+  display: block;
+  border: 0;
+  background: #101317;
+  cursor: default;
+  touch-action: none;
+  overscroll-behavior: contain;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease-out;
+}
+
+.stickman-fury-game.is-ready {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.stickman-fury-placeholder {
+  background:
+    radial-gradient(circle at 50% 65%, rgba(239, 68, 68, 0.2), transparent 42%),
+    linear-gradient(180deg, #30343b, #101317);
+}
+
+.stickman-fury-loading {
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(239, 68, 68, 0.3), transparent 34%),
+    linear-gradient(160deg, #31363f, #101317 68%);
+  color: #fff;
+  text-align: center;
+}
+
+.stickman-fury-loading strong {
+  font-family: Impact, "Arial Black", sans-serif;
+  font-size: clamp(32px, 10vw, 58px);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.stickman-fury-loading span {
+  color: #fca5a5;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* Fruit Ninja */
+.fruit-ninja-game {
+  display: block;
+  background: #000;
+  border: 0;
+  cursor: crosshair;
+  touch-action: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.fruit-ninja-game.is-ready {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fruit-ninja-placeholder {
+  background:
+    radial-gradient(circle at 50% 68%, rgba(132, 204, 22, 0.18), transparent 42%),
+    linear-gradient(180deg, #28170b, #080604);
+}
+
+.fruit-ninja-original-cover {
+  z-index: 1;
+  overflow: hidden;
+  background: #21150c;
+}
+
+.fruit-ninja-original-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fruit-ninja-starting {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(20, 10, 4, 0.78);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0.14em;
+  backdrop-filter: blur(8px);
+}
+
+.fruit-ninja-starting i {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #9bd318;
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+
 .ping-pong-go-game {
   display: block;
   background: #1a1a2e;
@@ -1064,6 +1266,19 @@ a:focus-visible {
 .ping-pong-go-placeholder {
   background:
     radial-gradient(circle at 50% 100%, rgba(6, 182, 212, 0.1), transparent 36%),
+    #0a1628;
+}
+
+.ping-pong-bugs-game {
+  display: block;
+  background: #1a1a2e;
+  cursor: default;
+  touch-action: none;
+}
+
+.ping-pong-bugs-placeholder {
+  background:
+    radial-gradient(circle at 50% 100%, rgba(217, 70, 239, 0.1), transparent 36%),
     #0a1628;
 }
 
@@ -1909,4 +2124,39 @@ a:focus-visible {
 
 .feed-card[data-active="false"] .game-arena iframe {
   display: none;
+}
+
+/* Count Control is a larger Unity WebGL build. Keep a prepared upcoming
+   instance laid out (but invisible) so Unity can finish booting before the
+   user scrolls onto the card. The generic inactive rule above would give it
+   a zero-size display:none layout and defer that work until it becomes live. */
+.feed-card[data-active="false"] .game-arena.count-control-legends-game {
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Unity is the expensive part; warm exactly one upcoming City Cab Rush card
+   off-screen so it appears ready when the player swipes to it. */
+.feed-card[data-active="false"] .game-arena.city-cab-rush-game {
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.johnny-trigger-sniper-game {
+  display: block;
+  background: #00c565;
+  touch-action: none;
+}
+
+.johnny-trigger-sniper-placeholder {
+  background: radial-gradient(circle at 50% 72%, rgba(0, 197, 101, 0.25), transparent 42%), #101a17;
+}
+
+/* Same ahead-of-swipe Unity warm-up policy as Count Control. */
+.feed-card[data-active="false"] .game-arena.johnny-trigger-sniper-game {
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
 }

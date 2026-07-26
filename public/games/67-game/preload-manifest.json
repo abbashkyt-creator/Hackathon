@@ -1,11 +1,12 @@
 {
   "critical": [
     "/games/67-game/index.html",
-    "/games/67-game/js/ruffle-config.js",
     "/games/67-game/js/tiptap-platform-bridge.js",
-    "/games/67-game/ruffle/ruffle.js",
-    "/games/67-game/ruffle/core.ruffle.0875e44536e955474b0c.js",
-    "/games/67-game/ruffle/63468f5322aed2e768a8.wasm",
+    "/games/67-game/preloader_67_hor.jpg",
+    "/games/67-game/preloader_67_ver.jpg",
+    "/games/67-game/ruffle-poki-2023-12-16/ruffle.js",
+    "/games/67-game/ruffle-poki-2023-12-16/core.ruffle.a3b58c9561ea1b1ac807.js",
+    "/games/67-game/ruffle-poki-2023-12-16/7d8ce55eac07b090e911.wasm",
     "/games/67-game/67.swf"
   ]
 }

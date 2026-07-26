@@ -1,0 +1,39 @@
+Ping Pong Go! integration
+================================
+
+Ping Pong Go! is a table-tennis arcade game created by Happylander Ltd.
+It offers Arcade, Classic, Bug Hunt, and challenge modes. Tip Tap exposes
+two of its single-player modes as two separate cards, both served from
+this one mirrored bundle (selected by the ?mode= query parameter):
+  - "Ping Pong Go"   (mode=arcade)  - the headline table-tennis match vs
+    the CPU; ranks by the rally points the player wins.
+  - "Ping Pong Bugs" (mode=bughunt) - the Bug Hunt mini-mode; ranks by the
+    game's own curTargetScore.
+Both scores are the game's own authoritative integers.
+
+Source page:
+https://poki.com/en/g/ping-pong-go
+
+Original creator: Happylander Ltd
+Game ID: 6caab5cb-54d2-4c8f-aefe-0b0847f7cec6
+Game version: 5c2b92e5-6fb9-446a-9590-b14a6827d045
+Captured: 2026-07-26
+
+This build was captured from Poki's hosted version, which wraps the
+original HTML5/canvas game with Poki's platform SDK. Poki's hosted page
+shell, advertising stack (Google IMA, DoubleClick, YieldMo, Media.net),
+analytics (t.poki.io, api.poki.com), authentication, matchmaking, and the
+remote Poki SDK were NOT copied. Tip Tap supplies a local compatibility
+bridge (js/tiptap-platform-bridge.js) that replaces PokiSDK with local
+stubs: ads resolve as "no ad", rewarded breaks resolve as "no reward",
+analytics are dropped, and only game lifecycle and the game's own score
+are forwarded to the Tip Tap parent. No request leaves the app origin.
+
+The game's original code, art, audio, and fonts are preserved
+byte-for-byte. The original creator identity is preserved; Tip Tap does
+not present this copied work as its own creation.
+
+Redistribution note: Tip Tap's operator represents that permission to
+redistribute and host this title (public GitHub source + public Replit
+deployment) has been obtained from the rights holder. This notice must be
+preserved in every copy and deployment.

@@ -1,5 +1,5 @@
 const SHELL_CACHE = "tip-tap-shell-v2";
-const GAME_CACHE = "tip-tap-games-v5";
+const GAME_CACHE = "tip-tap-games-v6";
 const CURRENT_CACHES = new Set([SHELL_CACHE, GAME_CACHE]);
 const SHELL = ["/", "/manifest.webmanifest", "/icon.svg"];
 const inflightGameFetches = new Map();

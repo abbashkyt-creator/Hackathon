@@ -1,0 +1,12 @@
+Smash Room local source mirror
+
+Source game: Smash Room by Happylander Ltd
+Source inspected: https://poki.com/en/g/smash-room
+Direct source frame package: 17e020cd-042a-46c5-a13c-434fd4c49dfd.gdn.poki.com / 292f3ed1-b297-4a5f-be11-aa0288c391a7
+Integration date: 2026-07-26
+
+This directory contains only the game-owned HTML5/Three.js source assets needed
+to run Smash Room locally. The Poki page shell, Poki SDK, advertisements,
+analytics, tracking, consent UI, and all source-site network calls are excluded.
+The local launcher deliberately does not create a PokiSDK object, so the
+source's optional ad and telemetry branches remain inactive.

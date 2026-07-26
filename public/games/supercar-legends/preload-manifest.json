@@ -1,0 +1,19 @@
+{
+  "game": "supercar-legends",
+  "version": "9ae86e2d-d431-4d2f-b661-4b1f236767d4-tiptap-unity-1",
+  "strategy": "unity-critical-path",
+  "critical": [
+    "/games/supercar-legends/index.html",
+    "/games/_shared/network-lock.js",
+    "/games/supercar-legends/js/tiptap-platform-bridge.js",
+    "/games/supercar-legends/js/tiptap-boot.js",
+    "/games/supercar-legends/Build/supercar-legends.loader.js",
+    "/games/supercar-legends/Build/supercar-legends.framework.js",
+    "/games/supercar-legends/Build/supercar-legends.wasm",
+    "/games/supercar-legends/Build/supercar-legends.data",
+    "/games/supercar-legends/StreamingAssets/aa/settings.json",
+    "/games/supercar-legends/StreamingAssets/aa/catalog.json",
+    "/games/supercar-legends/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1341370e6c238f779d570a7faa60d274.bundle",
+    "/games/supercar-legends/StreamingAssets/aa/WebGL/f042a147dbf6df165f756a011215d366_unitybuiltinshaders_c585ee74dda74171159b538901e41674.bundle"
+  ]
+}

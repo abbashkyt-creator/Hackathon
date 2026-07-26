@@ -1,0 +1,8 @@
+:root { background: #231f20; color: #fff; }
+* { box-sizing: border-box; }
+html, body, #unity-container { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #231f20; }
+#unity-container { position: fixed; inset: 0; display: grid; place-items: center; touch-action: none; }
+#unity-canvas { width: 100%; height: 100%; display: block; background: #231f20; outline: none; }
+#unity-loading { position: fixed; inset: 0; display: grid; place-content: center; gap: 12px; font: 700 16px/1.2 system-ui, sans-serif; text-align: center; background: #231f20; z-index: 2; }
+#unity-loading b { color: #d6ff00; font-size: 26px; }
+#unity-error { position: fixed; inset: 0; display: grid; place-content: center; padding: 24px; text-align: center; font: 600 15px/1.4 system-ui, sans-serif; background: #231f20; z-index: 3; }

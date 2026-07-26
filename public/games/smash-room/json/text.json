@@ -1,0 +1,107 @@
+{
+  "font0": {
+    "en": "Fredoka",
+    "fr": "Fredoka",
+    "de": "Fredoka",
+    "pt": "Fredoka",
+    "es": "Fredoka"
+  },
+  "test": {
+    "en": "test",
+    "fr": "test",
+    "de": "test",
+    "pt": "test",
+    "es": "test"
+  },
+  "stamp0": {
+    "en": "SMASHED!",
+    "fr": "FRACASSÉ!",
+    "de": "ZERTRÜMMERT!",
+    "pt": "ESMAGADO!",
+    "es": "¡DESTROZADO!"
+  },
+  "stamp1": {
+    "en": "DESTROYED!",
+    "fr": "DÉTRUIT!",
+    "de": "ZERSTÖRT!",
+    "pt": "DESTRUÍDO!",
+    "es": "¡DESTRUIDO!"
+  },
+  "stamp2": {
+    "en": "TOAST!",
+    "fr": "GRILLÉ!",
+    "de": "TOAST!",
+    "pt": "TORRADO!",
+    "es": "¡TOSTADO!"
+  },
+  "stamp3": {
+    "en": "KABOOM!",
+    "fr": "KABOOM!",
+    "de": "KABOOM!",
+    "pt": "KABOOM!",
+    "es": "¡KABOOM!"
+  },
+  "stamp4": {
+    "en": "TOTALLED!",
+    "fr": "BOUSILLÉ!",
+    "de": "SCHROTTREIF!",
+    "pt": "ACABADO!",
+    "es": "¡LIQUIDADO!"
+  },
+  "stamp5": {
+    "en": "WRECKED!",
+    "fr": "RAVAGÉ!",
+    "de": "KAPUTT!",
+    "pt": "ARRASADO!",
+    "es": "¡ARRASADO!"
+  },
+  "stamp6": {
+    "en": "OBLITERATED!",
+    "fr": "ANÉANTI!",
+    "de": "VERNICHTET!",
+    "pt": "ANIQUILADO!",
+    "es": "¡ANIQUILADO!"
+  },
+  "stamp7": {
+    "en": "DEMOLISHED!",
+    "fr": "DÉMOLI!",
+    "de": "DEMOLIERT!",
+    "pt": "DEMOLIDO!",
+    "es": "¡DEMOLIDO!"
+  },
+  "stamp8": {
+    "en": "PULVERISED!",
+    "fr": "PULVÉRISÉ!",
+    "de": "PULVERISIERT!",
+    "pt": "PULVERIZADO!",
+    "es": "¡PULVERIZADO!"
+  },
+  "stamp9": {
+    "en": "VAPORISED!",
+    "fr": "VAPORISÉ!",
+    "de": "VERDAMPFT!",
+    "pt": "VAPORIZADO!",
+    "es": "¡VAPORIZADO!"
+  },
+  "ctaTapToSmash": {
+    "en": "TAP TO SMASH!",
+    "fr": "TAPE POUR FRACASSER!",
+    "de": "TIPPEN ZUM ZERSTÖREN!",
+    "pt": "TOQUE PARA ESMAGAR!",
+    "es": "¡TOCA PARA DESTROZAR!"
+  },
+  "packComplete": {
+    "en": "PACK COMPLETE!",
+    "fr": "PACK COMPLET!",
+    "de": "PAKET KOMPLETT!",
+    "pt": "PACOTE COMPLETO!",
+    "es": "¡PAQUETE COMPLETO!"
+  },
+  "smashLegend": {
+    "en": "SMASH LEGEND!",
+    "fr": "LÉGENDE DU FRACAS!",
+    "de": "SMASH-LEGENDE!",
+    "pt": "LENDA DO ESMAGAR!",
+    "es": "¡LEYENDA DEL DESTROZO!"
+  }
+}

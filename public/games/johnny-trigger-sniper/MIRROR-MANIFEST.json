@@ -1,0 +1,1691 @@
+{
+  "name": "Johnny Trigger - Sniper Game",
+  "sourcePage": "https://poki.com/en/g/johnny-trigger-sniper-game",
+  "sourceRoot": "https://994568e9-1512-4e00-a24d-e431e3eae6b1.gdn.poki.com/1642d4b2-69f2-40ac-b15f-44bbefebb761/",
+  "gameId": "994568e9-1512-4e00-a24d-e431e3eae6b1",
+  "gameVersionId": "1642d4b2-69f2-40ac-b15f-44bbefebb761",
+  "sourceDeveloper": "SayGames",
+  "capturedWith": "Dedicated Visual Editor Ultimate source session (server 3487 / isolated CDP 9264)",
+  "verifiedOn": "2026-07-26",
+  "runtime": "Unity 2022.3.18f1 WebGL with Addressables",
+  "catalogAudit": {
+    "catalogRuntimeFiles": 263,
+    "includedCatalogRuntimeFiles": 263,
+    "missingCatalogRuntimeFiles": 0
+  },
+  "excluded": [
+    "Poki page shell and host wrapper",
+    "Poki SDK",
+    "advertising",
+    "analytics and tracking",
+    "remote identity, sharing, and leaderboards"
+  ],
+  "localAdaptations": [
+    "network-lock is the first executable script",
+    "Poki SDK calls use an ad-free local lifecycle bridge",
+    "rewarded ads resolve false because no reward ad is shown",
+    "runtime and every Addressables catalog file are served same-origin"
+  ],
+  "limitations": [
+    "No verified source score callback is forwarded; the game remains unranked.",
+    "Public GitHub and Replit redistribution remains subject to the rights holder permission represented by the project owner."
+  ],
+  "files": [
+    {
+      "assetPath": "Build/2ccb62f18123b5b9f5fe3c4e93552948.js",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 390924,
+      "sha256": "dddd19de1564f4f78d58de2918269049b435e1d87c8ab30ff97981aabbd3ddbb"
+    },
+    {
+      "assetPath": "Build/ced0c6748fa27ccd26d9db875271b400.wasm",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 19177397,
+      "sha256": "13f60ca69ab408372439fc9007d92a8c0168690bb428b4fd111ab6e41f43ad8b"
+    },
+    {
+      "assetPath": "Build/da03c09927164da0a1bb2ad5a08766ca.data",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 6144797,
+      "sha256": "09c7deb49ba5e3b9bd21b14855afd57e5fef03b233abde2e0d669ad48f95259f"
+    },
+    {
+      "assetPath": "Build/jt-sniper-v2022.3.18f1-store-v1_0_0-build40.loader.js",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 21837,
+      "sha256": "8197e307ff026d6f80f31938a283951c22da87fa787c34bef3965e09713679fb"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "provenance": "Tip Tap integration",
+      "bytes": 728,
+      "sha256": "e80b5ba2b8ef529bf02c83b8ae8a802635abea6605c36f4827504a78525c6e13"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/161c6cad8d2d02eb63792b6e733f4f6c_unitybuiltinshaders_14e55c4b32f4bb98c488bb72a51a584a.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 69828,
+      "sha256": "ad43455863e550fa1f8c8d07b722ff18799499e5981a35f5063780a00e6dbbf0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/duplicateassetisolation_assets_all_45c544d7f1393cd53536430851ffb4b3.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 1825525,
+      "sha256": "3eecc464de1a8aa46a04aff5c85141deb6596c736a4469aee79f63cf5540cb50"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/gameplay_assets_all_bbf127fb71dded261559df65bdb9acbb.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 8755149,
+      "sha256": "7390eb62780c93a6c0ec322953c37cffd469d1dae3c9c37f2090fb2baddd6c9f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/guns_assets_all_0f6a1745b212e774fac4db10b207c762.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 594994,
+      "sha256": "74a784ab271c9bab0d3dbecfcba47a7a650bd692fd115335e64b6a17c8dbe157"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_1_b150a20bbdbb6b76ec95bc4bb5a702f6.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 130128,
+      "sha256": "37b51f7f92567734394f5e731bcfe4d6555f70738f14e692fdd293c5ed5ba98c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_2_74f3bd3a32afb40723c2831f58b6d494.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 132117,
+      "sha256": "de19c04314f0cf9bad27047530d4cdeceaf1478ec450f011b7e23c124b7542ab"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_3_14b99b46575cc4d058a3b0b491869360.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 124789,
+      "sha256": "d2fbbe328e5d6c00d9c7c059388fb820d642c3b85df886c8912b5ad23b599765"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_4_12ba3e660753ac5a047a4b06d06aea72.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 115672,
+      "sha256": "6ec255460416b6cf91510e5f2c563bf977f31896326790865af30918e35c63d8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_5_2ae9c902ae057f4dd2c8c88b496752b1.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 132866,
+      "sha256": "834c1c228d500af6606a1a9a9eb4f43e2f426c3401f90cebb9f32110059b47ed"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_6_25eabcebebce47641d7f3114be9df74c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136058,
+      "sha256": "e5b79a990d839b70bed101be7b5a8e4d0fa4f1a93515410a0b703245b40d8582"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_7_c807b0e952791e42664484c794dcbabf.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134528,
+      "sha256": "c71fa27ca8a064a0c8b445763d408a8f99db897881325283309b03fd0cdd50cc"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_8_0cf989982535236aaa61b92eca83267d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 150018,
+      "sha256": "261a1b29d76f7d0efb462ca11614c55b4cb4346618275dcdb57b91b6890f1d5a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_1_9_84c5f58fd153a698971104664d623073.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 138132,
+      "sha256": "75e4c0995bd9834bb34e034b51568225826ef49d4fdc0efe493f79803ece35d9"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_1_3acdc50b7218bc5f8bc1799cacf0cedc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142025,
+      "sha256": "b7f0595b1c43820d888aee6314a00f77411be20f3e27c2c0d406e8667f59429f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_2_54837e3a711030783d22f252438d3701.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142401,
+      "sha256": "cbb223a1b3991988f2db3b9525ef8a3c07aa8dd10741b58a9da47f5b8cac6c68"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_3_757f8d136676a3fb1cbf667d009629e8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 137564,
+      "sha256": "52dcdbb401b31db2bab8e33a0fc8e7fc2f850c0c5b8cf9aaaa8733b41a1d22a4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_4_5e2bbe40251d2caf5421c11e5d5397ab.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128216,
+      "sha256": "5dc083729525bcabff9a8a98c82253a6f2e0603d69a1a97ef110d1799b2c0058"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_5_2760c42c1da8cc8b2efdb5d74bed4951.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125367,
+      "sha256": "8cc37e220eec9573b257d31316576196f87992ee70b60062824a34f523bac14a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_6_ac7a641d3477368ef3aba1f9bb4a80c7.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 152711,
+      "sha256": "108a61bd11a6e569b56bee1ec356345866fa5593b32c2855f5eba8077dce1393"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_2_7_bf9ecfbbb582e292033196833112fbcd.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127866,
+      "sha256": "b89e3b48842e44ae6e7facc6943b5eabc86027e4e05ab9cc5ac48b354ee18cf7"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_1_6aa0c49843878a1f85c108c1afe84dfe.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134820,
+      "sha256": "6b1db004c04ca435fa32bbd1420c38f3630fd37354d0324022d8118c6456705f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_2_012cf8e2ab07433a2dfb6374ae2a883d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 139421,
+      "sha256": "b3891de4c628819ab2dbf24ae6ac91690c9031a763f7c61ed7975e4be09422fd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_3_cc0f5e92d969849fafa9f84b5d752485.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 149180,
+      "sha256": "bcdf46d6b65eed2b52975f75895df8f0d7795bcea5ea3e6d6a0132a0f4714e24"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_4_f08b2274d3de0c1d7f47423706f9ee65.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 139826,
+      "sha256": "3fe87a6dd71f59a19aa4c43bd86c961de4e707b71c2ad195b1f71579acd20274"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_5_447138f4a8c1fdb2b41cc5129abf1227.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134148,
+      "sha256": "86e055c218e9b42cf3fddd9e028de501be3e7b27870a8fa1f2d5d6b2c7afe271"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_6_7222ef67541353b007ed26057d126c99.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 146740,
+      "sha256": "2c2a7a287c9ccc87ff7e39a7d4faeea30a10b3e975cf372f63e62382c6d70e51"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_boss_3_7_3cad8c8b2e992a7f403b12c593915b51.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136631,
+      "sha256": "6b7b44fae3299c27d86e545a750854afb435bb8b5080ad08d87026d6207845d6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_100_37a681d5336f7af99ed517bf36fdc4b4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125497,
+      "sha256": "8a111aa1879cb18cd0684f7b9bb1d9da9fde6e920a70b8f6dece35e592eef619"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_101_6f53c428db8dca7f7a91d37050acc315.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125305,
+      "sha256": "60d853ed71d9da1e259ec8245c5b46e25eef2b6a6eb236b6f8f397ea25832f42"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_102_b069a2d0fb0c5e5ab83be24a749539d3.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 148917,
+      "sha256": "5a2e3570ff9a95161164ecc511c8f917a397f32e457aa1f0e524b02b76db4f00"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_103_6476c933b4dcf9cc7a84523a203b6ffa.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 107478,
+      "sha256": "47c3d665713eac3844d9ffeb56055a4c00a8b1c45640e73fc775c10b2f0ec348"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_104_7cbc16a48c462c9c6489032988d388ca.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123742,
+      "sha256": "a3b84b8288b40aafae9448c0331b05a6d64b7fc0ccff02c4fdd521c84caf19f1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_105_4d670e6f8ea1e00f62ef61d1d136f4ca.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 122998,
+      "sha256": "6ab0b5e241aa84f4f524d6fa07041c52ab98611513973329fb1aee9f4a052cc6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_106_e2cdc8b74d77aaa9cc579bcbfe057c82.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 107580,
+      "sha256": "06f4c2858bea86e184a19a842c0a913c76c23a8f294fcaa7fe5d5dcf088ddd06"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_107_12234e5af900da318060f49fa85f0226.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 107712,
+      "sha256": "0786d246845acae25b9bd56a80454490d7073a855f43a9d6bbd1e7417edcf7c0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_108_b7c6c0348832f1785de8b221f5f854f7.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 131099,
+      "sha256": "953f342cc4e8da1909be204403aa68f7aa85dff6089889b429eefa4c5793c623"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_109_ffa01928a1a8871f1aac54c90b571a8c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 124698,
+      "sha256": "a6acb07299adada98e8313edf8ee367bf80c3369678f830ed1ad37f4d7387480"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_10_c8bc6599cfa13e40f792a4fd94c7d225.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 132342,
+      "sha256": "b6cc83ee081212765d343d43d267ffcd6a4c3943bf5699c2fd23b1c30aa09caf"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_110_930e9a1368292fd99f8750150f890a7d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 111317,
+      "sha256": "51fb8ca9ec1cd154a8ae223830abab5853282af9ad451dadc20eeb9b07fc847b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_111_8bc2b87e83e5e2a482740980c8d9d20e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 119249,
+      "sha256": "3f6a877fce9256a39fc9c3586d8a17ed0cbe4612aa8dc610fdac4e81681071f2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_112_8412bbecbb317e4c952ebfe114d3da9d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128336,
+      "sha256": "35f384394af83318fb832f789b3f68f127667c2255b00ec23dc1326616ac10d9"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_113_bf5ac49329cd5fa77c8539b0da1ce798.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125348,
+      "sha256": "6952f5f1fa07febacb0df7f2d512d0eb8697faf29ec8585514907a8e9b9b0754"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_114_a9c1efe9e181e5ef04e8f91f9c5f308a.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 119896,
+      "sha256": "f366ac6b34ffb62045edbafe942d0deb07e99695c92847a6ab17004fec7232f0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_115_58bddab70ef35ea297c42539040427ec.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127491,
+      "sha256": "e5f1d1b4692246811892d00fc795168c1f8bf99574000d9496ab99e50b4cf0cf"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_116_b72431535206ff8814b5e9378a9c699c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 114915,
+      "sha256": "738f8d9f6ebafdc95b46f0901a1ce2cc452830db2d7699964436152fb3d85ea1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_117_a5b6b83f36a8d16fd740565846dc36bd.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 118530,
+      "sha256": "b12f44441886e6dd606cd7dad456ee2569f2dd8a68c9ca1eb509ba98662c5258"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_118_e226874341bad354462761c546b0b4ad.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 144254,
+      "sha256": "3766a9d957300bbe7c6128b0520bafa0c1013dbd95dd6f385cac639bd8a062a5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_119_ce35b0c6ccd6e360f2a44048167b954b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 131235,
+      "sha256": "0f8132a875ba92c7e01b6c096e767a033704cec9c61e3b60712cc16e52fd565d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_11_b19e2d3c049e228d6277ac03d9ee5f9c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127467,
+      "sha256": "22207c1cc4ef64d5511a8019ce39a622abac42039a3f5b1114f560fad29b8d05"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_120_18f862eca8e259863992e49f9970cb7f.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 120787,
+      "sha256": "09a1264f4aea20fad47f2488c123b6ead3681778dcb31ab78100c818208814bf"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_121_3bbb234f127b63b1473f34a2c4ccb185.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136804,
+      "sha256": "b45eff50da735528382f161bb3e0190103ea1a4dde0994a903c8be4426027235"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_122_c26b10b9021bc90efcc6f9c2107f81d3.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 110211,
+      "sha256": "1fc6c6df5c09d0cce58a6f2204ac17c8c79f7004ec06f764cd2d5e2d71b2d424"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_123_2832f11df53ca9fe3cc17da1d7ca4d3d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 116383,
+      "sha256": "99f295954ed83e06d4ebf46c778818c8eb34878ba9605cc1c2224c609dc534cd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_124_881e28bab3b29df9c7055ad31951a630.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 122880,
+      "sha256": "1daa6fcac1aa68b1bf38e035f2799a01bf8c5d7991842150993d22a0ecd0d10d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_125_02e54e82f2562fd0fcde97438289a566.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 133453,
+      "sha256": "216ade601db4ccc75207df68b0fea4f3adcd2b218f669b82c513bf563ff629b8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_126_783d5b4806df07fac78cbc92038257c6.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123316,
+      "sha256": "e2f716b2b0b1bcb64ad4ad1ea1834bf4df6155dcd1c181474d9c7fba54cf7dfa"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_127_21f84cca95265712d0c7ca5f232a7c92.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 131716,
+      "sha256": "c3251ffba783251ba95cd3dbed6f0d232db516ff42007935bf63a96e67421d91"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_128_383b62e7d4e92203806089673c238f59.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 126376,
+      "sha256": "e19b6372ba3942f62516a404871cce360cdfe75dd576003e6c8bce96141a6a16"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_129_335730918afcb501eb721a21c51c60f5.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123030,
+      "sha256": "4263843402aa6dbc3a61a3f92c8842a8a8eb5b634ef9b950032052cc236c1fce"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_12_cc5650b841c0346a94d781671ad8d149.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 110440,
+      "sha256": "7d403f8bd1310cfcf2837afb615341a74590c16c73931baddd60ecf9678760a2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_130_91017d9bf2ea1c3e8d82c9262f04795e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 129852,
+      "sha256": "35ea2087a293a5328b51e1e453f64e36c933320bd8995515d2223022bf4e10d1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_131_eb77cc3aef5502bfad37655f2d785db7.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125165,
+      "sha256": "29e2f3cfdca8ef138e7f93888827b1e10326d1f02ac8d248f63ef233663d412f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_132_35c6e39611662eef865c54c8da32e3c4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 154126,
+      "sha256": "60dca17cee99b74c4c5a38b2486ba85b29e63c9c068db0b4514fa635f4314da1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_133_089036f727e81cf2129cdee3d1adf35b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 146399,
+      "sha256": "5cd4a4b8f21bd2c7a542d229bcfec9783352ea280d05ef8296cdb015c76cf072"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_134_2d5a7b286a4b8be451aacde1da9ff3dd.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 146733,
+      "sha256": "ff3d94b9b27299ff428477e2085abde2f8b3ef582017b16f92970f41d631146e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_135_996664691e6d40b27e2dc8adff82f92f.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 135093,
+      "sha256": "ee634bf2b18429f779fb55b706fa30413149448d389420520b2f5b97af4f8d38"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_136_d14a0800d2dced8d3dd773a9cc7499ba.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 147333,
+      "sha256": "28bbf7c89b0c89cbaa53454107de3298aac324d73e9ec6d572e337d19912266b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_137_46df5afcd65cd52fb0279b5f9e010400.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 144049,
+      "sha256": "a15152df0052ec7ac329dcecc4fbc106ee136a111b4043ecd734311a4a2c3878"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_138_c12c3318a510e5329adbcc1236be70b8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 148616,
+      "sha256": "9236613b8d666ab27e31e05778f4c9e9b9106634e7adef38a57a383ca2a170de"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_139_fa451db03cbafd06244a873c73335dc0.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 170364,
+      "sha256": "679e4c5990a999435bcfb30c8c2809aa9346b95aa7a9aa1424af297878bf779c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_13_adc0a5a840700cb3ad229dbbf5328647.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 133069,
+      "sha256": "1aa3e84d25e3a7df0bff5ff644435dc736ce4a558e69fcba084e57c874b2d469"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_14_1ba0eeb64ab3b27e58530f98d6563ae4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134653,
+      "sha256": "9582cf7a1f999d81ede50a0e04585ac244fd55b23ca1a69c1f4653a45134569d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_15_c722051f0cb75c7010432f41381206b8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 155808,
+      "sha256": "444e84fb3e11de98daf7f7ce79cf44d145dd49a59f8581d11d06ccc973508887"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_1_7d1e164990c07a1b14416fe6f26c0803.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 112321,
+      "sha256": "18dddfcce6a9a3a9c6c7629cd0bcfe9056b833d52f2609fa04646df4c633f8f8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_2_63d38932e73d9cc2a600fd73b1026cf5.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 101460,
+      "sha256": "f699834bf7ce2c9848c9264a3344ed9948ca1318ea947266de80685b185644b2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_3_79f1d9656ce7c0902ded70dfd14fe619.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123055,
+      "sha256": "1d2a2f728e9ecb4fa820df11497be1f148290a918fb663fbc18df3bc594110c1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_4_5a5c20d2ebe67999b79bbe7a0b6b46fc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121665,
+      "sha256": "a2797f3f226e54435e74371abd8407c8323a4117ddc46e490689c8e3214b5326"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_501_25c4468df94eaa8b21c4006fabfbb948.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128656,
+      "sha256": "ffd1da0e3c2507ed5d04dcdc0754834e476725898dce8fd43e626e9e3612f018"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_502_a331e0bd4bc2e7c89bee10bc97b1ad3b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 141416,
+      "sha256": "7b6f37146958088dd152c2d8f62322ced7b57b527bb1712e023e73d53627a664"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_503_344f34f1c0902f03278c7e94772595ae.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 112602,
+      "sha256": "65ec5457e27a6470e48893b1e66d563b3b4e56e1e6f08e86209fd418525750e7"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_504_d28a7dd319fcd08aa13a942281a2a71d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121149,
+      "sha256": "cfc751c0f9ee838d072ba91784285b7187d454ec677de9f55f905535ab8e8cb0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_505_51f0586ae7de23d70374d05dab631db9.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 124820,
+      "sha256": "37e810191e015f33c227bbdca205dc0492c775fe2453bf539b0b0d48adc8bb74"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_506_aa7052ac357c68d1ad0b702b73bc6654.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 101527,
+      "sha256": "1b5c35a2323f84dd5d9f4900d631f00f041c2ef29f8a0c166a541d03a12c190e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_507_e1bbb41b65d9f77cd752f17f29c242f5.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121957,
+      "sha256": "a6ad9cca55f01ace5cf0f8e80918051103cb4e1bb9103cdacf554cdcab325595"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_508_fc325fad00187dd99277d5e8d8235cf9.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 120077,
+      "sha256": "868bee39b17596b4904d7dbc486f90347ca4ceced04bf79a9cbccb16306f0d82"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_509_fc1c175455ea7392c0aa96490cdea884.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 111803,
+      "sha256": "50bdfcb5e00dc6239ff90fff934f83e083d2c703476349636d17c4844f401729"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_510_6aae732e009b312646b5f3458aafe47c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 122449,
+      "sha256": "ba1a24ab18938192fd0ccf937132d8f5a7a9a320f9b1dc142a2f8f8bd131df5b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_511_5bd0789af76b5674827f51e00ebaa6ce.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 115865,
+      "sha256": "36029608f647224834abe68261be7d449de8af7f9a6bd38dfabad87bcb330ccd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_512_19b691222ea12befb6fa7cd3bdae9229.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 116759,
+      "sha256": "54224b2b2860b5ef62484937cfabd6d8af81531dab230a07d6ab1488de301d68"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_513_f3d79e13e350e17d94b2f84be6fc75cf.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 113823,
+      "sha256": "559f131bc8781b92e3797fa6432dde53b56cec56dbef710b24393ce0c128b830"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_514_7ea40a23bedf00f12668f7663f45f2d9.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 107602,
+      "sha256": "d9cfab2c0b18dac4f0acfbdad029cb32abc9cbcaad043a8c47d3c5aa15595ea0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_515_c00cfad5303e11999165a2d337aeb5b0.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 120005,
+      "sha256": "9c9792c329e0a8e0ba43c798ed3379e0aad288cd1d55ff0bac5d561b44040072"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_516_970c18e3b672662bdec4d66a037e1e95.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 109498,
+      "sha256": "fdf17331d3e840af3746255e7aa57a2b59af8561b224e3fd9c4e35fd69a74523"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_517_2b19809ff573548b0f50476c950cd1b1.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 119401,
+      "sha256": "2735f1e123ea28a255df9832cc9076b6f39d588e94fa5ea54626c3c67c8e6d96"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_518_5f581505ea0137152b278e357ef7081c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 119816,
+      "sha256": "5cd2181e27c86a807c9d15c297c09080ad2943193056af400590942497235be4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_519_318f2188d906f5c3f1b1f09ec5196803.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134820,
+      "sha256": "edc9097309a1e492f2bde0d6db9a5bc72050b31997d6acec6a1eab0ec90caae0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_520_6e3e4b179408005570fe40edc44f128b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 129060,
+      "sha256": "dec952ab672b016badb0710f6150a28911b3092b7096980dc9969877d05eaf40"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_521_608dde7241f3a52fb984a32d0b06b590.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127740,
+      "sha256": "2cf2eb6b5561a1da41c36879aeebba978dc5e198dad367510575f351a07a4aa0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_522_dd106acaa18843df93c61484371b2221.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 140947,
+      "sha256": "bd64e25ca5a0c9979a8b19296b62954204c2a85937eb497b3573187ef07b5b51"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_523_8a145b09cd896b11b27846692a1e3e4b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 162262,
+      "sha256": "b47b1e0cacf9b312bd288f965a232b8a9cce0c9838ff7ed51af96552c65caeee"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_5_844b9bd91cd2e8f9bcc141be93838ad4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 103650,
+      "sha256": "51dd80848be53c2ad9282d95cbba9ab26b90664fd5cc08876ca7fb7eb4829aa7"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_6_ccc7e3d5c88e4afa73256d9317089962.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 108454,
+      "sha256": "6c1970a0f4af43589e084716de17019d603a45ee8bc1eeec5ff170005ce174a8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_7_158917718c6929b5bc314aab3c6299b8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 106529,
+      "sha256": "c0006b3dcc6df1f96b10e0fd415b04be39b03d206771d0737425ff6ce730344c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_8_f82326ab6b7df39f57c42c684bd8935b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 126270,
+      "sha256": "8a5bcc2f455a3d83f5f37178981726a01234f733ae9ecfdd04ae0b3d4eb32913"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_9_ab11c80ce910094e83da1ec3ec60645d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 118490,
+      "sha256": "1d4d29b9141821caafdd553403deacc368f148ab0e6ebe1a9caad8b14fd968fb"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_ad_1_a9d7f736890752bd840749af303004bb.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 170615,
+      "sha256": "e6294a50e1d458361f1d0e063629edbf61e4a2222e84995fb342ce4d3ee746e8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_1_ad_5ce0852cd451a11730c1e33806f8111c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 193742,
+      "sha256": "b40b89ab44913566c0b93e60b52055e3af7485d79ecbf9a4aa705a0f68cf2b61"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_103_5501c578eca4bdb8708de3b8e9441a37.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 167318,
+      "sha256": "0ce2bce9bcae1eca0213104d1f18e997b9358c4329e7d60e35270c82a0f70da1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_105_4f3e33b351fa7c255c80e6b24efc4f0c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 145312,
+      "sha256": "a5ee8c702ea14dd35f59e3fa6bc4d624c6f007c73abe425a73c4c409a2677cec"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_106_6693e075f1f8014827805fb8395cebc8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134749,
+      "sha256": "f84cc8e84368178f8aa21f37979c096390ad97d37c79eff7638114c874e8ffc9"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_107_b7611d1528784eae41c0c3e13895bd47.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136612,
+      "sha256": "41de69db73414423e3265c3dd169e29beb96b5ec8c92956ec64d48629940b24e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_108_fa40790d13fc7f721c0d8133360ed0e0.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136580,
+      "sha256": "d15f26f6de7e4bb688113183f64cdc0cece498ae3260b43e3a109d5adc28d14f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_109_f1974dc9d41196fc5a4efc5bfcfa58bc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 139323,
+      "sha256": "62cf63522024d7c7a86ab29be1d3f6d2da4ed2891117fb8957e59111e773a7bd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_110_123cc6c5057c4924f718939866b8a0b6.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 130205,
+      "sha256": "c20255299b6110abb8119086466fa790b578f69cc05acc0d08c2736e421b54a0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_111_6d8744b56a27de2291567d6edbe64488.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 122510,
+      "sha256": "cbdc64d0d2a5c5bd02d974529943642c15f7139b15bce5de8628c903bd5cc683"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_112_e5d20a2f12245601f81168907c180966.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 129498,
+      "sha256": "8e28ace4f9efe58e7f5b75284661341bad34ecd2cfb9fe78ca1734a887a244e5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_113_ba218894b2d3488d4ca8bb35011890a5.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123445,
+      "sha256": "21ae2f28ebbc289af87793f1832560103980424436c9d200a5801b626ee23242"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_114_4ecaa9249aa4498a3eb099a96c4eb75b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 124237,
+      "sha256": "7c968afe73e64c7198c4952a84204006b51ca3472bad3c33f94aae16c46216e8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_115_0510cc4e6ebd7c25b6653448c30e4df1.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125985,
+      "sha256": "85e9513f7e480a9be576a81d8fda792ba7aad2fc9e49e310220fa00e1dde030a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_116_1813cd0dbf8b40b70e8674d1aa760401.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134984,
+      "sha256": "d64c5862e45af7db99e69a41044beee02bd6ecb795f02a08aa1a1507814ba103"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_117_b4bff83ccca06b3dc5e3959e1c714a11.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134130,
+      "sha256": "8bd313f9a6f6e48e3b57f7512e60ad7b148ab1bc99d5a61225cb4d96fef21782"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_118_cd3ddd10895aa7eb73787926588d3d81.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 126945,
+      "sha256": "d1cd4289d771e0f72ee981be708a0680e16ae46b48bb09db99796cfb441434bb"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_119_7bc8dc992e478fd22682d5f305d75735.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 151637,
+      "sha256": "2835df96e85754e4f7fbc7971c55d3021d37fd8e5e6031691981e361e3dde9cb"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_120_f3f56fd345b7d2d9b399f37ffcf5364e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125980,
+      "sha256": "0df596d442279bea45458cd1542a623277e5a4850f46f212909dddb90304dba3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_121_0c41f41ab16c72cfb1fe5fce4129a9c4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128703,
+      "sha256": "4c636dd39d3f03c6150afd08b5de903e48be834c5d8bb9b76af5f847f0f15d15"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_122_d53997478dbb6d30aca1952b797f4a3a.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128102,
+      "sha256": "cb6a552d2901a3eb18f5a6d77a352ed798bba6e31598f2672dea4ecfba2ec990"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_123_f5108559ab6616799e608690c0cb5567.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142507,
+      "sha256": "33305d0dbeceb0ae9cf892cf660cbc19675137bf6fa17168b26188b872c3b1f7"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_124_37a40327802015ab281d284dea880eaf.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 135948,
+      "sha256": "19990e6128f229913fe1035237394799029d9ad8fa650e1c32c6348bd698c233"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_125_0c57cca74867ab3ddd99260669d8928c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134520,
+      "sha256": "5cd3deef5611bc865c94e43298cd294d5a72f186c9ea498e652337d522f1a153"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_126_eec695236b22ecb8e64e2e02fff1f6bb.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 151853,
+      "sha256": "53e9f504c36f732cb4b47f83efa5e1c82b8787eae219f3de24168ff73b58fb61"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_127_7d7799a2ea52e5f4de293b09a3fd2ede.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 152584,
+      "sha256": "85d32b8cd8dfcbb002900e0b25d26ecfc469fcd3d3887a88aec6ae568309700a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_128_e828270701ccb12b7803732c4800d326.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 158856,
+      "sha256": "05b8ca0d8f802d26e3bcd6e4e4071eb5258f01cd885e862cb8c22152a5caaaab"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_129_fba96ac67997f9c0fda1b0b2d20edf73.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 153817,
+      "sha256": "d905c8e6fdb5e456409a5fda00b1f94965a6ccc3c44997d64626bb194f28cc8d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_130_c1bbac58ed66bf853561f12bff665fec.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 156680,
+      "sha256": "70584f736f1dc1fb446e5dacc1e46a45beff5380bfaf2c339b1a8f0bcbb652b6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_131_4eb417bd26517eb0e3b01df61841e038.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 155506,
+      "sha256": "111ef6fdaf73864dd5abe5626ae0b84e2f2b7d57c1bb7522d719105765bb531d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_132_8a86318ec9acfce99833fdbc5a76ff79.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128339,
+      "sha256": "1be78947a1bcafc86fe83ea7dfb9d2c93f801867f6fde1d9786bd92e76c85527"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_133_07e51370ebf54b86d1a2df792f1e57d0.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 143308,
+      "sha256": "2ca0554dd3ad05c38486cdbe0a947656435b1502bc46c99905d20b3d7799ce78"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_134_65f8a867b02fae2fbc30b2ad4f53e9bd.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 139137,
+      "sha256": "8c77c5b2a1bea93ad614081dc2c6d611facda778948521498964136a9dcff409"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_135_b4bb27725e7e38fd7dc615e2804409fd.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 153565,
+      "sha256": "179047438bd958afa5ab823a7779113e3e09048c488fee816c4077e39518e704"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_136_7b8b46b809b0ee65cc147eaacc2fd068.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 140918,
+      "sha256": "9de4814346867b3316b3af9c5e8b5617e8875390469d43b6fd3e88422b22e1d4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_137_08d1ea6ed8793c1f6a1f321155cf074c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 147822,
+      "sha256": "ff073c9a4f4e0ccb308f3c73f60c54f7de91671b52f3a4c78033a0e8e77cebe5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_138_54eae250cb4d632174cc74ec801772f7.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142475,
+      "sha256": "52143f27c4b85bdc1eae43bed71cc21bc280d30eb965618232b3aac955688f20"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_139_0fd05053153e126fef4d55c4a3ce5d14.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 163395,
+      "sha256": "d940825c3d121151871c8b82e8e2770480f679410c42b76b32ba65c6e2166852"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_140_0145824f9ba1503c48a433db841f5b5d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 161764,
+      "sha256": "4e0eed83d29f3fe66a3f0adb3a03e73e4980959e25675b691e85148e853452e3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_141_17499f6c809d150ae1dc6967b6f8dfc9.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 177706,
+      "sha256": "d10c242854d54df80eea2193b2e2602c776c48f6e381a35fc06896ce631186f5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_142_8e691a3a809bc56c3261f3334d23a72e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 165873,
+      "sha256": "629c58b1bd71c93432eefa1e7fe5e204237c471c8c4cf65bfde27dd7f8224b54"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_143_8e73a36034cc76598af95434f666fd85.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 171177,
+      "sha256": "885653883a7ebc599db258b4ead0dfcf43dfdeb5d486611e3987f49829d5612a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_144_4d180977f41dc7721da60f177a759af8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 167996,
+      "sha256": "a2e3ed90e1d1311f8c4e14ede902e4b5038674b5baabed7bc3670f7a5a9a3a6a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_145_a87be272b5eb5a5b5616b1d49047e39d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 168492,
+      "sha256": "02fdebace2ba0eca79391ea2bfe38b07fb79571efae07414a28b09cbf77b670b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_146_e7d87d93d22db42f9ca3a97868f2bdd8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 167839,
+      "sha256": "eb5e2d836bcf2d692e334a43c6e0ecf9b6f6c3ed775b8e7c6899da87c7498e77"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_147_446fe296c7de69daf96cca5dd2a4b686.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 160490,
+      "sha256": "58273ac91778d9c00d5495bd398bf20ada743d991c9337e759a810f13272935d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_148_43f1175ca691a40d75e32bc975b36d36.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 164604,
+      "sha256": "aba58fa827647c5dda2083d6f2b98645da747fe80c466b9e91a5b2338c8d4231"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_149_d9bad7c1a99d0797dd64190d2703834f.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 168676,
+      "sha256": "2d265a205f4e243627ca80112d89ffb1d4f8f062fcc05d1ca51c2acba514b4f8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_1_e0ef4eb51123f9322cf72a1757d7496c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 138089,
+      "sha256": "29ccb96198f331c5be21dd4f1594b5378755ec3c01efcf9f9d741129653a2126"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_2_dfb3ac10663c61e2d35c344e1535169b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136589,
+      "sha256": "89fb601a2227afdf3927a09eb34a344f37c8955b161e411f0767b7fab9354071"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_501_90e14937407a2a001533f46c78431fcb.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134046,
+      "sha256": "21961ad4f31a7a2929e7c6bc1d0080b38fc93973dcf1d6495d969ecf5d34a7b0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_502_ec0aff00788e99edfc82025c8a794e2c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 139081,
+      "sha256": "7aa1b256398368c96cafabab869afc83b844e347abbe3fc1466e0301947093f6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_503_313fe8b68b1d541189389af0f4618d30.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 117537,
+      "sha256": "cbcc322e1f4a232d9ac2257bab742d0d92f9e9098112b1300712ca058437dd99"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_505_05decdbfec5750048fd447fcc63aa2e9.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 140690,
+      "sha256": "9e6c8ceb2121b602a6e27d61addfcc67b03783375a2e6cdba887fd0267a2311e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_506_3a4ec951c31f5dc5d4414415f2d79b4f.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 118946,
+      "sha256": "fe7ad7d46851d6ebac7ca68677354e0f46c1d6911ad4d2b8dd350eaf5ef4d928"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_507_a304fea76900438580c44d43e7006d66.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 114626,
+      "sha256": "6f30b0709f3e37ba2f312db866a2c0990f718d455b645da37932e63584c3ccba"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_508_1f64c48c97e59b3f644e721bbaba5ef4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 113975,
+      "sha256": "8c43c7a3c6ae176eb2b81e19a4cf12b19660364fe0580c4ebfe4a7cd20ce7c43"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_509_0d903d576edf1d7aef494f6374596faa.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 79193,
+      "sha256": "c8309a9445c280aeeeebe404c90e7054e2e17fd1ddf7d629b1b2f8a7b0079ca3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_510_9bc93823240753f41ef0ded87e969708.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 79711,
+      "sha256": "cfbc50a15b0b004b6dde5402eb7ddf5a21062570fa6db8ba65ef6db9998a208d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_511_6d09d9fdafa4fed427aace59ea8b5295.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 129939,
+      "sha256": "cf0f90c4774f7790ad95c588591498b698c339990db58778f206bf0841726e6e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_512_0bb17ab1ad6f10cb683fb4a11aa9b1d1.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136231,
+      "sha256": "52d53ba55c73873cc678ceb61432be32dd27724a012366662222a3f8fc7c5f75"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_513_db713c442f1e5fa77a3def9f728ef4a4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 126494,
+      "sha256": "5eb459e348f84b189d21f867d44648b599f763ff25fb397146f1c3ac105860eb"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_514_19fca19ac6a097fa6ecb968bc1a0528e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 112015,
+      "sha256": "3f91efe8a32be9aa387a53fbc45656229c6066f0a929271b3ce97b2b75597cea"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_515_e63bb1531ba53e4bbbe71b1a38c5f13b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121922,
+      "sha256": "ff528c9d52f44bffa802300e7a0724f717ae4c3c86b47d29a2f90241d676b513"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_516_af6cd9ff373e9450a1643cdfc4dfcea8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 76869,
+      "sha256": "64805e5c1b002f01c365cb6ad1683de228070cfbc9c7dfcde5d6353dcc54e5f6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_517_b5ae98a7471f298e0257f8466c5ae7ff.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 114363,
+      "sha256": "82700709495f6942f9d0bdec10a1b95099436ec210ae40449371baa96d71964d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_518_836189d585e1246bdb1773aa9e72efad.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 75188,
+      "sha256": "75f418bf97bc158cbcf22fc7e474a5620d86a640e6ee4e30cb2d40993407565f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_519_03277965d97f6ad94e4d0ea0f332dae8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136247,
+      "sha256": "dc6d1bcbf0afee6d8e944f74b2f3587bb5b65235e5a7973acc257944995f23bb"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_520_9988d8d81cf05c35afd096ab42e126e4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 122780,
+      "sha256": "ca6c11942ad1cf7312dfc9c07a6c341294e818c251c872855d5597a96da80f06"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_521_6ee2a6ba6f37e04fc5a6576c200a2385.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 130020,
+      "sha256": "73b2a8ac9e82d8ce795ea0c1bca27a3b13bbea50bcf36f74131340738ebb37cd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_522_3dbb154d945ced6e98e10f09b82d4618.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123195,
+      "sha256": "34ebd13547786ac763d25635320a9b0b6004bd24f9205770c90d3e3bf7d9741e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_523_2957518230693e574097bd7db89872e8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 118045,
+      "sha256": "537fd30036727d6755e4725ac5e8ee9cf4ab58015c69324fa94648e2aeec378b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_524_0460cf187b957b86bef6640d027ba491.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 76465,
+      "sha256": "06dbcc7c121b87798cad37b0071bd107b3a9b229e422998c3749c6e40cea8cfc"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_525_b2c6ca128c0f88468f2b9ed76464b803.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121577,
+      "sha256": "8e8cb79c9f2a14bca62bca3e2e9b5e55bac05c24b6fcfa6b15a5194e75930d84"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_526_8d551276465d0845302304026ceaf1de.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 114626,
+      "sha256": "6240752022fa7021e24642bf69e7408b05c809f97dc3800431ea0e8471a6ed4d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_527_9ca198a270e767a30377bf7f81541111.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 119643,
+      "sha256": "74d7b2e5e5fb323be6f7a7c4cc046493b4b5ac0440dd3ca953001c0bc5f90a32"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_528_15b315a9f2dfc9651318576566633386.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123027,
+      "sha256": "69d5ce75f5ade9b434cd53288338d49e4fa816723dcebaa19a5b3be42147b518"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_529_bbc024c0381cbc4dbcb3fb742a1026e4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 133136,
+      "sha256": "4b79e6d70b5a1a929073a9ba47928ced0848702641d502f33de0fff8f7fc706e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_530_94e41087b1416b1cf35876708715b515.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134686,
+      "sha256": "14d030238d7f3f65f10fcec63d9581987e15d3a109223ddc3390d1ecf390ea30"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_531_a7fd7b9c9eb93a8b50717d6c4e2c9727.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 153341,
+      "sha256": "53dbdbb181df18f1c791b074b0be1c347f8a4d1474227ac608412424b20f8b64"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_2_532_0be3b0cd24b811e68761d52c7c271eb7.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 148206,
+      "sha256": "d9efe4f10d7f6bbc639ad6feb1794f36044ff1d8f7f1f54db9072d7e82a3b9c4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_100_b43ea71e00147a1d82b465f6a1916631.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142547,
+      "sha256": "a40063b3ba2e6901615d8e4342bdcfcac3107149654bf30933094061b88a284f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_101_dc2f7ff66175e8b277306c42652ab424.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134494,
+      "sha256": "c7be885434a8f580d10027c7778ba113ab491f2de8e2b90eb0a2d8babc90e6b8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_102_713cc8510cbc9c68730e65f89fb68bb1.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142379,
+      "sha256": "d9a0cf762ccf2d1926bcade831ad69486c92e063db24de8379694e6f71545c65"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_103_348f19b345624301d46d336766c5a810.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127367,
+      "sha256": "91266c3cf6e621008d75d972e2e955e965bfc01aa000e2342b0f87877a7ee735"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_104_ff1a9d1826582af34e8579bb5a9ab56b.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125460,
+      "sha256": "c20a3958eaf5424eb384189785c4314718b2b08aa029cb7041e92a65bfc52845"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_105_f1041330ae97baa3bcde7d533548e033.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 132342,
+      "sha256": "a5ffbc0508e46db5b38fc78780219fbfd70abf7821a50998b4b6557b9430a02b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_106_d22769d2bf2adf71e584a3d06b5bbab2.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 145412,
+      "sha256": "68f8e67cf3e35c7722e3840f19c37d66a7c5dfa98b61c218b5ecdc3e49b2b06e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_107_013392203ef7a71a3b0f85a680c0ece1.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 124447,
+      "sha256": "aab39c3d6f57f32cf59ffa9e12511e50433ad736505d5bf4d41be0501be252c4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_108_f710b5a5225170d5bfe939415527a834.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 131645,
+      "sha256": "3ec9e7a2c298549bff7020627193ce21a26b0e4d195117ec9774a74ca016d5be"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_109_ccccc37ff7d092d14c2669b41d7dff58.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121875,
+      "sha256": "a2ec79398f764eceb04add6e4ee9be6a0af56912bebf1de5d743293f3ebc7a74"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_110_11aa5e36f05e6e406139c40776adaa87.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 131709,
+      "sha256": "c75a8100287f8b0f0074a5e9a0fd9b0139fe5e7db92815b19f5da8544d89fdcf"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_111_23998d1f5fd9376376c0fe320d10c191.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136277,
+      "sha256": "407f3c2934d4db60b3808ba8ab42d6512760c7916ff9de65a761a8bb959a4e8c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_112_a98ceb4d1fd1e79304536b61755dcfbf.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121570,
+      "sha256": "47eeca55ff93ec0a7dd8cbfee55a1fd3a24a4ec2e19832d43aa2e45bed1b2031"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_113_ac60643335ae2494ac664b41b04d8cfc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 86507,
+      "sha256": "7629e245df2fb88516eea3b90534463d626542d161f1538bb0d95d060b6fed40"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_114_76089281d9b85edba826cdf7a262922f.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 132868,
+      "sha256": "10e76fe1dbd46e69544048b365682db17c6564db4224cb76482267fe0762d8a6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_115_b0a01a7e66c32f750fb62a4342536f01.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136942,
+      "sha256": "27b747701829c6c4f054830c85116e18bd3e6ce9d3554fa60778ba7e766065d8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_116_516f7ff012ad3bdbea1209273b2e3837.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 143945,
+      "sha256": "a2056618df355fc9b24ec93a527649a4636ef71073a54c7f57b36326d82eaa37"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_117_ed474ceba808756eb83ae1c76d5c6385.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 131621,
+      "sha256": "2e6b7dbf3a866445eb4ce9aa7bcde5c3a72de5bc755e7fb24d0bfa31f52a8652"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_118_a18f07789315c97cf2f5364b4dc39364.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 147037,
+      "sha256": "dc95cd1075956a39f9207a2161ebc6fbfbcda7aa9debc1da59b9111fd50de49b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_119_44b63f5a8106882d6ff7c0e49fcc23aa.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 155653,
+      "sha256": "ce53ed279242b3e80cba7efcbab97c76550b42772547de62a77b6099981c9dac"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_120_84763f070434acb881da3df613d8630e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 133242,
+      "sha256": "da9180d6b52ced2af4116a1ba9a5dd4d472f0fc0bae33f99d26472399e0f5dc3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_121_28ffd49a9343079c43401e3bf9096742.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136904,
+      "sha256": "db5d8f9cee7ff7ae8979aaa07efc5c22b286aa820499553130dd2558f422c211"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_122_7552d94e83a0a9e7cf5690bfe41dc498.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 94789,
+      "sha256": "9d7928811d43c043ad4590323b38513de19cdc7a224165d783a2aaa3e18dbd4b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_123_90e3900be2866fb4b03aa725f28528b3.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 95651,
+      "sha256": "32d274938576b245a1391dc4bb2598a7759b6fe00a7cb88ac87a0350284e67ce"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_124_78cecebf03de295f48c9f843992a2ecb.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 89593,
+      "sha256": "5ff257b7ed881136d1962ff1eacef9a2c05a6b15d9620859aa7503695f674a1f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_125_6c15941a0c40a1ff37ce8de33548d7af.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 90866,
+      "sha256": "029e72c57be3eed8277d69e2b6699bddaf69e9e76cdc5dc53d47b3c0645dfc83"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_126_69fbd5f85207a3de6e84e78a47f4dc66.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 94880,
+      "sha256": "7953e4a47239286dcc6b45b9153cf1a214c9c006cc00c50df844eded27bbbe50"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_127_604d0faec679101d62af47254a0e04bd.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 136839,
+      "sha256": "16f2453a96b29fb72e1d7ec3a36c547be98f6a6e7bb59dfa660885cdb28f97f0"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_128_a30771c62ff6ef53ea85d94ae768085a.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134297,
+      "sha256": "bb67fd4fd442a9d3bdcec038d37e65557522f06527ef19a435c753def20f00d9"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_129_4095ce0ff117ff3458c28447fd8246cc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 141259,
+      "sha256": "757d19009d7f9b3aed8432234ee028b3f4e29fa7a6d7be1c505ca257386aee40"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_130_c7f7abc753545129ef5706661bbd4573.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 157496,
+      "sha256": "a052987d91028befade6ed41541a15f4c43a7842e0de089bfcfea4f4e106a615"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_131_45b3de86404e8a6fb67644a760c100b9.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 169373,
+      "sha256": "c1317cc327160677368ef6af2b02f90dd4b2bd829f0cfae0a5231d86e204b72b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_132_46970d9b8b2dd5ebe80f793dab808cc2.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 152637,
+      "sha256": "ca2f56fe509eca9c76fde096f3696a4bebb1c982b1cc55c44af1f3f6d470ed85"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_133_3012b925699c790cf851fee92688b34e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 149675,
+      "sha256": "000c7fe2b9d63102483bfed666a9ca18c777a28ece90f6bbcc0b9765c4d5f1a3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_134_60abeece6aac1189da213f265b49f807.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 161667,
+      "sha256": "98c4036424b19b82cf945d002858145288b1078e78de46c13834863fce430ffa"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_135_e65b4ce9e0aa339a2d42668ec358d765.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 169859,
+      "sha256": "15849001e3835fa57f788b576ef0f21391af8571404cbfb9b8cb0f3bf9ce0598"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_136_4a88998e9cf832f5f22770424a97301d.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 154644,
+      "sha256": "618fffa1a94fcf9ca7a2fcfc470f492c784dc98ed05709ad875ca675599df958"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_1_1c1b97ecf7df3a2ebbc16e9b07c1df60.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 134087,
+      "sha256": "be94efb807aa138ba6e06317412ecd96da786dd503acb31e99923eefb64801c6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_501_a154c00041af18ce4a0ae6a7c8302c73.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128915,
+      "sha256": "a86d8d3c7c5b5afdbf1b92cd72d4510a0a728bb0b5ee77ca5bc0c51510484b9a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_502_f3494ccfc78d4503b8d7d57b1f8b00fc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 135862,
+      "sha256": "c4b56cfc84338e91f3a661d60b61b5abac6b198a361042814e014c09a00ccb63"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_503_e29c06eb457c43bcd7a342c58aaf1448.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 138141,
+      "sha256": "3019d3449a0f1eb81ec8556ed5ec1618b358d9f3e2f37e5976f2d690062df700"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_504_7045a87d1c28f8961f5ba031c98219da.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127755,
+      "sha256": "a5fa9411c24af42cf603b638fb3b930c0eec06914e653bd7d1a37490359873ba"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_505_5799f0f3c1ac0327ae94277feec57be0.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123540,
+      "sha256": "a54dd7fd7264c3af1c9130345804e3ab0c4c59848933f9f05694d5520ab7a03e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_506_ca918d154e51071ab131b4cd2a79f90e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127517,
+      "sha256": "561fe0cc3e46a07e5599d2f8fc9434767eff7b0c91311147d1239ca4dda26773"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_507_403f9e66652a2a07eb9d8b0b4d166684.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 130125,
+      "sha256": "83539ed32c95e08995ba08bbc2066d55f18273f8ea6c2bbe3e0504c3ce20b3e6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_508_413c7f788befa496ec3ce0aa3fcfb023.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125142,
+      "sha256": "3dfa3d62f621863b4c359a90bb10ea1a74d8d210d84969fa970f6f1b6ffa30e2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_509_9afc8d226c71b472406da61b95b13e27.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128548,
+      "sha256": "5456533d0f64c36510386f43af68376632ee68762d77f7cd57d6572bd46ff4e5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_510_02801256221c858ad6041536cb6ed0f3.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 91207,
+      "sha256": "b668ce36c002a756660db4a0eedee919cf276cf99b65843edecee8eae8c6eee4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_511_66d999b5fe4c5605830270e23b3fc391.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 133647,
+      "sha256": "af15a7739c384be7fc81e20ac69002ed6d4522309fc1b011a7c0b15425415b1b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_512_9ebbf0ae4e5ba00fb0f4c5cd45639637.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 140697,
+      "sha256": "193ab7aff98c1993db8686a72b4e9d9d5f1568850cc6cbec3430cd67ced6e4e8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_513_2ef1c431bbe7acb86dac990444179594.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 140372,
+      "sha256": "cc65a513d6b5783d8f792023954e113f7454a1540622303228257888ff4d4489"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_514_748646896fced78386d0c64668b81d8e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 146183,
+      "sha256": "d70abc0efb93e1966ca5b2da0aa10821630fa0b3b2fbdefdeae332f66cc876a8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_515_4b64037e78848ecbba0926257d206a6a.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 121246,
+      "sha256": "875460faa38425085b062fe801bccab1ae6a078d760c1729d09ba414a2ba9be5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_516_2aca965df35ee5bf32b8abf0ba0cd6f5.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 86611,
+      "sha256": "bf437808fcf0ecd36bbf48edc047af36a5aadf0127f9cfae2414cfc45f9a745c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_517_34c1afe903bc83c35f4cdbe01a0469f4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 91872,
+      "sha256": "025a666e3cd85e9c76dbd24776325736cf12dc80c5760e8ab9f4e11f393af09e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_518_94b74d794e32d6e139f3be04aaae2410.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 89936,
+      "sha256": "e73c4c5b12d42a390b3a5fa8e8d1e5214124e8b324aca07a85665adbb225ee99"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_519_817ec5a80212e12426b5072af0884c49.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 85580,
+      "sha256": "6310f94c6abf1159cab5159c38881f61563a32ac95aa531f8293437536ad9c44"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_520_68d244ec18554c99b02783deb2def3f8.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 99512,
+      "sha256": "39350e143631ff8092b5aee692fe4213753275abdb699eefef470e41cb9b7a84"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_521_97a87ddb1d1badc5ed5b95fbffdd1879.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 85813,
+      "sha256": "aea760990e90fdf5f0a96b9ca7895d5ec839617df949baf81ea88e8170efbd9b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_522_8f8183feed18d65fade18425e610a9b4.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 97541,
+      "sha256": "8df72eaa73b99394df9cb91fad9e9a45a152916d94837badef9d77ac831a9238"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_523_cfa6ac97329b2e8e0ee1b9c7d831b645.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 150579,
+      "sha256": "bb2b291a80e813cd3d2aa49eb4065b7a0081e8f4afa712060a15c7451034ff85"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_524_cd8dfd91529ebdc4021c371be7b75b06.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 123153,
+      "sha256": "932afadae65ab55961a6f5d7bd6bdb9132dfa58ce4f8cc5e9b6679a1181cbf8c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_525_26164b23c151940967f4489f588066ef.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 127166,
+      "sha256": "b49b6034c8b600d4a9dc58f2c0f335ae3e35d0ed9994492a15bfa66369c1ff09"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_526_afab4650ef46c91db1ddca80d096a801.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 139638,
+      "sha256": "a8b3c3fc0a82c2251994355b6fe76b3ec4bcdbb74df88bfb6c368a695cd4489b"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_527_380252a1cb9fe45c27a751735c80237e.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 93612,
+      "sha256": "d1e74e7d7256cfe8165679b8e21197d7507abf4e51cf1bcd54861efb64e5181d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_528_1a15884e812e9872eeb71c5432db99ef.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 93079,
+      "sha256": "32d1a2cd3ed26c1020979976bccbe045cabe585aaf7254a148528c1c29490f43"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_529_d191a8cb837a277dd4c4b8447bb97809.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 125406,
+      "sha256": "9476f02b9e153932b200d6afe58cc1fd9f3509284b1a2b1008d507a85b20f125"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_530_180a716018760c1d72432e245e91fc75.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128547,
+      "sha256": "b6d7ce4c019bd30ae0b0896015b758615b8a498fb323ee94e1c32488ab62a935"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_531_92283c28af10ed3378a307d306115b6c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 172428,
+      "sha256": "6fc57fa2a3c1d971a9a379d72e5724c0c200c7042888ddf49c7039a3a2533973"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_532_f94a8ad0b6981ed1c2a885428b65150f.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 140285,
+      "sha256": "1c7b9c4bad61d2c6a8393785dd112ae312443f81133847c961db97c0b9fc9e2f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_533_a8d82edaeb4335792035dc3b35aacc66.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 143395,
+      "sha256": "ca8f738daa76328f984674054be44deccd38079972e4194fe151b16f6797f86e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_534_c1e75f557ee5709580071c290a4018f7.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 151929,
+      "sha256": "6aa50e8808bbb5e5c6757ecbe66b0bfa36eae6b3fc6b1ba7804dda27c27866ca"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_535_68811c75516a5b65587978e458aa327c.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 135394,
+      "sha256": "6e28a18e758a2abf759e040f10dfbb75a2dcb1b4b722c3cd5bc65c0dbeb5e247"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_536_ea543d8dc8e1f84a442804114bdb7dde.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 142538,
+      "sha256": "f147ab0ac3f3d0924e687dca954eb0ae3fece6f757c5440bd16f4accea1b92ca"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_537_b424a55879f686691538f5b68caf3233.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 151959,
+      "sha256": "7edd0abec36e22a40d3439b75036af5e86c3f126e61326a14abfe37a3b13cc8f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_level_3_538_7a37037309764da29d6a50a25d19dd60.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 128962,
+      "sha256": "2120dc513b21b54ae2beefaa011263d8b9831ec4c2644df0896c37f40c668908"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/loadaftergamestart_assets_all_1904966f2fabe5491034d7f281d2a2fc.bundle",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 4031995,
+      "sha256": "71caa39b32758917dc107e6814911757a18221656a46ded7d16dd51a08ecf1ea"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/catalog.json",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 463237,
+      "sha256": "79a0b2da762fa82d947ccff18c18e7f71a1f5cadf9e6f1a26a0a0b54bb676d3e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/settings.json",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 1591,
+      "sha256": "4ce676ffc6bdfa366a8aaf801c2124e477d81ba9132ece3df11866e9838fcdd4"
+    },
+    {
+      "assetPath": "fonts/torus-bold-webfont.woff2",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 23064,
+      "sha256": "af95aaf09528c2abfc0203c1fd9a56f9d6090fa969abdb65b4d0b73b5c905dd5"
+    },
+    {
+      "assetPath": "index.html",
+      "provenance": "Tip Tap integration",
+      "bytes": 514,
+      "sha256": "089c9277d20829900b18a52d454a6af0dd50807f94f06c64386b846994ccd3a9"
+    },
+    {
+      "assetPath": "screenshots/1.png",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 188462,
+      "sha256": "6e96492ba4454903f0c34e6ef196c3c5b1e18655d5d55cc721f82e63c3934e35"
+    },
+    {
+      "assetPath": "tiptap-config.js",
+      "provenance": "Tip Tap integration",
+      "bytes": 816,
+      "sha256": "4a9944e2cbf337b8c136a6ead092240eed3fd1fad2de8017ebd8dc6d697eefe1"
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "provenance": "Tip Tap integration",
+      "bytes": 2858,
+      "sha256": "b2cdc8f49daecdf6c11955e9a0ac929dab63ae88a04331cfb2e16ca94490dd27"
+    },
+    {
+      "assetPath": "tiptap-unity-2020.js",
+      "provenance": "Tip Tap integration",
+      "bytes": 28645,
+      "sha256": "c58148bba32d7440f6d6020cd174d8f162ad418601ef33d572359c7bd0026c11"
+    }
+  ]
+}

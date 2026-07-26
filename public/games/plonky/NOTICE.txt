@@ -1,0 +1,21 @@
+Plonky local source mirror
+==========================
+
+Source page supplied for this integration:
+https://poki.com/en/g/plonky
+
+The source-game metadata identifies the developer as Gametornado. This directory
+contains the authorized, same-origin Construct 3 source bundle required for Tip
+Tap's local deployment.
+
+The Poki page shell and Poki SDK are not included. Their advertising, analytics,
+beacons, leaderboards, identity, and tracking dependencies are absent. The local
+compatibility shim provides only the no-ad lifecycle methods the copied Construct
+launcher needs to begin the original game.
+
+Tip Tap starts the original source launcher immediately. The source does not
+publish a verified score or completion callback, so this game remains unranked
+rather than sending an invented score to Tip Tap's leaderboard.
+
+The original creator identity is preserved. Tip Tap does not represent this
+copied work as its own creation.

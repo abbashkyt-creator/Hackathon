@@ -1,0 +1,15 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/fruit-ninja/index.html",
+    "/games/fruit-ninja/js/tiptap-platform-bridge.js",
+    "/games/fruit-ninja/vendors.bundle.js",
+    "/games/fruit-ninja/main.bundle.js",
+    "/games/fruit-ninja/assets/ammo/ammo.wasm.js",
+    "/games/fruit-ninja/assets/ammo/ammo.wasm.wasm",
+    "/games/fruit-ninja/assets/font/gangofchinese.ttf",
+    "/games/fruit-ninja/assets/splash/splash screen.png",
+    "/games/fruit-ninja/assets/splash/LoadingBar.png",
+    "/games/fruit-ninja/assets/splash/loading text.png"
+  ]
+}

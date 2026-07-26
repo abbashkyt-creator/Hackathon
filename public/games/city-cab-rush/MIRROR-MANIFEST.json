@@ -1,0 +1,22 @@
+{
+  "source": {
+    "title": "City Cab Rush",
+    "developer": "StoreRider",
+    "sourceGameId": "05106d2f-b06f-497f-bfcf-4e719bde3d3a",
+    "sourceVersionId": "28588554-220e-42ca-a0ad-a44c7cfa55cc"
+  },
+  "files": [
+    { "assetPath": "Build/TaxiRush-V1.3.4.loader.js", "bytes": 26454, "sha256": "2e812f10d2526d377e940946a2a972a1a78cef34fe867c1ae4433014c12261a0" },
+    { "assetPath": "Build/TaxiRush-V1.3.4.data", "bytes": 31801510, "sha256": "0c3fe2367da4445acb7de94d9727885948d1eabd6e1a0469e80b21baca9ec1e6" },
+    { "assetPath": "Build/TaxiRush-V1.3.4.framework.js", "bytes": 481595, "sha256": "20118515f9bddae408873fb60f55437f95024b17ce7b3a217e3fc16d947aba2d" },
+    { "assetPath": "Build/TaxiRush-V1.3.4.wasm", "bytes": 34677208, "sha256": "d3c7b17b87464523d7a4c47e77d068a58770ff63a256075824391f8a3b80ab88" }
+  ],
+  "integrationFiles": [
+    { "assetPath": "index.html", "bytes": 1105, "sha256": "8060ab02b9c8e8c0246bbf27ba3dfb459c23ec3a666daf6a17ee26ae9803280d" },
+    { "assetPath": "tiptap-platform-bridge.js", "bytes": 2935, "sha256": "1a35fe015c2f5e1836f810146fa50c402aa7c000e07a5a047a30b87fe8f345b1" },
+    { "assetPath": "tiptap-bootstrap.js", "bytes": 4094, "sha256": "dd1b51aa3d6c14b64f5a3beaa8ef74f41d34aaad33bcdb043024c315357bcc19" },
+    { "assetPath": "tiptap-shell.css", "bytes": 1265, "sha256": "f86a787d94a9633eed6520893ef94679d4b708d1e942d119dc41446e2481c641" },
+    { "assetPath": "NOTICE.txt", "bytes": 514, "sha256": "560f5a839a629f12a5786ce6351a6f8f17575b8744046487a1eadbbbe8361c78" },
+    { "assetPath": "preload-manifest.json", "bytes": 201, "sha256": "688e0e70ea34cfe4f73a670d327c2f85c361150e9bf40f3cba65b4e7861535aa" }
+  ]
+}

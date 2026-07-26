@@ -1,0 +1,24 @@
+Archery King local source mirror
+================================
+
+Source page supplied for this integration:
+https://www.4j.com/Archery-King
+
+The supplied page embeds the direct Archery King browser game published through
+GameDistribution. The visible source-game metadata identifies the developer as
+Code This Lab srl. This directory contains the authorized, same-origin source
+bundle required for Tip Tap's local deployment.
+
+The 4J page shell and the GameDistribution host wrapper were not copied. Their
+consent UI, advertising, analytics, identity, and tracking dependencies are
+absent. The local launcher omits the remote GameDistribution SDK and Code This
+Lab more-games service. The source's remote multiplayer entry is hidden because
+it requires a third-party service; the 24-level solo Archery King game, its
+source touch controls, original assets, and source score event remain intact.
+
+Tip Tap starts the genuine source game in solo level one after its own preload,
+so a feed viewer can swipe onto the card and play immediately. Scores are only
+forwarded from the source's original save_score event; no score is fabricated.
+
+The original creator identity is preserved. Tip Tap does not represent this
+copied work as its own creation.

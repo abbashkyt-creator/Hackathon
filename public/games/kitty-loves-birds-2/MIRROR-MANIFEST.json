@@ -1,0 +1,24 @@
+{
+  "source": {
+    "title": "Kitty Loves Birds 2",
+    "developer": "Claudiu V",
+    "runtime": "Construct local mirror"
+  },
+  "runtimePolicy": {
+    "externalRequests": false,
+    "ads": false,
+    "leaderboards": false,
+    "account": false
+  },
+  "files": [
+    { "assetPath": "scripts/main.js", "bytes": 140678, "sha256": "a7d198684e74215ad10ab2c8c4eeaca167a09749d83c4b87c09f6dc224cf2e61" },
+    { "assetPath": "scripts/c3runtime.js", "bytes": 1747959, "sha256": "d0211adddd9f9314e21b92ddbf1f0fdfaf737b865029f386041977610ec0c699" },
+    { "assetPath": "data.json", "bytes": 5185791, "sha256": "36371547d485ae091554f2ad2d230492e624a734a9d4665997b9e5380dc57407" },
+    { "assetPath": "box2d.wasm", "bytes": 246906, "sha256": "980c1932c6b690cc927a5df0cf2b483b58740979f2966922a2f1c9af7270a80e" }
+  ],
+  "integrationFiles": [
+    { "assetPath": "index.html", "bytes": 1338, "sha256": "b62cbe4240a3146190b9a060ada7ef7da3246ba59020cc708f919c4de72de5a5" },
+    { "assetPath": "NOTICE.txt", "bytes": 515, "sha256": "ad542267bcaef4c3202b1f4e9413cda89633c4988a5110cfec557575b778359a" },
+    { "assetPath": "preload-manifest.json", "bytes": 217, "sha256": "3cd2d5ab1346145df46fe80664198eecac48d7bb42803034077b99528b4002f8" }
+  ]
+}

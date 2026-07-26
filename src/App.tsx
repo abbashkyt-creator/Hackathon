@@ -28,13 +28,27 @@ import { formatScore, shuffle } from "./game-utils";
 import { OFFLINE_BOOTSTRAP } from "./offline-catalog";
 import {
   ArithmeticaGame,
+  ArcheryKingGame,
   ColorClashGame,
+  CityCabRushGame,
+  CountControlLegendsGame,
+  JohnnyTriggerSniperGame,
   DinoRunnerGame,
   MemoryGridGame,
   MeteorDodgeGame,
+  PingPongBugsGame,
+  PingPongGoGame,
+  PlonkyGame,
+  FruitNinjaGame,
+  KittyLovesBirds2Game,
+  TheftCityGame,
   PulseLockGame,
   SixtySevenGame,
   StackShiftGame,
+  SmashRoomGame,
+  SupercarLegendsGame,
+  TempleRun2FrozenShadowsGame,
+  StickmanFuryGame,
   SubwaySurfersGame,
 } from "./games";
 import type {
@@ -58,6 +72,20 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "dino-runner": DinoRunnerGame,
   "arithmetica": ArithmeticaGame,
   "67-game": SixtySevenGame,
+  "archery-king": ArcheryKingGame,
+  "smash-room": SmashRoomGame,
+  "temple-run-2-frozen-shadows": TempleRun2FrozenShadowsGame,
+  "stickman-fury": StickmanFuryGame,
+  "plonky": PlonkyGame,
+  "fruit-ninja": FruitNinjaGame,
+  "count-control-legends": CountControlLegendsGame,
+  "johnny-trigger-sniper": JohnnyTriggerSniperGame,
+  "kitty-loves-birds-2": KittyLovesBirds2Game,
+  "theft-city": TheftCityGame,
+  "city-cab-rush": CityCabRushGame,
+  "supercar-legends": SupercarLegendsGame,
+  "ping-pong-go": PingPongGoGame,
+  "ping-pong-bugs": PingPongBugsGame,
 };
 
 const GAME_EYEBROWS: Record<GameSlug, string> = {
@@ -70,6 +98,20 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "dino-runner": "OUTRUN THE CACTI",
   "arithmetica": "MATH UNDER PRESSURE",
   "67-game": "67 LEVELS. ONE CLOCK.",
+  "archery-king": "AIM. DRAW. HIT THE BULLSEYE.",
+  "smash-room": "PICK A TOOL. BREAK EVERYTHING.",
+  "temple-run-2-frozen-shadows": "RUN THE ICE. OUTPACE THE MONKEY.",
+  "stickman-fury": "MOVE. FIGHT. SURVIVE THE ARENA.",
+  "plonky": "RUN. JUMP. OUTSMART THE TRAPS.",
+  "fruit-ninja": "SLICE FRUIT. AVOID BOMBS.",
+  "count-control-legends": "COUNT. MULTIPLY. CONQUER.",
+  "johnny-trigger-sniper": "AIM CAREFULLY. SAVE THE CITY.",
+  "kitty-loves-birds-2": "RUN. LEAP. BOUNCE ON BIRDS.",
+  "theft-city": "STEAL. ESCAPE. RULE THE CITY.",
+  "city-cab-rush": "DRIVE FAST. DODGE TRAFFIC. PICK UP FARES.",
+  "supercar-legends": "MATH-GATE SUPERCAR RUNNER",
+  "ping-pong-go": "RALLY vs THE CPU",
+  "ping-pong-bugs": "SMASH THE BUG WAVE",
 };
 
 interface FeedEntry {
@@ -408,6 +450,7 @@ function GameCard({
   entry,
   index,
   active,
+  preparing,
   player,
   like,
   soundEnabled,
@@ -423,6 +466,7 @@ function GameCard({
   entry: FeedEntry;
   index: number;
   active: boolean;
+  preparing: boolean;
   player: Player;
   like: LikeState;
   soundEnabled: boolean;
@@ -453,14 +497,14 @@ function GameCard({
     setResult(null);
     setScore(0);
     setError(null);
-    if (offlinePractice) return;
+    if (offlinePractice || game.ranked === false) return;
     try {
       const run = await api.startRun(game.slug);
       setTicket(run.ticket);
     } catch (requestError) {
       setError(requestError instanceof Error ? requestError.message : "Could not start this run.");
     }
-  }, [game.slug, offlinePractice]);
+  }, [game.ranked, game.slug, offlinePractice]);
 
   useEffect(() => {
     if (active) void begin();
@@ -572,7 +616,7 @@ function GameCard({
     >
       <div className="card-atmosphere" />
       <div className="game-frame">
-        {game.slug !== "subway-surfers" && (
+        {game.slug !== "subway-surfers" && game.slug !== "stickman-fury" && game.slug !== "supercar-legends" && (
           <div className="game-label">
             <span>{GAME_EYEBROWS[game.slug]}</span>
             <h1>{game.title}</h1>
@@ -580,12 +624,13 @@ function GameCard({
         )}
         <Game
           active={gameLive}
+          preparing={preparing}
           runKey={runKey}
           soundEnabled={soundEnabled}
           hapticsEnabled={hapticsEnabled}
           onFinish={handleFinish}
         />
-        {!ticket && active && !offlinePractice && !error && !submitting && (
+        {game.ranked !== false && !ticket && active && !offlinePractice && !error && !submitting && (
           <div className="run-syncing-badge">
             <LoaderCircle className="spin" size={12} />
             <span>syncing</span>
@@ -611,10 +656,12 @@ function GameCard({
           <Heart fill={like.liked ? "currentColor" : "none"} />
           <span>{like.count || "Hype"}</span>
         </button>
-        <button onClick={() => setBoardOpen(true)} aria-label="Open leaderboard">
-          <Trophy />
-          <span>Ranks</span>
-        </button>
+        {game.ranked !== false && (
+          <button onClick={() => setBoardOpen(true)} aria-label="Open leaderboard">
+            <Trophy />
+            <span>Ranks</span>
+          </button>
+        )}
         <button onClick={share} aria-label="Share game or challenge">
           <Share2 />
           <span>Share</span>
@@ -630,7 +677,27 @@ function GameCard({
               ? "BY CHROME UX · TIP TAP INTEGRATION"
               : game.slug === "67-game"
                 ? "BY STUPIDELLA · LOCAL SOURCE MIRROR"
-                : "@tiptap"}
+                : game.slug === "archery-king"
+                  ? "BY CODE THIS LAB · LOCAL SOURCE MIRROR"
+                  : game.slug === "smash-room"
+                    ? "BY HAPPYLANDER LTD · LOCAL SOURCE MIRROR"
+                    : game.slug === "temple-run-2-frozen-shadows"
+                      ? "BY IMANGI STUDIOS · LOCAL SOURCE MIRROR"
+                    : game.slug === "stickman-fury"
+                      ? "BY HAPPYLANDER LTD · LOCAL SOURCE MIRROR"
+                    : game.slug === "plonky"
+                      ? "BY GAMETORNADO · LOCAL SOURCE MIRROR"
+                    : game.slug === "fruit-ninja"
+                      ? "BY STORMS · LOCAL SOURCE MIRROR"
+                      : game.slug === "johnny-trigger-sniper"
+                        ? "BY SAYGAMES · LOCAL SOURCE MIRROR"
+                        : game.slug === "city-cab-rush"
+                          ? "BY STORERIDER · LOCAL SOURCE MIRROR"
+                          : game.slug === "supercar-legends"
+                            ? "BY JUNGLE TAVERN · TIP TAP INTEGRATION"
+                            : game.slug === "ping-pong-go" || game.slug === "ping-pong-bugs"
+                              ? "BY HAPPYLANDER · TIP TAP INTEGRATION"
+                  : "@tiptap"}
         </span>
         <h2>{game.title}</h2>
         <p>
@@ -696,6 +763,12 @@ export function App() {
   const [hapticsEnabled] = useState(
     () => window.localStorage.getItem("ttg_haptics") !== "off",
   );
+  const preparingIndex = useMemo(() => {
+    const relative = entries
+      .slice(activeIndex + 1, activeIndex + 5)
+      .findIndex((entry) => isEmbeddedGame(entry.game.slug));
+    return relative < 0 ? -1 : activeIndex + relative + 1;
+  }, [activeIndex, entries]);
   const observerRef = useRef<IntersectionObserver | null>(null);
   const nodesRef = useRef(new Map<number, HTMLElement>());
 
@@ -776,8 +849,11 @@ export function App() {
   }, [activeIndex, bootstrap, entries.length]);
 
   useEffect(() => {
+    // Warm the selected card as well as the next three. This matters for a
+    // deep link or the very first feed item: a large local Unity build starts
+    // downloading before its iframe is mounted, rather than after a swipe.
     const upcomingEmbeddedGame = entries
-      .slice(activeIndex + 1, activeIndex + 4)
+      .slice(activeIndex, activeIndex + 4)
       .map((entry) => entry.game)
       .find((game) => isEmbeddedGame(game.slug));
     if (!upcomingEmbeddedGame) return;
@@ -863,7 +939,12 @@ export function App() {
             key={entry.id}
             entry={entry}
             index={index}
-            active={index === activeIndex && pageVisible}
+            // Keep the selected game mounted even when an embedded browser reports
+            // `document.visibilityState === "hidden"`. Some mobile/webview hosts
+            // make that report while the user can still see and touch the feed;
+            // unmounting here replaced the game with a non-interactive placeholder.
+            active={index === activeIndex}
+            preparing={pageVisible && index === preparingIndex}
             player={bootstrap.player}
             like={bootstrap.likes[entry.game.slug] ?? { liked: false, count: 0 }}
             soundEnabled={soundEnabled}

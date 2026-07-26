@@ -1,0 +1,10 @@
+Kitty Loves Birds 2 is a local Tip Tap Games mirror of the supplied Construct
+runtime. Attribution in the source metadata identifies Claudiu V as the author.
+
+The Poki page shell, advertising, analytics, identity, leaderboards, and remote
+platform services are not part of this deployment. Tip Tap loads its shared
+same-origin network lock before every game script so external runtime requests
+are blocked.
+
+Deployment permission and any required source-game licence remain the
+responsibility of the project owner.

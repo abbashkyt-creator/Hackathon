@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="data:," />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Fruit Ninja</title>
+    <script src="/games/_shared/network-lock.js"></script>
+    <script src="js/tiptap-platform-bridge.js"></script>
+    <style>
+      @font-face {
+        font-family: gangofchinese;
+        src: url("assets/font/gangofchinese.ttf");
+      }
+      html,
+      body,
+      #content {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #000;
+        touch-action: none;
+      }
+      .font-loader {
+        position: absolute;
+        left: -1000px;
+        visibility: hidden;
+        font-family: gangofchinese;
+      }
+      #phaser-canvas {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #000;
+      }
+      #enable3d-three-canvas,
+      #enable3d-phaser-canvas {
+        max-width: 100%;
+        margin: 0 auto;
+        outline: none;
+      }
+      #enable3d-three-canvas {
+        position: absolute;
+      }
+      @media (min-aspect-ratio: 1.85) {
+        #enable3d-three-canvas,
+        #enable3d-phaser-canvas {
+          width: 960px;
+          min-width: 640px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="font-loader">-</div>
+    <div id="content">
+      <div id="phaser-canvas"></div>
+    </div>
+    <script src="assets/ammo/ammo.wasm.js"></script>
+    <script src="vendors.bundle.js"></script>
+    <script src="main.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "critical": [
+    "/games/temple-run-2-frozen-shadows/index.html",
+    "/games/temple-run-2-frozen-shadows/global.css",
+    "/games/temple-run-2-frozen-shadows/poki-sdk-local.js",
+    "/games/temple-run-2-frozen-shadows/bundle.js",
+    "/games/temple-run-2-frozen-shadows/2.bundle.js",
+	"/games/temple-run-2-frozen-shadows/tiptap-autostart.js",
+    "/games/temple-run-2-frozen-shadows/fonts/temple-run-small-caps.woff2",
+    "/games/temple-run-2-frozen-shadows/assets/characters/scarlett_fox/Scarlett_Fox_Arctic.glb",
+    "/games/temple-run-2-frozen-shadows/assets/tracks/Arctic/Base/base_pack_1.glb",
+	"/games/temple-run-2-frozen-shadows/assets/tracks/Arctic/Base/base_pack_2.glb",
+	"/games/temple-run-2-frozen-shadows/vendor/draco_decoder_gltf.wasm",
+    "/games/temple-run-2-frozen-shadows/assets/textures/Atlas_Opaque_Arctic.jpg"
+  ]
+}

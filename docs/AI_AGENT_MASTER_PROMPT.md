@@ -13,7 +13,7 @@ Before editing:
 2. Read README.md, docs/ARCHITECTURE.md, docs/APK-RELEASE.md, and this file.
 3. Read every applicable AGENTS.md.
 4. Inspect git status and preserve all existing/user changes.
-5. Identify the current runtime owner and verify http://localhost:3000/api/health.
+5. Identify the current runtime owner and verify its actual `/api/health` endpoint. Do not assume `localhost:3000`: on this PC it can be an unrelated service. The last confirmed Tip Tap development server was `http://127.0.0.1:3103/`.
 6. Run the existing release audit and focused tests before assuming any capability works.
 
 Product mission:
@@ -34,7 +34,18 @@ Immediate-play contract (TikTok-style):
 - A logo, intro, or loading animation may display, but it must transition into the real playable state automatically. Requiring a tap, click, keypress, Continue action, or host navigation after that intro violates the contract.
 - For Subway Surfers, preserve embedded=tiptap and autoplay=1. The local bridge may synthesize the verified canvas touch needed to enter the run, but it must stop retries when the real gameplay-start event appears.
 - For Dino Runner, preserve embedded=tiptap and autoplay=1. The local bridge must call `playIntro()` to bypass the standing-T-Rex state and start the intro animation which auto-hands-off to gameplay.
-- 67 Game is the locally hosted original SWF running in local Ruffle. Do not substitute a lookalike/rebuild and do not invent a score. Its source-owned start icon needs one genuine user tap because browser JavaScript cannot create a trusted gesture; after that, its original phone puzzles run locally with no Poki or ad request.
+- 67 Game is the locally hosted original source bundle: SWF, source `67_webgl` lifecycle, source-deployed Ruffle 2023-12-16 runtime, and mobile/desktop preload images. Do not substitute a lookalike/rebuild and do not invent a score. Its first phone puzzle advances through the green call button; do not misdiagnose the red button as a broken control. The copied source remains unranked because no trustworthy score callback exists.
+- ArithmeticA is a locally hosted original Phaser bundle with its full image, font, and audio set. Its bridge must replace only the source SDK insertion with the local no-ad implementation, and its source `SKIP_TITLE_SCREEN` configuration enables automatic entry to the real countdown/gameplay flow. Do not replace it with a lookalike, permit the Poki SDK/ads, or invent a score callback; the current source mirror is unranked.
+- Archery King is the local Code This Lab CreateJS source package captured through the 4J-supplied GameDistribution frame. Keep all 451 source-owned assets local. Do not restore GameDistribution, Code This Lab more-games, ads, tracking, consent UI, or remote multiplayer. The local bridge supplies only no-ad `gdsdk` compatibility methods required by the source. It starts genuine source solo level one after the source preloader; it may briefly show then hides the source's own touch tutorial. Its original `save_score` jQuery event is verified and may be ranked only through `tiptap-archery-king` same-origin parent messages.
+- Plonky is the local Gametornado Construct 3 / Box2D package in `public/games/plonky`. Preserve the original runtime, `data.json`, images, and audio. Keep `network-lock.js` first, omit the host offline/service-worker files, route only the source's Poki SDK insertion to `scripts/tiptap-poki-sdk.js`, and keep that shim local/no-ad/no-tracking. The source has no verified final-score callback, so Plonky stays playable but unranked.
+- Smash Room is the local Happylander Ltd HTML5/Three.js source package. Keep its 42 source assets local in `public/games/smash-room`; its original `loadLang("en")` entry point starts the genuine sandbox after the source preloader. Do not create `PokiSDK` or restore Poki, ads, analytics, tracking, or remote source URLs. The source has no verified parent score/completion callback, so it remains unranked.
+- Stickman Fury is the local Happylander Ltd canvas/Planck source package in
+  `public/games/stickman-fury`. Keep the Tip Tap title overlay off its canvas,
+  because it covers the original Stage/weapon UI. Its iframe intentionally
+  omits `allow-same-origin`; preserve the narrow `stickmanfuryv4` parent save
+  bridge and `Origin: null` asset headers. Keep the source physics panel blocked,
+  keep ads/platform services local no-op, and keep the game unranked until a
+  trustworthy source completion/score callback exists.
 - Do not fake gameplay with a video.
 - Do not generate a fake gameplay-start event. Verify the original game itself emits its real start signal or visibly advances frames.
 - Browser autoplay rules may keep sound muted until a real user gesture. Gameplay must still start; never weaken browser security to force sound.
@@ -96,6 +107,8 @@ Stage 1 — Full inspection
 - Investigate the whole relevant flow before editing.
 - Use targeted searches and inspect adjacent routes, overlays, responsive states, service worker, security headers, database path, and deployment configuration.
 - Distinguish verified facts from assumptions.
+- For every copied game, perform a **source-bundle audit before diagnosis**: VEU must be online (`status`: server UP and browser CONNECTED); inspect every game-frame document/script/fetch/WASM/data/image/audio request; save the source frame HTML and its bootstrap scripts; identify the exact runtime build, preload assets, source callbacks, platform SDK/ad hooks, orientation hooks, and first real puzzle action. Finding only the main payload is never enough evidence to call a game incompatible.
+- Compare the real source behavior against the local direct-page behavior before editing the feed. If the asset or lifecycle audit is incomplete, say so plainly—never claim the game is impossible or needs a rebuild.
 
 Stage 2 — Complete implementation
 - Implement the entire scoped change, including adjacent states and documentation.
@@ -106,12 +119,13 @@ Stage 3 — Verification
 - Run npm run check.
 - Use the VEU workspace for real browser verification:
   C:\Project C\Auction Main\Main\Auction\visual-editor\visual-editor-workspace
-- Test http://localhost:3000/ at 390x844 and desktop.
+- Test the confirmed Tip Tap port (last verified: `http://127.0.0.1:3103/`) at 390x844 and desktop.
 - Test the direct copied-game page and the real feed swipe path.
 - Prove the game starts without a Play/Press-to-play gate.
 - Confirm the real gameplay-start signal, changing frames, touch controls, score callback, and off-screen iframe removal.
 - Clear network history and prove project traffic uses only the Tip Tap/Replit origin plus intentional local data/blob URLs.
 - Treat any VEU-injected __vwe_panel resources as tooling, not product resources, and verify product-origin entries separately.
+- Do not treat old VEU console/network history as a current product failure. Clear it, reload the exact local page, and then inspect only the fresh product-origin records.
 
 Stage 4 — Zero-trust review
 - Review the diff, run git diff --check, rerun focused tests, and inspect mobile/desktop again.
@@ -135,6 +149,52 @@ Current verified Dino facts as of 2026-07-26:
 - A 390x844 direct-page VEU run reached gameplay automatically and advanced distance with only same-origin product requests.
 - A visible feed run required no Play interaction, completed with a real score, and its iframe was removed after swiping away.
 - Platform ads and remote calls are replaced or fail closed locally.
+
+Current verified Fruit Ninja facts as of 2026-07-26:
+- Local mirror: `public/games/fruit-ninja`
+- Source creator: Storms
+- Source game/version IDs: `8b32c0f4-2dcb-4fdd-bf8b-16df63b01532` / `255af3fb-6d80-441b-8cef-e07ff9a9075c`
+- 121 original files were captured; the local package is about 34.6 MB before build compression.
+- The Poki SDK, ads, analytics, tracking, and remote services are replaced or absent.
+- Auto-start follows the source's own home-to-gameplay transition.
+- The real source `showResult()` integer score is forwarded to the same-origin Tip Tap server.
+- Dedicated browser evidence used VEU 3470 and isolated CDP 9240 after shared feature-5 was proven unsafe.
+- Portrait preserves the landscape playfield with letterboxing; use landscape orientation for the final APK demo.
+
+Current verified Stickman Fury facts as of 2026-07-26:
+- Local mirror: `public/games/stickman-fury`
+- The captured package has 97 original assets, including all 56 levels.
+- The local bridge removes the Poki SDK/ads/analytics dependency, resolves
+  commercial breaks immediately, and declines rewarded placements.
+- Feed autoplay reached Stage 1 without a click; desktop controls and the
+  390x844 on-screen jump control changed gameplay.
+- Scrolling off-card removes the iframe; returning recreates and resumes it.
+- A clean direct reload observed 101 local requests, zero external requests,
+  zero failures, and zero warnings/errors.
+- Leave it unranked until the source owner supplies a verified score callback.
+- Detailed evidence: `docs/STICKMAN_FURY_PROGRESS.md`.
+
+Current verified Johnny Trigger - Sniper facts as of 2026-07-27:
+- Local mirror: `public/games/johnny-trigger-sniper`
+- Source creator: SayGames
+- Source game/version IDs: `994568e9-1512-4e00-a24d-e431e3eae6b1` / `1642d4b2-69f2-40ac-b15f-44bbefebb761`
+- Unity 2022.3.18f1 package: 276 files, 75,472,239 bytes, and 263/263 Addressables catalog files present.
+- The local Poki bridge is ad-free; rewarded requests fail closed with no reward.
+- Isolated desktop and 390x844 browser runs reached the original Mission 1 aiming scene without a Play button.
+- A trusted 390x844 touch interaction advanced the original game from Mission 1 to Mission 2.
+- Product traffic stayed same-origin with no network-lock reports. VEU toolbar localhost:3456 diagnostics are not product traffic.
+- Feed teardown was proven by switching to Dino Runner and observing no Johnny iframe.
+- No verified source score callback exists, so the game is deliberately unranked.
+- Keep `warmFullMirror: false`; preload only startup and first-play assets. Warming all later levels competes with Unity startup.
+- Keep only the active copied-game iframe and one next copied-game preboot.
+- Sound toggles must post mute state into the existing iframe and must not
+  rebuild its URL or reload Unity.
+- Production Brotli sidecars reduce the main WASM from 19,177,397 to 6,074,820
+  bytes and the main data file from 6,144,797 to 1,926,127 bytes, losslessly.
+- The 2026-07-27 gate passed the release audit, TypeScript, all 119 tests, the
+  production build, live desktop autoplay, 390x844 responsive layout, live
+  mute/unmute, and zero external frame requests.
+- Do not promise an instantaneous never-cached launch for this 75 MB Unity package. Use ahead-of-swipe hidden preboot and state cold-start limits honestly.
 
 Known external blockers:
 - No destination GitHub remote has been supplied.

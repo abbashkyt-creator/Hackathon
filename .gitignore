@@ -11,3 +11,11 @@ tmp/
 *.log
 .DS_Store
 Thumbs.db
+
+# Runtime data and local scratch (not part of the app source)
+*.db
+.codex-runtime/
+artifacts/
+.count-control-own-veu.png
+.count-control-verification.png
+.veu-profile/

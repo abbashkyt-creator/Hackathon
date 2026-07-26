@@ -4,6 +4,7 @@ interface GameRuntime {
   embedded: boolean;
   preloadManifest?: string;
   assetManifest?: string;
+  warmFullMirror?: boolean;
 }
 
 const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
@@ -26,6 +27,75 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     embedded: true,
     preloadManifest: "/games/67-game/preload-manifest.json",
     assetManifest: "/games/67-game/MIRROR-MANIFEST.json",
+  },
+  "archery-king": {
+    embedded: true,
+    preloadManifest: "/games/archery-king/preload-manifest.json",
+    assetManifest: "/games/archery-king/MIRROR-MANIFEST.json",
+  },
+  "smash-room": {
+    embedded: true,
+    preloadManifest: "/games/smash-room/preload-manifest.json",
+    assetManifest: "/games/smash-room/MIRROR-MANIFEST.json",
+  },
+  "temple-run-2-frozen-shadows": {
+    embedded: true,
+    preloadManifest: "/games/temple-run-2-frozen-shadows/preload-manifest.json",
+    assetManifest: "/games/temple-run-2-frozen-shadows/MIRROR-MANIFEST.json",
+  },
+  "stickman-fury": {
+    embedded: true,
+    preloadManifest: "/games/stickman-fury/preload-manifest.json",
+    assetManifest: "/games/stickman-fury/MIRROR-MANIFEST.json",
+  },
+  "plonky": {
+    embedded: true,
+    preloadManifest: "/games/plonky/preload-manifest.json",
+    assetManifest: "/games/plonky/MIRROR-MANIFEST.json",
+  },
+  "fruit-ninja": {
+    embedded: true,
+    preloadManifest: "/games/fruit-ninja/preload-manifest.json",
+    assetManifest: "/games/fruit-ninja/MIRROR-MANIFEST.json",
+  },
+  "count-control-legends": {
+    embedded: true,
+    preloadManifest: "/games/count-control-legends/preload-manifest.json",
+    assetManifest: "/games/count-control-legends/MIRROR-MANIFEST.json",
+  },
+  "johnny-trigger-sniper": {
+    embedded: true,
+    preloadManifest: "/games/johnny-trigger-sniper/preload-manifest.json",
+    assetManifest: "/games/johnny-trigger-sniper/MIRROR-MANIFEST.json",
+    // This Unity catalog contains hundreds of later-level Addressables.
+    // Downloading all of them while the visible card boots delays Mission 1.
+    warmFullMirror: false,
+  },
+  "kitty-loves-birds-2": { embedded: true },
+  "theft-city": {
+    embedded: true,
+    preloadManifest: "/games/theft-city/preload-manifest.json",
+    assetManifest: "/games/theft-city/MIRROR-MANIFEST.json",
+  },
+  "city-cab-rush": {
+    embedded: true,
+    preloadManifest: "/games/city-cab-rush/preload-manifest.json",
+    assetManifest: "/games/city-cab-rush/MIRROR-MANIFEST.json",
+  },
+  "supercar-legends": {
+    embedded: true,
+    preloadManifest: "/games/supercar-legends/preload-manifest.json",
+    assetManifest: "/games/supercar-legends/MIRROR-MANIFEST.json",
+  },
+  "ping-pong-go": {
+    embedded: true,
+    preloadManifest: "/games/ping-pong-go/preload-manifest.json",
+    assetManifest: "/games/ping-pong-go/MIRROR-MANIFEST.json",
+  },
+  "ping-pong-bugs": {
+    embedded: true,
+    preloadManifest: "/games/ping-pong-go/preload-manifest.json",
+    assetManifest: "/games/ping-pong-go/MIRROR-MANIFEST.json",
   },
 };
 
@@ -83,7 +153,8 @@ async function collectWarmUrls(slug: GameSlug): Promise<string[]> {
     ? manifest.critical.filter((url): url is string => typeof url === "string")
     : [];
 
-  if (connectionIsConstrained() || !runtime.assetManifest) return critical.slice(0, 1);
+  if (connectionIsConstrained()) return critical.slice(0, 1);
+  if (!runtime.assetManifest || runtime.warmFullMirror === false) return critical;
 
   const assetResponse = await fetch(runtime.assetManifest, {
     cache: "force-cache",

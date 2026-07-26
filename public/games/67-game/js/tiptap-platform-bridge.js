@@ -1,100 +1,110 @@
 /*
- * Local lifecycle adapter for 67 Game. The licensed source is an SWF, played
- * by the local Ruffle runtime. No Poki code, ad SDK, analytics, or remote
- * request is used at runtime.
+ * Local adaptation of the source 67_webgl.js launcher. It deliberately keeps
+ * the SWF's orientation and ExternalInterface lifecycle but replaces Poki SDK
+ * calls, ads, telemetry, and remote services with no-op local equivalents.
  */
 (function () {
-  'use strict';
+  "use strict";
 
-  var GAME_SOURCE = 'tiptap-67-game';
-  var PARENT_SOURCE = 'tiptap-parent';
-  var params = new URLSearchParams(window.location.search);
-  var autoStartRequested = params.get('autoplay') === '1' || params.get('embedded') === 'tiptap';
-  var muted = params.get('muted') !== '0';
+  var GAME_SOURCE = "tiptap-67-game";
+  var PARENT_SOURCE = "tiptap-parent";
   var player = null;
   var playerApi = null;
-  var autoStartTimer = 0;
+  var muted = new URLSearchParams(window.location.search).get("muted") !== "0";
   var launched = false;
-
   window.__TIPTAP_BRIDGE_EVENTS__ = window.__TIPTAP_BRIDGE_EVENTS__ || [];
 
   function record(type, data) {
     window.__TIPTAP_BRIDGE_EVENTS__.push(Object.assign({ type: type, at: Date.now() }, data || {}));
   }
 
-  function postToParent(type, data) {
+  function post(type, data) {
     record(type, data);
-    window.parent.postMessage(Object.assign({ source: GAME_SOURCE, type: type }, data || {}), window.location.origin);
+    if (window.parent !== window) {
+      window.parent.postMessage(Object.assign({ source: GAME_SOURCE, type: type }, data || {}), window.location.origin);
+    }
+  }
+
+  function isVertical() {
+    return window.innerHeight > window.innerWidth;
+  }
+
+  function applyOrientation() {
+    if (!player) return;
+    var method = isVertical() ? "ToVertical" : "ToHorisontal";
+    if (typeof player[method] === "function") player[method]();
+    var preload = document.getElementById("preload-image");
+    if (preload) preload.src = isVertical() ? "./preloader_67_ver.jpg" : "./preloader_67_hor.jpg";
   }
 
   function applyMutedState() {
     if (playerApi) playerApi.volume = muted ? 0 : 1;
   }
 
-  function autoStart() {
-    if (!autoStartRequested || !playerApi || launched) return;
-    // Ruffle 0.4.1 reports Loaded as enum value 2; older builds exposed the
-    // string. Support both without treating an initial timeline as gameplay.
-    if (playerApi.readyState !== 2 && playerApi.readyState !== 'Loaded') {
-      autoStartTimer = window.setTimeout(autoStart, 80);
-      return;
+  function hidePreloader() {
+    var preload = document.getElementById("preload-image");
+    var dim = document.getElementById("screen-dim");
+    if (preload) preload.style.display = "none";
+    if (dim) { dim.style.opacity = "0"; dim.style.display = "none"; }
+  }
+
+  // The SWF invokes this through Ruffle ExternalInterface. These exact source
+  // signals are why a bare generic Ruffle host cannot reproduce the game.
+  window.myJavaScriptFunction = function (signal) {
+    record("source-signal", { signal: String(signal) });
+    if (signal === "gameLoadingFinished") applyOrientation();
+    if (signal === "gameplayStart" || signal === "gameplayStop") post(signal);
+    if (signal === "preloadercomplete") {
+      var dim = document.getElementById("screen-dim");
+      if (dim) dim.style.opacity = "1";
     }
+    if (signal === "perekl2frame") hidePreloader();
+    // Tip Tap intentionally has no third-party advertising. Let the source
+    // continue exactly as its no-ad branch would, without a remote request.
+    if (signal === "comercial" && player && typeof player.receiveCommercialBreakFinished === "function") {
+      player.receiveCommercialBreakFinished();
+    }
+    if (signal === "rewarded" && player && typeof player.rewardedBreakAdblocked === "function") {
+      player.rewardedBreakAdblocked();
+    }
+  };
+
+  function start() {
+    if (launched || !window.RufflePlayer || !window.RufflePlayer.newest) return;
     launched = true;
-    playerApi.resume();
-    applyMutedState();
-    // The original SWF's own start button requires a browser-trusted user
-    // gesture. A JavaScript-generated click cannot satisfy that requirement,
-    // so do not pretend to auto-play or consume the player's first puzzle tap.
-    record('awaiting-source-start-tap');
-  }
-
-  function boot() {
-    if (!window.RufflePlayer || !window.RufflePlayer.newest) {
-      postToParent('runtime-error', { detail: 'Ruffle did not load.' });
-      return;
-    }
-    window.RufflePlayer.config = Object.assign({}, window.RufflePlayer.config, {
-      autoplay: 'on',
-      unmuteOverlay: 'hidden',
+    window.RufflePlayer.config = {
+      autoplay: "on",
+      preferredRenderer: "webgl",
+      unmuteOverlay: "hidden",
       splashScreen: false,
-      contextMenu: 'off',
-      scale: 'showAll',
-      publicPath: './ruffle/',
-    });
-
-    player = window.RufflePlayer.newest().createPlayer();
-    playerApi = player.ruffle();
-    applyMutedState();
-    player.onFSCommand = function (command, args) {
-      // Preserve genuine source signals for future review. This SWF currently
-      // emits no documented score signal, so none is converted into a score.
-      record('fscommand', { command: String(command || ''), args: String(args || '') });
+      contextMenu: "off",
+      backgroundColor: "#000000",
+      publicPath: "./ruffle-poki-2023-12-16/"
     };
-    player.addEventListener('loadedmetadata', function () {
-      record('runtime-loaded');
-      autoStart();
+    // This is the source game's 2023 Ruffle API: unlike the newer runtime,
+    // the player object itself owns load() and volume.
+    player = window.RufflePlayer.newest().createPlayer();
+    player.width = 580;
+    player.height = 1031;
+    player.style.width = "100%";
+    player.style.height = "100%";
+    playerApi = player;
+    applyMutedState();
+    document.getElementById("ruffle").appendChild(player);
+    player.addEventListener("loadedmetadata", function () {
+      record("runtime-loaded", { runtime: "poki-ruffle-2023-12-16" });
+      applyOrientation();
     });
-    document.getElementById('game').appendChild(player);
-    // Ruffle 0.4.1's public load API accepts a URL string. Network-lock runs
-    // before this adapter and blocks any attempt by the SWF to leave our origin.
-    playerApi.load('./67.swf').catch(function (error) {
-      postToParent('runtime-error', { detail: String(error) });
+    playerApi.load({ url: "./67.swf", allowScriptAccess: true }).catch(function (error) {
+      post("runtime-error", { detail: String(error) });
     });
-    autoStart();
   }
 
-  window.addEventListener('message', function (event) {
+  window.addEventListener("resize", applyOrientation);
+  window.addEventListener("message", function (event) {
     if (event.origin !== window.location.origin || !event.data || event.data.source !== PARENT_SOURCE) return;
-    if (event.data.type === 'set-muted') {
-      muted = !!event.data.muted;
-      applyMutedState();
-    }
-    if (event.data.type === 'auto-start') {
-      autoStartRequested = true;
-      window.clearTimeout(autoStartTimer);
-      autoStart();
-    }
+    if (event.data.type === "set-muted") { muted = !!event.data.muted; applyMutedState(); }
+    if (event.data.type === "auto-start") start();
   });
-
-  window.addEventListener('DOMContentLoaded', boot);
+  window.addEventListener("DOMContentLoaded", start);
 })();

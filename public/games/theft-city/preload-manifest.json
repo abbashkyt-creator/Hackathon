@@ -1,0 +1,15 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/theft-city/index.html",
+    "/games/theft-city/tiptap-shell.css",
+    "/games/theft-city/tiptap-platform-bridge.js",
+    "/games/theft-city/tiptap-bootstrap.js",
+    "/games/theft-city/Build/c625c615e3bc7427873de64777c82fba.loader.js",
+    "/games/theft-city/Build/979af833673a60ff35395c80a3587e2f.framework.js.br",
+    "/games/theft-city/Build/2350b7d1bb3972d0e9fb9dd7afee2404.wasm.br",
+    "/games/theft-city/Build/8bc556d41883b6be8f80213b91efe600.data.br",
+    "/games/theft-city/StreamingAssets/aa/settings.json",
+    "/games/theft-city/StreamingAssets/aa/catalog.bin"
+  ]
+}

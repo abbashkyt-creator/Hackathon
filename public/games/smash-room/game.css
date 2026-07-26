@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Smash Room";
+  src: url("fonts/Fredoka_SemiCondensed-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+html,
+body,
+#canvas-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #111923;
+}
+
+#canvas-wrapper {
+  position: fixed;
+  inset: 0;
+  touch-action: none;
+  user-select: none;
+}
+
+/* The engine appends its Three.js WebGL canvas (#three-canvas) with an inline
+   z-index of 1. The 2D HUD canvas below is also where the source binds all
+   pointer/touch input (userInput = new UserInput(canvas, ...)). Without an
+   explicit stacking order the HUD/input canvas falls to z-index auto (0) and
+   ends up *under* the WebGL canvas, which then swallows every press — the room
+   renders but taps never reach the game, so it "loads but can't be played".
+   Lift the HUD/input canvas above the WebGL layer so it both draws over the
+   scene and receives input, exactly as the original build expects. */
+#three-canvas {
+  pointer-events: none; /* input belongs to the HUD canvas; never intercept here */
+}
+
+#canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 2; /* HUD + pointer input must sit above #three-canvas (z-index 1) */
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.tiptap-hold-hint {
+  position: fixed;
+  z-index: 4;
+  right: 12px;
+  bottom: max(14px, env(safe-area-inset-bottom));
+  left: 12px;
+  margin: 0;
+  padding: 9px 12px;
+  border: 2px solid rgba(255, 198, 88, 0.9);
+  border-radius: 999px;
+  background: rgba(10, 18, 30, 0.78);
+  color: #fff2c8;
+  font: 800 clamp(12px, 3.5vw, 18px)/1 "Smash Room", sans-serif;
+  letter-spacing: 0.08em;
+  text-align: center;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.tiptap-hold-hint.is-hidden {
+  opacity: 0;
+  transform: translateY(12px);
+}

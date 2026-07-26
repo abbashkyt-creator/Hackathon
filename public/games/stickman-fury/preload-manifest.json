@@ -1,0 +1,16 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/stickman-fury/index.html",
+    "/games/stickman-fury/js/tiptap-platform-bridge.js",
+    "/games/stickman-fury/js/tiptap-bootstrap.js",
+    "/games/stickman-fury/planck.min.js",
+    "/games/stickman-fury/gsap.min.js",
+    "/games/stickman-fury/Howler.min.js",
+    "/games/stickman-fury/VisibilityManager.js",
+    "/games/stickman-fury/app.js",
+    "/games/stickman-fury/fonts/Fredoka_SemiCondensed-SemiBold.ttf",
+    "/games/stickman-fury/images/preloaderBg.jpg",
+    "/games/stickman-fury/images/loader.png"
+  ]
+}

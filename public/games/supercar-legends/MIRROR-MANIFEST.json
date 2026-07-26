@@ -1,0 +1,100 @@
+{
+  "name": "Supercar Legends",
+  "sourcePage": "https://poki.com/en/g/supercar-legends",
+  "developer": "Jungle Tavern",
+  "sourceRoot": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/",
+  "gameId": "79bd041a-c68d-4987-8884-702425c1cc3f",
+  "gameVersionId": "9ae86e2d-d431-4d2f-b661-4b1f236767d4",
+  "engine": "Unity 2021.3.45f2 WebGL (Addressables)",
+  "capturedOn": "2026-07-26",
+  "captureNote": "Files were captured with brotli transport compression removed; bytes are the genuine decompressed Unity WebAssembly, data, framework, and asset bundles. Poki master-loader, ads, analytics, and remote SDK were not copied. integrationFiles are Tip Tap local additions and are provenance-verified by scripts/audit-release.mjs.",
+  "ranked": false,
+  "rankedReason": "Captured build calls no score/highscore/leaderboard method; unranked rather than inventing a score.",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1155,
+      "sha256": "30e67267b2d86d8ead7131c347b7b91f0186a65e2ee405681a5c8a6c9754fe1f",
+      "purpose": "Local game document: network lock + bridge + Unity loader + boot"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 11000,
+      "sha256": "9287dbb1a64a55571b420a7b4734d3564d824f581411caebca8bc1993c19cc45",
+      "purpose": "Local PokiSDK compatibility bridge (no-ad, no-score, autoplay, mute, Unity ready handshake)"
+    },
+    {
+      "assetPath": "js/tiptap-boot.js",
+      "bytes": 2122,
+      "sha256": "8609e17dc229c3a7a64e31646b676fcd942db8147fcac86ea1859ce044a9c679",
+      "purpose": "Local Unity bootstrapper replacing Poki master-loader"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 1630,
+      "sha256": "5af115785133b81bc772c7d90a8f7534793e720d165eb2e5402b8a111a70ff07",
+      "purpose": "Attribution, provenance, and permission record"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Build/supercar-legends.loader.js",
+      "bytes": 19003,
+      "sha256": "b57c4a7714dc15be07103018586feb336f49eb09f3805716e91046db2ff34ec6",
+      "contentType": "text/javascript",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.loader.js"
+    },
+    {
+      "assetPath": "Build/supercar-legends.framework.js",
+      "bytes": 391605,
+      "sha256": "b79b6359d517c722c0719c9993f5f43f674570e2893d47ebf326d26095a413e2",
+      "contentType": "text/javascript",
+      "sourceCompressed": "Build/supercar-legends.framework.js.br",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.framework.js.br"
+    },
+    {
+      "assetPath": "Build/supercar-legends.wasm",
+      "bytes": 16191518,
+      "sha256": "508a7713c40c2ff8b177e20230156f219058120b0b020cc21aa198fb8d2de128",
+      "contentType": "application/wasm",
+      "sourceCompressed": "Build/supercar-legends.wasm.br",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.wasm.br"
+    },
+    {
+      "assetPath": "Build/supercar-legends.data",
+      "bytes": 9774419,
+      "sha256": "1f032fef070662d6d9608b6deb895441afb2f49c87533ac4d0cfd6255f3f29ce",
+      "contentType": "application/octet-stream",
+      "sourceCompressed": "Build/supercar-legends.data.br",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.data.br"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/catalog.json",
+      "bytes": 14905,
+      "sha256": "9e4f4f6ca6aef4083a8968371536dbc3aa8eb93377d88a684b0207d56d5419ce",
+      "contentType": "application/json",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/catalog.json"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/settings.json",
+      "bytes": 847,
+      "sha256": "b9234333e0fbc7415e60642a877eb50647c14fb2a486b0532eeecc5c5ca01f67",
+      "contentType": "application/json",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/settings.json"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1341370e6c238f779d570a7faa60d274.bundle",
+      "bytes": 190985,
+      "sha256": "d86e4f123fcfe7fc7f04994d4a6dfb0f0b16a128e7a2de4812917411f84e3d60",
+      "contentType": "application/octet-stream",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1341370e6c238f779d570a7faa60d274.bundle"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/f042a147dbf6df165f756a011215d366_unitybuiltinshaders_c585ee74dda74171159b538901e41674.bundle",
+      "bytes": 71773,
+      "sha256": "b0d497f73367529e97c47c1b93fc397ee509c3fb27a1ae7782fa51d7473a5436",
+      "contentType": "application/octet-stream",
+      "source": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/WebGL/f042a147dbf6df165f756a011215d366_unitybuiltinshaders_c585ee74dda74171159b538901e41674.bundle"
+    }
+  ]
+}

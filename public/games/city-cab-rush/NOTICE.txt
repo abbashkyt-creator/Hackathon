@@ -1,0 +1,10 @@
+City Cab Rush local source mirror
+
+Source title: City Cab Rush / Taxi Rush
+Developer: StoreRider / FunkyTap
+Source build: 05106d2f-b06f-497f-bfcf-4e719bde3d3a, version 28588554-220e-42ca-a0ad-a44c7cfa55cc
+
+The authorized source build is packaged locally for Tip Tap Games. The local
+bridge replaces source-platform advertising, account, and analytics calls with
+no-op local behavior. This folder must stay self-contained: no game runtime,
+ad, leaderboard, or asset request may target the source host at play time.

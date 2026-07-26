@@ -1,0 +1,192 @@
+{
+  "name": "Ping Pong Go!",
+  "creator": "Happylander Ltd",
+  "sourcePage": "https://poki.com/en/g/ping-pong-go",
+  "sourceRoot": "https://6caab5cb-54d2-4c8f-aefe-0b0847f7cec6.gdn.poki.com/5c2b92e5-6fb9-446a-9590-b14a6827d045/",
+  "gameId": "6caab5cb-54d2-4c8f-aefe-0b0847f7cec6",
+  "gameVersionId": "5c2b92e5-6fb9-446a-9590-b14a6827d045",
+  "capturedOn": "2026-07-26",
+  "capturedWith": "Visual Editor Ultimate",
+  "playedMode": "two cards from one bundle (selected by ?mode=): arcade table tennis vs CPU (score = rally points won) and bughunt (score = curTargetScore)",
+  "removed": [
+    "Poki SDK (remote)",
+    "Google IMA / DoubleClick / YieldMo / Media.net ads",
+    "t.poki.io + api.poki.com analytics",
+    "matchmaking / remote leaderboard",
+    "Poki page shell"
+  ],
+  "limitations": "Classic/PvP modes rely on Poki matchmaking and are not exposed; only offline Bug Hunt is auto-started. Multiplayer netcode (netlib.js) is preserved but blocked by network-lock.",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1669,
+      "sha256": "b1edd4f4b0c464bf35d8f24be021aef1fadd93783fdecb717bf6f216f654fbc6",
+      "purpose": "Local index: network-lock first, local Poki-SDK bridge, externalized boot"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 7715,
+      "sha256": "00040f3925ba81b6dc1a9b43eb5d20a9d7270b137d7ef67e1a9a740a9a2e02c3",
+      "purpose": "Local Poki SDK replacement; auto-starts arcade or bughunt per ?mode= and forwards the game own score"
+    },
+    {
+      "assetPath": "js/tiptap-boot.js",
+      "bytes": 805,
+      "sha256": "d48c8509700b4e5d562399bb88eec3c24b96b08467763893080d07aa3f99a356",
+      "purpose": "Externalized copy of the original inline bootstrap"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 1921,
+      "sha256": "8a9426cb518dae43d748df927e84b068979ea99be7324413317ab6090644398c",
+      "purpose": "Attribution and provenance notice"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Howler.min.js",
+      "bytes": 36176,
+      "sha256": "fdb039133fd59adce0043a20031186553cb3060efc1eec6cc860a283fb84b000"
+    },
+    {
+      "assetPath": "VisibilityManager.js",
+      "bytes": 2605,
+      "sha256": "726c69e52744ac75f8748e135cded1cdf93b49c89b8995d1028ecd13742ade6f"
+    },
+    {
+      "assetPath": "app.js",
+      "bytes": 272860,
+      "sha256": "feb7894bd975a2e3be122485a5b0b651ba9551e792e01a2b4c5655356f3da73d"
+    },
+    {
+      "assetPath": "audio/music.mp3",
+      "bytes": 338231,
+      "sha256": "7398f7dc0a2e852fff91ff42e08dbd3c08d4f721f4c97b6add61c1c020a0cdb1"
+    },
+    {
+      "assetPath": "audio/sound.mp3",
+      "bytes": 1785147,
+      "sha256": "c750e03ddd17314585c9203c1ef37053229a28476586caf9ea011d502726a463"
+    },
+    {
+      "assetPath": "fonts/BenchNine-Regular.ttf",
+      "bytes": 57172,
+      "sha256": "abc1e1dfcfcf8fecf322d85bd461f308a68d313ab2a82f4f192d9580a82bb0d7"
+    },
+    {
+      "assetPath": "fonts/LuckiestGuy-Regular.ttf",
+      "bytes": 57940,
+      "sha256": "5f4c4f9e20923355a099af1e80ecab29ed8ed195eb84d07dc4d04d322ebd1ee5"
+    },
+    {
+      "assetPath": "gsap.min.js",
+      "bytes": 60111,
+      "sha256": "5c35ab89df1a197f8d670498ec9cd3bbaa1602b23bd52c3e69467d1ddd0fe66a"
+    },
+    {
+      "assetPath": "images/awards.png",
+      "bytes": 126680,
+      "sha256": "812871a0ad79bffc84ab633d8af655906fa73e1bb4911b5fda6e3323e2e83813"
+    },
+    {
+      "assetPath": "images/bg0.jpg",
+      "bytes": 62094,
+      "sha256": "6629b391cfb52d20dca3069a777a3fd227337eaca1ceba8e7f736d8e610f2b67"
+    },
+    {
+      "assetPath": "images/bg1.jpg",
+      "bytes": 62166,
+      "sha256": "75ac5947dd7381d5e912971418c63fe887240882f5d47e15130433b84edd1d77"
+    },
+    {
+      "assetPath": "images/bg2.jpg",
+      "bytes": 47069,
+      "sha256": "2a01fbe0f02a0abd9d953b21091c1153d41cbea29dbf3bdf5ccb6018b18be819"
+    },
+    {
+      "assetPath": "images/bg3.jpg",
+      "bytes": 57095,
+      "sha256": "7c713839d48554deccc6be0c57f11088fc564090792d68fef3a5ac17a741b6f6"
+    },
+    {
+      "assetPath": "images/bg4.jpg",
+      "bytes": 57563,
+      "sha256": "46ce47dd0e46a03078b15ca54755d01da74c7c11a41e15cf513c8eca3880741a"
+    },
+    {
+      "assetPath": "images/bugs.png",
+      "bytes": 34984,
+      "sha256": "5ff44572343aa6b4a34ca3b591851e1394bec9b7b181a108c7e869129dd58c2c"
+    },
+    {
+      "assetPath": "images/flags.png",
+      "bytes": 42840,
+      "sha256": "4e71e866dacc9ecf81bb7808cfe0372ec285ae1e085a83ea95c74cc07ac44014"
+    },
+    {
+      "assetPath": "images/flare.png",
+      "bytes": 30552,
+      "sha256": "96d060aafcadc347ef28a3c93fd3b01d29a98472b53116e68e1693f9685e0cb7"
+    },
+    {
+      "assetPath": "images/gameElements.png",
+      "bytes": 548460,
+      "sha256": "73b6286d21c4d5b2c509f4a0566c2811acf71a020dbc62acabb3aaaebad1eced"
+    },
+    {
+      "assetPath": "images/loadSpinner.png",
+      "bytes": 1031,
+      "sha256": "bf3aa3b6ccf3299063a9d533df058e6095704a44ec532a84d12b327be704389b"
+    },
+    {
+      "assetPath": "images/loader.png",
+      "bytes": 10487,
+      "sha256": "e457ac7fe910f186431294423abd23118321bf989c6739ee9a90c98c876fa6ab"
+    },
+    {
+      "assetPath": "images/spinBg0.jpg",
+      "bytes": 29719,
+      "sha256": "99d7f0628c60f494cb8354fb473868431626582181e57351fa10ae299368a061"
+    },
+    {
+      "assetPath": "images/spinBg1.jpg",
+      "bytes": 25403,
+      "sha256": "fc09b434253d5f49325e4d032ab7c6c7f1c59783152cd744505e8ac19a9742e4"
+    },
+    {
+      "assetPath": "images/spinBg2.jpg",
+      "bytes": 18790,
+      "sha256": "c1bc5b6b3c13aabec57dd9182f5426b6a208047a6ee15a5e6abc6ed77523ccc9"
+    },
+    {
+      "assetPath": "images/splashLogo.png",
+      "bytes": 3428,
+      "sha256": "3d13f299412236a6da447734dec2c3d93e8320927b8ca02c44ee48d1fc4d0d76"
+    },
+    {
+      "assetPath": "images/uiButs.png",
+      "bytes": 100744,
+      "sha256": "03d3aa323dd49cb3daeb24bbe51e155af5af7601f06592bcc604932d5b4ac2fe"
+    },
+    {
+      "assetPath": "images/uiElements.png",
+      "bytes": 112816,
+      "sha256": "f41bc21286cccb6b9017d12be492d6f111bd1bd604ddc45bc8023ace320b1048"
+    },
+    {
+      "assetPath": "json/text.json",
+      "bytes": 20359,
+      "sha256": "c6d6ec70aba419d4015bc70657f9f65dff057791fb5efac645b3944406c79480"
+    },
+    {
+      "assetPath": "netlib.js",
+      "bytes": 25062,
+      "sha256": "306572eb9764df9e554b1e21ea6e252a4236987bdd6ee7023959de84ba314c8e"
+    },
+    {
+      "assetPath": "seedRandom.js",
+      "bytes": 11140,
+      "sha256": "a78469f8922b5420687796d5144f2a8d59b3222df0bf7d53fade1e2974148df0"
+    }
+  ]
+}

@@ -1,0 +1,3130 @@
+{
+  "name": "phone",
+  "version": 1,
+  "voxelSize": 0.2,
+  "palette": {
+      "f0": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0xFFFFFF"
+      },
+      "f1": {
+          "color": "0x0C0C0C",
+          "mat": "wood",
+          "swapColor": "0x0C0C0C"
+      },
+      "f2": {
+          "color": "0x4A081B",
+          "mat": "wood",
+          "swapColor": "0x778AA1"
+      },
+      "f3": {
+          "color": "0x4D081B",
+          "mat": "wood",
+          "swapColor": "0x161E29"
+      },
+      "f4": {
+          "color": "0x4D081A",
+          "mat": "wood",
+          "swapColor": "0x192029"
+      },
+      "f5": {
+          "color": "0x4F0819",
+          "mat": "wood",
+          "swapColor": "0x262D37"
+      },
+      "f6": {
+          "color": "0x0C0C0C",
+          "mat": "wood",
+          "swapColor": "0xCFF9FF"
+      },
+      "f7": {
+          "color": "0x0C0C0C",
+          "mat": "wood",
+          "swapColor": "0x465062"
+      },
+      "f8": {
+          "color": "0x0C0C0C",
+          "mat": "wood",
+          "swapColor": "0x595D67"
+      },
+      "f9": {
+          "color": "0x0C0C0C",
+          "mat": "wood",
+          "swapColor": "0x8FA1B9"
+      },
+      "f10": {
+          "color": "0x0C0C0C",
+          "mat": "wood",
+          "swapColor": "0x1B2530"
+      },
+      "f11": {
+          "color": "0x7F080E",
+          "mat": "wood",
+          "swapColor": "0x1B222D"
+      },
+      "f12": {
+          "color": "0x99080A",
+          "mat": "wood",
+          "swapColor": "0x29303A"
+      },
+      "f13": {
+          "color": "0xB40808",
+          "mat": "wood",
+          "swapColor": "0x0D131C"
+      },
+      "f14": {
+          "color": "0xC50808",
+          "mat": "wood",
+          "swapColor": "0x485261"
+      },
+      "f15": {
+          "color": "0x49081D",
+          "mat": "wood",
+          "swapColor": "0x29313E"
+      },
+      "f16": {
+          "color": "0x48081D",
+          "mat": "wood",
+          "swapColor": "0x3C4753"
+      },
+      "f17": {
+          "color": "0x49081C",
+          "mat": "wood",
+          "swapColor": "0x576272"
+      },
+      "f18": {
+          "color": "0x49081F",
+          "mat": "wood",
+          "swapColor": "0x414951"
+      },
+      "f19": {
+          "color": "0x4B0820",
+          "mat": "wood",
+          "swapColor": "0x39424F"
+      },
+      "f20": {
+          "color": "0x47081D",
+          "mat": "wood",
+          "swapColor": "0x1E252A"
+      },
+      "f21": {
+          "color": "0x4B081D",
+          "mat": "wood",
+          "swapColor": "0x060A13"
+      },
+      "f22": {
+          "color": "0x4F081C",
+          "mat": "wood",
+          "swapColor": "0x01050E"
+      },
+      "f23": {
+          "color": "0x60081D",
+          "mat": "wood",
+          "swapColor": "0x141B25"
+      },
+      "f24": {
+          "color": "0x710812",
+          "mat": "wood",
+          "swapColor": "0x2A333D"
+      },
+      "f25": {
+          "color": "0x99080A",
+          "mat": "wood",
+          "swapColor": "0x2C333F"
+      },
+      "f26": {
+          "color": "0xC60808",
+          "mat": "wood",
+          "swapColor": "0x161D27"
+      },
+      "f27": {
+          "color": "0xC50808",
+          "mat": "wood",
+          "swapColor": "0x0E151E"
+      },
+      "f28": {
+          "color": "0x470821",
+          "mat": "wood",
+          "swapColor": "0x313C48"
+      },
+      "f29": {
+          "color": "0x440821",
+          "mat": "wood",
+          "swapColor": "0x38414F"
+      },
+      "f30": {
+          "color": "0x460823",
+          "mat": "wood",
+          "swapColor": "0x040B14"
+      },
+      "f31": {
+          "color": "0x430823",
+          "mat": "wood",
+          "swapColor": "0x161C26"
+      },
+      "f32": {
+          "color": "0x420824",
+          "mat": "wood",
+          "swapColor": "0x1B232E"
+      },
+      "f33": {
+          "color": "0x430827",
+          "mat": "wood",
+          "swapColor": "0x20252E"
+      },
+      "f34": {
+          "color": "0x450828",
+          "mat": "wood",
+          "swapColor": "0x21262E"
+      },
+      "f35": {
+          "color": "0x480826",
+          "mat": "wood",
+          "swapColor": "0x000209"
+      },
+      "f36": {
+          "color": "0x500825",
+          "mat": "wood",
+          "swapColor": "0x1E2633"
+      },
+      "f37": {
+          "color": "0x68081E",
+          "mat": "wood",
+          "swapColor": "0x606C7D"
+      },
+      "f38": {
+          "color": "0xC40808",
+          "mat": "wood",
+          "swapColor": "0x5D6879"
+      },
+      "f39": {
+          "color": "0xDC0808",
+          "mat": "wood",
+          "swapColor": "0x121821"
+      },
+      "f40": {
+          "color": "0xD60808",
+          "mat": "wood",
+          "swapColor": "0x101721"
+      },
+      "f41": {
+          "color": "0x420822",
+          "mat": "wood",
+          "swapColor": "0x3F495C"
+      },
+      "f42": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x2F3844"
+      },
+      "f43": {
+          "color": "0x87EC9B",
+          "mat": "wood",
+          "swapColor": "0xA5BDE7"
+      },
+      "f44": {
+          "color": "0x3F0828",
+          "mat": "wood",
+          "swapColor": "0x0F151E"
+      },
+      "f45": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0xA5BBE3"
+      },
+      "f46": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x19212C"
+      },
+      "f47": {
+          "color": "0x3D082C",
+          "mat": "wood",
+          "swapColor": "0x0E131B"
+      },
+      "f48": {
+          "color": "0xF16822",
+          "mat": "wood",
+          "swapColor": "0x000209"
+      },
+      "f49": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x1C232C"
+      },
+      "f50": {
+          "color": "0x67091F",
+          "mat": "wood",
+          "swapColor": "0x2F3741"
+      },
+      "f51": {
+          "color": "0x2A2B2D",
+          "mat": "wood",
+          "swapColor": "0x2E3640"
+      },
+      "f52": {
+          "color": "0xCDCFD3",
+          "mat": "wood",
+          "swapColor": "0x050C14"
+      },
+      "f53": {
+          "color": "0xE20808",
+          "mat": "wood",
+          "swapColor": "0x202735"
+      },
+      "f54": {
+          "color": "0x400828",
+          "mat": "wood",
+          "swapColor": "0x1F2733"
+      },
+      "f55": {
+          "color": "0x17C433",
+          "mat": "wood",
+          "swapColor": "0x192029"
+      },
+      "f56": {
+          "color": "0x16C432",
+          "mat": "wood",
+          "swapColor": "0x313944"
+      },
+      "f57": {
+          "color": "0x3C082E",
+          "mat": "wood",
+          "swapColor": "0x191F29"
+      },
+      "f58": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x111620"
+      },
+      "f59": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x11141D"
+      },
+      "f60": {
+          "color": "0x3A082E",
+          "mat": "wood",
+          "swapColor": "0x4E5764"
+      },
+      "f61": {
+          "color": "0xA5BCDE",
+          "mat": "wood",
+          "swapColor": "0x757D86"
+      },
+      "f62": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x98ACCF"
+      },
+      "f63": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x2C333D"
+      },
+      "f64": {
+          "color": "0x9F9DA5",
+          "mat": "wood",
+          "swapColor": "0x131A23"
+      },
+      "f65": {
+          "color": "0x9D9CA4",
+          "mat": "wood",
+          "swapColor": "0x121822"
+      },
+      "f66": {
+          "color": "0xEE0808",
+          "mat": "wood",
+          "swapColor": "0x535D6C"
+      },
+      "f67": {
+          "color": "0x3B082E",
+          "mat": "wood",
+          "swapColor": "0x2D3443"
+      },
+      "f68": {
+          "color": "0x39082E",
+          "mat": "wood",
+          "swapColor": "0x4B5362"
+      },
+      "f69": {
+          "color": "0x3A0830",
+          "mat": "wood",
+          "swapColor": "0x0D131D"
+      },
+      "f70": {
+          "color": "0x390830",
+          "mat": "wood",
+          "swapColor": "0x2A3139"
+      },
+      "f71": {
+          "color": "0x310831",
+          "mat": "wood",
+          "swapColor": "0x040812"
+      },
+      "f72": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x2C333C"
+      },
+      "f73": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x9FA9C3"
+      },
+      "f74": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x6F788A"
+      },
+      "f75": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x1B222D"
+      },
+      "f76": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0xACC5F9"
+      },
+      "f77": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x0E141F"
+      },
+      "f78": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x525C6A"
+      },
+      "f79": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x586479"
+      },
+      "f80": {
+          "color": "0x380830",
+          "mat": "wood",
+          "swapColor": "0x525D6F"
+      },
+      "f81": {
+          "color": "0x1079F4",
+          "mat": "wood",
+          "swapColor": "0x0B111A"
+      },
+      "f82": {
+          "color": "0x1E80F4",
+          "mat": "wood",
+          "swapColor": "0x727F94"
+      },
+      "f83": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x28303A"
+      },
+      "f84": {
+          "color": "0xEFC90C",
+          "mat": "wood",
+          "swapColor": "0x1A1E29"
+      },
+      "f85": {
+          "color": "0xEFC90C",
+          "mat": "wood",
+          "swapColor": "0x000109"
+      },
+      "f86": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x505662"
+      },
+      "f87": {
+          "color": "0xF0F0F1",
+          "mat": "wood",
+          "swapColor": "0xAABBE0"
+      },
+      "f88": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x475160"
+      },
+      "f89": {
+          "color": "0xF8082D",
+          "mat": "wood",
+          "swapColor": "0x1E2530"
+      },
+      "f90": {
+          "color": "0xFDFCFD",
+          "mat": "wood",
+          "swapColor": "0x181F29"
+      },
+      "f91": {
+          "color": "0x1F1F20",
+          "mat": "wood",
+          "swapColor": "0x1F2834"
+      },
+      "f92": {
+          "color": "0xF7012D",
+          "mat": "wood",
+          "swapColor": "0x131C27"
+      },
+      "f93": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x343C48"
+      },
+      "f94": {
+          "color": "0x63C7F2",
+          "mat": "wood",
+          "swapColor": "0x3D4550"
+      },
+      "f95": {
+          "color": "0x12ADF6",
+          "mat": "wood",
+          "swapColor": "0x363D47"
+      },
+      "f96": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x778392"
+      },
+      "f97": {
+          "color": "0xF1F0F2",
+          "mat": "wood",
+          "swapColor": "0x161C26"
+      },
+      "f98": {
+          "color": "0xF0F0F1",
+          "mat": "wood",
+          "swapColor": "0x42484F"
+      },
+      "f99": {
+          "color": "0xF8082D",
+          "mat": "wood",
+          "swapColor": "0x67717E"
+      },
+      "f100": {
+          "color": "0xF2F2F3",
+          "mat": "wood",
+          "swapColor": "0x161C26"
+      },
+      "f101": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x7485A2"
+      },
+      "f102": {
+          "color": "0xF8A928",
+          "mat": "wood",
+          "swapColor": "0x212A37"
+      },
+      "f103": {
+          "color": "0xF5F5F8",
+          "mat": "wood",
+          "swapColor": "0x252F3A"
+      },
+      "f104": {
+          "color": "0x0F0F0F",
+          "mat": "wood",
+          "swapColor": "0x28313C"
+      },
+      "f105": {
+          "color": "0xF8A82F",
+          "mat": "wood",
+          "swapColor": "0x2D3643"
+      },
+      "f106": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x343C46"
+      },
+      "f107": {
+          "color": "0xEC7A7B",
+          "mat": "wood",
+          "swapColor": "0x141A24"
+      },
+      "f108": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x181F27"
+      },
+      "f109": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x141923"
+      },
+      "f110": {
+          "color": "0xEC8A8A",
+          "mat": "wood",
+          "swapColor": "0x242B32"
+      },
+      "f111": {
+          "color": "0xF89008",
+          "mat": "wood",
+          "swapColor": "0x01050D"
+      },
+      "f112": {
+          "color": "0xF8940B",
+          "mat": "wood",
+          "swapColor": "0x98AAC5"
+      },
+      "f113": {
+          "color": "0xF4C071",
+          "mat": "wood",
+          "swapColor": "0x677488"
+      },
+      "f114": {
+          "color": "0xF59D35",
+          "mat": "wood",
+          "swapColor": "0x444E5C"
+      },
+      "f115": {
+          "color": "0xF7A448",
+          "mat": "wood",
+          "swapColor": "0x212A35"
+      },
+      "f116": {
+          "color": "0xF7CEAC",
+          "mat": "wood",
+          "swapColor": "0x404854"
+      },
+      "f117": {
+          "color": "0xF69C57",
+          "mat": "wood",
+          "swapColor": "0x252F3A"
+      },
+      "f118": {
+          "color": "0xF89D53",
+          "mat": "wood",
+          "swapColor": "0x242C39"
+      },
+      "f119": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x363F4C"
+      },
+      "f120": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x161D27"
+      },
+      "f121": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x1C242D"
+      },
+      "f122": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x1D2229"
+      },
+      "f123": {
+          "color": "0x2D2D2D",
+          "mat": "wood",
+          "swapColor": "0x2F343C"
+      },
+      "f124": {
+          "color": "0x2E2E2E",
+          "mat": "wood",
+          "swapColor": "0x738196"
+      },
+      "f125": {
+          "color": "0xF8930B",
+          "mat": "wood",
+          "swapColor": "0x202630"
+      },
+      "f126": {
+          "color": "0xEBBDF8",
+          "mat": "wood",
+          "swapColor": "0x98A5C5"
+      },
+      "f127": {
+          "color": "0xCF6AF8",
+          "mat": "wood",
+          "swapColor": "0x8EA1BD"
+      },
+      "f128": {
+          "color": "0xF89F53",
+          "mat": "wood",
+          "swapColor": "0x212934"
+      },
+      "f129": {
+          "color": "0x18BBF8",
+          "mat": "wood",
+          "swapColor": "0x1B2029"
+      },
+      "f130": {
+          "color": "0x1BBDF8",
+          "mat": "wood",
+          "swapColor": "0x626E80"
+      },
+      "f131": {
+          "color": "0xF89A6E",
+          "mat": "wood",
+          "swapColor": "0x2E3744"
+      },
+      "f132": {
+          "color": "0xF80808",
+          "mat": "wood",
+          "swapColor": "0x172029"
+      },
+      "f133": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x252A35"
+      },
+      "f134": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x272C35"
+      },
+      "f135": {
+          "color": "0xF87F09",
+          "mat": "wood",
+          "swapColor": "0x929FBD"
+      },
+      "f136": {
+          "color": "0xD0D0CF",
+          "mat": "wood",
+          "swapColor": "0x424953"
+      },
+      "f137": {
+          "color": "0x1C1C1C",
+          "mat": "wood",
+          "swapColor": "0x68757E"
+      },
+      "f138": {
+          "color": "0xF78D29",
+          "mat": "wood",
+          "swapColor": "0x1F2631"
+      },
+      "f139": {
+          "color": "0xCCA4E5",
+          "mat": "wood",
+          "swapColor": "0x2C343D"
+      },
+      "f140": {
+          "color": "0x9F42D5",
+          "mat": "wood",
+          "swapColor": "0x768496"
+      },
+      "f141": {
+          "color": "0xF89754",
+          "mat": "wood",
+          "swapColor": "0x7485A2"
+      },
+      "f142": {
+          "color": "0xFAFCFB",
+          "mat": "wood",
+          "swapColor": "0x7789A7"
+      },
+      "f143": {
+          "color": "0x158BF5",
+          "mat": "wood",
+          "swapColor": "0x4B5564"
+      },
+      "f144": {
+          "color": "0xF79A7E",
+          "mat": "wood",
+          "swapColor": "0x202731"
+      },
+      "f145": {
+          "color": "0xF83008",
+          "mat": "wood",
+          "swapColor": "0x48505C"
+      },
+      "f146": {
+          "color": "0xF38860",
+          "mat": "wood",
+          "swapColor": "0x1A212A"
+      },
+      "f147": {
+          "color": "0xF87909",
+          "mat": "wood",
+          "swapColor": "0x424955"
+      },
+      "f148": {
+          "color": "0xF8800A",
+          "mat": "wood",
+          "swapColor": "0x7D8EA1"
+      },
+      "f149": {
+          "color": "0xF49E4A",
+          "mat": "wood",
+          "swapColor": "0x7F8FA9"
+      },
+      "f150": {
+          "color": "0xF7800E",
+          "mat": "wood",
+          "swapColor": "0x8192AC"
+      },
+      "f151": {
+          "color": "0xF77B14",
+          "mat": "wood",
+          "swapColor": "0x8A96A4"
+      },
+      "f152": {
+          "color": "0xF7934B",
+          "mat": "wood",
+          "swapColor": "0x71819E"
+      },
+      "f153": {
+          "color": "0xF7782F",
+          "mat": "wood",
+          "swapColor": "0x8094B5"
+      },
+      "f154": {
+          "color": "0xF78555",
+          "mat": "wood",
+          "swapColor": "0x556279"
+      },
+      "f155": {
+          "color": "0xF48E6A",
+          "mat": "wood",
+          "swapColor": "0x2B3441"
+      },
+      "f156": {
+          "color": "0xEF9276",
+          "mat": "wood",
+          "swapColor": "0x333A46"
+      },
+      "f157": {
+          "color": "0xF69B88",
+          "mat": "wood",
+          "swapColor": "0x19222D"
+      },
+      "f158": {
+          "color": "0xF85209",
+          "mat": "wood",
+          "swapColor": "0x131A23"
+      },
+      "f159": {
+          "color": "0x7188A9",
+          "mat": "wood",
+          "swapColor": "0x262E3A"
+      },
+      "f160": {
+          "color": "0xCBA532",
+          "mat": "wood",
+          "swapColor": "0x262D3A"
+      },
+      "f161": {
+          "color": "0xF87B09",
+          "mat": "wood",
+          "swapColor": "0x606B7B"
+      },
+      "f162": {
+          "color": "0xFAD3B2",
+          "mat": "wood",
+          "swapColor": "0x58636E"
+      },
+      "f163": {
+          "color": "0xF37323",
+          "mat": "wood",
+          "swapColor": "0x717E92"
+      },
+      "f164": {
+          "color": "0xF86409",
+          "mat": "wood",
+          "swapColor": "0x111620"
+      },
+      "f165": {
+          "color": "0x5E2E17",
+          "mat": "wood",
+          "swapColor": "0x4B5461"
+      },
+      "f166": {
+          "color": "0xFF6834",
+          "mat": "wood",
+          "swapColor": "0x677385"
+      },
+      "f167": {
+          "color": "0xF77B57",
+          "mat": "wood",
+          "swapColor": "0x55606F"
+      },
+      "f168": {
+          "color": "0xECD0C9",
+          "mat": "wood",
+          "swapColor": "0x1B212F"
+      },
+      "f169": {
+          "color": "0xF89581",
+          "mat": "wood",
+          "swapColor": "0x121822"
+      },
+      "f170": {
+          "color": "0xF6998F",
+          "mat": "wood",
+          "swapColor": "0x424E5B"
+      },
+      "f171": {
+          "color": "0xF86C09",
+          "mat": "wood",
+          "swapColor": "0x1A222D"
+      },
+      "f172": {
+          "color": "0xD9EDFC",
+          "mat": "wood",
+          "swapColor": "0x39424F"
+      },
+      "f173": {
+          "color": "0x35D359",
+          "mat": "wood",
+          "swapColor": "0x242D39"
+      },
+      "f174": {
+          "color": "0xF87009",
+          "mat": "wood",
+          "swapColor": "0x252B36"
+      },
+      "f175": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x141B21"
+      },
+      "f176": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0xDDFFFF"
+      },
+      "f177": {
+          "color": "0xF84108",
+          "mat": "wood",
+          "swapColor": "0x4F5865"
+      },
+      "f178": {
+          "color": "0xD7E1DC",
+          "mat": "wood",
+          "swapColor": "0xA2AECF"
+      },
+      "f179": {
+          "color": "0x121317",
+          "mat": "wood",
+          "swapColor": "0x596471"
+      },
+      "f180": {
+          "color": "0xF69586",
+          "mat": "wood",
+          "swapColor": "0x0F151F"
+      },
+      "f181": {
+          "color": "0x27272A",
+          "mat": "wood",
+          "swapColor": "0xACC7EF"
+      },
+      "f182": {
+          "color": "0x26252A",
+          "mat": "wood",
+          "swapColor": "0x263039"
+      },
+      "f183": {
+          "color": "0xF69790",
+          "mat": "wood",
+          "swapColor": "0x242C37"
+      },
+      "f184": {
+          "color": "0xF97B04",
+          "mat": "wood",
+          "swapColor": "0x3E4856"
+      },
+      "f185": {
+          "color": "0xFA7800",
+          "mat": "wood",
+          "swapColor": "0x3C4651"
+      },
+      "f186": {
+          "color": "0xF87109",
+          "mat": "wood",
+          "swapColor": "0x151C28"
+      },
+      "f187": {
+          "color": "0xF85909",
+          "mat": "wood",
+          "swapColor": "0x0B121C"
+      },
+      "f188": {
+          "color": "0xF83400",
+          "mat": "wood",
+          "swapColor": "0x080E16"
+      },
+      "f189": {
+          "color": "0xF83008",
+          "mat": "wood",
+          "swapColor": "0x111620"
+      },
+      "f190": {
+          "color": "0xF82A08",
+          "mat": "wood",
+          "swapColor": "0x3D424C"
+      },
+      "f191": {
+          "color": "0xFF2F09",
+          "mat": "wood",
+          "swapColor": "0xB1C7FF"
+      },
+      "f192": {
+          "color": "0xF5829C",
+          "mat": "wood",
+          "swapColor": "0x78889E"
+      },
+      "f193": {
+          "color": "0xF5899B",
+          "mat": "wood",
+          "swapColor": "0x181E28"
+      },
+      "f194": {
+          "color": "0xFA8498",
+          "mat": "wood",
+          "swapColor": "0x3F4752"
+      },
+      "f195": {
+          "color": "0xF58999",
+          "mat": "wood",
+          "swapColor": "0x525E6D"
+      },
+      "f196": {
+          "color": "0xF68B9B",
+          "mat": "wood",
+          "swapColor": "0x657284"
+      },
+      "f197": {
+          "color": "0xCB58EE",
+          "mat": "wood",
+          "swapColor": "0x333B4B"
+      },
+      "f198": {
+          "color": "0xD751EC",
+          "mat": "wood",
+          "swapColor": "0x0E1620"
+      },
+      "f199": {
+          "color": "0xDE4FE7",
+          "mat": "wood",
+          "swapColor": "0x313A48"
+      },
+      "f200": {
+          "color": "0xE652DF",
+          "mat": "wood",
+          "swapColor": "0x2E3742"
+      },
+      "f201": {
+          "color": "0xEE5CCC",
+          "mat": "wood",
+          "swapColor": "0x171E27"
+      },
+      "f202": {
+          "color": "0xF265BD",
+          "mat": "wood",
+          "swapColor": "0x323942"
+      },
+      "f203": {
+          "color": "0xF86AB1",
+          "mat": "wood",
+          "swapColor": "0x060A12"
+      },
+      "f204": {
+          "color": "0xF773AB",
+          "mat": "wood",
+          "swapColor": "0x2D313A"
+      },
+      "f205": {
+          "color": "0xF775AB",
+          "mat": "wood",
+          "swapColor": "0x8389A4"
+      },
+      "f206": {
+          "color": "0xF77AA9",
+          "mat": "wood",
+          "swapColor": "0x1D232D"
+      },
+      "f207": {
+          "color": "0xF779A9",
+          "mat": "wood",
+          "swapColor": "0x1D252E"
+      },
+      "f208": {
+          "color": "0xF778AC",
+          "mat": "wood",
+          "swapColor": "0x181D27"
+      },
+      "f209": {
+          "color": "0xF679A3",
+          "mat": "wood",
+          "swapColor": "0x0D131C"
+      },
+      "f210": {
+          "color": "0xBC5DEB",
+          "mat": "wood",
+          "swapColor": "0x2A333F"
+      },
+      "f211": {
+          "color": "0xCB55EA",
+          "mat": "wood",
+          "swapColor": "0x171F2B"
+      },
+      "f212": {
+          "color": "0xD74FE8",
+          "mat": "wood",
+          "swapColor": "0x1D2632"
+      },
+      "f213": {
+          "color": "0xDF4CE3",
+          "mat": "wood",
+          "swapColor": "0x151D28"
+      },
+      "f214": {
+          "color": "0xE84DD9",
+          "mat": "wood",
+          "swapColor": "0x0D131C"
+      },
+      "f215": {
+          "color": "0xED51D0",
+          "mat": "wood",
+          "swapColor": "0x0E121C"
+      },
+      "f216": {
+          "color": "0xF556C5",
+          "mat": "wood",
+          "swapColor": "0x070C14"
+      },
+      "f217": {
+          "color": "0xF85CBF",
+          "mat": "wood",
+          "swapColor": "0x2C3038"
+      },
+      "f218": {
+          "color": "0xF760BC",
+          "mat": "wood",
+          "swapColor": "0x131922"
+      },
+      "f219": {
+          "color": "0xF85FBD",
+          "mat": "wood",
+          "swapColor": "0x131A25"
+      },
+      "f220": {
+          "color": "0xF85ABD",
+          "mat": "wood",
+          "swapColor": "0x0E121C"
+      },
+      "f221": {
+          "color": "0xF85CB9",
+          "mat": "wood",
+          "swapColor": "0x9FB5DD"
+      },
+      "f222": {
+          "color": "0xF85FB3",
+          "mat": "wood",
+          "swapColor": "0x0A101A"
+      },
+      "f223": {
+          "color": "0xAE60EA",
+          "mat": "wood",
+          "swapColor": "0x1E2631"
+      },
+      "f224": {
+          "color": "0xC058EA",
+          "mat": "wood",
+          "swapColor": "0x212934"
+      },
+      "f225": {
+          "color": "0xCE4FE7",
+          "mat": "wood",
+          "swapColor": "0x515D6E"
+      },
+      "f226": {
+          "color": "0xDC49E4",
+          "mat": "wood",
+          "swapColor": "0x596373"
+      },
+      "f227": {
+          "color": "0xE544E1",
+          "mat": "wood",
+          "swapColor": "0x1B222D"
+      },
+      "f228": {
+          "color": "0xEC40DB",
+          "mat": "wood",
+          "swapColor": "0x363E49"
+      },
+      "f229": {
+          "color": "0xF443D8",
+          "mat": "wood",
+          "swapColor": "0x7D889C"
+      },
+      "f230": {
+          "color": "0xF849D3",
+          "mat": "wood",
+          "swapColor": "0x727B91"
+      },
+      "f231": {
+          "color": "0xF84CCE",
+          "mat": "wood",
+          "swapColor": "0x0E121B"
+      },
+      "f232": {
+          "color": "0xF849CD",
+          "mat": "wood",
+          "swapColor": "0x131A24"
+      },
+      "f233": {
+          "color": "0xF851C0",
+          "mat": "wood",
+          "swapColor": "0x1B222C"
+      },
+      "f234": {
+          "color": "0xF85ABC",
+          "mat": "wood",
+          "swapColor": "0x3C4451"
+      },
+      "f235": {
+          "color": "0xF859BA",
+          "mat": "wood",
+          "swapColor": "0x151C25"
+      },
+      "f236": {
+          "color": "0xA266EB",
+          "mat": "wood",
+          "swapColor": "0x111925"
+      },
+      "f237": {
+          "color": "0xB55AEB",
+          "mat": "wood",
+          "swapColor": "0x252E3C"
+      },
+      "f238": {
+          "color": "0xC551E9",
+          "mat": "wood",
+          "swapColor": "0x2A3341"
+      },
+      "f239": {
+          "color": "0xD346E7",
+          "mat": "wood",
+          "swapColor": "0x0D131A"
+      },
+      "f240": {
+          "color": "0xE23DE7",
+          "mat": "wood",
+          "swapColor": "0x090E18"
+      },
+      "f241": {
+          "color": "0xE935E4",
+          "mat": "wood",
+          "swapColor": "0x434A57"
+      },
+      "f242": {
+          "color": "0xEF36E0",
+          "mat": "wood",
+          "swapColor": "0x000008"
+      },
+      "f243": {
+          "color": "0xF441DC",
+          "mat": "wood",
+          "swapColor": "0x94A5C3"
+      },
+      "f244": {
+          "color": "0xF745D8",
+          "mat": "wood",
+          "swapColor": "0x293139"
+      },
+      "f245": {
+          "color": "0xF84AD4",
+          "mat": "wood",
+          "swapColor": "0xA7B3BF"
+      },
+      "f246": {
+          "color": "0xF852C5",
+          "mat": "wood",
+          "swapColor": "0x121A25"
+      },
+      "f247": {
+          "color": "0xF854C2",
+          "mat": "wood",
+          "swapColor": "0x121622"
+      },
+      "f248": {
+          "color": "0xE3E9F2",
+          "mat": "wood",
+          "swapColor": "0x212934"
+      },
+      "f249": {
+          "color": "0x926EF0",
+          "mat": "wood",
+          "swapColor": "0x424C5C"
+      },
+      "f250": {
+          "color": "0xA65DEB",
+          "mat": "wood",
+          "swapColor": "0x0C111B"
+      },
+      "f251": {
+          "color": "0xBB53EA",
+          "mat": "wood",
+          "swapColor": "0x343C48"
+      },
+      "f252": {
+          "color": "0xCC47E8",
+          "mat": "wood",
+          "swapColor": "0x8492AE"
+      },
+      "f253": {
+          "color": "0xDA3AE9",
+          "mat": "wood",
+          "swapColor": "0x060C13"
+      },
+      "f254": {
+          "color": "0xE435E6",
+          "mat": "wood",
+          "swapColor": "0x151C25"
+      },
+      "f255": {
+          "color": "0xED34E6",
+          "mat": "wood",
+          "swapColor": "0x070B14"
+      },
+      "f256": {
+          "color": "0xEF36E0",
+          "mat": "wood",
+          "swapColor": "0x10151E"
+      },
+      "f257": {
+          "color": "0xF43FD9",
+          "mat": "wood",
+          "swapColor": "0x313841"
+      },
+      "f258": {
+          "color": "0xF848D3",
+          "mat": "wood",
+          "swapColor": "0x0D131B"
+      },
+      "f259": {
+          "color": "0xF84EC9",
+          "mat": "wood",
+          "swapColor": "0x6B768C"
+      },
+      "f260": {
+          "color": "0xD6F7F8",
+          "mat": "wood",
+          "swapColor": "0x5D6979"
+      },
+      "f261": {
+          "color": "0xD1F7F8",
+          "mat": "wood",
+          "swapColor": "0xE3FFFF"
+      },
+      "f262": {
+          "color": "0x8574F0",
+          "mat": "wood",
+          "swapColor": "0x0D151D"
+      },
+      "f263": {
+          "color": "0x9469F0",
+          "mat": "wood",
+          "swapColor": "0x0F141E"
+      },
+      "f264": {
+          "color": "0xAA5DEE",
+          "mat": "wood",
+          "swapColor": "0x1D222C"
+      },
+      "f265": {
+          "color": "0xBA50EC",
+          "mat": "wood",
+          "swapColor": "0x080E16"
+      },
+      "f266": {
+          "color": "0xCD42EA",
+          "mat": "wood",
+          "swapColor": "0x0D121C"
+      },
+      "f267": {
+          "color": "0xDC37E8",
+          "mat": "wood",
+          "swapColor": "0x111620"
+      },
+      "f268": {
+          "color": "0xE236E2",
+          "mat": "wood",
+          "swapColor": "0x151A24"
+      },
+      "f269": {
+          "color": "0xE936DE",
+          "mat": "wood",
+          "swapColor": "0x00040D"
+      },
+      "f270": {
+          "color": "0xF03ED8",
+          "mat": "wood",
+          "swapColor": "0x2A2E37"
+      },
+      "f271": {
+          "color": "0xF548D0",
+          "mat": "wood",
+          "swapColor": "0x00050C"
+      },
+      "f272": {
+          "color": "0xD0F7F8",
+          "mat": "wood",
+          "swapColor": "0x12171F"
+      },
+      "f273": {
+          "color": "0xC5F7F8",
+          "mat": "wood",
+          "swapColor": "0x121921"
+      },
+      "f274": {
+          "color": "0xBBF6F8",
+          "mat": "wood",
+          "swapColor": "0x121A25"
+      },
+      "f275": {
+          "color": "0x7576F2",
+          "mat": "wood",
+          "swapColor": "0x424C5A"
+      },
+      "f276": {
+          "color": "0x7C71EC",
+          "mat": "wood",
+          "swapColor": "0x272E37"
+      },
+      "f277": {
+          "color": "0x9169F0",
+          "mat": "wood",
+          "swapColor": "0x141A24"
+      },
+      "f278": {
+          "color": "0xA65AEC",
+          "mat": "wood",
+          "swapColor": "0x030911"
+      },
+      "f279": {
+          "color": "0xB94EEA",
+          "mat": "wood",
+          "swapColor": "0x1E252D"
+      },
+      "f280": {
+          "color": "0xC746E8",
+          "mat": "wood",
+          "swapColor": "0x121821"
+      },
+      "f281": {
+          "color": "0xD33FE3",
+          "mat": "wood",
+          "swapColor": "0x0D121B"
+      },
+      "f282": {
+          "color": "0xD93FDF",
+          "mat": "wood",
+          "swapColor": "0x0B111A"
+      },
+      "f283": {
+          "color": "0xE343DA",
+          "mat": "wood",
+          "swapColor": "0x4D545D"
+      },
+      "f284": {
+          "color": "0xBCF0F7",
+          "mat": "wood",
+          "swapColor": "0x0F141D"
+      },
+      "f285": {
+          "color": "0xB1F6F8",
+          "mat": "wood",
+          "swapColor": "0x0A0E16"
+      },
+      "f286": {
+          "color": "0xA5F4F8",
+          "mat": "wood",
+          "swapColor": "0x19212C"
+      },
+      "f287": {
+          "color": "0x97F3F8",
+          "mat": "wood",
+          "swapColor": "0x262B35"
+      },
+      "f288": {
+          "color": "0x6282F8",
+          "mat": "wood",
+          "swapColor": "0x101822"
+      },
+      "f289": {
+          "color": "0x657DF2",
+          "mat": "wood",
+          "swapColor": "0x29303F"
+      },
+      "f290": {
+          "color": "0x7477F2",
+          "mat": "wood",
+          "swapColor": "0x1C212A"
+      },
+      "f291": {
+          "color": "0x9364EF",
+          "mat": "wood",
+          "swapColor": "0x080C15"
+      },
+      "f292": {
+          "color": "0x9E59E9",
+          "mat": "wood",
+          "swapColor": "0x191D28"
+      },
+      "f293": {
+          "color": "0xAB4EEB",
+          "mat": "wood",
+          "swapColor": "0x080C12"
+      },
+      "f294": {
+          "color": "0xBA47E7",
+          "mat": "wood",
+          "swapColor": "0x0D131C"
+      },
+      "f295": {
+          "color": "0xBE5FE4",
+          "mat": "wood",
+          "swapColor": "0x080E16"
+      },
+      "f296": {
+          "color": "0x92E8F7",
+          "mat": "wood",
+          "swapColor": "0x3E444C"
+      },
+      "f297": {
+          "color": "0x89EEF8",
+          "mat": "wood",
+          "swapColor": "0x0E141C"
+      },
+      "f298": {
+          "color": "0x7AF3F8",
+          "mat": "wood",
+          "swapColor": "0x545D6D"
+      },
+      "f299": {
+          "color": "0x70F2F8",
+          "mat": "wood",
+          "swapColor": "0x80919E"
+      },
+      "f300": {
+          "color": "0x5EF1F8",
+          "mat": "wood",
+          "swapColor": "0x080E16"
+      },
+      "f301": {
+          "color": "0x5286F3",
+          "mat": "wood",
+          "swapColor": "0x0D131C"
+      },
+      "f302": {
+          "color": "0x5187F3",
+          "mat": "wood",
+          "swapColor": "0x161D26"
+      },
+      "f303": {
+          "color": "0x5C8AF2",
+          "mat": "wood",
+          "swapColor": "0x0A0F18"
+      },
+      "f304": {
+          "color": "0x5A8DF0",
+          "mat": "wood",
+          "swapColor": "0x121A23"
+      },
+      "f305": {
+          "color": "0x4BA3F4",
+          "mat": "wood",
+          "swapColor": "0x060C15"
+      },
+      "f306": {
+          "color": "0x7AD3F7",
+          "mat": "wood",
+          "swapColor": "0x21242B"
+      },
+      "f307": {
+          "color": "0x7BDDF8",
+          "mat": "wood",
+          "swapColor": "0x8191A9"
+      },
+      "f308": {
+          "color": "0x50D7F8",
+          "mat": "wood",
+          "swapColor": "0x090C13"
+      },
+      "f309": {
+          "color": "0x4CE7F8",
+          "mat": "wood",
+          "swapColor": "0x8D98AC"
+      },
+      "f310": {
+          "color": "0x42ECF8",
+          "mat": "wood",
+          "swapColor": "0x03050A"
+      },
+      "f311": {
+          "color": "0x3AF1F8",
+          "mat": "wood",
+          "swapColor": "0x586069"
+      },
+      "f312": {
+          "color": "0x33F3F8",
+          "mat": "wood",
+          "swapColor": "0x060C16"
+      },
+      "f313": {
+          "color": "0x27F5F8",
+          "mat": "wood",
+          "swapColor": "0x060A13"
+      },
+      "f314": {
+          "color": "0x3385F8",
+          "mat": "wood",
+          "swapColor": "0x30343F"
+      },
+      "f315": {
+          "color": "0x55C2F7",
+          "mat": "wood",
+          "swapColor": "0x1C232D"
+      },
+      "f316": {
+          "color": "0x50C6F7",
+          "mat": "wood",
+          "swapColor": "0x070A12"
+      },
+      "f317": {
+          "color": "0x4ACDF8",
+          "mat": "wood",
+          "swapColor": "0xBDD4FF"
+      },
+      "f318": {
+          "color": "0x4ED6F8",
+          "mat": "wood",
+          "swapColor": "0x0C1018"
+      },
+      "f319": {
+          "color": "0x4EE1F8",
+          "mat": "wood",
+          "swapColor": "0x6D7688"
+      },
+      "f320": {
+          "color": "0x4EE9F8",
+          "mat": "wood",
+          "swapColor": "0x030811"
+      },
+      "f321": {
+          "color": "0x47F1F8",
+          "mat": "wood",
+          "swapColor": "0x050A10"
+      },
+      "f322": {
+          "color": "0x3FF2F8",
+          "mat": "wood",
+          "swapColor": "0x8594B0"
+      },
+      "f323": {
+          "color": "0x3AF2F8",
+          "mat": "wood",
+          "swapColor": "0x12161F"
+      },
+      "f324": {
+          "color": "0x36F2F8",
+          "mat": "wood",
+          "swapColor": "0x5B6273"
+      },
+      "f325": {
+          "color": "0x36F2F8",
+          "mat": "wood",
+          "swapColor": "0x181F29"
+      },
+      "f326": {
+          "color": "0x08F3F8",
+          "mat": "wood",
+          "swapColor": "0x57647B"
+      },
+      "f327": {
+          "color": "0x4EC1F8",
+          "mat": "wood",
+          "swapColor": "0x070D15"
+      },
+      "f328": {
+          "color": "0x3DDE5A",
+          "mat": "wood",
+          "swapColor": "0x050B13"
+      },
+      "f329": {
+          "color": "0x43CFF8",
+          "mat": "wood",
+          "swapColor": "0x222933"
+      },
+      "f330": {
+          "color": "0x1BAAF8",
+          "mat": "wood",
+          "swapColor": "0x0C1018"
+      },
+      "f331": {
+          "color": "0x60C1F0",
+          "mat": "wood",
+          "swapColor": "0x7A88A1"
+      },
+      "f332": {
+          "color": "0x3BEBF8",
+          "mat": "wood",
+          "swapColor": "0x657588"
+      },
+      "f333": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x4B5565"
+      },
+      "f334": {
+          "color": "0x3EDF5A",
+          "mat": "wood",
+          "swapColor": "0x353A44"
+      },
+      "f335": {
+          "color": "0x37F3F8",
+          "mat": "wood",
+          "swapColor": "0x040811"
+      },
+      "f336": {
+          "color": "0xF35267",
+          "mat": "wood",
+          "swapColor": "0x222934"
+      },
+      "f337": {
+          "color": "0xF8435F",
+          "mat": "wood",
+          "swapColor": "0x2E3844"
+      },
+      "f338": {
+          "color": "0x08F2F8",
+          "mat": "wood",
+          "swapColor": "0x2F3947"
+      },
+      "f339": {
+          "color": "0x42C2F8",
+          "mat": "wood",
+          "swapColor": "0x0C1019"
+      },
+      "f340": {
+          "color": "0x16C432",
+          "mat": "wood",
+          "swapColor": "0x161D29"
+      },
+      "f341": {
+          "color": "0x16C432",
+          "mat": "wood",
+          "swapColor": "0x121822"
+      },
+      "f342": {
+          "color": "0x3ED6F8",
+          "mat": "wood",
+          "swapColor": "0x111621"
+      },
+      "f343": {
+          "color": "0x227CE6",
+          "mat": "wood",
+          "swapColor": "0x242C39"
+      },
+      "f344": {
+          "color": "0xFFFFFF",
+          "mat": "wood",
+          "swapColor": "0x1C232E"
+      },
+      "f345": {
+          "color": "0x37ECF8",
+          "mat": "wood",
+          "swapColor": "0x131B26"
+      },
+      "f346": {
+          "color": "0x16C532",
+          "mat": "wood",
+          "swapColor": "0x2A3342"
+      },
+      "f347": {
+          "color": "0x15C32E",
+          "mat": "wood",
+          "swapColor": "0x0A111B"
+      },
+      "f348": {
+          "color": "0x34F3F8",
+          "mat": "wood",
+          "swapColor": "0x0F131A"
+      },
+      "f349": {
+          "color": "0xF7283F",
+          "mat": "wood",
+          "swapColor": "0x1A1F26"
+      },
+      "f350": {
+          "color": "0xFF132B",
+          "mat": "wood",
+          "swapColor": "0x242B36"
+      },
+      "f351": {
+          "color": "0x09E4EE",
+          "mat": "wood",
+          "swapColor": "0x475266"
+      },
+      "b0": {
+          "color": "0xFFFFFF",
+          "mat": "wood"
+      },
+      "b1": {
+          "color": "0x90A1BA",
+          "mat": "wood"
+      },
+      "b2": {
+          "color": "0x7A91BD",
+          "mat": "wood"
+      },
+      "b3": {
+          "color": "0xBDCEE4",
+          "mat": "wood"
+      },
+      "b4": {
+          "color": "0x405379",
+          "mat": "wood"
+      },
+      "b5": {
+          "color": "0x161619",
+          "mat": "wood"
+      },
+      "b6": {
+          "color": "0x6D84B0",
+          "mat": "wood"
+      },
+      "b7": {
+          "color": "0x98AAC1",
+          "mat": "wood"
+      },
+      "frame": {
+          "color": "0x90A1BA",
+          "mat": "metal"
+      },
+      "pcb": {
+          "color": "0x1F4A2A",
+          "mat": "wood",
+          "interior": true
+      },
+      "pcbDk": {
+          "color": "0x0E2F18",
+          "mat": "wood",
+          "interior": true
+      },
+      "batt": {
+          "color": "0x2A2A2E",
+          "mat": "wood",
+          "interior": true
+      },
+      "battLt": {
+          "color": "0x6E6E76",
+          "mat": "wood",
+          "interior": true
+      },
+      "copper": {
+          "color": "0xCDA970",
+          "mat": "metal",
+          "interior": true
+      },
+      "chip": {
+          "color": "0x1A1A1A",
+          "mat": "wood",
+          "interior": true
+      }
+  },
+  "voxels": [
+    [-6,28,2,"f1"],
+    [-6,28,0,"b1"],
+    [-6,28,1,"frame"],
+    [-5,28,2,"f1"],
+    [-5,28,0,"b1"],
+    [-5,28,1,"frame"],
+    [-4,28,2,"f1"],
+    [-4,28,0,"b1"],
+    [-4,28,1,"frame"],
+    [-3,28,2,"f1"],
+    [-3,28,0,"b1"],
+    [-3,28,1,"frame"],
+    [-2,28,2,"f1"],
+    [-2,28,0,"b1"],
+    [-2,28,1,"frame"],
+    [-1,28,2,"f1"],
+    [-1,28,0,"b1"],
+    [-1,28,1,"frame"],
+    [0,28,2,"f1"],
+    [0,28,0,"b1"],
+    [0,28,1,"frame"],
+    [1,28,2,"f1"],
+    [1,28,0,"b1"],
+    [1,28,1,"frame"],
+    [2,28,2,"f1"],
+    [2,28,0,"b1"],
+    [2,28,1,"frame"],
+    [3,28,2,"f1"],
+    [3,28,0,"b1"],
+    [3,28,1,"frame"],
+    [4,28,2,"f1"],
+    [4,28,0,"b1"],
+    [4,28,1,"frame"],
+    [5,28,2,"f1"],
+    [5,28,0,"b1"],
+    [5,28,1,"frame"],
+    [6,28,2,"f1"],
+    [6,28,0,"b1"],
+    [6,28,1,"frame"],
+    [-7,27,2,"f1"],
+    [-7,27,0,"b1"],
+    [-7,27,1,"frame"],
+    [-6,27,2,"f2"],
+    [-6,27,0,"b2"],
+    [-6,27,1,"pcb"],
+    [-5,27,2,"f3"],
+    [-5,27,0,"b2"],
+    [-5,27,1,"pcbDk"],
+    [-4,27,2,"f4"],
+    [-4,27,0,"b2"],
+    [-4,27,1,"pcb"],
+    [-3,27,2,"f5"],
+    [-3,27,0,"b2"],
+    [-3,27,1,"pcb"],
+    [-2,27,2,"f6"],
+    [-2,27,0,"b3"],
+    [-2,27,1,"batt"],
+    [-1,27,2,"f7"],
+    [-1,27,0,"b3"],
+    [-1,27,1,"batt"],
+    [0,27,2,"f8"],
+    [0,27,0,"b3"],
+    [0,27,1,"batt"],
+    [1,27,2,"f9"],
+    [1,27,0,"b3"],
+    [1,27,1,"batt"],
+    [2,27,2,"f10"],
+    [2,27,0,"b3"],
+    [2,27,1,"batt"],
+    [3,27,2,"f11"],
+    [3,27,0,"b3"],
+    [3,27,1,"pcbDk"],
+    [4,27,2,"f12"],
+    [4,27,0,"b3"],
+    [4,27,1,"pcb"],
+    [5,27,2,"f13"],
+    [5,27,0,"b3"],
+    [5,27,1,"chip"],
+    [6,27,2,"f14"],
+    [6,27,0,"b3"],
+    [6,27,1,"pcbDk"],
+    [7,27,2,"f1"],
+    [7,27,0,"b1"],
+    [7,27,1,"frame"],
+    [-7,26,2,"f1"],
+    [-7,26,0,"b1"],
+    [-7,26,1,"frame"],
+    [-6,26,2,"f15"],
+    [-6,26,0,"b2"],
+    [-6,26,1,"pcbDk"],
+    [-5,26,2,"f16"],
+    [-5,26,0,"b4"],
+    [-5,26,1,"pcb"],
+    [-4,26,2,"f17"],
+    [-4,26,0,"b5"],
+    [-4,26,1,"pcb"],
+    [-3,26,2,"f18"],
+    [-3,26,0,"b4"],
+    [-3,26,1,"pcbDk"],
+    [-2,26,2,"f19"],
+    [-2,26,0,"b2"],
+    [-2,26,1,"battLt"],
+    [-1,26,2,"f20"],
+    [-1,26,0,"b3"],
+    [-1,26,1,"chip"],
+    [0,26,2,"f21"],
+    [0,26,0,"b3"],
+    [0,26,1,"copper"],
+    [1,26,2,"f22"],
+    [1,26,0,"b3"],
+    [1,26,1,"batt"],
+    [2,26,2,"f23"],
+    [2,26,0,"b3"],
+    [2,26,1,"copper"],
+    [3,26,2,"f24"],
+    [3,26,0,"b3"],
+    [3,26,1,"pcbDk"],
+    [4,26,2,"f25"],
+    [4,26,0,"b3"],
+    [4,26,1,"pcb"],
+    [5,26,2,"f26"],
+    [5,26,0,"b3"],
+    [5,26,1,"chip"],
+    [6,26,2,"f27"],
+    [6,26,0,"b3"],
+    [6,26,1,"battLt"],
+    [7,26,2,"f1"],
+    [7,26,0,"b1"],
+    [7,26,1,"frame"],
+    [-7,25,2,"f1"],
+    [-7,25,0,"b1"],
+    [-7,25,1,"frame"],
+    [-6,25,2,"f28"],
+    [-6,25,0,"b2"],
+    [-6,25,1,"pcb"],
+    [-5,25,2,"f29"],
+    [-5,25,0,"b5"],
+    [-5,25,1,"pcbDk"],
+    [-4,25,2,"f30"],
+    [-4,25,0,"b6"],
+    [-4,25,1,"pcb"],
+    [-3,25,2,"f31"],
+    [-3,25,0,"b5"],
+    [-3,25,1,"pcbDk"],
+    [-2,25,2,"f32"],
+    [-2,25,0,"b2"],
+    [-2,25,1,"batt"],
+    [-1,25,2,"f33"],
+    [-1,25,0,"b3"],
+    [-1,25,1,"batt"],
+    [0,25,2,"f34"],
+    [0,25,0,"b3"],
+    [0,25,1,"batt"],
+    [1,25,2,"f35"],
+    [1,25,0,"b3"],
+    [1,25,1,"batt"],
+    [2,25,2,"f36"],
+    [2,25,0,"b3"],
+    [2,25,1,"batt"],
+    [3,25,2,"f37"],
+    [3,25,0,"b3"],
+    [3,25,1,"copper"],
+    [4,25,2,"f38"],
+    [4,25,0,"b3"],
+    [4,25,1,"pcb"],
+    [5,25,2,"f39"],
+    [5,25,0,"b3"],
+    [5,25,1,"pcb"],
+    [6,25,2,"f40"],
+    [6,25,0,"b3"],
+    [6,25,1,"pcb"],
+    [7,25,2,"f1"],
+    [7,25,0,"b1"],
+    [7,25,1,"frame"],
+    [-7,24,2,"f1"],
+    [-7,24,0,"b1"],
+    [-7,24,1,"frame"],
+    [-6,24,2,"f41"],
+    [-6,24,0,"b2"],
+    [-6,24,1,"pcb"],
+    [-5,24,2,"f42"],
+    [-5,24,0,"b5"],
+    [-5,24,1,"pcb"],
+    [-4,24,2,"f43"],
+    [-4,24,0,"b5"],
+    [-4,24,1,"pcb"],
+    [-3,24,2,"f44"],
+    [-3,24,0,"b5"],
+    [-3,24,1,"pcb"],
+    [-2,24,2,"f45"],
+    [-2,24,0,"b2"],
+    [-2,24,1,"batt"],
+    [-1,24,2,"f46"],
+    [-1,24,0,"b3"],
+    [-1,24,1,"batt"],
+    [0,24,2,"f47"],
+    [0,24,0,"b3"],
+    [0,24,1,"batt"],
+    [1,24,2,"f48"],
+    [1,24,0,"b3"],
+    [1,24,1,"batt"],
+    [2,24,2,"f49"],
+    [2,24,0,"b3"],
+    [2,24,1,"batt"],
+    [3,24,2,"f50"],
+    [3,24,0,"b3"],
+    [3,24,1,"pcb"],
+    [4,24,2,"f51"],
+    [4,24,0,"b3"],
+    [4,24,1,"pcbDk"],
+    [5,24,2,"f52"],
+    [5,24,0,"b3"],
+    [5,24,1,"pcb"],
+    [6,24,2,"f53"],
+    [6,24,0,"b3"],
+    [6,24,1,"pcbDk"],
+    [7,24,2,"f1"],
+    [7,24,0,"b1"],
+    [7,24,1,"frame"],
+    [-7,23,2,"f1"],
+    [-7,23,0,"b1"],
+    [-7,23,1,"frame"],
+    [-6,23,2,"f54"],
+    [-6,23,0,"b2"],
+    [-6,23,1,"pcb"],
+    [-5,23,2,"f55"],
+    [-5,23,0,"b4"],
+    [-5,23,1,"chip"],
+    [-4,23,2,"f56"],
+    [-4,23,0,"b4"],
+    [-4,23,1,"chip"],
+    [-3,23,2,"f57"],
+    [-3,23,0,"b4"],
+    [-3,23,1,"chip"],
+    [-2,23,2,"f58"],
+    [-2,23,0,"b2"],
+    [-2,23,1,"batt"],
+    [-1,23,2,"f59"],
+    [-1,23,0,"b3"],
+    [-1,23,1,"chip"],
+    [0,23,2,"f60"],
+    [0,23,0,"b3"],
+    [0,23,1,"chip"],
+    [1,23,2,"f61"],
+    [1,23,0,"b3"],
+    [1,23,1,"batt"],
+    [2,23,2,"f62"],
+    [2,23,0,"b3"],
+    [2,23,1,"batt"],
+    [3,23,2,"f63"],
+    [3,23,0,"b3"],
+    [3,23,1,"pcb"],
+    [4,23,2,"f64"],
+    [4,23,0,"b3"],
+    [4,23,1,"pcbDk"],
+    [5,23,2,"f65"],
+    [5,23,0,"b3"],
+    [5,23,1,"pcbDk"],
+    [6,23,2,"f66"],
+    [6,23,0,"b3"],
+    [6,23,1,"pcbDk"],
+    [7,23,2,"f1"],
+    [7,23,0,"b1"],
+    [7,23,1,"frame"],
+    [-7,22,2,"f1"],
+    [-7,22,0,"b1"],
+    [-7,22,1,"frame"],
+    [-6,22,2,"f67"],
+    [-6,22,0,"b2"],
+    [-6,22,1,"battLt"],
+    [-5,22,2,"f68"],
+    [-5,22,0,"b5"],
+    [-5,22,1,"copper"],
+    [-4,22,2,"f69"],
+    [-4,22,0,"b5"],
+    [-4,22,1,"pcbDk"],
+    [-3,22,2,"f70"],
+    [-3,22,0,"b5"],
+    [-3,22,1,"pcbDk"],
+    [-2,22,2,"f71"],
+    [-2,22,0,"b2"],
+    [-2,22,1,"batt"],
+    [-1,22,2,"f72"],
+    [-1,22,0,"b3"],
+    [-1,22,1,"batt"],
+    [0,22,2,"f73"],
+    [0,22,0,"b3"],
+    [0,22,1,"batt"],
+    [1,22,2,"f74"],
+    [1,22,0,"b3"],
+    [1,22,1,"batt"],
+    [2,22,2,"f75"],
+    [2,22,0,"b3"],
+    [2,22,1,"copper"],
+    [3,22,2,"f76"],
+    [3,22,0,"b3"],
+    [3,22,1,"pcb"],
+    [4,22,2,"f77"],
+    [4,22,0,"b3"],
+    [4,22,1,"pcbDk"],
+    [5,22,2,"f78"],
+    [5,22,0,"b3"],
+    [5,22,1,"pcbDk"],
+    [6,22,2,"f79"],
+    [6,22,0,"b3"],
+    [6,22,1,"pcb"],
+    [7,22,2,"f1"],
+    [7,22,0,"b1"],
+    [7,22,1,"frame"],
+    [-7,21,2,"f1"],
+    [-7,21,0,"b1"],
+    [-7,21,1,"frame"],
+    [-6,21,2,"f80"],
+    [-6,21,0,"b2"],
+    [-6,21,1,"pcb"],
+    [-5,21,2,"f81"],
+    [-5,21,0,"b5"],
+    [-5,21,1,"pcb"],
+    [-4,21,2,"f82"],
+    [-4,21,0,"b6"],
+    [-4,21,1,"battLt"],
+    [-3,21,2,"f83"],
+    [-3,21,0,"b5"],
+    [-3,21,1,"pcb"],
+    [-2,21,2,"f84"],
+    [-2,21,0,"b2"],
+    [-2,21,1,"copper"],
+    [-1,21,2,"f85"],
+    [-1,21,0,"b3"],
+    [-1,21,1,"batt"],
+    [0,21,2,"f86"],
+    [0,21,0,"b3"],
+    [0,21,1,"batt"],
+    [1,21,2,"f87"],
+    [1,21,0,"b3"],
+    [1,21,1,"batt"],
+    [2,21,2,"f88"],
+    [2,21,0,"b3"],
+    [2,21,1,"batt"],
+    [3,21,2,"f89"],
+    [3,21,0,"b3"],
+    [3,21,1,"pcb"],
+    [4,21,2,"f90"],
+    [4,21,0,"b3"],
+    [4,21,1,"pcbDk"],
+    [5,21,2,"f91"],
+    [5,21,0,"b3"],
+    [5,21,1,"pcb"],
+    [6,21,2,"f92"],
+    [6,21,0,"b3"],
+    [6,21,1,"chip"],
+    [7,21,2,"f1"],
+    [7,21,0,"b1"],
+    [7,21,1,"frame"],
+    [-7,20,2,"f1"],
+    [-7,20,0,"b1"],
+    [-7,20,1,"frame"],
+    [-6,20,2,"f93"],
+    [-6,20,0,"b2"],
+    [-6,20,1,"pcb"],
+    [-5,20,2,"f94"],
+    [-5,20,0,"b4"],
+    [-5,20,1,"pcb"],
+    [-4,20,2,"f95"],
+    [-4,20,0,"b5"],
+    [-4,20,1,"pcb"],
+    [-3,20,2,"f96"],
+    [-3,20,0,"b4"],
+    [-3,20,1,"pcb"],
+    [-2,20,2,"f97"],
+    [-2,20,0,"b2"],
+    [-2,20,1,"battLt"],
+    [-1,20,2,"f98"],
+    [-1,20,0,"b3"],
+    [-1,20,1,"batt"],
+    [0,20,2,"f99"],
+    [0,20,0,"b3"],
+    [0,20,1,"batt"],
+    [1,20,2,"f100"],
+    [1,20,0,"b3"],
+    [1,20,1,"batt"],
+    [2,20,2,"f101"],
+    [2,20,0,"b3"],
+    [2,20,1,"batt"],
+    [3,20,2,"f102"],
+    [3,20,0,"b3"],
+    [3,20,1,"pcb"],
+    [4,20,2,"f103"],
+    [4,20,0,"b3"],
+    [4,20,1,"pcbDk"],
+    [5,20,2,"f104"],
+    [5,20,0,"b3"],
+    [5,20,1,"pcb"],
+    [6,20,2,"f105"],
+    [6,20,0,"b3"],
+    [6,20,1,"pcb"],
+    [7,20,2,"f1"],
+    [7,20,0,"b1"],
+    [7,20,1,"frame"],
+    [-7,19,2,"f1"],
+    [-7,19,0,"b1"],
+    [-7,19,1,"frame"],
+    [-6,19,2,"f106"],
+    [-6,19,0,"b3"],
+    [-6,19,1,"pcb"],
+    [-5,19,2,"f107"],
+    [-5,19,0,"b2"],
+    [-5,19,1,"pcb"],
+    [-4,19,2,"f108"],
+    [-4,19,0,"b2"],
+    [-4,19,1,"chip"],
+    [-3,19,2,"f109"],
+    [-3,19,0,"b2"],
+    [-3,19,1,"pcbDk"],
+    [-2,19,2,"f110"],
+    [-2,19,0,"b3"],
+    [-2,19,1,"batt"],
+    [-1,19,2,"f111"],
+    [-1,19,0,"b3"],
+    [-1,19,1,"batt"],
+    [0,19,2,"f112"],
+    [0,19,0,"b3"],
+    [0,19,1,"batt"],
+    [1,19,2,"f113"],
+    [1,19,0,"b3"],
+    [1,19,1,"batt"],
+    [2,19,2,"f114"],
+    [2,19,0,"b3"],
+    [2,19,1,"batt"],
+    [3,19,2,"f115"],
+    [3,19,0,"b3"],
+    [3,19,1,"pcb"],
+    [4,19,2,"f116"],
+    [4,19,0,"b3"],
+    [4,19,1,"chip"],
+    [5,19,2,"f117"],
+    [5,19,0,"b3"],
+    [5,19,1,"pcbDk"],
+    [6,19,2,"f118"],
+    [6,19,0,"b3"],
+    [6,19,1,"pcbDk"],
+    [7,19,2,"f1"],
+    [7,19,0,"b1"],
+    [7,19,1,"frame"],
+    [-7,18,2,"f1"],
+    [-7,18,0,"b1"],
+    [-7,18,1,"frame"],
+    [-6,18,2,"f119"],
+    [-6,18,0,"b3"],
+    [-6,18,1,"pcbDk"],
+    [-5,18,2,"f120"],
+    [-5,18,0,"b3"],
+    [-5,18,1,"copper"],
+    [-4,18,2,"f121"],
+    [-4,18,0,"b3"],
+    [-4,18,1,"pcbDk"],
+    [-3,18,2,"f122"],
+    [-3,18,0,"b3"],
+    [-3,18,1,"pcb"],
+    [-2,18,2,"f123"],
+    [-2,18,0,"b3"],
+    [-2,18,1,"batt"],
+    [-1,18,2,"f124"],
+    [-1,18,0,"b3"],
+    [-1,18,1,"batt"],
+    [0,18,2,"f125"],
+    [0,18,0,"b3"],
+    [0,18,1,"batt"],
+    [1,18,2,"f126"],
+    [1,18,0,"b3"],
+    [1,18,1,"copper"],
+    [2,18,2,"f127"],
+    [2,18,0,"b3"],
+    [2,18,1,"chip"],
+    [3,18,2,"f128"],
+    [3,18,0,"b3"],
+    [3,18,1,"pcbDk"],
+    [4,18,2,"f129"],
+    [4,18,0,"b3"],
+    [4,18,1,"pcb"],
+    [5,18,2,"f130"],
+    [5,18,0,"b3"],
+    [5,18,1,"pcbDk"],
+    [6,18,2,"f131"],
+    [6,18,0,"b3"],
+    [6,18,1,"pcb"],
+    [7,18,2,"f1"],
+    [7,18,0,"b1"],
+    [7,18,1,"frame"],
+    [-7,17,2,"f1"],
+    [-7,17,0,"b1"],
+    [-7,17,1,"frame"],
+    [-6,17,2,"f132"],
+    [-6,17,0,"b3"],
+    [-6,17,1,"pcbDk"],
+    [-5,17,2,"f133"],
+    [-5,17,0,"b3"],
+    [-5,17,1,"copper"],
+    [-4,17,2,"f134"],
+    [-4,17,0,"b3"],
+    [-4,17,1,"copper"],
+    [-3,17,2,"f135"],
+    [-3,17,0,"b3"],
+    [-3,17,1,"copper"],
+    [-2,17,2,"f136"],
+    [-2,17,0,"b3"],
+    [-2,17,1,"batt"],
+    [-1,17,2,"f137"],
+    [-1,17,0,"b3"],
+    [-1,17,1,"batt"],
+    [0,17,2,"f138"],
+    [0,17,0,"b3"],
+    [0,17,1,"batt"],
+    [1,17,2,"f139"],
+    [1,17,0,"b3"],
+    [1,17,1,"batt"],
+    [2,17,2,"f140"],
+    [2,17,0,"b3"],
+    [2,17,1,"batt"],
+    [3,17,2,"f141"],
+    [3,17,0,"b3"],
+    [3,17,1,"battLt"],
+    [4,17,2,"f142"],
+    [4,17,0,"b3"],
+    [4,17,1,"pcb"],
+    [5,17,2,"f143"],
+    [5,17,0,"b3"],
+    [5,17,1,"chip"],
+    [6,17,2,"f144"],
+    [6,17,0,"b3"],
+    [6,17,1,"pcbDk"],
+    [7,17,2,"f1"],
+    [7,17,0,"b1"],
+    [7,17,1,"frame"],
+    [-7,16,2,"f1"],
+    [-7,16,0,"b1"],
+    [-7,16,1,"frame"],
+    [-6,16,2,"f145"],
+    [-6,16,0,"b3"],
+    [-6,16,1,"pcb"],
+    [-5,16,2,"f146"],
+    [-5,16,0,"b3"],
+    [-5,16,1,"pcb"],
+    [-4,16,2,"f147"],
+    [-4,16,0,"b3"],
+    [-4,16,1,"pcb"],
+    [-3,16,2,"f148"],
+    [-3,16,0,"b3"],
+    [-3,16,1,"chip"],
+    [-2,16,2,"f149"],
+    [-2,16,0,"b3"],
+    [-2,16,1,"batt"],
+    [-1,16,2,"f150"],
+    [-1,16,0,"b3"],
+    [-1,16,1,"batt"],
+    [0,16,2,"f151"],
+    [0,16,0,"b7"],
+    [0,16,1,"battLt"],
+    [1,16,2,"f152"],
+    [1,16,0,"b3"],
+    [1,16,1,"chip"],
+    [2,16,2,"f153"],
+    [2,16,0,"b3"],
+    [2,16,1,"batt"],
+    [3,16,2,"f154"],
+    [3,16,0,"b3"],
+    [3,16,1,"pcb"],
+    [4,16,2,"f155"],
+    [4,16,0,"b3"],
+    [4,16,1,"pcbDk"],
+    [5,16,2,"f156"],
+    [5,16,0,"b3"],
+    [5,16,1,"pcbDk"],
+    [6,16,2,"f157"],
+    [6,16,0,"b3"],
+    [6,16,1,"pcb"],
+    [7,16,2,"f1"],
+    [7,16,0,"b1"],
+    [7,16,1,"frame"],
+    [-7,15,2,"f1"],
+    [-7,15,0,"b1"],
+    [-7,15,1,"frame"],
+    [-6,15,2,"f158"],
+    [-6,15,0,"b3"],
+    [-6,15,1,"pcbDk"],
+    [-5,15,2,"f159"],
+    [-5,15,0,"b3"],
+    [-5,15,1,"pcbDk"],
+    [-4,15,2,"f160"],
+    [-4,15,0,"b3"],
+    [-4,15,1,"pcb"],
+    [-3,15,2,"f161"],
+    [-3,15,0,"b3"],
+    [-3,15,1,"pcbDk"],
+    [-2,15,2,"f162"],
+    [-2,15,0,"b3"],
+    [-2,15,1,"batt"],
+    [-1,15,2,"f163"],
+    [-1,15,0,"b7"],
+    [-1,15,1,"batt"],
+    [0,15,2,"f164"],
+    [0,15,0,"b7"],
+    [0,15,1,"batt"],
+    [1,15,2,"f165"],
+    [1,15,0,"b7"],
+    [1,15,1,"batt"],
+    [2,15,2,"f166"],
+    [2,15,0,"b3"],
+    [2,15,1,"batt"],
+    [3,15,2,"f167"],
+    [3,15,0,"b3"],
+    [3,15,1,"chip"],
+    [4,15,2,"f168"],
+    [4,15,0,"b3"],
+    [4,15,1,"pcbDk"],
+    [5,15,2,"f169"],
+    [5,15,0,"b3"],
+    [5,15,1,"chip"],
+    [6,15,2,"f170"],
+    [6,15,0,"b3"],
+    [6,15,1,"pcb"],
+    [7,15,2,"f1"],
+    [7,15,0,"b1"],
+    [7,15,1,"frame"],
+    [-7,14,2,"f1"],
+    [-7,14,0,"b1"],
+    [-7,14,1,"frame"],
+    [-6,14,2,"f171"],
+    [-6,14,0,"b3"],
+    [-6,14,1,"pcbDk"],
+    [-5,14,2,"f172"],
+    [-5,14,0,"b3"],
+    [-5,14,1,"pcb"],
+    [-4,14,2,"f173"],
+    [-4,14,0,"b3"],
+    [-4,14,1,"pcb"],
+    [-3,14,2,"f174"],
+    [-3,14,0,"b3"],
+    [-3,14,1,"pcb"],
+    [-2,14,2,"f175"],
+    [-2,14,0,"b3"],
+    [-2,14,1,"batt"],
+    [-1,14,2,"f176"],
+    [-1,14,0,"b7"],
+    [-1,14,1,"batt"],
+    [0,14,2,"f177"],
+    [0,14,0,"b7"],
+    [0,14,1,"chip"],
+    [1,14,2,"f178"],
+    [1,14,0,"b3"],
+    [1,14,1,"batt"],
+    [2,14,2,"f179"],
+    [2,14,0,"b3"],
+    [2,14,1,"batt"],
+    [3,14,2,"f180"],
+    [3,14,0,"b3"],
+    [3,14,1,"pcb"],
+    [4,14,2,"f181"],
+    [4,14,0,"b3"],
+    [4,14,1,"pcb"],
+    [5,14,2,"f182"],
+    [5,14,0,"b3"],
+    [5,14,1,"pcb"],
+    [6,14,2,"f183"],
+    [6,14,0,"b3"],
+    [6,14,1,"pcb"],
+    [7,14,2,"f1"],
+    [7,14,0,"b1"],
+    [7,14,1,"frame"],
+    [-7,13,2,"f1"],
+    [-7,13,0,"b1"],
+    [-7,13,1,"frame"],
+    [-6,13,2,"f184"],
+    [-6,13,0,"b3"],
+    [-6,13,1,"pcb"],
+    [-5,13,2,"f185"],
+    [-5,13,0,"b3"],
+    [-5,13,1,"pcb"],
+    [-4,13,2,"f186"],
+    [-4,13,0,"b3"],
+    [-4,13,1,"pcb"],
+    [-3,13,2,"f187"],
+    [-3,13,0,"b3"],
+    [-3,13,1,"pcbDk"],
+    [-2,13,2,"f188"],
+    [-2,13,0,"b3"],
+    [-2,13,1,"batt"],
+    [-1,13,2,"f189"],
+    [-1,13,0,"b7"],
+    [-1,13,1,"batt"],
+    [0,13,2,"f190"],
+    [0,13,0,"b7"],
+    [0,13,1,"batt"],
+    [1,13,2,"f191"],
+    [1,13,0,"b7"],
+    [1,13,1,"batt"],
+    [2,13,2,"f192"],
+    [2,13,0,"b3"],
+    [2,13,1,"batt"],
+    [3,13,2,"f193"],
+    [3,13,0,"b3"],
+    [3,13,1,"pcbDk"],
+    [4,13,2,"f194"],
+    [4,13,0,"b3"],
+    [4,13,1,"pcb"],
+    [5,13,2,"f195"],
+    [5,13,0,"b3"],
+    [5,13,1,"pcb"],
+    [6,13,2,"f196"],
+    [6,13,0,"b3"],
+    [6,13,1,"pcb"],
+    [7,13,2,"f1"],
+    [7,13,0,"b1"],
+    [7,13,1,"frame"],
+    [-7,12,2,"f1"],
+    [-7,12,0,"b1"],
+    [-7,12,1,"frame"],
+    [-6,12,2,"f197"],
+    [-6,12,0,"b3"],
+    [-6,12,1,"pcb"],
+    [-5,12,2,"f198"],
+    [-5,12,0,"b3"],
+    [-5,12,1,"pcb"],
+    [-4,12,2,"f199"],
+    [-4,12,0,"b3"],
+    [-4,12,1,"pcb"],
+    [-3,12,2,"f200"],
+    [-3,12,0,"b3"],
+    [-3,12,1,"pcbDk"],
+    [-2,12,2,"f201"],
+    [-2,12,0,"b3"],
+    [-2,12,1,"batt"],
+    [-1,12,2,"f202"],
+    [-1,12,0,"b3"],
+    [-1,12,1,"batt"],
+    [0,12,2,"f203"],
+    [0,12,0,"b3"],
+    [0,12,1,"batt"],
+    [1,12,2,"f204"],
+    [1,12,0,"b3"],
+    [1,12,1,"batt"],
+    [2,12,2,"f205"],
+    [2,12,0,"b3"],
+    [2,12,1,"batt"],
+    [3,12,2,"f206"],
+    [3,12,0,"b3"],
+    [3,12,1,"pcbDk"],
+    [4,12,2,"f207"],
+    [4,12,0,"b3"],
+    [4,12,1,"pcb"],
+    [5,12,2,"f208"],
+    [5,12,0,"b3"],
+    [5,12,1,"pcb"],
+    [6,12,2,"f209"],
+    [6,12,0,"b3"],
+    [6,12,1,"chip"],
+    [7,12,2,"f1"],
+    [7,12,0,"b1"],
+    [7,12,1,"frame"],
+    [-7,11,2,"f1"],
+    [-7,11,0,"b1"],
+    [-7,11,1,"frame"],
+    [-6,11,2,"f210"],
+    [-6,11,0,"b3"],
+    [-6,11,1,"chip"],
+    [-5,11,2,"f211"],
+    [-5,11,0,"b3"],
+    [-5,11,1,"pcbDk"],
+    [-4,11,2,"f212"],
+    [-4,11,0,"b3"],
+    [-4,11,1,"pcb"],
+    [-3,11,2,"f213"],
+    [-3,11,0,"b3"],
+    [-3,11,1,"pcbDk"],
+    [-2,11,2,"f214"],
+    [-2,11,0,"b3"],
+    [-2,11,1,"batt"],
+    [-1,11,2,"f215"],
+    [-1,11,0,"b3"],
+    [-1,11,1,"battLt"],
+    [0,11,2,"f216"],
+    [0,11,0,"b3"],
+    [0,11,1,"chip"],
+    [1,11,2,"f217"],
+    [1,11,0,"b3"],
+    [1,11,1,"batt"],
+    [2,11,2,"f218"],
+    [2,11,0,"b3"],
+    [2,11,1,"batt"],
+    [3,11,2,"f219"],
+    [3,11,0,"b3"],
+    [3,11,1,"pcb"],
+    [4,11,2,"f220"],
+    [4,11,0,"b3"],
+    [4,11,1,"pcbDk"],
+    [5,11,2,"f221"],
+    [5,11,0,"b3"],
+    [5,11,1,"pcbDk"],
+    [6,11,2,"f222"],
+    [6,11,0,"b3"],
+    [6,11,1,"pcb"],
+    [7,11,2,"f1"],
+    [7,11,0,"b1"],
+    [7,11,1,"frame"],
+    [-7,10,2,"f1"],
+    [-7,10,0,"b1"],
+    [-7,10,1,"frame"],
+    [-6,10,2,"f223"],
+    [-6,10,0,"b3"],
+    [-6,10,1,"chip"],
+    [-5,10,2,"f224"],
+    [-5,10,0,"b3"],
+    [-5,10,1,"pcb"],
+    [-4,10,2,"f225"],
+    [-4,10,0,"b3"],
+    [-4,10,1,"copper"],
+    [-3,10,2,"f226"],
+    [-3,10,0,"b3"],
+    [-3,10,1,"pcbDk"],
+    [-2,10,2,"f227"],
+    [-2,10,0,"b3"],
+    [-2,10,1,"batt"],
+    [-1,10,2,"f228"],
+    [-1,10,0,"b3"],
+    [-1,10,1,"batt"],
+    [0,10,2,"f229"],
+    [0,10,0,"b3"],
+    [0,10,1,"batt"],
+    [1,10,2,"f230"],
+    [1,10,0,"b3"],
+    [1,10,1,"batt"],
+    [2,10,2,"f231"],
+    [2,10,0,"b3"],
+    [2,10,1,"batt"],
+    [3,10,2,"f232"],
+    [3,10,0,"b3"],
+    [3,10,1,"pcb"],
+    [4,10,2,"f233"],
+    [4,10,0,"b3"],
+    [4,10,1,"pcb"],
+    [5,10,2,"f234"],
+    [5,10,0,"b3"],
+    [5,10,1,"pcbDk"],
+    [6,10,2,"f235"],
+    [6,10,0,"b3"],
+    [6,10,1,"pcbDk"],
+    [7,10,2,"f1"],
+    [7,10,0,"b1"],
+    [7,10,1,"frame"],
+    [-7,9,2,"f1"],
+    [-7,9,0,"b1"],
+    [-7,9,1,"frame"],
+    [-6,9,2,"f236"],
+    [-6,9,0,"b3"],
+    [-6,9,1,"chip"],
+    [-5,9,2,"f237"],
+    [-5,9,0,"b3"],
+    [-5,9,1,"pcbDk"],
+    [-4,9,2,"f238"],
+    [-4,9,0,"b3"],
+    [-4,9,1,"pcb"],
+    [-3,9,2,"f239"],
+    [-3,9,0,"b3"],
+    [-3,9,1,"pcb"],
+    [-2,9,2,"f240"],
+    [-2,9,0,"b3"],
+    [-2,9,1,"batt"],
+    [-1,9,2,"f241"],
+    [-1,9,0,"b3"],
+    [-1,9,1,"batt"],
+    [0,9,2,"f242"],
+    [0,9,0,"b3"],
+    [0,9,1,"batt"],
+    [1,9,2,"f243"],
+    [1,9,0,"b3"],
+    [1,9,1,"batt"],
+    [2,9,2,"f244"],
+    [2,9,0,"b3"],
+    [2,9,1,"batt"],
+    [3,9,2,"f245"],
+    [3,9,0,"b3"],
+    [3,9,1,"pcbDk"],
+    [4,9,2,"f246"],
+    [4,9,0,"b3"],
+    [4,9,1,"pcb"],
+    [5,9,2,"f247"],
+    [5,9,0,"b3"],
+    [5,9,1,"pcb"],
+    [6,9,2,"f248"],
+    [6,9,0,"b3"],
+    [6,9,1,"chip"],
+    [7,9,2,"f1"],
+    [7,9,0,"b1"],
+    [7,9,1,"frame"],
+    [-7,8,2,"f1"],
+    [-7,8,0,"b1"],
+    [-7,8,1,"frame"],
+    [-6,8,2,"f249"],
+    [-6,8,0,"b3"],
+    [-6,8,1,"chip"],
+    [-5,8,2,"f250"],
+    [-5,8,0,"b3"],
+    [-5,8,1,"pcb"],
+    [-4,8,2,"f251"],
+    [-4,8,0,"b3"],
+    [-4,8,1,"pcbDk"],
+    [-3,8,2,"f252"],
+    [-3,8,0,"b3"],
+    [-3,8,1,"pcb"],
+    [-2,8,2,"f253"],
+    [-2,8,0,"b3"],
+    [-2,8,1,"batt"],
+    [-1,8,2,"f254"],
+    [-1,8,0,"b3"],
+    [-1,8,1,"batt"],
+    [0,8,2,"f255"],
+    [0,8,0,"b3"],
+    [0,8,1,"batt"],
+    [1,8,2,"f256"],
+    [1,8,0,"b3"],
+    [1,8,1,"batt"],
+    [2,8,2,"f257"],
+    [2,8,0,"b3"],
+    [2,8,1,"batt"],
+    [3,8,2,"f258"],
+    [3,8,0,"b3"],
+    [3,8,1,"pcbDk"],
+    [4,8,2,"f259"],
+    [4,8,0,"b3"],
+    [4,8,1,"pcb"],
+    [5,8,2,"f260"],
+    [5,8,0,"b3"],
+    [5,8,1,"chip"],
+    [6,8,2,"f261"],
+    [6,8,0,"b3"],
+    [6,8,1,"battLt"],
+    [7,8,2,"f1"],
+    [7,8,0,"b1"],
+    [7,8,1,"frame"],
+    [-7,7,2,"f1"],
+    [-7,7,0,"b1"],
+    [-7,7,1,"frame"],
+    [-6,7,2,"f262"],
+    [-6,7,0,"b3"],
+    [-6,7,1,"pcb"],
+    [-5,7,2,"f263"],
+    [-5,7,0,"b3"],
+    [-5,7,1,"pcbDk"],
+    [-4,7,2,"f264"],
+    [-4,7,0,"b3"],
+    [-4,7,1,"pcbDk"],
+    [-3,7,2,"f265"],
+    [-3,7,0,"b3"],
+    [-3,7,1,"pcb"],
+    [-2,7,2,"f266"],
+    [-2,7,0,"b3"],
+    [-2,7,1,"batt"],
+    [-1,7,2,"f267"],
+    [-1,7,0,"b3"],
+    [-1,7,1,"batt"],
+    [0,7,2,"f268"],
+    [0,7,0,"b3"],
+    [0,7,1,"batt"],
+    [1,7,2,"f269"],
+    [1,7,0,"b3"],
+    [1,7,1,"batt"],
+    [2,7,2,"f270"],
+    [2,7,0,"b3"],
+    [2,7,1,"batt"],
+    [3,7,2,"f271"],
+    [3,7,0,"b3"],
+    [3,7,1,"pcbDk"],
+    [4,7,2,"f272"],
+    [4,7,0,"b3"],
+    [4,7,1,"pcb"],
+    [5,7,2,"f273"],
+    [5,7,0,"b3"],
+    [5,7,1,"pcbDk"],
+    [6,7,2,"f274"],
+    [6,7,0,"b3"],
+    [6,7,1,"pcb"],
+    [7,7,2,"f1"],
+    [7,7,0,"b1"],
+    [7,7,1,"frame"],
+    [-7,6,2,"f1"],
+    [-7,6,0,"b1"],
+    [-7,6,1,"frame"],
+    [-6,6,2,"f275"],
+    [-6,6,0,"b3"],
+    [-6,6,1,"pcb"],
+    [-5,6,2,"f276"],
+    [-5,6,0,"b3"],
+    [-5,6,1,"copper"],
+    [-4,6,2,"f277"],
+    [-4,6,0,"b3"],
+    [-4,6,1,"pcb"],
+    [-3,6,2,"f278"],
+    [-3,6,0,"b3"],
+    [-3,6,1,"pcbDk"],
+    [-2,6,2,"f279"],
+    [-2,6,0,"b3"],
+    [-2,6,1,"batt"],
+    [-1,6,2,"f280"],
+    [-1,6,0,"b3"],
+    [-1,6,1,"batt"],
+    [0,6,2,"f281"],
+    [0,6,0,"b3"],
+    [0,6,1,"batt"],
+    [1,6,2,"f282"],
+    [1,6,0,"b3"],
+    [1,6,1,"batt"],
+    [2,6,2,"f283"],
+    [2,6,0,"b3"],
+    [2,6,1,"chip"],
+    [3,6,2,"f284"],
+    [3,6,0,"b3"],
+    [3,6,1,"pcb"],
+    [4,6,2,"f285"],
+    [4,6,0,"b3"],
+    [4,6,1,"pcb"],
+    [5,6,2,"f286"],
+    [5,6,0,"b3"],
+    [5,6,1,"pcb"],
+    [6,6,2,"f287"],
+    [6,6,0,"b3"],
+    [6,6,1,"battLt"],
+    [7,6,2,"f1"],
+    [7,6,0,"b1"],
+    [7,6,1,"frame"],
+    [-7,5,2,"f1"],
+    [-7,5,0,"b1"],
+    [-7,5,1,"frame"],
+    [-6,5,2,"f288"],
+    [-6,5,0,"b3"],
+    [-6,5,1,"chip"],
+    [-5,5,2,"f289"],
+    [-5,5,0,"b3"],
+    [-5,5,1,"pcb"],
+    [-4,5,2,"f290"],
+    [-4,5,0,"b3"],
+    [-4,5,1,"pcb"],
+    [-3,5,2,"f291"],
+    [-3,5,0,"b3"],
+    [-3,5,1,"pcb"],
+    [-2,5,2,"f292"],
+    [-2,5,0,"b3"],
+    [-2,5,1,"batt"],
+    [-1,5,2,"f293"],
+    [-1,5,0,"b3"],
+    [-1,5,1,"chip"],
+    [0,5,2,"f294"],
+    [0,5,0,"b3"],
+    [0,5,1,"batt"],
+    [1,5,2,"f295"],
+    [1,5,0,"b3"],
+    [1,5,1,"batt"],
+    [2,5,2,"f296"],
+    [2,5,0,"b3"],
+    [2,5,1,"batt"],
+    [3,5,2,"f297"],
+    [3,5,0,"b3"],
+    [3,5,1,"pcb"],
+    [4,5,2,"f298"],
+    [4,5,0,"b3"],
+    [4,5,1,"pcb"],
+    [5,5,2,"f299"],
+    [5,5,0,"b3"],
+    [5,5,1,"chip"],
+    [6,5,2,"f300"],
+    [6,5,0,"b3"],
+    [6,5,1,"pcb"],
+    [7,5,2,"f1"],
+    [7,5,0,"b1"],
+    [7,5,1,"frame"],
+    [-7,4,2,"f1"],
+    [-7,4,0,"b1"],
+    [-7,4,1,"frame"],
+    [-6,4,2,"f301"],
+    [-6,4,0,"b3"],
+    [-6,4,1,"chip"],
+    [-5,4,2,"f302"],
+    [-5,4,0,"b3"],
+    [-5,4,1,"pcb"],
+    [-4,4,2,"f303"],
+    [-4,4,0,"b3"],
+    [-4,4,1,"pcb"],
+    [-3,4,2,"f304"],
+    [-3,4,0,"b3"],
+    [-3,4,1,"pcb"],
+    [-2,4,2,"f305"],
+    [-2,4,0,"b3"],
+    [-2,4,1,"batt"],
+    [-1,4,2,"f306"],
+    [-1,4,0,"b3"],
+    [-1,4,1,"batt"],
+    [0,4,2,"f307"],
+    [0,4,0,"b3"],
+    [0,4,1,"batt"],
+    [1,4,2,"f308"],
+    [1,4,0,"b3"],
+    [1,4,1,"batt"],
+    [2,4,2,"f309"],
+    [2,4,0,"b3"],
+    [2,4,1,"batt"],
+    [3,4,2,"f310"],
+    [3,4,0,"b3"],
+    [3,4,1,"pcb"],
+    [4,4,2,"f311"],
+    [4,4,0,"b3"],
+    [4,4,1,"pcbDk"],
+    [5,4,2,"f312"],
+    [5,4,0,"b3"],
+    [5,4,1,"pcb"],
+    [6,4,2,"f313"],
+    [6,4,0,"b3"],
+    [6,4,1,"pcb"],
+    [7,4,2,"f1"],
+    [7,4,0,"b1"],
+    [7,4,1,"frame"],
+    [-7,3,2,"f1"],
+    [-7,3,0,"b1"],
+    [-7,3,1,"frame"],
+    [-6,3,2,"f314"],
+    [-6,3,0,"b3"],
+    [-6,3,1,"battLt"],
+    [-5,3,2,"f315"],
+    [-5,3,0,"b3"],
+    [-5,3,1,"pcb"],
+    [-4,3,2,"f316"],
+    [-4,3,0,"b3"],
+    [-4,3,1,"pcb"],
+    [-3,3,2,"f317"],
+    [-3,3,0,"b3"],
+    [-3,3,1,"copper"],
+    [-2,3,2,"f318"],
+    [-2,3,0,"b3"],
+    [-2,3,1,"batt"],
+    [-1,3,2,"f319"],
+    [-1,3,0,"b3"],
+    [-1,3,1,"batt"],
+    [0,3,2,"f320"],
+    [0,3,0,"b3"],
+    [0,3,1,"batt"],
+    [1,3,2,"f321"],
+    [1,3,0,"b3"],
+    [1,3,1,"batt"],
+    [2,3,2,"f322"],
+    [2,3,0,"b3"],
+    [2,3,1,"chip"],
+    [3,3,2,"f323"],
+    [3,3,0,"b3"],
+    [3,3,1,"pcb"],
+    [4,3,2,"f324"],
+    [4,3,0,"b3"],
+    [4,3,1,"pcb"],
+    [5,3,2,"f325"],
+    [5,3,0,"b3"],
+    [5,3,1,"battLt"],
+    [6,3,2,"f326"],
+    [6,3,0,"b3"],
+    [6,3,1,"pcb"],
+    [7,3,2,"f1"],
+    [7,3,0,"b1"],
+    [7,3,1,"frame"],
+    [-7,2,2,"f1"],
+    [-7,2,0,"b1"],
+    [-7,2,1,"frame"],
+    [-6,2,2,"f327"],
+    [-6,2,0,"b3"],
+    [-6,2,1,"copper"],
+    [-5,2,2,"f120"],
+    [-5,2,0,"b3"],
+    [-5,2,1,"pcb"],
+    [-4,2,2,"f328"],
+    [-4,2,0,"b3"],
+    [-4,2,1,"pcb"],
+    [-3,2,2,"f329"],
+    [-3,2,0,"b3"],
+    [-3,2,1,"pcb"],
+    [-2,2,2,"f330"],
+    [-2,2,0,"b3"],
+    [-2,2,1,"batt"],
+    [-1,2,2,"f331"],
+    [-1,2,0,"b3"],
+    [-1,2,1,"batt"],
+    [0,2,2,"f332"],
+    [0,2,0,"b3"],
+    [0,2,1,"battLt"],
+    [1,2,2,"f333"],
+    [1,2,0,"b3"],
+    [1,2,1,"batt"],
+    [2,2,2,"f334"],
+    [2,2,0,"b3"],
+    [2,2,1,"batt"],
+    [3,2,2,"f335"],
+    [3,2,0,"b3"],
+    [3,2,1,"pcb"],
+    [4,2,2,"f336"],
+    [4,2,0,"b3"],
+    [4,2,1,"copper"],
+    [5,2,2,"f337"],
+    [5,2,0,"b3"],
+    [5,2,1,"pcbDk"],
+    [6,2,2,"f338"],
+    [6,2,0,"b3"],
+    [6,2,1,"pcbDk"],
+    [7,2,2,"f1"],
+    [7,2,0,"b1"],
+    [7,2,1,"frame"],
+    [-7,1,2,"f1"],
+    [-7,1,0,"b1"],
+    [-7,1,1,"frame"],
+    [-6,1,2,"f339"],
+    [-6,1,0,"b3"],
+    [-6,1,1,"chip"],
+    [-5,1,2,"f340"],
+    [-5,1,0,"b3"],
+    [-5,1,1,"copper"],
+    [-4,1,2,"f341"],
+    [-4,1,0,"b3"],
+    [-4,1,1,"pcb"],
+    [-3,1,2,"f342"],
+    [-3,1,0,"b3"],
+    [-3,1,1,"copper"],
+    [-2,1,2,"f343"],
+    [-2,1,0,"b3"],
+    [-2,1,1,"chip"],
+    [-1,1,2,"f344"],
+    [-1,1,0,"b3"],
+    [-1,1,1,"batt"],
+    [0,1,2,"f345"],
+    [0,1,0,"b3"],
+    [0,1,1,"batt"],
+    [1,1,2,"f346"],
+    [1,1,0,"b3"],
+    [1,1,1,"batt"],
+    [2,1,2,"f347"],
+    [2,1,0,"b3"],
+    [2,1,1,"batt"],
+    [3,1,2,"f348"],
+    [3,1,0,"b3"],
+    [3,1,1,"pcb"],
+    [4,1,2,"f349"],
+    [4,1,0,"b3"],
+    [4,1,1,"pcb"],
+    [5,1,2,"f350"],
+    [5,1,0,"b3"],
+    [5,1,1,"pcb"],
+    [6,1,2,"f351"],
+    [6,1,0,"b3"],
+    [6,1,1,"pcbDk"],
+    [7,1,2,"f1"],
+    [7,1,0,"b1"],
+    [7,1,1,"frame"],
+    [-6,0,2,"f1"],
+    [-6,0,0,"b1"],
+    [-6,0,1,"frame"],
+    [-5,0,2,"f1"],
+    [-5,0,0,"b1"],
+    [-5,0,1,"frame"],
+    [-4,0,2,"f1"],
+    [-4,0,0,"b1"],
+    [-4,0,1,"frame"],
+    [-3,0,2,"f1"],
+    [-3,0,0,"b1"],
+    [-3,0,1,"frame"],
+    [-2,0,2,"f1"],
+    [-2,0,0,"b1"],
+    [-2,0,1,"frame"],
+    [-1,0,2,"f1"],
+    [-1,0,0,"b1"],
+    [-1,0,1,"frame"],
+    [0,0,2,"f1"],
+    [0,0,0,"b1"],
+    [0,0,1,"frame"],
+    [1,0,2,"f1"],
+    [1,0,0,"b1"],
+    [1,0,1,"frame"],
+    [2,0,2,"f1"],
+    [2,0,0,"b1"],
+    [2,0,1,"frame"],
+    [3,0,2,"f1"],
+    [3,0,0,"b1"],
+    [3,0,1,"frame"],
+    [4,0,2,"f1"],
+    [4,0,0,"b1"],
+    [4,0,1,"frame"],
+    [5,0,2,"f1"],
+    [5,0,0,"b1"],
+    [5,0,1,"frame"],
+    [6,0,2,"f1"],
+    [6,0,0,"b1"],
+    [6,0,1,"frame"]
+  ],
+  "cavities": [],
+  "flames": []
+}

@@ -13,7 +13,7 @@ import {
   safeStateEqual,
   type OAuthProvider,
 } from "./oauth.js";
-import { validateScore } from "./score-policy.js";
+import { isRankedGame, validateScore } from "./score-policy.js";
 
 const runStartSchema = z.object({ gameSlug: z.string().min(1).max(50) });
 const scoreSchema = z.object({
@@ -71,10 +71,10 @@ export function createApp(config: Config, store: Store) {
   app.set("trust proxy", 1);
   app.disable("x-powered-by");
 
-  const securityHeaders = (mode: "app" | "game" | "legacy-game") =>
+  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game") =>
     helmet({
       contentSecurityPolicy:
-        config.NODE_ENV === "development"
+        config.NODE_ENV === "development" && mode === "app"
           ? false
           : {
               directives: {
@@ -92,7 +92,11 @@ export function createApp(config: Config, store: Store) {
                 mediaSrc: mode === "app" ? ["'self'"] : ["'self'", "data:", "blob:"],
                 fontSrc: ["'self'", "data:"],
                 scriptSrc:
-                  mode === "legacy-game" ? ["'self'", "'unsafe-eval'"] : ["'self'"],
+                  mode === "legacy-game"
+                    ? ["'self'", "'unsafe-eval'"]
+                    : mode === "wasm-game"
+                      ? ["'self'", "'wasm-unsafe-eval'"]
+                      : ["'self'"],
                 styleSrc: ["'self'", "'unsafe-inline'"],
                 workerSrc: mode === "app" ? ["'self'"] : ["'self'", "blob:"],
                 frameSrc: mode === "app" ? ["'self'"] : ["'none'"],
@@ -104,15 +108,52 @@ export function createApp(config: Config, store: Store) {
   const appSecurityHeaders = securityHeaders("app");
   const gameSecurityHeaders = securityHeaders("game");
   const subwaySecurityHeaders = securityHeaders("legacy-game");
+  // Unity and Construct/Box2D runtimes compile their downloaded modules
+  // through an eval-like browser code path. Keep those exceptions narrowly
+  // scoped to their local engine mirrors rather than weakening the catalog.
+  const cityCabRushSecurityHeaders = securityHeaders("legacy-game");
+  const plonkySecurityHeaders = securityHeaders("legacy-game");
+  const theftCitySecurityHeaders = securityHeaders("wasm-game");
+  const supercarLegendsSecurityHeaders = securityHeaders("wasm-game");
   app.use((req, res, next) => {
     const headers = req.path.startsWith("/games/subway-surfers/")
       ? subwaySecurityHeaders
+      : req.path.startsWith("/games/city-cab-rush/")
+        ? cityCabRushSecurityHeaders
+      : req.path.startsWith("/games/plonky/")
+        ? plonkySecurityHeaders
+      : req.path.startsWith("/games/theft-city/")
+        ? theftCitySecurityHeaders
+      : req.path.startsWith("/games/supercar-legends/")
+        ? supercarLegendsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
-    headers(req, res, next);
+    headers(req, res, () => {
+      if (req.path.startsWith("/games/stickman-fury/")) {
+        // Stickman Fury runs in an opaque-origin sandbox (without
+        // allow-same-origin). Its public local assets must therefore accept
+        // read-only requests carrying Origin: null.
+        res.setHeader("Access-Control-Allow-Origin", "null");
+        res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
+      }
+      next();
+    });
   });
   app.use(compression());
+  app.use("/games/theft-city/Build", (req, res, next) => {
+    if (req.path.endsWith(".data.br")) {
+      res.type("application/octet-stream");
+      res.setHeader("Content-Encoding", "br");
+    } else if (req.path.endsWith(".framework.js.br")) {
+      res.type("text/javascript");
+      res.setHeader("Content-Encoding", "br");
+    } else if (req.path.endsWith(".wasm.br")) {
+      res.type("application/wasm");
+      res.setHeader("Content-Encoding", "br");
+    }
+    next();
+  });
   app.use(express.json({ limit: "32kb" }));
 
   const sseClients = new Map<string, Set<Response>>();
@@ -175,7 +216,7 @@ export function createApp(config: Config, store: Store) {
       const [games, likes] = await Promise.all([store.listGames(), store.getLikes(ctx.deviceId)]);
       res.json({
         player: publicPlayer(ctx.player),
-        games,
+        games: games.map((game) => ({ ...game, ranked: isRankedGame(game.slug) })),
         likes,
         auth: {
           google: providerAvailable("google", config),

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="theme-color" content="#05070c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>City Cab Rush</title>
+    <script src="/games/_shared/network-lock.js"></script>
+    <script src="./tiptap-platform-bridge.js"></script>
+    <link rel="stylesheet" href="./tiptap-shell.css" />
+  </head>
+  <body>
+    <canvas id="unity-canvas" aria-label="City Cab Rush"></canvas>
+    <div id="unity-loading" role="status" aria-live="polite">
+      <div class="loading-mark">CITY CAB RUSH</div>
+      <div class="loading-copy">STARTING YOUR RIDE <b>0%</b></div>
+      <div class="loading-track"><span></span></div>
+    </div>
+    <div id="unity-error" role="alert" hidden></div>
+    <script src="./Build/TaxiRush-V1.3.4.loader.js"></script>
+    <script src="./tiptap-bootstrap.js"></script>
+  </body>
+</html>

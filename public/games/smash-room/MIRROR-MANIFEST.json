@@ -1,0 +1,245 @@
+{
+  "game": "smash-room",
+  "title": "Smash Room",
+  "source": {
+    "publisher": "Happylander Ltd",
+    "page": "https://poki.com/en/g/smash-room",
+    "package": "https://17e020cd-042a-46c5-a13c-434fd4c49dfd.gdn.poki.com/292f3ed1-b297-4a5f-be11-aa0288c391a7/"
+  },
+  "runtimePolicy": {
+    "externalRequests": false,
+    "ads": false,
+    "analytics": false,
+    "pokiSdk": false,
+    "leaderboard": "unranked-no-verified-source-callback"
+  },
+  "files": [
+    {
+      "assetPath": "app.js",
+      "bytes": 263814,
+      "sha256": "8f90104a9b42fb649ae9ed13eac289abdc58c76b38c250da69637a93f4d9c431"
+    },
+    {
+      "assetPath": "audio/sound.mp3",
+      "bytes": 1920983,
+      "sha256": "37c597c67b9a7cc658f2a3c31ef7869d0648f1ebb1b49c8ab46bf06e51818be5"
+    },
+    {
+      "assetPath": "fonts/Fredoka_SemiCondensed-Bold.ttf",
+      "bytes": 49880,
+      "sha256": "d6c526fed2248d3dc118ee20bd151a09a03e4de22336be79e28ebb0bd29641e8"
+    },
+    {
+      "assetPath": "gsap.min.js",
+      "bytes": 60111,
+      "sha256": "5c35ab89df1a197f8d670498ec9cd3bbaa1602b23bd52c3e69467d1ddd0fe66a"
+    },
+    {
+      "assetPath": "Howler.min.js",
+      "bytes": 34630,
+      "sha256": "3dc2e18f59b6ea49821ee8a56f8d98d5526f61e5c0cc41fbbbef2feb7969ea41"
+    },
+    {
+      "assetPath": "images/bgMain.jpg",
+      "bytes": 73771,
+      "sha256": "6897da96a959ef7114caac432cd6457d9b2b03feb22b78e1ab3114bd7a7073d3"
+    },
+    {
+      "assetPath": "images/ground.jpg",
+      "bytes": 44786,
+      "sha256": "9d54e02a08bad7c0d739f1852aec630cb731d805674a0f67462657b84244514d"
+    },
+    {
+      "assetPath": "images/icons.png",
+      "bytes": 350219,
+      "sha256": "7e9011c3dc2761f6668db9182e0494b24c727dc674293ba36d61e53aac24b48f"
+    },
+    {
+      "assetPath": "images/laptopScreen.jpg",
+      "bytes": 18279,
+      "sha256": "79dd5f0c13f62006b276f905b1bb4e9a70426964ad603ca63a8d97ee4e045eae"
+    },
+    {
+      "assetPath": "images/loader.png",
+      "bytes": 33820,
+      "sha256": "a781914df213e93b77b30f201c5e91a6c877a10f8ade9db70ed726605745764c"
+    },
+    {
+      "assetPath": "images/loadSpinner.png",
+      "bytes": 1007,
+      "sha256": "2a098e8224419d0e10ab9ad1f7cecca460e6b4c792bbe8da1eb73f6c3f87325a"
+    },
+    {
+      "assetPath": "images/phoneScreen.jpg",
+      "bytes": 18935,
+      "sha256": "d810d1a216124a17f7f0ce1c12416575926971fb3f27bb00da25c2ad1f71882f"
+    },
+    {
+      "assetPath": "images/uiButs.png",
+      "bytes": 12546,
+      "sha256": "5bdef928934b288b61ba601e9ae6085ec4ab72da6e76c988e95aaf5fbf41b85a"
+    },
+    {
+      "assetPath": "images/uiElements.png",
+      "bytes": 5075,
+      "sha256": "f59361f8858f70ef797cd76f6d06aa940a45f88ab02071f220d25d9b3d3ace21"
+    },
+    {
+      "assetPath": "json/objects/birthday_cake.json",
+      "bytes": 89118,
+      "sha256": "185094294d2431239d05aa90f08405b9943ef9d6a588581bd06294beaec558e3"
+    },
+    {
+      "assetPath": "json/objects/boombox.json",
+      "bytes": 55176,
+      "sha256": "70d08f81545b853019a2f3e5ccbf7279f5ec676cc98d0bcdb8aba14f0fad1115"
+    },
+    {
+      "assetPath": "json/objects/bottle.json",
+      "bytes": 64427,
+      "sha256": "faa9ddba7d9bd417fe48b548df515d71070a6f5cc826bd869efc1a88b872a0b2"
+    },
+    {
+      "assetPath": "json/objects/burger.json",
+      "bytes": 65273,
+      "sha256": "dbfd10aebd005f2dbd91d25ca68a51e2aeddf4877378a8a444ef8ae2d3eb4c9a"
+    },
+    {
+      "assetPath": "json/objects/cactus.json",
+      "bytes": 55560,
+      "sha256": "095de3794fd33024969ebadaff13d78d8255049d1986c5429e5094242b2412b8"
+    },
+    {
+      "assetPath": "json/objects/calculator.json",
+      "bytes": 45969,
+      "sha256": "347ace58afd810f46291891f2f05eca6e281740d5d4d33fe15c7b45eb4c6abd5"
+    },
+    {
+      "assetPath": "json/objects/coffee_mug.json",
+      "bytes": 50552,
+      "sha256": "fd6eb76b3f6908be62b826d015e1391a3384c112d98596cb7f030d3ac9ae8425"
+    },
+    {
+      "assetPath": "json/objects/eggs.json",
+      "bytes": 62139,
+      "sha256": "4baab7d221c9a75f53efba70f9bc55bb3dabe6f934b4a03cb3022e628dcb5c5d"
+    },
+    {
+      "assetPath": "json/objects/figure.json",
+      "bytes": 45429,
+      "sha256": "ca4f7eccb820d6535f55e01f1a01355ca40921551435f7f47885612121b5db3d"
+    },
+    {
+      "assetPath": "json/objects/gameboy.json",
+      "bytes": 27377,
+      "sha256": "393f8e132b3f0c14714b855f7f576307bb1d4c29ddb25d33724102b76f1e6373"
+    },
+    {
+      "assetPath": "json/objects/glass.json",
+      "bytes": 47390,
+      "sha256": "f8b3e32a81a1b0f664b6e04ae2ebadd58611ffe6475dfaf5f90cbf74c99a200d"
+    },
+    {
+      "assetPath": "json/objects/globe.json",
+      "bytes": 47931,
+      "sha256": "a86a9869c14235606bbf6dd59e236643a754f500ef8a96062fa6544f51a2065d"
+    },
+    {
+      "assetPath": "json/objects/house.json",
+      "bytes": 94180,
+      "sha256": "1319d9afeb8bc018bc43ce331e086492c33ae1fa4957b0bd19fd50a1573c0471"
+    },
+    {
+      "assetPath": "json/objects/laptop.json",
+      "bytes": 44004,
+      "sha256": "57f63622aa6d1b3e1d065afc045a57b0663e53493ccd843a6ce98f32f98b0cc8"
+    },
+    {
+      "assetPath": "json/objects/milk.json",
+      "bytes": 126420,
+      "sha256": "54cae3bc4deb20a25d2747e9e3ac8c8e06a62e8db06a9dd6a0af546ff920aead"
+    },
+    {
+      "assetPath": "json/objects/mills.json",
+      "bytes": 49206,
+      "sha256": "2f33bb2274ee5b2436921b7d7d0978286f37bc0009edf99af04764952384bfe1"
+    },
+    {
+      "assetPath": "json/objects/pencil.json",
+      "bytes": 43112,
+      "sha256": "ded4e76adb5696295e6f205fa8649964cff34c5c73cdfd7f9a225f55d8c06729"
+    },
+    {
+      "assetPath": "json/objects/phone.json",
+      "bytes": 68129,
+      "sha256": "b3062c956b22bfd3b5c25c5e848e7e9b285ef6171941a6344e17db91cef4697c"
+    },
+    {
+      "assetPath": "json/objects/rubiks_cube.json",
+      "bytes": 46629,
+      "sha256": "027ad9065b708cb783f427dfe542fa404b93ec87551a2ff8ca8a68b80e1f79bf"
+    },
+    {
+      "assetPath": "json/objects/sneaker.json",
+      "bytes": 32639,
+      "sha256": "ea61383e6a4a65a74389ca6a18556cdd45ea92f56ef128843a77c73dd2b944f1"
+    },
+    {
+      "assetPath": "json/objects/toaster.json",
+      "bytes": 85805,
+      "sha256": "0812b46a5f8c075cda61316b68bb3066ac0eab9e14b0cd280e8a42ec0a18bd1d"
+    },
+    {
+      "assetPath": "json/objects/trophy.json",
+      "bytes": 50688,
+      "sha256": "4c48504e1431426db5d6d1af947a0981de56ec120fb7f799a51d4ebfb0668c78"
+    },
+    {
+      "assetPath": "json/objects/van.json",
+      "bytes": 44627,
+      "sha256": "5e0a85e80fc73edb589ac6562fb4820eaf7bf1ddd1e6bd1382ee7dde77e7593a"
+    },
+    {
+      "assetPath": "json/objects/vase.json",
+      "bytes": 18066,
+      "sha256": "32f1471601ff524b15813c63a87ab58c79f5fd950fefe889ab0566435e253535"
+    },
+    {
+      "assetPath": "json/settings.json",
+      "bytes": 5611,
+      "sha256": "dd62eb460c87c24442ef0b4891743b16b51a8a3e9953d3b18d82a0d020f32b44"
+    },
+    {
+      "assetPath": "json/text.json",
+      "bytes": 2147,
+      "sha256": "c45efa50210a8b171cd44466547ed635e64a8c9a484f70b5565f06257216b39a"
+    },
+    {
+      "assetPath": "three.min.js",
+      "bytes": 608081,
+      "sha256": "8a5f7249903b54d30f79f708699d2fed2d6a1d0741a4cd41377d1f01bb5a2271"
+    },
+    {
+      "assetPath": "VisibilityManager.js",
+      "bytes": 1653,
+      "sha256": "97afb35d7cf8799caca63d7e6c7115bb829ed854dd3e23af099d058d697e0822"
+    }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "cf2bbe89c5431922c3c3b35da2de31358f16c4a43c4c6c443b15a222e746f962"
+    },
+    {
+      "assetPath": "game.css",
+      "bytes": 1017,
+      "sha256": "5416cc73f10324f4aec3a8f5fe83dfb1219c78d3b5726c45f2410b99aa0c3e77"
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "bytes": 1175,
+      "sha256": "177858fbcba5f445c2f59fd71ff822c3375e3e58e481a9db7ce3e0cd3033a215"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/count-control-legends/index.html",
+    "/games/count-control-legends/tiptap-config.js",
+    "/games/count-control-legends/tiptap-platform-bridge.js",
+    "/games/count-control-legends/tiptap-unity-2020.js",
+    "/games/count-control-legends/Build/c7cea366ea8eaab59722a8d24073643f.loader.js",
+    "/games/count-control-legends/Build/2320a17ab13f3e61f4a62a2cc0382528.framework.js.unityweb",
+    "/games/count-control-legends/Build/f1c87ec2ef0c4ed9b3c34bb439b0c5de.wasm.unityweb",
+    "/games/count-control-legends/Build/180b03074745078a7fe292b2c22f6060.data.unityweb"
+  ]
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#101317" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" href="data:," />
+    <title>Stickman Fury</title>
+    <script src="/games/_shared/network-lock.js"></script>
+    <script src="js/tiptap-platform-bridge.js"></script>
+    <style>
+      @font-face {
+        font-family: Fredoka;
+        src: url("fonts/Fredoka_SemiCondensed-SemiBold.ttf") format("truetype");
+        font-display: swap;
+      }
+      html,
+      body,
+      #canvas-wrapper,
+      canvas {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #101317;
+        touch-action: none;
+        overscroll-behavior: none;
+      }
+      body {
+        position: fixed;
+        inset: 0;
+        font-family: Fredoka, sans-serif;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #canvas-wrapper {
+        position: absolute;
+        inset: 0;
+      }
+      canvas {
+        display: block;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvas-wrapper"><canvas id="canvas" tabindex="0"></canvas></div>
+    <script src="planck.min.js"></script>
+    <script src="gsap.min.js"></script>
+    <script src="Howler.min.js"></script>
+    <script src="VisibilityManager.js"></script>
+    <script src="app.js"></script>
+    <script src="js/tiptap-bootstrap.js"></script>
+  </body>
+</html>

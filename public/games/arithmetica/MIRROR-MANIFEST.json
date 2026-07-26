@@ -1,54 +1,483 @@
 {
-    "name":  "ArithmeticA",
-    "sourcePage":  "https://poki.com/en/g/arithmetica",
-    "sourceRoot":  "https://5947565b-1eae-4602-9e05-690e54616659.gdn.poki.com/117b8be4-5bb5-46eb-9311-394db8c17cb8/",
-    "gameId":  "5947565b-1eae-4602-9e05-690e54616659",
-    "gameVersionId":  "117b8be4-5bb5-46eb-9311-394db8c17cb8",
-    "capturedWith":  "Visual Editor Ultimate",
-    "integrationFiles":  [
-                             {
-                                 "sha256":  "8e4472aabe3effaabb72af993bc075f0719bd1c50d4cc899aa62f6487809a11b",
-                                 "assetPath":  "index.html",
-                                 "bytes":  698,
-                                 "purpose":  "Local bridge and network lock"
-                             },
-                             {
-                                 "sha256":  "e2901c7a97c885344fd5405b9b3feffa89bac23d806a46f71f2d9d400673368e",
-                                 "assetPath":  "NOTICE.txt",
-                                 "bytes":  683,
-                                 "purpose":  "Notice"
-                             }
-                         ],
-    "files":  [
-                  {
-                      "assetPath":  "style.css",
-                      "bytes":  250,
-                      "sha256":  "9bfab015dfc27d439430b06dd23e39406cf35e0c60e243ee838bc774829dfbc6"
-                  },
-                  {
-                      "assetPath":  "assets/phaser-CLYd3JIB.js",
-                      "bytes":  1195311,
-                      "sha256":  "49d62de3f14d58cb5d37249746b24e75b8e6f648bf2ed1a2121b8e709ca81d2c"
-                  },
-                  {
-                      "assetPath":  "assets/index-D_t7seLF.js",
-                      "bytes":  129953,
-                      "sha256":  "2d079b015a4e28632ada44279a0d4053b23572e24adda597e0953048f6452ad2"
-                  },
-                  {
-                      "assetPath":  "images/preloader_bar.png",
-                      "bytes":  110,
-                      "sha256":  "562c30ea4803355fc625595c42984727a0f7408c0c1810a95c821cadabdb0c44"
-                  },
-                  {
-                      "assetPath":  "images/preloading_screen_port.png",
-                      "bytes":  256,
-                      "sha256":  "f1ea01dd543788098289e72f2ee0b3e0af18455f4ca0c91c12e17a990de68aa5"
-                  },
-                  {
-                      "assetPath":  "images/preloading_screen.png",
-                      "bytes":  265,
-                      "sha256":  "edf8b0ac1044f11496e6409d5a4f2be608fff24d6dd5f9fcb1fb3aa7059dbef7"
-                  }
-              ]
+  "name": "ArithmeticA",
+  "sourcePage": "https://poki.com/en/g/arithmetica",
+  "sourceRoot": "https://5947565b-1eae-4602-9e05-690e54616659.gdn.poki.com/117b8be4-5bb5-46eb-9311-394db8c17cb8/",
+  "gameId": "5947565b-1eae-4602-9e05-690e54616659",
+  "gameVersionId": "117b8be4-5bb5-46eb-9311-394db8c17cb8",
+  "capturedWith": "Visual Editor Ultimate isolated feature-5 session (server 3460 / CDP 9226)",
+  "sourceBundleAudit": {
+    "verifiedOn": "2026-07-26",
+    "requiredOriginalAssets": 84,
+    "includedSourceAssets": 84,
+    "launcher": "index.html",
+    "runtime": "assets/phaser-CLYd3JIB.js",
+    "excluded": [
+      "Poki page shell",
+      "Poki SDK",
+      "ads",
+      "analytics",
+      "identity",
+      "tracking"
+    ]
+  },
+  "localAdaptations": [
+    "network-lock is the first executable script",
+    "Poki SDK insertion resolves to the local no-ad bridge",
+    "source SKIP_TITLE_SCREEN flag is enabled for automatic feed start",
+    "no source scoring callback was added or fabricated"
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local same-origin launcher with network lock",
+      "bytes": 636,
+      "sha256": "ff6e81f2e44125321c94dcc21abc866f327ca61efe9600505553ad11ec8c7c4c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Local no-ad lifecycle bridge and source SDK replacement",
+      "bytes": 2219,
+      "sha256": "c98766f26a17948654a44537bbb6385443c2cf3c26efca7d343f8e48eae287f6"
+    },
+    {
+      "assetPath": "assets/index-D_t7seLF.js",
+      "purpose": "Copied source bundle with the one verified source auto-start configuration flag enabled",
+      "bytes": 129953,
+      "sha256": "3e2e63a2befef6429380f3b40d16b544fec7d2fdbeec6c0b1b9a569f340a7299"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "purpose": "Attribution and deployment-permission record",
+      "bytes": 1065,
+      "sha256": "3d812109f9e879663409ddc018a1dcbbba1dc4dcb6408c0cfba6dd317e079875"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Lossless same-origin first-round warm-up manifest",
+      "bytes": 4230,
+      "sha256": "0533c00b1df362625d5c234be208b5b2bdf9aea5647f5836b197d938e3bc6514"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/index-D_t7seLF.js",
+      "bytes": 129953,
+      "sha256": "3e2e63a2befef6429380f3b40d16b544fec7d2fdbeec6c0b1b9a569f340a7299"
+    },
+    {
+      "assetPath": "assets/phaser-CLYd3JIB.js",
+      "bytes": 1195311,
+      "sha256": "49d62de3f14d58cb5d37249746b24e75b8e6f648bf2ed1a2121b8e709ca81d2c"
+    },
+    {
+      "assetPath": "fonts/coolCrayon.fnt",
+      "bytes": 49730,
+      "sha256": "318851e2925269032b9dcb25e3038146130e632fc027f755453b4d5f536477be"
+    },
+    {
+      "assetPath": "fonts/coolCrayon.png",
+      "bytes": 40812,
+      "sha256": "a8c19977c14c06364b5274899fafb5b461632d5db6fd463dde09df60f47ea9f6"
+    },
+    {
+      "assetPath": "images/achievement_frame.png",
+      "bytes": 6001,
+      "sha256": "3856a57ae399fed7e780537ce32b19f012ae0f892d8bc8f8a67009beb3c7b15f"
+    },
+    {
+      "assetPath": "images/achievements/a_plus.png",
+      "bytes": 4454,
+      "sha256": "4d44cd99afab28700e74fe5ebecb3d86a55ade65e5e1e5565372bb802a1bbce7"
+    },
+    {
+      "assetPath": "images/achievements/a.png",
+      "bytes": 3745,
+      "sha256": "5fa6f4ab0783f2bf3311957d2d62af25013a7895f8933eb85269a588a87b95b6"
+    },
+    {
+      "assetPath": "images/achievements/acc.png",
+      "bytes": 12058,
+      "sha256": "d1cd991c5b3f51e2e5f6b4decdfe203f3175e6f78db54c02ddff635a68d59271"
+    },
+    {
+      "assetPath": "images/achievements/b.png",
+      "bytes": 3691,
+      "sha256": "f3885319e1ef2bfb21c79cf07ed922c37bd2c763818672061f4b7dff2ba3e800"
+    },
+    {
+      "assetPath": "images/achievements/flash.png",
+      "bytes": 10796,
+      "sha256": "8e1f746c553fcebfd78318460ff06fd6d19357450f6b84d513e10a33c5a0b797"
+    },
+    {
+      "assetPath": "images/achievements/inf.png",
+      "bytes": 5440,
+      "sha256": "ce6ac9687c8e00c5b67e4fd9b3f43a8fd47ab81c618d634160f09ec88cd97d28"
+    },
+    {
+      "assetPath": "images/achievements/perc.png",
+      "bytes": 5411,
+      "sha256": "2417fa2839d3219fd29757a67d3ae67d50ea53dae3893053750566f0c77cc105"
+    },
+    {
+      "assetPath": "images/achievements/sign.png",
+      "bytes": 4646,
+      "sha256": "e7cc55ddb3ff45a1506d0f13ae9f1afa197a6a7bb82fb09b5291893f69b8b9f8"
+    },
+    {
+      "assetPath": "images/achievements/sqrt.png",
+      "bytes": 4561,
+      "sha256": "e05f44ceb4bcb7222c975899119e0b3dfec185d8ae62b78a54c38c2979c94c04"
+    },
+    {
+      "assetPath": "images/animations/strike.png",
+      "bytes": 10954,
+      "sha256": "e6c8fc099754f468a18f2df1d2c847e543357170a46d6d1c1e77d1b2a833a791"
+    },
+    {
+      "assetPath": "images/animations/unlock.png",
+      "bytes": 5492,
+      "sha256": "2e4a74820b99827423a8c87e0bc8a5a9a6da4ebca115f4a89172fc39699307f1"
+    },
+    {
+      "assetPath": "images/arrow.png",
+      "bytes": 590,
+      "sha256": "f414c9563752edc0116c87131b4b5525924895c9715fa4dcb856fe27bcba7660"
+    },
+    {
+      "assetPath": "images/arrows.png",
+      "bytes": 812,
+      "sha256": "f0129f2da8a0163a12b54b7835268b55d0041c4267244363f0f258b7750f9363"
+    },
+    {
+      "assetPath": "images/best_grade.png",
+      "bytes": 1203,
+      "sha256": "19354f0ae5a8fd0627cf498081cbf859dc084777a31d3f2f86a86b999d0a7bee"
+    },
+    {
+      "assetPath": "images/bg.jpg",
+      "bytes": 87564,
+      "sha256": "1e3a9b915bfa40b711bdad3c22388cc49d422a6ae06c12579e8fe2fd8c240d44"
+    },
+    {
+      "assetPath": "images/bonus_count.png",
+      "bytes": 2188,
+      "sha256": "979f64fab205c3c8888f1dec4fe0634cfa1f05226b29014e238db07d42f7dcdf"
+    },
+    {
+      "assetPath": "images/buttons/achievements_new.png",
+      "bytes": 5614,
+      "sha256": "2737531cf8399f908e05aae3ce19ac85870f78bf67d03f5fe4ab9419def0ba4a"
+    },
+    {
+      "assetPath": "images/buttons/achievements.png",
+      "bytes": 3495,
+      "sha256": "685c9aca142d5ac6c68a24aac9e30562e8eaf4a22c17ab415645d5f1f1023259"
+    },
+    {
+      "assetPath": "images/buttons/answer.png",
+      "bytes": 681,
+      "sha256": "7a47cc00eec518d07e0bcab59451c828b50cca540a969e4d2afa0a3f9cb12fce"
+    },
+    {
+      "assetPath": "images/buttons/arrow.png",
+      "bytes": 7282,
+      "sha256": "43b4b3f90566d64e47a9680e24ea8a489d7416016e97cc4a4405771aec0e4848"
+    },
+    {
+      "assetPath": "images/buttons/back.png",
+      "bytes": 2285,
+      "sha256": "f8f84e43fc205011be75e30df413922d2da8721bde0236d5bad1616722609595"
+    },
+    {
+      "assetPath": "images/buttons/checkbox.png",
+      "bytes": 2068,
+      "sha256": "9d254bb6fe3b75d26d1e50d1501ad9f75bc4485812334f8472cd46cfa7424e8c"
+    },
+    {
+      "assetPath": "images/buttons/clear_data.png",
+      "bytes": 9813,
+      "sha256": "31772b51b19e81d01477b52bfacdcb7f5f922a25534ae2e67303f275ad6094cb"
+    },
+    {
+      "assetPath": "images/buttons/exit.png",
+      "bytes": 2525,
+      "sha256": "e7d7e9c7fe06ca1f9527cb4cdb108499ac181dd86665cce6f13107bc0bfe9403"
+    },
+    {
+      "assetPath": "images/buttons/home.png",
+      "bytes": 3953,
+      "sha256": "359f96b256b243bb579e087e0dd00d82ee46f2214ffcec63ecb64a68fa98a29b"
+    },
+    {
+      "assetPath": "images/buttons/instructions.png",
+      "bytes": 554,
+      "sha256": "b26c8ce1fc1f33a8649e35db58f786c0ef0dd45d75dc593acced1c105ea3810d"
+    },
+    {
+      "assetPath": "images/buttons/no_thanks.png",
+      "bytes": 3762,
+      "sha256": "96a8e82075c3524ec86169790149e86ced5b6463887fd11a88278c7fa7de5db3"
+    },
+    {
+      "assetPath": "images/buttons/no.png",
+      "bytes": 1993,
+      "sha256": "55d88b237d5063e7af7b4ae19d8a9a98d0e23e74f23c1e9d5364461a6c7e7d57"
+    },
+    {
+      "assetPath": "images/buttons/ok.png",
+      "bytes": 6217,
+      "sha256": "9f609c1c19402749c99a511754f013addbff2cd8df7fb04719f6537600eabceb"
+    },
+    {
+      "assetPath": "images/buttons/play_small.png",
+      "bytes": 2863,
+      "sha256": "b31f6a45b4e40ff891d2db3befe84c610d8ca9e99304a5b99825e0eeec2992a0"
+    },
+    {
+      "assetPath": "images/buttons/play.png",
+      "bytes": 5595,
+      "sha256": "28091853c0b091e50df9d2e24496332cf7243d05f5c33af46b031113d8925d94"
+    },
+    {
+      "assetPath": "images/buttons/sound.png",
+      "bytes": 3569,
+      "sha256": "387a729bc5d62b0124e59974bcfb1fae2e3e605ee24f0ed49c982c63b51124d8"
+    },
+    {
+      "assetPath": "images/buttons/stats.png",
+      "bytes": 2834,
+      "sha256": "461837f9bb16fcc24006de27be240c76c8ef39fdc392c7824ea3372a643164f8"
+    },
+    {
+      "assetPath": "images/buttons/try_again.png",
+      "bytes": 2522,
+      "sha256": "d1d8c63249a5d779f8c4acc9c599e6f832bba2cce22aab515f9c870f438fbf97"
+    },
+    {
+      "assetPath": "images/buttons/very_hard.png",
+      "bytes": 4347,
+      "sha256": "3529020116f40dea5c358f600e6ef212e49d28a718db0c52704a2515662cdca3"
+    },
+    {
+      "assetPath": "images/buttons/yes.png",
+      "bytes": 2168,
+      "sha256": "3609908913941b1058c46041df245d5579cf1f311027b083f7bc881230a269bc"
+    },
+    {
+      "assetPath": "images/chalks.png",
+      "bytes": 1208,
+      "sha256": "44d48a7d8f7161fded2d02dcd8eae3666ad5989e2c64053399f6001243d6f359"
+    },
+    {
+      "assetPath": "images/clock.png",
+      "bytes": 4799,
+      "sha256": "77c63ed21f48674c8f99d56d6cee3d72525810f0bc73faec23624b19a6f6c1cb"
+    },
+    {
+      "assetPath": "images/completed.png",
+      "bytes": 1534,
+      "sha256": "3ae6106d9c1dde146a1d98a41f8e328d4825fc90c0c4b54b102e19b404615b60"
+    },
+    {
+      "assetPath": "images/cross.png",
+      "bytes": 670,
+      "sha256": "e0a37f2ae8e549275ceb42cb839ceff95f2a0f8208de31f030ad3e2b00a7c716"
+    },
+    {
+      "assetPath": "images/eidosk.png",
+      "bytes": 3567,
+      "sha256": "bf623e39bda3dc32202f31d5030673b88af9d74fb370addf5d46ce2bc192faae"
+    },
+    {
+      "assetPath": "images/flag.png",
+      "bytes": 3700,
+      "sha256": "4285789d1fdb2856e25c8585e0b57e90a9c2dd65306c94680da127aa0d0b38a7"
+    },
+    {
+      "assetPath": "images/flash_counter.png",
+      "bytes": 614,
+      "sha256": "1e9416e51baca89922e3ef8bd751b24200a470fe5a9ccdd97ff78e59bcbd631f"
+    },
+    {
+      "assetPath": "images/flash.png",
+      "bytes": 1075,
+      "sha256": "d000d08a1d0d2e90b10c9812acf01e0adec9ece367615bf12d03eaa928322b5a"
+    },
+    {
+      "assetPath": "images/grades.png",
+      "bytes": 15477,
+      "sha256": "c01bf698e3a027b5d378989a6bcc9fb6f44b82aa427b976f12912ff9d2009d94"
+    },
+    {
+      "assetPath": "images/grid_port.png",
+      "bytes": 5689,
+      "sha256": "049d98d5f2382f8ba24d436b9a8992b93084b323024261585606dd57d8a11806"
+    },
+    {
+      "assetPath": "images/grid.png",
+      "bytes": 8328,
+      "sha256": "529207802d953da76f80ae414675ea3056471985c30fa78199a437581f86c459"
+    },
+    {
+      "assetPath": "images/h_line.png",
+      "bytes": 4749,
+      "sha256": "f10104e641bf2afb4bed46cb15368340d81a26725be6035ef75b181191b9655d"
+    },
+    {
+      "assetPath": "images/locked.png",
+      "bytes": 1057,
+      "sha256": "185b460d5f858d4685295c169922fac23247d26577c8ac4e05fa2e250213f76c"
+    },
+    {
+      "assetPath": "images/new_highscore.png",
+      "bytes": 1835,
+      "sha256": "734b8f5a98069cb6a6408d8ffa9b68e805e5a01fbdf3e95457ad2e1f58008384"
+    },
+    {
+      "assetPath": "images/not_completed.png",
+      "bytes": 1953,
+      "sha256": "a15b1a30b45d7d10b6461296278df1b869368b977299b4dfe331ec32fab3ca3f"
+    },
+    {
+      "assetPath": "images/operation_1.png",
+      "bytes": 1716,
+      "sha256": "bb14fddce1361e4d1f2b6c1cda5cb1a5dac03faf307edf86bdfd2f2ff2e5e453"
+    },
+    {
+      "assetPath": "images/operation_2.png",
+      "bytes": 2282,
+      "sha256": "f5dda822819c8dcce6c067775282b34c8abaac9389e20519bbd01bee2ea0b1a6"
+    },
+    {
+      "assetPath": "images/preloader_bar.png",
+      "bytes": 110,
+      "sha256": "562c30ea4803355fc625595c42984727a0f7408c0c1810a95c821cadabdb0c44"
+    },
+    {
+      "assetPath": "images/preloading_screen_port.png",
+      "bytes": 256,
+      "sha256": "f1ea01dd543788098289e72f2ee0b3e0af18455f4ca0c91c12e17a990de68aa5"
+    },
+    {
+      "assetPath": "images/preloading_screen.png",
+      "bytes": 265,
+      "sha256": "edf8b0ac1044f11496e6409d5a4f2be608fff24d6dd5f9fcb1fb3aa7059dbef7"
+    },
+    {
+      "assetPath": "images/red_frame.png",
+      "bytes": 27175,
+      "sha256": "98f7e8326f287766e314fd6e9ab3dc389dd5e7ea23e8b7c439a3fb4f80972dee"
+    },
+    {
+      "assetPath": "images/star_spritesheet.png",
+      "bytes": 2460,
+      "sha256": "a687c661af94453ad17e88e4d30c98c8999fdd9ac350befdab05baf4ff8ec1ac"
+    },
+    {
+      "assetPath": "images/tick.png",
+      "bytes": 799,
+      "sha256": "3f6c62693d6815006f5ed1e904feb4f8b0348618b4255953a0bfb17a0d8f5e3f"
+    },
+    {
+      "assetPath": "images/time_bar_outline.png",
+      "bytes": 2983,
+      "sha256": "94caad8985185d150542d97c0ebd97ea999785a6fa5f32efe76b46d9a751d60c"
+    },
+    {
+      "assetPath": "images/time_bar.png",
+      "bytes": 4087,
+      "sha256": "79cd7c140094f040d1c684af60fe7260c5c10da912f02e608c39f02c5dfa4e6e"
+    },
+    {
+      "assetPath": "images/time_bonus.png",
+      "bytes": 3787,
+      "sha256": "954103863b5750afb328989364ecc3c79db9eadaa73f9b4a9526f28c6efd4f43"
+    },
+    {
+      "assetPath": "sounds/achievement.mp3",
+      "bytes": 36779,
+      "sha256": "8eff4fb761c2e51d0a772d1f9fe9bbc8a411d01f0948f8245d7faaa9192d8461"
+    },
+    {
+      "assetPath": "sounds/beep.mp3",
+      "bytes": 9404,
+      "sha256": "4f7a3b5df32871ac6dc9f1dfb935da04ec40afcd2df86e1ca80bb56156d3e0dd"
+    },
+    {
+      "assetPath": "sounds/bonus.mp3",
+      "bytes": 32599,
+      "sha256": "32aad03cc00f409bd95063741cde968c1afa463e0c97cfa4d2bc833d55676941"
+    },
+    {
+      "assetPath": "sounds/count_levels.mp3",
+      "bytes": 21314,
+      "sha256": "ce8e3db9a5ae957384dccbac23343421a9fbd981dd995f32183e800d5c5e774a"
+    },
+    {
+      "assetPath": "sounds/count.mp3",
+      "bytes": 9239,
+      "sha256": "64a7fcafce4a695fb7fead153d5b85dfc5e92e0757297cc01dd9e3fd3b10e829"
+    },
+    {
+      "assetPath": "sounds/donkey.mp3",
+      "bytes": 44302,
+      "sha256": "f01bff31f694b997eb4223ebd9f0c80a24945ae6da47339bf18c8ac176b2bd4c"
+    },
+    {
+      "assetPath": "sounds/end.mp3",
+      "bytes": 43884,
+      "sha256": "fd6a9393d590c0b55d18d94d97b07475d0e43d0b10e4d809e4ffa6a7ccfd5e6d"
+    },
+    {
+      "assetPath": "sounds/endvh.mp3",
+      "bytes": 30510,
+      "sha256": "ff4988b7c58afd5a9daf11a221b1434e4e22f457c43c88d45645e9580d696157"
+    },
+    {
+      "assetPath": "sounds/fast.mp3",
+      "bytes": 39059,
+      "sha256": "e53fcc9340b2c5496ca3b8f7b3b5e8e0d436c2d9204bfb42bc32bf95fa9141bb"
+    },
+    {
+      "assetPath": "sounds/go.mp3",
+      "bytes": 4702,
+      "sha256": "284d7eb890054e4d74ad7c63a654bb6ef96c90a458a5cd0693253d1005c655cd"
+    },
+    {
+      "assetPath": "sounds/right.mp3",
+      "bytes": 8160,
+      "sha256": "420fb309494eba8241a40c05f3eaf373987643b2d0b80a0162d4029e6f20a05e"
+    },
+    {
+      "assetPath": "sounds/rollover.mp3",
+      "bytes": 2924,
+      "sha256": "8ec60418c6e3042f82f12dd806ba018189736e147b6f5ed39189f870fd932514"
+    },
+    {
+      "assetPath": "sounds/semiright.mp3",
+      "bytes": 20897,
+      "sha256": "6e3839d6624109436e309ff642ba01aae3ac4f96ba01ab514786b82eaa907a17"
+    },
+    {
+      "assetPath": "sounds/thunder.mp3",
+      "bytes": 37197,
+      "sha256": "1a8e4d97ffd8fb25c814dd374687c048a351b5542b7e36e128ef68451b130936"
+    },
+    {
+      "assetPath": "sounds/time_bonus.mp3",
+      "bytes": 32088,
+      "sha256": "0d33b86fae7ce8f070bc7e0fb7b348ff28d5377eec31e59a666b8fc4c0510648"
+    },
+    {
+      "assetPath": "sounds/wrong.mp3",
+      "bytes": 5014,
+      "sha256": "a1a35f22353143696ba7b4a8ee95eadae9e02bddbdec79f709192e39651e5058"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 250,
+      "sha256": "9bfab015dfc27d439430b06dd23e39406cf35e0c60e243ee838bc774829dfbc6"
+    }
+  ]
 }

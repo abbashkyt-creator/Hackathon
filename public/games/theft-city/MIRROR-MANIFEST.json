@@ -1,0 +1,2153 @@
+{
+  "source": {
+    "title": "Theft City",
+    "developer": "Kwalee",
+    "sourcePage": "https://poki.com/en/g/theft-city",
+    "sourceGameId": "629eee0a-0c5c-469a-b388-7eb076f7054f",
+    "sourceVersionId": "1e5722e5-0d6a-43d7-8fbf-ecff22f44fe5"
+  },
+  "files": [
+    {
+      "assetPath": "Build/2350b7d1bb3972d0e9fb9dd7afee2404.wasm.br",
+      "bytes": 8360773
+    },
+    {
+      "assetPath": "Build/8bc556d41883b6be8f80213b91efe600.data.br",
+      "bytes": 14165765
+    },
+    {
+      "assetPath": "Build/979af833673a60ff35395c80a3587e2f.framework.js.br",
+      "bytes": 84669
+    },
+    {
+      "assetPath": "Build/c625c615e3bc7427873de64777c82fba.loader.js",
+      "bytes": 26982
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1037
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 423
+    },
+    {
+      "assetPath": "StreamingAssets/aa/catalog.bin",
+      "bytes": 292091
+    },
+    {
+      "assetPath": "StreamingAssets/aa/catalog.hash",
+      "bytes": 32
+    },
+    {
+      "assetPath": "StreamingAssets/aa/settings.json",
+      "bytes": 850
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/c378df416ae116b5b52c4b385d908c82_monoscripts_1d51430423b03284154a705346fc91fc.bundle",
+      "bytes": 2403
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/c378df416ae116b5b52c4b385d908c82_unitybuiltinassets_d66287f7a413de922b8af5cfee697fd1.bundle",
+      "bytes": 62888
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-100m-01.prefab_6339e7bbee838a362675de9e07043d43.bundle",
+      "bytes": 3510
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-100m-02.prefab_e024e5591d08217c8f3ca2a41b83a870.bundle",
+      "bytes": 26760
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-100m-03.prefab_580a66a948600f6d74bdc234dd1e3ea4.bundle",
+      "bytes": 26759
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-14m.prefab_7459c6eaebddf28ed25c8ce82f5342ad.bundle",
+      "bytes": 9123
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-16m.prefab_7aee7d7b51bdf64751a7d1b9f23cbbbd.bundle",
+      "bytes": 9104
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-16m1.prefab_221707a01d336af9ff337410a98c6a2a.bundle",
+      "bytes": 9169
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-16m2.prefab_c269cb1d910725dcd2ceb10c96290bcd.bundle",
+      "bytes": 9173
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-18m.prefab_a7f612e3b901e13801daaa2475a2c3b4.bundle",
+      "bytes": 9171
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-20m.prefab_2b01141491268dbf67db58a4834e749d.bundle",
+      "bytes": 9446
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-20m1.prefab_caa6d1ca72ead8b431abaa34becc72a6.bundle",
+      "bytes": 9515
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-22m-01.prefab_1b5e2dcbbea8fdc7b2e8f03762a69e00.bundle",
+      "bytes": 3522
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-26m.prefab_a35473b6698600a91d1ee74d2131be15.bundle",
+      "bytes": 9820
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-26m1.prefab_3450b949b62e37112919a28660a4c7ad.bundle",
+      "bytes": 9827
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-26m2.prefab_98aecd410feb2becfc4030aaa0606e75.bundle",
+      "bytes": 9792
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-30m-01.prefab_d123fcff9210fe073454cb0e7dc8b7be.bundle",
+      "bytes": 3510
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-30m-02.prefab_627daaf959b4e02e39544cb6e16d435b.bundle",
+      "bytes": 11940
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-30m-03.prefab_aac02f4739138d8b4943bef768fcd8af.bundle",
+      "bytes": 11950
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-32m-01.prefab_9524fe32e994f11cf95e1ace5ecdfc2f.bundle",
+      "bytes": 8557
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-34m-01.prefab_7eda52b06aaab164b056aafb81c3c938.bundle",
+      "bytes": 12047
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-34m-02.prefab_47fbde792395a19460d6f6b668dc1120.bundle",
+      "bytes": 8532
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-36m-01.prefab_34072cb3ee3a94e57dfbcf46e83924b1.bundle",
+      "bytes": 12049
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-40m-01.prefab_d6ff5fc8d60456922a5fa5abe7d4fecb.bundle",
+      "bytes": 3503
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-40m-02.prefab_340f34fd8fbb165fa20ffc26a1a58033.bundle",
+      "bytes": 3491
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-40m-03.prefab_0846b10286ba04b8d7cbbaeec2b9ed29.bundle",
+      "bytes": 3497
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-40m-04.prefab_bb3ccf9402ba576d278369d5abd678bf.bundle",
+      "bytes": 3495
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-50m-01.prefab_88f7139058e6071a3e6afedd690b4be9.bundle",
+      "bytes": 3491
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-50m-02.prefab_f8108710db93ab7155da4e7613cbab92.bundle",
+      "bytes": 3502
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-50m-03.prefab_b2dbe18a5d7e69661418980ccb368f4d.bundle",
+      "bytes": 3511
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-50m-04.prefab_4c4c509a95a293ce5e2ea9e33d1a715f.bundle",
+      "bytes": 18173
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-50m-05.prefab_b9d8ed95bf6c8009ea8796def2bb8161.bundle",
+      "bytes": 18170
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-60m-01.prefab_e2eef949093f5fc1718473ee3f1b1804.bundle",
+      "bytes": 16049
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-60m-02.prefab_de56875659650228428201db046c10b7.bundle",
+      "bytes": 3520
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-60m-03.prefab_5d006c63e02b975f6f509e7c83e8c0fd.bundle",
+      "bytes": 22089
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-60m-04.prefab_c66b8ad6eaf590c26de418fb24b701a3.bundle",
+      "bytes": 21101
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-70m-03.prefab_b38c1891008f2baa0a91bd5f042ac1c4.bundle",
+      "bytes": 3501
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-80m-01.prefab_89a3e81e2dbc28ffd41d7b8fb0ab10d0.bundle",
+      "bytes": 3492
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-80m-02.prefab_20bd74c3cfe80fc7dc2acfb4353df90a.bundle",
+      "bytes": 3517
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-80m-03.prefab_cb3271ba0d3add94ca6c9d84202731c9.bundle",
+      "bytes": 3493
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-80m-04.prefab_32439b077a826b0046a19ff0bc197409.bundle",
+      "bytes": 3496
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bbbcbr_base-80m-06.prefab_e1a93f6fce3f8765bcc610fc7bbc8a84.bundle",
+      "bytes": 17232
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_bk_base-qd-01.prefab_ea28ba106898f56a558b96945d568d93.bundle",
+      "bytes": 3477
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_dc_base-dc-01.prefab_a5e842d25ccb24df9a3edc812a83644d.bundle",
+      "bytes": 9596
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_dc_base-dc-02.prefab_c57add978ee085374ae1d1c078a35eea.bundle",
+      "bytes": 9582
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_dc_base-dc-03.prefab_06d13469c28a99143ba7e0eda92a1992.bundle",
+      "bytes": 35549
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_ebec_base-corner-0.prefab_4692f598510ba91c5fb4a877bfcc0705.bundle",
+      "bytes": 3498
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_ebec_base-corner-01.prefab_a342fab366f08647dc7391be5db1e735.bundle",
+      "bytes": 3490
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_ebec_base-corner-02.prefab_5b56dad48ed015e15eb92982eda86792.bundle",
+      "bytes": 3507
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_ebec_base-corner-03.prefab_4b424fa20bbe86d20a105dd8f19065da.bundle",
+      "bytes": 3499
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_ebec_base-corner-06.prefab_84cecb7e843392ad8fc0f46882e59512.bundle",
+      "bytes": 3482
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_ebec_base-corner-0b.prefab_a7c474c169c36b45a47dad2566a759d2.bundle",
+      "bytes": 3497
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_mb_base-mb-01.prefab_76bba6c6d1fbcf09dfa9b326730301e0.bundle",
+      "bytes": 3494
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_mb_base-mb-02.prefab_07647aa430adda2fe1e03f5f24c59593.bundle",
+      "bytes": 11541
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_mb_base-mb-03.prefab_5b48edc5f9740a9522663e161ac8fc47.bundle",
+      "bytes": 11537
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_sb_base-sb-01.prefab_b599caeb39dc1ddae3adeade833223e9.bundle",
+      "bytes": 11778
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-22-01.prefab_a749045700d849c40acfa0f092dab9bf.bundle",
+      "bytes": 3500
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-22-02.prefab_be3fdd185aa5623cfde012b1b7ead46d.bundle",
+      "bytes": 3485
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-26-01.prefab_cc24a659463e34431fc98d71d9654f16.bundle",
+      "bytes": 29451
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-26-02.prefab_5faf6a727e4733da8082d181650a5185.bundle",
+      "bytes": 3503
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-26-03.prefab_ae2dedae50a2e5708c6b522746f22d8a.bundle",
+      "bytes": 15138
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-26-04.prefab_f7c3ca76d5d0b18be7ce5375840ed97f.bundle",
+      "bytes": 3507
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-30-02.prefab_dcae02959fcf016e8f978fd810a00134.bundle",
+      "bytes": 18630
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-30-03.prefab_5ea8e81072888f43736c56eaa8f5ebb1.bundle",
+      "bytes": 3513
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-36-01.prefab_332501a62703e9931bf572c66ad451b4.bundle",
+      "bytes": 3477
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_buildings_prefabs_bases_slopes_base-slope-36-02.prefab_5a4e2e35025cf4baf39c37fccadc4a02.bundle",
+      "bytes": 3474
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_fantasticcitygenerator_trafficsystem_vehicles_prefabs_patrollingpolice.prefab_092e006f145a48b30da4867e200ffd8d.bundle",
+      "bytes": 613552
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_prefabs_npc.prefab_949a01ee7d01fc4cdf180c2ce6b1c869.bundle",
+      "bytes": 334550
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_prefabs_policeofficer.prefab_888ac40c4402cdbb031cc8ecea7409b8.bundle",
+      "bytes": 584540
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets_prefabs_thug.prefab_7a5cb74388b00dafc630823d32cee0cd.bundle",
+      "bytes": 308580
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-001_2fc2f06f4ab35271cd32bf07cae0e077.bundle",
+      "bytes": 63510
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-002_add02719a163c479918676a584e415e6.bundle",
+      "bytes": 12941
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-003_8fdd66498a2c65db34e5609847b721e1.bundle",
+      "bytes": 23974
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-004_c45895ea4c4f4bb9d476e723da2151b1.bundle",
+      "bytes": 20613
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-005_aea596f563abda0f5d655bd12aeffa25.bundle",
+      "bytes": 18898
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-006_8094878cec2dbe24e7c8936c13e6efc1.bundle",
+      "bytes": 44960
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-007_c0432011da68a27498e62f41d2a6e08e.bundle",
+      "bytes": 617539
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-008_108c7d6f7e61066542ef8c590a30e6cc.bundle",
+      "bytes": 20975
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-009_2a5ba8d144666cbade3d1f2f03841a09.bundle",
+      "bytes": 24158
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-010_b24801f284d4538e5ae1e4c398b1d8d9.bundle",
+      "bytes": 57436
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-011_6a5a922fcb4b8a68158d62a572e8cd3a.bundle",
+      "bytes": 65723
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-012_82842ce6d7bd45cb5e472a46ad154f8d.bundle",
+      "bytes": 21738
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-013_3487d56f738e9807dd6b006a2c691c19.bundle",
+      "bytes": 198786
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-014_fa391e9a34932f08421ac700b42800cc.bundle",
+      "bytes": 76573
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-015_6c2fc252a9a7b59aed41520de6b150f5.bundle",
+      "bytes": 66373
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-016_6c11e41a1f983233e6c90f9731dedba6.bundle",
+      "bytes": 77385
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-017_20c4afde82758b835a5fb7a880201c8a.bundle",
+      "bytes": 76057
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-018_cb170ee5740400661007dd7f33092f22.bundle",
+      "bytes": 16224
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-019_370062e526db6040d5c17b117d07b4d3.bundle",
+      "bytes": 58359
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-020_1cbd48a248042a965fb99ba6e2765de3.bundle",
+      "bytes": 27616
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-021_ad40d357ea9535e6aa889acadce87ead.bundle",
+      "bytes": 26867
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-022_7e7e88ceb6c10a277d87fecd9e04eb78.bundle",
+      "bytes": 109947
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-023_041e94a233a492d36ebb44d7b8613388.bundle",
+      "bytes": 75286
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-024_d47709cf4e44c99946bec9c6b772b656.bundle",
+      "bytes": 19616
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-025_13c3504e0004dffb4a4dc0720db2a0e1.bundle",
+      "bytes": 36508
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-026_3f895423bd0263efdba0756caf243fe9.bundle",
+      "bytes": 15434
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-027_a578c02b16c9b66ccd2182b19fc55221.bundle",
+      "bytes": 75576
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-028_8c29cf7efc72761e2afae198581c12fc.bundle",
+      "bytes": 28911
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-029_b4726b1f1c5c0f0741b7de2a44152556.bundle",
+      "bytes": 43112
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-030_34fcc043dbe064d1a3d37c0860c2476b.bundle",
+      "bytes": 27293
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-031_cc15694c3e4b38ecdbcf0b624de194cf.bundle",
+      "bytes": 11543
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-032_cbc0e58f37e61ac8170b113aadaf23b6.bundle",
+      "bytes": 19788
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-033_f92f3c6d65106721fa2abff2e0cb04ac.bundle",
+      "bytes": 15192
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-034_bd5e42ee6b3a400d7d75fde1f104edd7.bundle",
+      "bytes": 24248
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-035_27b971e7b501412b2c0363a429312a26.bundle",
+      "bytes": 30576
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-036_2454057a2b65cb9112f0417299f2e0e6.bundle",
+      "bytes": 29046
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-037_14b5d9371fb48d8b54affe09f9068185.bundle",
+      "bytes": 16101
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-038_1c8109eb4a40050bc4ea22da5e991c70.bundle",
+      "bytes": 16677
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-039_5e1969d8ebe7c8556e5209c0b3ea5f60.bundle",
+      "bytes": 16572
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-040_88ebc6b21ee9ebd4058814fa6efe075a.bundle",
+      "bytes": 19098
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-041_97f27d73a0ab931993708111c1c7a31d.bundle",
+      "bytes": 19963
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-042_f7d833c6a3980685e3800cfbcf358022.bundle",
+      "bytes": 31172
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-043_d89fcf19a3cf5bf1798f5f887cd6245f.bundle",
+      "bytes": 15812
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-044_8a3343e4d45ebe79b666b557edc40f6e.bundle",
+      "bytes": 617624
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-045_695af693e5324c33300adc9d72b5e8eb.bundle",
+      "bytes": 80620
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-046_b51e169255fd4d276330c4cd9443d72c.bundle",
+      "bytes": 57574
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-047_c642245cfa5b0c7e1ce631de88f01206.bundle",
+      "bytes": 24128
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-048_e1e013880f3d23d1bb25afeec1a0ebd9.bundle",
+      "bytes": 43288
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-049_77c5eb9d570b1794e6434211e99f5777.bundle",
+      "bytes": 41730
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-050_b504ab474c9d0561b99f7965ddf890ea.bundle",
+      "bytes": 38177
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-051_fa7996cefaef2d0ee8c90803e9ecee1f.bundle",
+      "bytes": 29913
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-052_d2fdcc07edad8288e68a3bb48eaff93d.bundle",
+      "bytes": 31854
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-053_9818a5c6157c51759821f1c9cd35eb97.bundle",
+      "bytes": 17337
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-054_27dad35b1143b96f026a6188b75d1d40.bundle",
+      "bytes": 53072
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-055_1ecfbdf866cebcf046ea2dfdeb2da759.bundle",
+      "bytes": 86999
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-056_6c503e9cc9276a05f54e37b4a210dfed.bundle",
+      "bytes": 44875
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-057_2717ec5f0467726f866c23d51f68782d.bundle",
+      "bytes": 38495
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-059_4ec50a4458e6b6ed64458c64a5449b30.bundle",
+      "bytes": 113041
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-060_9e1f4f2197f4a120c03e8fc48b388291.bundle",
+      "bytes": 58522
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-061_cc8a95f037258e81da689e82842f12e2.bundle",
+      "bytes": 81039
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-062_45dfe9f3bfb9c8c98231b9b6f55ab60c.bundle",
+      "bytes": 83822
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-063_815620ed8299b4d2af2b80dcf4f0261e.bundle",
+      "bytes": 27279
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-064_b325b0fb73dda88f1d6007c432348f79.bundle",
+      "bytes": 33754
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-065_e469e2ef5bc0771da85736bf35e3c66e.bundle",
+      "bytes": 93262
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-066_1f2f8035be4ccad64ae70cb219478a54.bundle",
+      "bytes": 41606
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-067_d4bb529cacb82b261818c40681fbbda5.bundle",
+      "bytes": 98017
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-068_98206be0e6af715c939c0c7320eb0580.bundle",
+      "bytes": 60927
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-069_ad481410a500a17655f258bfc29176ec.bundle",
+      "bytes": 57676
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-070_91e7f637c7f8fd73d9a0abc4f1e55610.bundle",
+      "bytes": 76238
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-071_2562105600dbb71cb15147a528292094.bundle",
+      "bytes": 49752
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-072_a95f2adbe4971c33873b2c7d212737b0.bundle",
+      "bytes": 51812
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-073_2e001498e0e479debf5824e14c77c09d.bundle",
+      "bytes": 34965
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-074_1aaedb60c33587edf2aa4b32bf8888aa.bundle",
+      "bytes": 37380
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-075_288de10623fd8e6c37a7f63a1a07c8c5.bundle",
+      "bytes": 77218
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-076_f32488772087d4bcf1f0c566d0fa18fa.bundle",
+      "bytes": 78555
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-078_d004c811f9e26d0d5979b26f0419d446.bundle",
+      "bytes": 56245
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-079_70e9e0a43e0cb60a97b8be092f70dcb9.bundle",
+      "bytes": 53078
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-080_da8d58aa3bcab89852d77f31b27cf54e.bundle",
+      "bytes": 44369
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-081_d4b59d46da753e58953a83a6cf6642af.bundle",
+      "bytes": 50267
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-082_d1c9d7afee016d1620d0db3c83c1fd5b.bundle",
+      "bytes": 86544
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-083_d0446fbaf03ae3d7abaa6f6c2e9408eb.bundle",
+      "bytes": 62345
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-084_1ce6376e4b3a40e03279f430380d5156.bundle",
+      "bytes": 40769
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-085_d73738136740f314777efaa5ab6cf436.bundle",
+      "bytes": 25611
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-086_2b3a68e3457e39e2a2e5f379da03b752.bundle",
+      "bytes": 23445
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-087_db2070201763f320a969a2c6619d853b.bundle",
+      "bytes": 44989
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-088_494d235d607e9c7d1ca977ab4b0370cd.bundle",
+      "bytes": 22155
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-89_968b70125613d61fc0c11256eda35891.bundle",
+      "bytes": 82910
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-90_86bac2709ba0d4933f5056f66b4dd026.bundle",
+      "bytes": 33666
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-e01_df2292d669c134e81eb2453202bff461.bundle",
+      "bytes": 25038
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bb-e02_841bd5780466adbbba0527587cdeb82e.bundle",
+      "bytes": 20276
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bbs-01_84bd51e3435042f2e545138f62fa924f.bundle",
+      "bytes": 46403
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bbs-02_c398f156f0aacc9351f14920b8f137a9.bundle",
+      "bytes": 38276
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bbs-03_4928485716366fa93fe7c67461cf2693.bundle",
+      "bytes": 46342
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bbs-04_c531a62a9db238861921c15feefc06ce.bundle",
+      "bytes": 45959
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-001_2510ad315fae71919433a62683a762a1.bundle",
+      "bytes": 126322
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-002_0dbaab09963978bdc9dbc2522ff7769b.bundle",
+      "bytes": 67833
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-003_a6b445ea90dc230e2b0fa9aa392371b2.bundle",
+      "bytes": 104268
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-004_a2f67dc88098f5c5ba63e93f0337519e.bundle",
+      "bytes": 142878
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-005_04ac9a6f59a90200d07c54c4dfb75993.bundle",
+      "bytes": 86889
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-006_76db1634d397aefb0f6a6d1b87b2c0f5.bundle",
+      "bytes": 30278
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-007_3128ac14b32d6e3d6df56a81e2be9b47.bundle",
+      "bytes": 87689
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-008_14c470ef5edb41a7048297227651e1ca.bundle",
+      "bytes": 161630
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-009_b7fa2ca686884627490ebb343262f373.bundle",
+      "bytes": 78197
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-010_3d759a7f217a532159967a66dc93ae21.bundle",
+      "bytes": 43568
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-011_be0bd95e97ea3416e7c99a1967c60404.bundle",
+      "bytes": 134493
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-012_0f7c606c554c12c309e00006c591fc2c.bundle",
+      "bytes": 60491
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-013_816796c1aed2a2c1ef86695339ef2a7a.bundle",
+      "bytes": 43652
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-014_4993c0d386e41d213aecf4b344660987.bundle",
+      "bytes": 29127
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-015_8be36647520365205d6ac0ddc6f243ab.bundle",
+      "bytes": 119928
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-016_448c7f93b45029b04648dc0977c56cfe.bundle",
+      "bytes": 55213
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-017_d683bdd3f222c5dc70e887ab34dc0ca6.bundle",
+      "bytes": 91057
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-018_a86a11f9ab23ec746ca6778583989857.bundle",
+      "bytes": 106103
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-019_59b228d1f80a1829858e67ea84c7c6fd.bundle",
+      "bytes": 118564
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-021_bccfa4c74ad588b2527958b7136faac2.bundle",
+      "bytes": 42248
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-022_e27a60f4f4f4a119006b76e0dfd09cbf.bundle",
+      "bytes": 39785
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-023_4a3b5d68aeecf96238a4c47e14cb0455.bundle",
+      "bytes": 38086
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-024_f38f0129dbdd0e1524250558d01d6677.bundle",
+      "bytes": 42176
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-025_9b2e42c9f1f199fd98785e48905aff13.bundle",
+      "bytes": 168356
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-026_4dd47d3818b574a251b4ed918b730105.bundle",
+      "bytes": 75351
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-027_1968fb191baf500797a5d804b65e67c7.bundle",
+      "bytes": 92274
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-028_bb874481bde8a0e84a0c2d0c91b1cdd2.bundle",
+      "bytes": 70261
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-029_e4bfe8062a3a0e2795dd7026513074a8.bundle",
+      "bytes": 97207
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-030_a187f0c0f9a85761d983549c39a83f7f.bundle",
+      "bytes": 70370
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-031_de16dff04aceeb72838e5b6910f4bbc2.bundle",
+      "bytes": 78648
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-032_b394e686e45132f609bd91cdc546026e.bundle",
+      "bytes": 71834
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-033_423d95cfc673de4e94aeb6a7cc1b50dd.bundle",
+      "bytes": 65276
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-048_c0009b183d56c928d8966321e029d532.bundle",
+      "bytes": 69602
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-049_e6356cc9eb4e635884229703abfcc032.bundle",
+      "bytes": 204597
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-053_460ef530414b822bd89b58b6c8c78a5a.bundle",
+      "bytes": 249308
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-054_6feeb6013e9cd0ecca45f699402135db.bundle",
+      "bytes": 113139
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-055_b4e81ee02d391afff963e3b515743464.bundle",
+      "bytes": 74002
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-056_4a4998dae4121225a66e480ddca2c793.bundle",
+      "bytes": 154933
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-057_c33bf730903789d7d8f2df6d082fc0fa.bundle",
+      "bytes": 54141
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-058_3f7cf2a4fd19f4a0625b9460646be2b4.bundle",
+      "bytes": 91202
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-059_96bc15d3ee2f80f7311d3fb5d7218bdb.bundle",
+      "bytes": 86490
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-060_96b4c6bef74fa0a98b671324cb551838.bundle",
+      "bytes": 64181
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-063_db9a3bfa9fc9456838128054c639b386.bundle",
+      "bytes": 77523
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-064_155f28c262bd2646b4470452bbb06d27.bundle",
+      "bytes": 70018
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-065_f4b14e45fa589e0cc8abed3eb6c87bd9.bundle",
+      "bytes": 83736
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-066_a21c1a277f7a84ddbce546fa72794343.bundle",
+      "bytes": 92622
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-067_1052e2022aef2c3ca45fa0e9ab1be287.bundle",
+      "bytes": 96459
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-068_ebcdfc22f1de17d22f48f61f794aa659.bundle",
+      "bytes": 64185
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-069_07deb6d27fb5bec95e09888f87c3345b.bundle",
+      "bytes": 55939
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-070_4e47c1dc6d2ad533c6773094c34d8175.bundle",
+      "bytes": 57762
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-071_1443c17b8d3eb134c4a40030254adbef.bundle",
+      "bytes": 90601
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-072_657486a321b041ae3e4bd2eded1855bb.bundle",
+      "bytes": 24725
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-073_dfdf3a250e754dacc0ba55c1bd0edbe2.bundle",
+      "bytes": 63944
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-074_e6bf6669ca7f32715f16714fdef8f240.bundle",
+      "bytes": 78340
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-075_f9635dba17d7e992c04aea7fc60753c1.bundle",
+      "bytes": 35608
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-076_b88cdb7d92cdc3f7db8fa148f6f19ae4.bundle",
+      "bytes": 69619
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-077_1f483796fd71348c15d4b39065bd1bf7.bundle",
+      "bytes": 64231
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-078_0fb3a6c7f8f840cb99d4ca681afd99cb.bundle",
+      "bytes": 92524
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-079_fb0d0196071fd64d340b1974d95052ba.bundle",
+      "bytes": 74166
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-080_b05951a919446ab7ba8fbdcfb9a103ac.bundle",
+      "bytes": 63810
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-081_7016b710d3fcb8c5df6c7748be0641ea.bundle",
+      "bytes": 110452
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-082_065df20686adc37ab14a8be039740aec.bundle",
+      "bytes": 80563
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-083_a32032f2d8630c3cb01ef89041328240.bundle",
+      "bytes": 95398
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-085_38546225f8f77ccdba15b5d12cc608e5.bundle",
+      "bytes": 88857
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-086_9aad8b069ca7c6dd828d8f531cdca65f.bundle",
+      "bytes": 38108
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-087_6a8b13c71116b47fc0b0b8b81fb26a9d.bundle",
+      "bytes": 53852
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-088_1666c14b059f119c019770641b015d99.bundle",
+      "bytes": 152032
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-089_7b8e689cf5e2c2a076fe80a54585d94d.bundle",
+      "bytes": 117393
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-090_b5c3cbd0d83f190fc56c5ee7448ab58b.bundle",
+      "bytes": 41458
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-091_4051a0e31c99ef651105fba1ccdd6c01.bundle",
+      "bytes": 26616
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-092_87f4e44e4d488d5031dddbedd4ff8251.bundle",
+      "bytes": 32761
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-093_61225d96c2f84a40300862c2172d7346.bundle",
+      "bytes": 17851
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-094_a62d9851797e88ff91f4f9dc4ac48e84.bundle",
+      "bytes": 34452
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-095_82e784fae772b2a189029b2b7fb3a9ef.bundle",
+      "bytes": 40642
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-096_4c2e84ec6ca7720986f46d940ba08408.bundle",
+      "bytes": 30739
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p01_35b8f4ebca110351dafbd47859c27efe.bundle",
+      "bytes": 124910
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p02_4ccb9413e54c2cae724c04d10bf1c9d3.bundle",
+      "bytes": 72420
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p03_462d17a12c0f4bb597d1c6a68f82e868.bundle",
+      "bytes": 100633
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p04_9f4f34e5c30d1ee8ece72da556715fba.bundle",
+      "bytes": 79217
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p05_5e437357a2922ac3ac535258346e63e0.bundle",
+      "bytes": 54222
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p06_d05ac3d8768805b2c05e695cd161694f.bundle",
+      "bytes": 122838
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p07_655307ac04b6581507d2e1ecb85dcac1.bundle",
+      "bytes": 264754
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p08_02373e330f8af134b50dd324366307c9.bundle",
+      "bytes": 158641
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p09_62c4d574cee06289a8134b1ed6e5a619.bundle",
+      "bytes": 74757
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p10_d6a84f53c396eb3a360c066d9f9a9b45.bundle",
+      "bytes": 75915
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_bc-p11_58c9e423662da0147fb2df2175c9e51f.bundle",
+      "bytes": 84581
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-flat-large-exit_09c104811dd7425f963853edeb5f4aee.bundle",
+      "bytes": 244107
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-flat-large_8ec3b38a0b58a05de8efc841c15f2eb7.bundle",
+      "bytes": 202926
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-flat-medium-exit_8445108393c02ba22c5bad8a3336b7db.bundle",
+      "bytes": 167598
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-flat-medium_93232357b59585dbccfac393c8b311bc.bundle",
+      "bytes": 86434
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-flat-small-exit_d43edcfa03ebea1d2e22545758b7acf8.bundle",
+      "bytes": 81287
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-flat-small_98205d92a8f39ffd007c2e2f08f341f5.bundle",
+      "bytes": 58148
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-large-2_ef9e1953571355a1bb014057f5cb71d5.bundle",
+      "bytes": 217874
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-large_b1ed0ddc9e83c6217f54402e0d3c5d97.bundle",
+      "bytes": 208364
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-medium2_5701d2019bc08e3f60ce5c6d6b31008e.bundle",
+      "bytes": 99030
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-medium3_142c71c6ad529eec85b89394eb34e0d0.bundle",
+      "bytes": 153397
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-medium_cb2207009aacdc5eac15f02a427a9d25.bundle",
+      "bytes": 109229
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-mini-2_0ce57294255dc2b494681697e911dbf8.bundle",
+      "bytes": 359340
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-mini-flat-2_de8b7fa41fbbecb3875ad24da3af4d85.bundle",
+      "bytes": 357283
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-mini-flat_46079baf95dc6b16b5ea3e3ba67d92a2.bundle",
+      "bytes": 736702
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-mini_a26ea8d17815bbaa645280fc0d97cfa5.bundle",
+      "bytes": 356132
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-small2_71b789cee4c5244b81f8a26fa11a7842.bundle",
+      "bytes": 64130
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_border-small_2aee56361d5443683817ccac5fbabd4e.bundle",
+      "bytes": 63688
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-001_fc2746bdc12d6fddeee7fb782d06562c.bundle",
+      "bytes": 94170
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-002_e6f033785ecd27592c5bd0ecdafa6828.bundle",
+      "bytes": 247593
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-003_a513665eeaf4a46bf5a0681a9a73b7b6.bundle",
+      "bytes": 277391
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-004_db92ca8ccab6d26b652fdca816d38924.bundle",
+      "bytes": 180504
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-005_98d4289453a67149596ab142dac894a2.bundle",
+      "bytes": 170459
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-006_3841a323a52cbae0a5810ab1d751448f.bundle",
+      "bytes": 262042
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-007_63f624d6b9035c951d3e15d4b747f11c.bundle",
+      "bytes": 313566
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-008_4c0f873db69a3639f1801f4af4b83837.bundle",
+      "bytes": 227400
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-009_a094c748f609f1d5c9f41a4eb5a801ad.bundle",
+      "bytes": 173893
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-010_80b5f4940e0fed959ef54328b01219fc.bundle",
+      "bytes": 118013
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-011_b5054ed4b3a5660d2c7922d3b259c4a4.bundle",
+      "bytes": 228119
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-012_ea1e64f049e561c72149731cc0a32ad3.bundle",
+      "bytes": 189427
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-013_971eb22dc0694cddc477cc87a95fcbb0.bundle",
+      "bytes": 246991
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-014_714cdd7851e79d37050cf695a8a32110.bundle",
+      "bytes": 231838
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-015_c8b571ec8312a65082c24d868bf16faa.bundle",
+      "bytes": 215147
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-016_ab74f69538f98de3ef34c024b98dfe4a.bundle",
+      "bytes": 230397
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-017_d3eb9fb5de11ed002a4709b3b9afe17a.bundle",
+      "bytes": 175608
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-018_563e47e1d7402053c0484e41589532dd.bundle",
+      "bytes": 168500
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-019_9ed58eac8b4065789ec16b86ec4a8ea7.bundle",
+      "bytes": 45250
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-020_c3dff347fe63e9ba132772fbfd342240.bundle",
+      "bytes": 121868
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-021_b60512211aa825f712baa9e84d7305be.bundle",
+      "bytes": 238968
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-022_0c25e1c0c83c6b88209eb84eac5807e1.bundle",
+      "bytes": 213267
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-023_79d7e7c017b4004ad488ca8e934d4818.bundle",
+      "bytes": 136497
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-024_b3e1793a776d6235126c310a9c1a386b.bundle",
+      "bytes": 175727
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-025_e22e573fc071a7ea062c4d980c2e575a.bundle",
+      "bytes": 250763
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-026_48a252b0712172f42b8c8a08a510d337.bundle",
+      "bytes": 130603
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-027_cf965d81bcd52ec6e90881356a6c4322.bundle",
+      "bytes": 217292
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-028_447f8df92bf5c269890d58d41cb292d8.bundle",
+      "bytes": 91225
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_br-030_860565f2728952c11380911e8dd79be1.bundle",
+      "bytes": 156337
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_cla-01_1901495d9f20b18a8d029ee2f6403e0d.bundle",
+      "bytes": 203514
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_cla-02_5ce1dfb7d2c802af906fcb0505723b39.bundle",
+      "bytes": 107347
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_cla-03_4781031728c27247af0545957c5c310c.bundle",
+      "bytes": 111684
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-01_0bb94a0e10811ada49732a3c95966ff4.bundle",
+      "bytes": 104426
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-02_c96f26407d7025fb4abc36ed0b35e96c.bundle",
+      "bytes": 65535
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-03_187807e43b1388877b90c00b1f9c860f.bundle",
+      "bytes": 36782
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-04_6ef7524d6c5081c335fa5be9cddab0c4.bundle",
+      "bytes": 59764
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-05_d06d4790a4e7591d230f5f2dab9ab528.bundle",
+      "bytes": 66690
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-06_dfc2809160d0dd9f1d647963fa96d38c.bundle",
+      "bytes": 63211
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-07_a3f2cc1cb33f237b3af78ce9b29a9e9a.bundle",
+      "bytes": 61687
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-08_a72d37721c8b7a07fad7bf97d8dc9576.bundle",
+      "bytes": 89151
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-09_a9f9431b59db9967885ab9f49873d9fc.bundle",
+      "bytes": 83132
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-10_931521906bcadf4284e62a1854c03ac4.bundle",
+      "bytes": 68202
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-11_9511f353c679c97140d54b8e3426efd5.bundle",
+      "bytes": 64498
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-12_921d5579da39b3a5dd81d1a6e822161e.bundle",
+      "bytes": 119410
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-13_4e55847c2498f147c4d027d5e2ca3db2.bundle",
+      "bytes": 42840
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-14_5bf67530e3b8fc94e29ce6502bbc2795.bundle",
+      "bytes": 135164
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-16_81d712bc8604d25a30352c5d8a86e420.bundle",
+      "bytes": 124723
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-17_d5ccd0db938b567630ea87c825287d62.bundle",
+      "bytes": 103163
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-18_069d2b17659c48616faed2579be6de92.bundle",
+      "bytes": 41679
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dc-19_4ab54a4421d46fceea9bbe166e72189b.bundle",
+      "bytes": 48407
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-01-c_2951cef06aec87af6ad33858901ab948.bundle",
+      "bytes": 1123104
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-01_a5b826355e11e4cfc7d147ab1dee0b43.bundle",
+      "bytes": 1136562
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-02-b_ee65fe6fda209a39c9c4e01161e6df13.bundle",
+      "bytes": 910465
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-02-c_d602fbbca7f58d4ec138b438ede34137.bundle",
+      "bytes": 981604
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-02_55522171f454230f4523559dec1995ce.bundle",
+      "bytes": 955544
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-03-c_cf6b3ff06315dbc5ab626b5b371aeaa3.bundle",
+      "bytes": 1198380
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-03-slope-01_2ac4d2144087743597cfaa06f14514db.bundle",
+      "bytes": 1188115
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-03-slope-02_b1889ba36af07053fc8f9a0fa392df1e.bundle",
+      "bytes": 1205041
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-03_d8367360b3e9b736cb3ccb16c62a901a.bundle",
+      "bytes": 1179331
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-04-b_d126bcddf5b22787910df92315aabf80.bundle",
+      "bytes": 1237163
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-04_4d32304dd945663f6712c6d8f89ccf6e.bundle",
+      "bytes": 1259096
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-05-b_03afad59276e076d4268446c122850e7.bundle",
+      "bytes": 1209299
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-05-c_210e64618689047852eb97186591ff05.bundle",
+      "bytes": 1304625
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-05_a34c996b78721521dd2c0a06354ffdc0.bundle",
+      "bytes": 1214037
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-06_1eb7e5393881e71da16af48cb64df38e.bundle",
+      "bytes": 1523992
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-07_95befeff68245496920e5556754d364d.bundle",
+      "bytes": 2001429
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-08-b_44312efc9888162d43cdf45000f3ccfa.bundle",
+      "bytes": 1086888
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-08_9c1e9065463abeffa70dbae74836d1a3.bundle",
+      "bytes": 1091620
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-09_df2dea4411d26ceebc09d4814fa390d6.bundle",
+      "bytes": 1867172
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-10_efb1fe3b438c1a924ee4af57b92b0085.bundle",
+      "bytes": 1257224
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-11_376be29dc4dcce699785d319eea508d0.bundle",
+      "bytes": 863196
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-13_ea90436fefdb701db5c8dc065e0936ed.bundle",
+      "bytes": 1298823
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_double-block-14_7a6929ac9ca9c37672848ee0552644ed.bundle",
+      "bytes": 1868453
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-000_3236b12ab30600dccd9e41baedba8cb5.bundle",
+      "bytes": 23813
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-001_b0de9ad0fb85fc631b9174f78eebf363.bundle",
+      "bytes": 37636
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-002_ae6063d1ead5b178700d51af6d8e9d8e.bundle",
+      "bytes": 34850
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-003_999c1e1aa394fdc7f6a0d31b040089cd.bundle",
+      "bytes": 22569
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-004_8f85abcf97f56c23939f538e63bc6745.bundle",
+      "bytes": 46845
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-005_9fc1d7d1c0d65879d7438b18f7d8f7f0.bundle",
+      "bytes": 32341
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-006_6854120611e92dfe3cf24da4bc81bd18.bundle",
+      "bytes": 21119
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-007_e6cef02eda1f8f231a21d3dd6ae183b0.bundle",
+      "bytes": 39202
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-008_55db0b26d1ebe946d49c9d0fb0382b66.bundle",
+      "bytes": 43775
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-009_d9eda9d6bb7cc256225dcdee31553ce5.bundle",
+      "bytes": 23513
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-010_0e18deb7a0a045d290243b6e8857055b.bundle",
+      "bytes": 32191
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-011_d0ac5376dcf5d5a2b534e92da491c458.bundle",
+      "bytes": 50735
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-012_9d9f15f60e6d7faeeacbbb28a384ce68.bundle",
+      "bytes": 38438
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-013_4060e413358ff64c9ad2965d90bdb4ae.bundle",
+      "bytes": 28394
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-014_401b33a4801f9a619cdd5855fb677197.bundle",
+      "bytes": 70514
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-015_4059c3ef3d82f75fe27f9816ce6c4cce.bundle",
+      "bytes": 37323
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-016_7a6fccd56e3e3b756f61469e4e0c591a.bundle",
+      "bytes": 34248
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-017_5ba2ed55551d7a68e23dbde2a3f0f950.bundle",
+      "bytes": 25757
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-018_529352f5caccaf855a00f8415843f8d0.bundle",
+      "bytes": 40451
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-019_e34059f4a8b4fbf4102d34fda6d9c04e.bundle",
+      "bytes": 22972
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-020_0922f83db8b4deae72116230ce9cc7a1.bundle",
+      "bytes": 34004
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-021_135fb9367846db27abd9db692fe8e9ea.bundle",
+      "bytes": 24256
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-022_5c90c1fc43cdc07e93672151cde0dadd.bundle",
+      "bytes": 31056
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_eb-023_f01554f9adb777e1a964e4e4a8ae628a.bundle",
+      "bytes": 27356
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-001_be352209d4fe253c5489a337822a0c49.bundle",
+      "bytes": 47095
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-002_2a3beabda928499590d23141d43766c1.bundle",
+      "bytes": 63693
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-003_69146b6a56991be792d50336c802b86d.bundle",
+      "bytes": 88942
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-004_749a1ba5672d91e82928b85de00b5c63.bundle",
+      "bytes": 64029
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-005_74795eb700ffc8cd1566dc8a008ea375.bundle",
+      "bytes": 60499
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-006_19328a7db7327bb477d395531f7ec598.bundle",
+      "bytes": 170257
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-007_e67e81088bc12c9645534ab1dc2120fe.bundle",
+      "bytes": 64059
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-008_65ae4251b56fca58b45a7c43ff961ba9.bundle",
+      "bytes": 42606
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-009_c1e05794a4a14a673f8ed726394c9feb.bundle",
+      "bytes": 265256
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-010_83b2061330e547909e989c854759b044.bundle",
+      "bytes": 104494
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-011_3bb008cb0742fd5956b0cb3c78525308.bundle",
+      "bytes": 159348
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-012_6532f6f590849a9ca8047e6a28ec16b6.bundle",
+      "bytes": 42205
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-013_f3c9dc1205e00074b5ee1884c15d12af.bundle",
+      "bytes": 48714
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-014_6abcfcfd62e2fc00f2dacacf227a7604.bundle",
+      "bytes": 63410
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-015_ca7289545151d49376d96bde6786dcd2.bundle",
+      "bytes": 176313
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-016_4f9fb62a68a18147e8837996e37dcfd5.bundle",
+      "bytes": 117331
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-017_3f30c42ce0e4b2b746198e6d94e3db0a.bundle",
+      "bytes": 125179
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-018_ee793b6c04624dee27746412ae7a24a3.bundle",
+      "bytes": 40036
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-019_42341c8b81d025a40a57127db3061a27.bundle",
+      "bytes": 48023
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-020_8e4b4b00435b4b13817aa9ff0e35396d.bundle",
+      "bytes": 69397
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-021_f6cd4730177aee0adadf0ab19de85471.bundle",
+      "bytes": 34819
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-022_a2cd2b5e163e4c5f4f138275cfbb6ffd.bundle",
+      "bytes": 50759
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-023_efb23e613b5bd89ca43c0022b23a56b4.bundle",
+      "bytes": 37973
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-026_dca6e54a9310a0d752772f5ed4936c6c.bundle",
+      "bytes": 40588
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-027_e6c87c82f9f78bf207187dd751956c19.bundle",
+      "bytes": 48014
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-028_9b4f601ebf919c7bbad98c2092ad6ee4.bundle",
+      "bytes": 30629
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-029_d945a6d9470e024f1c634f7e20c70deb.bundle",
+      "bytes": 78050
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-030_1162201340361d38de83f767550b183b.bundle",
+      "bytes": 59064
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-031_e60e9f4437b9e54024834a66a8d3f276.bundle",
+      "bytes": 122134
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-032_47b39756a407bc4ba14d3907c1b479fc.bundle",
+      "bytes": 22603
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-033_b30c03a66af4843444ef68ce41d2112d.bundle",
+      "bytes": 81229
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-034_ef47897146368d267f0f64a8903ffee8.bundle",
+      "bytes": 80205
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-035_6afe9e480e6f88183be5f79920b48630.bundle",
+      "bytes": 68115
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-036_74a70e5f5c5d579211ffc95ae7d014e6.bundle",
+      "bytes": 91965
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-037_9df8d67d3dac7850e3fa7df8bef4e72e.bundle",
+      "bytes": 44962
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-038_696c39d50d178c97b363c14425c5dc65.bundle",
+      "bytes": 60216
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-040_69980d47a02d61d4081cd5fc9542ddf4.bundle",
+      "bytes": 113679
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-041_9a479d5649a2d2df2076616d79290262.bundle",
+      "bytes": 29287
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-042_eaabcf3453aee82a8c97affb57a8a472.bundle",
+      "bytes": 46679
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-043_42aa86fbe7d6a8d2de3d87c68756dac4.bundle",
+      "bytes": 64161
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-044_1c2adbac73cb623c7d83d4537fd83db0.bundle",
+      "bytes": 93603
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_ec-045_14b2ccd9cdc13d5873217dd70d40c8ce.bundle",
+      "bytes": 46738
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_fabrica-detroit_c9312e2099cf92b3a8bc73e1d31b00f2.bundle",
+      "bytes": 166921
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-100-01_29108cc40d958ae9254d70f9d7a16bbe.bundle",
+      "bytes": 33908
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-300-01_3385e70ad5d01efc2a5c3bcb3752a05c.bundle",
+      "bytes": 115752
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-300-02_00147a3c505931b660dfa4f165ea2021.bundle",
+      "bytes": 114561
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-300-03_bceff2b3bf0cd5da3d155533cd1fbeee.bundle",
+      "bytes": 110591
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-400-01_c7ae21ca661d1ccaa5636b3fab1a8624.bundle",
+      "bytes": 110184
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-400-02_4fb8705c95ff9e8655e5f801643ac3a0.bundle",
+      "bytes": 152901
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-400-03_c0bfb1791f7253a6f0633f6c9c98a2fb.bundle",
+      "bytes": 152870
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-400-04_1a1bfa18d7d90cf04d26f01ada8ca9ea.bundle",
+      "bytes": 158950
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-f-50-01_d5ee3d7bfbfbc60d9161d97b33564316.bundle",
+      "bytes": 22223
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-fl-400-01_5d0f2e38520e5748e5c05f474b4714fd.bundle",
+      "bytes": 174420
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-fl-400-02_38e60fc32000a4d8afc0e17412a8a042.bundle",
+      "bytes": 194409
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-fl-400-03_2b82394bef055b0d06989d5c42d35e3e.bundle",
+      "bytes": 192358
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-fr-400-01_6d1d5d133ae10e88a17a0a83dfbcce46.bundle",
+      "bytes": 155333
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_hw-fr-400-03_68e47acfc16f33c0de623884d2c8cf84.bundle",
+      "bytes": 179317
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-001_2271693eaadafba14ce4f4be7664f2c8.bundle",
+      "bytes": 94052
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-002_3ec124107fc6fc70bbefd6d597b74299.bundle",
+      "bytes": 80557
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-003_8d507ce07578b0c6deb0a257a72a20b3.bundle",
+      "bytes": 16744
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-004_7dac4d0375fdb4dcfdf6ba228b3d58ad.bundle",
+      "bytes": 55263
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-005_ff12ecd1d9f1c1e13d842d925943a1a7.bundle",
+      "bytes": 69019
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-006_31ca6653e4f8c3da6eec578b4e4847d5.bundle",
+      "bytes": 54627
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-007_fb7892af8100c0ed4a17394f857fbd07.bundle",
+      "bytes": 72874
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-008_a52a81ce227f53c1e99a9fca047cd179.bundle",
+      "bytes": 49232
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-009_ef927a3d95e740bc6022c3ef21eafbe2.bundle",
+      "bytes": 88850
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-010_8bc109fa31ffe77cfaf01a55ad1ea9cf.bundle",
+      "bytes": 68885
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-012_edfd2293b67f58a44470a8a117e6af47.bundle",
+      "bytes": 87603
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-014_db0f5adcb796e0b23ee36702bfaf2331.bundle",
+      "bytes": 69875
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-015_cf9f6bb415298e82c2f7971cb1979267.bundle",
+      "bytes": 103224
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-016_083c03168b3594d0d5d8746f8c1c5d6f.bundle",
+      "bytes": 66910
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-017_0e41145f213332bbc064706cee4de96b.bundle",
+      "bytes": 325257
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-018_2df19cdc418a31680e5cbc8c67c35c3e.bundle",
+      "bytes": 89915
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-019_844830955cc4272a6fdfb445b6ea060d.bundle",
+      "bytes": 75241
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-020_01586203d4aac45d4fc37c5eee62039f.bundle",
+      "bytes": 79127
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-021_bb29ade8d327b17241c934542aa49772.bundle",
+      "bytes": 60042
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-022_641130aacdbbe3f1f34d1c58f06b965c.bundle",
+      "bytes": 53177
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_m-bc-005-b_65ff3b724440011d7db26097b55bda47.bundle",
+      "bytes": 75895
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_money_42224c19f592db2ad540a6625bb2d888.bundle",
+      "bytes": 160236
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-08_936ad3ae12e8606b33ef78c302b9811e.bundle",
+      "bytes": 364179
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-09_caf5913ad8d81feb81d781343597945a.bundle",
+      "bytes": 495684
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-10_b3f5dc8ea64787e615b9b4242c661d44.bundle",
+      "bytes": 746925
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-11_c4b3b50dc6be14f5af92a147a54c8b14.bundle",
+      "bytes": 1179793
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-12_c8937fd12992cdf545aa2298c13a36e9.bundle",
+      "bytes": 446487
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-14_54c1a69c7432fa24c52f9bc24c33a66e.bundle",
+      "bytes": 494730
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-15_8a9b5ea5f34d1dd26cf6263c4788a4ba.bundle",
+      "bytes": 397036
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-16_a05fa758fc222fc1c6308b56e7624f02.bundle",
+      "bytes": 254563
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_nc-17_e29325e5ac84bcee0feb465a5daac7a5.bundle",
+      "bytes": 278272
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-01_c322a1e444b90ead165562fbcb04518c.bundle",
+      "bytes": 184087
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-02_425070368a830056aff2a1a39c21c6f0.bundle",
+      "bytes": 130476
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-03_7fa60e9407d7f344a94c348e1319b67e.bundle",
+      "bytes": 71895
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-04-b_7d0598ffba6a59ddd71a20a575400764.bundle",
+      "bytes": 77816
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-04-c_291e47bad8a057144123e629b6b04092.bundle",
+      "bytes": 78599
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-04_11d4f46aae6035489480f6f77ac59577.bundle",
+      "bytes": 75080
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-05_f469e9b6968e39792c3e365368b0737b.bundle",
+      "bytes": 124523
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-06_1e20022208f198961a2dac4c99d401fe.bundle",
+      "bytes": 96247
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-07_f00bbc581ba674fda2487035d998c00b.bundle",
+      "bytes": 211230
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-08_3dd4d76f418652cab537fbacd0fd8243.bundle",
+      "bytes": 217192
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-091_bd4c5983cde80cf7db9eb3374a7b4009.bundle",
+      "bytes": 5794
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-09_65d845e4e61dcce5f6a56a2670c8ef0c.bundle",
+      "bytes": 4637
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-10_3477d93090bd2d5826b5447fc066f034.bundle",
+      "bytes": 54510
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-11_bb83b561f4c40a75a766d12d19b5442f.bundle",
+      "bytes": 53753
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-12_5227ffe1dd0bcb7df08c11c909d80c32.bundle",
+      "bytes": 69030
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-13_85aa374946bec0daf3d7baaa67d78e93.bundle",
+      "bytes": 71640
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-14_ba324e108187923eb9d77d517c3ae0e4.bundle",
+      "bytes": 55555
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-15_4648f89328f099056f43aa72a3b15ffe.bundle",
+      "bytes": 45962
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_office-16_f60f1dd323ef304c59b800ad0e80ce79.bundle",
+      "bytes": 50515
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-01_697518fe8c2ce0626d183500bd2cba5a.bundle",
+      "bytes": 223584
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-02_c0eca37131234122cd0bf7f6f6f93ae3.bundle",
+      "bytes": 166289
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-03_4369ef410ad078029b2a2dc40e01e0ab.bundle",
+      "bytes": 90761
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-04_e78d45c3754315fe6a63fd36e86ba066.bundle",
+      "bytes": 125473
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-05_53502687d1eb59272c10b5079111c176.bundle",
+      "bytes": 48806
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-06_3202c94a84e40e1e804e2df81ef1a73f.bundle",
+      "bytes": 82147
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-07_e66ba5004781cb67ea24f638da57c4a8.bundle",
+      "bytes": 106153
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-08_3496c4833c5a17512e1912b8489ee2b4.bundle",
+      "bytes": 197831
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-09_e36aaa3ff075caf6099e97796752d3d8.bundle",
+      "bytes": 87223
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-10_814f3e94987715afbd95a1197f582510.bundle",
+      "bytes": 147322
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-11_5cb0133686e197da3261be95d5a271a6.bundle",
+      "bytes": 87110
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-12_4bbf7ab280a61967c2d6f1cda23ac16b.bundle",
+      "bytes": 69730
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-13_0ad7088a8d9c7e448889c6c9e3b9db8a.bundle",
+      "bytes": 232713
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_qd-14_cc9c8929f1111238071663cd5c795cce.bundle",
+      "bytes": 279566
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_quad-block-01_9f20259b2e5bd64ddb061607d0cae7c0.bundle",
+      "bytes": 4576325
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_shopping-01_b2def682aae149a0708fbe47fe62df5e.bundle",
+      "bytes": 196255
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-01_5238f45f6b3ee1cda14d53071afc53f8.bundle",
+      "bytes": 113387
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-02_b559384e19b3d0f86812f72085a364bd.bundle",
+      "bytes": 85684
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-03_b4ff6e23aecb1081ad3531d5758c26b1.bundle",
+      "bytes": 78036
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-04_e1851e6d28910a239313a36fdc41f40e.bundle",
+      "bytes": 99212
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-06_be44cb0fd3d49dea449df5a8729bbc77.bundle",
+      "bytes": 105565
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-07_e9753f44de590d1216ebd4df9d953dec.bundle",
+      "bytes": 72345
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-08_4e83acf7c4350ed3c2cb0d7b77ad46f0.bundle",
+      "bytes": 60317
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-19_4168673f21bcba25c9eba7063571f03b.bundle",
+      "bytes": 66570
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-20_8fa8a019c193270298fb4231bafe2422.bundle",
+      "bytes": 64971
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-21_e0cfac01a14a50b7cce27c34ac705eaf.bundle",
+      "bytes": 57133
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-22_70597ef426ff71f9bd6bca5a459081dd.bundle",
+      "bytes": 59882
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-23_5fb6be232fab382a52d9d71469182bda.bundle",
+      "bytes": 59937
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-24_34fb066f36ec31036d51329adf6a4009.bundle",
+      "bytes": 46327
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-25_198d377d124ace5dddf284bf78648813.bundle",
+      "bytes": 111871
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-26_7eabcf49310be7afb402834c387bda84.bundle",
+      "bytes": 53902
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-27_6e018ceea76d2f851a0133d52a5569a3.bundle",
+      "bytes": 61377
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-28_c72e4a446bac7f81bda74f70a4acb873.bundle",
+      "bytes": 181345
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-29_34c0783c404ce535bf23f099e09beeb8.bundle",
+      "bytes": 83053
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-30_1514e6fc1676308b14cc0705eec47e13.bundle",
+      "bytes": 86040
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-31_8b802d62a3bf6593ec7791f380c57e19.bundle",
+      "bytes": 108014
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-32_e062535fd2a413e5168ddd04178ee542.bundle",
+      "bytes": 72198
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-33_99ff06c4edb326ebe1bc966851a50b09.bundle",
+      "bytes": 103911
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-34_c0fa0a562227cbc73bf6e22dddbab212.bundle",
+      "bytes": 160984
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-35_2708f55b9d215c458040d6a7ec69ceec.bundle",
+      "bytes": 60907
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-36_65acaa145fd3b06baed321fef8212e8e.bundle",
+      "bytes": 72008
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tw-37_83198fef79ee773dee2e753599b91dab.bundle",
+      "bytes": 55552
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_twb-01_5c428329e7bfff27649f986dd0e12b38.bundle",
+      "bytes": 71958
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_twb-02_006b1eb10bebef0273a0acdf20eb1dea.bundle",
+      "bytes": 88348
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_twb-03_65291432ee3be288151e38615a0dd7c2.bundle",
+      "bytes": 98318
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/duplicateassetisolation_assets_all_7adbab38786b523a0ef94e1a99b6fe7a.bundle",
+      "bytes": 7356096
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/shared_city_assets_assets_all_e74a9ff976daf8e995e08f75075d2912.bundle",
+      "bytes": 1284128
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "bytes": 3476
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "bytes": 2225
+    },
+    {
+      "assetPath": "tiptap-shell.css",
+      "bytes": 1107
+    }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1037,
+      "sha256": "b07dfbc2bdc4d621fbb8c558408dca7d5899c3d4fe4c83d756d26e12bb5e895f"
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "bytes": 3476,
+      "sha256": "714e67ac14f0c010c7c92b45e397763858e2be595d9473cf94723800d7655435"
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "bytes": 2225,
+      "sha256": "dcd9807ad29ec61fb1012ea535836e3a7a5ff40d6ee19063870c1505ecd19016"
+    },
+    {
+      "assetPath": "tiptap-shell.css",
+      "bytes": 1107,
+      "sha256": "2295fffb7fbc739cb71299a256ff9b203e301a49c916ff92e4ec00356f963788"
+    }
+  ]
+}

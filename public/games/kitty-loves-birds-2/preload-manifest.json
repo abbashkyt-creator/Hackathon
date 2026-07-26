@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/kitty-loves-birds-2/scripts/main.js",
+    "/games/kitty-loves-birds-2/scripts/c3runtime.js",
+    "/games/kitty-loves-birds-2/data.json",
+    "/games/kitty-loves-birds-2/box2d.wasm"
+  ]
+}

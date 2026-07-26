@@ -1,0 +1,14 @@
+Johnny Trigger - Sniper Game
+Creator: SayGames
+Source: https://poki.com/en/g/johnny-trigger-sniper-game
+Captured source game version: 1642d4b2-69f2-40ac-b15f-44bbefebb761
+Capture date: 2026-07-26
+
+This local source-runtime mirror is included under the project owner's stated
+permission to copy and redistribute this game for the Tip Tap hackathon.
+Before public GitHub, Replit, or APK release, retain written confirmation that
+public redistribution, hosting, and any required attribution are permitted.
+
+The Poki page shell, advertisements, analytics, authentication, tracking,
+remote leaderboards, and all remote runtime dependencies are intentionally not
+included. The local bridge returns no reward for rewarded-ad requests.

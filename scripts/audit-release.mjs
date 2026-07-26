@@ -141,10 +141,14 @@ if (existsSync(replitPath)) {
 const packagePath = join(root, "package.json");
 requireFile(packagePath);
 requireFile(join(root, "scripts", "precompress-game-assets.mjs"));
+requireFile(join(root, "scripts", "prune-retired-ruffle-assets.mjs"));
 if (existsSync(packagePath)) {
   const packageJson = JSON.parse(readFileSync(packagePath, "utf8"));
   if (!packageJson.scripts?.build?.includes("precompress-game-assets.mjs")) {
     fail("Production build must generate Brotli game sidecars");
+  }
+  if (!packageJson.scripts?.build?.includes("prune-retired-ruffle-assets.mjs")) {
+    fail("Production build must exclude retired copied-game runtime assets");
   }
 }
 

@@ -29,6 +29,14 @@ describe("production client delivery", () => {
       join(root, "games", "copy", "model.gb.br"),
       brotliCompressSync(Buffer.from("lossless-game-model-".repeat(1_000))),
     );
+    writeFileSync(
+      join(root, "games", "copy", "runtime.wasm"),
+      Buffer.from("lossless-unity-runtime-".repeat(1_000)),
+    );
+    writeFileSync(
+      join(root, "games", "copy", "runtime.wasm.br"),
+      brotliCompressSync(Buffer.from("lossless-unity-runtime-".repeat(1_000))),
+    );
   });
 
   afterEach(() => rmSync(root, { recursive: true, force: true }));
@@ -70,5 +78,20 @@ describe("production client delivery", () => {
     expect(game.headers["cache-control"]).toBe(
       "public, max-age=86400, stale-while-revalidate=604800",
     );
+  });
+
+  it("serves compressed Unity WebAssembly with the required MIME type", async () => {
+    const app = express();
+    app.use(compression());
+    attachProductionClient(app, root);
+
+    const runtime = await request(app)
+      .get("/games/copy/runtime.wasm")
+      .set("Accept-Encoding", "br")
+      .buffer(true)
+      .expect(200);
+
+    expect(runtime.headers["content-encoding"]).toBe("br");
+    expect(runtime.headers["content-type"]).toContain("application/wasm");
   });
 });

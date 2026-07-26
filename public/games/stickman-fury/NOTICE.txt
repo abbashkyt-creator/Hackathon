@@ -1,0 +1,15 @@
+Stickman Fury local Tip Tap integration
+
+Source page: https://poki.com/en/g/stickman-fury
+Source package: the version recorded in MIRROR-MANIFEST.json
+Original developer: Happylander Ltd
+
+Permission status: the project owner states that permission to mirror and
+distribute this game was obtained from the rights holder. The private agreement
+or written authorization must be retained with the competition submission
+records; it is intentionally not embedded in this public asset directory.
+
+The original game code and art are preserved locally. The Poki portal shell,
+advertising libraries, analytics, account services, and remote platform SDK are
+not included. js/tiptap-platform-bridge.js supplies only the minimal local
+lifecycle methods required for the game to load and play without ads.

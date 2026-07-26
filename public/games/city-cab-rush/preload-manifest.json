@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/city-cab-rush/Build/TaxiRush-V1.3.4.loader.js",
+    "/games/city-cab-rush/Build/TaxiRush-V1.3.4.framework.js",
+    "/games/city-cab-rush/Build/TaxiRush-V1.3.4.wasm"
+  ]
+}

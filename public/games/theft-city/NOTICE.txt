@@ -1,0 +1,8 @@
+Theft City local mirror for the Tip Tap hackathon project.
+
+Source page: https://poki.com/en/g/theft-city
+Source game id: 629eee0a-0c5c-469a-b388-7eb076f7054f
+Source version id: 1e5722e5-0d6a-43d7-8fbf-ecff22f44fe5
+
+The project owner states that permission was obtained to mirror and integrate the game.
+The local host removes the source advertising and analytics SDK runtime and makes no source-site requests during play.
