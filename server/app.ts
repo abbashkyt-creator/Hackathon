@@ -127,6 +127,9 @@ export function createApp(config: Config, store: Store) {
   // 'wasm-unsafe-eval' that probe fails and it falls back to a non-existent
   // asm.js ammo.js (404). Serve it under the wasm policy so it loads ammo.wasm.js.
   const fruitNinjaSecurityHeaders = securityHeaders("wasm-game");
+  // Temple Run 2 (Babylon.js) decodes Draco-compressed meshes via a WebAssembly
+  // module, so it needs 'wasm-unsafe-eval' (and blob: for its decoder worker).
+  const templeRunSecurityHeaders = securityHeaders("wasm-game");
   app.use((req, res, next) => {
     const headers = req.path.startsWith("/games/subway-surfers/")
       ? subwaySecurityHeaders
@@ -146,6 +149,8 @@ export function createApp(config: Config, store: Store) {
         ? johnnyTriggerSecurityHeaders
       : req.path.startsWith("/games/fruit-ninja/")
         ? fruitNinjaSecurityHeaders
+      : req.path.startsWith("/games/temple-run-2-frozen-shadows/")
+        ? templeRunSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
