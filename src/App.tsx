@@ -23,13 +23,19 @@ import {
   type ComponentType,
 } from "react";
 import { api } from "./api";
+import { isEmbeddedGame, warmGame } from "./game-runtime";
 import { formatScore, shuffle } from "./game-utils";
+import { OFFLINE_BOOTSTRAP } from "./offline-catalog";
 import {
+  ArithmeticaGame,
   ColorClashGame,
+  DinoRunnerGame,
   MemoryGridGame,
   MeteorDodgeGame,
   PulseLockGame,
+  SixtySevenGame,
   StackShiftGame,
+  SubwaySurfersGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -48,6 +54,10 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "stack-shift": StackShiftGame,
   "memory-grid": MemoryGridGame,
   "meteor-dodge": MeteorDodgeGame,
+  "subway-surfers": SubwaySurfersGame,
+  "dino-runner": DinoRunnerGame,
+  "arithmetica": ArithmeticaGame,
+  "67-game": SixtySevenGame,
 };
 
 const GAME_EYEBROWS: Record<GameSlug, string> = {
@@ -56,6 +66,10 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "stack-shift": "BUILD THE SKY",
   "memory-grid": "FOLLOW THE SIGNAL",
   "meteor-dodge": "STAY IN THE VOID",
+  "subway-surfers": "THE ORIGINAL ENDLESS RUNNER",
+  "dino-runner": "OUTRUN THE CACTI",
+  "arithmetica": "MATH UNDER PRESSURE",
+  "67-game": "67 LEVELS. ONE CLOCK.",
 };
 
 interface FeedEntry {
@@ -318,6 +332,14 @@ function ResultSheet({
   onSwipeNext: () => void;
 }) {
   const swipeStart = useRef<number | null>(null);
+  const replayButtonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (result && !submitting) {
+      replayButtonRef.current?.focus();
+    }
+  }, [result, submitting]);
+
   return (
     <div
       className="result-overlay"
@@ -337,10 +359,13 @@ function ResultSheet({
       onPointerCancel={() => {
         swipeStart.current = null;
       }}
+      onKeyDown={(event) => {
+        if (event.key === "ArrowDown" || event.key === "ArrowRight") onSwipeNext();
+      }}
     >
       <div className="result-glow" style={{ "--game-accent": game.accent } as React.CSSProperties} />
       <span className="result-kicker">{result?.yourBest === score ? "NEW PERSONAL BEST" : "RUN COMPLETE"}</span>
-      <strong className="result-score">{formatScore(score)}</strong>
+      <strong className="result-score" aria-live="polite">{formatScore(score)}</strong>
       {submitting ? (
         <span className="saving-score">
           <LoaderCircle className="spin" /> Sending score live…
@@ -348,25 +373,25 @@ function ResultSheet({
       ) : error ? (
         <span className="score-error">{error}</span>
       ) : (
-        <div className="result-stats">
+        <div className="result-stats" aria-label="Run statistics">
           <span>
-            <b>{result?.yourRank ? `#${result.yourRank}` : "—"}</b> rank
+            <b>{result?.yourRank ? `#${result.yourRank}` : "—"} </b>rank
           </span>
           <span>
-            <b>{result?.percentile ?? 0}%</b> beaten
+            <b>{result?.percentile ?? 0}% </b>beaten
           </span>
           <span>
-            <b>{result?.ghostScore ? formatScore(result.ghostScore) : "CROWN"}</b> rival
+            <b>{result?.ghostScore ? formatScore(result.ghostScore) : "CROWN"} </b>rival
           </span>
         </div>
       )}
       {player.isGuest && result && (
         <button className="claim-button" onClick={onClaim}>
-          <Sparkles size={17} /> You’re #{result.yourRank ?? "—"} — sign in to claim it
+          <Sparkles size={17} /> You're #{result.yourRank ?? "—"} — sign in to claim it
         </button>
       )}
       <div className="result-actions">
-        <button onClick={onReplay}>PLAY AGAIN</button>
+        <button ref={replayButtonRef} onClick={onReplay}>PLAY AGAIN</button>
         <button onClick={onLeaderboard}>
           <Trophy size={17} /> BOARD
         </button>
@@ -387,6 +412,7 @@ function GameCard({
   like,
   soundEnabled,
   hapticsEnabled,
+  offlinePractice,
   challenge,
   onVisible,
   onLikeChange,
@@ -401,6 +427,7 @@ function GameCard({
   like: LikeState;
   soundEnabled: boolean;
   hapticsEnabled: boolean;
+  offlinePractice: boolean;
   challenge: Challenge | null;
   onVisible: (index: number, node: HTMLElement | null) => void;
   onLikeChange: (gameSlug: GameSlug, state: LikeState) => void;
@@ -426,13 +453,14 @@ function GameCard({
     setResult(null);
     setScore(0);
     setError(null);
+    if (offlinePractice) return;
     try {
       const run = await api.startRun(game.slug);
       setTicket(run.ticket);
     } catch (requestError) {
       setError(requestError instanceof Error ? requestError.message : "Could not start this run.");
     }
-  }, [game.slug]);
+  }, [game.slug, offlinePractice]);
 
   useEffect(() => {
     if (active) void begin();
@@ -455,7 +483,12 @@ function GameCard({
       setError(null);
       if (!ticket) {
         setSubmitting(false);
-        setError("Run ticket was not ready. Tap play again.");
+        finishingRef.current = false;
+        setError(
+          offlinePractice
+            ? "Practice complete. Reconnect to save and rank the next run."
+            : "Run ticket was not ready. Tap play again.",
+        );
         return;
       }
       try {
@@ -468,7 +501,7 @@ function GameCard({
         setSubmitting(false);
       }
     },
-    [game.slug, onScored, ticket],
+    [game.slug, offlinePractice, onScored, ticket],
   );
 
   const toggleLike = async () => {
@@ -508,12 +541,23 @@ function GameCard({
     setRunKey((value) => value + 1);
   };
 
-  const gameLive = active && Boolean(ticket) && !submitting && !result && !error;
+  const gameLive =
+    active &&
+    !submitting &&
+    !result &&
+    !error;
   const challengeHere = challenge?.gameSlug === game.slug;
   const swipeNext = () => {
     const next = cardRef.current?.nextElementSibling;
     if (next instanceof HTMLElement) next.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+
+  const handleFinish = useCallback(
+    (finalScore: number) => {
+      finish(finalScore);
+    },
+    [finish],
+  );
 
   return (
     <section
@@ -528,21 +572,23 @@ function GameCard({
     >
       <div className="card-atmosphere" />
       <div className="game-frame">
-        <div className="game-label">
-          <span>{GAME_EYEBROWS[game.slug]}</span>
-          <h1>{game.title}</h1>
-        </div>
+        {game.slug !== "subway-surfers" && (
+          <div className="game-label">
+            <span>{GAME_EYEBROWS[game.slug]}</span>
+            <h1>{game.title}</h1>
+          </div>
+        )}
         <Game
           active={gameLive}
           runKey={runKey}
           soundEnabled={soundEnabled}
           hapticsEnabled={hapticsEnabled}
-          onFinish={finish}
+          onFinish={handleFinish}
         />
-        {!ticket && active && !error && (
-          <div className="run-loading">
-            <LoaderCircle className="spin" />
-            <span>SYNCING RUN</span>
+        {!ticket && active && !offlinePractice && !error && !submitting && (
+          <div className="run-syncing-badge">
+            <LoaderCircle className="spin" size={12} />
+            <span>syncing</span>
           </div>
         )}
         {error && !result && !submitting && (
@@ -577,7 +623,14 @@ function GameCard({
 
       <footer className="game-caption">
         <span className="creator-line">
-          <Gamepad2 size={15} /> @tiptap
+          <Gamepad2 size={15} />{" "}
+          {game.slug === "subway-surfers"
+            ? "BY SYBO · TIP TAP INTEGRATION"
+            : game.slug === "dino-runner"
+              ? "BY CHROME UX · TIP TAP INTEGRATION"
+              : game.slug === "67-game"
+                ? "BY STUPIDELLA · LOCAL SOURCE MIRROR"
+                : "@tiptap"}
         </span>
         <h2>{game.title}</h2>
         <p>
@@ -613,13 +666,16 @@ function GameCard({
 }
 
 function makeBatch(games: GameDefinition[], batch: number, preferred?: string): FeedEntry[] {
-  const arranged =
-    batch === 0 && preferred && games.some((game) => game.slug === preferred)
-      ? [
-          games.find((game) => game.slug === preferred)!,
-          ...shuffle(games.filter((game) => game.slug !== preferred)),
-        ]
-      : shuffle(games);
+  const firstSlug =
+    batch === 0
+      ? preferred && games.some((game) => game.slug === preferred)
+        ? preferred
+        : "pulse-lock"
+      : undefined;
+  const firstGame = firstSlug ? games.find((game) => game.slug === firstSlug) ?? games[0] : undefined;
+  const arranged = firstGame
+    ? [firstGame, ...shuffle(games.filter((game) => game.slug !== firstGame.slug))]
+    : shuffle(games);
   return arranged.map((game, index) => ({ id: `${batch}-${index}-${game.slug}`, game }));
 }
 
@@ -628,6 +684,7 @@ export function App() {
   const [entries, setEntries] = useState<FeedEntry[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [offlinePractice, setOfflinePractice] = useState(false);
   const [authOpen, setAuthOpen] = useState(false);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [toast, setToast] = useState<string | null>(null);
@@ -651,6 +708,7 @@ export function App() {
     setLoadError(null);
     try {
       const data = await api.bootstrap();
+      setOfflinePractice(false);
       setBootstrap(data);
       setEntries(makeBatch(data.games, 0, preferredGame));
       const params = new URLSearchParams(window.location.search);
@@ -668,7 +726,10 @@ export function App() {
         history.replaceState(null, "", `${location.pathname}${params.size ? `?${params}` : ""}`);
       }
     } catch (error) {
-      setLoadError(error instanceof Error ? error.message : "The feed could not load.");
+      setOfflinePractice(true);
+      setBootstrap(OFFLINE_BOOTSTRAP);
+      setEntries(makeBatch(OFFLINE_BOOTSTRAP.games, 0, preferredGame));
+      setToast("Offline practice — reconnect to save scores.");
     }
   }, [preferredGame]);
 
@@ -699,11 +760,39 @@ export function App() {
     return () => observerRef.current?.disconnect();
   }, [entries.length]);
 
+  const prevActiveIndexRef = useRef(0);
+
+  useEffect(() => {
+    if (bootstrap && prevActiveIndexRef.current !== activeIndex) {
+      setStreak(0);
+      prevActiveIndexRef.current = activeIndex;
+    }
+  }, [activeIndex, bootstrap]);
+
   useEffect(() => {
     if (!bootstrap || activeIndex < entries.length - 3) return;
     const batch = Math.ceil(entries.length / bootstrap.games.length);
     setEntries((current) => [...current, ...makeBatch(bootstrap.games, batch)]);
   }, [activeIndex, bootstrap, entries.length]);
+
+  useEffect(() => {
+    const upcomingEmbeddedGame = entries
+      .slice(activeIndex + 1, activeIndex + 4)
+      .map((entry) => entry.game)
+      .find((game) => isEmbeddedGame(game.slug));
+    if (!upcomingEmbeddedGame) return;
+    const warm = () => void warmGame(upcomingEmbeddedGame.slug);
+    const browserWindow = window as Window & {
+      requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => number;
+      cancelIdleCallback?: (handle: number) => void;
+    };
+    if (browserWindow.requestIdleCallback) {
+      const handle = browserWindow.requestIdleCallback(warm, { timeout: 1_200 });
+      return () => browserWindow.cancelIdleCallback?.(handle);
+    }
+    const handle = window.setTimeout(warm, 250);
+    return () => window.clearTimeout(handle);
+  }, [activeIndex, entries]);
 
   useEffect(() => {
     if (!toast) return;
@@ -779,6 +868,7 @@ export function App() {
             like={bootstrap.likes[entry.game.slug] ?? { liked: false, count: 0 }}
             soundEnabled={soundEnabled}
             hapticsEnabled={hapticsEnabled}
+            offlinePractice={offlinePractice}
             challenge={challenge}
             onVisible={onVisible}
             onLikeChange={(slug, state) =>

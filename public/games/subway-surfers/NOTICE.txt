@@ -1,0 +1,22 @@
+Subway Surfers Web integration
+================================
+
+Subway Surfers, its first-party game code, characters, artwork, audio, and
+branding are owned by SYBO Games and its applicable licensors.
+
+Source page:
+https://poki.com/en/g/subway-surfers
+
+Captured game version:
+b05f1bb8-3159-4c02-8066-4dc1327308e0
+
+The project owner represented on 2026-07-25 that they received permission to
+copy, modify, integrate, and deploy this game build. The written permission
+should be retained with the project's deployment records and checked before
+making the repository or deployment public.
+
+Poki's hosted page shell, advertising stack, analytics, authentication, and
+remote SDK were not copied. Tip Tap supplies a local compatibility bridge.
+
+Third-party license notices bundled with the game are preserved at:
+js/dependencies.bundle.js.LICENSE.txt

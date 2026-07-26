@@ -4,6 +4,14 @@ export const GAME_SCORE_POLICIES = {
   "stack-shift": { maxScore: 250_000, maxPerSecond: 5_000, burstAllowance: 2_500 },
   "memory-grid": { maxScore: 300_000, maxPerSecond: 3_500, burstAllowance: 2_000 },
   "meteor-dodge": { maxScore: 500_000, maxPerSecond: 1_200, burstAllowance: 1_000 },
+  "subway-surfers": {
+    maxScore: 2_147_483_647,
+    maxPerSecond: 100_000,
+    burstAllowance: 25_000,
+  },
+  "dino-runner": { maxScore: 999_999, maxPerSecond: 2_000, burstAllowance: 1_500 },
+  "arithmetica": { maxScore: 100_000, maxPerSecond: 5_000, burstAllowance: 2_000 },
+  "67-game": { maxScore: 130_000, maxPerSecond: 4_000, burstAllowance: 2_000 },
 } as const;
 
 export type GameSlug = keyof typeof GAME_SCORE_POLICIES;
@@ -26,3 +34,4 @@ export function validateScore(gameSlug: string, score: number, elapsedMs: number
   if (score > possible) return { ok: false, reason: "impossible_score" };
   return { ok: true };
 }
+

@@ -9,10 +9,15 @@ The feed is the product. There is no landing page, library, prompt, tutorial, or
 The feed uses full-height CSS scroll snapping. An `IntersectionObserver` elects one card as active. Only that card receives `active=true`. Every game:
 
 - resets from a `runKey`,
-- starts only after a server ticket exists,
+- starts native mechanics after a server ticket exists,
+- may load an embedded game in parallel with its ticket so network latency does not delay its first frame,
 - cancels `requestAnimationFrame` and timers when inactive,
 - emits one final integer score,
 - owns no persistence or leaderboard logic.
+
+Subway Surfers follows the same contract through a same-origin sandboxed iframe. The local platform bridge receives the build's registered final-score callback and emits one integer score to the parent. In embedded autoplay mode it waits for the real canvas, dispatches the verified local start interaction, and stops retrying when the original SDK emits `gameplay-start`.
+
+Dino Runner uses the same iframe boundary with a smaller local runtime. Its bridge waits for the real runner instance, starts the original intro automatically, guarantees the intro transitions into gameplay, and reports every completed run. The original game runtime is an external local script so production's strict no-inline-script CSP remains effective. Deactivating either copied-game card removes its iframe, terminating rendering, timers, and audio with the game document.
 
 The feed appends another shuffled batch near the end, so it has no bottom.
 
@@ -44,6 +49,9 @@ Best scores and ranks are derived from immutable run history, avoiding a second 
 - Provider tokens discarded after identity lookup
 - 32 KB JSON limit
 - Helmet security headers and production CSP
+- A route-scoped legacy-game CSP exception permits `unsafe-eval` and data fetches only under `/games/subway-surfers/`; the Tip Tap app keeps the strict policy
+- Every `/games/*` response blocks cross-origin networks; only the Subway build receives the narrowly scoped `unsafe-eval` exception
+- A first-script network lock independently blocks cross-origin fetch, XHR, WebSocket, EventSource, beacon and popup attempts
 - One-time tickets and atomic replay rejection
 - Server clock and per-game plausibility policies
 - Score submission rate limits by browser identity and IP
@@ -54,11 +62,16 @@ Remaining honest limit: score plausibility is not deterministic server replay. T
 
 ## Performance
 
-- No game artwork download; gameplay uses DOM/CSS primitives
+- Five original mechanics use lightweight DOM, CSS, and canvas primitives
+- Subway Surfers, Dino Runner, ArithmeticA, and the original 67 Game are local cacheable bundles; inactive cards never instantiate their iframes. 67 Game runs from a self-hosted SWF plus local Ruffle, with no outside runtime request. Its source start screen needs one genuine tap and it is deliberately unranked because no verified score callback exists. ArithmeticA has an unresolved remote-SDK runtime failure and must not be claimed as demo-ready.
+- The default first card is a lightweight native game unless a direct game/challenge link chooses another
+- The next copied game warms only a declared critical path, three requests at a time; save-data and 2G clients warm only its entry document
 - Production JS is code-split/minified by Vite
+- Express applies lossless response compression to compressible text assets
 - Native SSE rather than a WebSocket framework
-- Five lightweight mechanics with animation cleanup
-- Service worker caches only application shell resources and never API responses
+- Seven isolated mechanics with animation and iframe lifecycle cleanup
+- Service worker separates shell and game caches, uses stale-while-revalidate for repeat asset loads, never caches API responses, and never substitutes app HTML for a missing game asset
+- If bootstrap is unreachable, a public built-in catalogue opens offline practice; scores remain unsaved until the authoritative API reconnects
 - PostgreSQL pool capped at eight connections
 
 ## Accessibility

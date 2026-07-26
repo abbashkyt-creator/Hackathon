@@ -26,11 +26,11 @@ Tap Share and send/open the canonical challenge link on a second device.
 
 ## 1:25–2:05 — Prove variety and engineering
 
-Swipe through Color Clash, Stack Shift, Memory Grid and Meteor Dodge.
+Swipe directly into Subway Surfers and keep both hands visibly away from the screen until the run starts automatically. Then swipe into Dino Runner and again keep both hands away: its intro flows straight into a live run and produces a real score without a Play button. Then show 67 Game: this is the original locally hosted source game, so tap its own start icon once and then play its real phone puzzles. Do not claim it posts a Tip Tap score; it is intentionally unranked. Continue through Color Clash and Stack Shift.
 
-> “Each swipe is a different mechanic, and only the visible game is alive. Leaving a card hard-stops its animation and audio.”
+> “That full game is served by us, not streamed from another site. There is no Play button—the visible game enters the run itself. The next game warms like a short-form feed, but only the visible game is alive. Leaving a card hard-stops its rendering and audio.”
 
-Briefly play the most visually reliable second game—Stack Shift.
+Make one visible Subway run, let Dino complete one untouched run, then briefly play Stack Shift.
 
 ## 2:05–2:35 — Prove identity without friction
 
@@ -49,6 +49,8 @@ End on the active game, not a slide.
 ## Pre-demo preparation
 
 - Rehearse on the same deployed URL and Wi-Fi.
+- Fresh-load once and repeat-load once so both cold and warm performance are known.
+- Verify the browser request log contains no copied-game source hosts.
 - Create at least five real leaderboard entries from the team.
 - Verify the Discord callback after the final domain is known.
 - Open the second-device challenge before going on stage.

@@ -1,0 +1,19 @@
+ArithmeticA integration
+========================
+
+ArithmeticA is a math puzzle game built with Phaser.js.
+Players solve arithmetic problems under time pressure.
+
+Source page:
+https://poki.com/en/g/arithmetica
+
+Game ID: 5947565b-1eae-4602-9e05-690e54616659
+Game version: 117b8be4-5bb5-46eb-9311-394db8c17cb8
+
+This build was captured from Poki's hosted version. Poki's page shell,
+advertising stack, analytics, authentication, and remote SDK were not
+copied. Tip Tap supplies a local compatibility bridge.
+
+The game engine (Phaser.js) is included as-is from the original build.
+The original creator identity is preserved. Tip Tap does not present
+this copied work as its own creation.

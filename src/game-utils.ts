@@ -1,14 +1,29 @@
 export function vibrate(enabled: boolean, pattern: number | number[]): void {
-  if (enabled && "vibrate" in navigator) navigator.vibrate(pattern);
+  if (
+    enabled &&
+    "vibrate" in navigator &&
+    (navigator.userActivation?.hasBeenActive ?? true)
+  ) {
+    navigator.vibrate(pattern);
+  }
+}
+
+let sharedContext: AudioContext | null = null;
+
+function getAudioContext(): AudioContext | null {
+  if (sharedContext && sharedContext.state !== "closed") return sharedContext;
+  const AudioContextClass =
+    window.AudioContext ||
+    (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+  if (!AudioContextClass) return null;
+  sharedContext = new AudioContextClass();
+  return sharedContext;
 }
 
 export function tone(enabled: boolean, frequency = 440, duration = 0.06): void {
   if (!enabled) return;
-  const AudioContextClass =
-    window.AudioContext ||
-    (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
-  if (!AudioContextClass) return;
-  const context = new AudioContextClass();
+  const context = getAudioContext();
+  if (!context) return;
   const oscillator = context.createOscillator();
   const gain = context.createGain();
   oscillator.type = "sine";
@@ -19,7 +34,6 @@ export function tone(enabled: boolean, frequency = 440, duration = 0.06): void {
   gain.connect(context.destination);
   oscillator.start();
   oscillator.stop(context.currentTime + duration);
-  oscillator.addEventListener("ended", () => void context.close());
 }
 
 export function shuffle<T>(items: T[]): T[] {

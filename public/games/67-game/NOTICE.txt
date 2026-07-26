@@ -1,0 +1,19 @@
+67 Game local mirror
+====================
+
+Original game: 67 Game
+Creator: Stupidella
+Source page: https://poki.com/en/g/67-game
+Source asset captured with Visual Editor Ultimate:
+https://a155a05b-3e04-4c13-9053-ef50e4bb82ed.gdn.poki.com/91b5f9b8-520f-4e06-9de2-3c5ac0efe931/67.swf
+
+Distribution permission: represented by the Tip Tap Games project owner.
+Before a public GitHub, Replit, or APK release, retain written permission that
+specifically covers redistribution of this SWF and public deployment.
+
+Runtime: Ruffle 0.4.1, dual licensed MIT OR Apache-2.0.
+Ruffle notices are retained in this mirror's ruffle/LICENSE_MIT and
+ruffle/LICENSE_APACHE files and documented in the integration playbook.
+
+This local mirror intentionally contains no Poki SDK, advertising SDK,
+analytics, or remote service dependency.

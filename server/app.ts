@@ -1,5 +1,6 @@
 import { randomBytes, randomUUID } from "node:crypto";
 import express, { type NextFunction, type Request, type Response } from "express";
+import compression from "compression";
 import helmet from "helmet";
 import { z } from "zod";
 import type { Config } from "./config.js";
@@ -69,7 +70,8 @@ export function createApp(config: Config, store: Store) {
   const app = express();
   app.set("trust proxy", 1);
   app.disable("x-powered-by");
-  app.use(
+
+  const securityHeaders = (mode: "app" | "game" | "legacy-game") =>
     helmet({
       contentSecurityPolicy:
         config.NODE_ENV === "development"
@@ -77,20 +79,51 @@ export function createApp(config: Config, store: Store) {
           : {
               directives: {
                 defaultSrc: ["'self'"],
-                connectSrc: ["'self'"],
-                imgSrc: ["'self'", "data:", "https://cdn.discordapp.com", "https://lh3.googleusercontent.com"],
-                scriptSrc: ["'self'"],
+                connectSrc: mode === "app" ? ["'self'"] : ["'self'", "data:", "blob:"],
+                imgSrc:
+                  mode === "app"
+                    ? [
+                        "'self'",
+                        "data:",
+                        "https://cdn.discordapp.com",
+                        "https://lh3.googleusercontent.com",
+                      ]
+                    : ["'self'", "data:", "blob:"],
+                mediaSrc: mode === "app" ? ["'self'"] : ["'self'", "data:", "blob:"],
+                fontSrc: ["'self'", "data:"],
+                scriptSrc:
+                  mode === "legacy-game" ? ["'self'", "'unsafe-eval'"] : ["'self'"],
                 styleSrc: ["'self'", "'unsafe-inline'"],
-                workerSrc: ["'self'"],
+                workerSrc: mode === "app" ? ["'self'"] : ["'self'", "blob:"],
+                frameSrc: mode === "app" ? ["'self'"] : ["'none'"],
+                objectSrc: ["'none'"],
               },
             },
       crossOriginEmbedderPolicy: false,
-    }),
-  );
+    });
+  const appSecurityHeaders = securityHeaders("app");
+  const gameSecurityHeaders = securityHeaders("game");
+  const subwaySecurityHeaders = securityHeaders("legacy-game");
+  app.use((req, res, next) => {
+    const headers = req.path.startsWith("/games/subway-surfers/")
+      ? subwaySecurityHeaders
+      : req.path.startsWith("/games/")
+        ? gameSecurityHeaders
+        : appSecurityHeaders;
+    headers(req, res, next);
+  });
+  app.use(compression());
   app.use(express.json({ limit: "32kb" }));
 
   const sseClients = new Map<string, Set<Response>>();
   const scoreRate = new Map<string, { count: number; resetAt: number }>();
+
+  setInterval(() => {
+    const now = Date.now();
+    for (const [key, entry] of scoreRate) {
+      if (entry.resetAt <= now) scoreRate.delete(key);
+    }
+  }, 60_000);
 
   async function context(req: Request, res: Response): Promise<RequestContext> {
     const cookies = parseCookies(req.headers.cookie);

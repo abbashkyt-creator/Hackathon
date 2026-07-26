@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "/games/67-game/index.html",
+    "/games/67-game/js/ruffle-config.js",
+    "/games/67-game/js/tiptap-platform-bridge.js",
+    "/games/67-game/ruffle/ruffle.js",
+    "/games/67-game/ruffle/core.ruffle.0875e44536e955474b0c.js",
+    "/games/67-game/ruffle/63468f5322aed2e768a8.wasm",
+    "/games/67-game/67.swf"
+  ]
+}

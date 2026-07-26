@@ -282,6 +282,30 @@ a:focus-visible {
   --accent: #ff9f1c;
 }
 
+.theme-subway-surfers {
+  --accent: #ffd32a;
+}
+
+.theme-dino-runner {
+  --accent: #4ade80;
+}
+
+.theme-arithmetica {
+  --accent: #f59e0b;
+}
+
+.theme-ping-pong-go {
+  --accent: #06b6d4;
+}
+
+.theme-67-game {
+  --accent: #fe930e;
+}
+
+.theme-super-car-legends {
+  --accent: #3b82f6;
+}
+
 .card-atmosphere {
   position: absolute;
   z-index: -2;
@@ -360,6 +384,19 @@ a:focus-visible {
   user-select: none;
 }
 
+.subway-surfers-game {
+  display: block;
+  background: #0b316b;
+  cursor: default;
+  touch-action: none;
+}
+
+.subway-surfers-placeholder {
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255, 211, 42, 0.18), transparent 32%),
+    #0b316b;
+}
+
 .social-rail {
   position: absolute;
   z-index: 6;
@@ -397,6 +434,28 @@ a:focus-visible {
 
 .social-rail .is-liked {
   color: #ff4f7b;
+}
+
+.theme-subway-surfers .social-rail {
+  right: 16px;
+  bottom: calc(30px + var(--safe-bottom));
+  grid-auto-flow: column;
+  gap: 7px;
+}
+
+.theme-subway-surfers .social-rail button {
+  width: 42px;
+  min-height: 42px;
+  padding: 5px;
+  border-radius: 14px;
+}
+
+.theme-subway-surfers .social-rail span {
+  display: none;
+}
+
+.theme-subway-surfers .game-caption {
+  right: 162px;
 }
 
 .game-caption {
@@ -507,6 +566,30 @@ a:focus-visible {
   background: var(--accent);
   color: #08090b;
   font-weight: 950;
+}
+
+.run-syncing-badge {
+  position: absolute;
+  z-index: 8;
+  top: 14px;
+  right: 14px;
+  display: inline-flex;
+  gap: 5px;
+  padding: 4px 10px;
+  align-items: center;
+  border-radius: 99px;
+  background: rgba(6, 8, 12, 0.75);
+  backdrop-filter: blur(8px);
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.run-syncing-badge .spin {
+  animation: spin 900ms linear infinite;
 }
 
 .challenge-chip {
@@ -941,6 +1024,195 @@ a:focus-visible {
   background: rgba(200, 255, 0, 0.65);
   filter: blur(5px);
   transform: rotate(-55deg);
+}
+
+/* Dino Runner */
+.dino-runner-game {
+  display: block;
+  background: #f7f7f7;
+  cursor: default;
+  touch-action: none;
+}
+
+.dino-runner-placeholder {
+  background:
+    radial-gradient(circle at 50% 100%, rgba(74, 222, 128, 0.1), transparent 36%),
+    #0a1628;
+}
+
+/* ArithmeticA */
+.arithmetica-game {
+  display: block;
+  background: #000;
+  cursor: default;
+  touch-action: none;
+}
+
+.arithmetica-placeholder {
+  background:
+    radial-gradient(circle at 50% 100%, rgba(245, 158, 11, 0.1), transparent 36%),
+    #0a0a0a;
+}
+
+.ping-pong-go-game {
+  display: block;
+  background: #1a1a2e;
+  cursor: default;
+  touch-action: none;
+}
+
+.ping-pong-go-placeholder {
+  background:
+    radial-gradient(circle at 50% 100%, rgba(6, 182, 212, 0.1), transparent 36%),
+    #0a1628;
+}
+
+/* 67 Game */
+.sixty-seven-game {
+  display: grid;
+  grid-template-rows: auto 1fr auto auto auto;
+  gap: clamp(10px, 2.2vh, 22px);
+  padding: clamp(18px, 4vw, 38px);
+  overflow: hidden;
+  color: #fff7e8;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(255, 218, 135, 0.28), transparent 28%),
+    linear-gradient(165deg, #0f766e 0 35%, #476044 35% 57%, #d9972d 57% 76%, #ea7865 76%);
+  cursor: default;
+  touch-action: none;
+}
+
+.sixty-seven-placeholder {
+  background:
+    radial-gradient(circle at 50% 100%, rgba(254, 147, 14, 0.1), transparent 36%),
+    #0a1628;
+}
+
+.sixty-seven-original {
+  display: block;
+  background: #050505;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.sixty-seven-topline,
+.sixty-seven-score {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: 800 clamp(11px, 2.7vw, 16px)/1 system-ui, sans-serif;
+  letter-spacing: 0.12em;
+}
+
+.sixty-seven-topline strong {
+  min-width: 58px;
+  padding: 10px 12px;
+  border: 3px solid #17120e;
+  border-radius: 999px;
+  color: #1b120c;
+  background: #ffe45b;
+  text-align: center;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.26);
+}
+
+.sixty-seven-phone {
+  position: relative;
+  place-self: center;
+  width: min(51vw, 270px);
+  aspect-ratio: 0.68;
+  border: clamp(8px, 1.8vw, 14px) solid #111;
+  border-radius: clamp(30px, 8vw, 54px);
+  background: linear-gradient(150deg, #ffb591, #f88172);
+  box-shadow: inset 0 0 0 7px #514946, 0 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.sixty-seven-speaker {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  width: 30%;
+  height: 10px;
+  border-radius: 999px;
+  background: #111;
+}
+
+.sixty-seven-face {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #25201b;
+  font: 900 clamp(36px, 9vw, 62px)/1 system-ui, sans-serif;
+  white-space: nowrap;
+}
+
+.sixty-seven-prompt {
+  z-index: 1;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.sixty-seven-prompt small,
+.sixty-seven-prompt strong {
+  display: block;
+}
+
+.sixty-seven-prompt small {
+  margin-bottom: 5px;
+  font: 700 12px/1.2 system-ui, sans-serif;
+  opacity: 0.86;
+}
+
+.sixty-seven-prompt strong {
+  font: 900 clamp(24px, 6.5vw, 42px)/1 system-ui, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.sixty-seven-choices {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.native-phone .sixty-seven-choices {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.sixty-seven-choices button {
+  min-height: clamp(60px, 12vh, 92px);
+  border: 3px solid #17120e;
+  border-radius: 18px;
+  color: #1b120c;
+  background: #fff4d4;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.28);
+  font: 900 clamp(28px, 7vw, 45px)/1 system-ui, sans-serif;
+  touch-action: manipulation;
+}
+
+.sixty-seven-choices button:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.28);
+}
+
+.sixty-seven-choices button.is-hangup {
+  color: #fff7e8;
+  background: #dd3c2f;
+}
+
+/* Super Car Legends */
+.super-car-legends-game {
+  display: block;
+  background: #231F20;
+  cursor: default;
+  touch-action: none;
+}
+
+.super-car-legends-placeholder {
+  background:
+    radial-gradient(circle at 50% 100%, rgba(59, 130, 246, 0.1), transparent 36%),
+    #0a1628;
 }
 
 /* Sheets and results */
@@ -1580,4 +1852,61 @@ a:focus-visible {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+@media (max-width: 320px) {
+  .app-shell {
+    max-width: 100%;
+  }
+
+  .brand.is-compact strong {
+    font-size: 14px;
+  }
+
+  .brand.is-compact .brand-mark {
+    width: 26px;
+    height: 26px;
+  }
+
+  .game-frame {
+    left: 6px;
+    right: 6px;
+    border-radius: 20px;
+  }
+
+  .game-caption {
+    left: 10px;
+    right: 60px;
+  }
+
+  .social-rail {
+    right: 8px;
+    gap: 10px;
+  }
+
+  .social-rail button {
+    width: 40px;
+    min-height: 40px;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .feed-card .game-arena {
+    cursor: default;
+  }
+}
+
+.result-overlay:focus-within {
+  outline: none;
+}
+
+.claim-button:focus-visible,
+.result-actions button:focus-visible,
+.auth-button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+.feed-card[data-active="false"] .game-arena iframe {
+  display: none;
 }

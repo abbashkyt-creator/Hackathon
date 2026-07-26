@@ -9,14 +9,16 @@
   },
   "scripts": {
     "dev": "tsx server/index.ts",
-    "build": "vite build && esbuild server/index.ts --bundle --platform=node --format=esm --packages=external --outfile=dist-server/index.js",
+    "build": "vite build && node scripts/precompress-game-assets.mjs && esbuild server/index.ts --bundle --platform=node --format=esm --packages=external --outfile=dist-server/index.js",
     "start": "node dist-server/index.js",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check": "npm run typecheck && npm test && npm run build"
+    "audit:release": "node scripts/audit-release.mjs",
+    "check": "npm run audit:release && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
+    "compression": "^1.8.1",
     "express": "5.2.1",
     "helmet": "8.3.0",
     "lucide-react": "1.26.0",
@@ -28,6 +30,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "7.0.0",
     "@testing-library/react": "16.3.2",
+    "@types/compression": "^1.8.1",
     "@types/express": "5.0.6",
     "@types/node": "26.1.1",
     "@types/pg": "8.20.0",

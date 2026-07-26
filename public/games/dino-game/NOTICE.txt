@@ -1,0 +1,24 @@
+Dinosaur Game integration
+================================
+
+The Dinosaur Game (T-Rex Runner) is an endless runner game originally built
+into Google Chrome as an offline Easter egg. It was created by Edward Jung,
+Sebastien Gabriel, and Alan Bettes of the Chrome UX team in 2014.
+
+Source page:
+https://poki.com/en/g/dinosaur-game
+
+Game ID: a4e4a244-d11b-4d94-b1d8-deb2dbbaff02
+Game version: 09a3212c-2757-4232-93dc-c002f4ac007f
+
+The original Chrome Dino game source is part of the Chromium project and
+is available under the BSD license. This build was captured from Poki's
+hosted version which wraps the original game with their platform SDK.
+
+Poki's hosted page shell, advertising stack, analytics, authentication,
+and remote SDK were not copied. Tip Tap supplies a local compatibility
+bridge that replaces PokiSDK with local stubs for score reporting and
+lifecycle management.
+
+The original creator identity is preserved. Tip Tap does not present
+this copied work as its own creation.

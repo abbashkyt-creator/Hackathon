@@ -7,7 +7,7 @@ Tip Tap Games is a mobile-first, vertical feed of instant one-thumb mini games. 
 ## What ships
 
 - Exact one-screen vertical swipe feed with endless shuffled recycling
-- Five different games: Pulse Lock, Color Clash, Stack Shift, Memory Grid, and Meteor Dodge
+- Seven different games: Pulse Lock, Color Clash, Stack Shift, Memory Grid, Meteor Dodge, Subway Surfers, and Dino Runner
 - Strict active-card lifecycle: inactive games stop their timers and animation frames
 - Guest-first play with no registration wall
 - PostgreSQL production persistence and local SQLite development persistence
@@ -19,7 +19,11 @@ Tip Tap Games is a mobile-first, vertical feed of instant one-thumb mini games. 
 - Per-device hype/like state
 - Optional Google and Discord OAuth; guest scores merge when an account is claimed
 - Native mobile share with clipboard fallback
-- Installable PWA shell
+- Installable PWA shell with Android-ready PNG and maskable icons
+- Cached offline practice after one successful online visit; scoring stays honestly online-only
+- Lossless next-game critical-path warming with save-data/slow-network restraint
+- Two-layer copied-game network isolation: strict CSP plus an early runtime network lock
+- Lossless HTTP compression and repeat-play game caching
 - Responsive desktop presentation around the phone-width product
 
 ## Architecture
@@ -88,6 +92,8 @@ The included `.replit` already defines the development and deployment commands a
 
 Important: Replit editor secrets and published deployment secrets are configured separately. Add the production values in the Publishing pane as well.
 
+After the final HTTPS Replit hostname is stable, follow [docs/APK-RELEASE.md](docs/APK-RELEASE.md) to package the same PWA as a verified Android Trusted Web Activity. The signing key and Digital Asset Links association are intentionally release-time inputs and must not be faked or committed.
+
 ## Enable Discord sign-in
 
 Discord is the fastest login path for a hackathon demo.
@@ -136,6 +142,18 @@ Every play session starts with a server-issued, single-use run ticket bound to t
 
 This is intentionally described as **server-validated**, not cheat-proof. A determined attacker controls their browser. Stronger competition-grade validation would require deterministic input traces and server replay for every mechanic.
 
+## Copied-game integrations
+
+The authorized Subway Surfers web build is stored under `public/games/subway-surfers` and runs in a same-origin sandboxed iframe. Its original SYBO identity and third-party notices are preserved. A small local Tip Tap bridge replaces the Poki platform SDK so the game can report its real final score, follow the global sound control, skip platform ads, and enter gameplay automatically when its card becomes visible—without loading Poki accounts, ads, analytics, tracking, or a press-to-play gate.
+
+The local Dino Runner build is stored under `public/games/dino-game`. Its Chrome UX creator attribution is preserved. Its game code is a CSP-safe local script, and its bridge turns the short intro directly into a live run without a tap, reports every completed run, and replaces platform ad calls locally.
+
+Copied games are fail-closed. Production CSP has no source-site allowlist, and `/games/_shared/network-lock.js` blocks cross-origin fetch, XHR, WebSocket, EventSource, beacon, and popup attempts before game code runs. The feed warms an upcoming copied game from its local critical-path and mirror manifests without creating its iframe. Constrained or data-saver connections warm only the entry page. Production builds also create Brotli sidecars for compressible game files, including legacy `.gb` models, without changing the game bytes seen by the browser.
+
+After one complete online load, the service worker can replay cached games in offline practice mode. The API and score submissions are never cached: reconnect before the next run to receive a ticket and leaderboard rank.
+
+The repository notice records the exact captured build and the permission representation supplied for this project. Keep the written permission grant with the project and verify that it covers GitHub distribution and the final Replit deployment before making either public.
+
 ## Demo checklist
 
 - Use a real phone at 390×844 or similar.
@@ -145,7 +163,7 @@ This is intentionally described as **server-validated**, not cheat-proof. A dete
 - Share the challenge link and open it in a second browser.
 - Beat the shown target.
 - Sign in with Discord and refresh to prove the personal best survived.
-- Swipe through all five mechanics and return to confirm there are no zombie timers or audio.
+- Swipe through all seven mechanics and return to confirm there are no zombie timers or audio.
 
 The app never seeds fake players or fake leaderboard scores. Populate the judging board with real team runs before presentation.
 
@@ -153,13 +171,15 @@ The app never seeds fake players or fake leaderboard scores. Populate the judgin
 
 ```text
 server/             API, database, OAuth, validation, SSE
-src/games/          five isolated game implementations
+src/games/          seven isolated game integrations and implementations
 src/App.tsx         feed, overlays, sharing, auth and ranking UI
-public/             PWA, icons and social preview
+public/             PWA, icons, social preview and authorized local game assets
 tests/              policy and API integration tests
 docs/               architecture, demo and original design references
 .github/workflows/  GitHub quality gate
 ```
+
+For the complete vision, exact continuation prompt, copied-game intake procedure, and release blockers, read [docs/AI_AGENT_HANDOFF.md](docs/AI_AGENT_HANDOFF.md).
 
 ## Known external setup
 

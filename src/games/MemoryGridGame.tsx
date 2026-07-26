@@ -54,7 +54,9 @@ export function MemoryGridGame({
     setInputIndex(0);
     setLit(null);
     if (active) showSequence(initial);
-    return clearTimers;
+    return () => {
+      clearTimers();
+    };
   }, [active, clearTimers, runKey, showSequence]);
 
   const choose = (cell: number) => {

@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "/games/dino-game/index.html",
+    "/games/dino-game/js/tiptap-platform-bridge.js",
+    "/games/dino-game/js/dino-runner.js",
+    "/games/dino-game/img/1x-trex.png",
+    "/games/dino-game/img/1x-horizon.png",
+    "/games/dino-game/img/1x-obstacle-small.png",
+    "/games/dino-game/img/1x-obstacle-large.png"
+  ]
+}

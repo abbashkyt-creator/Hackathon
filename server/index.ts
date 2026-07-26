@@ -1,9 +1,8 @@
 import { createServer as createHttpServer } from "node:http";
-import { resolve } from "node:path";
-import express from "express";
 import { createApp } from "./app.js";
 import { loadConfig } from "./config.js";
 import { Store } from "./db.js";
+import { attachProductionClient } from "./production-client.js";
 
 const config = loadConfig();
 const store = new Store(config);
@@ -14,9 +13,7 @@ const app = createApp(config, store);
 const httpServer = createHttpServer(app);
 
 if (config.NODE_ENV === "production") {
-  const clientPath = resolve(process.cwd(), "dist");
-  app.use(express.static(clientPath, { maxAge: "1h", index: false }));
-  app.get(/.*/, (_req, res) => res.sendFile(resolve(clientPath, "index.html")));
+  attachProductionClient(app);
 } else {
   const { createServer: createViteServer } = await import("vite");
   const vite = await createViteServer({
@@ -29,6 +26,12 @@ if (config.NODE_ENV === "production") {
 const server = httpServer.listen(config.PORT, "0.0.0.0", () => {
   console.log(`Tip Tap Games is running on http://0.0.0.0:${config.PORT}`);
 });
+
+setInterval(() => {
+  void store.cleanup().catch((error) => {
+    console.error("Cleanup failed:", error);
+  });
+}, 60 * 60 * 1000);
 
 async function shutdown(signal: string) {
   console.log(`Received ${signal}; shutting down.`);

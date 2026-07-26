@@ -3,7 +3,11 @@ export type GameSlug =
   | "color-clash"
   | "stack-shift"
   | "memory-grid"
-  | "meteor-dodge";
+  | "meteor-dodge"
+  | "subway-surfers"
+  | "dino-runner"
+  | "arithmetica"
+  | "67-game";
 
 export interface GameDefinition {
   slug: GameSlug;

@@ -1,5 +1,9 @@
+export { ArithmeticaGame } from "./ArithmeticaGame";
+export { SixtySevenGame } from "./SixtySevenGame";
 export { ColorClashGame } from "./ColorClashGame";
+export { DinoRunnerGame } from "./DinoRunnerGame";
 export { MemoryGridGame } from "./MemoryGridGame";
 export { MeteorDodgeGame } from "./MeteorDodgeGame";
 export { PulseLockGame } from "./PulseLockGame";
 export { StackShiftGame } from "./StackShiftGame";
+export { SubwaySurfersGame } from "./SubwaySurfersGame";

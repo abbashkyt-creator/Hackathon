@@ -1,0 +1,18 @@
+{
+  "game": "subway-surfers",
+  "version": "b05f1bb8-3159-4c02-8066-4dc1327308e0-tiptap-autoplay-2",
+  "strategy": "lossless-critical-path",
+  "critical": [
+    "/games/subway-surfers/index.html",
+    "/games/_shared/network-lock.js",
+    "/games/subway-surfers/js/tiptap-platform-bridge.js",
+    "/games/subway-surfers/js/tiptap-game-config.js",
+    "/games/subway-surfers/js/loading.js",
+    "/games/subway-surfers/js/boot.js",
+    "/games/subway-surfers/js/dependencies.bundle.js",
+    "/games/subway-surfers/js/index.js",
+    "/games/subway-surfers/assets/preload/splash.webp",
+    "/games/subway-surfers/assets/ui/ui.webp",
+    "/games/subway-surfers/assets/ui/ui.webp.json"
+  ]
+}

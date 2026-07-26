@@ -1,0 +1,29 @@
+{
+  "name": "67 Game",
+  "sourcePage": "https://poki.com/en/g/67-game",
+  "sourceRoot": "https://a155a05b-3e04-4c13-9053-ef50e4bb82ed.gdn.poki.com/91b5f9b8-520f-4e06-9de2-3c5ac0efe931/",
+  "sourceAsset": "67.swf",
+  "capturedWith": "Visual Editor Ultimate feature-5 (port 3460, CDP 9226)",
+  "runtime": {
+    "name": "Ruffle",
+    "version": "0.4.1",
+    "license": "MIT OR Apache-2.0",
+    "localOnly": true
+  },
+  "integrationFiles": [
+    { "assetPath": "index.html", "bytes": 885, "sha256": "f77cdee75c5c6de9ad7bb0e6db3c6e10316818aacb59861bf2d8950be4b09bf2", "purpose": "Local Ruffle host and network isolation" },
+    { "assetPath": "js/ruffle-config.js", "bytes": 191, "sha256": "d3c4563627a0701a741d9d6b3d4491ba28bb4c1467b49d1824ef814d1e3f6e96", "purpose": "CSP-safe local Ruffle configuration" },
+    { "assetPath": "js/tiptap-platform-bridge.js", "bytes": 3646, "sha256": "f68778dd450d679b51e26633b6c879930122c05751dae362f5310b308595dc53", "purpose": "Mute and lifecycle bridge; source-owned start gesture remains intact" },
+    { "assetPath": "NOTICE.txt", "bytes": 815, "sha256": "be807ea00f34b21e0ccfcf47aa7c55b91bdb4759fe1aa1992eb35bfe2ad5f7c6", "purpose": "Attribution and deployment-permission reminder" }
+  ],
+  "files": [
+    { "assetPath": "67.swf", "bytes": 3961719 },
+    { "assetPath": "ruffle/ruffle.js", "purpose": "Local Flash compatibility runtime" },
+    { "assetPath": "ruffle/1ef41ff58c9763bed027.wasm", "purpose": "SIMD runtime variant" },
+    { "assetPath": "ruffle/63468f5322aed2e768a8.wasm", "purpose": "baseline runtime variant" }
+  ],
+  "limitations": [
+    "The SWF exposes no verified score or completion callback. It is playable but deliberately unranked.",
+    "Ruffle plus the SWF add a substantial first-use download. The feed pre-warms the next game's local assets, but a cold cache cannot be instantaneous."
+  ]
+}
