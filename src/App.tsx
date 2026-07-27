@@ -909,8 +909,13 @@ export function App() {
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [streak, setStreak] = useState(0);
+  // Sound is ON by default so the live game plays without the player hunting for
+  // an unmute button; it only stays off if they explicitly used the Tip Tap mute
+  // toggle (which persists "off"). The central audio effect keeps sound to the
+  // one active card. (Browsers still gate real playback until the first tap,
+  // which the natural act of playing provides.)
   const [soundEnabled, setSoundEnabled] = useState(
-    () => window.localStorage.getItem("ttg_sound") === "on",
+    () => window.localStorage.getItem("ttg_sound") !== "off",
   );
   const [pageVisible, setPageVisible] = useState(() => document.visibilityState === "visible");
   const [hapticsEnabled] = useState(
@@ -1003,6 +1008,30 @@ export function App() {
       return [...current, ...makeBatch(bootstrap.games, batch, undefined, lastSlug)];
     });
   }, [activeIndex, bootstrap, entries.length]);
+
+  // Only the active card may make sound. Embedded games that stay mounted to
+  // warm up (or that don't self-mute when scrolled past) would otherwise stack
+  // their audio as the player scrolls. Centrally mute every game iframe except
+  // the active one on every scroll / sound-toggle. Re-run on short delays so a
+  // freshly-mounted iframe that wasn't listening yet still gets muted.
+  useEffect(() => {
+    const syncAudio = () => {
+      const frames = document.querySelectorAll<HTMLIFrameElement>(".feed .game-frame iframe");
+      frames.forEach((frame) => {
+        const card = frame.closest<HTMLElement>(".feed-card");
+        const isActive = card?.dataset.active === "true";
+        frame.contentWindow?.postMessage(
+          { source: "tiptap-parent", type: "set-muted", muted: !(soundEnabled && isActive) },
+          window.location.origin,
+        );
+      });
+    };
+    syncAudio();
+    // Re-run on short delays so a just-mounted warm-ahead iframe (whose message
+    // listener wasn't ready on the first pass) still gets muted promptly.
+    const timers = [150, 600, 1500].map((delay) => window.setTimeout(syncAudio, delay));
+    return () => timers.forEach((timer) => window.clearTimeout(timer));
+  }, [activeIndex, soundEnabled, entries.length]);
 
   useEffect(() => {
     // Warm the selected card as well as the next three. This matters for a
