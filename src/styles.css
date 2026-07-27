@@ -69,7 +69,8 @@ a:focus-visible {
   background: linear-gradient(180deg, rgba(4, 5, 7, 0.88), rgba(4, 5, 7, 0));
 }
 
-.app-header button {
+.app-header button,
+.app-header a {
   pointer-events: auto;
 }
 
