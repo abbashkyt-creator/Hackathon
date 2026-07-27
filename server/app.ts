@@ -130,6 +130,9 @@ export function createApp(config: Config, store: Store) {
   // Temple Run 2 (Babylon.js) decodes Draco-compressed meshes via a WebAssembly
   // module, so it needs 'wasm-unsafe-eval' (and blob: for its decoder worker).
   const templeRunSecurityHeaders = securityHeaders("wasm-game");
+  // 67 Game runs its Flash .swf through Ruffle, which instantiates a WebAssembly
+  // core — same wasm policy requirement as the Unity/Babylon titles.
+  const sixtySevenSecurityHeaders = securityHeaders("wasm-game");
   app.use((req, res, next) => {
     const headers = req.path.startsWith("/games/subway-surfers/")
       ? subwaySecurityHeaders
@@ -151,6 +154,8 @@ export function createApp(config: Config, store: Store) {
         ? fruitNinjaSecurityHeaders
       : req.path.startsWith("/games/temple-run-2-frozen-shadows/")
         ? templeRunSecurityHeaders
+      : req.path.startsWith("/games/67-game/")
+        ? sixtySevenSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
