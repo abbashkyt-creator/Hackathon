@@ -176,7 +176,7 @@ a:focus-visible {
   gap: 7px;
 }
 
-.streak-pill,
+.donate-pill,
 .icon-button,
 .avatar-button {
   display: inline-flex;
@@ -189,12 +189,23 @@ a:focus-visible {
   backdrop-filter: blur(14px);
 }
 
-.streak-pill {
-  gap: 4px;
-  padding: 0 10px;
+.donate-pill {
+  gap: 5px;
+  padding: 0 12px;
   color: var(--lime);
   font-size: 12px;
   font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border-color: color-mix(in srgb, var(--lime) 55%, transparent);
+  background: color-mix(in srgb, var(--lime) 14%, rgba(6, 7, 10, 0.7));
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.donate-pill:hover {
+  background: color-mix(in srgb, var(--lime) 22%, rgba(6, 7, 10, 0.7));
+  border-color: color-mix(in srgb, var(--lime) 75%, transparent);
 }
 
 .icon-button,

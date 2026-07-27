@@ -147,14 +147,12 @@ function Avatar({ player, size = "md" }: { player: Player; size?: "sm" | "md" })
 
 function AppHeader({
   player,
-  streak,
   soundEnabled,
   onToggleSound,
   onOpenGames,
   onProfile,
 }: {
   player: Player;
-  streak: number;
   soundEnabled: boolean;
   onToggleSound: () => void;
   onOpenGames: () => void;
@@ -164,9 +162,15 @@ function AppHeader({
     <header className="app-header">
       <Logo compact />
       <div className="header-actions">
-        <span className="streak-pill" aria-label={`${streak} game streak`}>
-          <Zap size={14} fill="currentColor" /> {streak}
-        </span>
+        <a
+          className="donate-pill"
+          href="https://www.paypal.com/donate/?business=9B627UZJWV9SC&no_recurring=0&currency_code=USD"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Donate to the creator via PayPal"
+        >
+          <Heart size={14} fill="currentColor" /> Donate
+        </a>
         <button className="icon-button" onClick={onOpenGames} aria-label="Jump to a game">
           <LayoutGrid size={19} />
         </button>
@@ -908,7 +912,6 @@ export function App() {
   const [gamesOpen, setGamesOpen] = useState(false);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [toast, setToast] = useState<string | null>(null);
-  const [streak, setStreak] = useState(0);
   // Sound is ON by default so the live game plays without the player hunting for
   // an unmute button; it only stays off if they explicitly used the Tip Tap mute
   // toggle (which persists "off"). The central audio effect keeps sound to the
@@ -990,15 +993,6 @@ export function App() {
     nodesRef.current.forEach((node) => observerRef.current?.observe(node));
     return () => observerRef.current?.disconnect();
   }, [entries.length]);
-
-  const prevActiveIndexRef = useRef(0);
-
-  useEffect(() => {
-    if (bootstrap && prevActiveIndexRef.current !== activeIndex) {
-      setStreak(0);
-      prevActiveIndexRef.current = activeIndex;
-    }
-  }, [activeIndex, bootstrap]);
 
   useEffect(() => {
     if (!bootstrap || activeIndex < entries.length - 3) return;
@@ -1132,7 +1126,6 @@ export function App() {
     <main className="app-shell">
       <AppHeader
         player={bootstrap.player}
-        streak={streak}
         soundEnabled={soundEnabled}
         onToggleSound={toggleSound}
         onOpenGames={() => setGamesOpen(true)}
@@ -1165,7 +1158,7 @@ export function App() {
               )
             }
             onOpenAuth={() => setAuthOpen(true)}
-            onScored={() => setStreak((value) => value + 1)}
+            onScored={() => {}}
             onToast={setToast}
           />
         ))}
