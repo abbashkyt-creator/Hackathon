@@ -488,6 +488,10 @@ function GameCard({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [boardOpen, setBoardOpen] = useState(false);
+  // The game-label ("PERFECT TIMING / PULSE LOCK") stays up until the player
+  // actually starts playing, then fades out 5s later so it never covers the
+  // game. Hidden only after the first interaction with the game area.
+  const [labelHidden, setLabelHidden] = useState(false);
   const finishingRef = useRef(false);
   const cardRef = useRef<HTMLElement | null>(null);
 
@@ -517,6 +521,47 @@ function GameCard({
       finishingRef.current = false;
     }
   }, [active, begin, runKey]);
+
+  // Keep the game-label visible until the player starts playing; then fade it
+  // out 5s later. "Started playing" = the first interaction with the game area:
+  // a pointer/touch/key input for canvas games, or focus moving into the game
+  // iframe for embedded games (a click into a same-origin iframe blurs us).
+  useEffect(() => {
+    setLabelHidden(false);
+    if (!active) return;
+    let hideTimer: number | undefined;
+    let started = false;
+    const start = () => {
+      if (started) return;
+      started = true;
+      hideTimer = window.setTimeout(() => setLabelHidden(true), 5000);
+    };
+    const inGameArea = (node: EventTarget | null) => {
+      const frame = cardRef.current?.querySelector(".game-frame");
+      return frame instanceof Node && node instanceof Node && frame.contains(node);
+    };
+    const onPointer = (event: Event) => {
+      if (inGameArea(event.target)) start();
+    };
+    const onKey = () => start();
+    const onBlur = () => {
+      const activeEl = document.activeElement;
+      if (activeEl && activeEl.tagName === "IFRAME" && cardRef.current?.contains(activeEl)) {
+        start();
+      }
+    };
+    window.addEventListener("pointerdown", onPointer, { capture: true });
+    window.addEventListener("touchstart", onPointer, { capture: true, passive: true });
+    window.addEventListener("keydown", onKey, { capture: true });
+    window.addEventListener("blur", onBlur);
+    return () => {
+      if (hideTimer) window.clearTimeout(hideTimer);
+      window.removeEventListener("pointerdown", onPointer, { capture: true });
+      window.removeEventListener("touchstart", onPointer, { capture: true });
+      window.removeEventListener("keydown", onKey, { capture: true });
+      window.removeEventListener("blur", onBlur);
+    };
+  }, [active, runKey]);
 
   const finish = useCallback(
     async (finalScore: number) => {
@@ -617,7 +662,7 @@ function GameCard({
       <div className="card-atmosphere" />
       <div className="game-frame">
         {game.slug !== "subway-surfers" && game.slug !== "stickman-fury" && game.slug !== "supercar-legends" && (
-          <div className="game-label">
+          <div className={`game-label${labelHidden ? " is-hidden" : ""}`}>
             <span>{GAME_EYEBROWS[game.slug]}</span>
             <h1>{game.title}</h1>
           </div>

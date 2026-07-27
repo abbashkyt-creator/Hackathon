@@ -371,6 +371,13 @@ a:focus-visible {
   left: 18px;
   pointer-events: none;
   text-shadow: 0 3px 14px rgba(0, 0, 0, 0.8);
+  transition: opacity 450ms ease, transform 450ms ease;
+}
+
+/* Fades out 5s after the player starts (see GameCard); stays until then. */
+.game-label.is-hidden {
+  opacity: 0;
+  transform: translateY(-10px);
 }
 
 .game-label span {
