@@ -489,7 +489,7 @@ function GameCard({
   const [error, setError] = useState<string | null>(null);
   const [boardOpen, setBoardOpen] = useState(false);
   // The game-label ("PERFECT TIMING / PULSE LOCK") stays up until the player
-  // actually starts playing, then fades out 5s later so it never covers the
+  // actually starts playing, then fades out 3s later so it never covers the
   // game. Hidden only after the first interaction with the game area.
   const [labelHidden, setLabelHidden] = useState(false);
   const finishingRef = useRef(false);
@@ -534,7 +534,7 @@ function GameCard({
     const start = () => {
       if (started) return;
       started = true;
-      hideTimer = window.setTimeout(() => setLabelHidden(true), 5000);
+      hideTimer = window.setTimeout(() => setLabelHidden(true), 3000);
     };
     const inGameArea = (node: EventTarget | null) => {
       const frame = cardRef.current?.querySelector(".game-frame");
