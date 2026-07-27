@@ -13,6 +13,13 @@ const envSchema = z.object({
   GOOGLE_CLIENT_SECRET: z.string().optional(),
   DISCORD_CLIENT_ID: z.string().optional(),
   DISCORD_CLIENT_SECRET: z.string().optional(),
+  // Android TWA (installable APK) Digital Asset Links. Set these AFTER building
+  // the APK with PWABuilder/Bubblewrap to hide the browser URL bar. Leaving them
+  // empty serves an empty (valid) assetlinks.json — the app still works, the URL
+  // bar just stays visible. ANDROID_CERT_FINGERPRINTS is a comma-separated list
+  // of SHA-256 fingerprints (colon-separated hex, e.g. "AA:BB:...").
+  ANDROID_PACKAGE_NAME: z.string().optional(),
+  ANDROID_CERT_FINGERPRINTS: z.string().optional(),
 });
 
 export type Config = z.infer<typeof envSchema>;

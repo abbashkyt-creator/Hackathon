@@ -240,6 +240,32 @@ export function createApp(config: Config, store: Store) {
     res.json({ ok: true, service: "tip-tap-games", time: new Date().toISOString() });
   });
 
+  // Android TWA verification (installable APK). Served from env so the fingerprint
+  // can be added as a Replit Secret after the APK is built — no code change or
+  // rebuild. Empty config returns a valid empty list; the app still works.
+  app.get("/.well-known/assetlinks.json", (_req, res) => {
+    const packageName = config.ANDROID_PACKAGE_NAME?.trim();
+    const fingerprints = (config.ANDROID_CERT_FINGERPRINTS ?? "")
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean);
+    res.type("application/json");
+    if (!packageName || fingerprints.length === 0) {
+      res.json([]);
+      return;
+    }
+    res.json([
+      {
+        relation: ["delegate_permission/common.handle_all_urls"],
+        target: {
+          namespace: "android_app",
+          package_name: packageName,
+          sha256_cert_fingerprints: fingerprints,
+        },
+      },
+    ]);
+  });
+
   app.get("/api/bootstrap", async (req, res, next) => {
     try {
       const ctx = await context(req, res);

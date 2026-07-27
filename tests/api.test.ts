@@ -92,6 +92,35 @@ describe("Tip Tap API", () => {
     expect(first.headers["set-cookie"]?.[0]).toContain("HttpOnly");
   });
 
+  it("serves an empty assetlinks.json until the Android APK fingerprint is set", async () => {
+    const response = await request(createApp(config, store))
+      .get("/.well-known/assetlinks.json")
+      .expect(200)
+      .expect("Content-Type", /application\/json/);
+    expect(response.body).toEqual([]);
+  });
+
+  it("serves a valid TWA assetlinks.json once the APK fingerprint is configured", async () => {
+    const twaConfig: Config = {
+      ...config,
+      ANDROID_PACKAGE_NAME: "games.tiptap.twa",
+      ANDROID_CERT_FINGERPRINTS: "AA:BB:CC , DD:EE:FF",
+    };
+    const response = await request(createApp(twaConfig, store))
+      .get("/.well-known/assetlinks.json")
+      .expect(200);
+    expect(response.body).toEqual([
+      {
+        relation: ["delegate_permission/common.handle_all_urls"],
+        target: {
+          namespace: "android_app",
+          package_name: "games.tiptap.twa",
+          sha256_cert_fingerprints: ["AA:BB:CC", "DD:EE:FF"],
+        },
+      },
+    ]);
+  });
+
   it("scopes the legacy Unity CSP exception to the local Unity game assets", async () => {
     const app = createApp(config, store);
     app.get("/games/subway-surfers/csp-probe.js", (_request, response) =>
