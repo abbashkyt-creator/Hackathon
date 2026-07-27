@@ -855,6 +855,17 @@ function GameCard({
 // freshly shuffled on each display.
 const PINNED_FIRST_SLUG = "67-game";
 
+// The five original native mini-games are always parked at the end of the feed
+// (the last games reachable in each cycle); every bigger showcase game comes
+// first, right after 67 Game.
+const NATIVE_LAST_SLUGS = new Set([
+  "pulse-lock",
+  "memory-grid",
+  "meteor-dodge",
+  "color-clash",
+  "stack-shift",
+]);
+
 // Short 1-2 char badge for a game, shown on its accent tile in the jump sheet
 // so each game is recognizable at a glance. Pure numeric names (e.g. "67 Game")
 // keep the number; otherwise use the initials of the first two words.
@@ -865,40 +876,28 @@ function gameMonogram(title: string): string {
   return (words[0][0] + (words[1]?.[0] ?? "")).toUpperCase();
 }
 
-// Endless feed as a shuffle-bag: every batch is a fresh full shuffle of ALL
-// games, so the player sees each game exactly once per cycle (no game loops
-// back before the others have shown). 67 Game is pinned to the very first card
-// on open (batch 0); after that it shuffles in like everything else. A deep
-// link (?game=) still wins the first card so challenge links land correctly.
-// `avoidFirstSlug` keeps a game from repeating back-to-back across a batch seam.
+// Endless feed with a fixed priority order: 67 Game always leads, then every
+// other showcase game (freshly shuffled each batch), then the five original
+// native mini-games always parked at the end. A batch-0 deep link (?game=)
+// still wins the very first card so challenge/share links land correctly.
 function makeBatch(
   games: GameDefinition[],
   batch: number,
   preferred?: string,
-  avoidFirstSlug?: string,
 ): FeedEntry[] {
-  let arranged: GameDefinition[];
-  const pinnedSlug =
-    batch === 0
-      ? preferred && games.some((game) => game.slug === preferred)
-        ? preferred
-        : games.some((game) => game.slug === PINNED_FIRST_SLUG)
-          ? PINNED_FIRST_SLUG
-          : undefined
-      : undefined;
-  if (pinnedSlug) {
-    const first = games.find((game) => game.slug === pinnedSlug)!;
-    arranged = [first, ...shuffle(games.filter((game) => game.slug !== pinnedSlug))];
-  } else {
-    arranged = shuffle(games);
-    // Don't let the new batch open with the game that just closed the last one.
-    if (avoidFirstSlug && arranged.length > 1 && arranged[0].slug === avoidFirstSlug) {
-      const swapIndex = arranged.findIndex((game, i) => i > 0 && game.slug !== avoidFirstSlug);
-      if (swapIndex > 0) {
-        [arranged[0], arranged[swapIndex]] = [arranged[swapIndex], arranged[0]];
-      }
-    }
+  const has = (slug: string) => games.some((game) => game.slug === slug);
+  // Lead cards: a batch-0 deep link wins the first slot, then 67 Game leads.
+  const leadSlugs: string[] = [];
+  if (batch === 0 && preferred && has(preferred)) leadSlugs.push(preferred);
+  if (has(PINNED_FIRST_SLUG) && !leadSlugs.includes(PINNED_FIRST_SLUG)) {
+    leadSlugs.push(PINNED_FIRST_SLUG);
   }
+  const leadSet = new Set(leadSlugs);
+  const leads = leadSlugs.map((slug) => games.find((game) => game.slug === slug)!);
+  const rest = games.filter((game) => !leadSet.has(game.slug));
+  const natives = rest.filter((game) => NATIVE_LAST_SLUGS.has(game.slug));
+  const others = rest.filter((game) => !NATIVE_LAST_SLUGS.has(game.slug));
+  const arranged = [...leads, ...shuffle(others), ...shuffle(natives)];
   return arranged.map((game, index) => ({ id: `${batch}-${index}-${game.slug}`, game }));
 }
 
@@ -997,10 +996,7 @@ export function App() {
   useEffect(() => {
     if (!bootstrap || activeIndex < entries.length - 3) return;
     const batch = Math.ceil(entries.length / bootstrap.games.length);
-    setEntries((current) => {
-      const lastSlug = current[current.length - 1]?.game.slug;
-      return [...current, ...makeBatch(bootstrap.games, batch, undefined, lastSlug)];
-    });
+    setEntries((current) => [...current, ...makeBatch(bootstrap.games, batch)]);
   }, [activeIndex, bootstrap, entries.length]);
 
   // Only the active card may make sound. Embedded games that stay mounted to
