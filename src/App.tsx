@@ -224,6 +224,15 @@ function GameJumpSheet({
             >
               <span className="game-chip-icon" aria-hidden="true">
                 {gameMonogram(game.title)}
+                <img
+                  className="game-chip-thumb"
+                  src={`/thumbs/${game.slug}.jpg`}
+                  alt=""
+                  loading="lazy"
+                  onError={(event) => {
+                    event.currentTarget.style.display = "none";
+                  }}
+                />
               </span>
               <span className="game-chip-label">{game.title}</span>
             </button>
