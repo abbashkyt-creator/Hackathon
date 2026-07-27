@@ -884,6 +884,7 @@ function makeBatch(
   games: GameDefinition[],
   batch: number,
   preferred?: string,
+  recent?: readonly string[],
 ): FeedEntry[] {
   const has = (slug: string) => games.some((game) => game.slug === slug);
   // Lead cards: a batch-0 deep link wins the first slot, then 67 Game leads.
@@ -895,9 +896,18 @@ function makeBatch(
   const leadSet = new Set(leadSlugs);
   const leads = leadSlugs.map((slug) => games.find((game) => game.slug === slug)!);
   const rest = games.filter((game) => !leadSet.has(game.slug));
-  const natives = rest.filter((game) => NATIVE_LAST_SLUGS.has(game.slug));
-  const others = rest.filter((game) => !NATIVE_LAST_SLUGS.has(game.slug));
-  const arranged = [...leads, ...shuffle(others), ...shuffle(natives)];
+  const natives = shuffle(rest.filter((game) => NATIVE_LAST_SLUGS.has(game.slug)));
+  let others = shuffle(rest.filter((game) => !NATIVE_LAST_SLUGS.has(game.slug)));
+  // Seam guard: keep games shown at the end of the previous batch from
+  // reappearing near the top of this batch's middle. Push any recently-seen
+  // game to the back so the same game is spaced as far apart as possible.
+  if (recent && recent.length) {
+    const recentSet = new Set(recent);
+    const fresh = others.filter((game) => !recentSet.has(game.slug));
+    const stale = others.filter((game) => recentSet.has(game.slug));
+    if (fresh.length) others = [...fresh, ...stale];
+  }
+  const arranged = [...leads, ...others, ...natives];
   return arranged.map((game, index) => ({ id: `${batch}-${index}-${game.slug}`, game }));
 }
 
@@ -1004,7 +1014,10 @@ export function App() {
   useEffect(() => {
     if (!bootstrap || activeIndex < entries.length - 3) return;
     const batch = Math.ceil(entries.length / bootstrap.games.length);
-    setEntries((current) => [...current, ...makeBatch(bootstrap.games, batch)]);
+    setEntries((current) => {
+      const recent = current.slice(-14).map((entry) => entry.game.slug);
+      return [...current, ...makeBatch(bootstrap.games, batch, undefined, recent)];
+    });
   }, [activeIndex, bootstrap, entries.length]);
 
   // Only the active card may make sound. Embedded games that stay mounted to
