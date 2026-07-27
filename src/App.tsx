@@ -2,6 +2,7 @@ import {
   Crown,
   Gamepad2,
   Heart,
+  LayoutGrid,
   LoaderCircle,
   LockKeyhole,
   LogOut,
@@ -149,12 +150,14 @@ function AppHeader({
   streak,
   soundEnabled,
   onToggleSound,
+  onOpenGames,
   onProfile,
 }: {
   player: Player;
   streak: number;
   soundEnabled: boolean;
   onToggleSound: () => void;
+  onOpenGames: () => void;
   onProfile: () => void;
 }) {
   return (
@@ -164,6 +167,9 @@ function AppHeader({
         <span className="streak-pill" aria-label={`${streak} game streak`}>
           <Zap size={14} fill="currentColor" /> {streak}
         </span>
+        <button className="icon-button" onClick={onOpenGames} aria-label="Jump to a game">
+          <LayoutGrid size={19} />
+        </button>
         <button className="icon-button" onClick={onToggleSound} aria-label="Toggle sound">
           {soundEnabled ? <Volume2 size={19} /> : <VolumeX size={19} />}
         </button>
@@ -172,6 +178,57 @@ function AppHeader({
         </button>
       </div>
     </header>
+  );
+}
+
+// Feed-native quick-jump: a compact sheet listing every game so the player (or
+// a judge) can snap straight to one instead of swiping the whole feed. It's an
+// overlay over the feed, not a replacement home screen, so the feed stays the
+// product.
+function GameJumpSheet({
+  open,
+  games,
+  currentSlug,
+  onJump,
+  onClose,
+}: {
+  open: boolean;
+  games: GameDefinition[];
+  currentSlug: string | undefined;
+  onJump: (slug: string) => void;
+  onClose: () => void;
+}) {
+  if (!open) return null;
+  return (
+    <div className="sheet-backdrop" role="presentation" onPointerDown={onClose}>
+      <section
+        className="bottom-sheet games-sheet"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Jump to a game"
+        onPointerDown={(event) => event.stopPropagation()}
+      >
+        <div className="sheet-handle" />
+        <button className="sheet-close" onClick={onClose} aria-label="Close games list">
+          <X size={20} />
+        </button>
+        <h2>ALL GAMES</h2>
+        <p>Tap any game to jump straight to it.</p>
+        <div className="games-grid">
+          {games.map((game) => (
+            <button
+              key={game.slug}
+              type="button"
+              className={`game-chip theme-${game.slug}${game.slug === currentSlug ? " is-current" : ""}`}
+              onClick={() => onJump(game.slug)}
+            >
+              <Gamepad2 size={15} />
+              <span>{game.title}</span>
+            </button>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 }
 
@@ -827,6 +884,7 @@ export function App() {
   const [loadError, setLoadError] = useState<string | null>(null);
   const [offlinePractice, setOfflinePractice] = useState(false);
   const [authOpen, setAuthOpen] = useState(false);
+  const [gamesOpen, setGamesOpen] = useState(false);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [streak, setStreak] = useState(0);
@@ -973,6 +1031,25 @@ export function App() {
     });
   };
 
+  const jumpToGame = useCallback(
+    (slug: string) => {
+      setGamesOpen(false);
+      setEntries((current) => {
+        // Prefer the next occurrence at/after the current card so the jump moves
+        // forward; fall back to the first (batch 0 always holds every game).
+        let target = current.findIndex((entry, i) => i >= activeIndex && entry.game.slug === slug);
+        if (target < 0) target = current.findIndex((entry) => entry.game.slug === slug);
+        if (target >= 0) {
+          const node = nodesRef.current.get(target);
+          node?.scrollIntoView({ behavior: "smooth", block: "start" });
+          setActiveIndex(target);
+        }
+        return current;
+      });
+    },
+    [activeIndex],
+  );
+
   const logout = async () => {
     await api.logout();
     setAuthOpen(false);
@@ -1008,6 +1085,7 @@ export function App() {
         streak={streak}
         soundEnabled={soundEnabled}
         onToggleSound={toggleSound}
+        onOpenGames={() => setGamesOpen(true)}
         onProfile={() => setAuthOpen(true)}
       />
       <div className="feed" id="game-feed">
@@ -1050,6 +1128,13 @@ export function App() {
           />
         ))}
       </div>
+      <GameJumpSheet
+        open={gamesOpen}
+        games={bootstrap.games}
+        currentSlug={entries[activeIndex]?.game.slug}
+        onJump={jumpToGame}
+        onClose={() => setGamesOpen(false)}
+      />
       <AuthSheet
         open={authOpen}
         player={bootstrap.player}

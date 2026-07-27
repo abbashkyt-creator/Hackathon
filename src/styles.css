@@ -1477,6 +1477,65 @@ a:focus-visible {
   transform: translateX(-50%);
 }
 
+/* Quick-jump games sheet */
+.games-sheet h2 {
+  margin: 4px 0 2px;
+  font-family: Impact, "Arial Black", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+.games-sheet > p {
+  margin: 0 0 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.game-chip {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 14px;
+  border: 1px solid color-mix(in srgb, var(--accent, #c8ff00) 45%, transparent);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--accent, #c8ff00) 9%, #12161d);
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 120ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.game-chip svg {
+  flex: none;
+  color: var(--accent, #c8ff00);
+}
+
+.game-chip span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.game-chip:hover,
+.game-chip:focus-visible {
+  transform: translateY(-1px);
+  background: color-mix(in srgb, var(--accent, #c8ff00) 18%, #12161d);
+  border-color: color-mix(in srgb, var(--accent, #c8ff00) 75%, transparent);
+}
+
+.game-chip.is-current {
+  background: color-mix(in srgb, var(--accent, #c8ff00) 24%, #12161d);
+  border-color: var(--accent, #c8ff00);
+}
+
 .sheet-close {
   position: absolute;
   z-index: 2;
