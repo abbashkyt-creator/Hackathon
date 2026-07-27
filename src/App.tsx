@@ -923,11 +923,19 @@ export function App() {
   const [hapticsEnabled] = useState(
     () => window.localStorage.getItem("ttg_haptics") !== "off",
   );
-  const preparingIndex = useMemo(() => {
-    const relative = entries
-      .slice(activeIndex + 1, activeIndex + 5)
-      .findIndex((entry) => isEmbeddedGame(entry.game.slug));
-    return relative < 0 ? -1 : activeIndex + relative + 1;
+  // Pre-mount (and pre-boot) the next couple of embedded games so swiping onto
+  // them reveals an already-loaded game instead of a fresh loader — the TikTok
+  // "next few are ready" feel. Capped at 2 so at most 3 heavy WebGL iframes
+  // (active + 2) are ever live at once.
+  const preparingIndices = useMemo(() => {
+    const indices = new Set<number>();
+    for (let i = activeIndex + 1; i < entries.length && i <= activeIndex + 6; i++) {
+      if (isEmbeddedGame(entries[i].game.slug)) {
+        indices.add(i);
+        if (indices.size >= 2) break;
+      }
+    }
+    return indices;
   }, [activeIndex, entries]);
   const observerRef = useRef<IntersectionObserver | null>(null);
   const nodesRef = useRef(new Map<number, HTMLElement>());
@@ -1027,12 +1035,13 @@ export function App() {
     // Warm the selected card as well as the next three. This matters for a
     // deep link or the very first feed item: a large local Unity build starts
     // downloading before its iframe is mounted, rather than after a swipe.
-    const upcomingEmbeddedGame = entries
-      .slice(activeIndex, activeIndex + 4)
+    const upcomingEmbeddedGames = entries
+      .slice(activeIndex, activeIndex + 6)
       .map((entry) => entry.game)
-      .find((game) => isEmbeddedGame(game.slug));
-    if (!upcomingEmbeddedGame) return;
-    const warm = () => void warmGame(upcomingEmbeddedGame.slug);
+      .filter((game) => isEmbeddedGame(game.slug))
+      .slice(0, 3);
+    if (!upcomingEmbeddedGames.length) return;
+    const warm = () => upcomingEmbeddedGames.forEach((game) => void warmGame(game.slug));
     const browserWindow = window as Window & {
       requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => number;
       cancelIdleCallback?: (handle: number) => void;
@@ -1138,7 +1147,7 @@ export function App() {
             // make that report while the user can still see and touch the feed;
             // unmounting here replaced the game with a non-interactive placeholder.
             active={index === activeIndex}
-            preparing={pageVisible && index === preparingIndex}
+            preparing={pageVisible && preparingIndices.has(index)}
             player={bootstrap.player}
             like={bootstrap.likes[entry.game.slug] ?? { liked: false, count: 0 }}
             soundEnabled={soundEnabled}
