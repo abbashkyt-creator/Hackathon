@@ -190,6 +190,9 @@ a:focus-visible {
   backdrop-filter: blur(14px);
 }
 
+/* Attractive by colour, not motion: a clean solid-red pill that stands out in
+   the header without any looping animation, so it never competes with the game.
+   All the life is in the hover/press response. */
 .donate-pill {
   gap: 6px;
   padding: 0 14px;
@@ -200,63 +203,19 @@ a:focus-visible {
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
-  position: relative;
-  border-color: rgba(255, 96, 112, 0.75);
+  border-color: rgba(255, 96, 112, 0.55);
   background: linear-gradient(135deg, #ff4d5e 0%, #ff1f3d 55%, #e60f2c 100%);
-  transform: translateZ(0);
-  animation: donate-breathe 2.4s ease-in-out infinite;
-  will-change: transform, box-shadow;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.12s ease;
 }
 
 .donate-pill:hover {
   border-color: #ffd3d8;
   background: linear-gradient(135deg, #ff6472 0%, #ff3149 55%, #f01530 100%);
-  animation-duration: 1.2s;
+  transform: translateY(-1px);
 }
 
-/* The pill gently "breathes": a soft scale paired with an expanding red halo
-   that fades out — a heartbeat pulse that pulls the eye to the donate CTA. */
-@keyframes donate-breathe {
-  0%,
-  100% {
-    transform: scale(1);
-    box-shadow:
-      0 0 10px 1px rgba(255, 45, 70, 0.45),
-      0 0 0 0 rgba(255, 45, 70, 0.5);
-  }
-  50% {
-    transform: scale(1.06);
-    box-shadow:
-      0 0 22px 5px rgba(255, 45, 70, 0.75),
-      0 0 0 7px rgba(255, 45, 70, 0);
-  }
-}
-
-/* The heart icon thumps with a real double-beat rhythm. */
-.donate-pill svg {
-  transform-origin: center;
-  animation: donate-heartbeat 1.3s ease-in-out infinite;
-}
-
-@keyframes donate-heartbeat {
-  0%,
-  40%,
-  100% {
-    transform: scale(1);
-  }
-  10% {
-    transform: scale(1.35);
-  }
-  30% {
-    transform: scale(1.25);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .donate-pill,
-  .donate-pill svg {
-    animation: none;
-  }
+.donate-pill:active {
+  transform: scale(0.97);
 }
 
 .icon-button,
