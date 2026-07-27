@@ -1513,12 +1513,23 @@ a:focus-visible {
   transition: transform 120ms ease, background 160ms ease, border-color 160ms ease;
 }
 
-.game-chip svg {
+.game-chip-icon {
+  display: grid;
   flex: none;
-  color: var(--accent, #c8ff00);
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: var(--accent, #c8ff00);
+  color: #0b0e13;
+  font-family: Impact, "Arial Black", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 12px color-mix(in srgb, var(--accent, #c8ff00) 40%, transparent);
 }
 
-.game-chip span {
+.game-chip-label {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

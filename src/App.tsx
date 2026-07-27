@@ -222,8 +222,10 @@ function GameJumpSheet({
               className={`game-chip theme-${game.slug}${game.slug === currentSlug ? " is-current" : ""}`}
               onClick={() => onJump(game.slug)}
             >
-              <Gamepad2 size={15} />
-              <span>{game.title}</span>
+              <span className="game-chip-icon" aria-hidden="true">
+                {gameMonogram(game.title)}
+              </span>
+              <span className="game-chip-label">{game.title}</span>
             </button>
           ))}
         </div>
@@ -839,6 +841,16 @@ function GameCard({
 // the very first card so shared links land correctly; every other game is
 // freshly shuffled on each display.
 const PINNED_FIRST_SLUG = "67-game";
+
+// Short 1-2 char badge for a game, shown on its accent tile in the jump sheet
+// so each game is recognizable at a glance. Pure numeric names (e.g. "67 Game")
+// keep the number; otherwise use the initials of the first two words.
+function gameMonogram(title: string): string {
+  const words = title.replace(/[^A-Za-z0-9 ]/g, " ").trim().split(/\s+/).filter(Boolean);
+  if (words.length === 0) return "?";
+  if (/^\d+$/.test(words[0])) return words[0].slice(0, 2);
+  return (words[0][0] + (words[1]?.[0] ?? "")).toUpperCase();
+}
 
 // Endless feed as a shuffle-bag: every batch is a fresh full shuffle of ALL
 // games, so the player sees each game exactly once per cycle (no game loops
