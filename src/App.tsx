@@ -783,18 +783,40 @@ function GameCard({
 // freshly shuffled on each display.
 const PINNED_FIRST_SLUG = "67-game";
 
-function makeBatch(games: GameDefinition[], batch: number, preferred?: string): FeedEntry[] {
-  const hasPinned = games.some((game) => game.slug === PINNED_FIRST_SLUG);
-  const firstSlug =
-    batch === 0 && preferred && games.some((game) => game.slug === preferred)
-      ? preferred
-      : hasPinned
-        ? PINNED_FIRST_SLUG
-        : "pulse-lock";
-  const firstGame = games.find((game) => game.slug === firstSlug) ?? games[0];
-  const arranged = firstGame
-    ? [firstGame, ...shuffle(games.filter((game) => game.slug !== firstGame.slug))]
-    : shuffle(games);
+// Endless feed as a shuffle-bag: every batch is a fresh full shuffle of ALL
+// games, so the player sees each game exactly once per cycle (no game loops
+// back before the others have shown). 67 Game is pinned to the very first card
+// on open (batch 0); after that it shuffles in like everything else. A deep
+// link (?game=) still wins the first card so challenge links land correctly.
+// `avoidFirstSlug` keeps a game from repeating back-to-back across a batch seam.
+function makeBatch(
+  games: GameDefinition[],
+  batch: number,
+  preferred?: string,
+  avoidFirstSlug?: string,
+): FeedEntry[] {
+  let arranged: GameDefinition[];
+  const pinnedSlug =
+    batch === 0
+      ? preferred && games.some((game) => game.slug === preferred)
+        ? preferred
+        : games.some((game) => game.slug === PINNED_FIRST_SLUG)
+          ? PINNED_FIRST_SLUG
+          : undefined
+      : undefined;
+  if (pinnedSlug) {
+    const first = games.find((game) => game.slug === pinnedSlug)!;
+    arranged = [first, ...shuffle(games.filter((game) => game.slug !== pinnedSlug))];
+  } else {
+    arranged = shuffle(games);
+    // Don't let the new batch open with the game that just closed the last one.
+    if (avoidFirstSlug && arranged.length > 1 && arranged[0].slug === avoidFirstSlug) {
+      const swapIndex = arranged.findIndex((game, i) => i > 0 && game.slug !== avoidFirstSlug);
+      if (swapIndex > 0) {
+        [arranged[0], arranged[swapIndex]] = [arranged[swapIndex], arranged[0]];
+      }
+    }
+  }
   return arranged.map((game, index) => ({ id: `${batch}-${index}-${game.slug}`, game }));
 }
 
@@ -897,7 +919,10 @@ export function App() {
   useEffect(() => {
     if (!bootstrap || activeIndex < entries.length - 3) return;
     const batch = Math.ceil(entries.length / bootstrap.games.length);
-    setEntries((current) => [...current, ...makeBatch(bootstrap.games, batch)]);
+    setEntries((current) => {
+      const lastSlug = current[current.length - 1]?.game.slug;
+      return [...current, ...makeBatch(bootstrap.games, batch, undefined, lastSlug)];
+    });
   }, [activeIndex, bootstrap, entries.length]);
 
   useEffect(() => {
