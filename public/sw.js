@@ -1,5 +1,5 @@
-const SHELL_CACHE = "tip-tap-shell-v2";
-const GAME_CACHE = "tip-tap-games-v6";
+const SHELL_CACHE = "tip-tap-shell-v3";
+const GAME_CACHE = "tip-tap-games-v7";
 const CURRENT_CACHES = new Set([SHELL_CACHE, GAME_CACHE]);
 const SHELL = ["/", "/manifest.webmanifest", "/icon.svg"];
 const inflightGameFetches = new Map();
@@ -14,6 +14,25 @@ function gameCacheKey(requestOrUrl) {
   return url.href;
 }
 
+// The Cache API replays stored headers verbatim. Production pre-compresses/gzips
+// assets, so a fetched Response arrives already-decoded by the browser but still
+// carrying Content-Encoding. If we cache it as-is, a later cache hit re-applies
+// that header and the browser decodes the body a SECOND time -> corrupt wasm/data
+// (black-screen games). Rebuild the response from the decoded body without the
+// encoding/length headers so replay serves it untouched.
+async function cacheableResponse(response) {
+  if (!response.headers.has("content-encoding")) return response;
+  const body = await response.blob();
+  const headers = new Headers(response.headers);
+  headers.delete("content-encoding");
+  headers.delete("content-length");
+  return new Response(body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
+
 async function fetchAndCacheGame(request, cache) {
   const key = gameCacheKey(request);
   let pending = inflightGameFetches.get(key);
@@ -21,7 +40,7 @@ async function fetchAndCacheGame(request, cache) {
     pending = fetch(request)
       .then(async (response) => {
         if (response.ok && response.type === "basic") {
-          await cache.put(key, response.clone());
+          await cache.put(key, await cacheableResponse(response.clone()));
         }
         return response;
       })
@@ -79,7 +98,7 @@ async function networkFirstNavigation(request) {
     const response = await fetch(request);
     if (response.ok && response.type === "basic") {
       const cache = await caches.open(SHELL_CACHE);
-      await cache.put("/", response.clone());
+      await cache.put("/", await cacheableResponse(response.clone()));
     }
     return response;
   } catch {
@@ -97,7 +116,7 @@ async function staleWhileRevalidate(request, cacheName) {
       : fetch(request)
           .then(async (response) => {
             if (response.ok && response.type === "basic") {
-              await cache.put(request, response.clone());
+              await cache.put(request, await cacheableResponse(response.clone()));
             }
             return response;
           })
