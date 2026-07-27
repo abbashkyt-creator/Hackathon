@@ -777,14 +777,21 @@ function GameCard({
   );
 }
 
+// 67 Game is the pinned showcase: it leads every batch (so it's the first card
+// on open and heads each endless-feed cycle). A challenge deep-link still wins
+// the very first card so shared links land correctly; every other game is
+// freshly shuffled on each display.
+const PINNED_FIRST_SLUG = "67-game";
+
 function makeBatch(games: GameDefinition[], batch: number, preferred?: string): FeedEntry[] {
+  const hasPinned = games.some((game) => game.slug === PINNED_FIRST_SLUG);
   const firstSlug =
-    batch === 0
-      ? preferred && games.some((game) => game.slug === preferred)
-        ? preferred
-        : "pulse-lock"
-      : undefined;
-  const firstGame = firstSlug ? games.find((game) => game.slug === firstSlug) ?? games[0] : undefined;
+    batch === 0 && preferred && games.some((game) => game.slug === preferred)
+      ? preferred
+      : hasPinned
+        ? PINNED_FIRST_SLUG
+        : "pulse-lock";
+  const firstGame = games.find((game) => game.slug === firstSlug) ?? games[0];
   const arranged = firstGame
     ? [firstGame, ...shuffle(games.filter((game) => game.slug !== firstGame.slug))]
     : shuffle(games);
