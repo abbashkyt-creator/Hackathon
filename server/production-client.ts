@@ -1,5 +1,5 @@
 import { existsSync } from "node:fs";
-import { resolve, sep } from "node:path";
+import { extname, resolve, sep } from "node:path";
 import express, { type Express } from "express";
 
 const GAME_CACHE_CONTROL = "public, max-age=86400, stale-while-revalidate=604800";
@@ -32,7 +32,11 @@ export function attachProductionClient(app: Express, clientPath = resolve(proces
       return;
     }
 
-    res.type(sourcePath);
+    // Derive the MIME from the extension only. Passing the full filesystem path
+    // to res.type() makes Express treat the "/"-containing string as a literal
+    // Content-Type, so brotli-precompressed scripts were served with a file-path
+    // Content-Type and (under nosniff) refused execution — black-screening games.
+    res.type(extname(sourcePath) || "application/octet-stream");
     res.setHeader("Content-Encoding", "br");
     res.setHeader("Vary", "Accept-Encoding");
     res.setHeader("Cache-Control", GAME_CACHE_CONTROL);
