@@ -76,14 +76,20 @@ reference, not the earlier dark feed with a blue/purple recolor.
 - The active card supports expanded in-feed play. The first pointer interaction
   with either a native React game or a same-origin copied-game iframe grows the
   game downward through the former description gap, but the 620 px TipTap app
-  shell, header, scroll-snap feed, progress rail, and card boundaries never
-  disappear. There is deliberately no Fill Screen / Exit control.
+  shell, header, scroll-snap feed, and card boundaries never disappear. There
+  is deliberately no Fill Screen / Exit control or separate progress bar.
 - Expanded play separates gesture ownership. The game surface uses
   `touch-action: none`, so games such as Temple Run keep up/down/left/right
   swipes. The description card disappears completely and the game reaches the
-  lower card edge. A compact right rail retains Hype, optional Ranks, Share,
-  and Next; it is the parent-owned vertical feed-swipe zone, while tapping Next
-  is the unambiguous fallback.
+  lower card edge. A compact right rail is vertically centered over the game
+  with Up first, Hype/optional Ranks/Share in the middle, and Down last. Both
+  navigation buttons use the same white treatment as the social controls.
+  Up/Down move exactly one feed card and are the unambiguous fallback when a
+  game owns every swipe.
+- Game input dims the expanded right rail to 50% opacity so it does not distract
+  from play. Touching, clicking, or keyboard-activating any rail control restores
+  full opacity; returning to the game dims it again. Keep iframe-window input
+  listeners and the focus fallback in sync with this state.
 - Changing the active card resets expanded state. Do not remove the direct
   iframe-window interaction listener: iframe pointer events do not bubble into
   the parent React tree, and that listener lets the original first click reach
@@ -91,10 +97,11 @@ reference, not the earlier dark feed with a blue/purple recolor.
 - Dialogs place focus on their close control, close with Escape, and restore
   focus to the opener. Leaderboard period controls expose tab semantics.
 - Verified viewports: desktop 1256x912, mobile 390x844, and compact 320x568.
-  Expanded geometry was additionally verified at 1280x720, 390x844, and
-  320x568: the game grows downward without a caption cutout, the right rail
-  remains inside the viewport, and there is no horizontal overflow or header
-  collision.
+  In expanded play the game grows downward without a caption cutout, the right
+  rail center matches the game-frame center at every tested size, all controls
+  remain inside the viewport, and there is no horizontal overflow or header
+  collision. Real input checks covered 50% game-focus opacity, full opacity
+  after a control tap, one-card Down/Up navigation, and collapsed arrival.
   Header targets are 44x44 at normal mobile widths and 40x40 at 320 px.
 - Implementation lives in `src/App.tsx` and the final poster-inspired override
   section at the end of `src/styles.css`. Keep all game runtime CSS above it
@@ -141,11 +148,13 @@ Smash Room mirror facts (verified 2026-07-26):
 - Direct isolated VEU verification loaded every required source asset from `127.0.0.1:3103`, entered original `game` state, created an active Three.js scene, and rendered the real voxel laptop sandbox. VEU's `clean` utility can accidentally set a full-screen game canvas to `display:none`; do not treat that tool-side side effect as a product failure. Restore the canvas or reload instead.
 - The copied source exposes no verified completion/score callback suitable for Tip Tap submission. Keep it unranked rather than fabricating a score event.
 
-Performance truth recorded on 2026-07-26:
+Performance truth updated on 2026-07-28:
 
 - A standalone cached-browser audit observed 158 unique game requests and 15,634,211 response-body bytes. This legacy build eagerly requests nearly the whole mirror; the short critical manifest alone is not a truthful cold-play budget.
 - The Replit production build emits 58 Subway Brotli sidecars. If every requested local file is cold and the browser supports Brotli, the effective whole-mirror estimate is 8,935,673 bytes instead of 15,729,037 bytes, a 43.2% lossless reduction.
-- The feed scans three cards ahead and warms all recorded local assets. The service worker strips version query strings from game cache keys and deduplicates a warm-up request racing the active iframe request.
+- A cache-disabled live trace of `https://hackathon-abbasiqd.replit.app/` found the old scheduler starting 182 requests / 23,302,813 encoded bytes in the first session. The 67 Game document did not start until 1,892 ms because rendering waited on `/api/bootstrap`; 67 Game then competed with Plonky and Ping Pong Go. Its local bridge recorded the first playable source frame at 12,565 ms. This was real loading/engine initialization, not a long post-load intro.
+- The repaired scheduler renders the bundled catalog immediately, never warm-fetches the already-mounted active game, and gives that game an exclusive startup window. A production-build trace started the 67 Game document at 327 ms and initiated only `/games/67-game` assets during the first 3.5 seconds.
+- Warm-up is now bounded and sequential: one future embedded game after 3.5 seconds on fast/4G-class links, after 7 seconds on 3G, and none on Data Saver/2G. Integrations that explicitly support hidden preparation may keep that one next iframe mounted; all others cache only the critical manifest. Whole-mirror warming is opt-in (`warmFullMirror: true`), never the default.
 - A first-ever direct link on a slow connection cannot be literally instant; no client code can remove the need to transfer required bytes. Normal feed entry, ahead-of-swipe warming, Brotli, and repeat/offline caching are the supported fast path. Reject future copied games whose first playable state cannot be separated from a very large monolithic bundle.
 - Embedded Subway receives `autoplay=1`. After the local game reports loading complete, `tiptap-platform-bridge.js` sends a local synthetic touch/click to its canvas and stops retrying as soon as the real SDK emits `gameplay-start`. No source host or game-selection navigation is involved.
 
@@ -252,7 +261,9 @@ Then load the game-specific platform bridge. Run `npm run audit:release`; it fai
 
 ### 7. Add lossless ahead-of-swipe warm-up
 
-Create `preload-manifest.json` beside the game index. Include the entry HTML and files required to reach the first interactive frame. Register both that file and the local captured-asset manifest in `src/game-runtime.ts`. The feed scans three cards ahead and warms the copied bundle into the game cache without instantiating the iframe. Constrained/save-data connections intentionally warm only the entry page.
+Create `preload-manifest.json` beside the game index. Include only the entry HTML and files required to reach the first interactive frame. Register it in `src/game-runtime.ts`; the captured-asset manifest is inventory/audit evidence, not permission to download every later-level file.
+
+The visible iframe owns startup priority. Never warm-fetch the active game a second time. After the connection-aware delay, prepare at most the next embedded game: hidden-mount only a wrapper explicitly marked `prepareByMount`, otherwise cache the critical manifest. `warmFullMirror` must remain absent/false unless a measured, unusually small mirror proves that full warming improves rather than delays first play. Data Saver and 2G perform no speculative download.
 
 The production build generates Brotli sidecars for compressible copied-game files. `server/production-client.ts` serves those sidecars only when the browser advertises Brotli support and otherwise falls back to the original asset plus normal HTTP compression. Do not precompress already-compressed audio or images, and never remove source assets: this is lossless transport compression, not asset-quality reduction.
 
@@ -430,8 +441,8 @@ Non-negotiables:
 - Permission is represented by the user, but do not fabricate proof; confirm it covers public GitHub and Replit distribution and preserve notices.
 - Preserve copied gameplay assets byte-for-byte unless Abbas explicitly approves a quality tradeoff.
 - Copied games must make zero source-site/CDN/ad/analytics requests. Keep strict CSP and load /games/_shared/network-lock.js before all game scripts. Localize dependencies; never whitelist the source host.
-- **TikTok-style auto-start**: Every game must be PLAYING the instant its card is visible in the feed. No waiting for server tickets, no "SYNCING RUN" overlays, no play buttons. The `gameLive` variable in `App.tsx` must NOT require `Boolean(ticket)` — tickets are fetched in parallel while gameplay runs. If the game ends before the ticket arrives, show a retry message. For copied games, the bridge must call `playIntro()` or equivalent to bypass intro animations. For native games, the game loop starts immediately when `active=true`.
-- Only the visible iframe runs. On normal connections, warm copied games up to three cards ahead from local manifests; on constrained/data-saver connections warm only the entry page.
+- **TikTok-style auto-start**: Mount the visible game immediately and never wait for `/api/bootstrap` or a score ticket. The `gameLive` variable in `App.tsx` must NOT require `Boolean(ticket)` — tickets are fetched in parallel while gameplay runs. Auto-bypass a source intro only when the integration has a verified safe source callback; never claim a source-owned start screen is bypassed when it still requires a genuine tap (67 Game currently does).
+- The active game gets uncontested startup priority. Prepare at most one next embedded game after the connection-aware delay (3.5 seconds fast/4G, 7 seconds 3G, disabled on Data Saver/2G). Never warm the active game, multiple future games, or a whole captured mirror by default.
 - Use real scores only. Never seed fake leaderboards or leave QA scores behind.
 - Final hosting is Replit, not another provider.
 - Do not claim GitHub/Replit/APK/OAuth/mobile success without live evidence.

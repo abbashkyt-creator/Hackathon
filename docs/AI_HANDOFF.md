@@ -83,7 +83,8 @@ Individually: `npm run audit:release`, `npx tsc --noEmit`, `npx vitest run`.
 - `GameCard` renders the game via a component map `GAME_COMPONENTS[slug]`. Each game gets
   props `{ active, preparing, runKey, soundEnabled, hapticsEnabled, onFinish }`.
   - `active` = this card is the current one (`index === activeIndex`).
-  - `preparing` = warm the next few cards ahead of the swipe.
+  - `preparing` = after the connection-aware delay, pre-mount the one next
+    embedded game only when its wrapper explicitly supports prepared mounting.
 - New batches append as you near the end (infinite feed). Game order is a shuffle-bag (§8).
 
 ### The games (src/games/*.tsx)

@@ -20,10 +20,14 @@ Product mission:
 - Make playing as frictionless as watching a short-form video.
 - The visible card is already live and interactive.
 - Swipe vertically to the next live game.
-- Only one heavy copied-game iframe may run at a time.
-- Off-screen native games must stop animation/timers; off-screen copied games must be unmounted.
-- Warm upcoming copied games up to three cards ahead on normal connections.
-- Respect Save-Data, slow-2g, and 2g by warming only the entry page.
+- The visible copied-game iframe gets exclusive startup priority. After the
+  measured delay, at most one explicitly compatible next iframe may pre-mount.
+- Off-screen native games must stop animation/timers; copied games other than
+  that one prepared next card must be unmounted.
+- Never warm-fetch the already-mounted active game or more than one future game.
+  Warm only the next game's bounded critical manifest after 3.5 seconds on
+  fast/4G-class links or 7 seconds on 3G.
+- Respect Save-Data, slow-2g, and 2g by doing no speculative game download.
 - Keep mobile 390x844 as the primary acceptance viewport while preserving excellent desktop behavior.
 - Use one Replit web deployment as the source of truth, then package that deployed PWA as a Trusted Web Activity APK after the final URL and signing facts exist.
 

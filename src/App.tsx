@@ -1,4 +1,5 @@
 import {
+  ChevronDown,
   ChevronUp,
   Crown,
   Gamepad2,
@@ -25,7 +26,12 @@ import {
   type ComponentType,
 } from "react";
 import { api } from "./api";
-import { isEmbeddedGame, warmGame } from "./game-runtime";
+import {
+  isEmbeddedGame,
+  shouldPrepareByMount,
+  warmAheadDelayMs,
+  warmGame,
+} from "./game-runtime";
 import { formatScore, shuffle } from "./game-utils";
 import { OFFLINE_BOOTSTRAP } from "./offline-catalog";
 import {
@@ -89,6 +95,13 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "ping-pong-go": PingPongGoGame,
   "ping-pong-bugs": PingPongBugsGame,
 };
+
+// Smooth feed-button navigation can make an auto-focusing iframe blur the
+// parent window while the next card is settling. Ignore that synthetic focus
+// handoff briefly; direct game pointer listeners still expand immediately when
+// the player actually taps the newly visible game.
+const IFRAME_FOCUS_NAVIGATION_GUARD_MS = 800;
+let suppressIframeFocusExpansionUntil = 0;
 
 const GAME_EYEBROWS: Record<GameSlug, string> = {
   "pulse-lock": "PERFECT TIMING",
@@ -630,6 +643,7 @@ function GameCard({
 }) {
   const { game } = entry;
   const Game = GAME_COMPONENTS[game.slug];
+  const ranked = game.ranked !== false;
   const [ticket, setTicket] = useState<string | null>(null);
   const [runKey, setRunKey] = useState(0);
   const [score, setScore] = useState(0);
@@ -642,6 +656,7 @@ function GameCard({
   // game. Hidden only after the first interaction with the game area.
   const [labelHidden, setLabelHidden] = useState(false);
   const [expanded, setExpanded] = useState(false);
+  const [controlsDimmed, setControlsDimmed] = useState(false);
   const finishingRef = useRef(false);
   const cardRef = useRef<HTMLElement | null>(null);
 
@@ -651,14 +666,14 @@ function GameCard({
     setResult(null);
     setScore(0);
     setError(null);
-    if (offlinePractice || game.ranked === false) return;
+    if (offlinePractice || !ranked) return;
     try {
       const run = await api.startRun(game.slug);
       setTicket(run.ticket);
     } catch (requestError) {
       setError(requestError instanceof Error ? requestError.message : "Could not start this run.");
     }
-  }, [game.ranked, game.slug, offlinePractice]);
+  }, [game.slug, offlinePractice, ranked]);
 
   useEffect(() => {
     if (active) {
@@ -666,6 +681,7 @@ function GameCard({
       void begin();
     } else {
       setExpanded(false);
+      setControlsDimmed(false);
       setTicket(null);
       setBoardOpen(false);
       setResult(null);
@@ -679,6 +695,16 @@ function GameCard({
     if (active) setExpanded(true);
   }, [active]);
 
+  const markGameInteraction = useCallback(() => {
+    if (!active) return;
+    setControlsDimmed(true);
+    expandGame();
+  }, [active, expandGame]);
+
+  const restoreControls = useCallback(() => {
+    setControlsDimmed(false);
+  }, []);
+
   // Pointer events that happen inside an iframe never bubble into the React
   // tree. Subscribe to each active local game window directly so the player's
   // first real touch/click both reaches the game and expands the card.
@@ -690,7 +716,7 @@ function GameCard({
     const boundWindows = new WeakSet<Window>();
     const labelTimers = new Set<number>();
     const onGameInteraction = () => {
-      expandGame();
+      markGameInteraction();
       const timer = window.setTimeout(() => {
         setLabelHidden(true);
         labelTimers.delete(timer);
@@ -743,7 +769,7 @@ function GameCard({
       cleanups.forEach((cleanup) => cleanup());
       labelTimers.forEach((timer) => window.clearTimeout(timer));
     };
-  }, [active, expandGame, game.slug, runKey]);
+  }, [active, game.slug, markGameInteraction, runKey]);
 
   // Keep the game label visible until the player starts. Native game clicks
   // expand through the game-frame capture handler below. Embedded games use
@@ -764,19 +790,23 @@ function GameCard({
       return frame instanceof Node && node instanceof Node && frame.contains(node);
     };
     const onPointer = (event: Event) => {
-      if (inGameArea(event.target)) start();
+      if (inGameArea(event.target)) {
+        start();
+        markGameInteraction();
+      }
     };
     const onKey = () => {
       if (inGameArea(document.activeElement)) {
         start();
-        expandGame();
+        markGameInteraction();
       }
     };
     const onBlur = () => {
+      if (Date.now() < suppressIframeFocusExpansionUntil) return;
       const activeEl = document.activeElement;
       if (activeEl && activeEl.tagName === "IFRAME" && cardRef.current?.contains(activeEl)) {
         start();
-        expandGame();
+        markGameInteraction();
       }
     };
     window.addEventListener("pointerdown", onPointer, { capture: true });
@@ -790,7 +820,7 @@ function GameCard({
       window.removeEventListener("keydown", onKey, { capture: true });
       window.removeEventListener("blur", onBlur);
     };
-  }, [active, expandGame, runKey]);
+  }, [active, markGameInteraction, runKey]);
 
   const finish = useCallback(
     async (finalScore: number) => {
@@ -872,9 +902,25 @@ function GameCard({
       next.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+  const swipePrevious = () => {
+    const previous = cardRef.current?.previousElementSibling;
+    if (previous instanceof HTMLElement) {
+      previous.focus({ preventScroll: true });
+      previous.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   const goNext = () => {
+    suppressIframeFocusExpansionUntil = Date.now() + IFRAME_FOCUS_NAVIGATION_GUARD_MS;
     setExpanded(false);
+    setControlsDimmed(false);
     window.requestAnimationFrame(swipeNext);
+  };
+  const goPrevious = () => {
+    if (index === 0) return;
+    suppressIframeFocusExpansionUntil = Date.now() + IFRAME_FOCUS_NAVIGATION_GUARD_MS;
+    setExpanded(false);
+    setControlsDimmed(false);
+    window.requestAnimationFrame(swipePrevious);
   };
 
   const handleFinish = useCallback(
@@ -900,9 +946,7 @@ function GameCard({
       <div className="card-atmosphere" />
       <div
         className="game-frame"
-        onClickCapture={() => {
-          if (active && !expanded) expandGame();
-        }}
+        onClickCapture={markGameInteraction}
       >
         {game.slug !== "subway-surfers" && game.slug !== "stickman-fury" && game.slug !== "supercar-legends" && (
           <div className={`game-label${labelHidden ? " is-hidden" : ""}`}>
@@ -918,7 +962,7 @@ function GameCard({
           hapticsEnabled={hapticsEnabled}
           onFinish={handleFinish}
         />
-        {game.ranked !== false && !ticket && active && !offlinePractice && !error && !submitting && (
+        {ranked && !ticket && active && !offlinePractice && !error && !submitting && (
           <div className="run-syncing-badge">
             <LoaderCircle className="spin" size={12} />
             <span>syncing</span>
@@ -940,10 +984,30 @@ function GameCard({
       </div>
 
       <aside
-        className="social-rail"
-        onPointerDownCapture={() => cardRef.current?.focus({ preventScroll: true })}
+        className={`social-rail${expanded && controlsDimmed ? " is-controls-dimmed" : ""}`}
+        data-controls-dimmed={expanded && controlsDimmed}
+        onClickCapture={restoreControls}
+        onKeyDownCapture={restoreControls}
+        onPointerDownCapture={() => {
+          restoreControls();
+          cardRef.current?.focus({ preventScroll: true });
+        }}
         onWheelCapture={() => cardRef.current?.focus({ preventScroll: true })}
+        aria-label="Game and feed controls"
       >
+        {expanded && (
+          <button
+            type="button"
+            className="feed-nav feed-nav-up"
+            onClick={goPrevious}
+            aria-label="Scroll to the previous game"
+            aria-controls="game-feed"
+            disabled={index === 0}
+          >
+            <ChevronUp />
+            <span>Up</span>
+          </button>
+        )}
         <button
           type="button"
           onClick={toggleLike}
@@ -954,7 +1018,7 @@ function GameCard({
           <Heart fill={like.liked ? "currentColor" : "none"} />
           <span>{like.count || "Hype"}</span>
         </button>
-        {game.ranked !== false && (
+        {ranked && (
           <button type="button" onClick={() => setBoardOpen(true)} aria-label="Open leaderboard">
             <Trophy />
             <span>Ranks</span>
@@ -965,9 +1029,15 @@ function GameCard({
           <span>Share</span>
         </button>
         {expanded && (
-          <button type="button" className="expanded-next" onClick={goNext} aria-label="Go to the next game">
-            <ChevronUp />
-            <span>Next</span>
+          <button
+            type="button"
+            className="feed-nav feed-nav-down"
+            onClick={goNext}
+            aria-label="Scroll to the next game"
+            aria-controls="game-feed"
+          >
+            <ChevronDown />
+            <span>Down</span>
           </button>
         )}
       </aside>
@@ -1004,9 +1074,9 @@ function GameCard({
                               ? "BY HAPPYLANDER · TIP TAP INTEGRATION"
                   : "@tiptap"}
           </span>
-          <span className={`play-mode ${game.ranked === false ? "is-instant" : "is-ranked"}`}>
-            {game.ranked === false ? <Zap size={12} /> : <Crown size={12} />}
-            {game.ranked === false ? "INSTANT PLAY" : "GLOBAL RANKS"}
+          <span className={`play-mode ${ranked ? "is-ranked" : "is-instant"}`}>
+            {ranked ? <Crown size={12} /> : <Zap size={12} />}
+            {ranked ? "GLOBAL RANKS" : "INSTANT PLAY"}
           </span>
         </div>
         <h2>{game.title}</h2>
@@ -1107,10 +1177,18 @@ function makeBatch(
 }
 
 export function App() {
-  const [bootstrap, setBootstrap] = useState<BootstrapData | null>(null);
-  const [entries, setEntries] = useState<FeedEntry[]>([]);
+  const preferredGame = useMemo(
+    () => new URLSearchParams(window.location.search).get("game") || undefined,
+    [],
+  );
+  // Render the bundled catalog immediately. The live bootstrap request then
+  // refreshes player/like/auth metadata without holding the first game behind a
+  // database round trip or reshuffling already-mounted cards.
+  const [bootstrap, setBootstrap] = useState<BootstrapData>(OFFLINE_BOOTSTRAP);
+  const [entries, setEntries] = useState<FeedEntry[]>(() =>
+    makeBatch(OFFLINE_BOOTSTRAP.games, 0, preferredGame),
+  );
   const [activeIndex, setActiveIndex] = useState(0);
-  const [loadError, setLoadError] = useState<string | null>(null);
   const [offlinePractice, setOfflinePractice] = useState(false);
   const [authOpen, setAuthOpen] = useState(false);
   const [gamesOpen, setGamesOpen] = useState(false);
@@ -1125,38 +1203,50 @@ export function App() {
     () => window.localStorage.getItem("ttg_sound") !== "off",
   );
   const [pageVisible, setPageVisible] = useState(() => document.visibilityState === "visible");
+  const [warmAheadEnabled, setWarmAheadEnabled] = useState(false);
   const [hapticsEnabled] = useState(
     () => window.localStorage.getItem("ttg_haptics") !== "off",
   );
-  // Pre-mount (and pre-boot) the next couple of embedded games so swiping onto
-  // them reveals an already-loaded game instead of a fresh loader — the TikTok
-  // "next few are ready" feel. Capped at 2 so at most 3 heavy WebGL iframes
-  // (active + 2) are ever live at once.
+  // Pre-mount at most one compatible next game, and only after the visible game
+  // has had an exclusive startup window. Starting multiple WebGL/Unity engines
+  // together made first play slower on Replit and memory-heavy on mobile.
   const preparingIndices = useMemo(() => {
     const indices = new Set<number>();
+    if (!warmAheadEnabled) return indices;
     for (let i = activeIndex + 1; i < entries.length && i <= activeIndex + 6; i++) {
-      if (isEmbeddedGame(entries[i].game.slug)) {
+      if (
+        isEmbeddedGame(entries[i].game.slug) &&
+        shouldPrepareByMount(entries[i].game.slug)
+      ) {
         indices.add(i);
-        if (indices.size >= 2) break;
+        break;
+      }
+      if (isEmbeddedGame(entries[i].game.slug)) {
+        break;
       }
     }
     return indices;
-  }, [activeIndex, entries]);
+  }, [activeIndex, entries, warmAheadEnabled]);
   const observerRef = useRef<IntersectionObserver | null>(null);
   const nodesRef = useRef(new Map<number, HTMLElement>());
 
-  const preferredGame = useMemo(
-    () => new URLSearchParams(window.location.search).get("game") || undefined,
-    [],
-  );
-
   const load = useCallback(async () => {
-    setLoadError(null);
     try {
       const data = await api.bootstrap();
       setOfflinePractice(false);
       setBootstrap(data);
-      setEntries(makeBatch(data.games, 0, preferredGame));
+      const gamesBySlug = new Map(data.games.map((game) => [game.slug, game]));
+      setEntries((current) => {
+        const refreshed = current.map((entry) => ({
+          ...entry,
+          game: gamesBySlug.get(entry.game.slug) ?? entry.game,
+        }));
+        const present = new Set(refreshed.map((entry) => entry.game.slug));
+        const missing = data.games.filter((game) => !present.has(game.slug));
+        return missing.length
+          ? [...refreshed, ...makeBatch(missing, 0, preferredGame)]
+          : refreshed;
+      });
       const params = new URLSearchParams(window.location.search);
       const challengeId = params.get("challenge");
       if (challengeId) {
@@ -1174,7 +1264,6 @@ export function App() {
     } catch (error) {
       setOfflinePractice(true);
       setBootstrap(OFFLINE_BOOTSTRAP);
-      setEntries(makeBatch(OFFLINE_BOOTSTRAP.games, 0, preferredGame));
       setToast("Offline practice — reconnect to save scores.");
     }
   }, [preferredGame]);
@@ -1188,6 +1277,15 @@ export function App() {
     document.addEventListener("visibilitychange", onVisibility);
     return () => document.removeEventListener("visibilitychange", onVisibility);
   }, []);
+
+  useEffect(() => {
+    setWarmAheadEnabled(false);
+    if (!pageVisible) return;
+    const delay = warmAheadDelayMs();
+    if (delay === null) return;
+    const timer = window.setTimeout(() => setWarmAheadEnabled(true), delay);
+    return () => window.clearTimeout(timer);
+  }, [activeIndex, pageVisible]);
 
   useEffect(() => {
     observerRef.current?.disconnect();
@@ -1240,27 +1338,27 @@ export function App() {
   }, [activeIndex, soundEnabled, entries.length]);
 
   useEffect(() => {
-    // Warm the selected card as well as the next three. This matters for a
-    // deep link or the very first feed item: a large local Unity build starts
-    // downloading before its iframe is mounted, rather than after a swipe.
-    const upcomingEmbeddedGames = entries
-      .slice(activeIndex, activeIndex + 6)
+    if (!warmAheadEnabled) return;
+    const nextEmbeddedGame = entries
+      .slice(activeIndex + 1, activeIndex + 7)
       .map((entry) => entry.game)
-      .filter((game) => isEmbeddedGame(game.slug))
-      .slice(0, 3);
-    if (!upcomingEmbeddedGames.length) return;
-    const warm = () => upcomingEmbeddedGames.forEach((game) => void warmGame(game.slug));
+      .find((game) => isEmbeddedGame(game.slug));
+    if (!nextEmbeddedGame || shouldPrepareByMount(nextEmbeddedGame.slug)) return;
+    // Games that cannot stay mounted off-card get only their bounded critical
+    // set cached. Never warm the active game (its iframe already owns that
+    // request graph) or multiple future games at the same time.
+    const warm = () => void warmGame(nextEmbeddedGame.slug);
     const browserWindow = window as Window & {
       requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => number;
       cancelIdleCallback?: (handle: number) => void;
     };
     if (browserWindow.requestIdleCallback) {
-      const handle = browserWindow.requestIdleCallback(warm, { timeout: 1_200 });
+      const handle = browserWindow.requestIdleCallback(warm, { timeout: 1_000 });
       return () => browserWindow.cancelIdleCallback?.(handle);
     }
-    const handle = window.setTimeout(warm, 250);
+    const handle = window.setTimeout(warm, 200);
     return () => window.clearTimeout(handle);
-  }, [activeIndex, entries]);
+  }, [activeIndex, entries, warmAheadEnabled]);
 
   useEffect(() => {
     if (!toast) return;
@@ -1314,27 +1412,6 @@ export function App() {
     await load();
   };
 
-  if (!bootstrap) {
-    return (
-      <main className="boot-screen">
-        <Logo />
-        {loadError ? (
-          <>
-            <p>{loadError}</p>
-            <button type="button" onClick={() => void load()}>RETRY FEED</button>
-          </>
-        ) : (
-          <>
-            <div className="boot-pulse">
-              <i />
-            </div>
-            <span>LOADING THE FEED</span>
-          </>
-        )}
-      </main>
-    );
-  }
-
   return (
     <main className="app-shell">
       <AppHeader
@@ -1373,14 +1450,6 @@ export function App() {
             onOpenAuth={() => setAuthOpen(true)}
             onScored={() => {}}
             onToast={setToast}
-          />
-        ))}
-      </div>
-      <div className="feed-progress" aria-hidden="true">
-        {bootstrap.games.map((game) => (
-          <i
-            key={game.slug}
-            className={entries[activeIndex]?.game.slug === game.slug ? "is-active" : ""}
           />
         ))}
       </div>

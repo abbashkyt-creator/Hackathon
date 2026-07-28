@@ -5,6 +5,7 @@ interface GameRuntime {
   preloadManifest?: string;
   assetManifest?: string;
   warmFullMirror?: boolean;
+  prepareByMount?: boolean;
 }
 
 const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
@@ -47,6 +48,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     embedded: true,
     preloadManifest: "/games/stickman-fury/preload-manifest.json",
     assetManifest: "/games/stickman-fury/MIRROR-MANIFEST.json",
+    prepareByMount: true,
   },
   "plonky": {
     embedded: true,
@@ -57,16 +59,19 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     embedded: true,
     preloadManifest: "/games/fruit-ninja/preload-manifest.json",
     assetManifest: "/games/fruit-ninja/MIRROR-MANIFEST.json",
+    prepareByMount: true,
   },
   "count-control-legends": {
     embedded: true,
     preloadManifest: "/games/count-control-legends/preload-manifest.json",
     assetManifest: "/games/count-control-legends/MIRROR-MANIFEST.json",
+    prepareByMount: true,
   },
   "johnny-trigger-sniper": {
     embedded: true,
     preloadManifest: "/games/johnny-trigger-sniper/preload-manifest.json",
     assetManifest: "/games/johnny-trigger-sniper/MIRROR-MANIFEST.json",
+    prepareByMount: true,
     // This Unity catalog contains hundreds of later-level Addressables.
     // Downloading all of them while the visible card boots delays Mission 1.
     warmFullMirror: false,
@@ -76,11 +81,13 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     embedded: true,
     preloadManifest: "/games/theft-city/preload-manifest.json",
     assetManifest: "/games/theft-city/MIRROR-MANIFEST.json",
+    prepareByMount: true,
   },
   "city-cab-rush": {
     embedded: true,
     preloadManifest: "/games/city-cab-rush/preload-manifest.json",
     assetManifest: "/games/city-cab-rush/MIRROR-MANIFEST.json",
+    prepareByMount: true,
   },
   "supercar-legends": {
     embedded: true,
@@ -105,17 +112,47 @@ export function isEmbeddedGame(slug: GameSlug): boolean {
   return RUNTIMES[slug]?.embedded === true;
 }
 
-function connectionIsConstrained(): boolean {
-  const connection = (
+interface BrowserConnection {
+  saveData?: boolean;
+  effectiveType?: string;
+}
+
+function browserConnection(): BrowserConnection | undefined {
+  return (
     navigator as Navigator & {
-      connection?: { saveData?: boolean; effectiveType?: string };
+      connection?: BrowserConnection;
     }
   ).connection;
+}
+
+function connectionIsConstrained(): boolean {
+  const connection = browserConnection();
   return Boolean(
     connection?.saveData ||
       connection?.effectiveType === "slow-2g" ||
       connection?.effectiveType === "2g",
   );
+}
+
+/**
+ * Give the visible game uncontested bandwidth first. Returning null disables
+ * speculative work on data-saver/2G connections; the next game will still
+ * mount normally as soon as the player scrolls to it.
+ */
+export function warmAheadDelayMs(): number | null {
+  const connection = browserConnection();
+  if (
+    connection?.saveData ||
+    connection?.effectiveType === "slow-2g" ||
+    connection?.effectiveType === "2g"
+  ) {
+    return null;
+  }
+  return connection?.effectiveType === "3g" ? 7_000 : 3_500;
+}
+
+export function shouldPrepareByMount(slug: GameSlug): boolean {
+  return RUNTIMES[slug]?.prepareByMount === true;
 }
 
 async function fetchForWarmCache(url: string): Promise<void> {
@@ -154,7 +191,10 @@ async function collectWarmUrls(slug: GameSlug): Promise<string[]> {
     : [];
 
   if (connectionIsConstrained()) return critical.slice(0, 1);
-  if (!runtime.assetManifest || runtime.warmFullMirror === false) return critical;
+  // Critical manifests are the intentionally bounded first-play set. Mirroring
+  // every captured file is opt-in only: several catalogs contain later levels
+  // and tens of megabytes that should never compete with the visible game.
+  if (!runtime.assetManifest || runtime.warmFullMirror !== true) return critical;
 
   const assetResponse = await fetch(runtime.assetManifest, {
     cache: "force-cache",
