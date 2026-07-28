@@ -1,4 +1,5 @@
 import {
+  ChevronUp,
   Crown,
   Gamepad2,
   Heart,
@@ -120,16 +121,43 @@ interface FeedEntry {
   game: GameDefinition;
 }
 
+function useDialogClose(open: boolean, onClose: () => void) {
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
+
+  useEffect(() => {
+    if (!open) return;
+    const previouslyFocused = document.activeElement;
+    const focusFrame = window.requestAnimationFrame(() => closeButtonRef.current?.focus());
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onCloseRef.current();
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.cancelAnimationFrame(focusFrame);
+      document.removeEventListener("keydown", onKeyDown);
+      if (previouslyFocused instanceof HTMLElement) previouslyFocused.focus();
+    };
+  }, [open]);
+
+  return closeButtonRef;
+}
+
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <div className={`brand ${compact ? "is-compact" : ""}`} aria-label="Tip Tap Games">
-      <span className="brand-mark">
+      <span className="brand-mark" aria-hidden="true">
         <span />
       </span>
-      <strong>
-        <span className="tip">Tip</span>
-        <span className="tap">Tap</span>
-      </strong>
+      <span className="brand-copy">
+        <strong>
+          <span className="tip">Tip</span>
+          <span className="tap">Tap</span>
+          <span className="games-tag">Games</span>
+        </strong>
+        {!compact && <small>PLAY · COMPETE · SWIPE · REPEAT</small>}
+      </span>
     </div>
   );
 }
@@ -170,15 +198,27 @@ function AppHeader({
           rel="noopener noreferrer"
           aria-label="Donate to the creator via PayPal"
         >
-          <Heart size={14} fill="currentColor" /> Donate
+          <Heart size={14} fill="currentColor" /> <span>Donate</span>
         </a>
-        <button className="icon-button" onClick={onOpenGames} aria-label="Jump to a game">
+        <button type="button" className="icon-button" onClick={onOpenGames} aria-label="Jump to a game">
           <LayoutGrid size={19} />
         </button>
-        <button className="icon-button" onClick={onToggleSound} aria-label="Toggle sound">
+        <button
+          type="button"
+          className="icon-button"
+          onClick={onToggleSound}
+          aria-label={soundEnabled ? "Mute game sound" : "Turn on game sound"}
+          aria-pressed={soundEnabled}
+        >
           {soundEnabled ? <Volume2 size={19} /> : <VolumeX size={19} />}
         </button>
-        <button className="avatar-button" onClick={onProfile} aria-label="Open player profile">
+        <button
+          type="button"
+          className="avatar-button"
+          onClick={onProfile}
+          aria-label={`Open ${player.handle} profile`}
+        >
+          <span className="player-label">{player.handle}</span>
           <Avatar player={player} size="sm" />
         </button>
       </div>
@@ -203,6 +243,7 @@ function GameJumpSheet({
   onJump: (slug: string) => void;
   onClose: () => void;
 }) {
+  const closeButtonRef = useDialogClose(open, onClose);
   if (!open) return null;
   return (
     <div className="sheet-backdrop" role="presentation" onPointerDown={onClose}>
@@ -214,11 +255,20 @@ function GameJumpSheet({
         onPointerDown={(event) => event.stopPropagation()}
       >
         <div className="sheet-handle" />
-        <button className="sheet-close" onClick={onClose} aria-label="Close games list">
+        <button
+          ref={closeButtonRef}
+          type="button"
+          className="sheet-close"
+          onClick={onClose}
+          aria-label="Close games list"
+        >
           <X size={20} />
         </button>
-        <h2>ALL GAMES</h2>
-        <p>Tap any game to jump straight to it.</p>
+        <div className="games-sheet-heading">
+          <span>INSTANT ARCADE · {games.length} GAMES</span>
+          <h2>Pick your next moment</h2>
+          <p>Jump anywhere or close this and keep swiping.</p>
+        </div>
         <div className="games-grid">
           {games.map((game) => (
             <button
@@ -239,7 +289,10 @@ function GameJumpSheet({
                   }}
                 />
               </span>
-              <span className="game-chip-label">{game.title}</span>
+              <span className="game-chip-copy">
+                <span className="game-chip-label">{game.title}</span>
+                <small>{game.ranked === false ? "Instant play" : "Global ranks"}</small>
+              </span>
             </button>
           ))}
         </div>
@@ -261,6 +314,7 @@ function LeaderboardSheet({
   initial?: LeaderboardResult | null;
   onClose: () => void;
 }) {
+  const closeButtonRef = useDialogClose(open, onClose);
   const [period, setPeriod] = useState<"all" | "daily">("all");
   const [data, setData] = useState<LeaderboardResult | null>(initial ?? null);
   const [loading, setLoading] = useState(false);
@@ -297,7 +351,13 @@ function LeaderboardSheet({
         onPointerDown={(event) => event.stopPropagation()}
       >
         <div className="sheet-handle" />
-        <button className="sheet-close" onClick={onClose} aria-label="Close leaderboard">
+        <button
+          ref={closeButtonRef}
+          type="button"
+          className="sheet-close"
+          onClick={onClose}
+          aria-label="Close leaderboard"
+        >
           <X size={20} />
         </button>
         <div className="sheet-title">
@@ -309,10 +369,19 @@ function LeaderboardSheet({
           <p>Real runs. Server-validated scores.</p>
         </div>
         <div className="period-tabs" role="tablist" aria-label="Leaderboard period">
-          <button className={period === "all" ? "is-active" : ""} onClick={() => setPeriod("all")}>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={period === "all"}
+            className={period === "all" ? "is-active" : ""}
+            onClick={() => setPeriod("all")}
+          >
             All time
           </button>
           <button
+            type="button"
+            role="tab"
+            aria-selected={period === "daily"}
             className={period === "daily" ? "is-active" : ""}
             onClick={() => setPeriod("daily")}
           >
@@ -367,6 +436,7 @@ function AuthSheet({
   onClose: () => void;
   onLogout: () => void;
 }) {
+  const closeButtonRef = useDialogClose(open, onClose);
   if (!open) return null;
   const anyProvider = auth.google || auth.discord;
   return (
@@ -379,7 +449,13 @@ function AuthSheet({
         onPointerDown={(event) => event.stopPropagation()}
       >
         <div className="sheet-handle" />
-        <button className="sheet-close" onClick={onClose} aria-label="Close profile">
+        <button
+          ref={closeButtonRef}
+          type="button"
+          className="sheet-close"
+          onClick={onClose}
+          aria-label="Close profile"
+        >
           <X size={20} />
         </button>
         <Avatar player={player} />
@@ -412,7 +488,7 @@ function AuthSheet({
             <small>No email forms. No passwords. Your current runs merge automatically.</small>
           </>
         ) : (
-          <button className="logout-button" onClick={onLogout}>
+          <button type="button" className="logout-button" onClick={onLogout}>
             <LogOut size={18} /> Sign out
           </button>
         )}
@@ -501,16 +577,16 @@ function ResultSheet({
         </div>
       )}
       {player.isGuest && result && (
-        <button className="claim-button" onClick={onClaim}>
+        <button type="button" className="claim-button" onClick={onClaim}>
           <Sparkles size={17} /> You're #{result.yourRank ?? "—"} — sign in to claim it
         </button>
       )}
       <div className="result-actions">
-        <button ref={replayButtonRef} onClick={onReplay}>PLAY AGAIN</button>
-        <button onClick={onLeaderboard}>
+        <button type="button" ref={replayButtonRef} onClick={onReplay}>PLAY AGAIN</button>
+        <button type="button" onClick={onLeaderboard}>
           <Trophy size={17} /> BOARD
         </button>
-        <button onClick={onShare}>
+        <button type="button" onClick={onShare}>
           <Share2 size={17} /> SHARE
         </button>
       </div>
@@ -565,6 +641,7 @@ function GameCard({
   // actually starts playing, then fades out 3s later so it never covers the
   // game. Hidden only after the first interaction with the game area.
   const [labelHidden, setLabelHidden] = useState(false);
+  const [expanded, setExpanded] = useState(false);
   const finishingRef = useRef(false);
   const cardRef = useRef<HTMLElement | null>(null);
 
@@ -584,8 +661,11 @@ function GameCard({
   }, [game.ranked, game.slug, offlinePractice]);
 
   useEffect(() => {
-    if (active) void begin();
-    else {
+    if (active) {
+      cardRef.current?.focus({ preventScroll: true });
+      void begin();
+    } else {
+      setExpanded(false);
       setTicket(null);
       setBoardOpen(false);
       setResult(null);
@@ -595,10 +675,80 @@ function GameCard({
     }
   }, [active, begin, runKey]);
 
-  // Keep the game-label visible until the player starts playing; then fade it
-  // out 5s later. "Started playing" = the first interaction with the game area:
-  // a pointer/touch/key input for canvas games, or focus moving into the game
-  // iframe for embedded games (a click into a same-origin iframe blurs us).
+  const expandGame = useCallback(() => {
+    if (active) setExpanded(true);
+  }, [active]);
+
+  // Pointer events that happen inside an iframe never bubble into the React
+  // tree. Subscribe to each active local game window directly so the player's
+  // first real touch/click both reaches the game and expands the card.
+  useEffect(() => {
+    if (!active || !isEmbeddedGame(game.slug)) return;
+
+    const cleanups: Array<() => void> = [];
+    const boundFrames = new WeakSet<HTMLIFrameElement>();
+    const boundWindows = new WeakSet<Window>();
+    const labelTimers = new Set<number>();
+    const onGameInteraction = () => {
+      expandGame();
+      const timer = window.setTimeout(() => {
+        setLabelHidden(true);
+        labelTimers.delete(timer);
+      }, 3000);
+      labelTimers.add(timer);
+    };
+    const bindFrame = (frame: HTMLIFrameElement) => {
+      if (boundFrames.has(frame)) return;
+      boundFrames.add(frame);
+      const bindWindow = () => {
+        const gameWindow = frame.contentWindow;
+        if (!gameWindow || boundWindows.has(gameWindow)) return;
+        try {
+          gameWindow.addEventListener("pointerdown", onGameInteraction, true);
+          gameWindow.addEventListener("touchstart", onGameInteraction, true);
+          gameWindow.addEventListener("keydown", onGameInteraction, true);
+          boundWindows.add(gameWindow);
+          cleanups.push(() => {
+            gameWindow.removeEventListener("pointerdown", onGameInteraction, true);
+            gameWindow.removeEventListener("touchstart", onGameInteraction, true);
+            gameWindow.removeEventListener("keydown", onGameInteraction, true);
+          });
+        } catch {
+          // The window-blur fallback below still covers a future cross-origin
+          // integration where direct frame listeners are unavailable.
+        }
+      };
+      frame.addEventListener("load", bindWindow);
+      cleanups.push(() => frame.removeEventListener("load", bindWindow));
+      bindWindow();
+    };
+    const bindFrames = () => {
+      const card = cardRef.current;
+      if (!card) return;
+      const frames = [...card.querySelectorAll<HTMLIFrameElement>("iframe")];
+      // Fruit Ninja keeps its prepared iframe in a body-level portal.
+      if (game.slug === "fruit-ninja") {
+        frames.push(...document.querySelectorAll<HTMLIFrameElement>("iframe.fruit-ninja-game"));
+      }
+      frames.forEach(bindFrame);
+    };
+
+    bindFrames();
+    const observer = new MutationObserver(bindFrames);
+    if (cardRef.current) observer.observe(cardRef.current, { childList: true, subtree: true });
+    if (game.slug === "fruit-ninja") observer.observe(document.body, { childList: true });
+
+    return () => {
+      observer.disconnect();
+      cleanups.forEach((cleanup) => cleanup());
+      labelTimers.forEach((timer) => window.clearTimeout(timer));
+    };
+  }, [active, expandGame, game.slug, runKey]);
+
+  // Keep the game label visible until the player starts. Native game clicks
+  // expand through the game-frame capture handler below. Embedded games use
+  // the direct frame listeners above, with iframe focus as a fallback. The
+  // active card takes focus first, so a mount alone never counts as a tap.
   useEffect(() => {
     setLabelHidden(false);
     if (!active) return;
@@ -616,11 +766,17 @@ function GameCard({
     const onPointer = (event: Event) => {
       if (inGameArea(event.target)) start();
     };
-    const onKey = () => start();
+    const onKey = () => {
+      if (inGameArea(document.activeElement)) {
+        start();
+        expandGame();
+      }
+    };
     const onBlur = () => {
       const activeEl = document.activeElement;
       if (activeEl && activeEl.tagName === "IFRAME" && cardRef.current?.contains(activeEl)) {
         start();
+        expandGame();
       }
     };
     window.addEventListener("pointerdown", onPointer, { capture: true });
@@ -634,7 +790,7 @@ function GameCard({
       window.removeEventListener("keydown", onKey, { capture: true });
       window.removeEventListener("blur", onBlur);
     };
-  }, [active, runKey]);
+  }, [active, expandGame, runKey]);
 
   const finish = useCallback(
     async (finalScore: number) => {
@@ -711,7 +867,14 @@ function GameCard({
   const challengeHere = challenge?.gameSlug === game.slug;
   const swipeNext = () => {
     const next = cardRef.current?.nextElementSibling;
-    if (next instanceof HTMLElement) next.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (next instanceof HTMLElement) {
+      next.focus({ preventScroll: true });
+      next.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+  const goNext = () => {
+    setExpanded(false);
+    window.requestAnimationFrame(swipeNext);
   };
 
   const handleFinish = useCallback(
@@ -723,9 +886,11 @@ function GameCard({
 
   return (
     <section
-      className={`feed-card theme-${game.slug}`}
+      className={`feed-card theme-${game.slug}${expanded ? " is-expanded" : ""}`}
       data-game={game.slug}
       data-active={active}
+      data-expanded={expanded}
+      tabIndex={-1}
       ref={(node) => {
         cardRef.current = node;
         onVisible(index, node);
@@ -733,7 +898,12 @@ function GameCard({
       aria-label={`${game.title}. ${game.rule_text}`}
     >
       <div className="card-atmosphere" />
-      <div className="game-frame">
+      <div
+        className="game-frame"
+        onClickCapture={() => {
+          if (active && !expanded) expandGame();
+        }}
+      >
         {game.slug !== "subway-surfers" && game.slug !== "stickman-fury" && game.slug !== "supercar-legends" && (
           <div className={`game-label${labelHidden ? " is-hidden" : ""}`}>
             <span>{GAME_EYEBROWS[game.slug]}</span>
@@ -758,7 +928,7 @@ function GameCard({
           <div className="run-error">
             <strong>RUN INTERRUPTED</strong>
             <span>{error}</span>
-            <button onClick={retry}>TRY AGAIN</button>
+            <button type="button" onClick={retry}>TRY AGAIN</button>
           </div>
         )}
         {challengeHere && !result && (
@@ -769,27 +939,44 @@ function GameCard({
         )}
       </div>
 
-      <aside className="social-rail">
-        <button onClick={toggleLike} className={like.liked ? "is-liked" : ""} aria-label="Hype this game">
+      <aside
+        className="social-rail"
+        onPointerDownCapture={() => cardRef.current?.focus({ preventScroll: true })}
+        onWheelCapture={() => cardRef.current?.focus({ preventScroll: true })}
+      >
+        <button
+          type="button"
+          onClick={toggleLike}
+          className={like.liked ? "is-liked" : ""}
+          aria-label="Hype this game"
+          aria-pressed={like.liked}
+        >
           <Heart fill={like.liked ? "currentColor" : "none"} />
           <span>{like.count || "Hype"}</span>
         </button>
         {game.ranked !== false && (
-          <button onClick={() => setBoardOpen(true)} aria-label="Open leaderboard">
+          <button type="button" onClick={() => setBoardOpen(true)} aria-label="Open leaderboard">
             <Trophy />
             <span>Ranks</span>
           </button>
         )}
-        <button onClick={share} aria-label="Share game or challenge">
+        <button type="button" onClick={share} aria-label="Share game or challenge">
           <Share2 />
           <span>Share</span>
         </button>
+        {expanded && (
+          <button type="button" className="expanded-next" onClick={goNext} aria-label="Go to the next game">
+            <ChevronUp />
+            <span>Next</span>
+          </button>
+        )}
       </aside>
 
       <footer className="game-caption">
-        <span className="creator-line">
-          <Gamepad2 size={15} />{" "}
-          {game.slug === "subway-surfers"
+        <div className="caption-meta">
+          <span className="creator-line">
+            <Gamepad2 size={15} />{" "}
+            {game.slug === "subway-surfers"
             ? "BY SYBO · TIP TAP INTEGRATION"
             : game.slug === "dino-runner"
               ? "BY CHROME UX · TIP TAP INTEGRATION"
@@ -816,12 +1003,19 @@ function GameCard({
                             : game.slug === "ping-pong-go" || game.slug === "ping-pong-bugs"
                               ? "BY HAPPYLANDER · TIP TAP INTEGRATION"
                   : "@tiptap"}
-        </span>
+          </span>
+          <span className={`play-mode ${game.ranked === false ? "is-instant" : "is-ranked"}`}>
+            {game.ranked === false ? <Zap size={12} /> : <Crown size={12} />}
+            {game.ranked === false ? "INSTANT PLAY" : "GLOBAL RANKS"}
+          </span>
+        </div>
         <h2>{game.title}</h2>
         <p>
-          <strong>RULE:</strong> {game.rule_text}
+          <strong>HOW TO PLAY:</strong> {game.rule_text}
         </p>
-        <span className="swipe-hint">SWIPE UP · NEXT GAME</span>
+        <span className="swipe-hint">
+          <ChevronUp size={13} aria-hidden="true" /> SWIPE FOR THE NEXT GAME
+        </span>
       </footer>
 
       {(result || submitting) && (
@@ -836,7 +1030,7 @@ function GameCard({
           onLeaderboard={() => setBoardOpen(true)}
           onClaim={onOpenAuth}
           onShare={share}
-          onSwipeNext={swipeNext}
+          onSwipeNext={goNext}
         />
       )}
       <LeaderboardSheet
@@ -1127,7 +1321,7 @@ export function App() {
         {loadError ? (
           <>
             <p>{loadError}</p>
-            <button onClick={() => void load()}>RETRY FEED</button>
+            <button type="button" onClick={() => void load()}>RETRY FEED</button>
           </>
         ) : (
           <>

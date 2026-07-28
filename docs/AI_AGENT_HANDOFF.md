@@ -59,6 +59,50 @@ The gate statically enforces the copied-game packaging contract, validates PWA i
 - Offline practice catalogue after a successful cached visit; scoring remains online-only
 - PNG install icons, Replit commands, and TWA release plan
 
+## UI system (redesigned 2026-07-28)
+
+The current UI is a full product redesign based on the user's TipTap promo
+reference, not the earlier dark feed with a blue/purple recolor.
+
+- Preserve the instant vertical feed. Do not introduce a landing page or copy
+  the poster as a static marketing page.
+- The app shell uses bright white/lavender layered surfaces, a tactile
+  blue-to-purple wordmark, a framed game stage, rounded caption cards, floating
+  social controls, and navy text with game-specific accent color.
+- Ranked cards say `GLOBAL RANKS`; games without a verified score callback say
+  `INSTANT PLAY` and still omit the leaderboard control.
+- The game picker, leaderboard, profile, result overlay, boot state, errors,
+  toast, and focus treatments share the same visual system.
+- The active card supports expanded in-feed play. The first pointer interaction
+  with either a native React game or a same-origin copied-game iframe grows the
+  game downward through the former description gap, but the 620 px TipTap app
+  shell, header, scroll-snap feed, progress rail, and card boundaries never
+  disappear. There is deliberately no Fill Screen / Exit control.
+- Expanded play separates gesture ownership. The game surface uses
+  `touch-action: none`, so games such as Temple Run keep up/down/left/right
+  swipes. The description card disappears completely and the game reaches the
+  lower card edge. A compact right rail retains Hype, optional Ranks, Share,
+  and Next; it is the parent-owned vertical feed-swipe zone, while tapping Next
+  is the unambiguous fallback.
+- Changing the active card resets expanded state. Do not remove the direct
+  iframe-window interaction listener: iframe pointer events do not bubble into
+  the parent React tree, and that listener lets the original first click reach
+  the game while also growing its card.
+- Dialogs place focus on their close control, close with Escape, and restore
+  focus to the opener. Leaderboard period controls expose tab semantics.
+- Verified viewports: desktop 1256x912, mobile 390x844, and compact 320x568.
+  Expanded geometry was additionally verified at 1280x720, 390x844, and
+  320x568: the game grows downward without a caption cutout, the right rail
+  remains inside the viewport, and there is no horizontal overflow or header
+  collision.
+  Header targets are 44x44 at normal mobile widths and 40x40 at 320 px.
+- Implementation lives in `src/App.tsx` and the final poster-inspired override
+  section at the end of `src/styles.css`. Keep all game runtime CSS above it
+  intact.
+- Final gate: TypeScript passed, 6 test files / 30 tests passed, production
+  build passed, 1,070 game assets were Brotli-precompressed, and the release
+  audit passed.
+
 Subway mirror facts:
 
 - 167 recorded mirror/integration assets plus the local preload manifest: 168 files and 15,729,037 raw bytes
