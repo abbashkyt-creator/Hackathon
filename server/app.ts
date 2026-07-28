@@ -71,7 +71,7 @@ export function createApp(config: Config, store: Store) {
   app.set("trust proxy", 1);
   app.disable("x-powered-by");
 
-  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game") =>
+  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game" | "legacy-wasm-game") =>
     helmet({
       contentSecurityPolicy:
         config.NODE_ENV === "development" && mode === "app"
@@ -94,6 +94,8 @@ export function createApp(config: Config, store: Store) {
                 scriptSrc:
                   mode === "legacy-game"
                     ? ["'self'", "'unsafe-eval'"]
+                    : mode === "legacy-wasm-game"
+                      ? ["'self'", "'unsafe-eval'", "'wasm-unsafe-eval'", "blob:"]
                     : mode === "wasm-game"
                       ? ["'self'", "'wasm-unsafe-eval'", "blob:"]
                       : ["'self'"],
@@ -123,6 +125,9 @@ export function createApp(config: Config, store: Store) {
   // (which permits 'wasm-unsafe-eval' and blob: script sources).
   const countControlSecurityHeaders = securityHeaders("wasm-game");
   const johnnyTriggerSecurityHeaders = securityHeaders("wasm-game");
+  // Rocket Soccer Derby's older local UnityLoader uses legacy eval compilation
+  // plus WebAssembly. This exception is scoped to its mirror only.
+  const rocketSoccerDerbySecurityHeaders = securityHeaders("legacy-wasm-game");
   // Fruit Ninja's enable3d/Ammo physics feature-detects WebAssembly; without
   // 'wasm-unsafe-eval' that probe fails and it falls back to a non-existent
   // asm.js ammo.js (404). Serve it under the wasm policy so it loads ammo.wasm.js.
@@ -150,6 +155,8 @@ export function createApp(config: Config, store: Store) {
         ? countControlSecurityHeaders
       : req.path.startsWith("/games/johnny-trigger-sniper/")
         ? johnnyTriggerSecurityHeaders
+      : req.path.startsWith("/games/rocket-soccer-derby/")
+        ? rocketSoccerDerbySecurityHeaders
       : req.path.startsWith("/games/fruit-ninja/")
         ? fruitNinjaSecurityHeaders
       : req.path.startsWith("/games/temple-run-2-frozen-shadows/")

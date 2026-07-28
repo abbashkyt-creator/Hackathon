@@ -16,6 +16,7 @@ export type GameSlug =
   | "fruit-ninja"
   | "count-control-legends"
   | "johnny-trigger-sniper"
+  | "rocket-soccer-derby"
   | "kitty-loves-birds-2"
   | "theft-city"
   | "city-cab-rush"

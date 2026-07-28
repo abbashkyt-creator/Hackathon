@@ -1,0 +1,2 @@
+# Unity WebGL payloads are binary blobs even when they happen to contain text-like bytes.
+public/games/rocket-soccer-derby/Build/*.unityweb -text

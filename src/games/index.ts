@@ -12,6 +12,7 @@ export { ColorClashGame } from "./ColorClashGame";
 export { CountControlLegendsGame } from "./CountControlLegendsGame";
 export { CityCabRushGame } from "./CityCabRushGame";
 export { JohnnyTriggerSniperGame } from "./JohnnyTriggerSniperGame";
+export { RocketSoccerDerbyGame } from "./RocketSoccerDerbyGame";
 export { DinoRunnerGame } from "./DinoRunnerGame";
 export { MemoryGridGame } from "./MemoryGridGame";
 export { MeteorDodgeGame } from "./MeteorDodgeGame";

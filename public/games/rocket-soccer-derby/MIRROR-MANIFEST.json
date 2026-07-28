@@ -1,0 +1,87 @@
+{
+  "name": "Rocket Soccer Derby",
+  "sourcePage": "https://www.zgames.io/game/rocket-soccer-derby",
+  "sourceRoot": "https://freedomgamingzone.github.io/rocket-soccer-derby/file/",
+  "sourceDeveloper": "Destruction Crew",
+  "capturedWith": "Dedicated Visual Editor Ultimate source session (server 3456 / isolated CDP 9222)",
+  "verifiedOn": "2026-07-28",
+  "runtime": "Unity WebGL (legacy UnityLoader)",
+  "excluded": [
+    "zGames page shell and advertising",
+    "Poki SDK and Poki network probes",
+    "analytics, tracking, and external identity",
+    "Unity cloud analytics and remote telemetry"
+  ],
+  "localAdaptations": [
+    "network-lock is the first executable script",
+    "Poki lifecycle calls resolve through a local no-ad bridge",
+    "source Unity telemetry is answered by an inert local data response",
+    "the original Unity loader and all required build payloads are served same-origin"
+  ],
+  "limitations": [
+    "No verified source score callback is forwarded; the game remains unranked.",
+    "Public GitHub and Replit redistribution remains subject to the rights holder permission represented by the project owner."
+  ],
+  "files": [
+    {
+      "assetPath": "Build/RSD 1.1.0rc4.data.unityweb",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 29723236,
+      "sha256": "e6280a9c8dbc9c9c2ed3cb243736ba88bdcc08d3498887dbf0bb75058a98f983"
+    },
+    {
+      "assetPath": "Build/RSD 1.1.0rc4.json",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 409,
+      "sha256": "03c46d7a4da5c714eacabd9184693a16438d55955df948f6d3a4261e88eb541c"
+    },
+    {
+      "assetPath": "Build/RSD 1.1.0rc4.wasm.code.unityweb",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 26620102,
+      "sha256": "d698dbd48c794ca9d5a70fdc79bbd3c56c457973958ed764d9c7e1f56df86652"
+    },
+    {
+      "assetPath": "Build/RSD 1.1.0rc4.wasm.framework.unityweb",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 834135,
+      "sha256": "67044f3b1b8bd7984d2fd8e6de2c286291a47452bcef2e89100fe8293b0567fa"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "provenance": "Tip Tap integration",
+      "bytes": 430,
+      "sha256": "94d1d8f8be213a7ab8caa34f92b21b352e0ccde6c81bcac5a82028ae9d39ee68"
+    },
+    {
+      "assetPath": "UnityLoader.js",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 159252,
+      "sha256": "4c7b90753420bc77ad3358dbbe71d0392d49bd3888c3b2d7a80312f89ef54caa"
+    },
+    {
+      "assetPath": "index.html",
+      "provenance": "Tip Tap integration",
+      "bytes": 587,
+      "sha256": "10603574be44b2d2df68f05a36044dea0718d071a5b92865714a9281678989a1"
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "provenance": "Tip Tap integration",
+      "bytes": 3364,
+      "sha256": "bf8bc5639f6cfd6b9f0b691b5edf28d96ec2da98f0d3438a04a94392591b4e1d"
+    },
+    {
+      "assetPath": "tiptap-config.js",
+      "provenance": "Tip Tap integration",
+      "bytes": 157,
+      "sha256": "5c650df4daa17ee0c8b06f24147209f98102c165e25548c3fdaa5d5547cf890a"
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "provenance": "Tip Tap integration",
+      "bytes": 2825,
+      "sha256": "79cf158018121db57f3e8522d7c5e09c945a55e0837b34b26a0e8327cbee8c46"
+    }
+  ]
+}

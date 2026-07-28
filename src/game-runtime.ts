@@ -76,6 +76,15 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     // Downloading all of them while the visible card boots delays Mission 1.
     warmFullMirror: false,
   },
+  "rocket-soccer-derby": {
+    embedded: true,
+    preloadManifest: "/games/rocket-soccer-derby/preload-manifest.json",
+    assetManifest: "/games/rocket-soccer-derby/MIRROR-MANIFEST.json",
+    prepareByMount: true,
+    // A complete Unity match build is ~55 MB. The active card gets first use
+    // of the connection; only the immediately upcoming game can boot early.
+    warmFullMirror: false,
+  },
   "kitty-loves-birds-2": { embedded: true },
   "theft-city": {
     embedded: true,

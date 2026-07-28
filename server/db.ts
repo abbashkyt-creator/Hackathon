@@ -123,6 +123,12 @@ const GAME_SEED: GameRecord[] = [
     accent: "#00c565",
   },
   {
+    slug: "rocket-soccer-derby",
+    title: "Rocket Soccer Derby",
+    rule_text: "Drive, boost, hit the ball, and score more goals than your opponent.",
+    accent: "#ff7a47",
+  },
+  {
     slug: "kitty-loves-birds-2",
     title: "Kitty Loves Birds 2",
     rule_text: "Run, leap onto birds, collect coins, and climb through the colorful world.",
@@ -588,4 +594,3 @@ export class Store {
     this.sqlite?.close();
   }
 }
-

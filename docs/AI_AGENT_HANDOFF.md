@@ -401,6 +401,17 @@ Verification caveat: typecheck, all 97 tests, production build, and `git diff --
   119 tests passed, and the production build completed.
 - Cold Unity startup is still substantial. Ahead-of-swipe hidden preboot reduces perceived delay, but do not claim a never-cached 75 MB package is literally instant.
 
+## Rocket Soccer Derby status (verified 2026-07-28)
+
+- Feed slug: `rocket-soccer-derby`; creator: Destruction Crew; it is intentionally unranked because no verified source score callback was found.
+- VEU discovery was performed in the dedicated `tiptap-rocket-soccer-derby` session (CDP `9222`, its own Chrome profile). The approved zGames page resolved the actual Unity runtime to the source file root before any mirroring began.
+- Local package: Unity loader, build configuration, WASM code/framework, and data payloads plus a Tip Tap wrapper. `MIRROR-MANIFEST.json` records 10 local files and 57,344,497 bytes.
+- The wrapper excludes the source page, Poki, ads, analytics, and source-host traffic. The two Unity telemetry endpoints receive an inert local `data:` response; every other cross-origin game attempt remains fail-closed under the shared network lock.
+- A direct desktop run produced a real `929x917` Unity canvas with the loader hidden, no wrapper error, and no blocked network entries. A fresh mobile emulation run produced a real `390x844` canvas with the loader hidden, no wrapper error, and no blocked network entries. The original Rocket Soccer car/menu was visually rendered in the mobile proof.
+- The feed route mounts the same-origin iframe at `/games/rocket-soccer-derby/index.html?embedded=tiptap&autoplay=1...`; it contains no press-to-play overlay. Active/next preloading is enabled, but `warmFullMirror: false` remains intentional because eagerly fetching a 57 MB Unity payload harms the first visible game.
+- The legacy Unity binary emits a non-fatal requestAnimationFrame performance advisory from its original loader. Do not edit the copied binary just to silence it; it did not block loading, rendering, or input readiness.
+- Final integration gate passed release audit, TypeScript, 36 tests, production build, Brotli precompression, and `git diff --check`.
+
 ## APK checklist
 
 Follow `docs/APK-RELEASE.md` only after the Replit URL is final. The permanent external inputs are:

@@ -1,0 +1,8 @@
+Rocket Soccer Derby local source mirror
+=======================================
+
+Source game: Rocket Soccer by Destruction Crew, supplied by the project owner
+for this authorized hackathon integration. This local package retains the
+Unity WebGL game runtime and removes the zGames page shell, Poki SDK,
+advertising, analytics, tracking, remote identity, and remote telemetry.
+Tip Tap does not claim authorship of the source game.

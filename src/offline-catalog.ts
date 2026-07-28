@@ -114,6 +114,13 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
       ranked: false,
     },
     {
+      slug: "rocket-soccer-derby",
+      title: "Rocket Soccer Derby",
+      rule_text: "Drive, boost, hit the ball, and score more goals than your opponent.",
+      accent: "#ff7a47",
+      ranked: false,
+    },
+    {
       slug: "theft-city",
       title: "Theft City",
       rule_text: "Explore the city, collect loot, escape danger, and build your criminal empire.",

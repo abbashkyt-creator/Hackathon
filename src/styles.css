@@ -359,6 +359,10 @@ a:focus-visible {
   --accent: #d946ef;
 }
 
+.theme-rocket-soccer-derby {
+  --accent: #ff7a47;
+}
+
 .theme-67-game {
   --accent: #fe930e;
 }
@@ -2262,6 +2266,23 @@ a:focus-visible {
 
 /* Same ahead-of-swipe Unity warm-up policy as Count Control. */
 .feed-card[data-active="false"] .game-arena.johnny-trigger-sniper-game {
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.rocket-soccer-derby-game {
+  display: block;
+  background: #231f20;
+  touch-action: none;
+}
+
+.rocket-soccer-derby-placeholder {
+  background: radial-gradient(circle at 50% 70%, rgba(255, 122, 71, 0.26), transparent 42%), #101820;
+}
+
+/* Keep exactly one upcoming Unity match alive with a real layout. */
+.feed-card[data-active="false"] .game-arena.rocket-soccer-derby-game {
   display: block;
   visibility: hidden;
   pointer-events: none;

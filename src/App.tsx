@@ -41,6 +41,7 @@ import {
   CityCabRushGame,
   CountControlLegendsGame,
   JohnnyTriggerSniperGame,
+  RocketSoccerDerbyGame,
   DinoRunnerGame,
   MemoryGridGame,
   MeteorDodgeGame,
@@ -88,6 +89,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "fruit-ninja": FruitNinjaGame,
   "count-control-legends": CountControlLegendsGame,
   "johnny-trigger-sniper": JohnnyTriggerSniperGame,
+  "rocket-soccer-derby": RocketSoccerDerbyGame,
   "kitty-loves-birds-2": KittyLovesBirds2Game,
   "theft-city": TheftCityGame,
   "city-cab-rush": CityCabRushGame,
@@ -121,6 +123,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "fruit-ninja": "SLICE FRUIT. AVOID BOMBS.",
   "count-control-legends": "COUNT. MULTIPLY. CONQUER.",
   "johnny-trigger-sniper": "AIM CAREFULLY. SAVE THE CITY.",
+  "rocket-soccer-derby": "BOOST. HIT. SCORE.",
   "kitty-loves-birds-2": "RUN. LEAP. BOUNCE ON BIRDS.",
   "theft-city": "STEAL. ESCAPE. RULE THE CITY.",
   "city-cab-rush": "DRIVE FAST. DODGE TRAFFIC. PICK UP FARES.",
@@ -1066,6 +1069,8 @@ function GameCard({
                       ? "BY STORMS · LOCAL SOURCE MIRROR"
                       : game.slug === "johnny-trigger-sniper"
                         ? "BY SAYGAMES · LOCAL SOURCE MIRROR"
+                        : game.slug === "rocket-soccer-derby"
+                          ? "BY DESTRUCTION CREW · LOCAL SOURCE MIRROR"
                         : game.slug === "city-cab-rush"
                           ? "BY STORERIDER · LOCAL SOURCE MIRROR"
                           : game.slug === "supercar-legends"

@@ -200,6 +200,17 @@ Current verified Johnny Trigger - Sniper facts as of 2026-07-27:
   mute/unmute, and zero external frame requests.
 - Do not promise an instantaneous never-cached launch for this 75 MB Unity package. Use ahead-of-swipe hidden preboot and state cold-start limits honestly.
 
+Current verified Rocket Soccer Derby facts as of 2026-07-28:
+- Local mirror: `public/games/rocket-soccer-derby`; feed slug: `rocket-soccer-derby`; source creator: Destruction Crew.
+- VEU first resolved the approved zGames game to its Unity source file root. Mirror only the Unity loader, configuration, WASM code/framework, data, and local Tip Tap wrapper—never the source page, its SDK shell, ads, or trackers.
+- `MIRROR-MANIFEST.json` records 10 local files totaling 57,344,497 bytes. Preserve it and rerun `node scripts/finalize-rocket-soccer-derby.mjs` after a deliberate asset change.
+- The local compatibility bridge contains no ads, rewards, remote identity, or leaderboard. Unity config/CDP telemetry receives an inert local `data:` response before network-lock; all other cross-origin game requests must remain blocked.
+- The required CSP exception is route-scoped to `/games/rocket-soccer-derby/` because this legacy Unity runtime needs `unsafe-eval`, `wasm-unsafe-eval`, and `blob:`. Do not broaden those directives for the rest of Tip Tap.
+- Isolated VEU proof reached the original car/menu on a `929x917` desktop canvas and a `390x844` mobile canvas with the loader actually hidden, no wrapper error, and no blocked network reports.
+- It is deliberately unranked. Do not invent scoring or claim a remote leaderboard callback.
+- Keep `warmFullMirror: false`: active/next preloading improves swipe readiness, while full background warming competes with the currently visible game on a cold network.
+- The source loader reports a non-fatal requestAnimationFrame performance advisory. Do not mutate a verified mirrored Unity binary solely to hide that browser advisory.
+
 Known external blockers:
 - No destination GitHub remote has been supplied.
 - No final Replit app, production database, hostname, or deployment secrets have been supplied.

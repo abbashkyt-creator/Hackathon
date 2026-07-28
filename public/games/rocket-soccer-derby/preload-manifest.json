@@ -1,0 +1,14 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/rocket-soccer-derby/index.html",
+    "/games/rocket-soccer-derby/tiptap-platform-bridge.js",
+    "/games/rocket-soccer-derby/tiptap-config.js",
+    "/games/rocket-soccer-derby/tiptap-bootstrap.js",
+    "/games/rocket-soccer-derby/UnityLoader.js",
+    "/games/rocket-soccer-derby/Build/RSD 1.1.0rc4.json",
+    "/games/rocket-soccer-derby/Build/RSD 1.1.0rc4.wasm.framework.unityweb",
+    "/games/rocket-soccer-derby/Build/RSD 1.1.0rc4.wasm.code.unityweb",
+    "/games/rocket-soccer-derby/Build/RSD 1.1.0rc4.data.unityweb"
+  ]
+}
