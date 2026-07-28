@@ -68,8 +68,8 @@
     {
       "assetPath": "tiptap-bootstrap.js",
       "provenance": "Tip Tap integration",
-      "bytes": 3364,
-      "sha256": "bf8bc5639f6cfd6b9f0b691b5edf28d96ec2da98f0d3438a04a94392591b4e1d"
+      "bytes": 5066,
+      "sha256": "cfac11fe6af571b6b17fd55b3c4a04d7d152b47d3fa443c870679d28187ad170"
     },
     {
       "assetPath": "tiptap-config.js",

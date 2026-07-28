@@ -3603,6 +3603,13 @@ a:focus-visible,
   background: linear-gradient(145deg, #ff668f, #f33b73);
 }
 
+/* Rocket Soccer is a fixed landscape Unity game. Keep the Tip Tap card
+   vertical, fit the complete 16:9 game at its top, and park feed controls in
+   the remaining vertical space so neither set of controls covers the other. */
+.feed-card.is-expanded.theme-rocket-soccer-derby .social-rail {
+  top: 73%;
+}
+
 @media (max-width: 460px) {
   .feed-card.is-expanded .game-frame {
     right: 8px;
@@ -3622,6 +3629,10 @@ a:focus-visible,
   .feed-card.is-expanded.theme-subway-surfers .social-rail button {
     width: 44px;
     min-height: 44px;
+  }
+
+  .feed-card.is-expanded.theme-rocket-soccer-derby .social-rail {
+    top: 72%;
   }
 }
 

@@ -207,6 +207,7 @@ Current verified Rocket Soccer Derby facts as of 2026-07-28:
 - The local compatibility bridge contains no ads, rewards, remote identity, or leaderboard. Unity config/CDP telemetry receives an inert local `data:` response before network-lock; all other cross-origin game requests must remain blocked.
 - The required CSP exception is route-scoped to `/games/rocket-soccer-derby/` because this legacy Unity runtime needs `unsafe-eval`, `wasm-unsafe-eval`, and `blob:`. Do not broaden those directives for the rest of Tip Tap.
 - Isolated VEU proof reached the original car/menu on a `929x917` desktop canvas and a `390x844` mobile canvas with the loader actually hidden, no wrapper error, and no blocked network reports.
+- Preserve the vertical Tip Tap card, but keep Rocket Soccer's interactive Unity canvas at 16:9 inside it. Fill the card behind it with the muted local live-canvas backdrop and keep Tip Tap controls below the interactive game; stretching Unity to portrait clips the original right-side and bottom controls.
 - It is deliberately unranked. Do not invent scoring or claim a remote leaderboard callback.
 - Keep `warmFullMirror: false`: active/next preloading improves swipe readiness, while full background warming competes with the currently visible game on a cold network.
 - The source loader reports a non-fatal requestAnimationFrame performance advisory. Do not mutate a verified mirrored Unity binary solely to hide that browser advisory.
