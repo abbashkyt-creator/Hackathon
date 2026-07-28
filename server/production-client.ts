@@ -2,7 +2,11 @@ import { existsSync } from "node:fs";
 import { extname, resolve, sep } from "node:path";
 import express, { type Express } from "express";
 
-const GAME_CACHE_CONTROL = "public, max-age=86400, stale-while-revalidate=604800";
+// Game binaries are large and rarely change, so cache them a day — but keep the
+// stale-serve window short so a deploy that DID change a game file (or a client
+// whose service worker was removed) can't be stuck on week-old bytes. The
+// service worker revalidates these on every new build regardless.
+const GAME_CACHE_CONTROL = "public, max-age=86400, stale-while-revalidate=600";
 
 export function attachProductionClient(app: Express, clientPath = resolve(process.cwd(), "dist")) {
   const gamesPath = resolve(clientPath, "games");
@@ -66,5 +70,10 @@ export function attachProductionClient(app: Express, clientPath = resolve(proces
       },
     }),
   );
-  app.get(/.*/, (_req, res) => res.sendFile(resolve(clientPath, "index.html")));
+  // The app shell must always revalidate so a deploy's new hashed asset
+  // references are picked up immediately (the assets themselves are immutable).
+  app.get(/.*/, (_req, res) => {
+    res.setHeader("Cache-Control", "no-cache");
+    res.sendFile(resolve(clientPath, "index.html"));
+  });
 }

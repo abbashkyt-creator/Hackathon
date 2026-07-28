@@ -55,10 +55,20 @@ describe("production client delivery", () => {
 
     expect(game.headers["content-encoding"]).toBe("gzip");
     expect(game.headers["cache-control"]).toBe(
-      "public, max-age=86400, stale-while-revalidate=604800",
+      "public, max-age=86400, stale-while-revalidate=600",
     );
     expect(worker.headers["cache-control"]).toBe("no-cache");
     expect(hashedAsset.headers["cache-control"]).toBe("public, max-age=31536000, immutable");
+  });
+
+  it("serves the app shell with no-cache so deploys are picked up immediately", async () => {
+    const app = express();
+    attachProductionClient(app, root);
+
+    const shell = await request(app).get("/some/spa/route").expect(200);
+
+    expect(shell.headers["content-type"]).toMatch(/text\/html/);
+    expect(shell.headers["cache-control"]).toBe("no-cache");
   });
 
   it("serves build-time Brotli game sidecars without changing the asset type", async () => {
@@ -76,7 +86,7 @@ describe("production client delivery", () => {
     expect(game.headers.vary).toContain("Accept-Encoding");
     expect(game.headers["content-type"]).toContain("application/octet-stream");
     expect(game.headers["cache-control"]).toBe(
-      "public, max-age=86400, stale-while-revalidate=604800",
+      "public, max-age=86400, stale-while-revalidate=600",
     );
   });
 

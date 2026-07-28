@@ -1,5 +1,12 @@
-const SHELL_CACHE = "tip-tap-shell-v4";
-const GAME_CACHE = "tip-tap-games-v8";
+// The build id is stamped in at build time (scripts/stamp-sw-build.mjs). It
+// changes on every deploy, so this file's bytes change every deploy: the browser
+// always sees a new service worker, activates it immediately (skipWaiting), and
+// its activate step purges every previous build's caches. Combined with the
+// client-side auto-reload in main.tsx, every deploy reaches returning users with
+// no manual cache clearing.
+const BUILD = "__TIPTAP_BUILD__";
+const SHELL_CACHE = `tiptap-shell-${BUILD}`;
+const GAME_CACHE = `tiptap-games-${BUILD}`;
 const CURRENT_CACHES = new Set([SHELL_CACHE, GAME_CACHE]);
 const SHELL = ["/", "/manifest.webmanifest", "/icon.svg"];
 const inflightGameFetches = new Map();
@@ -12,6 +19,17 @@ function gameCacheKey(requestOrUrl) {
   url.search = "";
   url.hash = "";
   return url.href;
+}
+
+// Fetch bypassing the browser HTTP cache so a fresh build never serves a file
+// the HTTP layer is still holding onto. `no-cache` revalidates (cheap 304 when
+// unchanged, full body when changed); falls back to a plain fetch if rejected.
+async function freshFetch(request) {
+  try {
+    return await fetch(request, { cache: "no-cache" });
+  } catch {
+    return fetch(request);
+  }
 }
 
 // The Cache API replays stored headers verbatim. Production pre-compresses/gzips
@@ -37,7 +55,7 @@ async function fetchAndCacheGame(request, cache) {
   const key = gameCacheKey(request);
   let pending = inflightGameFetches.get(key);
   if (!pending) {
-    pending = fetch(request)
+    pending = freshFetch(request)
       .then(async (response) => {
         if (response.ok && response.type === "basic") {
           await cache.put(key, await cacheableResponse(response.clone()));
@@ -52,29 +70,42 @@ async function fetchAndCacheGame(request, cache) {
 }
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL)));
+  event.waitUntil(
+    caches
+      .open(SHELL_CACHE)
+      .then((cache) => cache.addAll(SHELL))
+      .catch(() => {}),
+  );
   self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches
-      .keys()
-      .then((keys) =>
-        Promise.all(keys.filter((key) => !CURRENT_CACHES.has(key)).map((key) => caches.delete(key))),
-      ),
+    (async () => {
+      // Purge only our own previous-build caches. Games (e.g. Unity) create their
+      // own same-origin caches; leave those alone so a deploy doesn't force every
+      // engine to re-download its runtime.
+      const keys = await caches.keys();
+      await Promise.all(
+        keys
+          .filter((key) => key.startsWith("tiptap-") && !CURRENT_CACHES.has(key))
+          .map((key) => caches.delete(key)),
+      );
+      await self.clients.claim();
+    })(),
   );
-  self.clients.claim();
 });
 
 self.addEventListener("message", (event) => {
+  if (event.data?.type === "SKIP_WAITING") {
+    self.skipWaiting();
+    return;
+  }
   if (event.data?.type !== "WARM_GAME" || !Array.isArray(event.data.urls)) return;
   const urls = event.data.urls
     .filter((value) => typeof value === "string")
     .map((value) => new URL(value, self.location.origin))
-    .filter(
-      (url) => url.origin === self.location.origin && url.pathname.startsWith("/games/"),
-    );
+    .filter((url) => url.origin === self.location.origin && url.pathname.startsWith("/games/"));
   event.waitUntil(
     caches.open(GAME_CACHE).then(async (cache) => {
       for (let index = 0; index < urls.length; index += 3) {
@@ -82,10 +113,7 @@ self.addEventListener("message", (event) => {
           urls.slice(index, index + 3).map(async (url) => {
             const cached = await cache.match(gameCacheKey(url));
             if (cached) return;
-            await fetchAndCacheGame(
-              new Request(url, { credentials: "same-origin" }),
-              cache,
-            );
+            await fetchAndCacheGame(new Request(url, { credentials: "same-origin" }), cache);
           }),
         );
       }
@@ -93,35 +121,43 @@ self.addEventListener("message", (event) => {
   );
 });
 
+// Navigation: always try the network first so the freshest index.html (and thus
+// the newest hashed asset references) load; fall back to cache when offline.
 async function networkFirstNavigation(request) {
   try {
-    const response = await fetch(request);
+    const response = await freshFetch(request);
     if (response.ok && response.type === "basic") {
       const cache = await caches.open(SHELL_CACHE);
       await cache.put("/", await cacheableResponse(response.clone()));
     }
     return response;
   } catch {
-    return (await caches.match(request)) || (await caches.match("/"));
+    return (await caches.match(request)) || (await caches.match("/")) || Response.error();
   }
 }
 
-async function staleWhileRevalidate(request, cacheName) {
+// Build-versioned cache-first: within a build the cache only ever holds this
+// build's assets (activate purged the rest), so a hit is known-fresh — serve it
+// straight from cache (fast, no revalidation). A miss means the first load of a
+// new build: fetch fresh (bypassing the HTTP cache), store, serve. Every deploy
+// therefore serves fresh without re-downloading unchanged assets within a build.
+async function cacheFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
-  const cacheKey = cacheName === GAME_CACHE ? gameCacheKey(request) : request;
-  const cached = await cache.match(cacheKey);
-  const update =
-    cacheName === GAME_CACHE
-      ? fetchAndCacheGame(request, cache).catch(() => null)
-      : fetch(request)
-          .then(async (response) => {
-            if (response.ok && response.type === "basic") {
-              await cache.put(request, await cacheableResponse(response.clone()));
-            }
-            return response;
-          })
-          .catch(() => null);
-  return cached || (await update) || Response.error();
+  if (cacheName === GAME_CACHE) {
+    const key = gameCacheKey(request);
+    const cached = await cache.match(key);
+    if (cached) return cached;
+    return fetchAndCacheGame(request, cache).catch(async () => {
+      return (await cache.match(key)) || Response.error();
+    });
+  }
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const response = await freshFetch(request).catch(() => null);
+  if (response && response.ok && response.type === "basic") {
+    await cache.put(request, await cacheableResponse(response.clone()));
+  }
+  return response || (await cache.match(request)) || Response.error();
 }
 
 self.addEventListener("fetch", (event) => {
@@ -133,9 +169,6 @@ self.addEventListener("fetch", (event) => {
     return;
   }
   event.respondWith(
-    staleWhileRevalidate(
-      event.request,
-      url.pathname.startsWith("/games/") ? GAME_CACHE : SHELL_CACHE,
-    ),
+    cacheFirst(event.request, url.pathname.startsWith("/games/") ? GAME_CACHE : SHELL_CACHE),
   );
 });
