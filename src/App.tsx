@@ -8,8 +8,10 @@ import {
   LoaderCircle,
   LockKeyhole,
   LogOut,
+  Moon,
   Share2,
   Sparkles,
+  Sun,
   Trophy,
   UserRound,
   Volume2,
@@ -137,6 +139,19 @@ interface FeedEntry {
   game: GameDefinition;
 }
 
+type ColorTheme = "light" | "dark";
+const THEME_STORAGE_KEY = "ttg_theme";
+
+function initialColorTheme(): ColorTheme {
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    if (stored === "light" || stored === "dark") return stored;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  } catch {
+    return "light";
+  }
+}
+
 function useDialogClose(open: boolean, onClose: () => void) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const onCloseRef = useRef(onClose);
@@ -193,13 +208,17 @@ function Avatar({ player, size = "md" }: { player: Player; size?: "sm" | "md" })
 function AppHeader({
   player,
   soundEnabled,
+  colorTheme,
   onToggleSound,
+  onToggleTheme,
   onOpenGames,
   onProfile,
 }: {
   player: Player;
   soundEnabled: boolean;
+  colorTheme: ColorTheme;
   onToggleSound: () => void;
+  onToggleTheme: () => void;
   onOpenGames: () => void;
   onProfile: () => void;
 }) {
@@ -227,6 +246,16 @@ function AppHeader({
           aria-pressed={soundEnabled}
         >
           {soundEnabled ? <Volume2 size={19} /> : <VolumeX size={19} />}
+        </button>
+        <button
+          type="button"
+          className="icon-button theme-toggle"
+          onClick={onToggleTheme}
+          aria-label={colorTheme === "dark" ? "Switch to daylight mode" : "Switch to darklight mode"}
+          aria-pressed={colorTheme === "dark"}
+          title={colorTheme === "dark" ? "Daylight mode" : "Darklight mode"}
+        >
+          {colorTheme === "dark" ? <Sun size={19} /> : <Moon size={19} />}
         </button>
         <button
           type="button"
@@ -1207,6 +1236,7 @@ export function App() {
   const [soundEnabled, setSoundEnabled] = useState(
     () => window.localStorage.getItem("ttg_sound") !== "off",
   );
+  const [colorTheme, setColorTheme] = useState<ColorTheme>(initialColorTheme);
   const [pageVisible, setPageVisible] = useState(() => document.visibilityState === "visible");
   const [warmAheadEnabled, setWarmAheadEnabled] = useState(false);
   const [hapticsEnabled] = useState(
@@ -1282,6 +1312,19 @@ export function App() {
     document.addEventListener("visibilitychange", onVisibility);
     return () => document.removeEventListener("visibilitychange", onVisibility);
   }, []);
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = colorTheme;
+    document.documentElement.style.colorScheme = colorTheme;
+    document
+      .querySelector<HTMLMetaElement>('meta[name="theme-color"]')
+      ?.setAttribute("content", colorTheme === "dark" ? "#171a30" : "#fbfaff");
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, colorTheme);
+    } catch {
+      // Theme still works for the current visit when storage is unavailable.
+    }
+  }, [colorTheme]);
 
   useEffect(() => {
     setWarmAheadEnabled(false);
@@ -1391,6 +1434,10 @@ export function App() {
     });
   };
 
+  const toggleColorTheme = () => {
+    setColorTheme((current) => (current === "dark" ? "light" : "dark"));
+  };
+
   const jumpToGame = useCallback(
     (slug: string) => {
       setGamesOpen(false);
@@ -1422,7 +1469,9 @@ export function App() {
       <AppHeader
         player={bootstrap.player}
         soundEnabled={soundEnabled}
+        colorTheme={colorTheme}
         onToggleSound={toggleSound}
+        onToggleTheme={toggleColorTheme}
         onOpenGames={() => setGamesOpen(true)}
         onProfile={() => setAuthOpen(true)}
       />

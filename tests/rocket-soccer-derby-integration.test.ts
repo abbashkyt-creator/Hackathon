@@ -34,4 +34,17 @@ describe("Rocket Soccer Derby local integration", () => {
     expect(bridge).toContain("commercialBreak: () => resolved()");
     expect(bridge).not.toMatch(/https?:\/\//);
   });
+
+  it("provides multi-touch mobile driving controls with stuck-key protection", () => {
+    const bootstrap = read("tiptap-bootstrap.js");
+    expect(bootstrap).toContain('id="touch-controls"');
+    expect(bootstrap).toContain('data-control="forward"');
+    expect(bootstrap).toContain('data-control="nitro"');
+    expect(bootstrap).toContain('data-control="jump"');
+    expect(bootstrap).toContain("activePointers = new Map()");
+    expect(bootstrap).toContain('dispatchKey("keydown"');
+    expect(bootstrap).toContain('dispatchKey("keyup"');
+    expect(bootstrap).toContain('window.addEventListener("blur", releaseAllControls)');
+    expect(bootstrap).toContain("touch-action:none");
+  });
 });

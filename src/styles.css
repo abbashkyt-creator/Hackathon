@@ -3649,3 +3649,316 @@ a:focus-visible,
   }
 
 }
+
+/* --------------------------------------------------------------------------
+   Persistent daylight / darklight modes
+   -------------------------------------------------------------------------- */
+
+.theme-toggle svg {
+  transition: transform 180ms ease;
+}
+
+.theme-toggle:hover svg {
+  transform: rotate(-12deg) scale(1.08);
+}
+
+html[data-theme="dark"] {
+  color: #f7f5ff;
+  background: #11152a;
+  --ink: #f7f5ff;
+  --panel: rgba(32, 37, 65, 0.95);
+  --muted: #bdc5df;
+  --soft-purple: #29274f;
+  --line: #4b4b73;
+  --paper-shadow: 0 22px 55px rgba(0, 0, 0, 0.38);
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] #root {
+  background: #11152a;
+}
+
+html[data-theme="dark"] body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 14%, rgba(43, 190, 255, 0.28), transparent 28%),
+    radial-gradient(circle at 88% 82%, rgba(172, 91, 255, 0.3), transparent 30%),
+    radial-gradient(circle at 52% 46%, rgba(69, 92, 188, 0.16), transparent 42%),
+    linear-gradient(145deg, #10172e 0%, #171a34 46%, #25183f 100%);
+}
+
+html[data-theme="dark"] body::before {
+  border-color: rgba(73, 198, 255, 0.19);
+}
+
+html[data-theme="dark"] body::after {
+  border-color: rgba(169, 103, 255, 0.2);
+}
+
+html[data-theme="dark"] button:focus-visible,
+html[data-theme="dark"] a:focus-visible,
+html[data-theme="dark"] .claim-button:focus-visible,
+html[data-theme="dark"] .result-actions button:focus-visible,
+html[data-theme="dark"] .auth-button:focus-visible {
+  outline-color: #fff;
+}
+
+html[data-theme="dark"] .app-shell {
+  color: var(--ink);
+  background: #171a30;
+  box-shadow:
+    0 0 0 1px rgba(157, 141, 255, 0.24),
+    0 28px 90px rgba(3, 5, 18, 0.48),
+    0 0 70px rgba(91, 81, 205, 0.13);
+}
+
+html[data-theme="dark"] .app-header {
+  color: var(--ink);
+  background: linear-gradient(180deg, rgba(16, 20, 40, 0.99) 64%, rgba(16, 20, 40, 0));
+}
+
+html[data-theme="dark"] .app-header::before {
+  border-color: rgba(177, 164, 255, 0.32);
+  background: rgba(30, 34, 59, 0.92);
+  box-shadow:
+    0 8px 24px rgba(3, 5, 18, 0.32),
+    0 1px 0 rgba(255, 255, 255, 0.14) inset,
+    0 0 28px rgba(92, 112, 255, 0.09);
+}
+
+html[data-theme="dark"] .donate-pill,
+html[data-theme="dark"] .icon-button,
+html[data-theme="dark"] .avatar-button {
+  border-color: rgba(190, 179, 255, 0.3);
+  color: #e9e5ff;
+  background: rgba(38, 42, 69, 0.96);
+  box-shadow:
+    0 5px 13px rgba(3, 5, 18, 0.28),
+    0 1px 0 rgba(255, 255, 255, 0.13) inset;
+}
+
+html[data-theme="dark"] .donate-pill {
+  border-color: rgba(255, 255, 255, 0.9);
+  color: #fff;
+  background: linear-gradient(135deg, #ff5c8b 0%, #f33c75 58%, #df285f 100%);
+  box-shadow:
+    0 4px 0 #8f1c42,
+    0 8px 18px rgba(225, 41, 101, 0.22);
+}
+
+html[data-theme="dark"] .player-label {
+  color: #d9d3ff;
+}
+
+html[data-theme="dark"] .feed-card {
+  color: var(--ink);
+  background: #171a30;
+}
+
+html[data-theme="dark"] .card-atmosphere {
+  background:
+    radial-gradient(circle at 84% 13%, color-mix(in srgb, var(--accent) 27%, transparent), transparent 31%),
+    radial-gradient(circle at 8% 80%, rgba(177, 103, 255, 0.24), transparent 34%),
+    linear-gradient(154deg, #202844 0%, #191e36 52%, #2a1d45 100%);
+}
+
+html[data-theme="dark"] .game-caption,
+html[data-theme="dark"] .theme-subway-surfers .game-caption {
+  border-color: #4b4c72;
+  color: var(--ink);
+  background: rgba(31, 35, 59, 0.95);
+  box-shadow:
+    0 9px 0 rgba(5, 7, 23, 0.22),
+    0 18px 32px rgba(4, 6, 22, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.12) inset,
+    0 0 26px color-mix(in srgb, var(--accent) 9%, transparent);
+}
+
+html[data-theme="dark"] .game-caption h2 {
+  color: #f7f5ff;
+}
+
+html[data-theme="dark"] .game-caption p {
+  color: #c8cce0;
+}
+
+html[data-theme="dark"] .game-caption p strong,
+html[data-theme="dark"] .swipe-hint {
+  color: #a98cff;
+}
+
+html[data-theme="dark"] .creator-line {
+  color: color-mix(in srgb, var(--accent) 72%, #ddd5ff);
+}
+
+html[data-theme="dark"] .social-rail button,
+html[data-theme="dark"] .theme-subway-surfers .social-rail button,
+html[data-theme="dark"] .feed-card.is-expanded .social-rail button,
+html[data-theme="dark"] .feed-card.is-expanded.theme-subway-surfers .social-rail button {
+  border-color: rgba(255, 255, 255, 0.32);
+  color: #eeeaff;
+  background: rgba(39, 43, 70, 0.93);
+  box-shadow:
+    0 4px 0 rgba(0, 0, 0, 0.55),
+    0 10px 22px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] .sheet-backdrop {
+  background: rgba(8, 10, 25, 0.68);
+}
+
+html[data-theme="dark"] .bottom-sheet {
+  border-color: rgba(203, 193, 255, 0.22);
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 90% 4%, rgba(49, 182, 255, 0.2), transparent 26%),
+    radial-gradient(circle at 7% 94%, rgba(162, 91, 255, 0.2), transparent 28%),
+    #1a1f36;
+  box-shadow:
+    0 -8px 0 rgba(7, 9, 25, 0.24),
+    0 -28px 70px rgba(3, 5, 18, 0.5);
+}
+
+html[data-theme="dark"] .sheet-close {
+  border-color: #565477;
+  color: #ddd5ff;
+  background: #292d48;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] .games-sheet h2,
+html[data-theme="dark"] .games-sheet-heading h2,
+html[data-theme="dark"] .sheet-title h2,
+html[data-theme="dark"] .auth-sheet h2 {
+  color: #f7f5ff;
+}
+
+html[data-theme="dark"] .games-sheet > p,
+html[data-theme="dark"] .games-sheet-heading p,
+html[data-theme="dark"] .sheet-title p,
+html[data-theme="dark"] .auth-sheet p {
+  color: #acadc2;
+}
+
+html[data-theme="dark"] .game-chip {
+  border-color: color-mix(in srgb, var(--accent, #7650de) 42%, #45445f);
+  color: #eeeaff;
+  background: rgba(35, 39, 64, 0.96);
+  box-shadow:
+    0 5px 0 rgba(0, 0, 0, 0.3),
+    0 11px 18px rgba(0, 0, 0, 0.23);
+}
+
+html[data-theme="dark"] .game-chip-copy small,
+html[data-theme="dark"] .empty-board,
+html[data-theme="dark"] .your-rank,
+html[data-theme="dark"] .auth-sheet > small,
+html[data-theme="dark"] .saving-score {
+  color: #a7a8bc;
+}
+
+html[data-theme="dark"] .game-chip:hover,
+html[data-theme="dark"] .game-chip:focus-visible {
+  color: #fff;
+  background: #343958;
+}
+
+html[data-theme="dark"] .game-chip.is-current {
+  color: #fff;
+  background: var(--brand-grad);
+}
+
+html[data-theme="dark"] .period-tabs,
+html[data-theme="dark"] .auth-unavailable,
+html[data-theme="dark"] .logout-button {
+  border-color: #4d4b69;
+  color: #c8c5dd;
+  background: #292d48;
+}
+
+html[data-theme="dark"] .period-tabs button {
+  color: #aaa9c0;
+}
+
+html[data-theme="dark"] .rank-row {
+  border-color: #40405d;
+  color: #eeeaff;
+}
+
+html[data-theme="dark"] .rank-row > strong {
+  color: #aaa9bd;
+}
+
+html[data-theme="dark"] .empty-board strong,
+html[data-theme="dark"] .result-stats b {
+  color: #eeeaff;
+}
+
+html[data-theme="dark"] .auth-button.google,
+html[data-theme="dark"] .result-actions button {
+  border-color: #4d4b69;
+  color: #ded9ff;
+  background: #292d48;
+  box-shadow: 0 5px 0 #17192b;
+}
+
+html[data-theme="dark"] .result-overlay {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 50% 34%, color-mix(in srgb, var(--accent) 27%, transparent), transparent 31%),
+    rgba(22, 25, 43, 0.97);
+}
+
+html[data-theme="dark"] .result-stats {
+  border-color: #4d4b69;
+  background: rgba(39, 43, 70, 0.9);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+}
+
+html[data-theme="dark"] .result-stats span {
+  color: #aaa9bd;
+}
+
+html[data-theme="dark"] .result-stats span + span {
+  border-color: #3a3752;
+}
+
+html[data-theme="dark"] .swipe-next {
+  color: #aaa9bd;
+}
+
+html[data-theme="dark"] .boot-screen {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(43, 184, 255, 0.22), transparent 29%),
+    radial-gradient(circle at 80% 80%, rgba(161, 86, 255, 0.23), transparent 31%),
+    #171a30;
+}
+
+html[data-theme="dark"] .boot-screen > span,
+html[data-theme="dark"] .boot-screen p {
+  color: #aaa9bd;
+}
+
+@media (min-width: 700px) {
+  html[data-theme="dark"] body {
+    background:
+      radial-gradient(circle at 13% 18%, rgba(43, 184, 255, 0.25), transparent 28%),
+      radial-gradient(circle at 87% 78%, rgba(165, 85, 255, 0.27), transparent 30%),
+      linear-gradient(145deg, #10172d 0%, #181c36 48%, #271a42 100%);
+  }
+
+  html[data-theme="dark"] .app-shell {
+    border-color: rgba(169, 153, 255, 0.22);
+    box-shadow:
+      0 0 0 8px rgba(24, 28, 50, 0.55),
+      0 32px 100px rgba(3, 5, 18, 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle svg {
+    transition: none;
+  }
+}
