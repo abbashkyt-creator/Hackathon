@@ -127,7 +127,8 @@ function Logo({ compact = false }: { compact?: boolean }) {
         <span />
       </span>
       <strong>
-        TIP TAP <em>GAMES</em>
+        <span className="tip">Tip</span>
+        <span className="tap">Tap</span>
       </strong>
     </div>
   );

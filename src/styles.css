@@ -5,7 +5,12 @@
   background: #07080b;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --lime: #c8ff00;
+  /* TipTap brand palette (from the promo identity): a playful blue -> purple
+     signature with a pink pop, on the same dark immersive feed. */
+  --brand: #38b6ff;
+  --brand-2: #a259ff;
+  --brand-3: #ff5ea8;
+  --brand-grad: linear-gradient(135deg, #38b6ff 0%, #7b6bff 48%, #a259ff 100%);
   --ink: #07080b;
   --panel: rgba(13, 16, 22, 0.92);
   --muted: #a6adba;
@@ -80,20 +85,35 @@ a:focus-visible {
   gap: 13px;
 }
 
+/* The TipTap bubble wordmark: rounded heavy type with a blue "Tip" and a purple
+   "Tap", lifted off the header with a layered drop-shadow for a 3D bubble feel.
+   Gradient text is clipped to the glyphs, so depth uses drop-shadow (which the
+   clip respects) rather than text-shadow (which it would swallow). */
 .brand strong {
-  color: #fff;
-  font-family: Impact, "Arial Black", sans-serif;
-  font-size: clamp(28px, 7vw, 50px);
-  font-style: italic;
-  letter-spacing: -1.5px;
-  line-height: 0.85;
-  transform: skew(-5deg);
-  text-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
+  display: inline-flex;
+  align-items: baseline;
+  font-family: "Arial Rounded MT Bold", "Baloo 2", "Segoe UI", Arial, sans-serif;
+  font-weight: 900;
+  font-size: clamp(26px, 6.6vw, 46px);
+  font-style: normal;
+  letter-spacing: -0.6px;
+  line-height: 0.9;
 }
 
-.brand strong em {
-  color: var(--lime);
-  font-style: normal;
+.brand strong .tip,
+.brand strong .tap {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 2px 0 rgba(8, 12, 30, 0.55)) drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4));
+}
+
+.brand strong .tip {
+  background-image: linear-gradient(180deg, #8fd8ff 0%, #2aa8ff 100%);
+}
+
+.brand strong .tap {
+  background-image: linear-gradient(180deg, #c79bff 0%, #8b3bff 100%);
 }
 
 .brand-mark {
@@ -103,9 +123,9 @@ a:focus-visible {
   height: 54px;
   place-items: center;
   border-radius: 17px;
-  background: var(--lime);
+  background: var(--brand-grad);
   transform: rotate(-6deg);
-  box-shadow: 0 0 28px rgba(200, 255, 0, 0.28);
+  box-shadow: 0 6px 18px rgba(122, 90, 255, 0.4);
 }
 
 .brand-mark::before,
@@ -233,10 +253,10 @@ a:focus-visible {
   display: inline-grid;
   place-items: center;
   overflow: hidden;
-  border: 2px solid var(--lime);
+  border: 2px solid var(--brand);
   border-radius: 50%;
   background: #1a1f28;
-  color: var(--lime);
+  color: var(--brand);
 }
 
 .avatar img {
@@ -275,7 +295,7 @@ a:focus-visible {
 }
 
 .feed-card {
-  --accent: var(--lime);
+  --accent: var(--brand);
   position: relative;
   isolation: isolate;
   width: 100%;
@@ -617,8 +637,8 @@ a:focus-visible {
 
 .feed-progress i.is-active {
   height: 23px;
-  background: var(--lime);
-  box-shadow: 0 0 10px var(--lime);
+  background: var(--brand);
+  box-shadow: 0 0 10px var(--brand);
 }
 
 .run-loading,
@@ -711,7 +731,7 @@ a:focus-visible {
 .pulse-lock {
   color: #fff;
   background:
-    radial-gradient(circle at 50% 58%, rgba(200, 255, 0, 0.12), transparent 28%),
+    radial-gradient(circle at 50% 58%, rgba(56, 182, 255, 0.12), transparent 28%),
     linear-gradient(160deg, #0b1618, #080a0f);
 }
 
@@ -724,7 +744,7 @@ a:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 35px rgba(200, 255, 0, 0.1);
+  box-shadow: 0 0 35px rgba(56, 182, 255, 0.1);
 }
 
 .pulse-track::after {
@@ -743,10 +763,10 @@ a:focus-visible {
   top: 50%;
   width: 18%;
   height: 36px;
-  border: 2px solid var(--lime);
+  border: 2px solid var(--brand);
   border-radius: 99px;
-  background: rgba(200, 255, 0, 0.18);
-  box-shadow: 0 0 30px rgba(200, 255, 0, 0.45);
+  background: rgba(56, 182, 255, 0.18);
+  box-shadow: 0 0 30px rgba(56, 182, 255, 0.45);
   transform: translate(-50%, -50%);
 }
 
@@ -758,8 +778,8 @@ a:focus-visible {
   height: 48px;
   border: 4px solid #fff;
   border-radius: 99px;
-  background: var(--lime);
-  box-shadow: 0 0 23px var(--lime);
+  background: var(--brand);
+  box-shadow: 0 0 23px var(--brand);
   transform: translate(-50%, -50%);
 }
 
@@ -776,7 +796,7 @@ a:focus-visible {
 
 .game-center-copy span,
 .game-center-copy small {
-  color: var(--lime);
+  color: var(--brand);
   font-size: 10px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -790,7 +810,7 @@ a:focus-visible {
 
 .ambient-ring {
   position: absolute;
-  border: 1px solid rgba(200, 255, 0, 0.12);
+  border: 1px solid rgba(56, 182, 255, 0.12);
   border-radius: 50%;
 }
 
@@ -967,8 +987,8 @@ a:focus-visible {
 
 .stack-block.is-moving {
   z-index: 5;
-  background: linear-gradient(90deg, #c8ff00, #21d4fd);
-  box-shadow: 0 0 25px rgba(200, 255, 0, 0.45);
+  background: linear-gradient(90deg, #38b6ff, #a259ff);
+  box-shadow: 0 0 25px rgba(56, 182, 255, 0.45);
 }
 
 .tap-callout,
@@ -1098,10 +1118,10 @@ a:focus-visible {
   height: 28px;
   border: 3px solid #fff;
   border-radius: 50%;
-  background: #c8ff00;
+  background: #38b6ff;
   box-shadow:
-    0 0 13px #c8ff00,
-    0 0 32px rgba(200, 255, 0, 0.65);
+    0 0 13px #38b6ff,
+    0 0 32px rgba(56, 182, 255, 0.65);
   transform: translate(-50%, -50%);
 }
 
@@ -1112,7 +1132,7 @@ a:focus-visible {
   left: -14px;
   top: 10px;
   border-radius: 50%;
-  background: rgba(200, 255, 0, 0.65);
+  background: rgba(56, 182, 255, 0.65);
   filter: blur(5px);
   transform: rotate(-55deg);
 }
@@ -1481,7 +1501,7 @@ a:focus-visible {
   border-bottom: 0;
   border-radius: 30px 30px 0 0;
   background:
-    radial-gradient(circle at 85% 0, rgba(200, 255, 0, 0.12), transparent 30%),
+    radial-gradient(circle at 85% 0, rgba(56, 182, 255, 0.12), transparent 30%),
     #0c0f14;
   box-shadow: 0 -20px 70px rgba(0, 0, 0, 0.5);
   animation: sheet-up 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -1523,9 +1543,9 @@ a:focus-visible {
   align-items: center;
   gap: 9px;
   padding: 13px 14px;
-  border: 1px solid color-mix(in srgb, var(--accent, #c8ff00) 45%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent, #38b6ff) 45%, transparent);
   border-radius: 14px;
-  background: color-mix(in srgb, var(--accent, #c8ff00) 9%, #12161d);
+  background: color-mix(in srgb, var(--accent, #38b6ff) 9%, #12161d);
   color: #fff;
   font-weight: 800;
   font-size: 13px;
@@ -1543,13 +1563,13 @@ a:focus-visible {
   height: 40px;
   overflow: hidden;
   border-radius: 10px;
-  background: var(--accent, #c8ff00);
+  background: var(--accent, #38b6ff);
   color: #0b0e13;
   font-family: Impact, "Arial Black", sans-serif;
   font-size: 15px;
   font-weight: 900;
   letter-spacing: 0.5px;
-  box-shadow: 0 0 12px color-mix(in srgb, var(--accent, #c8ff00) 40%, transparent);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--accent, #38b6ff) 40%, transparent);
 }
 
 /* Real game thumbnail; if it 404s, onError hides it and the monogram shows. */
@@ -1570,13 +1590,13 @@ a:focus-visible {
 .game-chip:hover,
 .game-chip:focus-visible {
   transform: translateY(-1px);
-  background: color-mix(in srgb, var(--accent, #c8ff00) 18%, #12161d);
-  border-color: color-mix(in srgb, var(--accent, #c8ff00) 75%, transparent);
+  background: color-mix(in srgb, var(--accent, #38b6ff) 18%, #12161d);
+  border-color: color-mix(in srgb, var(--accent, #38b6ff) 75%, transparent);
 }
 
 .game-chip.is-current {
-  background: color-mix(in srgb, var(--accent, #c8ff00) 24%, #12161d);
-  border-color: var(--accent, #c8ff00);
+  background: color-mix(in srgb, var(--accent, #38b6ff) 24%, #12161d);
+  border-color: var(--accent, #38b6ff);
 }
 
 .sheet-close {
@@ -1605,7 +1625,7 @@ a:focus-visible {
   right: 24px;
   width: 42px;
   height: 42px;
-  color: var(--lime);
+  color: var(--brand);
 }
 
 .live-chip {
@@ -1613,9 +1633,9 @@ a:focus-visible {
   gap: 5px;
   padding: 4px 8px;
   align-items: center;
-  border: 1px solid var(--lime);
+  border: 1px solid var(--brand);
   border-radius: 7px;
-  color: var(--lime);
+  color: var(--brand);
   font-size: 9px;
   font-weight: 950;
   letter-spacing: 1px;
@@ -1625,8 +1645,8 @@ a:focus-visible {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 10px var(--lime);
+  background: var(--brand);
+  box-shadow: 0 0 10px var(--brand);
 }
 
 .sheet-title h2,
@@ -1668,7 +1688,7 @@ a:focus-visible {
 
 .period-tabs button.is-active {
   color: #0a0b0d;
-  background: var(--lime);
+  background: var(--brand);
 }
 
 .leaderboard-list {
@@ -1706,7 +1726,7 @@ a:focus-visible {
   border: 0;
   border-radius: 11px;
   color: #090a0d;
-  background: var(--lime);
+  background: var(--brand);
 }
 
 .rank-row.is-you > strong {
@@ -1742,7 +1762,7 @@ a:focus-visible {
 
 .empty-board svg {
   margin-bottom: 10px;
-  color: var(--lime);
+  color: var(--brand);
 }
 
 .empty-board strong {
@@ -1764,7 +1784,7 @@ a:focus-visible {
 }
 
 .your-rank strong {
-  color: var(--lime);
+  color: var(--brand);
 }
 
 .auth-sheet {
@@ -1837,7 +1857,7 @@ a:focus-visible {
 
 .auth-unavailable svg {
   flex: 0 0 auto;
-  color: var(--lime);
+  color: var(--brand);
 }
 
 .logout-button {
@@ -1956,7 +1976,7 @@ a:focus-visible {
   border: 1px solid var(--accent);
   border-radius: 12px;
   color: var(--accent);
-  background: rgba(200, 255, 0, 0.06);
+  background: rgba(56, 182, 255, 0.06);
   font-size: 11px;
   font-weight: 850;
 }
@@ -2023,7 +2043,7 @@ a:focus-visible {
   place-items: center;
   gap: 26px;
   background:
-    radial-gradient(circle at 50% 35%, rgba(200, 255, 0, 0.13), transparent 28%),
+    radial-gradient(circle at 50% 35%, rgba(56, 182, 255, 0.13), transparent 28%),
     #07080b;
   text-align: center;
 }
@@ -2044,7 +2064,7 @@ a:focus-visible {
   padding: 12px 19px;
   border: 0;
   border-radius: 12px;
-  background: var(--lime);
+  background: var(--brand);
   color: #08090b;
   font-weight: 950;
 }
@@ -2054,7 +2074,7 @@ a:focus-visible {
   width: 66px;
   height: 66px;
   place-items: center;
-  border: 1px solid rgba(200, 255, 0, 0.35);
+  border: 1px solid rgba(56, 182, 255, 0.35);
   border-radius: 50%;
   animation: pulse-ring 1.1s ease-in-out infinite;
 }
@@ -2063,8 +2083,8 @@ a:focus-visible {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 24px var(--lime);
+  background: var(--brand);
+  box-shadow: 0 0 24px var(--brand);
 }
 
 .spin {
@@ -2099,7 +2119,7 @@ a:focus-visible {
 @keyframes pulse-ring {
   50% {
     transform: scale(1.08);
-    box-shadow: 0 0 35px rgba(200, 255, 0, 0.18);
+    box-shadow: 0 0 35px rgba(56, 182, 255, 0.18);
   }
 }
 
@@ -2124,7 +2144,7 @@ a:focus-visible {
 @media (min-width: 700px) {
   body {
     background:
-      radial-gradient(circle at 20% 15%, rgba(200, 255, 0, 0.08), transparent 28%),
+      radial-gradient(circle at 20% 15%, rgba(56, 182, 255, 0.08), transparent 28%),
       radial-gradient(circle at 80% 80%, rgba(129, 54, 255, 0.1), transparent 30%),
       #050608;
   }

@@ -13,7 +13,7 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
       slug: "pulse-lock",
       title: "Pulse Lock",
       rule_text: "Tap when the pulse hits the live zone.",
-      accent: "#c8ff00",
+      accent: "#38b6ff",
     },
     {
       slug: "color-clash",

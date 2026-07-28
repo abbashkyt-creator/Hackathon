@@ -45,7 +45,7 @@ export interface LeaderboardResult {
 type SqlParams = Array<string | number | null>;
 
 const GAME_SEED: GameRecord[] = [
-  { slug: "pulse-lock", title: "Pulse Lock", rule_text: "Tap when the pulse hits the live zone.", accent: "#c8ff00" },
+  { slug: "pulse-lock", title: "Pulse Lock", rule_text: "Tap when the pulse hits the live zone.", accent: "#38b6ff" },
   { slug: "color-clash", title: "Color Clash", rule_text: "Tap the color named, not the color shown.", accent: "#b06cff" },
   { slug: "stack-shift", title: "Stack Shift", rule_text: "Tap to lock each moving block in place.", accent: "#21d4fd" },
   { slug: "memory-grid", title: "Memory Grid", rule_text: "Watch the signal. Repeat the growing pattern.", accent: "#ff4fd8" },
