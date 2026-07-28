@@ -82,13 +82,15 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {
-      // Purge only our own previous-build caches. Games (e.g. Unity) create their
-      // own same-origin caches; leave those alone so a deploy doesn't force every
-      // engine to re-download its runtime.
+      // Purge only our own previous caches (both the new `tiptap-` build-versioned
+      // names and the legacy `tip-tap-*-vN` names, so the transition to this
+      // system clears the old poisoned caches too). Leave foreign caches — e.g.
+      // Unity's own runtime cache — intact so a deploy doesn't force every engine
+      // to re-download its runtime.
       const keys = await caches.keys();
       await Promise.all(
         keys
-          .filter((key) => key.startsWith("tiptap-") && !CURRENT_CACHES.has(key))
+          .filter((key) => /^tip-?tap-/.test(key) && !CURRENT_CACHES.has(key))
           .map((key) => caches.delete(key)),
       );
       await self.clients.claim();
