@@ -18,7 +18,24 @@
     // is never a production/source-game exception and cannot reach Poki or any
     // other public host.
     const previewHost = new Set(["127.0.0.1", "localhost"]);
-    const inspectionPorts = new Set(["3456", "3457", "3458", "3459", "3460"]);
+    // Reserve a small, explicit range so parallel agents can use separate VEU
+    // profiles without the development overlay being mistaken for game traffic.
+    const inspectionPorts = new Set([
+      "3456",
+      "3457",
+      "3458",
+      "3459",
+      "3460",
+      "3461",
+      "3462",
+      "3463",
+      "3464",
+      "3465",
+      "3466",
+      "3467",
+      "3468",
+      "3469",
+    ]);
     return (
       previewHost.has(window.location.hostname) &&
       previewHost.has(url.hostname) &&
@@ -43,37 +60,56 @@
     window.dispatchEvent(new CustomEvent("tiptap-network-blocked", { detail }));
   };
 
-  // Sitelock spoof: some mirrored Poki games (Subway Surfers) run an embedded
-  // sitelock that, when the game is framed by a non-Poki origin, frame-busts by
-  // navigating itself to https://poki.com/sitelock. Because Tip Tap embeds every
-  // game in an iframe, present an authorized Poki embedder to that check so the
-  // game stays on its own local origin. This only affects the referrer/ancestor
-  // signals the sitelock inspects; no network ever reaches Poki.
-  const POKI_ORIGIN = "https://poki.com";
-  try {
-    Object.defineProperty(document, "referrer", {
-      configurable: true,
-      get: () => POKI_ORIGIN + "/",
-    });
-  } catch {
-    // Referrer is read-only in this engine; ancestorOrigins spoof still applies.
-  }
-  try {
-    const ancestors = {
-      length: 1,
-      0: POKI_ORIGIN,
-      item: (i) => (i === 0 ? POKI_ORIGIN : null),
-      contains: (value) => String(value).includes("poki"),
-      [Symbol.iterator]: function* () {
-        yield POKI_ORIGIN;
-      },
-    };
-    Object.defineProperty(window.location, "ancestorOrigins", {
-      configurable: true,
-      get: () => ancestors,
-    });
-  } catch {
-    // ancestorOrigins is unforgeable here; referrer spoof still applies.
+  // A few authorized Poki-source mirrors contain an embedder check. Scope its
+  // compatibility signal to those folders only. Applying it globally breaks
+  // other platforms' legitimate localhost checks (CrazyGames SiteLock v1.9.0,
+  // used by Dig out of Prison, intentionally rejects a Poki referrer).
+  const pokiMirrorFolders = new Set([
+    "67-game",
+    "arithmetica",
+    "city-cab-rush",
+    "count-control-legends",
+    "dino-game",
+    "fruit-ninja",
+    "johnny-trigger-sniper",
+    "kitty-loves-birds-2",
+    "ping-pong-go",
+    "plonky",
+    "smash-room",
+    "stickman-fury",
+    "subway-surfers",
+    "supercar-legends",
+    "temple-run-2-frozen-shadows",
+    "theft-city",
+  ]);
+  const gameFolder = window.location.pathname.split("/")[2] || "";
+  if (pokiMirrorFolders.has(gameFolder)) {
+    const POKI_ORIGIN = "https://poki.com";
+    try {
+      Object.defineProperty(document, "referrer", {
+        configurable: true,
+        get: () => POKI_ORIGIN + "/",
+      });
+    } catch {
+      // Referrer is read-only in this engine; ancestorOrigins spoof still applies.
+    }
+    try {
+      const ancestors = {
+        length: 1,
+        0: POKI_ORIGIN,
+        item: (i) => (i === 0 ? POKI_ORIGIN : null),
+        contains: (value) => String(value).includes("poki"),
+        [Symbol.iterator]: function* () {
+          yield POKI_ORIGIN;
+        },
+      };
+      Object.defineProperty(window.location, "ancestorOrigins", {
+        configurable: true,
+        get: () => ancestors,
+      });
+    } catch {
+      // ancestorOrigins is unforgeable here; referrer spoof still applies.
+    }
   }
 
   const nativeFetch = window.fetch.bind(window);

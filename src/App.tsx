@@ -1,7 +1,11 @@
 import {
+  Bookmark,
+  Check,
   ChevronDown,
   ChevronUp,
+  Compass,
   Crown,
+  Flame,
   Gamepad2,
   Heart,
   LayoutGrid,
@@ -9,10 +13,12 @@ import {
   LockKeyhole,
   LogOut,
   Moon,
+  Search,
   Share2,
   Sparkles,
   Sun,
   Trophy,
+  Users,
   UserRound,
   Volume2,
   VolumeX,
@@ -28,6 +34,7 @@ import {
   type ComponentType,
 } from "react";
 import { api } from "./api";
+import { getGameCatalogMetadata } from "../shared/catalog";
 import {
   isEmbeddedGame,
   shouldPrepareByMount,
@@ -44,6 +51,7 @@ import {
   CountControlLegendsGame,
   JohnnyTriggerSniperGame,
   RocketSoccerDerbyGame,
+  DigOutOfPrisonGame,
   DinoRunnerGame,
   MemoryGridGame,
   MeteorDodgeGame,
@@ -66,8 +74,10 @@ import type {
   BootstrapData,
   Challenge,
   GameDefinition,
+  GameEngagement,
   GameProps,
   GameSlug,
+  GlobalLeaderboardResult,
   LeaderboardResult,
   LikeState,
   Player,
@@ -92,6 +102,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "count-control-legends": CountControlLegendsGame,
   "johnny-trigger-sniper": JohnnyTriggerSniperGame,
   "rocket-soccer-derby": RocketSoccerDerbyGame,
+  "dig-out-of-prison": DigOutOfPrisonGame,
   "kitty-loves-birds-2": KittyLovesBirds2Game,
   "theft-city": TheftCityGame,
   "city-cab-rush": CityCabRushGame,
@@ -126,6 +137,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "count-control-legends": "COUNT. MULTIPLY. CONQUER.",
   "johnny-trigger-sniper": "AIM CAREFULLY. SAVE THE CITY.",
   "rocket-soccer-derby": "BOOST. HIT. SCORE.",
+  "dig-out-of-prison": "DIG. GATHER. ESCAPE.",
   "kitty-loves-birds-2": "RUN. LEAP. BOUNCE ON BIRDS.",
   "theft-city": "STEAL. ESCAPE. RULE THE CITY.",
   "city-cab-rush": "DRIVE FAST. DODGE TRAFFIC. PICK UP FARES.",
@@ -177,18 +189,15 @@ function useDialogClose(open: boolean, onClose: () => void) {
 
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <div className={`brand ${compact ? "is-compact" : ""}`} aria-label="Tip Tap Games">
-      <span className="brand-mark" aria-hidden="true">
-        <span />
-      </span>
-      <span className="brand-copy">
-        <strong>
-          <span className="tip">Tip</span>
-          <span className="tap">Tap</span>
-          <span className="games-tag">Games</span>
-        </strong>
-        {!compact && <small>PLAY · COMPETE · SWIPE · REPEAT</small>}
-      </span>
+    <div className={`brand ${compact ? "is-compact" : ""}`}>
+      <img
+        className="brand-logo-image"
+        src="/brand/tip-tap-games-logo.png"
+        alt="Tip Tap Games"
+        width={290}
+        height={100}
+        draggable={false}
+      />
     </div>
   );
 }
@@ -279,16 +288,57 @@ function GameJumpSheet({
   open,
   games,
   currentSlug,
+  engagement,
+  followedCreatorIds,
   onJump,
+  onToggleSave,
+  onToggleFollow,
+  onOpenGlobal,
   onClose,
 }: {
   open: boolean;
   games: GameDefinition[];
   currentSlug: string | undefined;
+  engagement: BootstrapData["engagement"];
+  followedCreatorIds: string[];
   onJump: (slug: string) => void;
+  onToggleSave: (game: GameDefinition) => void;
+  onToggleFollow: (creatorId: string) => void;
+  onOpenGlobal: () => void;
   onClose: () => void;
 }) {
   const closeButtonRef = useDialogClose(open, onClose);
+  const [query, setQuery] = useState("");
+  const [view, setView] = useState<"all" | "saved" | "following">("all");
+  const [category, setCategory] = useState<"All" | NonNullable<GameDefinition["category"]>>("All");
+  const safeEngagement = engagement ?? {};
+  const followed = useMemo(() => new Set(followedCreatorIds ?? []), [followedCreatorIds]);
+  const visibleGames = useMemo(() => {
+    const needle = query.trim().toLocaleLowerCase();
+    return games
+      .filter((game) => {
+        const metadata = getGameCatalogMetadata(game.slug);
+        const creatorId = game.creatorId ?? metadata.creatorId;
+        const creatorName = game.creatorName ?? metadata.creatorName;
+        const gameCategory = game.category ?? metadata.category;
+        return (
+          (category === "All" || gameCategory === category) &&
+          (view !== "saved" || safeEngagement[game.slug]?.saved) &&
+          (view !== "following" || followed.has(creatorId)) &&
+          (!needle ||
+            `${game.title} ${creatorName} ${gameCategory}`
+              .toLocaleLowerCase()
+              .includes(needle))
+        );
+      })
+      .sort(
+        (a, b) =>
+          (safeEngagement[b.slug]?.plays ?? 0) - (safeEngagement[a.slug]?.plays ?? 0) ||
+          (safeEngagement[b.slug]?.saves ?? 0) - (safeEngagement[a.slug]?.saves ?? 0) ||
+          a.title.localeCompare(b.title),
+      );
+  }, [category, engagement, followed, games, query, view]);
+
   if (!open) return null;
   return (
     <div className="sheet-backdrop" role="presentation" onPointerDown={onClose}>
@@ -296,7 +346,7 @@ function GameJumpSheet({
         className="bottom-sheet games-sheet"
         role="dialog"
         aria-modal="true"
-        aria-label="Jump to a game"
+        aria-label="Discover games"
         onPointerDown={(event) => event.stopPropagation()}
       >
         <div className="sheet-handle" />
@@ -305,41 +355,146 @@ function GameJumpSheet({
           type="button"
           className="sheet-close"
           onClick={onClose}
-          aria-label="Close games list"
+          aria-label="Close game discovery"
         >
           <X size={20} />
         </button>
         <div className="games-sheet-heading">
-          <span>INSTANT ARCADE · {games.length} GAMES</span>
-          <h2>Pick your next moment</h2>
-          <p>Jump anywhere or close this and keep swiping.</p>
+          <span>YOUR ARCADE · {games.length} INSTANT GAMES</span>
+          <h2>Find your next obsession</h2>
+          <p>Search, save favorites, follow creators, or jump straight back into the feed.</p>
         </div>
-        <div className="games-grid">
-          {games.map((game) => (
+        <button type="button" className="global-ranks-banner" onClick={onOpenGlobal}>
+          <span className="global-ranks-icon"><Crown fill="currentColor" /></span>
+          <span>
+            <small>THE TIP TAP CHAMPIONSHIP</small>
+            <strong>Global player leaderboard</strong>
+            <em>Earn points by ranking across every game.</em>
+          </span>
+          <ChevronUp className="global-ranks-arrow" />
+        </button>
+        <label className="game-search">
+          <Search aria-hidden="true" />
+          <span className="sr-only">Search games or creators</span>
+          <input
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Search games, creators, or categories"
+            autoComplete="off"
+          />
+          {query && (
+            <button type="button" onClick={() => setQuery("")} aria-label="Clear search">
+              <X />
+            </button>
+          )}
+        </label>
+        <div className="discovery-tabs" role="tablist" aria-label="Game library view">
+          {(["all", "saved", "following"] as const).map((option) => (
             <button
-              key={game.slug}
+              key={option}
               type="button"
-              className={`game-chip theme-${game.slug}${game.slug === currentSlug ? " is-current" : ""}`}
-              onClick={() => onJump(game.slug)}
+              role="tab"
+              aria-selected={view === option}
+              className={view === option ? "is-active" : ""}
+              onClick={() => setView(option)}
             >
-              <span className="game-chip-icon" aria-hidden="true">
-                {gameMonogram(game.title)}
-                <img
-                  className="game-chip-thumb"
-                  src={`/thumbs/${game.slug}.jpg`}
-                  alt=""
-                  loading="lazy"
-                  onError={(event) => {
-                    event.currentTarget.style.display = "none";
-                  }}
-                />
-              </span>
-              <span className="game-chip-copy">
-                <span className="game-chip-label">{game.title}</span>
-                <small>{game.ranked === false ? "Instant play" : "Global ranks"}</small>
-              </span>
+              {option === "all" ? <Compass /> : option === "saved" ? <Bookmark /> : <Users />}
+              {option === "all" ? "Discover" : option === "saved" ? "Saved" : "Following"}
             </button>
           ))}
+        </div>
+        <div className="category-strip" aria-label="Filter by category">
+          {(["All", "Action", "Arcade", "Puzzle", "Runner", "Sports"] as const).map((option) => (
+            <button
+              key={option}
+              type="button"
+              className={category === option ? "is-active" : ""}
+              onClick={() => setCategory(option)}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+        <div className="games-grid discovery-grid">
+          {visibleGames.map((game) => {
+            const metadata = getGameCatalogMetadata(game.slug);
+            const creatorId = game.creatorId ?? metadata.creatorId;
+            const creatorName = game.creatorName ?? metadata.creatorName;
+            const gameCategory = game.category ?? metadata.category;
+            const metrics = safeEngagement[game.slug] ?? { saved: false, saves: 0, plays: 0 };
+            const isFollowing = followed.has(creatorId);
+            return (
+              <article
+                key={game.slug}
+                className={`discovery-card theme-${game.slug}${game.slug === currentSlug ? " is-current" : ""}`}
+              >
+                <button
+                  type="button"
+                  className="discovery-play"
+                  onClick={() => onJump(game.slug)}
+                  aria-label={`Play ${game.title}`}
+                >
+                  <span className="game-chip-icon" aria-hidden="true">
+                    {gameMonogram(game.title)}
+                    <img
+                      className="game-chip-thumb"
+                      src={`/thumbs/${game.slug}.jpg`}
+                      alt=""
+                      loading="lazy"
+                      onError={(event) => {
+                        event.currentTarget.style.display = "none";
+                      }}
+                    />
+                    <span className="discovery-play-badge"><Zap fill="currentColor" /></span>
+                  </span>
+                  <span className="game-chip-copy">
+                    <span className="game-chip-label">{game.title}</span>
+                    <small>{creatorName} · {gameCategory}</small>
+                    <span className="discovery-metrics">
+                      <span><Flame /> {metrics.plays}</span>
+                      <span><Bookmark /> {metrics.saves}</span>
+                      <span>{game.ranked === false ? "INSTANT" : "RANKED"}</span>
+                    </span>
+                  </span>
+                </button>
+                <div className="discovery-actions">
+                  <button
+                    type="button"
+                    className={metrics.saved ? "is-active" : ""}
+                    onClick={() => onToggleSave(game)}
+                    aria-label={metrics.saved ? `Remove ${game.title} from saved games` : `Save ${game.title}`}
+                    aria-pressed={metrics.saved}
+                  >
+                    <Bookmark fill={metrics.saved ? "currentColor" : "none"} />
+                    {metrics.saved ? "Saved" : "Save"}
+                  </button>
+                  <button
+                    type="button"
+                    className={isFollowing ? "is-active" : ""}
+                    onClick={() => onToggleFollow(creatorId)}
+                    aria-label={isFollowing ? `Unfollow ${creatorName}` : `Follow ${creatorName}`}
+                    aria-pressed={isFollowing}
+                  >
+                    {isFollowing ? <Check /> : <Users />}
+                    {isFollowing ? "Following" : "Follow"}
+                  </button>
+                </div>
+              </article>
+            );
+          })}
+          {visibleGames.length === 0 && (
+            <div className="discovery-empty">
+              <Compass />
+              <strong>Nothing here yet</strong>
+              <span>
+                {view === "saved"
+                  ? "Save games from the feed to build your personal arcade."
+                  : view === "following"
+                    ? "Follow a creator to see their games here."
+                    : "Try a different search or category."}
+              </span>
+            </div>
+          )}
         </div>
       </section>
     </div>
@@ -468,16 +623,125 @@ function LeaderboardSheet({
   );
 }
 
+function GlobalLeaderboardSheet({
+  open,
+  onClose,
+}: {
+  open: boolean;
+  onClose: () => void;
+}) {
+  const closeButtonRef = useDialogClose(open, onClose);
+  const [data, setData] = useState<GlobalLeaderboardResult | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const refresh = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      setData(await api.globalLeaderboard());
+    } catch {
+      setError("The championship board could not refresh.");
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (open) void refresh();
+  }, [open, refresh]);
+
+  if (!open) return null;
+  return (
+    <div className="sheet-backdrop" role="presentation" onPointerDown={onClose}>
+      <section
+        className="bottom-sheet global-leaderboard-sheet"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Tip Tap global player leaderboard"
+        onPointerDown={(event) => event.stopPropagation()}
+      >
+        <div className="sheet-handle" />
+        <button
+          ref={closeButtonRef}
+          type="button"
+          className="sheet-close"
+          onClick={onClose}
+          aria-label="Close global leaderboard"
+        >
+          <X size={20} />
+        </button>
+        <div className="global-board-hero">
+          <span className="global-crown"><Crown fill="currentColor" /></span>
+          <span>
+            <small>THE TIP TAP CHAMPIONSHIP</small>
+            <h2>Rule more than one world</h2>
+            <p>Each game awards up to 100 championship points. Your best rank in every game counts.</p>
+          </span>
+        </div>
+        <div className="global-board-head" aria-hidden="true">
+          <span>PLAYER</span><span>GAMES</span><span>CROWNS</span><span>PTS</span>
+        </div>
+        <div className="global-board-list" aria-live="polite">
+          {loading && !data ? (
+            <LoaderCircle className="spin" />
+          ) : error ? (
+            <div className="discovery-empty">
+              <Trophy />
+              <strong>BOARD OFFLINE</strong>
+              <span>{error}</span>
+              <button type="button" onClick={() => void refresh()}>Try again</button>
+            </div>
+          ) : data?.entries.length ? (
+            data.entries.map((entry) => (
+              <div
+                className={`global-rank-row${entry.isYou ? " is-you" : ""}`}
+                key={entry.playerId}
+              >
+                <strong>{entry.rank}</strong>
+                <span className="rank-avatar">
+                  {entry.avatarUrl ? <img src={entry.avatarUrl} alt="" /> : entry.handle.slice(0, 1)}
+                </span>
+                <span className="global-player-name">
+                  {entry.handle}{entry.isYou ? " · YOU" : ""}
+                </span>
+                <span>{entry.rankedGames}</span>
+                <span>{entry.crowns}</span>
+                <b>{formatScore(entry.points)}</b>
+              </div>
+            ))
+          ) : (
+            <div className="discovery-empty">
+              <Crown />
+              <strong>THE CROWN IS WAITING</strong>
+              <span>Complete a ranked game to become the first global champion.</span>
+            </div>
+          )}
+        </div>
+        <p className="your-rank">
+          {data?.yourRank
+            ? <>You are <strong>#{data.yourRank}</strong> globally with <strong>{formatScore(data.yourPoints)}</strong> points.</>
+            : "Your first ranked finish puts you on the global board."}
+        </p>
+      </section>
+    </div>
+  );
+}
+
 function AuthSheet({
   open,
   player,
   auth,
+  stats,
+  onOpenGlobal,
   onClose,
   onLogout,
 }: {
   open: boolean;
   player: Player;
   auth: BootstrapData["auth"];
+  stats: BootstrapData["stats"];
+  onOpenGlobal: () => void;
   onClose: () => void;
   onLogout: () => void;
 }) {
@@ -510,6 +774,17 @@ function AuthSheet({
             ? "Your guest scores already count. Sign in only when you want them on every device."
             : `Connected with ${player.provider}. Your best scores follow you.`}
         </p>
+        <div className="profile-stats" aria-label="Player statistics">
+          <span><b>{stats.rankedRuns}</b><small>ranked runs</small></span>
+          <span><b>{stats.rankedGames}</b><small>ranked games</small></span>
+          <span><b>{stats.savedGames}</b><small>saved</small></span>
+          <span><b>{stats.followingCreators}</b><small>following</small></span>
+        </div>
+        <button type="button" className="profile-global-button" onClick={onOpenGlobal}>
+          <Crown fill="currentColor" />
+          <span><strong>Global championship</strong><small>See your rank across every game</small></span>
+          <ChevronUp />
+        </button>
         {player.isGuest ? (
           <>
             <div className="auth-actions">
@@ -647,12 +922,14 @@ function GameCard({
   preparing,
   player,
   like,
+  engagement,
   soundEnabled,
   hapticsEnabled,
   offlinePractice,
   challenge,
   onVisible,
   onLikeChange,
+  onEngagementChange,
   onOpenAuth,
   onScored,
   onToast,
@@ -663,12 +940,14 @@ function GameCard({
   preparing: boolean;
   player: Player;
   like: LikeState;
+  engagement: GameEngagement;
   soundEnabled: boolean;
   hapticsEnabled: boolean;
   offlinePractice: boolean;
   challenge: Challenge | null;
   onVisible: (index: number, node: HTMLElement | null) => void;
   onLikeChange: (gameSlug: GameSlug, state: LikeState) => void;
+  onEngagementChange: (gameSlug: GameSlug, state: GameEngagement) => void;
   onOpenAuth: () => void;
   onScored: () => void;
   onToast: (message: string) => void;
@@ -690,6 +969,7 @@ function GameCard({
   const [expanded, setExpanded] = useState(false);
   const [controlsDimmed, setControlsDimmed] = useState(false);
   const finishingRef = useRef(false);
+  const playRecordedRef = useRef(false);
   const cardRef = useRef<HTMLElement | null>(null);
 
   const begin = useCallback(async () => {
@@ -722,6 +1002,17 @@ function GameCard({
       finishingRef.current = false;
     }
   }, [active, begin, runKey]);
+
+  useEffect(() => {
+    if (!active || offlinePractice || playRecordedRef.current) return;
+    playRecordedRef.current = true;
+    void api
+      .recordPlay(game.slug)
+      .then(({ plays }) => onEngagementChange(game.slug, { ...engagement, plays }))
+      .catch(() => {
+        playRecordedRef.current = false;
+      });
+  }, [active, engagement, game.slug, offlinePractice, onEngagementChange]);
 
   const expandGame = useCallback(() => {
     if (active) setExpanded(true);
@@ -892,6 +1183,15 @@ function GameCard({
     }
   };
 
+  const toggleSave = async () => {
+    try {
+      onEngagementChange(game.slug, await api.toggleSave(game.slug));
+      onToast(engagement.saved ? "Removed from your arcade." : "Saved to your arcade.");
+    } catch {
+      onToast("Could not update your saved games.");
+    }
+  };
+
   const share = async () => {
     const url = new URL(window.location.origin);
     url.searchParams.set("game", game.slug);
@@ -980,7 +1280,7 @@ function GameCard({
         className="game-frame"
         onClickCapture={markGameInteraction}
       >
-        {game.slug !== "subway-surfers" && game.slug !== "stickman-fury" && game.slug !== "supercar-legends" && (
+        {game.slug !== "subway-surfers" && game.slug !== "stickman-fury" && game.slug !== "supercar-legends" && game.slug !== "dig-out-of-prison" && (
           <div className={`game-label${labelHidden ? " is-hidden" : ""}`}>
             <span>{GAME_EYEBROWS[game.slug]}</span>
             <h1>{game.title}</h1>
@@ -1050,6 +1350,16 @@ function GameCard({
           <Heart fill={like.liked ? "currentColor" : "none"} />
           <span>{like.count || "Hype"}</span>
         </button>
+        <button
+          type="button"
+          onClick={toggleSave}
+          className={engagement.saved ? "is-saved" : ""}
+          aria-label={engagement.saved ? "Remove from saved games" : "Save this game"}
+          aria-pressed={engagement.saved}
+        >
+          <Bookmark fill={engagement.saved ? "currentColor" : "none"} />
+          <span>{engagement.saved ? "Saved" : "Save"}</span>
+        </button>
         {ranked && (
           <button type="button" onClick={() => setBoardOpen(true)} aria-label="Open leaderboard">
             <Trophy />
@@ -1078,35 +1388,7 @@ function GameCard({
         <div className="caption-meta">
           <span className="creator-line">
             <Gamepad2 size={15} />{" "}
-            {game.slug === "subway-surfers"
-            ? "BY SYBO · TIP TAP INTEGRATION"
-            : game.slug === "dino-runner"
-              ? "BY CHROME UX · TIP TAP INTEGRATION"
-              : game.slug === "67-game"
-                ? "BY STUPIDELLA · LOCAL SOURCE MIRROR"
-                : game.slug === "archery-king"
-                  ? "BY CODE THIS LAB · LOCAL SOURCE MIRROR"
-                  : game.slug === "smash-room"
-                    ? "BY HAPPYLANDER LTD · LOCAL SOURCE MIRROR"
-                    : game.slug === "temple-run-2-frozen-shadows"
-                      ? "BY IMANGI STUDIOS · LOCAL SOURCE MIRROR"
-                    : game.slug === "stickman-fury"
-                      ? "BY HAPPYLANDER LTD · LOCAL SOURCE MIRROR"
-                    : game.slug === "plonky"
-                      ? "BY GAMETORNADO · LOCAL SOURCE MIRROR"
-                    : game.slug === "fruit-ninja"
-                      ? "BY STORMS · LOCAL SOURCE MIRROR"
-                      : game.slug === "johnny-trigger-sniper"
-                        ? "BY SAYGAMES · LOCAL SOURCE MIRROR"
-                        : game.slug === "rocket-soccer-derby"
-                          ? "BY DESTRUCTION CREW · LOCAL SOURCE MIRROR"
-                        : game.slug === "city-cab-rush"
-                          ? "BY STORERIDER · LOCAL SOURCE MIRROR"
-                          : game.slug === "supercar-legends"
-                            ? "BY JUNGLE TAVERN · TIP TAP INTEGRATION"
-                            : game.slug === "ping-pong-go" || game.slug === "ping-pong-bugs"
-                              ? "BY HAPPYLANDER · TIP TAP INTEGRATION"
-                  : "@tiptap"}
+            {game.creatorLabel ?? getGameCatalogMetadata(game.slug).creatorLabel}
           </span>
           <span className={`play-mode ${ranked ? "is-ranked" : "is-instant"}`}>
             {ranked ? <Crown size={12} /> : <Zap size={12} />}
@@ -1226,6 +1508,7 @@ export function App() {
   const [offlinePractice, setOfflinePractice] = useState(false);
   const [authOpen, setAuthOpen] = useState(false);
   const [gamesOpen, setGamesOpen] = useState(false);
+  const [globalBoardOpen, setGlobalBoardOpen] = useState(false);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   // Sound is ON by default so the live game plays without the player hunting for
@@ -1267,7 +1550,18 @@ export function App() {
 
   const load = useCallback(async () => {
     try {
-      const data = await api.bootstrap();
+      const response = await api.bootstrap();
+      const data: BootstrapData = {
+        ...response,
+        engagement: response.engagement ?? {},
+        followedCreatorIds: response.followedCreatorIds ?? [],
+        stats: response.stats ?? {
+          rankedRuns: 0,
+          rankedGames: 0,
+          savedGames: 0,
+          followingCreators: 0,
+        },
+      };
       setOfflinePractice(false);
       setBootstrap(data);
       const gamesBySlug = new Map(data.games.map((game) => [game.slug, game]));
@@ -1438,6 +1732,72 @@ export function App() {
     setColorTheme((current) => (current === "dark" ? "light" : "dark"));
   };
 
+  const updateEngagement = useCallback((slug: GameSlug, state: GameEngagement) => {
+    setBootstrap((current) => {
+      const currentEngagement = current.engagement ?? {};
+      const currentStats = current.stats ?? {
+        rankedRuns: 0,
+        rankedGames: 0,
+        savedGames: 0,
+        followingCreators: 0,
+      };
+      const previous = currentEngagement[slug] ?? { saved: false, saves: 0, plays: 0 };
+      const savedDelta = Number(state.saved) - Number(previous.saved);
+      return {
+        ...current,
+        engagement: { ...currentEngagement, [slug]: state },
+        stats: {
+          ...currentStats,
+          savedGames: Math.max(0, currentStats.savedGames + savedDelta),
+        },
+      };
+    });
+  }, []);
+
+  const toggleSavedGame = useCallback(
+    async (game: GameDefinition) => {
+      try {
+        const state = await api.toggleSave(game.slug);
+        updateEngagement(game.slug, state);
+        setToast(state.saved ? `${game.title} saved to your arcade.` : `${game.title} removed from saved games.`);
+      } catch {
+        setToast("Could not update your saved games.");
+      }
+    },
+    [updateEngagement],
+  );
+
+  const toggleCreatorFollow = useCallback(async (creatorId: string) => {
+    try {
+      const state = await api.toggleCreatorFollow(creatorId);
+      setBootstrap((current) => {
+        const followed = new Set(current.followedCreatorIds ?? []);
+        const currentStats = current.stats ?? {
+          rankedRuns: 0,
+          rankedGames: 0,
+          savedGames: 0,
+          followingCreators: 0,
+        };
+        if (state.following) followed.add(creatorId);
+        else followed.delete(creatorId);
+        return {
+          ...current,
+          followedCreatorIds: [...followed],
+          stats: { ...currentStats, followingCreators: followed.size },
+        };
+      });
+      setToast(state.following ? "Creator added to Following." : "Creator unfollowed.");
+    } catch {
+      setToast("Could not update creator following.");
+    }
+  }, []);
+
+  const openGlobalBoard = useCallback(() => {
+    setGamesOpen(false);
+    setAuthOpen(false);
+    setGlobalBoardOpen(true);
+  }, []);
+
   const jumpToGame = useCallback(
     (slug: string) => {
       setGamesOpen(false);
@@ -1489,6 +1849,7 @@ export function App() {
             preparing={pageVisible && preparingIndices.has(index)}
             player={bootstrap.player}
             like={bootstrap.likes[entry.game.slug] ?? { liked: false, count: 0 }}
+            engagement={bootstrap.engagement?.[entry.game.slug] ?? { saved: false, saves: 0, plays: 0 }}
             soundEnabled={soundEnabled}
             hapticsEnabled={hapticsEnabled}
             offlinePractice={offlinePractice}
@@ -1501,8 +1862,9 @@ export function App() {
                   : current,
               )
             }
+            onEngagementChange={updateEngagement}
             onOpenAuth={() => setAuthOpen(true)}
-            onScored={() => {}}
+            onScored={() => void load()}
             onToast={setToast}
           />
         ))}
@@ -1511,13 +1873,24 @@ export function App() {
         open={gamesOpen}
         games={bootstrap.games}
         currentSlug={entries[activeIndex]?.game.slug}
+        engagement={bootstrap.engagement ?? {}}
+        followedCreatorIds={bootstrap.followedCreatorIds ?? []}
         onJump={jumpToGame}
+        onToggleSave={(game) => void toggleSavedGame(game)}
+        onToggleFollow={(creatorId) => void toggleCreatorFollow(creatorId)}
+        onOpenGlobal={openGlobalBoard}
         onClose={() => setGamesOpen(false)}
+      />
+      <GlobalLeaderboardSheet
+        open={globalBoardOpen}
+        onClose={() => setGlobalBoardOpen(false)}
       />
       <AuthSheet
         open={authOpen}
         player={bootstrap.player}
         auth={bootstrap.auth}
+        stats={bootstrap.stats ?? { rankedRuns: 0, rankedGames: 0, savedGames: 0, followingCreators: 0 }}
+        onOpenGlobal={openGlobalBoard}
         onClose={() => setAuthOpen(false)}
         onLogout={() => void logout()}
       />

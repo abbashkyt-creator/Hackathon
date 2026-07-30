@@ -2369,6 +2369,7 @@ a:focus-visible,
   max-width: 620px;
   color: var(--ink);
   background: #fbfaff;
+  transition: max-width 300ms cubic-bezier(0.2, 0.82, 0.2, 1);
   box-shadow:
     0 0 0 1px rgba(57, 44, 121, 0.08),
     0 28px 90px rgba(35, 28, 87, 0.2);
@@ -3335,6 +3336,21 @@ a:focus-visible,
     box-shadow:
       0 0 0 8px rgba(255, 255, 255, 0.5),
       0 32px 100px rgba(46, 34, 103, 0.22);
+  }
+}
+
+/*
+ * Dig out of Prison is a fixed 16:9 Unity game. On fine-pointer desktops,
+ * use the otherwise empty side space so the complete frame stays readable.
+ * Touch devices keep the standard vertical feed width.
+ */
+@media (min-width: 900px) and (pointer: fine) {
+  .app-shell:has(.feed-card[data-active="true"].theme-dig-out-of-prison) {
+    max-width: min(960px, calc(100vw - 48px));
+  }
+
+  .app-shell:has(.feed-card[data-active="true"].theme-dig-out-of-prison) .app-header {
+    width: min(100%, 960px);
   }
 }
 

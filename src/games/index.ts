@@ -13,6 +13,7 @@ export { CountControlLegendsGame } from "./CountControlLegendsGame";
 export { CityCabRushGame } from "./CityCabRushGame";
 export { JohnnyTriggerSniperGame } from "./JohnnyTriggerSniperGame";
 export { RocketSoccerDerbyGame } from "./RocketSoccerDerbyGame";
+export { DigOutOfPrisonGame } from "./DigOutOfPrisonGame";
 export { DinoRunnerGame } from "./DinoRunnerGame";
 export { MemoryGridGame } from "./MemoryGridGame";
 export { MeteorDodgeGame } from "./MeteorDodgeGame";

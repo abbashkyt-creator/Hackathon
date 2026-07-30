@@ -121,6 +121,13 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
       ranked: false,
     },
     {
+      slug: "dig-out-of-prison",
+      title: "Dig out of Prison",
+      rule_text: "Dig, gather resources, and escape the prison compound.",
+      accent: "#7bcf63",
+      ranked: false,
+    },
+    {
       slug: "theft-city",
       title: "Theft City",
       rule_text: "Explore the city, collect loot, escape danger, and build your criminal empire.",
@@ -152,5 +159,13 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
     },
   ],
   likes: {},
+  engagement: {},
+  followedCreatorIds: [],
+  stats: {
+    rankedRuns: 0,
+    rankedGames: 0,
+    savedGames: 0,
+    followingCreators: 0,
+  },
   auth: { google: false, discord: false },
 };

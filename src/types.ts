@@ -17,6 +17,7 @@ export type GameSlug =
   | "count-control-legends"
   | "johnny-trigger-sniper"
   | "rocket-soccer-derby"
+  | "dig-out-of-prison"
   | "kitty-loves-birds-2"
   | "theft-city"
   | "city-cab-rush"
@@ -30,6 +31,10 @@ export interface GameDefinition {
   rule_text: string;
   accent: string;
   ranked?: boolean;
+  creatorId?: string;
+  creatorName?: string;
+  creatorLabel?: string;
+  category?: "Action" | "Arcade" | "Puzzle" | "Runner" | "Sports";
 }
 
 export interface Player {
@@ -45,10 +50,31 @@ export interface LikeState {
   count: number;
 }
 
+export interface GameEngagement {
+  saved: boolean;
+  saves: number;
+  plays: number;
+}
+
+export interface FollowState {
+  following: boolean;
+  followers: number;
+}
+
+export interface PlayerStats {
+  rankedRuns: number;
+  rankedGames: number;
+  savedGames: number;
+  followingCreators: number;
+}
+
 export interface BootstrapData {
   player: Player;
   games: GameDefinition[];
   likes: Record<string, LikeState>;
+  engagement: Record<string, GameEngagement>;
+  followedCreatorIds: string[];
+  stats: PlayerStats;
   auth: { google: boolean; discord: boolean };
 }
 
@@ -78,6 +104,24 @@ export interface Challenge {
   gameTitle: string;
   handle: string;
   score: number;
+}
+
+export interface GlobalLeaderboardEntry {
+  playerId: string;
+  handle: string;
+  avatarUrl: string | null;
+  points: number;
+  crowns: number;
+  rankedGames: number;
+  rank: number;
+  isYou: boolean;
+}
+
+export interface GlobalLeaderboardResult {
+  entries: GlobalLeaderboardEntry[];
+  yourRank: number | null;
+  yourPoints: number;
+  totalPlayers: number;
 }
 
 export interface GameProps {

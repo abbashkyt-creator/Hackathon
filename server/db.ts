@@ -4,6 +4,12 @@ import { dirname, resolve } from "node:path";
 import { DatabaseSync, type StatementResultingChanges } from "node:sqlite";
 import pg from "pg";
 import type { Config } from "./config.js";
+import {
+  CREATOR_IDS,
+  getGameCatalogMetadata,
+  type GameCatalogMetadata,
+} from "../shared/catalog.js";
+import { isRankedGame } from "./score-policy.js";
 
 const { Pool } = pg;
 
@@ -17,11 +23,37 @@ export interface Player {
   created_at: number;
 }
 
-export interface GameRecord {
+interface StoredGameRecord {
   slug: string;
   title: string;
   rule_text: string;
   accent: string;
+}
+
+export interface GameRecord extends StoredGameRecord, GameCatalogMetadata {}
+
+export interface GameEngagementRecord {
+  saved: boolean;
+  saves: number;
+  plays: number;
+}
+
+export interface GlobalLeaderboardEntry {
+  playerId: string;
+  handle: string;
+  avatarUrl: string | null;
+  points: number;
+  crowns: number;
+  rankedGames: number;
+  rank: number;
+  isYou: boolean;
+}
+
+export interface GlobalLeaderboardResult {
+  entries: GlobalLeaderboardEntry[];
+  yourRank: number | null;
+  yourPoints: number;
+  totalPlayers: number;
 }
 
 export interface LeaderboardEntry {
@@ -44,7 +76,7 @@ export interface LeaderboardResult {
 
 type SqlParams = Array<string | number | null>;
 
-const GAME_SEED: GameRecord[] = [
+const GAME_SEED: StoredGameRecord[] = [
   { slug: "pulse-lock", title: "Pulse Lock", rule_text: "Tap when the pulse hits the live zone.", accent: "#38b6ff" },
   { slug: "color-clash", title: "Color Clash", rule_text: "Tap the color named, not the color shown.", accent: "#b06cff" },
   { slug: "stack-shift", title: "Stack Shift", rule_text: "Tap to lock each moving block in place.", accent: "#21d4fd" },
@@ -127,6 +159,12 @@ const GAME_SEED: GameRecord[] = [
     title: "Rocket Soccer Derby",
     rule_text: "Drive, boost, hit the ball, and score more goals than your opponent.",
     accent: "#ff7a47",
+  },
+  {
+    slug: "dig-out-of-prison",
+    title: "Dig out of Prison",
+    rule_text: "Dig, gather resources, and escape the prison compound.",
+    accent: "#7bcf63",
   },
   {
     slug: "kitty-loves-birds-2",
@@ -260,6 +298,30 @@ export class Store {
         created_at BIGINT NOT NULL,
         PRIMARY KEY(device_key, game_slug)
       );
+
+      CREATE TABLE IF NOT EXISTS saves (
+        player_id TEXT NOT NULL REFERENCES players(id) ON DELETE CASCADE,
+        game_slug TEXT NOT NULL REFERENCES games(slug),
+        created_at BIGINT NOT NULL,
+        PRIMARY KEY(player_id, game_slug)
+      );
+
+      CREATE TABLE IF NOT EXISTS creator_follows (
+        player_id TEXT NOT NULL REFERENCES players(id) ON DELETE CASCADE,
+        creator_id TEXT NOT NULL,
+        created_at BIGINT NOT NULL,
+        PRIMARY KEY(player_id, creator_id)
+      );
+
+      CREATE TABLE IF NOT EXISTS game_plays (
+        player_id TEXT NOT NULL REFERENCES players(id) ON DELETE CASCADE,
+        game_slug TEXT NOT NULL REFERENCES games(slug),
+        played_on TEXT NOT NULL,
+        created_at BIGINT NOT NULL,
+        PRIMARY KEY(player_id, game_slug, played_on)
+      );
+      CREATE INDEX IF NOT EXISTS game_plays_slug_created
+        ON game_plays(game_slug, created_at DESC);
     `;
 
     if (this.pool) {
@@ -304,13 +366,14 @@ export class Store {
   }
 
   async listGames(): Promise<GameRecord[]> {
-    return this.all<GameRecord>(
+    const games = await this.all<StoredGameRecord>(
       "SELECT slug, title, rule_text, accent FROM games WHERE is_active = 1 ORDER BY rowid",
     ).catch(async () =>
-      this.all<GameRecord>(
+      this.all<StoredGameRecord>(
         "SELECT slug, title, rule_text, accent FROM games WHERE is_active = 1 ORDER BY slug",
       ),
     );
+    return games.map((game) => ({ ...game, ...getGameCatalogMetadata(game.slug) }));
   }
 
   async getOrCreateGuest(deviceId: string): Promise<Player> {
@@ -360,6 +423,44 @@ export class Store {
 
     if (existing) {
       if (guest && guest.id !== existing.id) {
+        const guestSaves = await this.all<{ game_slug: string; created_at: number }>(
+          "SELECT game_slug, created_at FROM saves WHERE player_id = ?",
+          [guest.id],
+        );
+        for (const save of guestSaves) {
+          await this.run(
+            `INSERT INTO saves (player_id, game_slug, created_at)
+             VALUES (?, ?, ?) ON CONFLICT (player_id, game_slug) DO NOTHING`,
+            [existing.id, save.game_slug, save.created_at],
+          );
+        }
+        const guestFollows = await this.all<{ creator_id: string; created_at: number }>(
+          "SELECT creator_id, created_at FROM creator_follows WHERE player_id = ?",
+          [guest.id],
+        );
+        for (const follow of guestFollows) {
+          await this.run(
+            `INSERT INTO creator_follows (player_id, creator_id, created_at)
+             VALUES (?, ?, ?) ON CONFLICT (player_id, creator_id) DO NOTHING`,
+            [existing.id, follow.creator_id, follow.created_at],
+          );
+        }
+        const guestPlays = await this.all<{
+          game_slug: string;
+          played_on: string;
+          created_at: number;
+        }>(
+          "SELECT game_slug, played_on, created_at FROM game_plays WHERE player_id = ?",
+          [guest.id],
+        );
+        for (const play of guestPlays) {
+          await this.run(
+            `INSERT INTO game_plays (player_id, game_slug, played_on, created_at)
+             VALUES (?, ?, ?, ?)
+             ON CONFLICT (player_id, game_slug, played_on) DO NOTHING`,
+            [existing.id, play.game_slug, play.played_on, play.created_at],
+          );
+        }
         await this.run("UPDATE scores SET player_id = ? WHERE player_id = ?", [existing.id, guest.id]);
         await this.run("UPDATE run_tickets SET player_id = ? WHERE player_id = ?", [existing.id, guest.id]);
         await this.run("DELETE FROM players WHERE id = ?", [guest.id]);
@@ -581,6 +682,236 @@ export class Store {
         return [game.slug, { liked: mineSet.has(game.slug), count: Number(count) }];
       }),
     );
+  }
+
+  async toggleSave(
+    playerId: string,
+    gameSlug: string,
+  ): Promise<GameEngagementRecord> {
+    const game = await this.get<{ slug: string }>(
+      "SELECT slug FROM games WHERE slug = ? AND is_active = 1",
+      [gameSlug],
+    );
+    if (!game) throw new Error("Unknown game.");
+    const existing = await this.get<{ player_id: string }>(
+      "SELECT player_id FROM saves WHERE player_id = ? AND game_slug = ?",
+      [playerId, gameSlug],
+    );
+    if (existing) {
+      await this.run("DELETE FROM saves WHERE player_id = ? AND game_slug = ?", [
+        playerId,
+        gameSlug,
+      ]);
+    } else {
+      await this.run(
+        "INSERT INTO saves (player_id, game_slug, created_at) VALUES (?, ?, ?)",
+        [playerId, gameSlug, Date.now()],
+      );
+    }
+    const [saveCount, playCount] = await Promise.all([
+      this.get<{ count: number }>("SELECT COUNT(*) AS count FROM saves WHERE game_slug = ?", [
+        gameSlug,
+      ]),
+      this.get<{ count: number }>(
+        "SELECT COUNT(*) AS count FROM game_plays WHERE game_slug = ?",
+        [gameSlug],
+      ),
+    ]);
+    return {
+      saved: !existing,
+      saves: Number(saveCount?.count ?? 0),
+      plays: Number(playCount?.count ?? 0),
+    };
+  }
+
+  async recordPlay(playerId: string, gameSlug: string): Promise<{ plays: number }> {
+    const game = await this.get<{ slug: string }>(
+      "SELECT slug FROM games WHERE slug = ? AND is_active = 1",
+      [gameSlug],
+    );
+    if (!game) throw new Error("Unknown game.");
+    const playedOn = new Date().toISOString().slice(0, 10);
+    await this.run(
+      `INSERT INTO game_plays (player_id, game_slug, played_on, created_at)
+       VALUES (?, ?, ?, ?)
+       ON CONFLICT (player_id, game_slug, played_on) DO NOTHING`,
+      [playerId, gameSlug, playedOn, Date.now()],
+    );
+    const count = await this.get<{ count: number }>(
+      "SELECT COUNT(*) AS count FROM game_plays WHERE game_slug = ?",
+      [gameSlug],
+    );
+    return { plays: Number(count?.count ?? 0) };
+  }
+
+  async getEngagement(playerId: string): Promise<Record<string, GameEngagementRecord>> {
+    const [saveCounts, playCounts, mine] = await Promise.all([
+      this.all<{ game_slug: string; count: number }>(
+        "SELECT game_slug, COUNT(*) AS count FROM saves GROUP BY game_slug",
+      ),
+      this.all<{ game_slug: string; count: number }>(
+        "SELECT game_slug, COUNT(*) AS count FROM game_plays GROUP BY game_slug",
+      ),
+      this.all<{ game_slug: string }>("SELECT game_slug FROM saves WHERE player_id = ?", [
+        playerId,
+      ]),
+    ]);
+    const saved = new Set(mine.map((row) => row.game_slug));
+    const savesBySlug = new Map(
+      saveCounts.map((row) => [row.game_slug, Number(row.count)]),
+    );
+    const playsBySlug = new Map(
+      playCounts.map((row) => [row.game_slug, Number(row.count)]),
+    );
+    return Object.fromEntries(
+      GAME_SEED.map((game) => [
+        game.slug,
+        {
+          saved: saved.has(game.slug),
+          saves: savesBySlug.get(game.slug) ?? 0,
+          plays: playsBySlug.get(game.slug) ?? 0,
+        },
+      ]),
+    );
+  }
+
+  async toggleCreatorFollow(
+    playerId: string,
+    creatorId: string,
+  ): Promise<{ following: boolean; followers: number }> {
+    if (!CREATOR_IDS.has(creatorId)) throw new Error("Unknown creator.");
+    const existing = await this.get<{ player_id: string }>(
+      "SELECT player_id FROM creator_follows WHERE player_id = ? AND creator_id = ?",
+      [playerId, creatorId],
+    );
+    if (existing) {
+      await this.run(
+        "DELETE FROM creator_follows WHERE player_id = ? AND creator_id = ?",
+        [playerId, creatorId],
+      );
+    } else {
+      await this.run(
+        "INSERT INTO creator_follows (player_id, creator_id, created_at) VALUES (?, ?, ?)",
+        [playerId, creatorId, Date.now()],
+      );
+    }
+    const count = await this.get<{ count: number }>(
+      "SELECT COUNT(*) AS count FROM creator_follows WHERE creator_id = ?",
+      [creatorId],
+    );
+    return { following: !existing, followers: Number(count?.count ?? 0) };
+  }
+
+  async getFollowedCreators(playerId: string): Promise<string[]> {
+    const rows = await this.all<{ creator_id: string }>(
+      "SELECT creator_id FROM creator_follows WHERE player_id = ? ORDER BY created_at DESC",
+      [playerId],
+    );
+    return rows.map((row) => row.creator_id);
+  }
+
+  async getPlayerStats(playerId: string): Promise<{
+    rankedRuns: number;
+    rankedGames: number;
+    savedGames: number;
+    followingCreators: number;
+  }> {
+    const [scores, saves, follows] = await Promise.all([
+      this.get<{ runs: number; games: number }>(
+        `SELECT COUNT(*) AS runs, COUNT(DISTINCT game_slug) AS games
+         FROM scores WHERE player_id = ?`,
+        [playerId],
+      ),
+      this.get<{ count: number }>("SELECT COUNT(*) AS count FROM saves WHERE player_id = ?", [
+        playerId,
+      ]),
+      this.get<{ count: number }>(
+        "SELECT COUNT(*) AS count FROM creator_follows WHERE player_id = ?",
+        [playerId],
+      ),
+    ]);
+    return {
+      rankedRuns: Number(scores?.runs ?? 0),
+      rankedGames: Number(scores?.games ?? 0),
+      savedGames: Number(saves?.count ?? 0),
+      followingCreators: Number(follows?.count ?? 0),
+    };
+  }
+
+  async getGlobalLeaderboard(playerId: string): Promise<GlobalLeaderboardResult> {
+    const rows = await this.all<{
+      player_id: string;
+      handle: string;
+      avatar_url: string | null;
+      game_slug: string;
+      score: number;
+    }>(
+      `SELECT p.id AS player_id, p.handle, p.avatar_url, s.game_slug,
+              MAX(s.score) AS score
+       FROM scores s
+       JOIN players p ON p.id = s.player_id
+       GROUP BY p.id, p.handle, p.avatar_url, s.game_slug`,
+    );
+
+    const totals = new Map<
+      string,
+      Omit<GlobalLeaderboardEntry, "rank" | "isYou">
+    >();
+    const byGame = new Map<string, typeof rows>();
+    for (const row of rows) {
+      // The global championship must only aggregate games whose scores pass a
+      // server-side policy. This also keeps legacy/direct database rows from
+      // accidentally turning an unverified embedded game into a ranked title.
+      if (!isRankedGame(row.game_slug)) continue;
+      const gameRows = byGame.get(row.game_slug) ?? [];
+      gameRows.push(row);
+      byGame.set(row.game_slug, gameRows);
+    }
+    for (const gameRows of byGame.values()) {
+      gameRows.sort((a, b) => Number(b.score) - Number(a.score));
+      let lastScore: number | null = null;
+      let rank = 0;
+      gameRows.forEach((row, index) => {
+        const score = Number(row.score);
+        if (lastScore === null || score < lastScore) rank = index + 1;
+        lastScore = score;
+        const current = totals.get(row.player_id) ?? {
+          playerId: row.player_id,
+          handle: row.handle,
+          avatarUrl: row.avatar_url,
+          points: 0,
+          crowns: 0,
+          rankedGames: 0,
+        };
+        current.points += Math.max(1, 101 - rank);
+        current.crowns += rank === 1 ? 1 : 0;
+        current.rankedGames += 1;
+        totals.set(row.player_id, current);
+      });
+    }
+
+    const ranked = [...totals.values()]
+      .sort(
+        (a, b) =>
+          b.points - a.points ||
+          b.crowns - a.crowns ||
+          b.rankedGames - a.rankedGames ||
+          a.handle.localeCompare(b.handle),
+      )
+      .map((entry, index) => ({
+        ...entry,
+        rank: index + 1,
+        isYou: entry.playerId === playerId,
+      }));
+    const yours = ranked.find((entry) => entry.isYou);
+    const entries = ranked.slice(0, 20);
+    if (yours && !entries.some((entry) => entry.isYou)) entries.push(yours);
+    return {
+      entries,
+      yourRank: yours?.rank ?? null,
+      yourPoints: yours?.points ?? 0,
+      totalPlayers: ranked.length,
+    };
   }
 
   async cleanup(): Promise<void> {

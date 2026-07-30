@@ -4,7 +4,21 @@
 > context. Written end-to-end. If something here conflicts with the code, trust the
 > code and update this file.
 
-Last updated by the previous agent after the session ending at commit `c4e08ac`.
+Current working-tree review: 2026-07-30. This file contains older historical notes
+below, but the authoritative current product contract is:
+
+- 25 games registered in the shared catalogue.
+- The feed remains the default product surface; Discover is a dismissible overlay.
+- `/api/bootstrap` returns the player, game/creator/category metadata, hype state,
+  per-game saves/play activity, followed creators, player statistics, and auth providers.
+- Saved games, creator follows, unique daily game plays, profile statistics, and the
+  cross-game championship persist through the same SQLite/PostgreSQL `Store`.
+- `/api/discover` supports search, category, saved/following views, and trending/title
+  sorting. `/api/leaderboard/global` ranks only server-policy-ranked games.
+- The current public deployment is `https://hackathon-abbasiqd.replit.app/`, but local
+  working-tree changes are not live until they are pushed and Replit is republished.
+- The final Android TWA remains blocked on the real release key, certificate SHA-256,
+  deployed `assetlinks.json`, and a physical Android verification.
 
 ---
 
@@ -75,7 +89,8 @@ Individually: `npm run audit:release`, `npx tsc --noEmit`, `npx vitest run`.
 - **Deploy config:** `.replit` (`build = "npm run build"`, `run = "npm start"`, port 3000→80).
 
 ### The feed (src/App.tsx)
-- `App` fetches `/api/bootstrap` → `{ player, games[], likes, auth }`. Falls back to
+- `App` fetches `/api/bootstrap` → `{ player, games[], likes, engagement,
+  followedCreatorIds, stats, auth }`. Falls back to
   `src/offline-catalog.ts` (`OFFLINE_BOOTSTRAP`) if the API fails.
 - `entries` = the feed list, built by **`makeBatch()`** (see §8). Rendered as a column of
   `<GameCard>` inside `.feed` (CSS scroll-snap). An `IntersectionObserver` tracks the
@@ -104,7 +119,7 @@ Two kinds:
 
 ---
 
-## 4. The 23 games (slug → engine)
+## 4. The 25 games (slug → engine)
 
 `pulse-lock, color-clash, stack-shift, memory-grid, meteor-dodge` — native React (original).
 `arithmetica` — Phaser (iframe). `dino-runner` — Chrome dino JS (dir `dino-game`).
@@ -115,6 +130,12 @@ Two kinds:
 Construct 3 (Box2D wasm + `new Function`). `fruit-ninja` — enable3d/Ammo (Three.js physics).
 `count-control-legends, johnny-trigger-sniper, city-cab-rush, theft-city, supercar-legends`
 — **Unity WebGL**. `ping-pong-go`, `ping-pong-bugs` — Happylander (share the ping-pong-go dir).
+`rocket-soccer-derby` — Unity WebGL. `dig-out-of-prison` — iframe integration with the
+same local-network and feed lifecycle contract. Dig out of Prison packages the exact
+CrazyGames SDK v3 script locally, runs it in local mode, checksum-pins every source and
+integration file, and applies an exact-build guarded in-memory Wasm compatibility patch.
+Its source Wasm bytes remain unchanged on disk. The patch includes the source story's
+tap-to-continue wait, so the introduction can auto-advance into Day 1 gameplay.
 
 > Slug vs directory: they match except `dino-runner` → `public/games/dino-game/`.
 
@@ -147,8 +168,12 @@ To add or change a game you touch these, in sync:
   window.open) — only same-origin + `data:`/`blob:` allowed. This keeps mirrored games
   fully local (no Poki/telemetry/ads leaking out). It ALSO now:
   - Blocks cross-origin `location.assign/replace` + iframe navigations (best-effort).
-  - Spoofs `document.referrer`/`location.ancestorOrigins` to look like Poki so framed
-    "sitelock" checks don't trigger.
+  - Spoofs `document.referrer`/`location.ancestorOrigins` only for the explicit
+    Poki-source folder allowlist. Never apply that compatibility signal globally:
+    Dig out of Prison's CrazyGames SiteLock rejects a Poki referrer.
+  - Permits only loopback VEU telemetry ports 3456-3469 while the game itself is
+    running on loopback, so isolated parallel inspection sessions do not create false
+    network-lock errors. Those ports are not a public-host exception.
 - Ads are neutralized per game (no PokiSDK loaded, or a local no-op stub). Reward/interstitial
   paths self-resume so nothing freezes waiting for an ad.
 
@@ -227,20 +252,22 @@ All committed on `main`. Newest → oldest:
 | Requirement | Status |
 |---|---|
 | Vertical snap feed (touch + wheel) | ✅ done |
-| 3+ genuinely different playable games | ✅ 23 games |
+| 3+ genuinely different playable games | ✅ 25 games |
 | Auto start / auto stop, no stacked audio | ✅ done (see `c4e08ac`) |
 | Guest play, then optional Google/Discord login | ✅ code done; needs OAuth env on deploy |
 | Persisted scores (survive refresh + device) | ⚠️ needs `DATABASE_URL` in prod (SQLite is ephemeral) |
 | Live leaderboard (per-game, own rank) | ✅ `LeaderboardSheet` + `/api/leaderboard` |
+| Search, categories, saved games, following | ✅ Discover overlay + persisted APIs |
+| Cross-game global championship | ✅ real best-score-derived points; no seeded players |
 | Endless feed | ✅ shuffle-bag batches |
-| **Deployed public URL** | ❌ NOT deployed yet — user must deploy on Replit |
+| **Deployed public URL** | ✅ existing Replit URL; republish required for local changes |
 
 ---
 
-## 11. Deploying to Replit (what the USER must do — an agent can't)
+## 11. Publishing the current tree to Replit
 
-1. Push/import this repo to Replit; hit **Deploy** (uses `.replit`: build → start). Localhost
-   is a hackathon fail — a public URL/QR is required.
+1. Run `npm run check`, push the reviewed commit to the configured GitHub remote, then
+   republish the existing Replit deployment (uses `.replit`: build → start).
 2. Set **Secrets**: `SESSION_SECRET` (long random), optionally `GOOGLE_CLIENT_ID/SECRET`
    and/or `DISCORD_CLIENT_ID/SECRET` + `PUBLIC_BASE_URL` (enables login), and `DATABASE_URL`
    (Replit Postgres — needed for scores to truly persist; without it SQLite resets on redeploy).
@@ -275,6 +302,12 @@ So verification was done with an **isolated Chrome driven over CDP**:
   cross-origin (old Subway sitelock) makes `contentDocument` null.
 - The user calls this the **"VEU tool"** (a CDP-driven browser for inspecting/comparing games
   against the Poki originals). Poki reference URLs are like `https://poki.com/en/g/<slug>`.
+- VEU and Chrome automation must retain the three anti-throttling flags above. An
+  occluded WebGL tab can pause Unity after a single frame even when
+  `document.visibilityState` says `visible`; that is an inspection-runtime artifact.
+  Do not diagnose it as a missing game asset. A valid Dig out of Prison proof reaches
+  the Day 1 HUD, shows no failed game requests, reports SDK environment `local`, and
+  records `localHostCompatibilityApplied: true` in the local diagnostic.
 
 ---
 
@@ -303,7 +336,7 @@ a game won't load — it maps each engine to its required CSP mode and lists the
 
 ## 15. Suggested next steps
 
-1. Deploy to Replit + set secrets/DB (§11) — the last blocking DoD item.
+1. Push the reviewed working tree and republish Replit, then repeat production smoke tests.
 2. Resolve the commercial-mirror copyright question (§6) for the public URL.
 3. Prune the stale worktrees/branches so only `main` remains.
 4. Optional polish: hybrid real-icon/monogram, per-game thumbnails refresh, challenge-link

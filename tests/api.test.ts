@@ -37,7 +37,7 @@ describe("Tip Tap API", () => {
     const first = await agent.get("/api/bootstrap").expect(200);
     const second = await agent.get("/api/bootstrap").expect(200);
 
-    expect(first.body.games).toHaveLength(24);
+    expect(first.body.games).toHaveLength(25);
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "subway-surfers" })]),
     );
@@ -52,6 +52,9 @@ describe("Tip Tap API", () => {
     );
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "rocket-soccer-derby", ranked: false })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "dig-out-of-prison", ranked: false })]),
     );
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "dino-runner" })]),
@@ -91,6 +94,26 @@ describe("Tip Tap API", () => {
       ]),
     );
     expect(first.body.player.isGuest).toBe(true);
+    expect(first.body.games[0]).toEqual(
+      expect.objectContaining({
+        creatorId: expect.any(String),
+        creatorName: expect.any(String),
+        creatorLabel: expect.any(String),
+        category: expect.any(String),
+      }),
+    );
+    expect(first.body.engagement["pulse-lock"]).toEqual({
+      saved: false,
+      saves: 0,
+      plays: 0,
+    });
+    expect(first.body.followedCreatorIds).toEqual([]);
+    expect(first.body.stats).toEqual({
+      rankedRuns: 0,
+      rankedGames: 0,
+      savedGames: 0,
+      followingCreators: 0,
+    });
     expect(second.body.player.id).toBe(first.body.player.id);
     expect(first.headers["set-cookie"]?.[0]).toContain("HttpOnly");
   });
@@ -252,9 +275,87 @@ describe("Tip Tap API", () => {
     expect(unliked.body).toEqual({ liked: false, count: 0 });
   });
 
+  it("persists saves, creator follows, unique daily plays, and discovery filters", async () => {
+    const agent = request.agent(createApp(config, store));
+    await agent.get("/api/bootstrap").expect(200);
+
+    const saved = await agent.post("/api/games/pulse-lock/save").send({}).expect(200);
+    expect(saved.body).toEqual({ saved: true, saves: 1, plays: 0 });
+
+    const followed = await agent.post("/api/creators/tiptap/follow").send({}).expect(200);
+    expect(followed.body).toEqual({ following: true, followers: 1 });
+
+    const firstPlay = await agent.post("/api/games/pulse-lock/play").send({}).expect(200);
+    const duplicatePlay = await agent.post("/api/games/pulse-lock/play").send({}).expect(200);
+    expect(firstPlay.body.plays).toBe(1);
+    expect(duplicatePlay.body.plays).toBe(1);
+
+    const savedGames = await agent.get("/api/discover?view=saved").expect(200);
+    expect(savedGames.body.total).toBe(1);
+    expect(savedGames.body.games[0]).toMatchObject({
+      slug: "pulse-lock",
+      engagement: { saved: true, saves: 1, plays: 1 },
+    });
+
+    const followedGames = await agent.get("/api/discover?view=following").expect(200);
+    expect(followedGames.body.games.length).toBeGreaterThan(1);
+    expect(
+      followedGames.body.games.every((game: { creatorId: string }) => game.creatorId === "tiptap"),
+    ).toBe(true);
+
+    const sportsSearch = await agent
+      .get("/api/discover?q=happylander&category=Sports&sort=title")
+      .expect(200);
+    expect(sportsSearch.body.games.map((game: { slug: string }) => game.slug)).toEqual([
+      "ping-pong-bugs",
+      "ping-pong-go",
+    ]);
+
+    const refreshed = await agent.get("/api/bootstrap").expect(200);
+    expect(refreshed.body.engagement["pulse-lock"]).toEqual({
+      saved: true,
+      saves: 1,
+      plays: 1,
+    });
+    expect(refreshed.body.followedCreatorIds).toEqual(["tiptap"]);
+    expect(refreshed.body.stats.savedGames).toBe(1);
+    expect(refreshed.body.stats.followingCreators).toBe(1);
+  });
+
+  it("builds a real cross-game championship from each player's best ranks", async () => {
+    const first = await store.getOrCreateGuest(randomUUID());
+    const second = await store.getOrCreateGuest(randomUUID());
+    await store.saveScore(first.id, "pulse-lock", 800, 2_000);
+    await store.saveScore(first.id, "stack-shift", 600, 2_000);
+    await store.saveScore(second.id, "pulse-lock", 500, 2_000);
+
+    const response = await request.agent(createApp(config, store))
+      .get("/api/leaderboard/global")
+      .expect(200);
+
+    expect(response.body.totalPlayers).toBe(2);
+    expect(response.body.entries[0]).toMatchObject({
+      playerId: first.id,
+      points: 200,
+      crowns: 2,
+      rankedGames: 2,
+      rank: 1,
+    });
+    expect(response.body.entries[1]).toMatchObject({
+      playerId: second.id,
+      points: 99,
+      crowns: 0,
+      rankedGames: 1,
+      rank: 2,
+    });
+  });
+
   it("preserves guest scores when the same browser claims an OAuth identity", async () => {
     const guest = await store.getOrCreateGuest(randomUUID());
     await store.saveScore(guest.id, "stack-shift", 1_234, 2_000);
+    await store.toggleSave(guest.id, "stack-shift");
+    await store.toggleCreatorFollow(guest.id, "tiptap");
+    await store.recordPlay(guest.id, "stack-shift");
     const claimed = await store.upsertOauthPlayer({
       provider: "discord",
       providerUserId: "discord-test-user",
@@ -263,8 +364,12 @@ describe("Tip Tap API", () => {
       deviceId: guest.device_id!,
     });
     const board = await store.getLeaderboard("stack-shift", claimed.id);
+    const engagement = await store.getEngagement(claimed.id);
+    const followedCreators = await store.getFollowedCreators(claimed.id);
     expect(claimed.provider).toBe("discord");
     expect(board.yourBest).toBe(1_234);
     expect(board.yourRank).toBe(1);
+    expect(engagement["stack-shift"]).toMatchObject({ saved: true, plays: 1 });
+    expect(followedCreators).toEqual(["tiptap"]);
   });
 });

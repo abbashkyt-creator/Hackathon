@@ -29,6 +29,9 @@ The feed appends another shuffled batch near the end, so it has no bottom.
 4. `/api/scores` atomically consumes the ticket, validates the score against game policy and server elapsed time, and writes the run.
 5. The leaderboard response includes best, rank, percentile, rival and canonical run ID.
 6. SSE clients for that game are notified; open boards refetch the authoritative snapshot.
+7. The global championship derives points from each player's best score per ranked game:
+   first place earns 100, second 99, down to a minimum of one point. Unranked games are
+   excluded even if a legacy row exists.
 
 ## Data model
 
@@ -38,8 +41,13 @@ The feed appends another shuffled batch near the end, so it has no bottom.
 - `run_tickets`: one-time start records
 - `scores`: immutable accepted runs
 - `likes`: one hype per device and game
+- `saves`: one saved-game relationship per player
+- `creator_follows`: one followed-creator relationship per player
+- `game_plays`: one play impression per player/game/day for honest trending activity
 
 Best scores and ranks are derived from immutable run history, avoiding a second table that can drift during the sprint.
+Creator and category metadata lives in `shared/catalog.ts` so the server bootstrap,
+discovery API, offline client, and UI cannot silently invent different identities.
 
 ## Security boundaries
 
@@ -69,7 +77,7 @@ Remaining honest limit: score plausibility is not deterministic server replay. T
 - Production JS is code-split/minified by Vite
 - Express applies lossless response compression to compressible text assets
 - Native SSE rather than a WebSocket framework
-- Seven isolated mechanics with animation and iframe lifecycle cleanup
+- 25 isolated mechanics with animation and iframe lifecycle cleanup
 - Service worker separates shell and game caches, uses stale-while-revalidate for repeat asset loads, never caches API responses, and never substitutes app HTML for a missing game asset
 - If bootstrap is unreachable, a public built-in catalogue opens offline practice; scores remain unsaved until the authoritative API reconnects
 - PostgreSQL pool capped at eight connections
@@ -83,5 +91,7 @@ Remaining honest limit: score plausibility is not deterministic server replay. T
 - Game instructions are always visible
 - Sound is optional
 - Haptics are enhancement-only
+- Discovery is a labelled modal with keyboard focus management, semantic tabs, search,
+  pressed-state save/follow controls, and honest empty/loading states
 
 The mechanics are inherently visual and reaction-based. A future accessibility track should provide alternative non-timing modes rather than pretending all games are screen-reader equivalent.

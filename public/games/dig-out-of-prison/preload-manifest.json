@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/_shared/network-lock.js",
+    "/games/dig-out-of-prison/index.html",
+    "/games/dig-out-of-prison/tiptap-platform-bridge.js",
+    "/games/dig-out-of-prison/tiptap-bootstrap.js",
+    "/games/dig-out-of-prison/Build/6529111a7bc210fd4b0e5e9b7b7de456.loader.js",
+    "/games/dig-out-of-prison/Build/74316103438b469864841eb099023290.framework.js.br",
+    "/games/dig-out-of-prison/Build/8f2628f842ab3743cb74934c84aa0c5c.wasm.br",
+    "/games/dig-out-of-prison/Build/b6a11a5769b57ef475b5d3f311a674fc.data.br"
+  ]
+}

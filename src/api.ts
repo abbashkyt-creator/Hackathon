@@ -1,7 +1,10 @@
 import type {
   BootstrapData,
   Challenge,
+  FollowState,
+  GameEngagement,
   GameSlug,
+  GlobalLeaderboardResult,
   LeaderboardResult,
   LikeState,
 } from "./types";
@@ -43,6 +46,23 @@ export const api = {
       method: "POST",
       body: "{}",
     }),
+  toggleSave: (gameSlug: GameSlug) =>
+    request<GameEngagement>(`/api/games/${encodeURIComponent(gameSlug)}/save`, {
+      method: "POST",
+      body: "{}",
+    }),
+  recordPlay: (gameSlug: GameSlug) =>
+    request<{ plays: number }>(`/api/games/${encodeURIComponent(gameSlug)}/play`, {
+      method: "POST",
+      body: "{}",
+    }),
+  toggleCreatorFollow: (creatorId: string) =>
+    request<FollowState>(`/api/creators/${encodeURIComponent(creatorId)}/follow`, {
+      method: "POST",
+      body: "{}",
+    }),
+  globalLeaderboard: () =>
+    request<GlobalLeaderboardResult>("/api/leaderboard/global"),
   challenge: (runId: string) =>
     request<Challenge>(`/api/challenges/${encodeURIComponent(runId)}`),
   logout: () => request<void>("/auth/logout", { method: "POST", body: "{}" }),

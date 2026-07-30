@@ -7,11 +7,14 @@ Tip Tap Games is a mobile-first, vertical feed of instant one-thumb mini games. 
 ## What ships
 
 - Exact one-screen vertical swipe feed with endless shuffled recycling
-- Seven different games: Pulse Lock, Color Clash, Stack Shift, Memory Grid, Meteor Dodge, Subway Surfers, and Dino Runner
+- 25 different instant games across action, arcade, puzzle, runner, and sports
 - Strict active-card lifecycle: inactive games stop their timers and animation frames
 - Guest-first play with no registration wall
 - PostgreSQL production persistence and local SQLite development persistence
 - Per-game all-time and daily leaderboards
+- A real cross-game championship that rewards breadth without inventing players or scores
+- Searchable discovery with categories, trending activity, saved games, and followed creators
+- Player profile statistics for ranked runs, ranked games, saves, and creator follows
 - Live leaderboard refresh through Server-Sent Events plus polling fallback
 - One-time run tickets, server timing, score ceilings, rate limits, and replay rejection
 - Personal best, rank, percentile, and the next ghost-rival score
@@ -163,7 +166,9 @@ The repository notice records the exact captured build and the permission repres
 - Share the challenge link and open it in a second browser.
 - Beat the shown target.
 - Sign in with Discord and refresh to prove the personal best survived.
-- Swipe through all seven mechanics and return to confirm there are no zombie timers or audio.
+- Open Discover, save a game, follow a creator, and confirm both personal views persist.
+- Open the global championship and verify that only real ranked finishes appear.
+- Swipe through several different engines and return to confirm there are no zombie timers or audio.
 
 The app never seeds fake players or fake leaderboard scores. Populate the judging board with real team runs before presentation.
 
@@ -171,10 +176,11 @@ The app never seeds fake players or fake leaderboard scores. Populate the judgin
 
 ```text
 server/             API, database, OAuth, validation, SSE
-src/games/          seven isolated game integrations and implementations
-src/App.tsx         feed, overlays, sharing, auth and ranking UI
+shared/catalog.ts   authoritative creator and category metadata shared by client and server
+src/games/          25 isolated game integrations and implementations
+src/App.tsx         feed, discovery, saved/following, sharing, auth and ranking UI
 public/             PWA, icons, social preview and authorized local game assets
-tests/              policy and API integration tests
+tests/              policy, persistence, API and game-integration tests
 docs/               architecture, demo and original design references
 .github/workflows/  GitHub quality gate
 ```
@@ -183,12 +189,12 @@ For the complete vision, exact continuation prompt, copied-game intake procedure
 
 ## Known external setup
 
-The code is complete without credentials, but these steps cannot be performed from the repository alone:
+The GitHub remote and public Replit hostname already exist. Current local changes still
+need to be pushed and the Replit deployment republished before they are live. These
+release inputs cannot be proven from source code alone:
 
-- create the destination GitHub repository and add its remote,
-- create/import the Replit app,
-- provision Replit PostgreSQL,
-- choose the final public hostname,
+- confirm the published Replit deployment has a durable PostgreSQL `DATABASE_URL`,
 - register that hostname with Discord and Google,
-- add deployment secrets,
-- publish and perform real-provider OAuth smoke tests.
+- add/verify production deployment secrets,
+- republish and perform production plus real-provider OAuth smoke tests,
+- provide an Android signing key and certificate fingerprint before building the final TWA APK.

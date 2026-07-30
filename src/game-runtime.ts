@@ -85,6 +85,13 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     // of the connection; only the immediately upcoming game can boot early.
     warmFullMirror: false,
   },
+  "dig-out-of-prison": {
+    embedded: true,
+    preloadManifest: "/games/dig-out-of-prison/preload-manifest.json",
+    assetManifest: "/games/dig-out-of-prison/MIRROR-MANIFEST.json",
+    prepareByMount: true,
+    warmFullMirror: false,
+  },
   "kitty-loves-birds-2": { embedded: true },
   "theft-city": {
     embedded: true,

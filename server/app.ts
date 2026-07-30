@@ -25,6 +25,12 @@ const leaderboardQuery = z.object({
   game: z.string().min(1).max(50),
   period: z.enum(["all", "daily"]).default("all"),
 });
+const discoveryQuery = z.object({
+  q: z.string().trim().max(80).default(""),
+  category: z.enum(["Action", "Arcade", "Puzzle", "Runner", "Sports"]).optional(),
+  view: z.enum(["all", "saved", "following"]).default("all"),
+  sort: z.enum(["trending", "title"]).default("trending"),
+});
 
 interface RequestContext {
   player: Player;
@@ -125,6 +131,7 @@ export function createApp(config: Config, store: Store) {
   // (which permits 'wasm-unsafe-eval' and blob: script sources).
   const countControlSecurityHeaders = securityHeaders("wasm-game");
   const johnnyTriggerSecurityHeaders = securityHeaders("wasm-game");
+  const digOutOfPrisonSecurityHeaders = securityHeaders("wasm-game");
   // Rocket Soccer Derby's older local UnityLoader uses legacy eval compilation
   // plus WebAssembly. This exception is scoped to its mirror only.
   const rocketSoccerDerbySecurityHeaders = securityHeaders("legacy-wasm-game");
@@ -155,6 +162,8 @@ export function createApp(config: Config, store: Store) {
         ? countControlSecurityHeaders
       : req.path.startsWith("/games/johnny-trigger-sniper/")
         ? johnnyTriggerSecurityHeaders
+      : req.path.startsWith("/games/dig-out-of-prison/")
+        ? digOutOfPrisonSecurityHeaders
       : req.path.startsWith("/games/rocket-soccer-derby/")
         ? rocketSoccerDerbySecurityHeaders
       : req.path.startsWith("/games/fruit-ninja/")
@@ -179,6 +188,19 @@ export function createApp(config: Config, store: Store) {
   });
   app.use(compression());
   app.use("/games/theft-city/Build", (req, res, next) => {
+    if (req.path.endsWith(".data.br")) {
+      res.type("application/octet-stream");
+      res.setHeader("Content-Encoding", "br");
+    } else if (req.path.endsWith(".framework.js.br")) {
+      res.type("text/javascript");
+      res.setHeader("Content-Encoding", "br");
+    } else if (req.path.endsWith(".wasm.br")) {
+      res.type("application/wasm");
+      res.setHeader("Content-Encoding", "br");
+    }
+    next();
+  });
+  app.use("/games/dig-out-of-prison/Build", (req, res, next) => {
     if (req.path.endsWith(".data.br")) {
       res.type("application/octet-stream");
       res.setHeader("Content-Encoding", "br");
@@ -276,11 +298,20 @@ export function createApp(config: Config, store: Store) {
   app.get("/api/bootstrap", async (req, res, next) => {
     try {
       const ctx = await context(req, res);
-      const [games, likes] = await Promise.all([store.listGames(), store.getLikes(ctx.deviceId)]);
+      const [games, likes, engagement, followedCreatorIds, stats] = await Promise.all([
+        store.listGames(),
+        store.getLikes(ctx.deviceId),
+        store.getEngagement(ctx.player.id),
+        store.getFollowedCreators(ctx.player.id),
+        store.getPlayerStats(ctx.player.id),
+      ]);
       res.json({
         player: publicPlayer(ctx.player),
         games: games.map((game) => ({ ...game, ranked: isRankedGame(game.slug) })),
         likes,
+        engagement,
+        followedCreatorIds,
+        stats,
         auth: {
           google: providerAvailable("google", config),
           discord: providerAvailable("discord", config),
@@ -339,6 +370,56 @@ export function createApp(config: Config, store: Store) {
     }
   });
 
+  app.get("/api/leaderboard/global", async (req, res, next) => {
+    try {
+      const ctx = await context(req, res);
+      res.json(await store.getGlobalLeaderboard(ctx.player.id));
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.get("/api/discover", async (req, res, next) => {
+    try {
+      const query = discoveryQuery.parse(req.query);
+      const ctx = await context(req, res);
+      const [games, engagement, followedCreatorIds] = await Promise.all([
+        store.listGames(),
+        store.getEngagement(ctx.player.id),
+        store.getFollowedCreators(ctx.player.id),
+      ]);
+      const followed = new Set(followedCreatorIds);
+      const needle = query.q.toLocaleLowerCase();
+      const result = games
+        .filter(
+          (game) =>
+            (!query.category || game.category === query.category) &&
+            (query.view !== "saved" || engagement[game.slug]?.saved) &&
+            (query.view !== "following" || followed.has(game.creatorId)) &&
+            (!needle ||
+              `${game.title} ${game.creatorName} ${game.category}`
+                .toLocaleLowerCase()
+                .includes(needle)),
+        )
+        .map((game) => ({
+          ...game,
+          ranked: isRankedGame(game.slug),
+          engagement: engagement[game.slug] ?? { saved: false, saves: 0, plays: 0 },
+          followingCreator: followed.has(game.creatorId),
+        }))
+        .sort((a, b) =>
+          query.sort === "title"
+            ? a.title.localeCompare(b.title)
+            : b.engagement.plays - a.engagement.plays ||
+              b.engagement.saves - a.engagement.saves ||
+              a.title.localeCompare(b.title),
+        );
+      res.json({ games: result, total: result.length });
+    } catch (error) {
+      next(error);
+    }
+  });
+
   app.get("/api/events", async (req, res, next) => {
     try {
       const gameSlug = z.string().min(1).max(50).parse(req.query.game);
@@ -382,6 +463,36 @@ export function createApp(config: Config, store: Store) {
       const gameSlug = z.string().min(1).max(50).parse(req.params.slug);
       const ctx = await context(req, res);
       res.json(await store.toggleLike(ctx.deviceId, gameSlug));
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.post("/api/games/:slug/save", async (req, res, next) => {
+    try {
+      const gameSlug = z.string().min(1).max(50).parse(req.params.slug);
+      const ctx = await context(req, res);
+      res.json(await store.toggleSave(ctx.player.id, gameSlug));
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.post("/api/games/:slug/play", async (req, res, next) => {
+    try {
+      const gameSlug = z.string().min(1).max(50).parse(req.params.slug);
+      const ctx = await context(req, res);
+      res.json(await store.recordPlay(ctx.player.id, gameSlug));
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.post("/api/creators/:creatorId/follow", async (req, res, next) => {
+    try {
+      const creatorId = z.string().min(1).max(50).regex(/^[a-z0-9-]+$/).parse(req.params.creatorId);
+      const ctx = await context(req, res);
+      res.json(await store.toggleCreatorFollow(ctx.player.id, creatorId));
     } catch (error) {
       next(error);
     }
@@ -449,7 +560,7 @@ export function createApp(config: Config, store: Store) {
     }
     const message = error instanceof Error ? error.message : "Unexpected server error.";
     console.error(error);
-    res.status(message === "Unknown game." ? 404 : 500).json({
+    res.status(message === "Unknown game." || message === "Unknown creator." ? 404 : 500).json({
       error: config.NODE_ENV === "production" ? "Something went wrong." : message,
     });
   });

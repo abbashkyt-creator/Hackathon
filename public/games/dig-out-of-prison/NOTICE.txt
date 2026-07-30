@@ -1,0 +1,15 @@
+Dig out of Prison
+
+Creator: Incredi.Games
+Source reviewed: https://www.crazygames.com/game/dig-out-of-prison
+Captured: 2026-07-29
+
+This directory contains the authorized game runtime mirror selected by the
+project owner. The CrazyGames portal shell, ads, analytics, account services,
+leaderboards, tracking, and SDK network services are deliberately not included.
+The exact CrazyGames SDK v3 browser script is packaged locally only to preserve
+the Unity build's native localhost callback semantics behind Tip Tap's network
+lock. It cannot load ads or reach the portal from this mirror.
+
+Before publishing this repository or deploying it to Replit, retain written
+permission from the rights holder that covers public redistribution.
