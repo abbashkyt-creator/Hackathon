@@ -204,7 +204,7 @@ Do **not** conclude that a copied game is unsupported, broken, or requires a reb
 5. Play enough of the original source to identify the actual required answer/control. Never call a puzzle "stuck" merely because an assumed button did not advance it.
 6. Only after source and local direct-page behavior are compared may an agent call something a true compatibility blocker. If anything is unverified, say "incomplete asset/lifecycle audit"—not "impossible".
 
-When localizing, retain only source-game assets and a narrowly reviewed local adapter. Remove host SDK, ads, analytics, identity, remote scoreboards, and trackers; replace mandatory callbacks with explicit no-ad/no-network local behavior. Record every source URL, byte size, hash, purpose, and license in the manifest.
+When localizing, retain only source-game assets and a narrowly reviewed local adapter. Remove host SDK, source ads, analytics, identity, remote scoreboards, and trackers; route mandatory ad callbacks only through the disabled-by-default same-origin owned pipeline and keep every other callback local. Record every source URL, byte size, hash, purpose, and license in the manifest.
 
 ### 1. Candidate review before edits
 

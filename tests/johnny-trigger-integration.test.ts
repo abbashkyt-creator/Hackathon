@@ -19,13 +19,13 @@ describe("Johnny Trigger Sniper local integration", () => {
     expect(manifest.files).toHaveLength(276);
   });
 
-  it("provides an ad-free parent-controlled audio bridge", () => {
+  it("provides a parent-controlled audio and owned-ad bridge", () => {
     const bridge = read("tiptap-platform-bridge.js");
 
     expect(bridge).toContain('event.data?.type !== "set-state"');
     expect(bridge).toContain("window.__TIPTAP_MUTED__ = muted");
-    expect(bridge).toContain("rewardedBreak: () => resolve(false)");
-    expect(bridge).toContain("commercialBreak: () => resolve()");
+    expect(bridge).toContain('TipTapAds.rewarded(options, "johnny-rewarded")');
+    expect(bridge).toContain('TipTapAds.commercial(options, "johnny-commercial")');
     expect(bridge).not.toMatch(/https?:\/\//);
   });
 

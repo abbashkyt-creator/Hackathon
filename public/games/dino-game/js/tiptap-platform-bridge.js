@@ -121,15 +121,15 @@
     gameplayStop: function () {
       postToParent('gameplay-stop');
     },
-    commercialBreak: function () {
-      record('commercial-break-skipped');
-      return Promise.resolve();
+    commercialBreak: function (options) {
+      record('commercial-break-requested');
+      return window.TipTapAds.commercial(options, 'dino-commercial');
     },
-    rewardedBreak: function () {
-      record('rewarded-break-skipped');
-      return Promise.resolve(false);
+    rewardedBreak: function (options) {
+      record('rewarded-break-requested');
+      return window.TipTapAds.rewarded(options, 'dino-rewarded');
     },
-    displayAd: function () {},
+    displayAd: function (options) { return window.TipTapAds.display(options, 'dino-display'); },
     destroyAd: function () {},
     happytime: function () {},
     loadingStart: function () {},

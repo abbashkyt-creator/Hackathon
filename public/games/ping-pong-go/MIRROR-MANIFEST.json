@@ -19,14 +19,14 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 1669,
-      "sha256": "b1edd4f4b0c464bf35d8f24be021aef1fadd93783fdecb717bf6f216f654fbc6",
+      "bytes": 1722,
+      "sha256": "6a5d53d0a969ac65beee951e581cc1b5f55f3e391951c8c736b12ab8a732f9b5",
       "purpose": "Local index: network-lock first, local Poki-SDK bridge, externalized boot"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
-      "bytes": 7715,
-      "sha256": "00040f3925ba81b6dc1a9b43eb5d20a9d7270b137d7ef67e1a9a740a9a2e02c3",
+      "bytes": 7725,
+      "sha256": "da1c3f5bb0cbfcddde9743334ed1ab343989132e054ec5776d3be1ede06e024a",
       "purpose": "Local Poki SDK replacement; auto-starts arcade or bughunt per ?mode= and forwards the game own score"
     },
     {

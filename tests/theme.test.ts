@@ -8,11 +8,15 @@ const read = (path: string) => readFileSync(join(root, path), "utf8");
 describe("Tip Tap color theme", () => {
   it("selects a stored or system theme before the app renders", () => {
     const html = read("index.html");
-    expect(html).toContain('localStorage.getItem("ttg_theme")');
-    expect(html).toContain('matchMedia("(prefers-color-scheme: dark)")');
-    expect(html.indexOf("document.documentElement.dataset.theme")).toBeLessThan(
+    const bootstrap = read("public/theme-bootstrap.js");
+    expect(bootstrap).toContain('localStorage.getItem("ttg_theme")');
+    expect(bootstrap).toContain('matchMedia("(prefers-color-scheme: dark)")');
+    expect(bootstrap).toContain("document.documentElement.dataset.theme");
+    expect(html).toContain('<script src="/theme-bootstrap.js"></script>');
+    expect(html.indexOf('<script src="/theme-bootstrap.js"></script>')).toBeLessThan(
       html.indexOf('<script type="module" src="/src/main.tsx">'),
     );
+    expect(html).not.toMatch(/<script>([\s\S]*?)<\/script>/);
   });
 
   it("provides an accessible persistent daylight and darklight toggle", () => {

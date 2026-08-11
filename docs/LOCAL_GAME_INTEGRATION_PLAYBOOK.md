@@ -37,8 +37,8 @@ From the assigned worktree, run `start-veu.cmd`, then `veu up`, `veu doctor`, an
 
 1. Create `public/games/<slug>/` with the original relative asset layout, including the source launcher/bootstrap, exact compatible runtime, preload assets, and required game callbacks—not merely the main payload. Do not scrape logins, bypass challenges, or copy ads/trackers.
 2. Add `MIRROR-MANIFEST.json` with provenance, local files, runtime/license, and honest limitations. Add `NOTICE.txt` with attribution and deployment-permission reminder.
-3. Add `index.html`; the first executable script must be `/games/_shared/network-lock.js`. All game paths must be local. Preserve the source launch order and replace any host SDK with a narrowly scoped local bridge for required source lifecycle, mute, no-ad behavior, and verified score forwarding only.
-4. Replace any mandatory platform SDK with a minimal local no-ad adapter. A rewarded/ad request must resolve honestly as no reward; it must never download or display an outside ad.
+3. Add `index.html`; the first executable script must be `/games/_shared/network-lock.js`, immediately followed by `/games/_shared/ad-client.js`. All game paths must be local. Preserve the source launch order and replace any host SDK with a narrowly scoped local bridge for required source lifecycle, mute, owned-ad routing, and verified score forwarding only.
+4. Replace any mandatory platform SDK with a minimal local adapter. Source ad hooks must route only to the disabled-by-default same-origin owned pipeline in `docs/OWNED-ADS-PIPELINE.md`; no third-party ad or tracking SDK may load. A rewarded request must return false unless a configured Tip Tap placement is actually completed.
 5. For SWF, self-host Ruffle beside the game, set `publicPath` to that local directory, set `allowNetworking: 'none'`, and set `allowScriptAccess: false` unless a reviewed source callback requires it. Keep Ruffle's MIT/Apache notices.
 6. Add `preload-manifest.json` with the actual entry page, bridge, runtime bootstrap, runtime binary, and game payload. It enables same-origin pre-warming, but it cannot make a large cold payload literally instantaneous.
 

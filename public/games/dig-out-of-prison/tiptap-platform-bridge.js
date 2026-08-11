@@ -61,8 +61,11 @@
       prefetchAd: () => resolved(),
       requestAd: (_type, callbacks) => {
         traceSdk(`ad-request:${String(_type)}`);
-        queueMicrotask(() => callbacks?.adError?.({ code: "no_ad", message: "Ads are disabled in Tip Tap." }));
-        return resolved();
+        const kind = String(_type).toLowerCase().includes("reward") ? "rewarded" : "interstitial";
+        return window.TipTapAds.request(kind, `dig-crazygames-${String(_type)}`).then((result) => {
+          if (result.shown) callbacks?.adFinished?.();
+          else callbacks?.adError?.({ code: "no_ad", message: "No Tip Tap campaign was shown." });
+        });
       },
       addAdblockPopupListener: noop,
     }),
@@ -134,7 +137,10 @@
       window.__TIPTAP_LEGACY_OBJECT__ = legacyObjectName;
       queueMicrotask(() => queueLegacy("InitCallback", JSON.stringify(localSession)));
     },
-    requestAd: () => queueMicrotask(() => queueLegacy("AdError", "no_ad")),
+    requestAd: (type) => window.TipTapAds.request(
+      String(type).toLowerCase().includes("reward") ? "rewarded" : "interstitial",
+      `dig-legacy-${String(type)}`,
+    ).then((result) => queueLegacy(result.shown ? "AdFinished" : "AdError", result.shown ? "" : "no_ad")),
     happytime: noop,
     gameplayStart: noop,
     gameplayStop: noop,

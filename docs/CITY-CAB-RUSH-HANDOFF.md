@@ -55,11 +55,14 @@ Two local integration details are also required for this Unity build:
   analytics calls; the local compatibility object completes only the Unity
   lifecycle callbacks that the offline game needs
 - shared network lock loaded first in `index.html`
-- local no-ad Unity compatibility bridge
+- local Unity compatibility bridge with disabled-by-default owned-ad routing
 - source Space plus a centered touch start are sent during the first five
   seconds after Unity becomes ready when `autoplay=1`; this covers the source
   build's desktop and mobile entry paths without repeating a gameplay action
 - muted state is received from the Tip Tap parent
+- coarse-pointer devices receive visible hold controls for left, right,
+  accelerate, and brake; the controls map to Unity's arrow-key axes and
+  release every held key on blur, page hide, visibility loss, or ad pause
 - touch input is reserved for the Unity frame rather than feed scrolling
 - the next City Cab card stays mounted for off-screen Unity warm-up
 

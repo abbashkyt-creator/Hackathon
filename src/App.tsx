@@ -34,6 +34,7 @@ import {
   type ComponentType,
 } from "react";
 import { api } from "./api";
+import { OwnedAdPipeline } from "./OwnedAdPipeline";
 import { getGameCatalogMetadata } from "../shared/catalog";
 import {
   isEmbeddedGame,
@@ -1430,17 +1431,14 @@ function GameCard({
   );
 }
 
-// 67 Game is the pinned showcase: it leads every batch (so it's the first card
-// on open and heads each endless-feed cycle). A challenge deep-link still wins
-// the very first card so shared links land correctly; every other game is
-// freshly shuffled on each display.
-const PINNED_FIRST_SLUG = "67-game";
+// Pulse Lock is the instant-play lead card: it begins moving as soon as the feed
+// opens without an iframe loader, Flash poster, audio gate, or user gesture. A
+// challenge deep-link still wins the first slot so shared links land correctly.
+const PINNED_FIRST_SLUG = "pulse-lock";
 
-// The five original native mini-games are always parked at the end of the feed
-// (the last games reachable in each cycle); every bigger showcase game comes
-// first, right after 67 Game.
+// Keep the remaining native mini-games at the end of the feed. Pulse Lock is
+// intentionally excluded because it is now the instant-play lead card.
 const NATIVE_LAST_SLUGS = new Set([
-  "pulse-lock",
   "memory-grid",
   "meteor-dodge",
   "color-clash",
@@ -1457,9 +1455,9 @@ function gameMonogram(title: string): string {
   return (words[0][0] + (words[1]?.[0] ?? "")).toUpperCase();
 }
 
-// Endless feed with a fixed priority order: 67 Game always leads, then every
-// other showcase game (freshly shuffled each batch), then the five original
-// native mini-games always parked at the end. A batch-0 deep link (?game=)
+// Endless feed with a fixed priority order: Pulse Lock always leads, then every
+// showcase game (freshly shuffled each batch), then the remaining native
+// mini-games at the end. A batch-0 deep link (?game=)
 // still wins the very first card so challenge/share links land correctly.
 function makeBatch(
   games: GameDefinition[],
@@ -1468,7 +1466,7 @@ function makeBatch(
   recent?: readonly string[],
 ): FeedEntry[] {
   const has = (slug: string) => games.some((game) => game.slug === slug);
-  // Lead cards: a batch-0 deep link wins the first slot, then 67 Game leads.
+  // Lead cards: a batch-0 deep link wins the first slot, then Pulse Lock leads.
   const leadSlugs: string[] = [];
   if (batch === 0 && preferred && has(preferred)) leadSlugs.push(preferred);
   if (has(PINNED_FIRST_SLUG) && !leadSlugs.includes(PINNED_FIRST_SLUG)) {
@@ -1894,6 +1892,7 @@ export function App() {
         onClose={() => setAuthOpen(false)}
         onLogout={() => void logout()}
       />
+      <OwnedAdPipeline soundEnabled={soundEnabled} />
       {toast && <div className="toast">{toast}</div>}
     </main>
   );

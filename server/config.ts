@@ -5,6 +5,7 @@ const optionalUrl = z.string().url().optional().or(z.literal(""));
 const envSchema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   PORT: z.coerce.number().int().positive().default(3000),
+  PREVIEW_PRODUCTION_CLIENT: z.enum(["0", "1"]).default("0").transform((value) => value === "1"),
   DATABASE_URL: optionalUrl,
   SQLITE_PATH: z.string().default("./data/tip-tap.db"),
   SESSION_SECRET: z.string().min(32).default("development-only-session-secret-change-me"),

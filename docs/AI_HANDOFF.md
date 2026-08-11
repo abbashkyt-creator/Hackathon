@@ -210,11 +210,10 @@ after editing `server/app.ts`.**
 
 ## 8. Feed ordering (src/App.tsx `makeBatch`)
 
-- `PINNED_FIRST_SLUG = "67-game"` — 67 Game is pinned to the **very first card on open**
-  (batch 0). A `?game=<slug>` deep link (challenge links) overrides that first slot.
-- Every batch is a **full shuffle of ALL games** (shuffle-bag): each game appears exactly
-  once per cycle, so the player sees every game before any repeat. After batch 0, 67 shuffles
-  in like everything else (it is NOT re-pinned each batch — that was the old "looping" bug).
+- `PINNED_FIRST_SLUG = "pulse-lock"` — lightweight native Pulse Lock is the instant-play
+  lead card. A `?game=<slug>` deep link (challenge links) overrides that first slot.
+- Every batch contains every game exactly once. Pulse Lock leads each cycle, the copied
+  showcase games are shuffled next, and the other native games are shuffled at the end.
 - New batches never open with the game that just closed the previous batch (no seam repeat).
 - Helper `gameMonogram(title)` makes the 1-2 char fallback badge for the jump sheet.
 

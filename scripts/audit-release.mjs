@@ -36,9 +36,17 @@ for (const name of readdirSync(gamesRoot)) {
 
   const html = readFileSync(indexPath, "utf8");
   const lockPosition = html.indexOf('src="/games/_shared/network-lock.js"');
+  const adClientPosition = html.indexOf('src="/games/_shared/ad-client.js"');
   const firstScriptPosition = html.search(/<script\b[^>]*\bsrc=/i);
   if (lockPosition < 0 || lockPosition !== firstScriptPosition + '<script '.length) {
     fail(`${name}/index.html must load /games/_shared/network-lock.js before every other script`);
+  }
+  if (
+    adClientPosition < 0 ||
+    adClientPosition < lockPosition ||
+    !/<script\b[^>]*src=["']\/games\/_shared\/network-lock\.js["'][^>]*><\/script>\s*<script\b[^>]*src=["']\/games\/_shared\/ad-client\.js["'][^>]*><\/script>/i.test(html)
+  ) {
+    fail(`${name}/index.html must load the owned ad client immediately after the network lock`);
   }
   if (/\b(?:src|href|action)\s*=\s*["']https?:\/\//i.test(html)) {
     fail(`${name}/index.html contains an external resource URL`);

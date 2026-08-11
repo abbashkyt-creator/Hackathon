@@ -8,9 +8,9 @@
     "captureHashNote":  "The files array records the captured upstream bytes. integrationFiles records local additions and the modified local index.",
     "integrationFiles":  [
                              {
-                                 "sha256":  "c120635ee7bc10fff791091d7d5eef5291d1c686c01a6ed9364fe6037e60e3a0",
+                                 "sha256":  "0317621299f3a131cc6b653cb5988aa69015a815781c88d9f6ea97a01df4b677",
                                  "assetPath":  "index.html",
-                                 "bytes":  3028,
+                                 "bytes":  3084,
                                  "purpose":  "Local bridge and network lock"
                              },
                              {
@@ -18,6 +18,12 @@
                                  "assetPath":  "NOTICE.txt",
                                  "bytes":  848,
                                  "purpose":  "Notice"
+                             },
+                             {
+                                 "sha256":  "bdc52da1b495bfd18541c025a4ab8a618cc4de58518a400ab6b18e11a5729c62",
+                                 "assetPath":  "js/tiptap-platform-bridge.js",
+                                 "bytes":  9901,
+                                 "purpose":  "Same-origin owned-ad and lifecycle bridge"
                              }
                          ],
     "files":  [
@@ -1094,9 +1100,9 @@
                   },
                   {
                       "assetPath":  "index.html",
-                      "bytes":  3230,
+                      "bytes":  3084,
                       "contentType":  "text/html",
-                      "sha256":  "6d83586fd97bbe1f586573e4a1ea6ec41bf2631f400c3ceedadd35071ff6c683",
+                      "sha256":  "0317621299f3a131cc6b653cb5988aa69015a815781c88d9f6ea97a01df4b677",
                       "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/index.html",
                       "restoredFromVeuCapture":  true
                   },

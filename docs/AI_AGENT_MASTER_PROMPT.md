@@ -65,7 +65,7 @@ Copied-game security and independence:
 - Load /games/_shared/network-lock.js before every copied-game script.
 - Keep production CSP fail-closed. Never whitelist a source host to make an old dependency work.
 - Localize required dependencies under /public/games, replace platform APIs with minimal local bridge behavior, or reject the game.
-- Ads must not display or download. Rewarded-ad calls must return a truthful no-ad result.
+- Third-party ads, ad SDKs, and tracking must not display or download. Source ad calls route only to the same-origin Tip Tap owned pipeline, which ships disabled; rewarded calls return false unless an enabled owned placement is actually completed.
 - Preserve original creator identity; do not present copied work as created by Tip Tap.
 
 Server and leaderboard contract:

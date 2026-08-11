@@ -33,8 +33,8 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 939,
-      "sha256": "bbddf5c803b294cc20fb88fbf446c17b61ad0b20b3793df6d84f7e2f5fd54d6a"
+      "bytes": 993,
+      "sha256": "5919e2f1a54c432da22f85437b456bc984343835427e64711e4ab16c838cce5d"
     },
     {
       "assetPath": "tiptap-runtime-bridge.js",
@@ -43,8 +43,8 @@
     },
     {
       "assetPath": "scripts/tiptap-poki-sdk.js",
-      "bytes": 684,
-      "sha256": "c01399dee76020cd5cbd4dc7daf43b8ddf8e90796e46deff19650276e344ca9f"
+      "bytes": 738,
+      "sha256": "bf33f871d6adc127acac5def07b57404a924fa8a9b5c539e9380ed15f6ee426e"
     },
     {
       "assetPath": "scripts/main.js",

@@ -10,3 +10,18 @@ body { font-family: Impact, "Arial Black", system-ui, sans-serif; }
 .loading-copy b { color: #fbbf24; }
 .loading-track { width: min(260px, 65vw); height: 7px; overflow: hidden; border-radius: 99px; background: rgba(255,255,255,.15); }
 .loading-track span { display: block; width: 0; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #f59e0b, #fde047); transition: width .15s linear; }
+#city-touch-controls { display: none; position: fixed; inset: 0; z-index: 4; pointer-events: none; }
+body.touch-capable #city-touch-controls { display: block; }
+.city-steering, .city-pedals { position: absolute; bottom: max(18px, env(safe-area-inset-bottom)); display: flex; align-items: end; gap: 10px; }
+.city-steering { left: max(16px, env(safe-area-inset-left)); }
+.city-pedals { right: max(16px, env(safe-area-inset-right)); }
+#city-touch-controls button { width: clamp(58px, 16vw, 76px); height: clamp(58px, 16vw, 76px); border: 2px solid rgba(255,255,255,.64); border-radius: 50%; pointer-events: auto; touch-action: none; -webkit-user-select: none; user-select: none; color: #fff; background: rgba(7,12,22,.58); box-shadow: 0 8px 22px rgba(0,0,0,.35); font: 900 16px/1 system-ui, sans-serif; backdrop-filter: blur(8px); }
+#city-touch-controls button[data-control="accelerate"] { width: clamp(66px, 18vw, 84px); height: clamp(66px, 18vw, 84px); border-color: #bef264; background: rgba(54,83,20,.68); }
+#city-touch-controls button[data-control="brake"] { border-color: #fda4af; background: rgba(109,22,40,.68); font-size: 12px; }
+#city-touch-controls button.is-pressed { transform: scale(.92); filter: brightness(1.35); }
+#city-touch-controls button:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+@media (max-height: 520px) {
+  .city-steering, .city-pedals { bottom: max(10px, env(safe-area-inset-bottom)); }
+  #city-touch-controls button { width: 56px; height: 56px; }
+  #city-touch-controls button[data-control="accelerate"] { width: 64px; height: 64px; }
+}

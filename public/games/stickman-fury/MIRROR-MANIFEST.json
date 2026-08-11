@@ -493,13 +493,13 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 1767,
-      "sha256": "9dcce1f9c5af1e755fb16075fa8bd90da9d43bdb4a78212142e6772a0dd34414"
+      "bytes": 1823,
+      "sha256": "279b1f732189ab2d8129d8351c9f84c085e4300314b7215e4c979649c7e6cc41"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
-      "bytes": 4463,
-      "sha256": "a99e13fda1758909806651d61c24504bb1d2b6dcb05cd0651ebf290c1782548a"
+      "bytes": 4360,
+      "sha256": "09dcdcb59f10e78e986248c98586caf003c4245de5ce75bdc61e07297a847482"
     },
     {
       "assetPath": "js/tiptap-bootstrap.js",

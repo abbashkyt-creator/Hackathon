@@ -13,14 +13,14 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 1155,
-      "sha256": "30e67267b2d86d8ead7131c347b7b91f0186a65e2ee405681a5c8a6c9754fe1f",
+      "bytes": 1211,
+      "sha256": "acf330a9103dd150e1fdf68535693007a7171ba46e38ee375944bf9e12327c73",
       "purpose": "Local game document: network lock + bridge + Unity loader + boot"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
-      "bytes": 11000,
-      "sha256": "9287dbb1a64a55571b420a7b4734d3564d824f581411caebca8bc1993c19cc45",
+      "bytes": 11087,
+      "sha256": "3cad83adf99b077204741a67ca8f165fd2ff6cb33e5fb7849169f27436f2fc0a",
       "purpose": "Local PokiSDK compatibility bridge (no-ad, no-score, autoplay, mute, Unity ready handshake)"
     },
     {

@@ -39,9 +39,9 @@
       window.__TIPTAP_GAMEPLAY_STARTED__ = false;
     },
     setDebug: noop,
-    commercialBreak: () => resolve(),
-    rewardedBreak: () => resolve(false),
-    displayAd: noop,
+    commercialBreak: (options) => window.TipTapAds.commercial(options, "city-cab-commercial"),
+    rewardedBreak: (options) => window.TipTapAds.rewarded(options, "city-cab-rewarded"),
+    displayAd: (options) => window.TipTapAds.display(options, "city-cab-display"),
     destroyAd: noop,
     redirect: noop,
     shareableURL: () => resolve(""),
@@ -57,8 +57,8 @@
   });
 
   // These globals are the exact completion callbacks expected by the C# Unity
-  // bridge. They resolve immediately and never invoke an advertisement,
-  // source-host account, leaderboard, or network service.
+  // bridge. Ad requests stay same-origin and are decided by the parent-owned
+  // pipeline; source-host account, leaderboard, and network services stay off.
   window.commercialBreak = () =>
     window.PokiSDK.commercialBreak().then(() => send("commercialBreakCompleted"));
   window.rewardedBreak = (...args) =>

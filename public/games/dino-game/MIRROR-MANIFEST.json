@@ -7,9 +7,9 @@
     "capturedWith":  "Visual Editor Ultimate",
     "integrationFiles":  [
                              {
-                                 "sha256":  "3a689047beab188e0a271cbf97876b530da10f28631a061e697a80738c6a0a73",
+                                 "sha256":  "04850e851932bc455d55572e7f86109109cd1f01229c53c47c36bcfe5cdbb93b",
                                  "assetPath":  "index.html",
-                                 "bytes":  3369,
+                                 "bytes":  3421,
                                  "purpose":  "Local bridge and network lock"
                              },
                              {
@@ -17,6 +17,12 @@
                                  "assetPath":  "NOTICE.txt",
                                  "bytes":  986,
                                  "purpose":  "Notice"
+                             },
+                             {
+                                 "sha256":  "5974154a529ea1ca469f42c1acf24a8cd74895b6a6ffdc2889dcc621d47e7a4e",
+                                 "assetPath":  "js/tiptap-platform-bridge.js",
+                                 "bytes":  4196,
+                                 "purpose":  "Same-origin owned-ad and lifecycle bridge"
                              }
                          ],
     "files":  [

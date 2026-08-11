@@ -28,7 +28,8 @@
     },
     {
       "assetPath": "index.html",
-      "bytes": 507
+      "bytes": 563,
+      "sha256": "5f7f470bee0954ff370bf40989489c5b6368b9e8aece2ae39b7cd0de7a7066c4"
     },
     {
       "assetPath": "MIRROR-MANIFEST.json",
@@ -84,7 +85,8 @@
     },
     {
       "assetPath": "tiptap-platform-bridge.js",
-      "bytes": 2118
+      "bytes": 2090,
+      "sha256": "2d73aed99c9c77a66a179720f1fcd8aefab3274e62d1e827d4473efb90d0bc20"
     },
     {
       "assetPath": "tiptap-shell.css",

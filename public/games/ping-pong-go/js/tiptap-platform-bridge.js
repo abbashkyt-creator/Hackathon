@@ -204,18 +204,16 @@
     gameplayStop: function () {
       postToParent('gameplay-stop');
     },
-    // commercialBreak(beforeAd?).then(afterAd) — resolve immediately, show no ad.
-    commercialBreak: function () {
-      record('commercial-break-skipped');
-      return Promise.resolve();
+    commercialBreak: function (options) {
+      record('commercial-break-requested');
+      return window.TipTapAds.commercial(options, 'ping-pong-commercial');
     },
-    // rewardedBreak(beforeAd?).then(success) — truthfully return "no reward".
-    rewardedBreak: function () {
-      record('rewarded-break-skipped');
-      return Promise.resolve(false);
+    rewardedBreak: function (options) {
+      record('rewarded-break-requested');
+      return window.TipTapAds.rewarded(options, 'ping-pong-rewarded');
     },
     happytime: noop,
-    displayAd: noop,
+    displayAd: function (options) { return window.TipTapAds.display(options, 'ping-pong-display'); },
     destroyAd: noop,
     getURLParam: function (key) {
       return params.get(key);

@@ -62,8 +62,8 @@
     {
       "assetPath": "index.html",
       "provenance": "Tip Tap integration",
-      "bytes": 587,
-      "sha256": "10603574be44b2d2df68f05a36044dea0718d071a5b92865714a9281678989a1"
+      "bytes": 643,
+      "sha256": "7f5a35a188d48895a86c67826dc3eb227d0107d0842b4c1d878e7156d4e70191"
     },
     {
       "assetPath": "tiptap-bootstrap.js",
@@ -80,8 +80,8 @@
     {
       "assetPath": "tiptap-platform-bridge.js",
       "provenance": "Tip Tap integration",
-      "bytes": 2825,
-      "sha256": "79cf158018121db57f3e8522d7c5e09c945a55e0837b34b26a0e8327cbee8c46"
+      "bytes": 3005,
+      "sha256": "4c2450685576f1b03b477b7445e3c9aa696be28224bcde5583fefa58e68c07f8"
     }
   ]
 }

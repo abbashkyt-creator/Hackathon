@@ -25,12 +25,12 @@ describe("Stickman Fury local integration", () => {
     expect(bridge).toContain("event.source !== window.parent");
   });
 
-  it("removes ads, blocks the source debug shortcut, and records attribution", () => {
+  it("routes source ads locally, blocks the debug shortcut, and records attribution", () => {
     const bridge = readGame("js/tiptap-platform-bridge.js");
     const notice = readGame("NOTICE.txt");
 
-    expect(bridge).toContain("commercialBreak: function (onStart) { return finishBreak(onStart, false); }");
-    expect(bridge).toContain("rewardedBreak: function (onStart) { return finishBreak(onStart, false); }");
+    expect(bridge).toContain('TipTapAds.commercial(options, "stickman-commercial")');
+    expect(bridge).toContain('TipTapAds.rewarded(options, "stickman-rewarded")');
     expect(bridge).toContain('event.code === "Backquote"');
     expect(notice).toContain("Original developer: Happylander Ltd");
   });

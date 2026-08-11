@@ -658,7 +658,112 @@ html[data-theme="dark"] .profile-stats > span + span {
   border-color: rgba(170, 157, 231, 0.13);
 }
 
+.owned-ad-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: max(18px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right))
+    max(18px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
+  background: rgba(8, 5, 24, 0.88);
+  backdrop-filter: blur(12px);
+}
+
+.owned-ad-dialog {
+  width: min(680px, 100%);
+  max-height: 100%;
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 16px;
+  color: #fff;
+  background: #17102f;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.56);
+}
+
+.owned-ad-label {
+  margin: 2px 0 12px;
+  color: #bcb1e8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.owned-ad-media {
+  display: block;
+  width: 100%;
+  max-height: min(52vh, 420px);
+  border-radius: 16px;
+  object-fit: contain;
+  background: #0d0920;
+}
+
+.owned-ad-copy {
+  padding: 14px 2px 4px;
+}
+
+.owned-ad-copy h2,
+.owned-ad-copy p {
+  margin: 0;
+}
+
+.owned-ad-copy p {
+  margin-top: 7px;
+  color: #c9c2de;
+  line-height: 1.5;
+}
+
+.owned-ad-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 14px;
+}
+
+.owned-ad-actions button {
+  min-height: 46px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 20px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.owned-ad-actions button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+.owned-ad-cta,
+.owned-ad-continue {
+  color: #fff;
+  background: var(--brand-grad);
+}
+
+.owned-ad-dismiss {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.owned-ad-actions button:disabled {
+  cursor: wait;
+  opacity: 0.58;
+}
+
 @media (max-width: 520px) {
+  .owned-ad-dialog {
+    border-radius: 20px;
+    padding: 12px;
+  }
+
+  .owned-ad-actions,
+  .owned-ad-actions button {
+    width: 100%;
+  }
+
   .bottom-sheet.games-sheet {
     padding-right: 14px;
     padding-left: 14px;

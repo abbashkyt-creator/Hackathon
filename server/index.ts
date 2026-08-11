@@ -12,7 +12,10 @@ await store.cleanup();
 const app = createApp(config, store);
 const httpServer = createHttpServer(app);
 
-if (config.NODE_ENV === "production") {
+// Let isolated acceptance runs exercise the built client with the real local
+// API/SQLite stack, without weakening production's PostgreSQL requirement or
+// paying Vite/HMR overhead while large WebGL assets stream.
+if (config.NODE_ENV === "production" || config.PREVIEW_PRODUCTION_CLIENT) {
   attachProductionClient(app);
 } else {
   const { createServer: createViteServer } = await import("vite");

@@ -221,20 +221,12 @@
             post("gameplay-stop", { meta });
         },
         commercialBreak(onStart) {
-            if (typeof onStart === "function") onStart();
-            post("commercial-break-skipped");
-            return Promise.resolve();
+            post("commercial-break-requested");
+            return window.TipTapAds.commercial(onStart, "subway-commercial");
         },
         rewardedBreak(options) {
-            const onStart =
-                typeof options === "function"
-                    ? options
-                    : options && typeof options.onStart === "function"
-                      ? options.onStart
-                      : null;
-            if (onStart) onStart();
-            post("rewarded-break-skipped");
-            return Promise.resolve(false);
+            post("rewarded-break-requested");
+            return window.TipTapAds.rewarded(options, "subway-rewarded");
         },
         sendHighscore(leaderboard, score, meta = {}) {
             reportScore(score, "send-highscore");
@@ -275,7 +267,7 @@
         roundStart() {},
         roundEnd() {},
         setDebugTouchOverlayController() {},
-        displayAd() {},
+        displayAd(options) { return window.TipTapAds.display(options, "subway-display"); },
         destroyAd() {},
         gameplayActive() {
             return gameplayActive;

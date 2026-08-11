@@ -32,9 +32,9 @@
     { "assetPath": "Build/b6a11a5769b57ef475b5d3f311a674fc.data.br", "provenance": "Authorized source-game mirror, losslessly Brotli packaged", "bytes": 12111760, "sha256": "c3d31119e5ae457b4d05b35f2707f7b2c1492e09e78250a96fca6db40cdeaf6b" }
   ],
   "integrationFiles": [
-    { "assetPath": "index.html", "bytes": 602, "sha256": "c56c2f32d1aa8f1cc3ce2f1f26d1cd842247986778e66b0f60856ca0f8964af8" },
+    { "assetPath": "index.html", "bytes": 658, "sha256": "3cc9b0858208c5acad942963e297a96a3320c10312f21072f23edd8af943b1b1" },
     { "assetPath": "crazygames-sdk-v3.js", "provenance": "Exact authorized CrazyGames SDK v3 local runtime copy", "bytes": 98169, "sha256": "7d94c149ccfc20abd2fa5ce7a7076813925000bd9f11b1eb7647788cd94949f7" },
-    { "assetPath": "tiptap-platform-bridge.js", "bytes": 13849, "sha256": "5193ccc7f665aba66fd3f0e65a582b1168a3365d4855b5ce0a5110769ee37b74" },
+    { "assetPath": "tiptap-platform-bridge.js", "bytes": 14276, "sha256": "2816dffa52a3ce368fa99b42ee8b306929ac7585e888b2981fae0d073585f37b" },
     { "assetPath": "tiptap-bootstrap.js", "bytes": 9503, "sha256": "ea06257a536cc7ce7df4144bca31bfd956a46bd8623dd8571fb27430ef2bd95a" },
     { "assetPath": "NOTICE.txt", "bytes": 732, "sha256": "294414470746904502113125e201856634d78606147676ea1eaa1d0174b19190" },
     { "assetPath": "preload-manifest.json", "bytes": 540, "sha256": "b39d55793c463fb3219cc7c9cc5c0968f67af705753752ff7bad849b9b351e82" }

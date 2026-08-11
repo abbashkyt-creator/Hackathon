@@ -37,14 +37,14 @@
     {
       "assetPath": "index.html",
       "purpose": "Same-origin local launcher with the network lock first",
-      "bytes": 1479,
-      "sha256": "e28a803617a8f751dbb06efbf9d53786cf84535d6d642d5cfb821433b55f6eea"
+      "bytes": 1533,
+      "sha256": "5948ba6edd06175919ae9b57572e9e3451dfa501f12cbb55334979f55b66ed4b"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
       "purpose": "Same-origin parent mute and source lifecycle bridge",
-      "bytes": 1181,
-      "sha256": "42fc3d507466d91ce296f23104fd1b5cb30933a54c89e08c06bfe6fd11174461"
+      "bytes": 1317,
+      "sha256": "dea5e4dd0ec93d8771adda3a15c7f9bae9e4fcccb16c16eded05712bc69abd41"
     },
     {
       "assetPath": "js/tiptap-bootstrap.js",

@@ -13,11 +13,11 @@
     gameLoadingProgress() {},
     gameplayStart() {},
     gameplayStop() {},
-    commercialBreak: resolve,
+    commercialBreak(options) {
+      return window.TipTapAds.commercial(options, "kitty-commercial");
+    },
     rewardedBreak(options = {}) {
-      options.onStart?.();
-      options.onEnd?.(false);
-      return Promise.resolve(false);
+      return window.TipTapAds.rewarded(options, "kitty-rewarded");
     },
     measure() {},
   };

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "enabled": false,
+  "campaigns": [
+    {
+      "id": "tiptap-creator-house",
+      "enabled": true,
+      "kinds": ["interstitial", "rewarded"],
+      "placements": ["*"],
+      "title": "Build the next game on Tip Tap",
+      "body": "A first-party house campaign for testing the owned-ad pipeline. No third-party SDK, tracker, or ad request is involved.",
+      "media": {
+        "type": "image",
+        "src": "/ads/tiptap-creator-house.svg",
+        "alt": "Tip Tap Games mascot inviting creators to build the next game"
+      },
+      "cta": {
+        "label": "Explore Tip Tap",
+        "href": "/"
+      },
+      "skipAfterMs": 1500,
+      "rewardAfterMs": 5000,
+      "frequency": {
+        "maxPerSession": 3,
+        "minIntervalMs": 120000
+      }
+    }
+  ]
+}

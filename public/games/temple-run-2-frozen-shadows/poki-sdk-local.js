@@ -5,7 +5,9 @@
     init: resolved,
     gameLoadingStart() {}, gameLoadingFinished() {},
     gameplayStart() {}, gameplayStop() {},
-    commercialBreak: resolved, rewardedBreak: resolved,
-    displayAd() {}, destroyAd() {}, setDebug() {},
+    commercialBreak: (options) => global.TipTapAds.commercial(options, "temple-run-commercial"),
+    rewardedBreak: (options) => global.TipTapAds.rewarded(options, "temple-run-rewarded"),
+    displayAd: (options) => global.TipTapAds.display(options, "temple-run-display"),
+    destroyAd() {}, setDebug() {},
   });
 }(window));

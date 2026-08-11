@@ -26,12 +26,12 @@ describe("Rocket Soccer Derby local integration", () => {
     ]));
   });
 
-  it("contains a same-origin, ad-free compatibility bridge", () => {
+  it("contains a same-origin owned-ad compatibility bridge", () => {
     const html = read("index.html");
     const bridge = read("tiptap-platform-bridge.js");
     expect(html.indexOf('/games/_shared/network-lock.js')).toBeLessThan(html.indexOf('./tiptap-platform-bridge.js'));
-    expect(bridge).toContain("rewardedBreak: () => resolved(false)");
-    expect(bridge).toContain("commercialBreak: () => resolved()");
+    expect(bridge).toContain('TipTapAds.rewarded(options, "rocket-soccer-rewarded")');
+    expect(bridge).toContain('TipTapAds.commercial(options, "rocket-soccer-commercial")');
     expect(bridge).not.toMatch(/https?:\/\//);
   });
 

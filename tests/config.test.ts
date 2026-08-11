@@ -2,6 +2,13 @@ import { describe, expect, it } from "vitest";
 import { loadConfig } from "../server/config";
 
 describe("production configuration", () => {
+  it("keeps built-client preview explicit and development-safe", () => {
+    expect(loadConfig({ NODE_ENV: "development" }).PREVIEW_PRODUCTION_CLIENT).toBe(false);
+    expect(
+      loadConfig({ NODE_ENV: "development", PREVIEW_PRODUCTION_CLIENT: "1" }).PREVIEW_PRODUCTION_CLIENT,
+    ).toBe(true);
+  });
+
   it("fails closed without persistent storage", () => {
     expect(() =>
       loadConfig({

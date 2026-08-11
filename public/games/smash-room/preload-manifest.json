@@ -44,6 +44,7 @@
     "/games/smash-room/json/text.json",
     "/games/smash-room/three.min.js",
     "/games/smash-room/tiptap-bootstrap.js",
+    "/games/smash-room/tiptap-platform-bridge.js",
     "/games/smash-room/VisibilityManager.js"
   ]
 }

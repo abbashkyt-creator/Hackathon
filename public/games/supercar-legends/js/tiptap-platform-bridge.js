@@ -184,20 +184,18 @@
             // control back to the player (RACE / GARAGE / SHOP / upgrades) and
             // never synthesize input again.
         },
-        // Ads: skipped locally. Never download or display an outside ad, and
-        // truthfully report that no rewarded ad was shown.
+        // Ads: routed to the same-origin parent pipeline. It is off by default,
+        // never loads an outside SDK, and grants rewards only after completion.
         commercialBreak(onStart) {
-            noAd(onStart);
-            post("commercial-break-skipped");
-            return Promise.resolve();
+            post("commercial-break-requested");
+            return window.TipTapAds.commercial(onStart, "supercar-commercial");
         },
         rewardedBreak(options) {
-            noAd(options);
-            post("rewarded-break-skipped");
-            return Promise.resolve(false);
+            post("rewarded-break-requested");
+            return window.TipTapAds.rewarded(options, "supercar-rewarded");
         },
-        displayAd() {
-            return Promise.resolve(false);
+        displayAd(options) {
+            return window.TipTapAds.display(options, "supercar-display");
         },
         destroyAd() {},
         isAdBlocked() {

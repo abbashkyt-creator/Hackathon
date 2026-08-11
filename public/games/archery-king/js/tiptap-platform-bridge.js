@@ -15,14 +15,16 @@
   }
 
   // The copied source checks the GameDistribution SDK in a few legacy UI
-  // branches. Keep those branches local and ad-free without loading its SDK.
+  // branches. Route them to the same disabled-by-default owned pipeline.
   window.gdsdk = {
     AdType: { rewarded: "rewarded", interstitial: "interstitial" },
     preloadAd: function () {
       return Promise.resolve();
     },
-    showAd: function () {
-      return Promise.resolve();
+    showAd: function (type) {
+      return type === "rewarded"
+        ? window.TipTapAds.rewarded(null, "archery-gd-rewarded")
+        : window.TipTapAds.commercial(null, "archery-gd-commercial");
     },
   };
 

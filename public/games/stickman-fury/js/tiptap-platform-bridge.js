@@ -65,14 +65,8 @@
     if (window.Howler && typeof window.Howler.mute === "function") window.Howler.mute(muted);
   }
 
-  function finishBreak(start, result) {
-    if (typeof start === "function") start();
-    return Promise.resolve(result);
-  }
-
-  // Local platform compatibility only. No ad, analytics, account, or remote
-  // platform request is made. Rewarded placements return false so paid
-  // rewards are never silently granted.
+  // Local platform compatibility only. Ad calls route to the same-origin Tip
+  // Tap pipeline; analytics, accounts, and remote SDKs remain unavailable.
   window.PokiSDK = {
     init: function () { return Promise.resolve(); },
     getLanguage: function () { return "en"; },
@@ -85,8 +79,8 @@
     },
     gameplayStart: function () { post("gameplay-start"); },
     gameplayStop: function () { post("gameplay-stop"); },
-    commercialBreak: function (onStart) { return finishBreak(onStart, false); },
-    rewardedBreak: function (onStart) { return finishBreak(onStart, false); },
+    commercialBreak: function (options) { return window.TipTapAds.commercial(options, "stickman-commercial"); },
+    rewardedBreak: function (options) { return window.TipTapAds.rewarded(options, "stickman-rewarded"); },
     measure: function () {},
     movePill: function () {},
   };

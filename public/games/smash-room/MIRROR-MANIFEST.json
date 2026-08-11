@@ -228,8 +228,8 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 831,
-      "sha256": "cf2bbe89c5431922c3c3b35da2de31358f16c4a43c4c6c443b15a222e746f962"
+      "bytes": 941,
+      "sha256": "e15a1b3ecc6721fe704580197d15c6a5185423b40356bdce7565c003eeb44c02"
     },
     {
       "assetPath": "game.css",
@@ -240,6 +240,16 @@
       "assetPath": "tiptap-bootstrap.js",
       "bytes": 1175,
       "sha256": "177858fbcba5f445c2f59fd71ff822c3375e3e58e481a9db7ce3e0cd3033a215"
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "bytes": 755,
+      "sha256": "992f93fb3d70161cba7dc086dfe9c68376dd74cc4fae0e9234e86ccf1c4899ed"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 2184,
+      "sha256": "552515e44c6c66f043c29057f2185a42aef2988cbfe0dff7e55dfdbd6974f5a7"
     }
   ]
 }

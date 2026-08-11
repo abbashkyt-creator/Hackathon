@@ -6,9 +6,93 @@
   const progressText = loading.querySelector("b");
   const progressBar = loading.querySelector(".loading-track span");
   const error = document.querySelector("#unity-error");
+  const controls = document.querySelector("#city-touch-controls");
   const params = new URLSearchParams(window.location.search);
   let instance;
   let started = false;
+
+  const inputMap = Object.freeze({
+    left: { key: "ArrowLeft", code: "ArrowLeft", keyCode: 37 },
+    right: { key: "ArrowRight", code: "ArrowRight", keyCode: 39 },
+    accelerate: { key: "ArrowUp", code: "ArrowUp", keyCode: 38 },
+    brake: { key: "ArrowDown", code: "ArrowDown", keyCode: 40 },
+  });
+  const pressed = new Map();
+  const inputEvents = [];
+  window.__TIPTAP_INPUT_STATE__ = { pressed: [], events: inputEvents };
+
+  const recordInput = (control, phase) => {
+    inputEvents.push({ control, phase, at: Date.now() });
+    if (inputEvents.length > 60) inputEvents.shift();
+    window.__TIPTAP_INPUT_STATE__.pressed = [...pressed.keys()];
+  };
+
+  const dispatchControl = (control, phase) => {
+    const input = inputMap[control];
+    if (!input) return;
+    const options = {
+      key: input.key,
+      code: input.code,
+      keyCode: input.keyCode,
+      which: input.keyCode,
+      bubbles: true,
+      cancelable: true,
+    };
+    for (const target of [window, document, canvas]) {
+      target.dispatchEvent(new KeyboardEvent(phase, options));
+    }
+    recordInput(control, phase);
+  };
+
+  const releaseControl = (control) => {
+    const button = pressed.get(control);
+    if (!button) return;
+    pressed.delete(control);
+    button.classList.remove("is-pressed");
+    dispatchControl(control, "keyup");
+  };
+
+  const releaseAllControls = () => {
+    for (const control of [...pressed.keys()]) releaseControl(control);
+  };
+
+  const installTouchControls = () => {
+    const touchCapable =
+      params.get("touchControls") === "1" ||
+      navigator.maxTouchPoints > 0 ||
+      matchMedia("(pointer: coarse)").matches;
+    document.body.classList.toggle("touch-capable", touchCapable);
+    controls.setAttribute("aria-hidden", String(!touchCapable));
+    controls.querySelectorAll("button[data-control]").forEach((button) => {
+      const control = button.dataset.control;
+      button.addEventListener("pointerdown", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (pressed.has(control)) return;
+        button.setPointerCapture?.(event.pointerId);
+        pressed.set(control, button);
+        button.classList.add("is-pressed");
+        canvas.focus({ preventScroll: true });
+        dispatchControl(control, "keydown");
+      });
+      const release = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        releaseControl(control);
+      };
+      button.addEventListener("pointerup", release);
+      button.addEventListener("pointercancel", release);
+      button.addEventListener("lostpointercapture", () => releaseControl(control));
+      button.addEventListener("contextmenu", (event) => event.preventDefault());
+    });
+  };
+
+  installTouchControls();
+  window.addEventListener("blur", releaseAllControls);
+  window.addEventListener("pagehide", releaseAllControls);
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) releaseAllControls();
+  });
 
   const config = {
     dataUrl: "Build/TaxiRush-V1.3.4.data",
@@ -83,6 +167,7 @@
   window.addEventListener("message", (event) => {
     if (event.origin !== window.location.origin || event.data?.source !== "tiptap-parent") return;
     if (event.data.type === "auto-start") autoStart();
+    if (event.data.type === "pause") releaseAllControls();
     if (event.data.type === "set-muted") applyMute(Boolean(event.data.muted));
   });
 

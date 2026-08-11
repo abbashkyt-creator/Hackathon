@@ -11,11 +11,22 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>City Cab Rush</title>
     <script src="/games/_shared/network-lock.js"></script>
+    <script src="/games/_shared/ad-client.js"></script>
     <script src="./tiptap-platform-bridge.js"></script>
     <link rel="stylesheet" href="./tiptap-shell.css" />
   </head>
   <body>
     <canvas id="unity-canvas" aria-label="City Cab Rush"></canvas>
+    <div id="city-touch-controls" aria-label="City Cab Rush driving controls" aria-hidden="true">
+      <div class="city-steering" aria-label="Steering">
+        <button type="button" data-control="left" aria-label="Steer left">&#9664;</button>
+        <button type="button" data-control="right" aria-label="Steer right">&#9654;</button>
+      </div>
+      <div class="city-pedals" aria-label="Pedals">
+        <button type="button" data-control="brake" aria-label="Brake">BRAKE</button>
+        <button type="button" data-control="accelerate" aria-label="Accelerate">GO</button>
+      </div>
+    </div>
     <div id="unity-loading" role="status" aria-live="polite">
       <div class="loading-mark">CITY CAB RUSH</div>
       <div class="loading-copy">STARTING YOUR RIDE <b>0%</b></div>

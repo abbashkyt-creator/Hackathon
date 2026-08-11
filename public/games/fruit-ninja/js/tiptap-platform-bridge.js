@@ -16,8 +16,8 @@
     gameLoadingFinished: function () {},
     gameplayStart: function () {},
     gameplayStop: function () {},
-    commercialBreak: function () { return resolved(); },
-    rewardedBreak: function () { return resolved(false); },
+    commercialBreak: function (options) { return window.TipTapAds.commercial(options, "fruit-commercial"); },
+    rewardedBreak: function (options) { return window.TipTapAds.rewarded(options, "fruit-rewarded"); },
   };
 
   function setMuted(nextMuted) {

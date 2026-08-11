@@ -377,5 +377,17 @@
       "bytes": 192420,
       "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
     }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1089,
+      "sha256": "1deb50fed272acc840ad7aea1d11bfdadafa87e184d256424200ebc7748df8ff"
+    },
+    {
+      "assetPath": "poki-sdk-local.js",
+      "bytes": 640,
+      "sha256": "56d66674f22e9b07dbfc3e9483bac0e5b46c93222876f743879a8a55d510623d"
+    }
   ]
 }

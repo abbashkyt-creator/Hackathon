@@ -12,9 +12,9 @@
     "localOnly": true
   },
   "integrationFiles": [
-    { "assetPath": "index.html", "bytes": 1258, "sha256": "1fcce6dec4ad2f18636318bbaa7a622451db7198557de19ba6b46878e2555b37", "purpose": "Local source-compatible Ruffle host and network isolation" },
+    { "assetPath": "index.html", "bytes": 1314, "sha256": "5cfc39b0cf36cad98f8ceb8eb358aa20fe768f6c55e49bca30eb017c739ed807", "purpose": "Local source-compatible Ruffle host and network isolation" },
     { "assetPath": "js/ruffle-config.js", "bytes": 191, "sha256": "d3c4563627a0701a741d9d6b3d4491ba28bb4c1467b49d1824ef814d1e3f6e96", "purpose": "CSP-safe local Ruffle configuration" },
-    { "assetPath": "js/tiptap-platform-bridge.js", "bytes": 4333, "sha256": "a5b93c5fc4ccff627d265b29d8f81eff7baba145a5e44613b30a37937ecb4618", "purpose": "Local adaptation of the source 67_webgl lifecycle, with ads and Poki SDK removed" },
+    { "assetPath": "js/tiptap-platform-bridge.js", "bytes": 4637, "sha256": "ba84a2df501bf61188ef2d6e7ec1c9ffcb3f88de26b418648abafa989a63e73d", "purpose": "Local adaptation of the source 67_webgl lifecycle, with ads and Poki SDK removed" },
     { "assetPath": "NOTICE.txt", "bytes": 1036, "sha256": "e02482caf28697a487a40356963d2a674fb5e58fce4689f0c1da3f3d51c6206a", "purpose": "Attribution and deployment-permission reminder" }
   ],
   "files": [

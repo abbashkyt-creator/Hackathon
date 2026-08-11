@@ -59,13 +59,20 @@
       if (dim) dim.style.opacity = "1";
     }
     if (signal === "perekl2frame") hidePreloader();
-    // Tip Tap intentionally has no third-party advertising. Let the source
-    // continue exactly as its no-ad branch would, without a remote request.
-    if (signal === "comercial" && player && typeof player.receiveCommercialBreakFinished === "function") {
-      player.receiveCommercialBreakFinished();
+    // Source ad signals route only to Tip Tap's parent-owned pipeline. It is
+    // disabled by default and never loads a third-party SDK.
+    if (signal === "comercial" && player) {
+      window.TipTapAds.commercial(null, "67-commercial").then(function () {
+        if (typeof player.receiveCommercialBreakFinished === "function") {
+          player.receiveCommercialBreakFinished();
+        }
+      });
     }
-    if (signal === "rewarded" && player && typeof player.rewardedBreakAdblocked === "function") {
-      player.rewardedBreakAdblocked();
+    if (signal === "rewarded" && player) {
+      window.TipTapAds.rewarded(null, "67-rewarded").then(function (granted) {
+        if (granted && typeof player.rewardedBreakFinished === "function") player.rewardedBreakFinished();
+        else if (typeof player.rewardedBreakAdblocked === "function") player.rewardedBreakAdblocked();
+      });
     }
   };
 

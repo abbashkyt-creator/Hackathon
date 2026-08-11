@@ -25,7 +25,8 @@
     },
     {
       "assetPath": "index.html",
-      "bytes": 1037
+      "bytes": 1093,
+      "sha256": "123de20d14283572063a110c835ec4a397c38d22d0b6a0e9c149d515efb6b25a"
     },
     {
       "assetPath": "NOTICE.txt",
@@ -2121,7 +2122,8 @@
     },
     {
       "assetPath": "tiptap-platform-bridge.js",
-      "bytes": 2225
+      "bytes": 2396,
+      "sha256": "8fe1168953bc1a57018b3898622f8d56bcc7a9538fec8fe99a2004c62e0ccf46"
     },
     {
       "assetPath": "tiptap-shell.css",
@@ -2131,8 +2133,8 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 1037,
-      "sha256": "b07dfbc2bdc4d621fbb8c558408dca7d5899c3d4fe4c83d756d26e12bb5e895f"
+      "bytes": 1093,
+      "sha256": "123de20d14283572063a110c835ec4a397c38d22d0b6a0e9c149d515efb6b25a"
     },
     {
       "assetPath": "tiptap-bootstrap.js",
@@ -2141,8 +2143,8 @@
     },
     {
       "assetPath": "tiptap-platform-bridge.js",
-      "bytes": 2225,
-      "sha256": "dcd9807ad29ec61fb1012ea535836e3a7a5ff40d6ee19063870c1505ecd19016"
+      "bytes": 2396,
+      "sha256": "8fe1168953bc1a57018b3898622f8d56bcc7a9538fec8fe99a2004c62e0ccf46"
     },
     {
       "assetPath": "tiptap-shell.css",

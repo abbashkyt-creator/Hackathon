@@ -52,14 +52,14 @@
     {
       "assetPath": "index.html",
       "purpose": "Same-origin local launcher with network lock first and no external SDK",
-      "bytes": 1880,
-      "sha256": "85855224b0ca3fed17215329a54aa7d4c6f1d27e466299fd6496a8a340185981"
+      "bytes": 1936,
+      "sha256": "9d028943a200b97b2b01fd32da11e1e6f79d88cb19e959e176169afdfc2fffec"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
       "purpose": "Local ad-free Poki lifecycle substitute, mute control, and score bridge",
-      "bytes": 2292,
-      "sha256": "1f50598133b3680139695977e5b4697ac07e7d99f25a64e0b43a6ea6d22a33df"
+      "bytes": 2389,
+      "sha256": "d4a03946493d69d0b564e1d9f6380950cc6ba632df74628a1ff39998cd09db6d"
     },
     {
       "assetPath": "main.bundle.js",

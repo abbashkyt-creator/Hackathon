@@ -1660,8 +1660,8 @@
     {
       "assetPath": "index.html",
       "provenance": "Tip Tap integration",
-      "bytes": 514,
-      "sha256": "089c9277d20829900b18a52d454a6af0dd50807f94f06c64386b846994ccd3a9"
+      "bytes": 570,
+      "sha256": "a106dc475b107635371ec1604b56b79d9c471ca355ed4f8ac388d3fb1cadd891"
     },
     {
       "assetPath": "screenshots/1.png",
@@ -1678,8 +1678,8 @@
     {
       "assetPath": "tiptap-platform-bridge.js",
       "provenance": "Tip Tap integration",
-      "bytes": 2858,
-      "sha256": "b2cdc8f49daecdf6c11955e9a0ac929dab63ae88a04331cfb2e16ca94490dd27"
+      "bytes": 3019,
+      "sha256": "ec467fda53d35ce78f837af5a2ba92e3cd8086a12a7d2af7d99e2b76d3dea504"
     },
     {
       "assetPath": "tiptap-unity-2020.js",

@@ -70,9 +70,9 @@ Remaining honest limit: score plausibility is not deterministic server replay. T
 
 ## Performance
 
-- Five original mechanics use lightweight DOM, CSS, and canvas primitives
+- Five original mechanics use lightweight DOM, CSS, and canvas primitives; Pulse Lock is the default instant-play lead card
 - Subway Surfers, Dino Runner, ArithmeticA, and the original 67 Game are local cacheable bundles; inactive cards never instantiate their iframes. 67 Game runs from a self-hosted SWF plus local Ruffle, with no outside runtime request. Its source start screen needs one genuine tap and it is deliberately unranked because no verified score callback exists. ArithmeticA has an unresolved remote-SDK runtime failure and must not be claimed as demo-ready.
-- The default first card is a lightweight native game unless a direct game/challenge link chooses another
+- Pulse Lock is the default first card and begins animating immediately; a direct game/challenge link still chooses its target first
 - The next copied game warms only a declared critical path, three requests at a time; save-data and 2G clients warm only its entry document
 - Production JS is code-split/minified by Vite
 - Express applies lossless response compression to compressible text assets
@@ -81,6 +81,12 @@ Remaining honest limit: score plausibility is not deterministic server replay. T
 - Service worker separates shell and game caches, uses stale-while-revalidate for repeat asset loads, never caches API responses, and never substitutes app HTML for a missing game asset
 - If bootstrap is unreachable, a public built-in catalogue opens offline practice; scores remain unsaved until the authoritative API reconnects
 - PostgreSQL pool capped at eight connections
+
+For isolated production-asset acceptance, set `NODE_ENV=development` and
+`PREVIEW_PRODUCTION_CLIENT=1`. This serves the built `dist/` client through the
+real API and local SQLite development store, avoiding Vite/HMR overhead while
+large WebGL games stream. It does not relax production's PostgreSQL or session
+secret requirements.
 
 ## Accessibility
 
