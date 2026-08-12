@@ -152,6 +152,12 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
       accent: "#06b6d4",
     },
     {
+      slug: "slice-master",
+      title: "Slice Master",
+      rule_text: "Slice every object. Miss nothing.",
+      accent: "#ff8a00",
+    },
+    {
       slug: "level-devil",
       title: "Level Devil",
       rule_text: "Climb the tower. Every floor is out to get you.",

@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/slice-master/index.html",
+    "/games/slice-master/playcanvas-stable.min.js",
+    "/games/slice-master/__settings__.js",
+    "/games/slice-master/__modules__.js",
+    "/games/slice-master/__start__.js",
+    "/games/slice-master/__loading__.js",
+    "/games/slice-master/config.json",
+    "/games/slice-master/js/tiptap-platform-bridge.js"
+  ]
+}

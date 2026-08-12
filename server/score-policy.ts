@@ -18,6 +18,8 @@ export const GAME_SCORE_POLICIES = {
   "ping-pong-bugs": { maxScore: 200_000, maxPerSecond: 2_000, burstAllowance: 2_000 },
   "game-2048": { maxScore: 2_097_152, maxPerSecond: 30_000, burstAllowance: 10_000 },
   "level-devil": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "slice-master": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+
 
 
 } as const;

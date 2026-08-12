@@ -37,7 +37,7 @@ describe("Tip Tap API", () => {
     const first = await agent.get("/api/bootstrap").expect(200);
     const second = await agent.get("/api/bootstrap").expect(200);
 
-    expect(first.body.games).toHaveLength(27);
+    expect(first.body.games).toHaveLength(28);
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "subway-surfers" })]),
     );
@@ -55,6 +55,9 @@ describe("Tip Tap API", () => {
     );
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "level-devil" })]),
+    );
+    expect(first.body.games).toEqual(
+      expect.arrayContaining([expect.objectContaining({ slug: "slice-master" })]),
     );
     expect(first.body.games).toEqual(
       expect.arrayContaining([expect.objectContaining({ slug: "rocket-soccer-derby", ranked: false })]),

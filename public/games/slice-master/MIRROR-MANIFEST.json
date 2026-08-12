@@ -1,0 +1,21 @@
+{
+  "name": "Slice Master",
+  "sourcePage": "https://poki.com/en/g/slice-master",
+  "sourceBase": "https://0e9dcadf-1c75-4c53-a211-b93f4423212a.gdn.poki.com/2f05f3fa-ed09-41a0-b971-b57ffa82cef9/",
+  "engine": "PlayCanvas",
+  "mirroredAt": "2026-08-12",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}

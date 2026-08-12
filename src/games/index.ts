@@ -25,3 +25,4 @@ export { StackShiftGame } from "./StackShiftGame";
 export { SubwaySurfersGame } from "./SubwaySurfersGame";
 export { Game2048RealGame } from "./Game2048RealGame";
 export { LevelDevilGame } from "./LevelDevilGame";
+export { SliceMasterGame } from "./SliceMasterGame";
