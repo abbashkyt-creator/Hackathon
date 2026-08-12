@@ -31,3 +31,4 @@ export { HappyGlassGame } from "./HappyGlassGame";
 export { StickmanHookGame } from "./StickmanHookGame";
 export { BasketballStarsGame } from "./BasketballStarsGame";
 export { MasterChessGame } from "./MasterChessGame";
+export { SoccerRealGame } from "./SoccerRealGame";

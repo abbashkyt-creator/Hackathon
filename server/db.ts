@@ -197,6 +197,12 @@ const GAME_SEED: StoredGameRecord[] = [
     accent: "#06b6d4",
   },
   {
+    slug: "soccer-real",
+    title: "Soccer REAL",
+    rule_text: "Score more than the keeper can save.",
+    accent: "#4ade80",
+  },
+  {
     slug: "master-chess",
     title: "Master Chess",
     rule_text: "Checkmate the master. Every move counts.",

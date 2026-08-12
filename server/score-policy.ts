@@ -24,6 +24,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-hook": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "basketball-stars": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "master-chess": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "soccer-real": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+
 
 
 

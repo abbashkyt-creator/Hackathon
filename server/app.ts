@@ -202,6 +202,8 @@ export function createApp(config: Config, store: Store) {
         ? basketballStarsSecurityHeaders
       : req.path.startsWith("/games/master-chess/")
         ? basketballStarsSecurityHeaders
+      : req.path.startsWith("/games/soccer-real/")
+        ? rocketSoccerDerbySecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
@@ -256,7 +258,38 @@ export function createApp(config: Config, store: Store) {
       res.setHeader("Content-Encoding", "br");
     }
     next();
-  });app.use(express.json({ limit: "32kb" }));
+  });
+  // Dev-only asset capture (never enabled in production): receives base64 bodies
+  // from the VEU browser session for mirroring CDN-gated game assets.
+  if (config.NODE_ENV !== "production") {
+    app.use("/api/dev/capture", (req, res, next) => {
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+      res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+      if (req.method === "OPTIONS") { res.status(204).end(); return; }
+      next();
+    });
+    app.use("/api/dev/capture", express.raw({ type: "*/*", limit: "50mb" }), async (req, res) => {
+      try {
+        const name = (req.path || "").replace(/^\//, "");
+        if (!name || !/^[a-zA-Z0-9_\-/.]+\.(js|glb|png|jpg|mp3|json|html)$/.test(name)) {
+          res.status(400).json({ ok: false, error: "bad name" });
+          return;
+        }
+        const { writeFileSync, mkdirSync } = await import("node:fs");
+        const { join } = await import("node:path");
+        const dir = join(process.cwd(), "tmp", "soccerreal", name.split("/").slice(0, -1).join("/"));
+        mkdirSync(dir, { recursive: true });
+        const body = req.body.toString("utf8");
+        const buf = Buffer.from(body.replace(/\s/g, ""), "base64");
+        writeFileSync(join(process.cwd(), "tmp", "soccerreal", name), buf);
+        res.json({ ok: true, bytes: buf.length });
+      } catch (err) {
+        res.status(500).json({ ok: false, error: String(err) });
+      }
+    });
+  }
+app.use(express.json({ limit: "32kb" }));
 
   const sseClients = new Map<string, Set<Response>>();
   const scoreRate = new Map<string, { count: number; resetAt: number }>();

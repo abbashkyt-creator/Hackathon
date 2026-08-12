@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "/games/soccer-real/index.html",
+    "/games/soccer-real/js/poki-sdk-shim.js",
+    "/games/soccer-real/js/tiptap-platform-bridge.js",
+    "/games/soccer-real/images/three.min.js",
+    "/games/soccer-real/images/GLTFLoader.js",
+    "/games/soccer-real/images/SkeletonUtils.js",
+    "/games/soccer-real/game.js"
+  ]
+}

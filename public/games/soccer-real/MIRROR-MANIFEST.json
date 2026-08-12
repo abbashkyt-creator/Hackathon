@@ -1,0 +1,75 @@
+{
+  "name": "Soccer REAL",
+  "sourcePage": "https://poki.com/en/g/soccer-real",
+  "sourceBase": "https://77bf66c4-451b-46e5-a19b-ba5e738c37cc.gdn.poki.com/fc11e35b-1500-4d74-9d58-27ad1bd87d7a/",
+  "engine": "Three.js (WebGL)",
+  "mirroredAt": "2026-08-12",
+  "files": [
+    {
+      "assetPath": "game.js",
+      "bytes": 178543
+    },
+    {
+      "assetPath": "images/three.min.js",
+      "bytes": 593604
+    },
+    {
+      "assetPath": "images/GLTFLoader.js",
+      "bytes": 84697
+    },
+    {
+      "assetPath": "images/SkeletonUtils.js",
+      "bytes": 12553
+    },
+    {
+      "assetPath": "images/Stadium11.glb",
+      "bytes": 1072952
+    },
+    {
+      "assetPath": "images/mid_player17.glb",
+      "bytes": 870484
+    },
+    {
+      "assetPath": "images/cs1_260723.png",
+      "bytes": 299635
+    },
+    {
+      "assetPath": "images/sound_soccer_260624.mp3",
+      "bytes": 375161
+    },
+    {
+      "assetPath": "images/keeper_green.jpg",
+      "bytes": 24887
+    },
+    {
+      "assetPath": "images/korea.jpg",
+      "bytes": 23038
+    },
+    {
+      "assetPath": "images/egypt.jpg",
+      "bytes": 22463
+    },
+    {
+      "assetPath": "images/mid_player_keeper.jpg",
+      "bytes": 26372
+    }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "purpose": "Fail-closed local PokiSDK replacement"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}
