@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/go-battle-2/index.html",
+    "/games/go-battle-2/js/poki-sdk-shim.js",
+    "/games/go-battle-2/js/tiptap-platform-bridge.js",
+    "/games/go-battle-2/html5game/GoBattle2Poki_tio.js",
+    "/games/go-battle-2/html5game/tph_browser_hdpi.js",
+    "/games/go-battle-2/html5game/wph_ImageLoadBar.js",
+    "/games/go-battle-2/html5game/yph_poki.js",
+    "/games/go-battle-2/html5game/db.dat"
+  ]
+}

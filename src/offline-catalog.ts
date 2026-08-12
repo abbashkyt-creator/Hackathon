@@ -158,6 +158,12 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
       accent: "#38bdf8",
     },
     {
+      slug: "go-battle-2",
+      title: "Go Battle 2",
+      rule_text: "Win the arena. Battle for the top.",
+      accent: "#f97316",
+    },
+    {
       slug: "penalty-shooters-2",
       title: "Penalty Shooters 2",
       rule_text: "Beat the keeper. Win the cup.",

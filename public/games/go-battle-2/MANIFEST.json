@@ -1,0 +1,510 @@
+{
+ "game": "go-battle-2",
+ "source": "poki.com CDN (ba463d2c-b973-46c8-8e26-5ab208445054.gdn.poki.com)",
+ "files": [
+  {
+   "path": "NOTICE.txt",
+   "size": 1054
+  },
+  {
+   "path": "html5game/db.dat",
+   "size": 169
+  },
+  {
+   "path": "html5game/GoBattle2.ini",
+   "size": 169
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio.js",
+   "size": 3170661
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_0.png",
+   "size": 1136
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_1.png",
+   "size": 284610
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_10.png",
+   "size": 108277
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_11.png",
+   "size": 132148
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_12.png",
+   "size": 108216
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_13.png",
+   "size": 270188
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_14.png",
+   "size": 60792
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_15.png",
+   "size": 444401
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_16.png",
+   "size": 1311
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_17.png",
+   "size": 2785
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_18.png",
+   "size": 285958
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_2.png",
+   "size": 183068
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_3.png",
+   "size": 51176
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_4.png",
+   "size": 81782
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_5.png",
+   "size": 39411
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_6.png",
+   "size": 24095
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_7.png",
+   "size": 36220
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_8.png",
+   "size": 54068
+  },
+  {
+   "path": "html5game/GoBattle2Poki_tio_texture_9.png",
+   "size": 64331
+  },
+  {
+   "path": "html5game/snd_aparece_logo.ogg",
+   "size": 15146
+  },
+  {
+   "path": "html5game/snd_apparece_bola1.ogg",
+   "size": 16953
+  },
+  {
+   "path": "html5game/snd_ball_billar_hit.ogg",
+   "size": 4754
+  },
+  {
+   "path": "html5game/snd_billar_bola.ogg",
+   "size": 4754
+  },
+  {
+   "path": "html5game/snd_bounce_aro_basket2.ogg",
+   "size": 10053
+  },
+  {
+   "path": "html5game/snd_bounce_basket1.ogg",
+   "size": 8932
+  },
+  {
+   "path": "html5game/snd_brake_car.ogg",
+   "size": 9443
+  },
+  {
+   "path": "html5game/snd_buff_car_1.ogg",
+   "size": 8159
+  },
+  {
+   "path": "html5game/snd_chain1.ogg",
+   "size": 12360
+  },
+  {
+   "path": "html5game/snd_check_point.ogg",
+   "size": 9788
+  },
+  {
+   "path": "html5game/snd_click.ogg",
+   "size": 5593
+  },
+  {
+   "path": "html5game/snd_coin1.ogg",
+   "size": 7291
+  },
+  {
+   "path": "html5game/snd_coin2.ogg",
+   "size": 10081
+  },
+  {
+   "path": "html5game/snd_coin3.ogg",
+   "size": 10053
+  },
+  {
+   "path": "html5game/snd_coin6.ogg",
+   "size": 9879
+  },
+  {
+   "path": "html5game/snd_damage2.ogg",
+   "size": 14013
+  },
+  {
+   "path": "html5game/snd_damage_1.ogg",
+   "size": 11357
+  },
+  {
+   "path": "html5game/snd_desaparece_logo.ogg",
+   "size": 16953
+  },
+  {
+   "path": "html5game/snd_drop_water.ogg",
+   "size": 8271
+  },
+  {
+   "path": "html5game/snd_effect_goal_basket1.ogg",
+   "size": 8056
+  },
+  {
+   "path": "html5game/snd_engine_car_loop.ogg",
+   "size": 28847
+  },
+  {
+   "path": "html5game/snd_espada1.ogg",
+   "size": 5449
+  },
+  {
+   "path": "html5game/snd_espada2.ogg",
+   "size": 5281
+  },
+  {
+   "path": "html5game/snd_explosion1.ogg",
+   "size": 13484
+  },
+  {
+   "path": "html5game/snd_explosion2.ogg",
+   "size": 11575
+  },
+  {
+   "path": "html5game/snd_explosion3.ogg",
+   "size": 8373
+  },
+  {
+   "path": "html5game/snd_explosion4.ogg",
+   "size": 6567
+  },
+  {
+   "path": "html5game/snd_fire1.ogg",
+   "size": 4967
+  },
+  {
+   "path": "html5game/snd_fire2.ogg",
+   "size": 4856
+  },
+  {
+   "path": "html5game/snd_fire3.ogg",
+   "size": 5414
+  },
+  {
+   "path": "html5game/snd_fire4.ogg",
+   "size": 6271
+  },
+  {
+   "path": "html5game/snd_flecha_col_metal1.ogg",
+   "size": 7376
+  },
+  {
+   "path": "html5game/snd_flecha_impact3.ogg",
+   "size": 6318
+  },
+  {
+   "path": "html5game/snd_football_1.ogg",
+   "size": 7396
+  },
+  {
+   "path": "html5game/snd_football_2.ogg",
+   "size": 6671
+  },
+  {
+   "path": "html5game/snd_golpe1.ogg",
+   "size": 7371
+  },
+  {
+   "path": "html5game/snd_golpe2.ogg",
+   "size": 9725
+  },
+  {
+   "path": "html5game/snd_golpe3.ogg",
+   "size": 9051
+  },
+  {
+   "path": "html5game/snd_grito_audio.ogg",
+   "size": 41180
+  },
+  {
+   "path": "html5game/snd_grito_audio2.ogg",
+   "size": 10672
+  },
+  {
+   "path": "html5game/snd_jump1.ogg",
+   "size": 6949
+  },
+  {
+   "path": "html5game/snd_jump2.ogg",
+   "size": 5443
+  },
+  {
+   "path": "html5game/snd_jump_5.ogg",
+   "size": 6159
+  },
+  {
+   "path": "html5game/snd_jump_6.ogg",
+   "size": 6329
+  },
+  {
+   "path": "html5game/snd_jump_7.ogg",
+   "size": 7652
+  },
+  {
+   "path": "html5game/snd_jump_8.ogg",
+   "size": 8030
+  },
+  {
+   "path": "html5game/snd_jump_golpe.ogg",
+   "size": 5454
+  },
+  {
+   "path": "html5game/snd_let_play.ogg",
+   "size": 13181
+  },
+  {
+   "path": "html5game/snd_logo_intro.ogg",
+   "size": 84029
+  },
+  {
+   "path": "html5game/snd_mosquito.ogg",
+   "size": 23490
+  },
+  {
+   "path": "html5game/snd_notification.ogg",
+   "size": 16092
+  },
+  {
+   "path": "html5game/snd_pieces_1.ogg",
+   "size": 8115
+  },
+  {
+   "path": "html5game/snd_pito_soccer_1.ogg",
+   "size": 10081
+  },
+  {
+   "path": "html5game/snd_pong_fail.ogg",
+   "size": 6817
+  },
+  {
+   "path": "html5game/snd_pop_new.ogg",
+   "size": 4227
+  },
+  {
+   "path": "html5game/snd_pulling_back1.ogg",
+   "size": 16900
+  },
+  {
+   "path": "html5game/snd_pulling_back2.ogg",
+   "size": 11273
+  },
+  {
+   "path": "html5game/snd_rana_1.ogg",
+   "size": 13613
+  },
+  {
+   "path": "html5game/snd_rana_reee.ogg",
+   "size": 15065
+  },
+  {
+   "path": "html5game/snd_rata.ogg",
+   "size": 11774
+  },
+  {
+   "path": "html5game/snd_rata2.ogg",
+   "size": 10927
+  },
+  {
+   "path": "html5game/snd_rotor_helicoptero.ogg",
+   "size": 8514
+  },
+  {
+   "path": "html5game/snd_ruleta_spin.ogg",
+   "size": 5874
+  },
+  {
+   "path": "html5game/snd_semaforo_1.ogg",
+   "size": 4351
+  },
+  {
+   "path": "html5game/snd_semaforo_2.ogg",
+   "size": 16847
+  },
+  {
+   "path": "html5game/snd_shot1.ogg",
+   "size": 10053
+  },
+  {
+   "path": "html5game/snd_shot2.ogg",
+   "size": 8174
+  },
+  {
+   "path": "html5game/snd_skid_car.ogg",
+   "size": 21629
+  },
+  {
+   "path": "html5game/snd_slide.ogg",
+   "size": 8784
+  },
+  {
+   "path": "html5game/snd_slide_car_1.ogg",
+   "size": 12196
+  },
+  {
+   "path": "html5game/snd_slide_car_2.ogg",
+   "size": 14908
+  },
+  {
+   "path": "html5game/snd_solto.ogg",
+   "size": 14293
+  },
+  {
+   "path": "html5game/snd_splash_water.ogg",
+   "size": 8901
+  },
+  {
+   "path": "html5game/snd_spring.ogg",
+   "size": 5818
+  },
+  {
+   "path": "html5game/snd_start_activo.ogg",
+   "size": 11166
+  },
+  {
+   "path": "html5game/snd_start_car.ogg",
+   "size": 28940
+  },
+  {
+   "path": "html5game/snd_star_menu.ogg",
+   "size": 9390
+  },
+  {
+   "path": "html5game/snd_tank.ogg",
+   "size": 30789
+  },
+  {
+   "path": "html5game/snd_teleportation.ogg",
+   "size": 8814
+  },
+  {
+   "path": "html5game/snd_tictac_reloj.ogg",
+   "size": 23653
+  },
+  {
+   "path": "html5game/snd_win_blue.ogg",
+   "size": 27744
+  },
+  {
+   "path": "html5game/snd_win_red.ogg",
+   "size": 37595
+  },
+  {
+   "path": "html5game/splash.png",
+   "size": 6075
+  },
+  {
+   "path": "html5game/tph_browser_hdpi.js",
+   "size": 361
+  },
+  {
+   "path": "html5game/vph_crazygames.js",
+   "size": 169
+  },
+  {
+   "path": "html5game/wph_ImageLoadBar.js",
+   "size": 1503
+  },
+  {
+   "path": "html5game/yph_poki.js",
+   "size": 8710
+  },
+  {
+   "path": "html5game/particles/IDR_GIF10.png",
+   "size": 1632
+  },
+  {
+   "path": "html5game/particles/IDR_GIF11.png",
+   "size": 1935
+  },
+  {
+   "path": "html5game/particles/IDR_GIF12.png",
+   "size": 2360
+  },
+  {
+   "path": "html5game/particles/IDR_GIF13.png",
+   "size": 1360
+  },
+  {
+   "path": "html5game/particles/IDR_GIF14.png",
+   "size": 2341
+  },
+  {
+   "path": "html5game/particles/IDR_GIF15.png",
+   "size": 1843
+  },
+  {
+   "path": "html5game/particles/IDR_GIF2.png",
+   "size": 106
+  },
+  {
+   "path": "html5game/particles/IDR_GIF3.png",
+   "size": 522
+  },
+  {
+   "path": "html5game/particles/IDR_GIF4.png",
+   "size": 154
+  },
+  {
+   "path": "html5game/particles/IDR_GIF5.png",
+   "size": 150
+  },
+  {
+   "path": "html5game/particles/IDR_GIF6.png",
+   "size": 668
+  },
+  {
+   "path": "html5game/particles/IDR_GIF7.png",
+   "size": 797
+  },
+  {
+   "path": "html5game/particles/IDR_GIF8.png",
+   "size": 1379
+  },
+  {
+   "path": "html5game/particles/IDR_GIF9.png",
+   "size": 1144
+  },
+  {
+   "path": "js/poki-sdk-shim.js",
+   "size": 2338
+  },
+  {
+   "path": "js/tiptap-platform-bridge.js",
+   "size": 947
+  }
+ ]
+}

@@ -27,6 +27,7 @@ export const GAME_SCORE_POLICIES = {
   "soccer-real": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "penalty-shooters-2": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "tic-tac-toe": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "go-battle-2": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
 
 
 

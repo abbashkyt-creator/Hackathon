@@ -34,3 +34,4 @@ export { MasterChessGame } from "./MasterChessGame";
 export { SoccerRealGame } from "./SoccerRealGame";
 export { PenaltyShooters2Game } from "./PenaltyShooters2Game";
 export { TicTacToeGame } from "./TicTacToeGame";
+export { GoBattle2Game } from "./GoBattle2Game";

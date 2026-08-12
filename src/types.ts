@@ -34,7 +34,8 @@ export type GameSlug =
   | "master-chess"
   | "soccer-real"
   | "penalty-shooters-2"
-  | "tic-tac-toe";
+  | "tic-tac-toe"
+  | "go-battle-2";
 
 export interface GameDefinition {
   slug: GameSlug;

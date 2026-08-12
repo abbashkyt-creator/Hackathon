@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta start -->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="pragma" content="no-cache"/>
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!-- Meta end -->
+
+        <!-- Title start -->
+            <title>Go Battle 2</title>
+        <!-- Title end -->
+
+        <!-- css start -->
+            <style>
+                *:not(input,textarea) {
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                }
+                html, body {
+                    background: #000000;
+                    margin: 0px;
+                    padding: 0px;
+                    border: 0px;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                }
+                canvas {
+                    image-rendering: optimizeSpeed;
+                    -webkit-interpolation-mode: nearest-neighbor;
+                    -ms-touch-action: none;
+                    margin: 0px;
+                    padding: 0px;
+                    border: 0px;
+                }
+                .gm4html5_div_class {
+                    margin: 0px;
+                    padding: 0px;
+                    border: 0px;
+                }
+                #gm4html5_div_id {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                }
+                #canvas {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            </style>
+        <!-- css end -->
+    </head>
+    <body>
+        <!-- Tip Tap local mirror injections -->
+        <script src="/games/_shared/network-lock.js"></script>
+        <script src="/games/_shared/ad-client.js"></script>
+        <script src="js/poki-sdk-shim.js"></script>
+        <script src="js/tiptap-platform-bridge.js"></script>
+
+        <!-- Init start -->
+            <div class="gm4html5_div_class" id="gm4html5_div_id">
+                <img src="html5game/splash.png" id="GM4HTML5_loadingscreen" alt="GameMaker:HTML5 loading screen" style="display:none;"/>
+                <canvas id="canvas" width="1920" height="1080" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <p>Your browser doesn't support HTML5 canvas.</p>
+                </canvas>
+            </div>
+        <!-- Init end -->
+
+        <!-- Run the game code -->
+            <script type="text/javascript" src="html5game/GoBattle2Poki_tio.js?GCAZB=1869386675"></script>
+
+        <!-- Poki gate (local shim) -->
+            <script>(function() {
+                function fin(ok) {
+                    window.PokiSDK_OK = ok;
+                    GameMaker_Init();
+                }
+                window.addEventListener("load", function(_) {
+                    window.PokiSDK_loadState = 0;
+                    if (window.PokiSDK) {
+                        PokiSDK.init().then(function() {
+                        fin(true);
+                    }).catch(function() {
+                        fin(false);
+                    });
+                    } else {
+                        window.PokiSDK = null;
+                        fin(false);
+                    }
+                });
+                })();
+            </script>
+    </body>
+</html>

@@ -82,6 +82,7 @@ import {
   SoccerRealGame,
   PenaltyShooters2Game,
   TicTacToeGame,
+  GoBattle2Game,
 } from "./games";
 import type {
   BootstrapData,
@@ -133,6 +134,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "soccer-real": SoccerRealGame,
   "penalty-shooters-2": PenaltyShooters2Game,
   "tic-tac-toe": TicTacToeGame,
+  "go-battle-2": GoBattle2Game,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -179,6 +181,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "soccer-real": "ON THE PITCH",
   "penalty-shooters-2": "SPOT KICK",
   "tic-tac-toe": "THREE IN A ROW",
+  "go-battle-2": "BATTLE ARENA",
 };
 
 interface FeedEntry {

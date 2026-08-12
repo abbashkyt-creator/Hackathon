@@ -121,6 +121,12 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     assetManifest: "/games/tic-tac-toe/MIRROR-MANIFEST.json",
     prepareByMount: true,
   },
+  "go-battle-2": {
+    embedded: true,
+    preloadManifest: "/games/go-battle-2/preload-manifest.json",
+    assetManifest: "/games/go-battle-2/MANIFEST.json",
+    prepareByMount: true,
+  },
   "penalty-shooters-2": {
     embedded: true,
     preloadManifest: "/games/penalty-shooters-2/preload-manifest.json",

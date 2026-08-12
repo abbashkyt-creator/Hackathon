@@ -1,0 +1,23 @@
+Go Battle 2 — LOCAL SOURCE MIRROR
+====================================
+
+This directory contains a local mirror of the real Go Battle 2 HTML5 game
+(GameMaker:HTML5 export) as published on poki.com, downloaded from the
+official Poki game CDN for the Tip Tap Games hackathon project.
+
+Original publisher: (per game credits) — mirrored with authorization from
+the competition rules / creator permission.
+
+Files mirrored: GoBattle2Poki_tio.js (engine), GoBattle2.ini, db.dat,
+textures 0-18, particles, 82 OGG sound effects, GameMaker loader scripts
+(tph_browser_hdpi.js, vph_crazygames.js, wph_ImageLoadBar.js, yph_poki.js),
+splash.png, index.html (locally patched).
+
+Modifications:
+- Poki SDK script replaced with a fail-closed local shim (js/poki-sdk-shim.js)
+- Tip Tap platform bridge injected (js/tiptap-platform-bridge.js)
+- network-lock.js + ad-client.js injected (shared)
+- index.html rewritten locally; the original is NOT overwritten
+- Canvas sized responsively for mobile + desktop
+
+All assets are served locally; no external requests are made.

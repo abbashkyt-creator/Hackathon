@@ -158,6 +158,12 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
     creatorLabel: "BY COCOS CREATOR · LOCAL SOURCE MIRROR",
     category: "Puzzle",
   },
+  "go-battle-2": {
+    creatorId: "poki-mirror",
+    creatorName: "Go Battle 2",
+    creatorLabel: "BY POKI MIRROR · LOCAL SOURCE MIRROR",
+    category: "Action",
+  },
   "penalty-shooters-2": {
     creatorId: "nuspeko",
     creatorName: "NUSPEKO",
