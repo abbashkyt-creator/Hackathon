@@ -152,6 +152,12 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
       accent: "#06b6d4",
     },
     {
+      slug: "tic-tac-toe",
+      title: "Tic Tac Toe",
+      rule_text: "Three in a row. Every game, every time.",
+      accent: "#38bdf8",
+    },
+    {
       slug: "penalty-shooters-2",
       title: "Penalty Shooters 2",
       rule_text: "Beat the keeper. Win the cup.",

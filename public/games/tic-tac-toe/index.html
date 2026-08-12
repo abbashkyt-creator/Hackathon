@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8"/>
+
+    <title> TicTacToe </title>
+
+    <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
+
+    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="format-detection" content="telephone=no"/>
+
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <!--fix fireball/issues/3568 -->
+    <!--<meta name="browsermode" content="application">-->
+    <meta name="x5-page-mode" content="app"/>
+
+    <!--<link rel="apple-touch-icon" href=".png" />-->
+    <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+    <script src="/games/_shared/network-lock.js"></script>
+    <script src="/games/_shared/ad-client.js"></script>
+    <script src="js/poki-sdk-shim.js"></script>
+    <script src="js/tiptap-platform-bridge.js"></script>
+
+    <script src="./sitelock.js"></script>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background-color: #252F4C;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right, #252E4A, #101744);
+        }
+
+        /* Include the custom font */
+        @font-face {
+            font-family: "AvenirLTStd";
+            src: url("AvenirLTStd-Black.ttf") format("truetype");
+        }
+
+        #logo-base {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 9999;
+            background-color: #252F4C;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right, #252E4A, #101744);
+        }
+
+        #loader {
+            z-index: 9999;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+            max-width: 368px;
+            /*max-height: 335;*/
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #loading-text {
+            margin-top: 20px;
+            font-size: 1em;
+            color: #6CB7CA;
+            font-family: "AvenirLTStd", serif;
+        }
+
+        #progress-bar-container {
+            width: 80%;
+            max-width: 330px;
+            height: 22px;
+            background-color: #323F60;
+            border-radius: 11px;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        #progress-bar {
+            width: 0;
+            height: 100%;
+            background-color: #6CB7CA;
+            border-radius: 10px;
+            transition: width 0.5s ease-in-out;
+            position: relative;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+
+        #loader.hidden {
+            animation: fadeOut 0.2s forwards;
+        }
+
+        #logo-base.hidden {
+            animation: fadeOut 0.2s forwards;
+        }
+
+        #loader img {
+            max-width: 50%;
+            height: auto;
+        }
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+</head>
+
+<body>
+<div id="logo-base">
+    <div id="loader">
+        <img src="./logo.png" alt="Loading..."/>
+    </div>
+    <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+    </div>
+    <div id="loading-text">Loading…</div>
+</div>
+
+<div id="GameDiv" cc_exact_fit_screen="true">
+    <div id="Cocos3dGameContainer">
+        <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
+    </div>
+</div>
+
+<script type="text/javascript">
+    PokiSDK.init()
+        .then(() => {
+            console.log("Poki SDK successfully initialized");
+        })
+        .catch(() => {
+            console.log("Initialized, but the user likely has adblock");
+        });
+
+    window.addEventListener("keydown", (ev) => {
+        if (["ArrowDown", "ArrowUp", " "].includes(ev.key)) {
+            ev.preventDefault();
+        }
+    });
+    window.addEventListener("wheel", (ev) => ev.preventDefault(), {passive: false});
+
+    let progressBar = document.getElementById("progress-bar");
+    let progress = 0;
+    let loadingInterval = setInterval(() => {
+        if (progress >= 100) {
+            clearInterval(loadingInterval);
+            clearInterval(loadingTextInterval);
+        } else {
+            progress += 3;
+            progressBar.style.width = progress + "%";
+        }
+    }, 2000);
+
+    const loadingText = document.getElementById("loading-text");
+    const loadingMessages = [
+        "Drawing the grid…",
+        "Placing Xs and Os…",
+        "Setting up the game board…",
+        "Strategizing your next move…",
+        "Calculating the best move…",
+        "Sharpening your tactics…",
+        "Optimizing your strategy…",
+        "Perfecting your strategy…",
+        "Arranging Xs and Os in sequence…",
+        "Loading the grid challenge…",
+        "Setting up the game state…",
+        "Analyzing the game state…",
+        "Getting ready for the first move…",
+    ];
+    let loadingIndex = 0;
+
+    let loadingTextInterval = setInterval(() => {
+        loadingText.textContent = loadingMessages[loadingIndex];
+        loadingIndex = (loadingIndex + 1) % loadingMessages.length;
+    }, 2000);
+
+</script>
+
+<!--&lt;!&ndash; Polyfills bundle. &ndash;&gt;-->
+
+<!--<script src="./src/polyfills.bundle.js" charset="utf-8"></script>-->
+
+
+<!--&lt;!&ndash; SystemJS support. &ndash;&gt;-->
+<!--<script src="./src/system.bundle.js" charset="utf-8"></script>-->
+
+<!--&lt;!&ndash; Import map &ndash;&gt;-->
+<!--<script src="./src/import-map.json" type="systemjs-importmap" charset="utf-8"></script>-->
+
+<!--<script>-->
+<!--    System.import('./index.js').catch(function (err) {-->
+<!--        console.error(err);-->
+<!--    })-->
+<!--</script>-->
+
+<!--
+
+<!-- Polyfills bundle. -->
+
+<script src="src/polyfills.bundle.js" charset="utf-8"> </script>
+
+
+<!-- SystemJS support. -->
+<script src="src/system.bundle.js" charset="utf-8"> </script>
+
+<!-- Import map -->
+<script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
+
+
+
+<script>
+    System.import('./index.js').catch(function(err) { console.error(err); })
+</script>
+-->
+</body>
+
+</html>

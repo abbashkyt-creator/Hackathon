@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/tic-tac-toe/index.html",
+    "/games/tic-tac-toe/js/poki-sdk-shim.js",
+    "/games/tic-tac-toe/js/tiptap-platform-bridge.js",
+    "/games/tic-tac-toe/index.js",
+    "/games/tic-tac-toe/application.js",
+    "/games/tic-tac-toe/cocos-js/cc.js",
+    "/games/tic-tac-toe/src/settings.json",
+    "/games/tic-tac-toe/assets/main/index.js"
+  ]
+}

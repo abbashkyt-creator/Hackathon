@@ -206,6 +206,8 @@ export function createApp(config: Config, store: Store) {
         ? rocketSoccerDerbySecurityHeaders
       : req.path.startsWith("/games/penalty-shooters-2/")
         ? basketballStarsSecurityHeaders
+      : req.path.startsWith("/games/tic-tac-toe/")
+        ? basketballStarsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
@@ -274,7 +276,7 @@ export function createApp(config: Config, store: Store) {
     app.use("/api/dev/capture", express.raw({ type: "*/*", limit: "50mb" }), async (req, res) => {
       try {
         const name = (req.path || "").replace(/^\//, "");
-        if (!name || !/^[a-zA-Z0-9_\-/.]+\.(js|glb|png|jpg|mp3|json|html)$/.test(name)) {
+        if (!name || !/^[a-zA-Z0-9_\-/.]+\.(js|glb|png|jpg|mp3|json|html|cconb|cc|ttf|woff|woff2|eot|wasm)$/.test(name)) {
           res.status(400).json({ ok: false, error: "bad name" });
           return;
         }
