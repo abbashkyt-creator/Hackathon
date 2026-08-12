@@ -197,6 +197,12 @@ const GAME_SEED: StoredGameRecord[] = [
     accent: "#06b6d4",
   },
   {
+    slug: "penalty-shooters-2",
+    title: "Penalty Shooters 2",
+    rule_text: "Beat the keeper. Win the cup.",
+    accent: "#fbbf24",
+  },
+  {
     slug: "soccer-real",
     title: "Soccer REAL",
     rule_text: "Score more than the keeper can save.",

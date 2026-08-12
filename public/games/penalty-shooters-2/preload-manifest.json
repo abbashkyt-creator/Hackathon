@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "/games/penalty-shooters-2/index.html",
+    "/games/penalty-shooters-2/js/poki-sdk-shim.js",
+    "/games/penalty-shooters-2/js/tiptap-platform-bridge.js",
+    "/games/penalty-shooters-2/scripts/main.js",
+    "/games/penalty-shooters-2/scripts/c3runtime.js",
+    "/games/penalty-shooters-2/data.json",
+    "/games/penalty-shooters-2/box2d.wasm"
+  ]
+}

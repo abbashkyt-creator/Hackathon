@@ -204,6 +204,8 @@ export function createApp(config: Config, store: Store) {
         ? basketballStarsSecurityHeaders
       : req.path.startsWith("/games/soccer-real/")
         ? rocketSoccerDerbySecurityHeaders
+      : req.path.startsWith("/games/penalty-shooters-2/")
+        ? basketballStarsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;

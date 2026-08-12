@@ -152,6 +152,12 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
     creatorLabel: "BY HAPPYLANDER · TIP TAP INTEGRATION",
     category: "Sports",
   },
+  "penalty-shooters-2": {
+    creatorId: "nuspeko",
+    creatorName: "NUSPEKO",
+    creatorLabel: "BY NUSPEKO · LOCAL SOURCE MIRROR",
+    category: "Sports",
+  },
   "soccer-real": {
     creatorId: "y8",
     creatorName: "Y8",

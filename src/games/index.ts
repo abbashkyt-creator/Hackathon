@@ -32,3 +32,4 @@ export { StickmanHookGame } from "./StickmanHookGame";
 export { BasketballStarsGame } from "./BasketballStarsGame";
 export { MasterChessGame } from "./MasterChessGame";
 export { SoccerRealGame } from "./SoccerRealGame";
+export { PenaltyShooters2Game } from "./PenaltyShooters2Game";
