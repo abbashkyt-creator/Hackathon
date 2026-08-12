@@ -71,6 +71,8 @@ import {
   TempleRun2FrozenShadowsGame,
   StickmanFuryGame,
   SubwaySurfersGame,
+  Game2048RealGame,
+  LevelDevilGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -111,6 +113,8 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "supercar-legends": SupercarLegendsGame,
   "ping-pong-go": PingPongGoGame,
   "ping-pong-bugs": PingPongBugsGame,
+  "game-2048": Game2048RealGame,
+  "level-devil": LevelDevilGame,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -146,6 +150,8 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "supercar-legends": "MATH-GATE SUPERCAR RUNNER",
   "ping-pong-go": "RALLY vs THE CPU",
   "ping-pong-bugs": "SMASH THE BUG WAVE",
+  "game-2048": "SLIDE TO MERGE",
+  "level-devil": "NOTHING IS SAFE",
 };
 
 interface FeedEntry {

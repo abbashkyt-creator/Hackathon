@@ -1,0 +1,13 @@
+2048 - integration notice
+================================
+
+2048 is the original game by Gabriele Cirulli, released under the MIT License.
+Project: https://github.com/gabrielecirulli/2048
+License: MIT (Copyright (c) 2014 Gabriele Cirulli)
+Full license text is shipped at LICENSE.txt in this folder.
+
+The original game is played via swipes on mobile and arrow keys on desktop.
+No remote SDK, ad network, analytics, or authentication was added. Tip Tap
+supplies a local platform bridge that reports the running score to the feed
+and keeps the game ad-free. The original creator identity is preserved; this
+copy is not presented as Tip Tap's own creation.

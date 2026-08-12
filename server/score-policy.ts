@@ -16,6 +16,10 @@ export const GAME_SCORE_POLICIES = {
   "fruit-ninja": { maxScore: 10_000_000, maxPerSecond: 10_000, burstAllowance: 2_000 },
   "ping-pong-go": { maxScore: 100_000, maxPerSecond: 25, burstAllowance: 200 },
   "ping-pong-bugs": { maxScore: 200_000, maxPerSecond: 2_000, burstAllowance: 2_000 },
+  "game-2048": { maxScore: 2_097_152, maxPerSecond: 30_000, burstAllowance: 10_000 },
+  "level-devil": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+
+
 } as const;
 
 export type GameSlug = keyof typeof GAME_SCORE_POLICIES;

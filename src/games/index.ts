@@ -23,3 +23,5 @@ export { SupercarLegendsGame } from "./SupercarLegendsGame";
 export { PulseLockGame } from "./PulseLockGame";
 export { StackShiftGame } from "./StackShiftGame";
 export { SubwaySurfersGame } from "./SubwaySurfersGame";
+export { Game2048RealGame } from "./Game2048RealGame";
+export { LevelDevilGame } from "./LevelDevilGame";

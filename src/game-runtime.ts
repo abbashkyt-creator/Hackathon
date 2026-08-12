@@ -115,6 +115,18 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     preloadManifest: "/games/ping-pong-go/preload-manifest.json",
     assetManifest: "/games/ping-pong-go/MIRROR-MANIFEST.json",
   },
+  "level-devil": {
+    embedded: true,
+    preloadManifest: "/games/level-devil/preload-manifest.json",
+    assetManifest: "/games/level-devil/MIRROR-MANIFEST.json",
+    prepareByMount: true,
+  },
+  "game-2048": {
+    embedded: true,
+    preloadManifest: "/games/2048-game/preload-manifest.json",
+    assetManifest: "/games/2048-game/MIRROR-MANIFEST.json",
+    warmFullMirror: true,
+  },
   "ping-pong-bugs": {
     embedded: true,
     preloadManifest: "/games/ping-pong-go/preload-manifest.json",

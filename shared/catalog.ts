@@ -152,6 +152,18 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
     creatorLabel: "BY HAPPYLANDER · TIP TAP INTEGRATION",
     category: "Sports",
   },
+  "level-devil": {
+    creatorId: "unept",
+    creatorName: "Unept",
+    creatorLabel: "BY UNEPT · LOCAL SOURCE MIRROR",
+    category: "Puzzle",
+  },
+  "game-2048": {
+    creatorId: "gabrielecirulli",
+    creatorName: "Gabriele Cirulli",
+    creatorLabel: "BY GABRIELE CIRULLI · LOCAL SOURCE MIRROR",
+    category: "Puzzle",
+  },
   "ping-pong-bugs": {
     creatorId: "happylander",
     creatorName: "Happylander",

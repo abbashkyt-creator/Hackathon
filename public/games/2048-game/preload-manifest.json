@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/2048-game/index.html",
+    "/games/2048-game/js/tiptap-platform-bridge.js",
+    "/games/2048-game/js/application.js",
+    "/games/2048-game/js/game_manager.js",
+    "/games/2048-game/js/keyboard_input_manager.js",
+    "/games/2048-game/style/main.css"
+  ]
+}

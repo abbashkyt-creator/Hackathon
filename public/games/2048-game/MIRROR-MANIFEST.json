@@ -1,0 +1,19 @@
+{
+  "name": "2048",
+  "sourcePage": "https://github.com/gabrielecirulli/2048",
+  "license": "MIT (c) 2014 Gabriele Cirulli",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Network lock + ad client + platform bridge"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}

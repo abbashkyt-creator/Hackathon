@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/level-devil/index.html",
+    "/games/level-devil/dmloader.js",
+    "/games/level-devil/LevelDevil_wasm.js",
+    "/games/level-devil/LevelDevil.wasm",
+    "/games/level-devil/js/tiptap-platform-bridge.js",
+    "/games/level-devil/archive/game0.arcd"
+  ]
+}

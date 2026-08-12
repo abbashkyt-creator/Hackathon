@@ -23,7 +23,9 @@ export type GameSlug =
   | "city-cab-rush"
   | "supercar-legends"
   | "ping-pong-go"
-  | "ping-pong-bugs";
+  | "ping-pong-bugs"
+  | "game-2048"
+  | "level-devil";
 
 export interface GameDefinition {
   slug: GameSlug;

@@ -197,6 +197,18 @@ const GAME_SEED: StoredGameRecord[] = [
     accent: "#06b6d4",
   },
   {
+    slug: "level-devil",
+    title: "Level Devil",
+    rule_text: "Climb the tower. Every floor is out to get you.",
+    accent: "#ef4444",
+  },
+  {
+    slug: "game-2048",
+    title: "2048",
+    rule_text: "Swipe to merge tiles and reach 2048.",
+    accent: "#edc22e",
+  },
+  {
     slug: "ping-pong-bugs",
     title: "Ping Pong Bugs",
     rule_text: "Smash every wave of bugs off the table before they land.",

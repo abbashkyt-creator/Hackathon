@@ -82,7 +82,7 @@ export function createApp(config: Config, store: Store) {
   app.set("trust proxy", 1);
   app.disable("x-powered-by");
 
-  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game" | "legacy-wasm-game") =>
+  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game" | "legacy-wasm-game" | "defold-game") =>
     helmet({
       contentSecurityPolicy:
         config.NODE_ENV === "development" && mode === "app"
@@ -103,13 +103,15 @@ export function createApp(config: Config, store: Store) {
                 mediaSrc: mode === "app" ? ["'self'"] : ["'self'", "data:", "blob:"],
                 fontSrc: ["'self'", "data:"],
                 scriptSrc:
-                  mode === "legacy-game"
-                    ? ["'self'", "'unsafe-eval'"]
-                    : mode === "legacy-wasm-game"
-                      ? ["'self'", "'unsafe-eval'", "'wasm-unsafe-eval'", "blob:"]
-                    : mode === "wasm-game"
-                      ? ["'self'", "'wasm-unsafe-eval'", "blob:"]
-                      : ["'self'"],
+                  mode === "defold-game"
+                    ? ["'self'", "'unsafe-inline'", "'unsafe-eval'", "'wasm-unsafe-eval'", "blob:"]
+                    : mode === "legacy-game"
+                      ? ["'self'", "'unsafe-eval'"]
+                      : mode === "legacy-wasm-game"
+                        ? ["'self'", "'unsafe-eval'", "'wasm-unsafe-eval'", "blob:"]
+                      : mode === "wasm-game"
+                        ? ["'self'", "'wasm-unsafe-eval'", "blob:"]
+                        : ["'self'"],
                 styleSrc: ["'self'", "'unsafe-inline'"],
                 workerSrc: mode === "app" ? ["'self'"] : ["'self'", "blob:"],
                 frameSrc: mode === "app" ? ["'self'"] : ["'none'"],
@@ -150,6 +152,10 @@ export function createApp(config: Config, store: Store) {
   // 67 Game runs its Flash .swf through Ruffle, which instantiates a WebAssembly
   // core — same wasm policy requirement as the Unity/Babylon titles.
   const sixtySevenSecurityHeaders = securityHeaders("wasm-game");
+  // Level Devil is a Defold HTML5 bundle: its loader boots via inline scripts
+  // and compiled WebAssembly, so it needs an inline-script + wasm policy scoped
+  // to its local mirror only.
+  const levelDevilSecurityHeaders = securityHeaders("defold-game");
   app.use((req, res, next) => {
     const headers = req.path.startsWith("/games/subway-surfers/")
       ? subwaySecurityHeaders
@@ -177,6 +183,8 @@ export function createApp(config: Config, store: Store) {
         ? templeRunSecurityHeaders
       : req.path.startsWith("/games/67-game/")
         ? sixtySevenSecurityHeaders
+      : req.path.startsWith("/games/level-devil/")
+        ? levelDevilSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
