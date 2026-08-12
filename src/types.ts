@@ -124,6 +124,38 @@ export interface GlobalLeaderboardResult {
   totalPlayers: number;
 }
 
+export type OwnedAdKind = "interstitial" | "rewarded";
+
+export interface OwnedAdCampaign {
+  id: string;
+  enabled: boolean;
+  kinds: OwnedAdKind[];
+  placements: string[];
+  title: string;
+  body: string;
+  media: { type: "image" | "video"; src: string; alt: string };
+  cta?: { label: string; href: string };
+  skipAfterMs: number;
+  rewardAfterMs: number;
+  frequency: { maxPerSession: number; minIntervalMs: number };
+}
+
+export interface OwnedAdConfig {
+  version: 1;
+  enabled: boolean;
+  campaigns: OwnedAdCampaign[];
+  baseOrigin?: string;
+}
+
+export interface AdStatSummary {
+  campaignId: string;
+  kind: string;
+  impressions: number;
+  completions: number;
+  clicks: number;
+  lastAt: number;
+}
+
 export interface GameProps {
   active: boolean;
   preparing?: boolean;

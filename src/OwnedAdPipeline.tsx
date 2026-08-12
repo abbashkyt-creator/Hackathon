@@ -90,7 +90,7 @@ export function OwnedAdPipeline({ soundEnabled }: { soundEnabled: boolean }) {
 
   useEffect(() => {
     let cancelled = false;
-    void fetch("/ads/config.json", { cache: "no-store", credentials: "same-origin" })
+    void fetch("/api/ads/config", { cache: "no-store", credentials: "same-origin" })
       .then((response) => (response.ok ? response.json() : Promise.reject(new Error("ad config unavailable"))))
       .then((value) => {
         if (!cancelled) setConfig(parseOwnedAdConfig(value, window.location.origin));
@@ -120,6 +120,13 @@ export function OwnedAdPipeline({ soundEnabled }: { soundEnabled: boolean }) {
         ad.targetOrigin,
       );
       ad.source.postMessage({ source: "tiptap-parent", type: "resume" }, ad.targetOrigin);
+      try {
+        fetch("/api/ads/events", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ campaignId: ad.campaign.id, kind: ad.request.kind, placement: ad.request.placement, gameSlug: ad.request.gameSlug, event: "complete" }),
+        }).catch(() => {});
+      } catch { /* telemetry is best-effort */ }
       recordDebug({ type: "complete", campaignId: ad.campaign.id, rewarded, reason });
       activeRef.current = null;
       setActiveAd(null);
@@ -198,6 +205,13 @@ export function OwnedAdPipeline({ soundEnabled }: { soundEnabled: boolean }) {
         targetOrigin,
       );
       source.postMessage({ source: "tiptap-parent", type: "pause" }, targetOrigin);
+      try {
+        fetch("/api/ads/events", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ campaignId: campaign.id, kind: request.kind, placement: request.placement, gameSlug: request.gameSlug, event: "impression" }),
+        }).catch(() => {});
+      } catch { /* telemetry is best-effort */ }
       respond(next, { type: "started", campaignId: campaign.id });
       recordDebug({
         type: "started",

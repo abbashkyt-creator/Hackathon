@@ -299,6 +299,19 @@ export class Store {
         PRIMARY KEY(device_key, game_slug)
       );
 
+
+      CREATE TABLE IF NOT EXISTS ad_events (
+        id TEXT PRIMARY KEY,
+        game_slug TEXT,
+        campaign_id TEXT,
+        kind TEXT,
+        placement TEXT,
+        event TEXT,
+        created_at BIGINT NOT NULL
+      );
+      CREATE INDEX IF NOT EXISTS ad_events_campaign_event
+        ON ad_events(campaign_id, event, created_at);
+
       CREATE TABLE IF NOT EXISTS saves (
         player_id TEXT NOT NULL REFERENCES players(id) ON DELETE CASCADE,
         game_slug TEXT NOT NULL REFERENCES games(slug),
@@ -912,6 +925,48 @@ export class Store {
       yourPoints: yours?.points ?? 0,
       totalPlayers: ranked.length,
     };
+  }
+
+
+  async recordAdEvent(campaignId: string, gameSlug: string, kind: string, placement: string, event: string): Promise<void> {
+    await this.run(
+      `INSERT INTO ad_events (id, game_slug, campaign_id, kind, placement, event, created_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      [randomUUID(), gameSlug, campaignId, kind, placement, event, Date.now()],
+    );
+  }
+
+  async getAdStats(days = 14): Promise<
+    { campaignId: string; kind: string; impressions: number; completions: number; clicks: number; lastAt: number }[]
+  > {
+    const since = Date.now() - 1000 * 60 * 60 * 24 * days;
+    const rows = await this.all<{
+      campaign_id: string;
+      kind: string;
+      impressions: number;
+      completions: number;
+      clicks: number;
+      last_at: number;
+    }>(
+      `SELECT campaign_id, kind,
+              SUM(CASE WHEN event = 'impression' THEN 1 ELSE 0 END) AS impressions,
+              SUM(CASE WHEN event IN ('complete','click') THEN 1 ELSE 0 END) AS completions,
+              SUM(CASE WHEN event = 'click' THEN 1 ELSE 0 END) AS clicks,
+              MAX(created_at) AS last_at
+       FROM ad_events
+       WHERE created_at >= ?
+       GROUP BY campaign_id, kind
+       ORDER BY last_at DESC`,
+      [since],
+    );
+    return rows.map((row) => ({
+      campaignId: row.campaign_id,
+      kind: row.kind,
+      impressions: Number(row.impressions ?? 0),
+      completions: Number(row.completions ?? 0),
+      clicks: Number(row.clicks ?? 0),
+      lastAt: Number(row.last_at ?? 0),
+    }));
   }
 
   async cleanup(): Promise<void> {

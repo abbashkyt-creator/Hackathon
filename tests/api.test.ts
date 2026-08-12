@@ -373,3 +373,81 @@ describe("Tip Tap API", () => {
     expect(followedCreators).toEqual(["tiptap"]);
   });
 });
+
+
+describe("Ads channel control", () => {
+  let databasePath: string;
+  let store: Store;
+  let config: Config;
+
+  beforeEach(async () => {
+    databasePath = join(tmpdir(), `tip-tap-ads-${randomUUID()}.db`);
+    config = loadConfig({
+      NODE_ENV: "test",
+      SQLITE_PATH: databasePath,
+      DATABASE_URL: "",
+      SESSION_SECRET: "test-session-secret-that-is-long-enough",
+    });
+    store = new Store(config);
+    await store.init();
+  });
+
+  afterEach(async () => {
+    await store.close();
+    rmSync(databasePath, { force: true });
+    rmSync(`${databasePath}-shm`, { force: true });
+    rmSync(`${databasePath}-wal`, { force: true });
+  });
+
+  it("serves the default (ad-free) config and lets an operator flip the channel", async () => {
+    const agent = request.agent(createApp(config, store));
+
+    const initial = await agent.get("/api/ads/config").expect(200);
+    expect(initial.body.enabled).toBe(false);
+
+    const saved = await agent
+      .put("/api/ads/admin/config")
+      .send({
+        version: 1,
+        enabled: true,
+        campaigns: [
+          {
+            id: "test-campaign",
+            enabled: true,
+            kinds: ["interstitial"],
+            placements: ["*"],
+            title: "Test",
+            body: "Body",
+            media: { type: "image", src: "/ads/tiptap-creator-house.svg", alt: "a" },
+            cta: { label: "Go", href: "/" },
+            skipAfterMs: 1000,
+            rewardAfterMs: 3000,
+            frequency: { maxPerSession: 5, minIntervalMs: 1000 },
+          },
+        ],
+      })
+      .expect(200);
+    expect(saved.body.enabled).toBe(true);
+    expect(saved.body.campaigns[0].id).toBe("test-campaign");
+
+    const after = await agent.get("/api/ads/config").expect(200);
+    expect(after.body.enabled).toBe(true);
+
+    await agent.delete("/api/ads/admin/config").expect(200);
+    const reset = await agent.get("/api/ads/config").expect(200);
+    expect(reset.body.enabled).toBe(false);
+  });
+
+  it("records impression/click stats through the events endpoint", async () => {
+    const agent = request.agent(createApp(config, store));
+    await agent
+      .post("/api/ads/events")
+      .send({ campaignId: "stats-campaign", gameSlug: "pulse-lock", kind: "interstitial", placement: "break", event: "impression" })
+      .expect(204);
+
+    const stats = await agent.get("/api/ads/stats").expect(200);
+    expect(stats.body).toHaveLength(1);
+    expect(stats.body[0]).toMatchObject({ campaignId: "stats-campaign", impressions: 1 });
+  });
+});
+

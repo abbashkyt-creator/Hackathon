@@ -35,6 +35,7 @@ import {
 } from "react";
 import { api } from "./api";
 import { OwnedAdPipeline } from "./OwnedAdPipeline";
+import { AdControlPanel } from "./AdControlPanel";
 import { getGameCatalogMetadata } from "../shared/catalog";
 import {
   isEmbeddedGame,
@@ -1893,6 +1894,7 @@ export function App() {
         onLogout={() => void logout()}
       />
       <OwnedAdPipeline soundEnabled={soundEnabled} />
+      <AdControlPanel />
       {toast && <div className="toast">{toast}</div>}
     </main>
   );

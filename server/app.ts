@@ -14,6 +14,7 @@ import {
   type OAuthProvider,
 } from "./oauth.js";
 import { isRankedGame, validateScore } from "./score-policy.js";
+import { ADS_OVERRIDE_PATH, loadAdsConfig, resetAdsConfigOverride, saveAdsConfigOverride } from "./ads-control.js";
 
 const runStartSchema = z.object({ gameSlug: z.string().min(1).max(50) });
 const scoreSchema = z.object({
@@ -50,6 +51,10 @@ function parseCookies(header = ""): Record<string, string> {
         return [[decodeURIComponent(part.slice(0, index)), decodeURIComponent(part.slice(index + 1))]];
       }),
   );
+}
+
+function reqProtocol(req: Request): string {
+  return req.headers["x-forwarded-proto"] === "https" ? "https" : "http";
 }
 
 function cookieOptions(config: Config, maxAgeMs: number): express.CookieOptions {
@@ -549,7 +554,64 @@ export function createApp(config: Config, store: Store) {
     }
   });
 
-  app.use("/api", (_req, res) => {
+    // ─── Ads channel control + stats ───────────────────────────────────────────
+  app.get("/api/ads/config", (_req, res) => {
+    const config = loadAdsConfig();
+    res.json({ ...config, baseOrigin: config.enabled ? `${reqProtocol(_req)}://${_req.get("host")}` : undefined });
+  });
+
+  app.get("/api/ads/stats", async (_req, res, next) => {
+    try {
+      res.json(await store.getAdStats(14));
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.post("/api/ads/events", async (req, res, next) => {
+    try {
+      const body = z.object({
+        campaignId: z.string().min(1).max(80).optional(),
+        gameSlug: z.string().min(1).max(80).optional(),
+        kind: z.string().min(1).max(40).optional(),
+        placement: z.string().max(120).optional(),
+        event: z.enum(["impression", "click", "complete", "skipped"]),
+      }).parse(req.body);
+      if (["impression", "click", "complete"].includes(body.event)) {
+        await store.recordAdEvent(
+          body.campaignId ?? "unknown",
+          body.gameSlug ?? "",
+          body.kind ?? "",
+          body.placement ?? "",
+          body.event,
+        );
+      }
+      res.status(204).end();
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.put("/api/ads/admin/config", async (req, res, next) => {
+    try {
+      const config = saveAdsConfigOverride(req.body ?? {});
+      res.json({ ...config, source: "override", path: ADS_OVERRIDE_PATH() });
+    } catch (error) {
+      next(error);
+    }
+  });
+
+  app.delete("/api/ads/admin/config", async (_req, res, next) => {
+    try {
+      const config = resetAdsConfigOverride();
+      res.json({ ...config, source: "default" });
+    } catch (error) {
+      next(error);
+    }
+  });
+
+
+app.use("/api", (_req, res) => {
     res.status(404).json({ error: "API route not found." });
   });
 

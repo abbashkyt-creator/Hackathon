@@ -66,4 +66,23 @@ export const api = {
   challenge: (runId: string) =>
     request<Challenge>(`/api/challenges/${encodeURIComponent(runId)}`),
   logout: () => request<void>("/auth/logout", { method: "POST", body: "{}" }),
+  adConfig: () => request<import("./types").OwnedAdConfig>("/api/ads/config"),
+  adStats: () =>
+    request<import("./types").AdStatSummary[]>("/api/ads/stats", { cache: "no-store" }),
+  adAdminSetConfig: (value: unknown) =>
+    request<import("./types").OwnedAdConfig & { source: string; path?: string }>(
+      "/api/ads/admin/config",
+      { method: "PUT", body: JSON.stringify(value) },
+    ),
+  adAdminResetConfig: () =>
+    request<import("./types").OwnedAdConfig & { source: string }>("/api/ads/admin/config", {
+      method: "DELETE",
+    }),
+  adEvent: (payload: {
+    campaignId?: string;
+    gameSlug?: string;
+    kind?: string;
+    placement?: string;
+    event: "impression" | "click" | "complete" | "skipped";
+  }) => request<void>("/api/ads/events", { method: "POST", body: JSON.stringify(payload) }),
 };

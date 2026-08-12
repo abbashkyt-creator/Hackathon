@@ -3978,3 +3978,62 @@ html[data-theme="dark"] .boot-screen p {
     transition: none;
   }
 }
+
+/* ─── Owned ads control panel ─────────────────────────────────────── */
+.adsctrl-backdrop { z-index: 60; }
+.adsctrl-sheet { display: flex; flex-direction: column; gap: 14px; max-height: 80vh; overflow-y: auto; }
+.adsctrl-head { text-align: left; }
+.adsctrl-head span { font-size: 10px; letter-spacing: 2px; font-weight: 800; color: var(--game-accent, #38b6ff); }
+.adsctrl-head h2 { margin: 2px 0 4px; font-size: 22px; }
+.adsctrl-head p { font-size: 12px; line-height: 1.5; opacity: 0.8; margin: 0; }
+.adsctrl-toggle {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 14px; border-radius: 14px; background: rgba(255,255,255,0.04);
+}
+.adsctrl-toggle > span { display: flex; flex-direction: column; text-align: left; }
+.adsctrl-toggle strong { font-size: 14px; }
+.adsctrl-toggle small { font-size: 11px; opacity: 0.7; margin-top: 2px; }
+.adsctrl-toggle.is-on { background: rgba(64,180,255,0.12); }
+.adsctrl-toggle button {
+  width: 52px; height: 30px; border-radius: 20px; border: none; cursor: pointer; position: relative;
+  background: rgba(255,255,255,0.12); transition: background 0.2s; flex: 0 0 auto;
+}
+.adsctrl-toggle button i {
+  position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; border-radius: 50%;
+  background: #fff; transition: left 0.2s;
+}
+.adsctrl-toggle button.is-on { background: #38b6ff; }
+.adsctrl-toggle button.is-on i { left: 25px; }
+.adsctrl-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.adsctrl-actions button {
+  padding: 10px 14px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.14);
+  background: transparent; color: inherit; font-weight: 700; font-size: 12px; cursor: pointer;
+}
+.adsctrl-actions button:hover { background: rgba(255,255,255,0.08); }
+.adsctrl-stats { display: flex; flex-direction: column; gap: 8px; font-size: 12px; }
+.adsctrl-stat-row {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: 10px; background: rgba(255,255,255,0.04);
+}
+.adsctrl-stat-name { display: flex; flex-direction: column; text-align: left; }
+.adsctrl-stat-name small { opacity: 0.6; font-size: 10px; text-transform: uppercase; }
+.adsctrl-stat-nums { display: flex; gap: 8px; align-items: baseline; }
+.adsctrl-stat-nums b { font-size: 15px; }
+.adsctrl-stat-nums small { opacity: 0.6; font-size: 10px; }
+.adsctrl-campaigns { display: flex; flex-direction: column; gap: 8px; }
+.adsctrl-campaign {
+  display: flex; gap: 10px; align-items: center; text-align: left;
+  padding: 10px 12px; border-radius: 10px; background: rgba(255,255,255,0.04);
+}
+.adsctrl-campaign-dot { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; }
+.adsctrl-campaign-dot.is-on { background: #4ade80; box-shadow: 0 0 8px #4ade80; }
+.adsctrl-campaign-dot.is-off { background: #64748b; }
+.adsctrl-campaign strong { font-size: 13px; display: block; }
+.adsctrl-campaign small { font-size: 11px; opacity: 0.65; }
+.adsctrl-empty { font-size: 12px; opacity: 0.7; }
+.adsctrl-toast {
+  position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
+  padding: 10px 16px; border-radius: 12px; background: rgba(0,0,0,0.85); font-size: 12px; z-index: 5;
+}
+.spin-sm { opacity: 0.7; }
+
