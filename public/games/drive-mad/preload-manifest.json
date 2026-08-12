@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/drive-mad/index.html",
+    "/games/drive-mad/webapp/fancade.css",
+    "/games/drive-mad/webapp/source_min.js",
+    "/games/drive-mad/webapp/index.js",
+    "/games/drive-mad/webapp/index.wasm",
+    "/games/drive-mad/js/tiptap-platform-bridge.js"
+  ]
+}

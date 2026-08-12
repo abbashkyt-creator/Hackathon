@@ -74,6 +74,7 @@ import {
   Game2048RealGame,
   LevelDevilGame,
   SliceMasterGame,
+  DriveMadGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -117,6 +118,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "game-2048": Game2048RealGame,
   "level-devil": LevelDevilGame,
   "slice-master": SliceMasterGame,
+  "drive-mad": DriveMadGame,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -155,6 +157,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "game-2048": "SLIDE TO MERGE",
   "level-devil": "NOTHING IS SAFE",
   "slice-master": "SLICE EVERYTHING",
+  "drive-mad": "NO BRAKES",
 };
 
 interface FeedEntry {

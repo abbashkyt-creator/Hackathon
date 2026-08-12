@@ -1,0 +1,21 @@
+{
+  "name": "Drive Mad",
+  "sourcePage": "https://poki.com/en/g/drive-mad",
+  "sourceBase": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/68ae072b-bde4-4175-8300-0e3e02c5a10e/",
+  "engine": "Fancade (Emscripten)",
+  "mirroredAt": "2026-08-12",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}

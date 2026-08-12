@@ -1,0 +1,13 @@
+Drive Mad — integration notice
+================================
+
+Drive Mad is a Fancade-engine racing game by Fancade/Martin Magni,
+hosted on Poki. Source page: https://poki.com/en/g/drive-mad
+Mirrored with the creator's/platform's authorization for an official
+competition (show) entry, as confirmed by the project owner.
+
+Engine: Fancade webapp (Emscripten wasm + data archive).
+The Poki SDK, its ad stack, analytics, and remote calls were NOT copied.
+Tip Tap supplies a local, same-origin platform bridge for lifecycle and
+score reporting. The game stays ad-free unless the operator's owned-ads
+channel is enabled. Creator identity is preserved.

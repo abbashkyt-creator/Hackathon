@@ -197,6 +197,12 @@ const GAME_SEED: StoredGameRecord[] = [
     accent: "#06b6d4",
   },
   {
+    slug: "drive-mad",
+    title: "Drive Mad",
+    rule_text: "Race the road. Flip the finish.",
+    accent: "#22c55e",
+  },
+  {
     slug: "slice-master",
     title: "Slice Master",
     rule_text: "Slice every object. Miss nothing.",

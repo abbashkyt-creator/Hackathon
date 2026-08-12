@@ -187,6 +187,8 @@ export function createApp(config: Config, store: Store) {
         ? levelDevilSecurityHeaders
       : req.path.startsWith("/games/slice-master/")
         ? supercarLegendsSecurityHeaders
+      : req.path.startsWith("/games/drive-mad/")
+        ? supercarLegendsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
