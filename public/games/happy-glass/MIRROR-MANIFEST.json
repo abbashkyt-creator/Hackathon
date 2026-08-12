@@ -1,0 +1,462 @@
+{
+  "name": "Happy Glass",
+  "sourcePage": "https://poki.com/en/g/happy-glass",
+  "sourceBase": "https://5cac4523-71ea-476e-8acc-a6cb9c25cc06.gdn.poki.com/d30b371c-de2c-47b1-bb2f-4324f6395542/",
+  "engine": "Unity WebGL (Addressables)",
+  "mirroredAt": "2026-08-12T15:19:17.970Z",
+  "files": [
+    {
+      "assetPath": "Build/2034c3a3f31fb182d5dab076c578d580.framework.js.br",
+      "bytes": 431931,
+      "sha256": "6582e487c8849e80143469a641dbe31a438057a0d86fe3e0ca46194577885208"
+    },
+    {
+      "assetPath": "Build/95d6764c749dfc845fdc8176ba7206d7.data.br",
+      "bytes": 16302859,
+      "sha256": "377fb0913b5497fdb2e6587562d0328e3f36740df7fc7df01996625cad7b4720"
+    },
+    {
+      "assetPath": "Build/a4ab965b7735e46ca3f22b32204cb8c5.wasm.br",
+      "bytes": 23141113,
+      "sha256": "e5ba44b51abbb9d78f07ec6dcfc995135299758fc4aaf38c6d6d12b7b856a374"
+    },
+    {
+      "assetPath": "Build/e40682cd4a2e8826aa72fb3216daf773.loader.js",
+      "bytes": 19003,
+      "sha256": "b57c4a7714dc15be07103018586feb336f49eb09f3805716e91046db2ff34ec6"
+    },
+    {
+      "assetPath": "StreamingAssets/AdAdaptersData.json",
+      "bytes": 750,
+      "sha256": "dd1fb479acef5bcccb5c41d716239666a1ee9ca08a7cdf6dddc87940a66b2f52"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/catalog.json",
+      "bytes": 624459,
+      "sha256": "26ef0eeb372b82b8b88ec23fa7c0f1d7156a04cff935efcdddc99e6b3c3b2101"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/settings.json",
+      "bytes": 847,
+      "sha256": "b9234333e0fbc7415e60642a877eb50647c14fb2a486b0532eeecc5c5ca01f67"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/langugages_assets_notosanscjkjp-mediumsdf_200732ef98e44e307955b2ec0c59bc53.bundle",
+      "bytes": 528369,
+      "sha256": "297337c3e9e55dd262a78726165a45cbeb90e2ca72c737498c437428340083e8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/langugages_assets_notosanscjkkr-mediumsdf_cb498457048dfb4da3c8f9fa6af6d07f.bundle",
+      "bytes": 428534,
+      "sha256": "60dbe69784f4e7cf452b5219460d30d5ff87cc111e1067593e705559b8ab7af6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/langugages_assets_notosanscjksc-mediumsdf_097aa2f5a02f4979f4abc7f446d602f6.bundle",
+      "bytes": 543935,
+      "sha256": "3aa88f34e154306a45f81a8a9e086d7693129a6c46450ae63f4cdb9a9d217f09"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/langugages_assets_notosanscjktc-mediumsdf_665ff585d01693733d18e2ba708816f1.bundle",
+      "bytes": 546614,
+      "sha256": "bd704981565771b13d306092c6467bf59b73e5541fa0bb990d2abe06deb05d3a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/langugages_assets_poppins-mediumsdfde_4e4c2495e4b145109f22e1210d46deee.bundle",
+      "bytes": 279589,
+      "sha256": "99e0a881ef657a865d7a9c985e1537dc84cc9de268faf552819abbc8942bd3c4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/langugages_assets_poppins-mediumsdffr_f34f75264b8ca759d8efb15af60e637e.bundle",
+      "bytes": 298678,
+      "sha256": "3dbc49b7f200dc08805648a9114980a80468456eb44945c8a0f94aed17d11897"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets__ad30547ff6c8ef6dce7b2b28aacb38ab.bundle",
+      "bytes": 206335,
+      "sha256": "cee623bac2080aefa4ba095144f715b83b7b2d9834e4a9036da64866b895a781"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain101_316df811840bb77c3f12234779570c71.bundle",
+      "bytes": 105137,
+      "sha256": "bc9f8855cc215fcc295de4620c1f70621abc76974f84726663a129b307285fd5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain111_284ca6db808c57f034a24c650b6d6cfc.bundle",
+      "bytes": 118915,
+      "sha256": "4d64e88800ca51d1f805ffaa53ae618de0f3a5d6c10d00d83f2ec9b8ee4e8a89"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain11_35447766a684645bb47d8adf60e9ff1f.bundle",
+      "bytes": 81538,
+      "sha256": "9da3e8386a78205448add35243d50aef7a0c6f2d826b085cea14d67766a285e9"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain121_da15bd8863483546dfb5e890ff4955ba.bundle",
+      "bytes": 104255,
+      "sha256": "f48c1b7772a7389916686fe6b1d1893e89284874a458977c38a5ee8d64e1f663"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain131_9fbdf4c2e510ae0caebd2143778e7e8a.bundle",
+      "bytes": 149795,
+      "sha256": "ff75b5837a82ff67913326b753507990f19981f3478e24d290e20f86e4c91a4c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain141_1b835c47b69c1899fbd0ab881d537896.bundle",
+      "bytes": 120212,
+      "sha256": "1eb2a436607bce5772396ec996ebbc1516dc35fd1847cd20833603254625e06f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain151_1c79d8a1e62573c7e32b71738036bb44.bundle",
+      "bytes": 116789,
+      "sha256": "3ea01be06a925d4cb17b38fb9db5ba814862195d463a6545e25f882a54e87b47"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain161_8b828a58fee5c904cde45fcefbca1e7b.bundle",
+      "bytes": 106650,
+      "sha256": "cf8381477bce513fee2fa9d5764b9a47950c00afe629473bb2576c57589d8759"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain171_f3b0c3a89cb180e0a129c01d371b8df2.bundle",
+      "bytes": 123081,
+      "sha256": "5bb435dd6d578b8f41191355e014473ff6f19d1342fe04389759bc77684b23d2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain181_99de536178f20c6eefcf5cd2bb747607.bundle",
+      "bytes": 127535,
+      "sha256": "274435a757fc836858c966ce06ed0403d7670d3f13838a228db6c390f26fc34c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain191_15f20803e156bf35ab5f1ca45889fc5f.bundle",
+      "bytes": 123519,
+      "sha256": "f006c828ba91982c1f7b1eb79bd8ea7ca72c666ae7ae1fec8c46fd45d5eaf2c3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain1_3da5a9c967029c1a5f353f50266cf958.bundle",
+      "bytes": 127110,
+      "sha256": "8d667935a1f87e4061591bebf4adbd9a8233aaa304e594665554c03ec602211a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain201_ae525b22e6ace729b8cd91362b0e4e87.bundle",
+      "bytes": 118090,
+      "sha256": "1edcb44854713f747d559090910f5e7914c5ca84d80643be098bf065e8140265"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain211_9b8dfbabb529a9a5d9cc10f69305c57f.bundle",
+      "bytes": 129081,
+      "sha256": "a7e93c036ffa001f3706a4b9f281e57e57e905987b2c60e93007c3d0daf2f995"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain21_ac448a0f35ffecffb06b1f321ba70005.bundle",
+      "bytes": 106115,
+      "sha256": "1aa1dfa259943814805076e948f67fd1864d53d991aca4111aee1a9c5df86fea"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain221_25d31e11fa7bd6174bf825554e57bbf1.bundle",
+      "bytes": 132292,
+      "sha256": "46254ad1982c67a60b9d3bc58cd5b7db7d0f16fe516f061490595e15ce375709"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain231_2b630329c9a8c8b3d99231e6404b2404.bundle",
+      "bytes": 135408,
+      "sha256": "1ecc4250c68c145793fa46a69537dfced5a12f8927028e2bcd1af69ca66fb7a4"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain241_dc0d7a75eb17f75f5b6797f0fcbab49d.bundle",
+      "bytes": 113596,
+      "sha256": "1fa480953e2f5d5fb3fc322bf10b4057a5a195cdd3b569f31dc8fb2a4afcff75"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain251_1acbb35c24818139fabe366fa003e640.bundle",
+      "bytes": 130272,
+      "sha256": "f8f84dcb063ffe869a17e89cd5e137595367d3576424ed275b7fe0faa526a897"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain261_21c4eee22b669f7083a7e11f5bf56b8a.bundle",
+      "bytes": 129890,
+      "sha256": "d2c712220c26b0b6b4827a94bf2fe165f475dcf17ec9f703e13b4afc67b381bb"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain271_5fee6afdd7ef6b65508a3482e9f6b9a4.bundle",
+      "bytes": 137747,
+      "sha256": "b4a4233c8f164ec75b3b230477f1a5847d926d8cdaf56d583cbe20e5682f41e8"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain281_2fe195f6b72a7e9f9bb617984f2fd38a.bundle",
+      "bytes": 127171,
+      "sha256": "7626f4e88f0fa773fc8354fb1ea69ae8ad3a37238457e2c4f0356579392696a2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain291_5f80797872cb419dc4f5d5301309fcf8.bundle",
+      "bytes": 111272,
+      "sha256": "a328777144c8de98f907589abce17948e9045db7e56c885b7c6dd0134ebb97e2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain301_84a5591f2c18b2d6d852078c167eba59.bundle",
+      "bytes": 136854,
+      "sha256": "fcafd72150666a30ce3f508da99633729aa2d05477aa6b827d466c2199d36d43"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain311_4c0a94716eb91c851fb89cac755610bc.bundle",
+      "bytes": 123899,
+      "sha256": "b8ce6db34885906c74ba0e9f64e26d284e47678bc1b4d0c93fe0266d94650d64"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain31_43ae91b7e577825407d184df1bb12edd.bundle",
+      "bytes": 87060,
+      "sha256": "60157a805a4dcc94127971b4308df29dc700d77d17ca05942ead73544083a23f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain321_fa724956cbf590d25a01ce38581e062e.bundle",
+      "bytes": 127097,
+      "sha256": "6a8f00e01dde210bc908aac877ceb8c483a9b2f5f39b860230686a2a0d67fc57"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain331_02e24e95f7e1e64da9015930dbf38546.bundle",
+      "bytes": 153429,
+      "sha256": "7a7abfa408833007d0c2d070b8cd5e0f53c4940a6b0a0ab0e12e8abc4c7387bf"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain341_003976a2a0c1719d02fbd467a4333b5d.bundle",
+      "bytes": 126734,
+      "sha256": "93af9ddcb679c3ac4e211d6ef73612f2a168bdea3fa432e44061bcd750ee4cfe"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain351_e4c070219a8abfd714054f14b91cbbce.bundle",
+      "bytes": 130517,
+      "sha256": "8394544628634348e3fb04423dbf5d45072edcbf5eecf27d7ded261282d6d920"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain361_0c464565ac1b0f7ead2ed5287cff5a79.bundle",
+      "bytes": 135515,
+      "sha256": "adca9df8e0855c2d5c7de4aebc69996e1bb91e9f59416ee4a56784ada671a392"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain371_7efb4c0a29675e506c812878a069f13f.bundle",
+      "bytes": 118884,
+      "sha256": "5982e7442dddcf6a9c878e6128cc8ec430fa02bdd3a64a8c1aaaa6791dba56ad"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain381_d963eed8a66fa98e96e5692a53bd303d.bundle",
+      "bytes": 136408,
+      "sha256": "1a82a20a30ab63561c9cd83008e6596f974812686535d903f8eb88255cf69d70"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain391_49e3d478b04440d4f23e46f8a32cd5e8.bundle",
+      "bytes": 139001,
+      "sha256": "bb9905fe87b77950d8a3a553351585ecdd627c0af74e57589a7f2a8160795f29"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain401_caf6b98ebb9d6fc2ba37d6a51847d356.bundle",
+      "bytes": 148379,
+      "sha256": "e4c63989ccec34e0eb031f301038b922a4ca91d3ecac6a0f7b7dd33691fca465"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain411_07dfcc66753eddd90d65f3a061d6b4ec.bundle",
+      "bytes": 136900,
+      "sha256": "ff01c5c7031cd4f0e11fde6c8babbeab8430d2b10b5fc79a37e4a56639a6a14a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain41_7afcf1660158f7a8c876c8d38fb5da39.bundle",
+      "bytes": 91415,
+      "sha256": "d40228ec809bd466f999faa68760790b46e56e4e85cac315d0ae2091651e677e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain421_d930c307dd4c6cba9c54094746136572.bundle",
+      "bytes": 120553,
+      "sha256": "44534cb7d881b925696b6800e67358966dc99f00479527dadfbe122c942ad80c"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain431_94c8253224d35b8592d133ed4df54942.bundle",
+      "bytes": 129436,
+      "sha256": "bf7eda8c7bfd5403c7b2bfd7c4d00c5d1675ee3f1e2a158dfc766b29a2d44fc9"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain441_a95f57518bac2020e9f802e44dc21258.bundle",
+      "bytes": 139434,
+      "sha256": "44fe4aacdbba5ec96b4f73c5033b8a3321a595bc811aaa8a8ebb29f9ba888832"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain451_71065b0fac701ad349060ba222ba51d8.bundle",
+      "bytes": 145907,
+      "sha256": "820a5bd3ae1b358815c323dc1ae7d12328f04adf898deb7dff1dcbe606cf3884"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain461_746f4077ddf92022b8df477c2f535c74.bundle",
+      "bytes": 152069,
+      "sha256": "23e57ec779b34b57a155595454733355419ffdd6df967f2c80d0b4a28682e487"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain471_d9ea433813e7def89a9478313223f087.bundle",
+      "bytes": 152375,
+      "sha256": "424837e824276b58594da04e8cd98386ea0dace4029c78cafd1ee2bce62a7cb1"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain481_d7206ed8a39258260a479d9a79b77dc5.bundle",
+      "bytes": 149124,
+      "sha256": "6e27b0a8cc3d5b2bd1359d01676fb2669d23cb8f9fb51d54692d7aef671863fd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain491_6d8fe3689a374b3b34d085781ebdd357.bundle",
+      "bytes": 136426,
+      "sha256": "d771c3ba60b89bbf0ec134527a095b7b517ea1952ba97d0c1ede7024da0cc7d6"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain501_296d1fa40e1bec4347aecc7a232eb546.bundle",
+      "bytes": 137458,
+      "sha256": "e120947ef9488234acfe3ce53c35e1453a7225a6dc181ad71af7d00c1c63c69a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain511_031e22a11027fd16c27e1a60c5ca88c5.bundle",
+      "bytes": 146084,
+      "sha256": "127d960f87b8a3e128f8fe2593d2b9532166e5a5e23364df7ab0eab78b49b6e3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain51_c283505ac2ad6ce10e65f58a47938f75.bundle",
+      "bytes": 119387,
+      "sha256": "59753f67a47a379999b21f8735135f98278a89a36aaa0c531b17e8146b510f2f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain521_7da3b10f8e435b27e41376b7869d5109.bundle",
+      "bytes": 135528,
+      "sha256": "d6915147d9b59cdc31a61fc69da490558e97d4878a891e2db12b49b158fae89a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain531_6adacad8453b173a31b84e7eaad8106e.bundle",
+      "bytes": 142493,
+      "sha256": "159dd3feeeaaf5cfd035de1abbd9500b60f5ac1a46118bcff89871de7b17e898"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain541_6651ee3e124acd57e73562e0ee4cdcb5.bundle",
+      "bytes": 132664,
+      "sha256": "b28dff7a28e7f72ef77dd417b836b081a49d6d22a736b1c630e50c5e2a0da8ec"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain551_9bdf6c322017065c990fbeabc75c606b.bundle",
+      "bytes": 122401,
+      "sha256": "1cac0dfb3d826ee6e02cab86c0436caf80129ee127f18e642145dc7a8e6656a5"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain561_19926e130b1f02dd3648716d35ea7393.bundle",
+      "bytes": 137180,
+      "sha256": "20f88a6dca51e7dd39cc1acf4a91cdd95719af3c2c20fc11be1bfcf1aa6c5d3a"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain571_669407e1c14c63966bac58ad28341576.bundle",
+      "bytes": 138423,
+      "sha256": "4a38e531f4e80bb8fd444edfef0324265486974893f5795edb94fa999a7bc45d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain581_45ca47a2584dad016080c5b1c8a3c0e2.bundle",
+      "bytes": 122138,
+      "sha256": "5104b45c1ef165817aa8f27f3ea94f766d6a025ad3fbf6cb0634e808de8a04f2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain591_79299460b0515430f9c1167eb0701e61.bundle",
+      "bytes": 141607,
+      "sha256": "dada1aa6fe54b8569498e28478f4154f3edf789ea63437eb68ed1eee4a697b72"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain601_62b16f8341983e4a22f5256b84a3ba6a.bundle",
+      "bytes": 148626,
+      "sha256": "2ea37dd9e3abe271b7d55b9fff6a1a591214ba9e2b1023f6a3dc7033108a2798"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain611_34f608e78fb73fd57459a8eee38bb5f8.bundle",
+      "bytes": 131138,
+      "sha256": "bbb6e6e2edb6d1df6ec8e2f4acb50c2a54963f6c3ec8e137462a48a97b139451"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain61_cd1c8d9a39176fc58a30785065350f5c.bundle",
+      "bytes": 124581,
+      "sha256": "44492704783dc039205377d546dc9ff64be487a0848de4cf7409d614272dade3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain621_685a5070a1afdf398d8e80cfd47e8587.bundle",
+      "bytes": 161058,
+      "sha256": "7ffff69269d3ed91f401d00bbebe049f73be9467a9b4fe088559956bed03645d"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain631_2f78581ac27085dc3424bdb19a5a0a73.bundle",
+      "bytes": 168799,
+      "sha256": "c1897f27faf8a2072a3d7f07a7ee987cf09d06af909b0930f3e9855984f3e1f7"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain641_2f38ddbb02070b60ac053eee23d0472e.bundle",
+      "bytes": 198013,
+      "sha256": "49f0580d6d3606d6a061c4e92cb54b85efb84428ab85830e44f64b00fff0d205"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain651_8801c90bdca89b5fff5a17a46d1ec447.bundle",
+      "bytes": 176171,
+      "sha256": "b1c9987e119308a8f6baee289e61851c8bc5b0be6d96f3841f9d5b648d85d593"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain661_b64011853bdc09f63d51403123e80dff.bundle",
+      "bytes": 154860,
+      "sha256": "79a168bb6f14bdfbbd80a8b7d9c33cb6f91fb47835169fec8ebae360990579d2"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain671_4aefff52f3966d1a00e717e625ef68af.bundle",
+      "bytes": 140223,
+      "sha256": "56187929aa0b45c51c91bfee5206c12ae8fe001a0bfe3735efe3924f92c9fd0f"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain681_d5fffe534d52c967c16966ef65c5545e.bundle",
+      "bytes": 145790,
+      "sha256": "373459ce87381ea6bdaaa01498912ac1a7e9979051f2006a39a5df72158ab29e"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain691_04cadad0b7b889d25be3794cab98cf4c.bundle",
+      "bytes": 146178,
+      "sha256": "4f229bc82b3a8b3e5eee58e3018a4039f3401f3af988f505d12a5da1cc82c3ca"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain701_42e52a5e6104f0ad82d786123909fc6d.bundle",
+      "bytes": 142001,
+      "sha256": "523da9094f412b15931c03fbefb6af941f6e50a829052c5dc89f1442252fbb30"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain711_0bb4512375f8ac942ace566476f54aec.bundle",
+      "bytes": 134532,
+      "sha256": "e3c32fac05ea217df9c2789add96505a7d6e12f1c0fa69527c4ee606ce5681bd"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain71_545d90e1b3f78740d2c7d1a2026290c5.bundle",
+      "bytes": 145100,
+      "sha256": "2679b42e285fce7aff72abc839896a0a4c0d6147a0ecd86a5c6e58a11c7f4e39"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain81_fbdf98d741350287d39d536b58a5e520.bundle",
+      "bytes": 145517,
+      "sha256": "2fe3396cba4d771b152f8f0bf9b9654b60fdd8e96a4a2b0ef3d6ecddc98d4778"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_levelmain91_9e8b0582337e989c0b178ca8d8bc5aab.bundle",
+      "bytes": 79630,
+      "sha256": "59534c3aed4a8eb26e0702a44bb2b1caa87bb037734a448a421d14319e7a26d3"
+    },
+    {
+      "assetPath": "StreamingAssets/aa/WebGL/levels_assets_preload_6235708fbfa5f794abfc802c57cb3636.bundle",
+      "bytes": 1984,
+      "sha256": "d290b7e969f637ef4dfb36c643ce435dc3b8d04c81d7bd7c7f1359ea124d3a00"
+    }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "purpose": "Fail-closed local PokiSDK replacement"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}

@@ -20,6 +20,8 @@ export const GAME_SCORE_POLICIES = {
   "level-devil": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "slice-master": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drive-mad": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "happy-glass": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+
 
 
 

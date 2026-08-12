@@ -152,6 +152,12 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
     creatorLabel: "BY HAPPYLANDER · TIP TAP INTEGRATION",
     category: "Sports",
   },
+  "happy-glass": {
+    creatorId: "lion-studios",
+    creatorName: "Lion Studios",
+    creatorLabel: "BY LION STUDIOS · LOCAL SOURCE MIRROR",
+    category: "Puzzle",
+  },
   "drive-mad": {
     creatorId: "fancade",
     creatorName: "Fancade",

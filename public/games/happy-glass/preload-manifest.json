@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/happy-glass/index.html",
+    "/games/happy-glass/js/poki-sdk-shim.js",
+    "/games/happy-glass/js/tiptap-platform-bridge.js",
+    "/games/happy-glass/Build/e40682cd4a2e8826aa72fb3216daf773.loader.js",
+    "/games/happy-glass/Build/2034c3a3f31fb182d5dab076c578d580.framework.js.br",
+    "/games/happy-glass/Build/95d6764c749dfc845fdc8176ba7206d7.data.br",
+    "/games/happy-glass/Build/a4ab965b7735e46ca3f22b32204cb8c5.wasm.br",
+    "/games/happy-glass/StreamingAssets/aa/catalog.json"
+  ]
+}

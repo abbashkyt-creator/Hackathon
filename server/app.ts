@@ -189,6 +189,8 @@ export function createApp(config: Config, store: Store) {
         ? supercarLegendsSecurityHeaders
       : req.path.startsWith("/games/drive-mad/")
         ? supercarLegendsSecurityHeaders
+      : req.path.startsWith("/games/happy-glass/")
+        ? supercarLegendsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
@@ -230,7 +232,20 @@ export function createApp(config: Config, store: Store) {
     }
     next();
   });
-  app.use(express.json({ limit: "32kb" }));
+  
+  app.use("/games/happy-glass/Build", (req, res, next) => {
+    if (req.path.endsWith(".data.br")) {
+      res.type("application/octet-stream");
+      res.setHeader("Content-Encoding", "br");
+    } else if (req.path.endsWith(".framework.js.br")) {
+      res.type("text/javascript");
+      res.setHeader("Content-Encoding", "br");
+    } else if (req.path.endsWith(".wasm.br")) {
+      res.type("application/wasm");
+      res.setHeader("Content-Encoding", "br");
+    }
+    next();
+  });app.use(express.json({ limit: "32kb" }));
 
   const sseClients = new Map<string, Set<Response>>();
   const scoreRate = new Map<string, { count: number; resetAt: number }>();
