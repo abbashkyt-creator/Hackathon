@@ -21,6 +21,7 @@
   window.PokiSDK = {
     init: () => { trace('init'); return resolved; },
     gameLoadingStart: () => { trace('gameLoadingStart'); },
+    gameLoadingProgress: () => { trace('gameLoadingProgress'); },
     gameLoadingFinished: () => { trace('gameLoadingFinished'); },
     gameplayStart: () => { trace('gameplayStart'); },
     gameplayStop: () => { trace('gameplayStop'); },

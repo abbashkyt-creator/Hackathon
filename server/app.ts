@@ -82,7 +82,7 @@ export function createApp(config: Config, store: Store) {
   app.set("trust proxy", 1);
   app.disable("x-powered-by");
 
-  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game" | "legacy-wasm-game" | "defold-game") =>
+  const securityHeaders = (mode: "app" | "game" | "legacy-game" | "wasm-game" | "legacy-wasm-game" | "defold-game" | "legacy-inline-game") =>
     helmet({
       contentSecurityPolicy:
         config.NODE_ENV === "development" && mode === "app"
@@ -103,7 +103,9 @@ export function createApp(config: Config, store: Store) {
                 mediaSrc: mode === "app" ? ["'self'"] : ["'self'", "data:", "blob:"],
                 fontSrc: ["'self'", "data:"],
                 scriptSrc:
-                  mode === "defold-game"
+                  mode === "legacy-inline-game"
+                    ? ["'self'", "'unsafe-eval'", "'unsafe-inline'"]
+                    : mode === "defold-game"
                     ? ["'self'", "'unsafe-inline'", "'unsafe-eval'", "'wasm-unsafe-eval'", "blob:"]
                     : mode === "legacy-game"
                       ? ["'self'", "'unsafe-eval'"]
@@ -156,6 +158,9 @@ export function createApp(config: Config, store: Store) {
   // and compiled WebAssembly, so it needs an inline-script + wasm policy scoped
   // to its local mirror only.
   const levelDevilSecurityHeaders = securityHeaders("defold-game");
+  // Basketball Stars (Phaser) injects inline bootstrap scripts at runtime,
+  // so it needs unsafe-inline in addition to unsafe-eval, scoped to its mirror.
+  const basketballStarsSecurityHeaders = securityHeaders("legacy-inline-game");
   app.use((req, res, next) => {
     const headers = req.path.startsWith("/games/subway-surfers/")
       ? subwaySecurityHeaders
@@ -194,7 +199,7 @@ export function createApp(config: Config, store: Store) {
       : req.path.startsWith("/games/stickman-hook/")
         ? subwaySecurityHeaders
       : req.path.startsWith("/games/basketball-stars/")
-        ? subwaySecurityHeaders
+        ? basketballStarsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
