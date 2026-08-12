@@ -50,7 +50,7 @@ describe("owned ad pipeline", () => {
           return false;
         }
       });
-    expect(indexes).toHaveLength(29);
+    expect(indexes).toHaveLength(30);
     for (const path of indexes) {
       const html = readFileSync(path, "utf8");
       const lock = html.indexOf('/games/_shared/network-lock.js');
