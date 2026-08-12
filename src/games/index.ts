@@ -29,3 +29,4 @@ export { SliceMasterGame } from "./SliceMasterGame";
 export { DriveMadGame } from "./DriveMadGame";
 export { HappyGlassGame } from "./HappyGlassGame";
 export { StickmanHookGame } from "./StickmanHookGame";
+export { BasketballStarsGame } from "./BasketballStarsGame";

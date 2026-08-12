@@ -1,0 +1,532 @@
+{
+  "name": "Basketball Stars",
+  "sourcePage": "https://poki.com/en/g/basketball-stars",
+  "sourceBase": "https://5dd33196-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/0ca48bfa-be18-4697-82ac-b48280d44496/",
+  "engine": "Phaser + Nape physics",
+  "mirroredAt": "2026-08-12T16:22:23.642Z",
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1413,
+      "sha256": "efe6c034f960e43b8c853b6b9e6e9ee770b54506ad0542f82de14cde66e5ad98"
+    },
+    {
+      "assetPath": "assets/css/app.css",
+      "bytes": 1946,
+      "sha256": "ad8abcc6a736f7a6e65facbaaae11b731a4e9e1dcfc5c878c9f545dab4cad01a"
+    },
+    {
+      "assetPath": "assets/css/AllerDisplay.css",
+      "bytes": 460,
+      "sha256": "da78a95b8c6a6a280bbfcacbc25949453fbc4bc4a1a1977af264a1a5afa474ac"
+    },
+    {
+      "assetPath": "assets/css/CfCrackBold.css",
+      "bytes": 464,
+      "sha256": "49b402e7e33e143f4f77584a771290e85b0d5232c2e788fd16d8e23f1938ad61"
+    },
+    {
+      "assetPath": "assets/css/impact.css",
+      "bytes": 399,
+      "sha256": "4b2a3b4257b8166e4b056cda708558b951ab4ce7a18e292ad830bcd6eca9a8c1"
+    },
+    {
+      "assetPath": "assets/css/impact2.css",
+      "bytes": 404,
+      "sha256": "c7b8380da5a1f8401e78ff7ce754818bb7384f2b170bd73463e66929721a6f52"
+    },
+    {
+      "assetPath": "assets/css/impact3.css",
+      "bytes": 404,
+      "sha256": "c35b697dbd796341e96340aa6264c8d4e009069a7bfc862d733a82122c10a847"
+    },
+    {
+      "assetPath": "assets/lib/nape.min.js",
+      "bytes": 1775999,
+      "sha256": "33a5441b0906732f17c8ef35961e5a7a6379f7c8788aedec39d12183c6517347"
+    },
+    {
+      "assetPath": "assets/lib/jquery-3.1.1.min.js",
+      "bytes": 86709,
+      "sha256": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf"
+    },
+    {
+      "assetPath": "assets/lib/easeljs-0.8.2.combined.js",
+      "bytes": 457756,
+      "sha256": "78b64d73fafad705e97d5f05bef7f43282189a00b388ec2ad2f00755f7e1e5bd"
+    },
+    {
+      "assetPath": "assets/lib/phaser.min.js",
+      "bytes": 791196,
+      "sha256": "c486bae6284f32862362ceba611981806fde7b2b912893874101b8d76c40f29f"
+    },
+    {
+      "assetPath": "assets/lib/phaser-cachebuster.min.js",
+      "bytes": 969,
+      "sha256": "2d72c03e41c44988c2679e6cf3f534676a04c477d7f204ee56f4bec37c041d0e"
+    },
+    {
+      "assetPath": "assets/lib/phaser-super-storage.min.js",
+      "bytes": 10717,
+      "sha256": "1c4dba377a10edd3f3991d37a423a831e19216c30e5ed23d040759bda1a29dca"
+    },
+    {
+      "assetPath": "assets/lib/dragonBones.min.js",
+      "bytes": 189336,
+      "sha256": "82fd9eb27fc120de11eff1204ecc39c07cd471dbcd113f881e71900b413be779"
+    },
+    {
+      "assetPath": "assets/lib/pksl.js",
+      "bytes": 1039,
+      "sha256": "703c57b11d82c7b901ad9aaf782b4bbcf61b2d75ee847bfeeed18db7066846a0"
+    },
+    {
+      "assetPath": "basketball_legends_2019.min.js",
+      "bytes": 1164002,
+      "sha256": "5f52aff537a7e35e027f8809b7edf275d58910d3dfd5bb7f1a28f1c7620de901"
+    },
+    {
+      "assetPath": "assets/fonts/AllerDisplay/AllerDisplay.woff",
+      "bytes": 13996,
+      "sha256": "c8669779da3e34ddaca97b765de5ff83618faf377390538df4e597a9700f0a1a"
+    },
+    {
+      "assetPath": "assets/fonts/CfCrackBold/cfcrackandbold.woff",
+      "bytes": 14184,
+      "sha256": "b6aed48165339f8ad073f0e60a059fde9419e0253201483dc14511b93e2977c7"
+    },
+    {
+      "assetPath": "assets/fonts/Impact/impact.woff",
+      "bytes": 88568,
+      "sha256": "6f2c9182641ce0cd0df633eb530d1f375e6f1a5c4a0ebd4cb90d56bb95eb925c"
+    },
+    {
+      "assetPath": "assets/fonts/Impact2/impact.woff",
+      "bytes": 68564,
+      "sha256": "a238b1ca4def2588d3298b1e595cd186c6e8451fc3ce1b163502c784ac94d1e9"
+    },
+    {
+      "assetPath": "assets/fonts/Impact3/impact.woff",
+      "bytes": 10396,
+      "sha256": "56e0fa8f0f65adee8c309dcffe21b220f0db16b69fba732a2ee5e1e1eda81c6c"
+    },
+    {
+      "assetPath": "assets/atlases/interface.png",
+      "bytes": 539035,
+      "sha256": "b8403a95f33686cc29090abcbc1ac21b3f9ec72e8f52f3a5648c437e16ff8ad4"
+    },
+    {
+      "assetPath": "assets/atlases/interface.json",
+      "bytes": 9492,
+      "sha256": "bddf2b7c5ba8a7249c50169c5b7497655f5acad164c533a161636ba4974bb867"
+    },
+    {
+      "assetPath": "assets/atlases/gameplay.png",
+      "bytes": 846625,
+      "sha256": "337e694f08df4f39f42a201051daec1df32efdde7899dcd5ab1206d69420401c"
+    },
+    {
+      "assetPath": "assets/atlases/gameplay.json",
+      "bytes": 8036,
+      "sha256": "d0804420223c64bed52fe63e20a15140bc7e00b7e72d83a931d775b7eca194d1"
+    },
+    {
+      "assetPath": "assets/images/bg_ui_xs.png",
+      "bytes": 39613,
+      "sha256": "deb1216cbbe7f638a2290e9034128175da40458a4190d8ebe17bb9fc230f4ee6"
+    },
+    {
+      "assetPath": "assets/images/data2.png",
+      "bytes": 913870,
+      "sha256": "099be0b02abdd3f4981213cda01635f5476a1dc6640ffc284465daaa5685e32f"
+    },
+    {
+      "assetPath": "assets/images/logo.png",
+      "bytes": 27849,
+      "sha256": "c3a57525aea647ca179530d01b5a09f4be2ecaf0109dfb9657b4efb6cd936bb4"
+    },
+    {
+      "assetPath": "assets/images/bg_players.png",
+      "bytes": 489391,
+      "sha256": "580d100307dced996d7c33b518d6b7e90004d1a02c88be4fff4f20c26dcda287"
+    },
+    {
+      "assetPath": "assets/sound/1_M_Win.ogg",
+      "bytes": 79194,
+      "sha256": "7398853e409366570f581a4dbbe9e6f263d9928555627ded99854c54f28c410f"
+    },
+    {
+      "assetPath": "assets/sound/1_M_Win.mp3",
+      "bytes": 48692,
+      "sha256": "ee057672021a3e4df9ffffdaea41f656cad1495df24c24b282b9ce625ec144e7"
+    },
+    {
+      "assetPath": "assets/sound/1_M_Win.m4a",
+      "bytes": 54943,
+      "sha256": "50c32d7749c794847b3f591d81fd5bd527d1c431a141a8d690200551ce3bbcad"
+    },
+    {
+      "assetPath": "assets/sound/2_M_Whistle.ogg",
+      "bytes": 7319,
+      "sha256": "99adcb42ec61efa6da63ecba10eff9f39bc578ccd2ca9b2c65df72377f1b2190"
+    },
+    {
+      "assetPath": "assets/sound/2_M_Whistle.mp3",
+      "bytes": 2089,
+      "sha256": "034a6bd44ac727f8c3e9f3b246f05a1df5e6bec9c7fddd5190089f53f3b05e0f"
+    },
+    {
+      "assetPath": "assets/sound/2_M_Whistle.m4a",
+      "bytes": 3094,
+      "sha256": "d2ed3ab8f9cd02314a4d70a9750356bdab1e7c987458df414cfc1500791b5777"
+    },
+    {
+      "assetPath": "assets/sound/3_M_Tribune.ogg",
+      "bytes": 442943,
+      "sha256": "4c132d72b6d5731950f94d732fba2b216a76395b95382ac83ee25efbd2367a43"
+    },
+    {
+      "assetPath": "assets/sound/3_M_Tribune.mp3",
+      "bytes": 315559,
+      "sha256": "85f34544854f1acc97c71732caa95d01612fb970dd1b16124d7972ed4bc540c0"
+    },
+    {
+      "assetPath": "assets/sound/3_M_Tribune.m4a",
+      "bytes": 417954,
+      "sha256": "3032cbcbb8016a300b0a34b35a1cf700b5a916713eadf8b5d5a2587566f1be37"
+    },
+    {
+      "assetPath": "assets/sound/4_P_Teleport.ogg",
+      "bytes": 7738,
+      "sha256": "c524d2eede1e8f41a0492fda43a89406d01f5883080287a843d3465fb514e862"
+    },
+    {
+      "assetPath": "assets/sound/4_P_Teleport.mp3",
+      "bytes": 2496,
+      "sha256": "4caed216e1d4587405a3a792a7777a198f21c67ce37552dee99b78bcbde7f6c4"
+    },
+    {
+      "assetPath": "assets/sound/4_P_Teleport.m4a",
+      "bytes": 4282,
+      "sha256": "600a979425b62e04d379df8055fa9578517b01aba940d5fe05f9350b07ac0419"
+    },
+    {
+      "assetPath": "assets/sound/5_P_Swoosh.ogg",
+      "bytes": 6493,
+      "sha256": "7f03ca2323766d784248be2b27d4e6e1d33abacd7eb2963c8b7ac6df5ad3c67c"
+    },
+    {
+      "assetPath": "assets/sound/5_P_Swoosh.mp3",
+      "bytes": 1671,
+      "sha256": "1c62c22aae9a89f7a9beb314f33dcb7a3562521a96fd94219a4a35210c8379da"
+    },
+    {
+      "assetPath": "assets/sound/5_P_Swoosh.m4a",
+      "bytes": 3040,
+      "sha256": "f37c116fa4369a145c32e2f82642296e9d1b7131caf24a611a4be3799ca702b6"
+    },
+    {
+      "assetPath": "assets/sound/6_P_Energy.ogg",
+      "bytes": 20380,
+      "sha256": "98889c7f4c37ac5a3e22e382c3451d3942da18d83497dd3a769e57029c1f99a3"
+    },
+    {
+      "assetPath": "assets/sound/6_P_Energy.mp3",
+      "bytes": 31893,
+      "sha256": "ade630a12ec36b7e3343a405c657bf5978acf2ecfab3dd34110cdc6dba19d863"
+    },
+    {
+      "assetPath": "assets/sound/6_P_Energy.m4a",
+      "bytes": 13116,
+      "sha256": "dd254d95063cdc69efd961bf79f4f27390e06d4ec07c790f3c92385af5773ea9"
+    },
+    {
+      "assetPath": "assets/sound/7_P_Stunned.ogg",
+      "bytes": 9958,
+      "sha256": "87fa88c82d82f52f3df2d1bd419a48b5bb0c6b7e87e2c11b7e4562b05dba079e"
+    },
+    {
+      "assetPath": "assets/sound/7_P_Stunned.mp3",
+      "bytes": 3761,
+      "sha256": "2eecebb34c1d3b70120c8572b7257451abfb97c6c502180a33e500416c596ee8"
+    },
+    {
+      "assetPath": "assets/sound/7_P_Stunned.m4a",
+      "bytes": 5225,
+      "sha256": "6742b518653d5f069cabbdff19f2e8aac68200116506f2b2768c1111119fb935"
+    },
+    {
+      "assetPath": "assets/sound/8_B_Steel.ogg",
+      "bytes": 14495,
+      "sha256": "b431e5d7d82ce05e5aecbb446cdb04bc21ac1228926f1f4c0b8f1b67160ee358"
+    },
+    {
+      "assetPath": "assets/sound/8_B_Steel.mp3",
+      "bytes": 8359,
+      "sha256": "60796a24760dc1b29c8f8620c5c23da7f89901231580e3d5432470be1559e189"
+    },
+    {
+      "assetPath": "assets/sound/8_B_Steel.m4a",
+      "bytes": 4949,
+      "sha256": "bca67cb8f1aeed00052023dadbe9616248512ee6a5a5f8615c050c487d31072d"
+    },
+    {
+      "assetPath": "assets/sound/9_M_Buzzer.ogg",
+      "bytes": 28514,
+      "sha256": "6bfa9c16dda65d2456dd8967e64cf6bd893c6c6b09d474860e34b227418cfc33"
+    },
+    {
+      "assetPath": "assets/sound/9_M_Buzzer.mp3",
+      "bytes": 17345,
+      "sha256": "3b3638831e53f8c99b3f21f5a0b4257dacf8be172b5df462ac720f1a43fafd25"
+    },
+    {
+      "assetPath": "assets/sound/9_M_Buzzer.m4a",
+      "bytes": 20851,
+      "sha256": "9ee4552b499a107ed26aed019506ed1aa816448601613f4dc51e7587f722e42a"
+    },
+    {
+      "assetPath": "assets/sound/10_B_Ring.ogg",
+      "bytes": 13730,
+      "sha256": "4e8ced78d0a780566f43e920ede04677e302d6cac481f0e9a1820d35f5ad8988"
+    },
+    {
+      "assetPath": "assets/sound/10_B_Ring.mp3",
+      "bytes": 15175,
+      "sha256": "3f0553707b9f4c2985a9b5c77e95e09f10fa05be2931c101610eb644feb4d35b"
+    },
+    {
+      "assetPath": "assets/sound/10_B_Ring.m4a",
+      "bytes": 9214,
+      "sha256": "f713983897bfc82a53168c389a6fbf5a541ac40740f7f6a3942c4a0428a8c6aa"
+    },
+    {
+      "assetPath": "assets/sound/11_P_MegaStart.ogg",
+      "bytes": 20178,
+      "sha256": "4e664f131029c4374acf8689f91c0158c39b188068239ff18a19234acca17b85"
+    },
+    {
+      "assetPath": "assets/sound/11_P_MegaStart.mp3",
+      "bytes": 12538,
+      "sha256": "1504166add444cfe25ead42698373356b57a2bdb14af2bb00b656a383e37b8ce"
+    },
+    {
+      "assetPath": "assets/sound/11_P_MegaStart.m4a",
+      "bytes": 15473,
+      "sha256": "7ce73a3c5eac2bbd48d36b5069a2a88cf101ba95a4dda10410e29c33e9738898"
+    },
+    {
+      "assetPath": "assets/sound/12_M_Lost.ogg",
+      "bytes": 43770,
+      "sha256": "a301130e2434e7a3368c62a94f877e1bfaa010fd111f357465c4d0bea69c36a9"
+    },
+    {
+      "assetPath": "assets/sound/12_M_Lost.mp3",
+      "bytes": 29466,
+      "sha256": "8905aed6412e5b58a8a836f773d55898b4310d2433784b32842c17c84a6e9898"
+    },
+    {
+      "assetPath": "assets/sound/12_M_Lost.m4a",
+      "bytes": 35576,
+      "sha256": "23b928c8a361e6f86eb21a9911f3af50932f5b607318765d6d9ed561f9df7ee3"
+    },
+    {
+      "assetPath": "assets/sound/13_P_Shield.ogg",
+      "bytes": 17988,
+      "sha256": "439c8d9bc9b2b2fe91a54ee21437db17629c87f0e050878fde2c7782dec5f280"
+    },
+    {
+      "assetPath": "assets/sound/13_P_Shield.mp3",
+      "bytes": 9613,
+      "sha256": "4126dfb467a5aea593545e00b5a7b7efb69b3c8a3bc70d57a5ed294c71b82b2f"
+    },
+    {
+      "assetPath": "assets/sound/13_P_Shield.m4a",
+      "bytes": 12615,
+      "sha256": "288c10152dee63641c7f3aa1b3d8dfd5186e1c45136d0543ff8178371f9c03b2"
+    },
+    {
+      "assetPath": "assets/sound/14_P_FloorStand.ogg",
+      "bytes": 6582,
+      "sha256": "020eef9670cf122debdfd2e1e22c67a27754460a2753a1b83821f87fb886e391"
+    },
+    {
+      "assetPath": "assets/sound/14_P_FloorStand.mp3",
+      "bytes": 1671,
+      "sha256": "9bb186bef6c99353c7156cb02e97c985ffe357a40d6cb1a70cec4560d1e87ee2"
+    },
+    {
+      "assetPath": "assets/sound/14_P_FloorStand.m4a",
+      "bytes": 2800,
+      "sha256": "b77a97bae60248f889cb36b718689dbfceca047928b279687eb8ab5929473b25"
+    },
+    {
+      "assetPath": "assets/sound/15_P_FloorRun.ogg",
+      "bytes": 7170,
+      "sha256": "c6a983f6f535f98dfd92514ee91b452ed298c7d3636abde54bc038982c40e129"
+    },
+    {
+      "assetPath": "assets/sound/15_P_FloorRun.mp3",
+      "bytes": 2089,
+      "sha256": "ac94f910c6eee3f3f5c3d540c41001924e8486c5dda261a05dd8e705f98e2e8e"
+    },
+    {
+      "assetPath": "assets/sound/15_P_FloorRun.m4a",
+      "bytes": 3030,
+      "sha256": "0e9c6b6e044a759a85e2da5b27b6d76766c9423c018c460e5d09f1cd0048cc94"
+    },
+    {
+      "assetPath": "assets/sound/16_B_Bounce.ogg",
+      "bytes": 7451,
+      "sha256": "59c90d9d33cf0f2300bb3815cb6d7c4bfcc694acabddf14e3fb86825ac72a65f"
+    },
+    {
+      "assetPath": "assets/sound/16_B_Bounce.mp3",
+      "bytes": 2507,
+      "sha256": "c4aa3bb898c9707043ae4394b8126d1c3fd6c2e537aa10daac8e241d03827706"
+    },
+    {
+      "assetPath": "assets/sound/16_B_Bounce.m4a",
+      "bytes": 3699,
+      "sha256": "c10a223ca4eb3cd8f082fc9e414b1fa9315c4719e623f5f486d455d4d3675aff"
+    },
+    {
+      "assetPath": "assets/sound/17_P_Dash.ogg",
+      "bytes": 16542,
+      "sha256": "fd9d13aa64bf5c4bc523159a74a3398030c16724e03552c57f4cb26561a35ed0"
+    },
+    {
+      "assetPath": "assets/sound/17_P_Dash.mp3",
+      "bytes": 21026,
+      "sha256": "e080557fd4abeb541c3688ccaa0528595a593d2f9d9d3c2c8893a49b487e8ce8"
+    },
+    {
+      "assetPath": "assets/sound/17_P_Dash.m4a",
+      "bytes": 12142,
+      "sha256": "4722f89502e273bdf3b219e9dcea2949d86ed3d5a8df91991650219508dbe585"
+    },
+    {
+      "assetPath": "assets/sound/18_P_SuperDash.ogg",
+      "bytes": 17680,
+      "sha256": "4bac82e07bc0d5ea0a9b4a3c7f663de1c0f737c3116e382c10bbe4695911c40b"
+    },
+    {
+      "assetPath": "assets/sound/18_P_SuperDash.mp3",
+      "bytes": 10448,
+      "sha256": "3b8888f6e2a7dc63244f1da5dccead6bcba31a5900de1818a8ff14d584163d5b"
+    },
+    {
+      "assetPath": "assets/sound/18_P_SuperDash.m4a",
+      "bytes": 10542,
+      "sha256": "53965b693f423ad17c89beb41f1fa40aef3c74c41c7af5a9a0ba666b21586f35"
+    },
+    {
+      "assetPath": "assets/sound/19_M_Countdown.ogg",
+      "bytes": 11033,
+      "sha256": "19ff7f6047596f2d0699bfef1f04a2a6386d0d30aae7eec83f3d562041f670a5"
+    },
+    {
+      "assetPath": "assets/sound/19_M_Countdown.mp3",
+      "bytes": 5224,
+      "sha256": "2e34a1959a90f4c9367e88bc2bb2841bd67ee4f8d595420c910c07931b3fc264"
+    },
+    {
+      "assetPath": "assets/sound/19_M_Countdown.m4a",
+      "bytes": 4326,
+      "sha256": "c13b36886c6516e555e2b503c3f1013991f651bf4e590c936b5aaaba5b4ffd2f"
+    },
+    {
+      "assetPath": "assets/sound/20_ButtonSnd.ogg",
+      "bytes": 4637,
+      "sha256": "ad3b82397725473fd06094159ba462ac59d04f80582bf0af8ea135ec7ec44f95"
+    },
+    {
+      "assetPath": "assets/sound/20_ButtonSnd.mp3",
+      "bytes": 1168,
+      "sha256": "2a5def3534cb1f00e9f992481da6563b7a1432ef1f7db7d21a4f8cdd39ff7f85"
+    },
+    {
+      "assetPath": "assets/sound/20_ButtonSnd.m4a",
+      "bytes": 2099,
+      "sha256": "f94ffab9b7c5048965a8b168f3fa93a1a2ded454420377e463bbaa79480cb4c4"
+    },
+    {
+      "assetPath": "assets/sound/21_B_NET.ogg",
+      "bytes": 6851,
+      "sha256": "a10ee3485fcc7f2bd9ba32906863392c421cde56c93ba9d43d59019460947b4c"
+    },
+    {
+      "assetPath": "assets/sound/21_B_NET.mp3",
+      "bytes": 1671,
+      "sha256": "e511181bc5035aa2a6f0260664d1cb3640d12522555a6d31a64c2c5cd39c5d0f"
+    },
+    {
+      "assetPath": "assets/sound/21_B_NET.m4a",
+      "bytes": 3384,
+      "sha256": "a1de46609e2cf0bcc5ae50250b78176a30acf576604ba86c0b5f7df9b7997178"
+    },
+    {
+      "assetPath": "assets/sound/22_B_Brick.ogg",
+      "bytes": 54979,
+      "sha256": "bb974940bf4e8c71b6d8e3ca0774364ebac246f507f76af127ebe44838ce8914"
+    },
+    {
+      "assetPath": "assets/sound/22_B_Brick.mp3",
+      "bytes": 35735,
+      "sha256": "c23e965022d89da8030cc8b807a8cf10dfad7c4da1eb4e1ba64e1558d39e8909"
+    },
+    {
+      "assetPath": "assets/sound/22_B_Brick.m4a",
+      "bytes": 47209,
+      "sha256": "32bbaab4c70ec234c6881216f64316680a80b3a04698625ee753c67ded90c9ff"
+    },
+    {
+      "assetPath": "assets/sound/23_B_Basket.ogg",
+      "bytes": 7179,
+      "sha256": "a4d6c420a677ad59c2086630e8479bd56f0d82298b6fe679957499b774ac9c7c"
+    },
+    {
+      "assetPath": "assets/sound/23_B_Basket.mp3",
+      "bytes": 2507,
+      "sha256": "e8472b89f4646444429e11c7bdafd9758983d4b10f89cb584a5671c297fb61a3"
+    },
+    {
+      "assetPath": "assets/sound/23_B_Basket.m4a",
+      "bytes": 2516,
+      "sha256": "9101168ec1047f5582a70068669af79cf61c3c5fa2cdf1a4e86f626841ac1651"
+    },
+    {
+      "assetPath": "assets/sound/24_TrackSnd.ogg",
+      "bytes": 2671894,
+      "sha256": "54912d3fa53cbbc57abe02905e8b9298a72455c1d033f451957c82cd950b6a89"
+    },
+    {
+      "assetPath": "assets/sound/24_TrackSnd.mp3",
+      "bytes": 1892176,
+      "sha256": "d89592d50d8f33529811181951353f7e56d47d6daa5849564754d3cf5e171659"
+    },
+    {
+      "assetPath": "assets/sound/24_TrackSnd.m4a",
+      "bytes": 1918666,
+      "sha256": "f084c0c311a3f1cb62847476f347d41ad8ca5641dc59836974aed4d75dc1c556"
+    }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "purpose": "Fail-closed local PokiSDK replacement"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "/games/basketball-stars/index.html",
+    "/games/basketball-stars/basketball_legends_2019.min.js",
+    "/games/basketball-stars/assets/lib/phaser.min.js",
+    "/games/basketball-stars/assets/lib/nape.min.js",
+    "/games/basketball-stars/assets/atlases/interface.json",
+    "/games/basketball-stars/js/poki-sdk-shim.js",
+    "/games/basketball-stars/js/tiptap-platform-bridge.js"
+  ]
+}

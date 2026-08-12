@@ -152,6 +152,12 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
     creatorLabel: "BY HAPPYLANDER · TIP TAP INTEGRATION",
     category: "Sports",
   },
+  "basketball-stars": {
+    creatorId: "madbox",
+    creatorName: "Madbox",
+    creatorLabel: "BY MADBOX · LOCAL SOURCE MIRROR",
+    category: "Sports",
+  },
   "stickman-hook": {
     creatorId: "madbox",
     creatorName: "Madbox",

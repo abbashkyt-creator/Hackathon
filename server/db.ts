@@ -197,6 +197,12 @@ const GAME_SEED: StoredGameRecord[] = [
     accent: "#06b6d4",
   },
   {
+    slug: "basketball-stars",
+    title: "Basketball Stars",
+    rule_text: "Outscore the rival. Sink the buzzer-beater.",
+    accent: "#fb923c",
+  },
+  {
     slug: "stickman-hook",
     title: "Stickman Hook",
     rule_text: "Swing through the course. Don't let go.",

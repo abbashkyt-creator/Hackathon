@@ -77,6 +77,7 @@ import {
   DriveMadGame,
   HappyGlassGame,
   StickmanHookGame,
+  BasketballStarsGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -123,6 +124,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "drive-mad": DriveMadGame,
   "happy-glass": HappyGlassGame,
   "stickman-hook": StickmanHookGame,
+  "basketball-stars": BasketballStarsGame,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -164,6 +166,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "drive-mad": "NO BRAKES",
   "happy-glass": "FILL IT UP",
   "stickman-hook": "SWING IT",
+  "basketball-stars": "SINK IT",
 };
 
 interface FeedEntry {
