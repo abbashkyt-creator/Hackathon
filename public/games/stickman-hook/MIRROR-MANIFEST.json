@@ -1,0 +1,677 @@
+{
+  "name": "Stickman Hook",
+  "sourcePage": "https://poki.com/en/g/stickman-hook",
+  "sourceBase": "https://5dd30ab4-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/a9b6d9fd-0b47-4682-9649-0e95c2d95625/",
+  "engine": "HTML5 canvas (custom)",
+  "mirroredAt": "2026-08-12T15:54:51.398Z",
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "bundle.js",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/005bce8d37385863c6f43ab77be5052e-CHAR_Peanut_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/01a19822638a94430c234bb507359a77-CHAR_Corgi.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/06ef1d99bb8fd6db62ec4ce1e0446d5a-CHAR_EggBasket_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/08ffc55eb3b4ae9f0983ee474515cf2b-ShadowChristmas.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0a141c39769cfaff38570f2f075c7a43-CHAR_ChocolateLove.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0a42298be42292d49741f14d8e266f17-ShopHalloween.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0bdde71b1806f3630ea16dc00074dd82-spritesheet_pumpkin.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0c0fe03c24f345768a50937b89241207-CHAR_CloudThunder.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0d903093f9d0c9ba7504fcdd45ce6429-CHAR_Parrot_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0ec14ae972bc011d39c65404182483d6-CHAR_Dino.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/0f4e3728f507a72f42331096f0977ea8-CHAR_Granny.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/13940892e05cea8dab53c35b8b70ed40-spritesheet_snowman.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/153ad2c3d66ef49ec2c60e3a2e7ba50a-ChristmasSkins.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/187b6af92e66f98437df041224ba1c1c-snowflake_circle_big.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/19dfecb3a09c4cdcc59a98149e094f61-CHAR_Shark_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/1adbd0ea5bd5cb0109a0163c40338da8-CHAR_LAMA.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/1afd5c4c156d46965aec6db8f16afdd5-CHAR_Flower.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/1e0f15078ef10b091d11fc1d3f5b3865-CHAR_Sheep.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/1e196bea84af17290e252647eda48dd6-CHAR_Matches_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/209c10ebe1de5eececd2033477974816-CHAR_Seal_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/20c4b171e9ec28dac3a8aad5a4ab15af-CHAR_Lion_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/230c98ff6ee1a54359b70eab8bdce814-CHAR_Cactus.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/23442bc2ae3e28bc06cbed7840daf679-CHAR_Cupidon_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/24eeb7bda3ec050b10080e8550bd7cac-christmasPopupContent.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/27d0951a04321bb432d5debfdd5dfc24-CHAR_Dragon.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/29803a0c697dbe519f787b8f812b4008-CHAR_Ghost.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/2af4601e5ade7fac1b6f4d42cc409837-CHAR_Fly.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/2d3ff3459c9ba0642df84a3d12befc07-CHAR_Momie.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/2d9e9a8ba5685c306e3c4e72a39fe36c-halloweenPopupContent.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/2efd7061701d2fe6ed0eb5610a5af4e2-CHAR_Lion.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/37da03994cb1722854dfd1d6b7741607-grapple_image.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/39be9af4f879344edbed1a6d017d5f23-CHAR_OldEgg_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/39cb6e4f9599457ca3cdafbf51150073-CHAR_SuperStick.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/3a40775f8c121db3f434c7374660a1c5-spritesheet_treeman.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/3a5a017847b641cfd40ba468135b8fed-spritesheet_papanoel.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/3a88fad1df9332b55e00158fe89a16da-CHAR_Peanut.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/3f2dfb2a7d9a459c1e440e232512c6a8-CHAR_Bunny_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/409c9d00e7c243c1ea96f2ce4a28b4c1-FX_Spawn.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/40e0f1c38d1a31bb28123e4ed6fe1af6-title.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4242b770ccf5b3f51fc650ce509b1d7d-backgroundPopup.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/425e70c4cf1a84a863a7990894ded86e-ShopHalloweenLoading.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/42a2d1ad37fe58cbd6f8167d03d27855-CHAR_Bunny.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/45daa036b00369c6959b7c2f3bcb2102-CHAR_PingPong_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/48c7fa3eb6e917b70bb7313fec45e417-SHOP_UI0005_Halloween.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4974e2f7b9c6bebf1d86cecd31282794-CHAR_Mjolnir_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4aeb98969eabd73a0f7f9922fef9ac15-CHAR_TikiMan.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4c7b670c74b7e22d189e9a0b1d430924-spritesheet_pingoo.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4cdbc226c59c229e359143e252498493-CHAR_Cow_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4e75c5b5a13634da89903c858b7abc98-CHAR_RainbowStick.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/4fe5a740a01f33918e8f972872ae127a-SHOP_UI0005_Christmas.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/50fcefc776448ecabb79e4412aa3913b-CHAR_Parrot.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/51b3b9cf520e747e618de97c4f680564-CHAR_Palm_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/520bf26b9c34cd335ba3ce17fb1111ed-CHAR_LovePotion_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/52d5dc64dc5d0059b7a4104de2dd8cf3-CHAR_Colvert.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/5a2f303b160d06510e999f646097bad3-CHAR_Tennis_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/5b64fdcfb8992ae779e978a65bfca48e-CHAR_LovePotion.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/5d822d7a7e292b4359bd0344de1693d6-CHAR_EggBasket.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/5e925c52da1573770da235999de35e1d-CHAR_LoveCupCake_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/5fed6b9e8e09200d803ca291bb8e59bc-CHAR_Fly_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/6233cbc7f7f687f6a97cc0a0ee2fa029-CHAR_Owl_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/631e8aae1dce82dd03dfde78217ea014-spritesheet_zombi.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/63d50b24c67d10511b5a84b2162c80de-CHAR_LoveCupCake.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/66e96c3c331d65d5377ba664313fab2f-CHAR_StickPlant.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/6a8103282df7f2bf2a2d45adf97e5173-titlepow2.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/6b7276331d5604193032655144d725e7-background_christmas_pattern.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/6ca88b3eafdc14984bc55752b9537b1a-CHAR_Rock.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/6d2248e7ff7268d5397829cf28366d75-CHAR_Owl.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/6e0cd8ad244c62f5cb70d02e19ec7783-spritesheet_skull.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/729c23f57e72471caedf6b2e14589771-CHAR_Cupidon.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/74e268fb799932facb0729057d51c908-CHAR_Lama_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/779ea9d6e4f32329dcfd7ced4d5825ab-spritesheet_yeti.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/7c927c7b2a003ad9f69ce6a41e5bc804-CHAR_Unicorn.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/7eda8f2ab66f086d64d385da58250b8d-CHAR_StickOuech.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/7f77264cc5d78dda2fae9e1632863e10-CHAR_Shark.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/82d91489f8fbf3b9c67f3d5efcb9a2ca-CHAR_Tennis.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/8369263f361272a06473c7b74cdf509d-CHAR_Cow.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/862428e98e0e5ace00be75be9c0652e0-spritesheet_alien.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/883a6a8d823d7a0c65b69884e4ea2a99-spritesheet_dwarf.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/8993aafa8f470eb47c03dc19fdfecbbc-CHAR_Colvert_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/89d739792da21fa9d3c98976dde3ce74-CHAR_Dino_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/8bcfe1e67e913fee58373bd35cc10f25-spritesheet_witch.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/8edf273da56bf19a32f64b3255116f41-CHAR_Thief.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/8f989dc3c6c63f8371c13a70c3e2d66b-CHAR_PALM.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/9104990f251b1bc71ec207831e1d07df-madbox_blackBG.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/9982d319ca536271dbefccf609329bad-CHAR_Pigeot_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/9c02b5e614d26bd8808bd3e4e16865fe-spritesheet_spider.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/9cb6f0be566e2e9f196f46d3d6f758f3-CHAR_Potatoe_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/9d5101e3c352308bc0a94dc5f2013180-CHAR_LoveBear_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/a0272f8b611c38a615c3e12a75489c0d-CHAR_Flower_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/a11fc7aa52923927a2ef22188236f513-CHAR_Ghost_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/a7d815d35fc2075d89368f53cb628bbd-CHAR_Seal.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/a826ca6393442a14f8f6562959fe0a0b-CHAR_Oldegg.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/a85c3decf4324def33ac3c31acf9449e-background_halloween_pattern.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/aa9bc225781afe4c313fe4dc86426bcd-CHAR_Rosette.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ac6d82fec7f8cd25b22ab612d1cf2a59-CHAR_Matches.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/af9863513d04375fa8d6dc45383579ba-CHAR_Ninja.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/b1ae3f80e3d03114a834e66a4736f223-CHAR_Pigeot.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/b50a17766f973474fe95d93ef7ecfd79-CHAR_Rosette_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/b65a4f63bab9e06736d186aa248257d5-spritesheet_wolf.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/bfd0c9fa9a0b9d68e2686658bff6ed25-CHAR_Sausage_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/c21fbdf8e81a6110e53d52546d8249df-CHAR_ChocolateLove_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/c3b1373b934183ca9fe2a77c4069d1a9-spritesheet_vampire.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/c56b4bfe97ad129b05d87fbaf3714740-CHAR_Mjolnir.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/c637fbcec5817cdcbe0275d09050bc5c-CHAR_Classic.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/c9d9fb66d651184460f0755c3f852999-CHAR_Burger.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ca82d825631798e9e9bc9fbd7af9ed49-CHAR_Knacky.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ce19b05c082fbafe1157911888ca156e-SHOP_UI0005.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d0fd6e3fd5c715aace529a66ee502959-CHAR_EvilStick.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d1ddccbb42eeec7b3b375ce681e9cca8-CHAR_LoveBear.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d489d1979ef2a931fd02107b2f2312a6-CHAR_Rock_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d5b74e96ee36ca637bb963649cfef587-CHAR_Knacky_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d804fb5f44455d3866da675e5c73a73c-CHAR_Cloudthunder_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d8a5c804f23a481705504f5459cd6406-CHAR_POTATOE.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/d9ff6dfa14728ad9b745dcdbccca82d3-backgroundPopupFlipped.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ddaec2dafc39e289092b696a1e4ee4aa-btn_play_locked.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/df61628bd98baecd75ffe88aa3dac736-CHAR_Granny_Thumbnail.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/e0e53c0227307960ca2c221f6c44d71c-CHAR_LemonMan.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/e7633b1e2bffbceb392223a210e01b19-CHAR_Banana.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/e7f8da7fa16f58da9e1a71b3af5729f7-CHAR_KingStick.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/eb60061c12a6349190a089a61860fb75-FinishPlatform.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/eb95acbe4124ed1d12ad7a9fd94aa302-Shadow.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ebae0d236a357bd4be14a302974bfb6a-CHAR_PingPong.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ed3157493637cdc1d6d484ef58ce66c7-CHAR_Sausage.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/ed5573ee67456e6dcc97c2aa86d1abce-CHAR_RobotMan.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/f45231699f4c383120ce1a13a87eb932-CHAR_Panda.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/f55d822fd28c65aa98478497f9c7c73f-CHAR_AngelStick.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/f5da350a319259fdf8fa4d1d6a983e72-CHAR_HotDog.png",
+      "bytes": 0,
+      "sha256": "cached"
+    },
+    {
+      "assetPath": "images/f79898fceac0a66d3fa35f0b6a3d17c1-CHAR_Plant.png",
+      "bytes": 0,
+      "sha256": "cached"
+    }
+  ],
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "purpose": "Score reporting + lifecycle"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "purpose": "Fail-closed local PokiSDK replacement"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "purpose": "Critical boot asset set"
+    }
+  ]
+}

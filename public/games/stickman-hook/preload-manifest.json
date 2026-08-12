@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/stickman-hook/index.html",
+    "/games/stickman-hook/bundle.js",
+    "/games/stickman-hook/js/poki-sdk-shim.js",
+    "/games/stickman-hook/js/tiptap-platform-bridge.js"
+  ]
+}

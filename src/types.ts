@@ -28,7 +28,8 @@ export type GameSlug =
   | "level-devil"
   | "slice-master"
   | "drive-mad"
-  | "happy-glass";
+  | "happy-glass"
+  | "stickman-hook";
 
 export interface GameDefinition {
   slug: GameSlug;

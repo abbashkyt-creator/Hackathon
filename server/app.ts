@@ -191,6 +191,8 @@ export function createApp(config: Config, store: Store) {
         ? supercarLegendsSecurityHeaders
       : req.path.startsWith("/games/happy-glass/")
         ? supercarLegendsSecurityHeaders
+      : req.path.startsWith("/games/stickman-hook/")
+        ? subwaySecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
