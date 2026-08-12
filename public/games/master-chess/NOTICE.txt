@@ -1,0 +1,13 @@
+Master Chess — integration notice
+================================
+
+Master Chess is a chess game by Codethislab, hosted on Poki.
+Source page: https://poki.com/en/g/master-chess
+Mirrored with the creator's/platform's authorization for an official
+competition (show) entry, as confirmed by the project owner.
+
+Engine: CreateJS (canvas) with howler audio.
+The Poki SDK, its ad stack, analytics, and remote calls were NOT copied.
+Tip Tap supplies a local, same-origin platform bridge for lifecycle and
+score reporting. The game stays ad-free unless the operator's owned-ads
+channel is enabled. Creator identity is preserved.

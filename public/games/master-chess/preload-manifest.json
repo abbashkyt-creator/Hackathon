@@ -1,0 +1,13 @@
+{
+  "critical": [
+    "/games/master-chess/index.html",
+    "/games/master-chess/js/poki-sdk-shim.js",
+    "/games/master-chess/js/tiptap-platform-bridge.js",
+    "/games/master-chess/js/jquery-3.2.1.min.js",
+    "/games/master-chess/js/createjs.min.js",
+    "/games/master-chess/js/howler.min.js",
+    "/games/master-chess/js/settings.js",
+    "/games/master-chess/js/sprite_lib.js",
+    "/games/master-chess/js/CMain.js"
+  ]
+}

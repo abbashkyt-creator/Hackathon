@@ -78,6 +78,7 @@ import {
   HappyGlassGame,
   StickmanHookGame,
   BasketballStarsGame,
+  MasterChessGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -125,6 +126,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "happy-glass": HappyGlassGame,
   "stickman-hook": StickmanHookGame,
   "basketball-stars": BasketballStarsGame,
+  "master-chess": MasterChessGame,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -167,6 +169,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "happy-glass": "FILL IT UP",
   "stickman-hook": "SWING IT",
   "basketball-stars": "SINK IT",
+  "master-chess": "THINK AHEAD",
 };
 
 interface FeedEntry {

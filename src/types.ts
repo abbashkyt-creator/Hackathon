@@ -30,7 +30,8 @@ export type GameSlug =
   | "drive-mad"
   | "happy-glass"
   | "stickman-hook"
-  | "basketball-stars";
+  | "basketball-stars"
+  | "master-chess";
 
 export interface GameDefinition {
   slug: GameSlug;

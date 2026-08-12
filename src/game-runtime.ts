@@ -115,6 +115,12 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     preloadManifest: "/games/ping-pong-go/preload-manifest.json",
     assetManifest: "/games/ping-pong-go/MIRROR-MANIFEST.json",
   },
+  "master-chess": {
+    embedded: true,
+    preloadManifest: "/games/master-chess/preload-manifest.json",
+    assetManifest: "/games/master-chess/MIRROR-MANIFEST.json",
+    prepareByMount: true,
+  },
   "basketball-stars": {
     embedded: true,
     preloadManifest: "/games/basketball-stars/preload-manifest.json",

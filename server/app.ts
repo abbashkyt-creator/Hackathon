@@ -200,6 +200,8 @@ export function createApp(config: Config, store: Store) {
         ? subwaySecurityHeaders
       : req.path.startsWith("/games/basketball-stars/")
         ? basketballStarsSecurityHeaders
+      : req.path.startsWith("/games/master-chess/")
+        ? basketballStarsSecurityHeaders
       : req.path.startsWith("/games/")
         ? gameSecurityHeaders
         : appSecurityHeaders;
