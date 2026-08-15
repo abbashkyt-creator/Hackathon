@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/stickman-battle/index.html",
+    "/games/stickman-battle/js/poki-sdk-shim.js",
+    "/games/stickman-battle/js/tiptap-platform-bridge.js",
+    "/games/stickman-battle/cocos2d-js-min.9eb31.js",
+    "/games/stickman-battle/main.213d5.js",
+    "/games/stickman-battle/src/settings.45ee1.js"
+  ]
+}

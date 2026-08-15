@@ -1,0 +1,23 @@
+Stickman Battle — LOCAL SOURCE MIRROR
+====================================
+
+This directory contains a local mirror of the real Stickman Battle HTML5 game
+(Cocos Creator 2.x export) as published on poki.com, downloaded from the
+official Poki game CDN for the Tip Tap Games hackathon project.
+
+Original publisher: (per game credits) — mirrored with authorization from
+the competition rules / creator permission.
+
+Files mirrored: cocos2d-js-min.9eb31.js (engine), main.213d5.js (boot),
+src/settings.45ee1.js, style-mobile.25fc5.css, iload.png, 9 bundle configs
+(internal, efffect, mainScenes, Map, prefabs, res, resources, UI, main),
+53 verified assets (packs, PNGs, plists, MP3s with ID3 frames).
+
+Modifications:
+- Poki SDK script replaced with a fail-closed local shim (js/poki-sdk-shim.js)
+- Tip Tap platform bridge injected (js/tiptap-platform-bridge.js)
+- network-lock.js + ad-client.js injected (shared)
+- index.html rewritten locally; the original is NOT overwritten
+- Boot gate rewired: engine starts after local PokiSDK shim init
+
+All assets are served locally; no external requests are made.

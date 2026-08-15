@@ -83,6 +83,7 @@ import {
   PenaltyShooters2Game,
   TicTacToeGame,
   GoBattle2Game,
+  StickmanBattleGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -135,6 +136,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "penalty-shooters-2": PenaltyShooters2Game,
   "tic-tac-toe": TicTacToeGame,
   "go-battle-2": GoBattle2Game,
+  "stickman-battle": StickmanBattleGame,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -182,6 +184,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "penalty-shooters-2": "SPOT KICK",
   "tic-tac-toe": "THREE IN A ROW",
   "go-battle-2": "BATTLE ARENA",
+  "stickman-battle": "FIGHT!",
 };
 
 interface FeedEntry {
@@ -1096,9 +1099,15 @@ function GameCard({
           gameWindow.addEventListener("keydown", onGameInteraction, true);
           boundWindows.add(gameWindow);
           cleanups.push(() => {
-            gameWindow.removeEventListener("pointerdown", onGameInteraction, true);
-            gameWindow.removeEventListener("touchstart", onGameInteraction, true);
-            gameWindow.removeEventListener("keydown", onGameInteraction, true);
+            try {
+              gameWindow.removeEventListener("pointerdown", onGameInteraction, true);
+              gameWindow.removeEventListener("touchstart", onGameInteraction, true);
+              gameWindow.removeEventListener("keydown", onGameInteraction, true);
+            } catch {
+              // A game iframe that navigated cross-origin makes contentWindow
+              // access throw SecurityError. Swallow it so unmounting one card
+              // can never crash the whole feed.
+            }
           });
         } catch {
           // The window-blur fallback below still covers a future cross-origin
@@ -1599,14 +1608,15 @@ export function App() {
       };
       setOfflinePractice(false);
       setBootstrap(data);
-      const gamesBySlug = new Map(data.games.map((game) => [game.slug, game]));
+      const supportedGames = data.games.filter((game) => game.slug in GAME_COMPONENTS);
+      const gamesBySlug = new Map(supportedGames.map((game) => [game.slug, game]));
       setEntries((current) => {
         const refreshed = current.map((entry) => ({
           ...entry,
           game: gamesBySlug.get(entry.game.slug) ?? entry.game,
         }));
         const present = new Set(refreshed.map((entry) => entry.game.slug));
-        const missing = data.games.filter((game) => !present.has(game.slug));
+        const missing = supportedGames.filter((game) => !present.has(game.slug));
         return missing.length
           ? [...refreshed, ...makeBatch(missing, 0, preferredGame)]
           : refreshed;

@@ -127,6 +127,12 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
     assetManifest: "/games/go-battle-2/MANIFEST.json",
     prepareByMount: true,
   },
+  "stickman-battle": {
+    embedded: true,
+    preloadManifest: "/games/stickman-battle/preload-manifest.json",
+    assetManifest: "/games/stickman-battle/MANIFEST.json",
+    prepareByMount: true,
+  },
   "penalty-shooters-2": {
     embedded: true,
     preloadManifest: "/games/penalty-shooters-2/preload-manifest.json",
