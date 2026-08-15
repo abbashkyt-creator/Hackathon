@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Arimo";
+	src: url("assets/Arimo-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Overpass";
+	src: url("assets/Overpass-VariableFont_wght.ttf") format("truetype");
+}

@@ -51,33 +51,33 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "purpose": "Same-origin local launcher with network lock first and no external SDK",
       "bytes": 1936,
-      "sha256": "9d028943a200b97b2b01fd32da11e1e6f79d88cb19e959e176169afdfc2fffec"
+      "sha256": "9d028943a200b97b2b01fd32da11e1e6f79d88cb19e959e176169afdfc2fffec",
+      "purpose": "Same-origin local launcher with network lock first and no external SDK"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
-      "purpose": "Local ad-free Poki lifecycle substitute, mute control, and score bridge",
       "bytes": 2389,
-      "sha256": "d4a03946493d69d0b564e1d9f6380950cc6ba632df74628a1ff39998cd09db6d"
+      "sha256": "d4a03946493d69d0b564e1d9f6380950cc6ba632df74628a1ff39998cd09db6d",
+      "purpose": "Local ad-free Poki lifecycle substitute, mute control, and score bridge"
     },
     {
       "assetPath": "main.bundle.js",
-      "purpose": "Copied source runtime with one verified game-over score handoff",
       "bytes": 608270,
-      "sha256": "1f3cfefcd4b6086e125c7140f042969031c1b84b1c6dfb2b9db4d8932257a892"
+      "sha256": "1f3cfefcd4b6086e125c7140f042969031c1b84b1c6dfb2b9db4d8932257a892",
+      "purpose": "Copied source runtime with one verified game-over score handoff"
     },
     {
       "assetPath": "NOTICE.txt",
-      "purpose": "Attribution and deployment-permission record",
       "bytes": 1056,
-      "sha256": "fcd6e48854ca7a69af10fc82985057c789d65e52df5d19c44c0b29c586ddd900"
+      "sha256": "fcd6e48854ca7a69af10fc82985057c789d65e52df5d19c44c0b29c586ddd900",
+      "purpose": "Attribution and deployment-permission record"
     },
     {
       "assetPath": "preload-manifest.json",
-      "purpose": "Instant-load critical asset plan",
       "bytes": 568,
-      "sha256": "11a65924b0a9d11fa16976cd732552bdc09d9fd153c3dc2acad2f6436cf87c5f"
+      "sha256": "11a65924b0a9d11fa16976cd732552bdc09d9fd153c3dc2acad2f6436cf87c5f",
+      "purpose": "Instant-load critical asset plan"
     }
   ],
   "files": [

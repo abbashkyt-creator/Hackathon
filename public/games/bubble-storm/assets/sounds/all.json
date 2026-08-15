@@ -1,0 +1,64 @@
+{
+  "resources": [
+    "all.m4a",
+    "all.ogg",
+    "all.mp3"
+  ],
+  "spritemap": {
+    "bubble1": {
+      "start": 0,
+      "end": 0.156734693877551,
+      "loop": false
+    },
+    "bubble2": {
+      "start": 2,
+      "end": 2.1044897959183673,
+      "loop": false
+    },
+    "bubble3": {
+      "start": 4,
+      "end": 4.104489795918368,
+      "loop": false
+    },
+    "bubble4": {
+      "start": 6,
+      "end": 6.078367346938776,
+      "loop": false
+    },
+    "button": {
+      "start": 8,
+      "end": 9,
+      "loop": false
+    },
+    "hit": {
+      "start": 10,
+      "end": 10.185759637188209,
+      "loop": false
+    },
+    "puck": {
+      "start": 12,
+      "end": 12.156734693877551,
+      "loop": false
+    },
+    "reborn": {
+      "start": 14,
+      "end": 14.336009070294784,
+      "loop": false
+    },
+    "shot": {
+      "start": 16,
+      "end": 16.15673469387755,
+      "loop": false
+    },
+    "wall": {
+      "start": 18,
+      "end": 18.168004535147393,
+      "loop": false
+    },
+    "win": {
+      "start": 20,
+      "end": 21.83823129251701,
+      "loop": false
+    }
+  }
+}

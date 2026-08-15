@@ -7,15 +7,22 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
+      "bytes": 793,
+      "sha256": "21b031181c4cdbe1f6be9585395adf11d603a37aa20049d379fe2496ef527665",
       "purpose": "Local bridge, network lock and ad client; Poki SDK removed"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 1824,
+      "sha256": "a093e7e02d265406c982caf6e9d937ba527c638f865c7b99869090611a069f0b",
       "purpose": "Score reporting + lifecycle"
     },
     {
       "assetPath": "preload-manifest.json",
+      "bytes": 385,
+      "sha256": "95b2fbef927dbd63705816c9d0b79db2d8cf40a5ee866711f26ed0fb5e4f6425",
       "purpose": "Critical boot asset set"
     }
-  ]
+  ],
+  "files": []
 }

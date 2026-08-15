@@ -134,11 +134,11 @@
    <div id="running-from-file-warning" style="display: none; margin: 3em;">
     <h1>Running from local file ⚠️</h1>
     <p>It seems like you have opened this file by double-clicking on it. In order to test your build in a browser <b>you need to load this file from a web server</b>. You can either upload this file and the rest of the files from a Defold HTML5 bundle to a web hosting service OR host them using a local web server on your home network.</p>
-    <p><a href="https://defold.com/manuals/html5/#testing-html5-build" target="_blank">Learn more about running a local web server in the Defold HTML5 manual</a>.</p>
+    <p>.</p>
    </div>
    <div id="webgl-not-supported" style="display: none; margin: 3em;">
     <h1>WebGL not supported ⚠️</h1>
-    <p>WebGL is not supported by your browser - visit <a href="https://get.webgl.org/">https://get.webgl.org/</a> to learn more.</p>
+    <p>WebGL is not supported by your browser - visit  to learn more.</p>
    </div>
    <div id="canvas-container" class="canvas-app-canvas-container">
     <canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="854" height="480"></canvas>
@@ -146,78 +146,16 @@
    <div class="buttons-background"></div>
   </div>
   <!-- -->
-  <script>
-		// Fallback to make sure globalThis is available when running in an old
-		// browser (available from Chome 71)
-		// https://github.com/defold/defold/issues/10503
-		if (typeof globalThis === 'undefined') {
-			window.globalThis = window;
-		}
-	</script>
   <script src="/games/_shared/network-lock.js"></script>
     <script src="/games/_shared/ad-client.js"></script>
     <script src="js/tiptap-platform-bridge.js"></script>
+    <script src="js/tiptap-inline-1.js"></script>
+  
     <script id="engine-loader" type="text/javascript" src="dmloader.js"></script>
-  <script id="engine-setup" type="text/javascript">
-		// From here you can configure game startup parameters via the CUSTOM_PARAMETERS object,
-		// override ProgressView to create your own loader. See dmloader.js for more details.
-	</script>
-  <script id="engine-start" type="text/javascript">
-		var runningFromFileWarning = document.getElementById("running-from-file-warning");
-		if (window.location.href.startsWith("file://")) {
-			runningFromFileWarning.style.display = "block";
-		}
-		else {
-			EngineLoader.load("canvas", "LevelDevil");
-			runningFromFileWarning.parentNode.removeChild(runningFromFileWarning);
-		}
-	</script>
-  <script type="text/javascript">
-
-	async function clipboard_copy(thing_to_copy) {
-		const result = await navigator.clipboard.writeText(thing_to_copy);
-	}
-
-	// function clipboard_copy(thing_to_copy) {
-	// 	if (!/ipad|iphone|ipod/i.test(navigator.userAgent) && navigator.clipboard && window.isSecureContext) {
-	// 		navigator.clipboard.writeText(thing_to_copy);
-	// 		return;
-	// 	}
-	// 	var t = document.createElement('textarea');
-	// 	t.value = thing_to_copy;
-	// 	t.setAttribute('readonly', '');
-	// 	t.style.position = 'absolute';
-	// 	t.style.left = '-9999px';
-	// 	t.style.top = (window.pageYOffset || document.documentElement.scrollTop) + 'px';
-	// 	t.style.fontSize = '12pt';
-	// 	document.body.appendChild(t);
-	// 	var r = document.createRange();
-	// 	r.selectNodeContents(t);
-	// 	var s = window.getSelection();
-	// 	s.removeAllRanges();
-	// 	s.addRange(r);
-	// 	t.setSelectionRange(0, 999999);
-	// 	document.execCommand('copy');
-	// 	document.body.removeChild(t);
-	// }
-	</script>
-  <script id="poki-sdk-setup" type="text/javascript">
-		// Tip Tap local bridge replaces the remote Poki SDK: the game boots as
-		// soon as the engine is ready, and the bridge reports scores upward.
-		var isWasmLoaded = false;
-		var runFunc = function () {
-			if (isWasmLoaded) {
-				Module && Module.runApp("canvas");
-			}
-		};
-		Module['onRuntimeInitialized'] = function () {
-			isWasmLoaded = true;
-			runFunc();
-		};
-		Progress.addListener && Progress.addListener(function (percentage) {
-			if (percentage === 100) runFunc();
-		});
-	</script>
+  <script src="js/tiptap-inline-8.js"></script>
+  <script src="js/tiptap-inline-7.js"></script>
+  <script src="js/tiptap-inline-6.js"></script>
+  <script src="js/tiptap-inline-5.js"></script>
   html>
 <html lang="en">
  <head>
@@ -354,11 +292,11 @@
    <div id="running-from-file-warning" style="display: none; margin: 3em;">
     <h1>Running from local file ⚠️</h1>
     <p>It seems like you have opened this file by double-clicking on it. In order to test your build in a browser <b>you need to load this file from a web server</b>. You can either upload this file and the rest of the files from a Defold HTML5 bundle to a web hosting service OR host them using a local web server on your home network.</p>
-    <p><a href="https://defold.com/manuals/html5/#testing-html5-build" target="_blank">Learn more about running a local web server in the Defold HTML5 manual</a>.</p>
+    <p>.</p>
    </div>
    <div id="webgl-not-supported" style="display: none; margin: 3em;">
     <h1>WebGL not supported ⚠️</h1>
-    <p>WebGL is not supported by your browser - visit <a href="https://get.webgl.org/">https://get.webgl.org/</a> to learn more.</p>
+    <p>WebGL is not supported by your browser - visit  to learn more.</p>
    </div>
    <div id="canvas-container" class="canvas-app-canvas-container">
     <canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="854" height="480"></canvas>
@@ -366,93 +304,14 @@
    <div class="buttons-background"></div>
   </div>
   <!-- -->
-  <script>
-		// Fallback to make sure globalThis is available when running in an old
-		// browser (available from Chome 71)
-		// https://github.com/defold/defold/issues/10503
-		if (typeof globalThis === 'undefined') {
-			window.globalThis = window;
-		}
-	</script>
+  <script src="js/tiptap-inline-2.js"></script>
   <script src="/games/_shared/network-lock.js"></script>
     <script src="/games/_shared/ad-client.js"></script>
     <script src="js/tiptap-platform-bridge.js"></script>
     <script id="engine-loader" type="text/javascript" src="dmloader.js"></script>
-  <script id="engine-setup" type="text/javascript">
-		// From here you can configure game startup parameters via the CUSTOM_PARAMETERS object,
-		// override ProgressView to create your own loader. See dmloader.js for more details.
-	</script>
-  <script id="engine-start" type="text/javascript">
-		var runningFromFileWarning = document.getElementById("running-from-file-warning");
-		if (window.location.href.startsWith("file://")) {
-			runningFromFileWarning.style.display = "block";
-		}
-		else {
-			EngineLoader.load("canvas", "LevelDevil");
-			runningFromFileWarning.parentNode.removeChild(runningFromFileWarning);
-		}
-	</script>
-  <script type="text/javascript">
-
-	async function clipboard_copy(thing_to_copy) {
-		const result = await navigator.clipboard.writeText(thing_to_copy);
-	}
-
-	// function clipboard_copy(thing_to_copy) {
-	// 	if (!/ipad|iphone|ipod/i.test(navigator.userAgent) && navigator.clipboard && window.isSecureContext) {
-	// 		navigator.clipboard.writeText(thing_to_copy);
-	// 		return;
-	// 	}
-	// 	var t = document.createElement('textarea');
-	// 	t.value = thing_to_copy;
-	// 	t.setAttribute('readonly', '');
-	// 	t.style.position = 'absolute';
-	// 	t.style.left = '-9999px';
-	// 	t.style.top = (window.pageYOffset || document.documentElement.scrollTop) + 'px';
-	// 	t.style.fontSize = '12pt';
-	// 	document.body.appendChild(t);
-	// 	var r = document.createRange();
-	// 	r.selectNodeContents(t);
-	// 	var s = window.getSelection();
-	// 	s.removeAllRanges();
-	// 	s.addRange(r);
-	// 	t.setSelectionRange(0, 999999);
-	// 	document.execCommand('copy');
-	// 	document.body.removeChild(t);
-	// }
-	</script>
-  <script id="poki-sdk-setup" type="text/javascript">
-		var isWasmLoaded = false;
-		var isPokiSDKInited = false;
-		var runFunc = function() {
-			if (isPokiSDKInited && isWasmLoaded) {
-				Module.runApp("canvas");
-			}
-		}
-		Module['onRuntimeInitialized'] = function() {
-			isWasmLoaded = true;
-			runFunc();
-		};
-		function poki_sdk_loaded() {
-			var data = {};
-			var isLoadFinished = false;
-			Progress.addListener(function(percentage){
-				data.percentageDone = percentage / 100;
-				if (!isLoadFinished)
-					PokiSDK.gameLoadingProgress(data);
-				if (percentage == 100 && !isLoadFinished) {
-					PokiSDK.gameLoadingFinished();
-					isLoadFinished = true;
-				}
-			});
-			PokiSDK.init().then(()=>{
-					isPokiSDKInited = true;
-					runFunc();
-				}, ()=>{
-					isPokiSDKInited = true;
-					runFunc();
-				});
-		}
-	</script>
+  <script src="js/tiptap-inline-4.js"></script>
+  <script src="js/tiptap-inline-3.js"></script>
+  <script src="js/tiptap-inline-2.js"></script>
+  <script src="js/tiptap-inline-1.js"></script>
  </body>
 </html>

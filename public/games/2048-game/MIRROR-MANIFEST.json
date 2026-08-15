@@ -5,15 +5,22 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
+      "bytes": 3950,
+      "sha256": "53372641d5441606fb717c85743543a4711b4c3a4443cd00bca9973384c867bd",
       "purpose": "Network lock + ad client + platform bridge"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 3519,
+      "sha256": "d5d78fe6ac0dfb4e66ceb7a2ab591fd4832506e89f0de91ac6513d36fe5f64f2",
       "purpose": "Score reporting + lifecycle"
     },
     {
       "assetPath": "preload-manifest.json",
+      "bytes": 296,
+      "sha256": "48463458256adab4c6e6a65391cf04a4c6f77d733d5e024291ea8a0314432dee",
       "purpose": "Critical boot asset set"
     }
-  ]
+  ],
+  "files": []
 }

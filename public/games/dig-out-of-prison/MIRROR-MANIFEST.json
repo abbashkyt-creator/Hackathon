@@ -26,17 +26,61 @@
     "Public GitHub and Replit redistribution remains subject to the rights holder permission represented by the project owner."
   ],
   "files": [
-    { "assetPath": "Build/6529111a7bc210fd4b0e5e9b7b7de456.loader.js", "provenance": "Authorized source-game mirror", "bytes": 26454, "sha256": "a10f1ac53fd286d0a6fd3d71c764ffbd48994b4d3a4c759390cdf7ddfc74ce16" },
-    { "assetPath": "Build/74316103438b469864841eb099023290.framework.js.br", "provenance": "Authorized source-game mirror, losslessly Brotli packaged", "bytes": 81918, "sha256": "ff879cb74b3e0296e59c7795a495b34aad33b80392e583215d200a77e7a881a7" },
-    { "assetPath": "Build/8f2628f842ab3743cb74934c84aa0c5c.wasm.br", "provenance": "Authorized source-game mirror, losslessly Brotli packaged", "bytes": 10767509, "sha256": "c98ec0691c1e8b47cb86ad1545034d424a5bda7b2e7818d00ef23f871e349fa1" },
-    { "assetPath": "Build/b6a11a5769b57ef475b5d3f311a674fc.data.br", "provenance": "Authorized source-game mirror, losslessly Brotli packaged", "bytes": 12111760, "sha256": "c3d31119e5ae457b4d05b35f2707f7b2c1492e09e78250a96fca6db40cdeaf6b" }
+    {
+      "assetPath": "Build/6529111a7bc210fd4b0e5e9b7b7de456.loader.js",
+      "provenance": "Authorized source-game mirror",
+      "bytes": 26454,
+      "sha256": "a10f1ac53fd286d0a6fd3d71c764ffbd48994b4d3a4c759390cdf7ddfc74ce16"
+    },
+    {
+      "assetPath": "Build/74316103438b469864841eb099023290.framework.js.br",
+      "provenance": "Authorized source-game mirror, losslessly Brotli packaged",
+      "bytes": 81918,
+      "sha256": "ff879cb74b3e0296e59c7795a495b34aad33b80392e583215d200a77e7a881a7"
+    },
+    {
+      "assetPath": "Build/8f2628f842ab3743cb74934c84aa0c5c.wasm.br",
+      "provenance": "Authorized source-game mirror, losslessly Brotli packaged",
+      "bytes": 10767509,
+      "sha256": "c98ec0691c1e8b47cb86ad1545034d424a5bda7b2e7818d00ef23f871e349fa1"
+    },
+    {
+      "assetPath": "Build/b6a11a5769b57ef475b5d3f311a674fc.data.br",
+      "provenance": "Authorized source-game mirror, losslessly Brotli packaged",
+      "bytes": 12111760,
+      "sha256": "c3d31119e5ae457b4d05b35f2707f7b2c1492e09e78250a96fca6db40cdeaf6b"
+    }
   ],
   "integrationFiles": [
-    { "assetPath": "index.html", "bytes": 658, "sha256": "3cc9b0858208c5acad942963e297a96a3320c10312f21072f23edd8af943b1b1" },
-    { "assetPath": "crazygames-sdk-v3.js", "provenance": "Exact authorized CrazyGames SDK v3 local runtime copy", "bytes": 98169, "sha256": "7d94c149ccfc20abd2fa5ce7a7076813925000bd9f11b1eb7647788cd94949f7" },
-    { "assetPath": "tiptap-platform-bridge.js", "bytes": 14276, "sha256": "2816dffa52a3ce368fa99b42ee8b306929ac7585e888b2981fae0d073585f37b" },
-    { "assetPath": "tiptap-bootstrap.js", "bytes": 9503, "sha256": "ea06257a536cc7ce7df4144bca31bfd956a46bd8623dd8571fb27430ef2bd95a" },
-    { "assetPath": "NOTICE.txt", "bytes": 732, "sha256": "294414470746904502113125e201856634d78606147676ea1eaa1d0174b19190" },
-    { "assetPath": "preload-manifest.json", "bytes": 540, "sha256": "b39d55793c463fb3219cc7c9cc5c0968f67af705753752ff7bad849b9b351e82" }
+    {
+      "assetPath": "index.html",
+      "bytes": 658,
+      "sha256": "3cc9b0858208c5acad942963e297a96a3320c10312f21072f23edd8af943b1b1"
+    },
+    {
+      "assetPath": "crazygames-sdk-v3.js",
+      "bytes": 98169,
+      "sha256": "7d94c149ccfc20abd2fa5ce7a7076813925000bd9f11b1eb7647788cd94949f7"
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "bytes": 14276,
+      "sha256": "2816dffa52a3ce368fa99b42ee8b306929ac7585e888b2981fae0d073585f37b"
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "bytes": 9503,
+      "sha256": "ea06257a536cc7ce7df4144bca31bfd956a46bd8623dd8571fb27430ef2bd95a"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 732,
+      "sha256": "294414470746904502113125e201856634d78606147676ea1eaa1d0174b19190"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 540,
+      "sha256": "b39d55793c463fb3219cc7c9cc5c0968f67af705753752ff7bad849b9b351e82"
+    }
   ]
 }

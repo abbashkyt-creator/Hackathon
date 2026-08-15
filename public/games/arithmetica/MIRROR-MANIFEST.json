@@ -29,33 +29,33 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "purpose": "Local same-origin launcher with network lock",
       "bytes": 692,
-      "sha256": "c24774faea58165140d4e897b1266446aab89d974a2d30eb58a8d8a85684de81"
+      "sha256": "c24774faea58165140d4e897b1266446aab89d974a2d30eb58a8d8a85684de81",
+      "purpose": "Local same-origin launcher with network lock"
     },
     {
       "assetPath": "js/tiptap-platform-bridge.js",
-      "purpose": "Local no-ad lifecycle bridge and source SDK replacement",
       "bytes": 2387,
-      "sha256": "54d0006afd7e4da74081ed7d6eedb897f40d3a1b37653a4142e799101bfccc48"
+      "sha256": "54d0006afd7e4da74081ed7d6eedb897f40d3a1b37653a4142e799101bfccc48",
+      "purpose": "Local no-ad lifecycle bridge and source SDK replacement"
     },
     {
       "assetPath": "assets/index-D_t7seLF.js",
-      "purpose": "Copied source bundle with the one verified source auto-start configuration flag enabled",
       "bytes": 129953,
-      "sha256": "3e2e63a2befef6429380f3b40d16b544fec7d2fdbeec6c0b1b9a569f340a7299"
+      "sha256": "3e2e63a2befef6429380f3b40d16b544fec7d2fdbeec6c0b1b9a569f340a7299",
+      "purpose": "Copied source bundle with the one verified source auto-start configuration flag enabled"
     },
     {
       "assetPath": "NOTICE.txt",
-      "purpose": "Attribution and deployment-permission record",
       "bytes": 1065,
-      "sha256": "3d812109f9e879663409ddc018a1dcbbba1dc4dcb6408c0cfba6dd317e079875"
+      "sha256": "3d812109f9e879663409ddc018a1dcbbba1dc4dcb6408c0cfba6dd317e079875",
+      "purpose": "Attribution and deployment-permission record"
     },
     {
       "assetPath": "preload-manifest.json",
-      "purpose": "Lossless same-origin first-round warm-up manifest",
       "bytes": 4230,
-      "sha256": "0533c00b1df362625d5c234be208b5b2bdf9aea5647f5836b197d938e3bc6514"
+      "sha256": "0533c00b1df362625d5c234be208b5b2bdf9aea5647f5836b197d938e3bc6514",
+      "purpose": "Lossless same-origin first-round warm-up manifest"
     }
   ],
   "files": [

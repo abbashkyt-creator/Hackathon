@@ -6,17 +6,57 @@
     "sourceVersionId": "28588554-220e-42ca-a0ad-a44c7cfa55cc"
   },
   "files": [
-    { "assetPath": "Build/TaxiRush-V1.3.4.loader.js", "bytes": 26454, "sha256": "2e812f10d2526d377e940946a2a972a1a78cef34fe867c1ae4433014c12261a0" },
-    { "assetPath": "Build/TaxiRush-V1.3.4.data", "bytes": 31801510, "sha256": "0c3fe2367da4445acb7de94d9727885948d1eabd6e1a0469e80b21baca9ec1e6" },
-    { "assetPath": "Build/TaxiRush-V1.3.4.framework.js", "bytes": 481595, "sha256": "20118515f9bddae408873fb60f55437f95024b17ce7b3a217e3fc16d947aba2d" },
-    { "assetPath": "Build/TaxiRush-V1.3.4.wasm", "bytes": 34677208, "sha256": "d3c7b17b87464523d7a4c47e77d068a58770ff63a256075824391f8a3b80ab88" }
+    {
+      "assetPath": "Build/TaxiRush-V1.3.4.loader.js",
+      "bytes": 26454,
+      "sha256": "2e812f10d2526d377e940946a2a972a1a78cef34fe867c1ae4433014c12261a0"
+    },
+    {
+      "assetPath": "Build/TaxiRush-V1.3.4.data",
+      "bytes": 31801510,
+      "sha256": "0c3fe2367da4445acb7de94d9727885948d1eabd6e1a0469e80b21baca9ec1e6"
+    },
+    {
+      "assetPath": "Build/TaxiRush-V1.3.4.framework.js",
+      "bytes": 481595,
+      "sha256": "20118515f9bddae408873fb60f55437f95024b17ce7b3a217e3fc16d947aba2d"
+    },
+    {
+      "assetPath": "Build/TaxiRush-V1.3.4.wasm",
+      "bytes": 34677208,
+      "sha256": "d3c7b17b87464523d7a4c47e77d068a58770ff63a256075824391f8a3b80ab88"
+    }
   ],
   "integrationFiles": [
-    { "assetPath": "index.html", "bytes": 1765, "sha256": "fa119561fe6fd488a1a05139464b9a9a129ad4fcac8cd622460382874d11886f" },
-    { "assetPath": "tiptap-platform-bridge.js", "bytes": 3128, "sha256": "5e1ab1d0c1def9e3f5b95a497370bba08e2afe1b66ffe72a2892caa57ff5a2b3" },
-    { "assetPath": "tiptap-bootstrap.js", "bytes": 7197, "sha256": "c068a778c0ef13197f6151bbbb86ddd52faae08d37f2b831e717dc91776fe89d" },
-    { "assetPath": "tiptap-shell.css", "bytes": 2848, "sha256": "e10b109b42dc8b5f33c102a0237d9c51281a5aa1655e6b1347df582906bf6e2c" },
-    { "assetPath": "NOTICE.txt", "bytes": 514, "sha256": "560f5a839a629f12a5786ce6351a6f8f17575b8744046487a1eadbbbe8361c78" },
-    { "assetPath": "preload-manifest.json", "bytes": 201, "sha256": "688e0e70ea34cfe4f73a670d327c2f85c361150e9bf40f3cba65b4e7861535aa" }
+    {
+      "assetPath": "index.html",
+      "bytes": 1765,
+      "sha256": "fa119561fe6fd488a1a05139464b9a9a129ad4fcac8cd622460382874d11886f"
+    },
+    {
+      "assetPath": "tiptap-platform-bridge.js",
+      "bytes": 3128,
+      "sha256": "5e1ab1d0c1def9e3f5b95a497370bba08e2afe1b66ffe72a2892caa57ff5a2b3"
+    },
+    {
+      "assetPath": "tiptap-bootstrap.js",
+      "bytes": 7197,
+      "sha256": "c068a778c0ef13197f6151bbbb86ddd52faae08d37f2b831e717dc91776fe89d"
+    },
+    {
+      "assetPath": "tiptap-shell.css",
+      "bytes": 2848,
+      "sha256": "e10b109b42dc8b5f33c102a0237d9c51281a5aa1655e6b1347df582906bf6e2c"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 514,
+      "sha256": "560f5a839a629f12a5786ce6351a6f8f17575b8744046487a1eadbbbe8361c78"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "688e0e70ea34cfe4f73a670d327c2f85c361150e9bf40f3cba65b4e7861535aa"
+    }
   ]
 }

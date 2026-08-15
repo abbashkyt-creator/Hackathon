@@ -1,1169 +1,1167 @@
 {
-    "name":  "Subway Surfers Web",
-    "sourcePage":  "https://poki.com/en/g/subway-surfers",
-    "sourceRoot":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/",
-    "gameId":  "5dd312fa-015f-11ea-ad56-9cb6d0d995f7",
-    "gameVersionId":  "b05f1bb8-3159-4c02-8066-4dc1327308e0",
-    "capturedWith":  "Visual Editor Ultimate v3.16.0",
-    "captureHashNote":  "The files array records the captured upstream bytes. integrationFiles records local additions and the modified local index.",
-    "integrationFiles":  [
-                             {
-                                 "sha256":  "0317621299f3a131cc6b653cb5988aa69015a815781c88d9f6ea97a01df4b677",
-                                 "assetPath":  "index.html",
-                                 "bytes":  3084,
-                                 "purpose":  "Local bridge and network lock"
-                             },
-                             {
-                                 "sha256":  "1c0e1c5d7c9acb59d26a59d51e9ec3a39756bd98ec416a39c3cabb5660cc2b46",
-                                 "assetPath":  "NOTICE.txt",
-                                 "bytes":  848,
-                                 "purpose":  "Notice"
-                             },
-                             {
-                                 "sha256":  "bdc52da1b495bfd18541c025a4ab8a618cc4de58518a400ab6b18e11a5729c62",
-                                 "assetPath":  "js/tiptap-platform-bridge.js",
-                                 "bytes":  9901,
-                                 "purpose":  "Same-origin owned-ad and lifecycle bridge"
-                             }
-                         ],
-    "files":  [
-                  {
-                      "assetPath":  "assets/audio-basic/guard-catch.ogg",
-                      "bytes":  14024,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "3614c909a6df5f5904b01b2abab0098ebfbb84cb45993790378e328363cb4fa1",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/guard-catch.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/guard-proximity.ogg",
-                      "bytes":  41280,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "e9f4d19e79f968e6360db7a91b3186acc9f3e6402af28d39458936b08599e28e",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/guard-proximity.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/guard-start.ogg",
-                      "bytes":  17485,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "bde398d00cecc15518703190d038b813482c8fa8eecdbaf87142d5dfa51c3bae",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/guard-start.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-death-hitcam.ogg",
-                      "bytes":  5503,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "4469f287638f6594cbb874af86339e3e767237eb044105e3f83ad38dcf6be2d4",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-death-hitcam.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-death.ogg",
-                      "bytes":  7214,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "603ae853816b6529c75a4a9c204b084dba5dca4491057076792dfc0eb0037000",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-death.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-dodge.ogg",
-                      "bytes":  4417,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "d04149057c4e633308b37e0b387e957788a10dbe39aee2c555799b91aff9d6ba",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-dodge.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-foot-l.ogg",
-                      "bytes":  3645,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "20d8a40b2c76f640b757bf645a09b3053a86dc4fce785c381387f90f858d930a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-foot-l.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-foot-r.ogg",
-                      "bytes":  3652,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "0ffdc6310828fbf303cd42e7a656df5088750035024d6854818bc2628587baef",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-foot-r.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-hoverboard-crash.ogg",
-                      "bytes":  7523,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "9ba1b232a7ee84fec1a2956bb4b4a62860f03952e2255d7d539f538995682aa3",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-hoverboard-crash.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-jump.ogg",
-                      "bytes":  5621,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "20193d91ed50860b443685b2e0cec8d87e996075a7177d75c6dca1f094224b9a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-jump.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-revive.ogg",
-                      "bytes":  16186,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "5da4a5b333ba4c577932aeefe6c919ee13c3f5cf2471be052f3bdfc2a5a63f77",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-revive.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-roll.ogg",
-                      "bytes":  4913,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "afa3d17ffc2b49eeb867e594e35a69c46c9a23e522964838483b8053b1acd392",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-roll.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/hero-stumble.ogg",
-                      "bytes":  5208,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "bf40657d62f0743c002c723fb711434d1c9c07d034e287870d6c259f3429abe3",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-stumble.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-basic/unlock.ogg",
-                      "bytes":  31859,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "f1f54b2b5d9819fffd04b9e4db86d417efe1d759d08c683fd05fb2b2a515d95b",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/unlock.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/hero-sneakers-foot-l.ogg",
-                      "bytes":  3925,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "cae260ddd72b57fb45e3db1fa22cd2e271acf8d560622f8c062402529cdedf07",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/hero-sneakers-foot-l.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/hero-sneakers-foot-r.ogg",
-                      "bytes":  3926,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "3003acabd2ec88b61539bb568d8fa512127430c596549ebb98b3794f42b31a7e",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/hero-sneakers-foot-r.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/hero-sneakers-jump.ogg",
-                      "bytes":  4642,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "4ce3ea5157a66e0c96b18535d9ce1c42bba7bd4d5f47b8fc5dfb45da9679fe64",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/hero-sneakers-jump.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/pickup-coin.ogg",
-                      "bytes":  4394,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "f2a5439081673719c1613350f42d49bfb0b6b53a6199d8678c04791d59f0a8a3",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/pickup-coin.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/pickup-powerdown.ogg",
-                      "bytes":  5245,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "ace09c53f75df9a753cee3d5b3657ccf7a5677bf515f1175dc8a14be3c9fe38c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/pickup-powerdown.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/pickup-powerup.ogg",
-                      "bytes":  8523,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "cf017b04563d44af38f6a0e196785982fc6796ea4fde95c20ef467707a689932",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/pickup-powerup.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/special-jetpack-start.ogg",
-                      "bytes":  12429,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "1de235dd9e2936d58844354b7c7c79f64ab45d3d34b5b60c7a17bc19795bea02",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/special-jetpack-start.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/special-jetpack.ogg",
-                      "bytes":  17851,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "2c81b43e9831d156686528d54c4c61da3f23a32f278c31ca70787c9a68d72ca1",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/special-jetpack.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-full/special-magnet.ogg",
-                      "bytes":  5830,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "ba93946bffa0f9ba3ed21ee1e1952ade4b22e642c0a4c0f9c369a954d20280ad",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/special-magnet.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-idle/gui-coin.ogg",
-                      "bytes":  5586,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "a76ff2e4493494a14dbaa2537b9db4334ef06734e9dc39de75572d6f2a2e40bc",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/gui-coin.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-idle/gui-tap.ogg",
-                      "bytes":  3929,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "c7f9ba658cc3a40bc2d9476053f989db102bb0b3bf5288dbbb9e02506f0fa802",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/gui-tap.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-idle/mission-notification.ogg",
-                      "bytes":  13703,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "ef2145ecb13b91808975483a2745e1be860e189073816cf35bd935e33a09cf51",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/mission-notification.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-idle/open-prize.ogg",
-                      "bytes":  31085,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "0eff88189588bd8b5bc796659fa50387212ae3110e389293e4343ecca7df93cc",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/open-prize.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/audio-idle/ui-button.ogg",
-                      "bytes":  4926,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "7122c598dae08b85e45c85d6cb37a3d107036983c4b450123b51ca7a6608d141",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/ui-button.ogg"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-bigkahuna-tex.webp",
-                      "bytes":  174,
-                      "contentType":  "image/webp",
-                      "sha256":  "0733df2c12d180fde031b16a9b3f87f8df1664f52444e00bdeb5ba8a1fdbf130",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bigkahuna-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-bigkahuna.gb",
-                      "bytes":  6376,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "6cba9085cc6541d92e13a5bde4a72a412150af441dab23541cf8a5b84be1fc84",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bigkahuna.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-bouncer-tex.webp",
-                      "bytes":  134,
-                      "contentType":  "image/webp",
-                      "sha256":  "578eac9134241b436aa1beef115aa45f0ff3911ae43504c47d1de8f908f5c0cc",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bouncer-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-bouncer.gb",
-                      "bytes":  6128,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "28d1a5d9d168d92b31e5e5925c4cf81ede33b50b8f513cc1825aae81a78a10a6",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bouncer.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-daredevil-tex.webp",
-                      "bytes":  142,
-                      "contentType":  "image/webp",
-                      "sha256":  "2ed4e78b1c29d261f4d9875068bd38f83f92801c6154ca21a8efda352c3965b9",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-daredevil-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-daredevil.gb",
-                      "bytes":  12896,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "ecb5aa56ade9258767cf69139b607c138495d67d27d6b3580cf85b01e7ec0e3b",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-daredevil.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-greatwhite-tex.webp",
-                      "bytes":  154,
-                      "contentType":  "image/webp",
-                      "sha256":  "e8c9d6accdceb8e51603d96de1116301bd00181291a5c944e96a78c3a46dd6e1",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-greatwhite-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-greatwhite.gb",
-                      "bytes":  19424,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "b442278df196f9def28f80d1549f5d8853fd8ea9ba1058c29dfd1ebdbe3d628a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-greatwhite.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-hotrod-tex.webp",
-                      "bytes":  196,
-                      "contentType":  "image/webp",
-                      "sha256":  "fea538e1b19b153c49bab951986e71a9df97ec2959a6077e3fb4ff0b31fc44d2",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hotrod-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-hotrod.gb",
-                      "bytes":  18604,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "7dcec4ce1dde895f511d9a135a6f0baaa9a1ea21c507c72c29ffe146f24d694a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hotrod.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-hoverboard-tex.webp",
-                      "bytes":  144,
-                      "contentType":  "image/webp",
-                      "sha256":  "6f5ad2fca18c521ed1466eda8897ed4276c027029c9aac69b6fde69245f88678",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hoverboard-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-hoverboard.gb",
-                      "bytes":  6344,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "af7038198a9dc3c1ee845e6706a3be9a03869ed8e820062980cccca2015f1365",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hoverboard.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-lowrider-tex.webp",
-                      "bytes":  232,
-                      "contentType":  "image/webp",
-                      "sha256":  "4925de2536023b7a289a90f3ec4cad61fc1ba2d39c6ea9c85b72cb3bb44bb3f3",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lowrider-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-lowrider.gb",
-                      "bytes":  8316,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "bafc1371d73b61c212c1d79989422ec339d00ce98b9cc72f0a330047efbdfea1",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lowrider.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-lumberjack-tex.webp",
-                      "bytes":  144,
-                      "contentType":  "image/webp",
-                      "sha256":  "c6c1ff9373101a60f4ef0e66eba8b82d95576ecd518c0e6ad735c88e09db008e",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lumberjack-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-lumberjack.gb",
-                      "bytes":  21476,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "ac65c316d4b345e8f6c0300038a6f528e18e7d5f949934e9ec6562a1e5693c86",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lumberjack.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-monster-tex.webp",
-                      "bytes":  150,
-                      "contentType":  "image/webp",
-                      "sha256":  "965473027391cc210aad8a52071f56e37b9e1b5267d1926ddbafd6a357e7b0cf",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-monster-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-monster.gb",
-                      "bytes":  18400,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "50053ce18138e285c28412d29291bde72ed01dc40768f4c3d07c6d03a27cf108",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-monster.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-scoot-tex.webp",
-                      "bytes":  132,
-                      "contentType":  "image/webp",
-                      "sha256":  "52319a71ed5e4fa5ea255764ce0c0125be951a1379caa6af44469f438b985278",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-scoot-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-scoot.gb",
-                      "bytes":  7976,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "4a5386b5c9db5a05f8918836c574e81020e5c3936c11376a03e167dd0a612469",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-scoot.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-skullfire-tex.webp",
-                      "bytes":  138,
-                      "contentType":  "image/webp",
-                      "sha256":  "bc17c2bac6156b9c6fc51f079eb7548ec074b17d286b6415b9eafa0f17c76c40",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-skullfire-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-skullfire.gb",
-                      "bytes":  25420,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "3ab1c5789540fad71263f7a195595fd16129acba9d0409f982c16715986b670b",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-skullfire.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-starboard-tex.webp",
-                      "bytes":  260,
-                      "contentType":  "image/webp",
-                      "sha256":  "2ec8565b0dbfa16a43dbbaf2fccb163d188513ac90c90fe42c2ac15efb9f9d76",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-starboard-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-starboard.gb",
-                      "bytes":  14936,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "90812db57e18718a7f2b95adb299b15531f4afcb323018ab1ef2467a866bd0f5",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-starboard.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-sunset-tex.webp",
-                      "bytes":  152,
-                      "contentType":  "image/webp",
-                      "sha256":  "424fccefe514393844443e80072bd039654bb3480221b5811cf61a586b00aa08",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-sunset-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-sunset.gb",
-                      "bytes":  27248,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "a3514b84d08ec50872f6d43222bb93f090ceed5343368afca74bae90e6aa81a8",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-sunset.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-superhero-tex.webp",
-                      "bytes":  156,
-                      "contentType":  "image/webp",
-                      "sha256":  "8fc2f13f170b7c29eabfaafc0354ad2cf5707c35b590daa50e13c88bf83c7c1f",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-superhero-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-superhero.gb",
-                      "bytes":  15752,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "ea588295b1ca0bd2334cfa2fa26c3fee838c8154d68d41c42687fb6060c2d595",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-superhero.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-teleporter-tex.webp",
-                      "bytes":  86,
-                      "contentType":  "image/webp",
-                      "sha256":  "c5da8c13b3b0cbac0031d59faaa3b218e3a355c430aa03f619c5d29442155a6a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-teleporter-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-teleporter.gb",
-                      "bytes":  5076,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "988629f43637459e66df25c2f969c33aa8d37fb0cf78ef8f80e9b9dfe933b5fb",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-teleporter.gb"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-windglider-tex.webp",
-                      "bytes":  118,
-                      "contentType":  "image/webp",
-                      "sha256":  "bcf1d961b3b217a34ed098717c007cb266732422a3acb83f818af2b7d64a630d",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-windglider-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/boards/board-windglider.gb",
-                      "bytes":  9720,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "7c005fa26d67c9d823d6137ca02bcbe84e922a9f06549f755617a754b273b597",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-windglider.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-basic/jake-game.gb",
-                      "bytes":  2826444,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "9d876629245c31a7621c3514c5836964d23157ea425e341576836985d5110d68",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-basic/jake-game.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/brody-idle.gb",
-                      "bytes":  313476,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "f09e561f889dba6dddc49bc54f23e43eb297cca4a31165da07a04ec9dea34152",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/brody-tex-1.webp",
-                      "bytes":  6230,
-                      "contentType":  "image/webp",
-                      "sha256":  "53cf86e66b4a75dc15dd14a6559c25208cc0d66009150a52393967eefc8dc630",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/brody-tex-2.webp",
-                      "bytes":  6326,
-                      "contentType":  "image/webp",
-                      "sha256":  "b41af35955e04c8be054c8aa2c9ac3785ede6dae8ff114406fc390c733004fdf",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/brody-tex.webp",
-                      "bytes":  6548,
-                      "contentType":  "image/webp",
-                      "sha256":  "89160c08104cac96820d88cbec40e694c02aff8ebbdb9b83cc02b8a5d258caa2",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/jake-idle.gb",
-                      "bytes":  263496,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "304840fb37580ff6d5f84b7e168e761a8f81a56ed7823d12b15d8b490dcf515c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/jake-tex-1.webp",
-                      "bytes":  7646,
-                      "contentType":  "image/webp",
-                      "sha256":  "f25c5027ff26c0272a1afa3308224e5fab6e1457f52a4b219246efaa0bcbd784",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/jake-tex-2.webp",
-                      "bytes":  9216,
-                      "contentType":  "image/webp",
-                      "sha256":  "20874facffcbd0b21a778971eb5807a9fe4d375a21268d8b4e10674ebd087ce7",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/jake-tex.webp",
-                      "bytes":  9126,
-                      "contentType":  "image/webp",
-                      "sha256":  "a0343469c7ebdcc8437e5fcd55616b9259f6be8fa28c6746dfd195737416a85b",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/king-idle.gb",
-                      "bytes":  220188,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "7d538b9fb028cf251f96eb67ccbd47ba612570dbab97f0cb978081295a0f5e48",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/king-tex-1.webp",
-                      "bytes":  6594,
-                      "contentType":  "image/webp",
-                      "sha256":  "51d0f692ecdc5184c7f0207ccfb09ea83fc06d85855ca5bc052acbed07a94d80",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/king-tex-2.webp",
-                      "bytes":  6620,
-                      "contentType":  "image/webp",
-                      "sha256":  "0796e388280f12ed25669f707cebb033f8d93fb2a9142a15bfc81d75a096a7b6",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/king-tex.webp",
-                      "bytes":  6514,
-                      "contentType":  "image/webp",
-                      "sha256":  "ed195492f740879882d011983732dcfd64e9f8ab05e68156c29b21fe9a8c4be6",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/lucy-idle.gb",
-                      "bytes":  240496,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "9b76419b4c34846ef91c13dc9faa2fdc4f3a0a6d1b0695a86d5554ea90b683fb",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/lucy-tex-1.webp",
-                      "bytes":  5914,
-                      "contentType":  "image/webp",
-                      "sha256":  "51bd4710df93fa05fe59ae90127318487e71c583aacc5012f054ced6231eb995",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/lucy-tex-2.webp",
-                      "bytes":  6434,
-                      "contentType":  "image/webp",
-                      "sha256":  "df5bec8625086bbb4951fcc9e5990213c9926306f6cd5f39d83bc81971b65cd3",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/lucy-tex.webp",
-                      "bytes":  6016,
-                      "contentType":  "image/webp",
-                      "sha256":  "de9ef084f883283360da95001f28ce0bd687223c3b6bf68b7e13f8218e5585d0",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/ninja-idle.gb",
-                      "bytes":  247396,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "4c24cc517c32145797b5f3d3e76995fa09ce6ce03aa37f946dd6df712479ca5d",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/ninja-tex-1.webp",
-                      "bytes":  4646,
-                      "contentType":  "image/webp",
-                      "sha256":  "d5305dfe0c0b80b027a30c96cfc048e11a7c7395c0dddacb0f4bf6cfed1957f8",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/ninja-tex-2.webp",
-                      "bytes":  5704,
-                      "contentType":  "image/webp",
-                      "sha256":  "5377b9fd86538880b331ae4ce6762339c2d5e21ad57af260ce24b7bbbb925d63",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/ninja-tex.webp",
-                      "bytes":  3826,
-                      "contentType":  "image/webp",
-                      "sha256":  "9f69a541906219b1092e4e6e8d898bbf50abed99325c654b224730fdeb9f5acf",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tagbot-idle.gb",
-                      "bytes":  234644,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "1fa83083a9c39d271a654ea616c6307778b6ce5b5be3a498482040bdabf72f8f",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tagbot-tex-1.webp",
-                      "bytes":  7340,
-                      "contentType":  "image/webp",
-                      "sha256":  "bd3b1b823c118aea49ca5c2fe909da7ae0306c6208daac7545559e2d361af37a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tagbot-tex-2.webp",
-                      "bytes":  7030,
-                      "contentType":  "image/webp",
-                      "sha256":  "ea82104624383a2509f64685eb353b5b78991ceab1367d2215e03e030f621d2e",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tagbot-tex.webp",
-                      "bytes":  6692,
-                      "contentType":  "image/webp",
-                      "sha256":  "3f4b37e74a093f5cff32f3989d85d649c9afdfc7bcd783989f9ea3abc8698504",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tasha-idle.gb",
-                      "bytes":  259288,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "e1e08b90d6e83097f2a566ed169bda2ed9cdd8a7a1b5566c939009141d958b6a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tasha-tex-1.webp",
-                      "bytes":  7860,
-                      "contentType":  "image/webp",
-                      "sha256":  "28be37cf83caba33ede12fbb2a61ef06827a717d473358624b5891d87aa3cbda",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tasha-tex-2.webp",
-                      "bytes":  7318,
-                      "contentType":  "image/webp",
-                      "sha256":  "64bce45567266bd20d55ad733cf90d584a7ad67f6d38c086a69f9b3a25269891",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tasha-tex.webp",
-                      "bytes":  7392,
-                      "contentType":  "image/webp",
-                      "sha256":  "d6a166c49ca265b9fea407e7d6c4dfe5e4c395e9dc6baee139b0fa7bce6c94e0",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tricky-idle.gb",
-                      "bytes":  338196,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "7a584cfca8cd28163885850e51dc500765acdc81dd3c5818ee1bdfe6c0c79025",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tricky-tex-1.webp",
-                      "bytes":  6682,
-                      "contentType":  "image/webp",
-                      "sha256":  "95a2b88efdb9987b45d665585e0cf6482ddd6cbe158db71c7c52db0480da3313",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tricky-tex-2.webp",
-                      "bytes":  7664,
-                      "contentType":  "image/webp",
-                      "sha256":  "1ace571312deeeeb2a8e12e0043f4527909c29d62259a07612e13ce0c6984270",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/tricky-tex.webp",
-                      "bytes":  6964,
-                      "contentType":  "image/webp",
-                      "sha256":  "058fabb3087a2befa38f138bc5441c549b01d4c2213706946c83de81fc7ba03d",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/yutani-idle.gb",
-                      "bytes":  227032,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "b81ee1776ce0e2e890c6e60c9edb50e5df838554e0e44da3f9889aee99563edf",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-idle.gb"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/yutani-tex-1.webp",
-                      "bytes":  5442,
-                      "contentType":  "image/webp",
-                      "sha256":  "8aa8f9835c59539f1a623fedaaa4af84003757dd612a57e7b702fa28e4da8791",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-tex-1.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/yutani-tex-2.webp",
-                      "bytes":  5442,
-                      "contentType":  "image/webp",
-                      "sha256":  "8aa8f9835c59539f1a623fedaaa4af84003757dd612a57e7b702fa28e4da8791",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-tex-2.webp"
-                  },
-                  {
-                      "assetPath":  "assets/characters-idle/yutani-tex.webp",
-                      "bytes":  5442,
-                      "contentType":  "image/webp",
-                      "sha256":  "8aa8f9835c59539f1a623fedaaa4af84003757dd612a57e7b702fa28e4da8791",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/data/awards.json",
-                      "bytes":  1890,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "fd42ea4e7100c3268ce57673b608268d208e020b6229feaa7f11c5e8f141f904",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/awards.json"
-                  },
-                  {
-                      "assetPath":  "assets/data/chunks-basic.json",
-                      "bytes":  35004,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "b82fe8479f10763013ceaa52a38c00135f468b0dac0177446f93d0a7fb7aace0",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/chunks-basic.json"
-                  },
-                  {
-                      "assetPath":  "assets/data/chunks-full.json",
-                      "bytes":  1289575,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "c41d3e0138a51308e5c3ba4e3bbaa1b49c30869428dacb1dbd815190397b59d1",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/chunks-full.json"
-                  },
-                  {
-                      "assetPath":  "assets/data/chunks-idle.json",
-                      "bytes":  1303,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "c2f7df68aaa83f52f86d22891456721acabd0c97145228611d531a3b039d72be",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/chunks-idle.json"
-                  },
-                  {
-                      "assetPath":  "assets/data/lang-en.json",
-                      "bytes":  10392,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "37d5acd293f4ddb029f6e31b0abb6175eb5cd111539ff8e0b58a8f950a97db3c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/lang-en.json"
-                  },
-                  {
-                      "assetPath":  "assets/data/lang-pt-br.json",
-                      "bytes":  10895,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "979427742e084448db5137705a3d6adc229ed1b785a695c6c23364a27d762047",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/lang-pt-br.json"
-                  },
-                  {
-                      "assetPath":  "assets/font/lilita-one.woff2",
-                      "bytes":  20104,
-                      "contentType":  "font/woff2",
-                      "sha256":  "4e460286778f3b0f5be20fd98a7537e4d147327446781ab9c48d151fe0631a93",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/font/lilita-one.woff2"
-                  },
-                  {
-                      "assetPath":  "assets/font/stencilia.woff2",
-                      "bytes":  22040,
-                      "contentType":  "font/woff2",
-                      "sha256":  "51eb939965edafc857eeb2399a3ac0a2fbfc8ecd41afcd8e82be1ab3a4b5b4bf",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/font/stencilia.woff2"
-                  },
-                  {
-                      "assetPath":  "assets/font/titan-one.woff2",
-                      "bytes":  18360,
-                      "contentType":  "font/woff2",
-                      "sha256":  "64556afb420ffb78bad1ac51bed82830a406d65bfd5473f85f2c8e442062bd98",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/font/titan-one.woff2"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/caustic.webp",
-                      "bytes":  742,
-                      "contentType":  "image/webp",
-                      "sha256":  "5167c9985a243dc98f044632c5ee3d439fc9f6957db59324d7a30b240805a6d5",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/caustic.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/character_shadow.webp",
-                      "bytes":  98,
-                      "contentType":  "image/webp",
-                      "sha256":  "147e490c5146e7c91ad79e1ff5f7566ff39e20b004d8e0832b9484c51da19b3c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/character_shadow.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/default-particle.webp",
-                      "bytes":  120,
-                      "contentType":  "image/webp",
-                      "sha256":  "5b5f7964c53bdbde5d2155389959b7148d400c5f5617f6eee359879f59077920",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/default-particle.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/effects-tex.webp",
-                      "bytes":  470,
-                      "contentType":  "image/webp",
-                      "sha256":  "10d6571bcaef6632d8111172c4fe81439f52149656271da97dd57073e852ae66",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/effects-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/enemies.webp",
-                      "bytes":  8548,
-                      "contentType":  "image/webp",
-                      "sha256":  "7115426c1ba73a7e86be61aa8aaf80ba40675e656bfeb6d63fc1c780890d3585",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/enemies.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/fog.webp",
-                      "bytes":  674,
-                      "contentType":  "image/webp",
-                      "sha256":  "041711ab2938b03d28b689368788fc365ec9dc28e177e13a35d23aa2327b6cbb",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/fog.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/fountain.webp",
-                      "bytes":  2910,
-                      "contentType":  "image/webp",
-                      "sha256":  "a0a3815455d15a1c68837efdf257b4f99611d9cebacd7039afb50420af0342d4",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/fountain.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/halo.webp",
-                      "bytes":  610,
-                      "contentType":  "image/webp",
-                      "sha256":  "35f9c7103f12159dfc2bf87771e0ceda39342c8c977a4a25189ae46d604a1b54",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/halo.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/jetpack-smoke.webp",
-                      "bytes":  7652,
-                      "contentType":  "image/webp",
-                      "sha256":  "d52cae12b9a66b43fabdb61d6cfb9e3fbafedbac511d9b23e329739c4ca7b9ed",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/jetpack-smoke.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/model-dog-catch.gb",
-                      "bytes":  129684,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "625eb2ddad436a331a613a2f48c85533898007844114c6440e6097298898c2e9",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-dog-catch.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/model-dog-movement.gb",
-                      "bytes":  83160,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "9059daa590142fa9eb7b6305ac8bcb9b71499d41ca539aee766699632cb18315",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-dog-movement.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/model-guard-catch.gb",
-                      "bytes":  203140,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "5c1975dd3ceab727121fb1a1fffc55530a61ed8ca3824698c01257b6bc099f95",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-guard-catch.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/model-guard-movement.gb",
-                      "bytes":  161132,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "5a2e32d31430539b3c19e0e7d3dd333ebc2e212d476cc02320b8920473592de7",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-guard-movement.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/rain.webp",
-                      "bytes":  358,
-                      "contentType":  "image/webp",
-                      "sha256":  "2d60415c0a748dbdef9f2514fb510f3490301801b8c9b0755d9a978bdc03e63a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/rain.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/reflection.webp",
-                      "bytes":  2730,
-                      "contentType":  "image/webp",
-                      "sha256":  "11b03e60865d2dfe914f8d5cc94451c451d8a24b63940dea2591fadc7f471a2f",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/reflection.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/shadow.webp",
-                      "bytes":  2832,
-                      "contentType":  "image/webp",
-                      "sha256":  "af9274edc0837b28538305aad28d02cd2f2833601081f461ace7733dc19cd9b9",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/shadow.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/smoke.webp",
-                      "bytes":  1602,
-                      "contentType":  "image/webp",
-                      "sha256":  "93f283961ea585842fc0fe26d8725e9c5bceac5f264f58e52804935d0fd3ac55",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/smoke.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/spark.webp",
-                      "bytes":  112,
-                      "contentType":  "image/webp",
-                      "sha256":  "ce3ff7ac90d7ee6e13e080e8547b03834949a878f06944064912243fd91ab8d2",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/spark.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/spray-splash.webp",
-                      "bytes":  666,
-                      "contentType":  "image/webp",
-                      "sha256":  "ab3c978b245fd787f614ae30f0dba92cee75088835d26a2e10b0bde8e0558016",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/spray-splash.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/trains_bag.webp",
-                      "bytes":  898,
-                      "contentType":  "image/webp",
-                      "sha256":  "18ec317b2f3a9119acd0dd5a83e169a558e8bac320e7cbde2709f7df34aadbc8",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/trains_bag.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/vfx_spark.webp",
-                      "bytes":  184,
-                      "contentType":  "image/webp",
-                      "sha256":  "861147cd3ee5a65bd9c8cbd04fe8594fb981b6915e1a2fd29d1e7c41be9d21dc",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/vfx_spark.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-basic/wave_noise.webp",
-                      "bytes":  320,
-                      "contentType":  "image/webp",
-                      "sha256":  "b92d4d41ea055e32b38a31d49ce6177e5ad02eb7aebbe01e31e01138d0998d3a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/wave_noise.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-full/props-extra.gb",
-                      "bytes":  77672,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "be2680e8e0f7d8514cd78a18e76166f617e5e0f061b70c0c5f804641cb6233fe",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-full/props-extra.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-full/props.gb",
-                      "bytes":  621068,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "288b9fe4e3edec12db984d5c33db3ec59357664d995d3d2aa0b71a084e50f32e",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-full/props.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-idle/epic_fight.gb",
-                      "bytes":  474608,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "de46c72702b5c24246332fb9a793ff27684f9a2476b6727b484f11abde26974e",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/epic_fight.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-idle/mystery-box.gb",
-                      "bytes":  6516,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "6ae7e949ebc2f835317e96c52263e2b202d01684b08be9e36e5a6a4e7f046076",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/mystery-box.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-idle/props-start.gb",
-                      "bytes":  38280,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "b79d760c7a2be1e331e2c1bb13b9cf47726b9fe712a3a98e389e8130fa3b8864",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/props-start.gb"
-                  },
-                  {
-                      "assetPath":  "assets/game-idle/props-tex.webp",
-                      "bytes":  9950,
-                      "contentType":  "image/webp",
-                      "sha256":  "b7e91e93d8b15e23e64488f4c696495d4949cde1f1008e47075b5834280d1344",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/props-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/game-idle/trains-tex.webp",
-                      "bytes":  2302,
-                      "contentType":  "image/webp",
-                      "sha256":  "1963dd8a0a6a78abcc613127ea210eeee57ca0a79e537e4c282101b88c7b078f",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/trains-tex.webp"
-                  },
-                  {
-                      "assetPath":  "assets/images/app-icon-114.png",
-                      "bytes":  7837,
-                      "contentType":  "image/png",
-                      "sha256":  "42fbc6f0a839ddfcb062f685c899eacd69f31d1b98c4894c54f62ac054eb1343",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-114.png"
-                  },
-                  {
-                      "assetPath":  "assets/images/app-icon-16.png",
-                      "bytes":  982,
-                      "contentType":  "image/png",
-                      "sha256":  "8f6840f0cb9264f3168eb05784965e46fb67ea002a320cd0b805632987c66ffe",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-16.png"
-                  },
-                  {
-                      "assetPath":  "assets/images/app-icon-57.png",
-                      "bytes":  3391,
-                      "contentType":  "image/png",
-                      "sha256":  "44214ca266095a482add902e603faab9c5e98f845becf0ed2f5e95991e4afc5a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-57.png"
-                  },
-                  {
-                      "assetPath":  "assets/images/app-icon-72.png",
-                      "bytes":  4541,
-                      "contentType":  "image/png",
-                      "sha256":  "44ed2b1194609dcd6e078759a6bee3b1c84b3f869345e612e59e32dd7a9ff59c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-72.png"
-                  },
-                  {
-                      "assetPath":  "assets/preload/splash.png",
-                      "bytes":  30684,
-                      "contentType":  "image/png",
-                      "sha256":  "3f7d3d4f788dd1dc82c6dac0930b0ef1f852e6ce1aa37585f13025bd8c515426",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/preload/splash.png"
-                  },
-                  {
-                      "assetPath":  "assets/preload/splash.webp",
-                      "bytes":  18748,
-                      "contentType":  "image/webp",
-                      "sha256":  "847cd4c7af9a349de945d2d82b6a53eca88eb5b9f38c6fb888730cacc66340be",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/preload/splash.webp"
-                  },
-                  {
-                      "assetPath":  "assets/ui/ui.webp",
-                      "bytes":  287150,
-                      "contentType":  "image/webp",
-                      "sha256":  "fe8259434e54b97d267a0da356495757f4d17087db4ad0d9d85a6949026b2dad",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/ui/ui.webp"
-                  },
-                  {
-                      "assetPath":  "assets/ui/ui.webp.json",
-                      "bytes":  27945,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "0f1830dfd9765229216cba464fdc6e06937a3b3e77dfced3a805f2b47ccdb2ef",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/ui/ui.webp.json"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/audio-basic/theme.ogg",
-                      "bytes":  609910,
-                      "contentType":  "audio/ogg",
-                      "sha256":  "d19963ccc326e0cea8bb17f7450623bd6577f73418ca87f7bab47bc2e7360c2f",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/audio-basic/theme.ogg"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-basic/environment-basic.gb",
-                      "bytes":  141572,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "92db200bb585ffe153ce7f331ef3d2d126c2b97bc79321d188947122b88d7edf",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-basic/environment-basic.gb"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-basic/trains-basic.gb",
-                      "bytes":  23220,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "9d975a3aff75056e9d5066ba88093dbd3efeeceba6b57a45b2c735cdba83ce59",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-basic/trains-basic.gb"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-full/environment-full.gb",
-                      "bytes":  2074392,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "3aad943c6c5c1f2a6ced19a27655f16e20cd03870fdc96d11a325e56c9b73dd9",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-full/environment-full.gb"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-full/trains-full.gb",
-                      "bytes":  94036,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "df68d5353368f7749832c3186bb45c6d21f47eed56b36e6a5ec4cb6f6c0824a8",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-full/trains-full.gb"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-idle/environment-idle.gb",
-                      "bytes":  41360,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "311972489941462a49b9cabb702a05a56f8add1c0e1cc4b60f72c5c534acc445",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/environment-idle.gb"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-idle/environment-tex@2x.webp",
-                      "bytes":  20808,
-                      "contentType":  "image/webp",
-                      "sha256":  "353a7fa8c2adb08b7277a625e83df91128a9d0e73992b957930edd8f5696bd37",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/environment-tex@2x.webp"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-idle/train-start.png",
-                      "bytes":  18156,
-                      "contentType":  "image/png",
-                      "sha256":  "6823870765e8d0aace4a4dff38a055e91cc4ba7f5591f3ff5aa96ba2eff72e9c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/train-start.png"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/game-idle/trains-idle.gb",
-                      "bytes":  58780,
-                      "contentType":  "application/octet-stream",
-                      "sha256":  "2aa41768232909272cce02cdeb95b83efa269e811f92470e1e84cd8cbb0585fc",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/trains-idle.gb"
-                  },
-                  {
-                      "assetPath":  "bundles/bali/manifest.json",
-                      "bytes":  3361,
-                      "contentType":  "application/json; charset=utf-8",
-                      "sha256":  "694339363f19830d91288c3528cff4b05f944958df7dcc4e13e1745ad3f24f41",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/manifest.json"
-                  },
-                  {
-                      "assetPath":  "index.html",
-                      "bytes":  3084,
-                      "contentType":  "text/html",
-                      "sha256":  "0317621299f3a131cc6b653cb5988aa69015a815781c88d9f6ea97a01df4b677",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/index.html",
-                      "restoredFromVeuCapture":  true
-                  },
-                  {
-                      "assetPath":  "js/boot.js",
-                      "bytes":  3041,
-                      "contentType":  "text/javascript; charset=utf-8",
-                      "sha256":  "72a528336417dac9fe6e98e416f7831b93bfadbe0d48a90da866e9424200a9cb",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/boot.js"
-                  },
-                  {
-                      "assetPath":  "js/dependencies.bundle.js",
-                      "bytes":  1698531,
-                      "contentType":  "text/javascript; charset=utf-8",
-                      "sha256":  "6bb4e194374998cf8cde01c6d826d7cc0732ce656f60bf964a25eea64ad8d63a",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/dependencies.bundle.js"
-                  },
-                  {
-                      "assetPath":  "js/dependencies.bundle.js.LICENSE.txt",
-                      "bytes":  8900,
-                      "contentType":  "text/plain",
-                      "sha256":  "b3fd599d8175931d8eff16912b7a3bd54788d8c179f39c845195bd9d8eb4c90d",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/dependencies.bundle.js.LICENSE.txt"
-                  },
-                  {
-                      "assetPath":  "js/index.js",
-                      "bytes":  1219657,
-                      "contentType":  "text/javascript; charset=utf-8",
-                      "sha256":  "2ff3957161a505cc4af4e61c5d9c6ba49b54f229835707a54ba02bd3924a6d40",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/index.js"
-                  },
-                  {
-                      "assetPath":  "js/loading.js",
-                      "bytes":  2748,
-                      "contentType":  "text/javascript; charset=utf-8",
-                      "sha256":  "d3ee5afcc647d1422386ce7893f943073086b7424ab8cb109469d8da1ed8413c",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/loading.js"
-                  },
-                  {
-                      "assetPath":  "js/workers/worker.616dde51248bd0b4ac82.js",
-                      "bytes":  119163,
-                      "contentType":  "text/javascript; charset=utf-8",
-                      "sha256":  "07636e002a6ed927480d3131c357a6e3840eb6787be390a28de6d5e0096a2f53",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/workers/worker.616dde51248bd0b4ac82.js"
-                  },
-                  {
-                      "assetPath":  "subwaysurfers.webmanifest",
-                      "bytes":  1524,
-                      "contentType":  "text/plain; charset=utf-8",
-                      "sha256":  "d3a82a6180be150cd666e9a6c714cc78c6061e004fbdb543dbf29c46d99b1de4",
-                      "source":  "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/subwaysurfers.webmanifest"
-                  }
-              ],
-    "skipped":  [
-                    {
-                        "assetPath":  "js/index.js.LICENSE.txt",
-                        "skipped":  true,
-                        "status":  404
-                    }
-                ],
-    "errors":  [
-
-               ]
+  "name": "Subway Surfers Web",
+  "sourcePage": "https://poki.com/en/g/subway-surfers",
+  "sourceRoot": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/",
+  "gameId": "5dd312fa-015f-11ea-ad56-9cb6d0d995f7",
+  "gameVersionId": "b05f1bb8-3159-4c02-8066-4dc1327308e0",
+  "capturedWith": "Visual Editor Ultimate v3.16.0",
+  "captureHashNote": "The files array records the captured upstream bytes. integrationFiles records local additions and the modified local index.",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3084,
+      "sha256": "0317621299f3a131cc6b653cb5988aa69015a815781c88d9f6ea97a01df4b677",
+      "purpose": "Local bridge and network lock"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 848,
+      "sha256": "1c0e1c5d7c9acb59d26a59d51e9ec3a39756bd98ec416a39c3cabb5660cc2b46",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 9901,
+      "sha256": "bdc52da1b495bfd18541c025a4ab8a618cc4de58518a400ab6b18e11a5729c62",
+      "purpose": "Same-origin owned-ad and lifecycle bridge"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/audio-basic/guard-catch.ogg",
+      "bytes": 14024,
+      "contentType": "audio/ogg",
+      "sha256": "3614c909a6df5f5904b01b2abab0098ebfbb84cb45993790378e328363cb4fa1",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/guard-catch.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/guard-proximity.ogg",
+      "bytes": 41280,
+      "contentType": "audio/ogg",
+      "sha256": "e9f4d19e79f968e6360db7a91b3186acc9f3e6402af28d39458936b08599e28e",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/guard-proximity.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/guard-start.ogg",
+      "bytes": 17485,
+      "contentType": "audio/ogg",
+      "sha256": "bde398d00cecc15518703190d038b813482c8fa8eecdbaf87142d5dfa51c3bae",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/guard-start.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-death-hitcam.ogg",
+      "bytes": 5503,
+      "contentType": "audio/ogg",
+      "sha256": "4469f287638f6594cbb874af86339e3e767237eb044105e3f83ad38dcf6be2d4",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-death-hitcam.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-death.ogg",
+      "bytes": 7214,
+      "contentType": "audio/ogg",
+      "sha256": "603ae853816b6529c75a4a9c204b084dba5dca4491057076792dfc0eb0037000",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-death.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-dodge.ogg",
+      "bytes": 4417,
+      "contentType": "audio/ogg",
+      "sha256": "d04149057c4e633308b37e0b387e957788a10dbe39aee2c555799b91aff9d6ba",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-dodge.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-foot-l.ogg",
+      "bytes": 3645,
+      "contentType": "audio/ogg",
+      "sha256": "20d8a40b2c76f640b757bf645a09b3053a86dc4fce785c381387f90f858d930a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-foot-l.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-foot-r.ogg",
+      "bytes": 3652,
+      "contentType": "audio/ogg",
+      "sha256": "0ffdc6310828fbf303cd42e7a656df5088750035024d6854818bc2628587baef",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-foot-r.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-hoverboard-crash.ogg",
+      "bytes": 7523,
+      "contentType": "audio/ogg",
+      "sha256": "9ba1b232a7ee84fec1a2956bb4b4a62860f03952e2255d7d539f538995682aa3",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-hoverboard-crash.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-jump.ogg",
+      "bytes": 5621,
+      "contentType": "audio/ogg",
+      "sha256": "20193d91ed50860b443685b2e0cec8d87e996075a7177d75c6dca1f094224b9a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-jump.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-revive.ogg",
+      "bytes": 16186,
+      "contentType": "audio/ogg",
+      "sha256": "5da4a5b333ba4c577932aeefe6c919ee13c3f5cf2471be052f3bdfc2a5a63f77",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-revive.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-roll.ogg",
+      "bytes": 4913,
+      "contentType": "audio/ogg",
+      "sha256": "afa3d17ffc2b49eeb867e594e35a69c46c9a23e522964838483b8053b1acd392",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-roll.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/hero-stumble.ogg",
+      "bytes": 5208,
+      "contentType": "audio/ogg",
+      "sha256": "bf40657d62f0743c002c723fb711434d1c9c07d034e287870d6c259f3429abe3",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/hero-stumble.ogg"
+    },
+    {
+      "assetPath": "assets/audio-basic/unlock.ogg",
+      "bytes": 31859,
+      "contentType": "audio/ogg",
+      "sha256": "f1f54b2b5d9819fffd04b9e4db86d417efe1d759d08c683fd05fb2b2a515d95b",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-basic/unlock.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/hero-sneakers-foot-l.ogg",
+      "bytes": 3925,
+      "contentType": "audio/ogg",
+      "sha256": "cae260ddd72b57fb45e3db1fa22cd2e271acf8d560622f8c062402529cdedf07",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/hero-sneakers-foot-l.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/hero-sneakers-foot-r.ogg",
+      "bytes": 3926,
+      "contentType": "audio/ogg",
+      "sha256": "3003acabd2ec88b61539bb568d8fa512127430c596549ebb98b3794f42b31a7e",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/hero-sneakers-foot-r.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/hero-sneakers-jump.ogg",
+      "bytes": 4642,
+      "contentType": "audio/ogg",
+      "sha256": "4ce3ea5157a66e0c96b18535d9ce1c42bba7bd4d5f47b8fc5dfb45da9679fe64",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/hero-sneakers-jump.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/pickup-coin.ogg",
+      "bytes": 4394,
+      "contentType": "audio/ogg",
+      "sha256": "f2a5439081673719c1613350f42d49bfb0b6b53a6199d8678c04791d59f0a8a3",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/pickup-coin.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/pickup-powerdown.ogg",
+      "bytes": 5245,
+      "contentType": "audio/ogg",
+      "sha256": "ace09c53f75df9a753cee3d5b3657ccf7a5677bf515f1175dc8a14be3c9fe38c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/pickup-powerdown.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/pickup-powerup.ogg",
+      "bytes": 8523,
+      "contentType": "audio/ogg",
+      "sha256": "cf017b04563d44af38f6a0e196785982fc6796ea4fde95c20ef467707a689932",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/pickup-powerup.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/special-jetpack-start.ogg",
+      "bytes": 12429,
+      "contentType": "audio/ogg",
+      "sha256": "1de235dd9e2936d58844354b7c7c79f64ab45d3d34b5b60c7a17bc19795bea02",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/special-jetpack-start.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/special-jetpack.ogg",
+      "bytes": 17851,
+      "contentType": "audio/ogg",
+      "sha256": "2c81b43e9831d156686528d54c4c61da3f23a32f278c31ca70787c9a68d72ca1",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/special-jetpack.ogg"
+    },
+    {
+      "assetPath": "assets/audio-full/special-magnet.ogg",
+      "bytes": 5830,
+      "contentType": "audio/ogg",
+      "sha256": "ba93946bffa0f9ba3ed21ee1e1952ade4b22e642c0a4c0f9c369a954d20280ad",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-full/special-magnet.ogg"
+    },
+    {
+      "assetPath": "assets/audio-idle/gui-coin.ogg",
+      "bytes": 5586,
+      "contentType": "audio/ogg",
+      "sha256": "a76ff2e4493494a14dbaa2537b9db4334ef06734e9dc39de75572d6f2a2e40bc",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/gui-coin.ogg"
+    },
+    {
+      "assetPath": "assets/audio-idle/gui-tap.ogg",
+      "bytes": 3929,
+      "contentType": "audio/ogg",
+      "sha256": "c7f9ba658cc3a40bc2d9476053f989db102bb0b3bf5288dbbb9e02506f0fa802",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/gui-tap.ogg"
+    },
+    {
+      "assetPath": "assets/audio-idle/mission-notification.ogg",
+      "bytes": 13703,
+      "contentType": "audio/ogg",
+      "sha256": "ef2145ecb13b91808975483a2745e1be860e189073816cf35bd935e33a09cf51",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/mission-notification.ogg"
+    },
+    {
+      "assetPath": "assets/audio-idle/open-prize.ogg",
+      "bytes": 31085,
+      "contentType": "audio/ogg",
+      "sha256": "0eff88189588bd8b5bc796659fa50387212ae3110e389293e4343ecca7df93cc",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/open-prize.ogg"
+    },
+    {
+      "assetPath": "assets/audio-idle/ui-button.ogg",
+      "bytes": 4926,
+      "contentType": "audio/ogg",
+      "sha256": "7122c598dae08b85e45c85d6cb37a3d107036983c4b450123b51ca7a6608d141",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/audio-idle/ui-button.ogg"
+    },
+    {
+      "assetPath": "assets/boards/board-bigkahuna-tex.webp",
+      "bytes": 174,
+      "contentType": "image/webp",
+      "sha256": "0733df2c12d180fde031b16a9b3f87f8df1664f52444e00bdeb5ba8a1fdbf130",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bigkahuna-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-bigkahuna.gb",
+      "bytes": 6376,
+      "contentType": "application/octet-stream",
+      "sha256": "6cba9085cc6541d92e13a5bde4a72a412150af441dab23541cf8a5b84be1fc84",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bigkahuna.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-bouncer-tex.webp",
+      "bytes": 134,
+      "contentType": "image/webp",
+      "sha256": "578eac9134241b436aa1beef115aa45f0ff3911ae43504c47d1de8f908f5c0cc",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bouncer-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-bouncer.gb",
+      "bytes": 6128,
+      "contentType": "application/octet-stream",
+      "sha256": "28d1a5d9d168d92b31e5e5925c4cf81ede33b50b8f513cc1825aae81a78a10a6",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-bouncer.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-daredevil-tex.webp",
+      "bytes": 142,
+      "contentType": "image/webp",
+      "sha256": "2ed4e78b1c29d261f4d9875068bd38f83f92801c6154ca21a8efda352c3965b9",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-daredevil-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-daredevil.gb",
+      "bytes": 12896,
+      "contentType": "application/octet-stream",
+      "sha256": "ecb5aa56ade9258767cf69139b607c138495d67d27d6b3580cf85b01e7ec0e3b",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-daredevil.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-greatwhite-tex.webp",
+      "bytes": 154,
+      "contentType": "image/webp",
+      "sha256": "e8c9d6accdceb8e51603d96de1116301bd00181291a5c944e96a78c3a46dd6e1",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-greatwhite-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-greatwhite.gb",
+      "bytes": 19424,
+      "contentType": "application/octet-stream",
+      "sha256": "b442278df196f9def28f80d1549f5d8853fd8ea9ba1058c29dfd1ebdbe3d628a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-greatwhite.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-hotrod-tex.webp",
+      "bytes": 196,
+      "contentType": "image/webp",
+      "sha256": "fea538e1b19b153c49bab951986e71a9df97ec2959a6077e3fb4ff0b31fc44d2",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hotrod-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-hotrod.gb",
+      "bytes": 18604,
+      "contentType": "application/octet-stream",
+      "sha256": "7dcec4ce1dde895f511d9a135a6f0baaa9a1ea21c507c72c29ffe146f24d694a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hotrod.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-hoverboard-tex.webp",
+      "bytes": 144,
+      "contentType": "image/webp",
+      "sha256": "6f5ad2fca18c521ed1466eda8897ed4276c027029c9aac69b6fde69245f88678",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hoverboard-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-hoverboard.gb",
+      "bytes": 6344,
+      "contentType": "application/octet-stream",
+      "sha256": "af7038198a9dc3c1ee845e6706a3be9a03869ed8e820062980cccca2015f1365",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-hoverboard.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-lowrider-tex.webp",
+      "bytes": 232,
+      "contentType": "image/webp",
+      "sha256": "4925de2536023b7a289a90f3ec4cad61fc1ba2d39c6ea9c85b72cb3bb44bb3f3",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lowrider-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-lowrider.gb",
+      "bytes": 8316,
+      "contentType": "application/octet-stream",
+      "sha256": "bafc1371d73b61c212c1d79989422ec339d00ce98b9cc72f0a330047efbdfea1",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lowrider.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-lumberjack-tex.webp",
+      "bytes": 144,
+      "contentType": "image/webp",
+      "sha256": "c6c1ff9373101a60f4ef0e66eba8b82d95576ecd518c0e6ad735c88e09db008e",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lumberjack-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-lumberjack.gb",
+      "bytes": 21476,
+      "contentType": "application/octet-stream",
+      "sha256": "ac65c316d4b345e8f6c0300038a6f528e18e7d5f949934e9ec6562a1e5693c86",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-lumberjack.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-monster-tex.webp",
+      "bytes": 150,
+      "contentType": "image/webp",
+      "sha256": "965473027391cc210aad8a52071f56e37b9e1b5267d1926ddbafd6a357e7b0cf",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-monster-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-monster.gb",
+      "bytes": 18400,
+      "contentType": "application/octet-stream",
+      "sha256": "50053ce18138e285c28412d29291bde72ed01dc40768f4c3d07c6d03a27cf108",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-monster.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-scoot-tex.webp",
+      "bytes": 132,
+      "contentType": "image/webp",
+      "sha256": "52319a71ed5e4fa5ea255764ce0c0125be951a1379caa6af44469f438b985278",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-scoot-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-scoot.gb",
+      "bytes": 7976,
+      "contentType": "application/octet-stream",
+      "sha256": "4a5386b5c9db5a05f8918836c574e81020e5c3936c11376a03e167dd0a612469",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-scoot.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-skullfire-tex.webp",
+      "bytes": 138,
+      "contentType": "image/webp",
+      "sha256": "bc17c2bac6156b9c6fc51f079eb7548ec074b17d286b6415b9eafa0f17c76c40",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-skullfire-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-skullfire.gb",
+      "bytes": 25420,
+      "contentType": "application/octet-stream",
+      "sha256": "3ab1c5789540fad71263f7a195595fd16129acba9d0409f982c16715986b670b",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-skullfire.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-starboard-tex.webp",
+      "bytes": 260,
+      "contentType": "image/webp",
+      "sha256": "2ec8565b0dbfa16a43dbbaf2fccb163d188513ac90c90fe42c2ac15efb9f9d76",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-starboard-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-starboard.gb",
+      "bytes": 14936,
+      "contentType": "application/octet-stream",
+      "sha256": "90812db57e18718a7f2b95adb299b15531f4afcb323018ab1ef2467a866bd0f5",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-starboard.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-sunset-tex.webp",
+      "bytes": 152,
+      "contentType": "image/webp",
+      "sha256": "424fccefe514393844443e80072bd039654bb3480221b5811cf61a586b00aa08",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-sunset-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-sunset.gb",
+      "bytes": 27248,
+      "contentType": "application/octet-stream",
+      "sha256": "a3514b84d08ec50872f6d43222bb93f090ceed5343368afca74bae90e6aa81a8",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-sunset.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-superhero-tex.webp",
+      "bytes": 156,
+      "contentType": "image/webp",
+      "sha256": "8fc2f13f170b7c29eabfaafc0354ad2cf5707c35b590daa50e13c88bf83c7c1f",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-superhero-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-superhero.gb",
+      "bytes": 15752,
+      "contentType": "application/octet-stream",
+      "sha256": "ea588295b1ca0bd2334cfa2fa26c3fee838c8154d68d41c42687fb6060c2d595",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-superhero.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-teleporter-tex.webp",
+      "bytes": 86,
+      "contentType": "image/webp",
+      "sha256": "c5da8c13b3b0cbac0031d59faaa3b218e3a355c430aa03f619c5d29442155a6a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-teleporter-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-teleporter.gb",
+      "bytes": 5076,
+      "contentType": "application/octet-stream",
+      "sha256": "988629f43637459e66df25c2f969c33aa8d37fb0cf78ef8f80e9b9dfe933b5fb",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-teleporter.gb"
+    },
+    {
+      "assetPath": "assets/boards/board-windglider-tex.webp",
+      "bytes": 118,
+      "contentType": "image/webp",
+      "sha256": "bcf1d961b3b217a34ed098717c007cb266732422a3acb83f818af2b7d64a630d",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-windglider-tex.webp"
+    },
+    {
+      "assetPath": "assets/boards/board-windglider.gb",
+      "bytes": 9720,
+      "contentType": "application/octet-stream",
+      "sha256": "7c005fa26d67c9d823d6137ca02bcbe84e922a9f06549f755617a754b273b597",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/boards/board-windglider.gb"
+    },
+    {
+      "assetPath": "assets/characters-basic/jake-game.gb",
+      "bytes": 2826444,
+      "contentType": "application/octet-stream",
+      "sha256": "9d876629245c31a7621c3514c5836964d23157ea425e341576836985d5110d68",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-basic/jake-game.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/brody-idle.gb",
+      "bytes": 313476,
+      "contentType": "application/octet-stream",
+      "sha256": "f09e561f889dba6dddc49bc54f23e43eb297cca4a31165da07a04ec9dea34152",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/brody-tex-1.webp",
+      "bytes": 6230,
+      "contentType": "image/webp",
+      "sha256": "53cf86e66b4a75dc15dd14a6559c25208cc0d66009150a52393967eefc8dc630",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/brody-tex-2.webp",
+      "bytes": 6326,
+      "contentType": "image/webp",
+      "sha256": "b41af35955e04c8be054c8aa2c9ac3785ede6dae8ff114406fc390c733004fdf",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/brody-tex.webp",
+      "bytes": 6548,
+      "contentType": "image/webp",
+      "sha256": "89160c08104cac96820d88cbec40e694c02aff8ebbdb9b83cc02b8a5d258caa2",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/brody-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/jake-idle.gb",
+      "bytes": 263496,
+      "contentType": "application/octet-stream",
+      "sha256": "304840fb37580ff6d5f84b7e168e761a8f81a56ed7823d12b15d8b490dcf515c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/jake-tex-1.webp",
+      "bytes": 7646,
+      "contentType": "image/webp",
+      "sha256": "f25c5027ff26c0272a1afa3308224e5fab6e1457f52a4b219246efaa0bcbd784",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/jake-tex-2.webp",
+      "bytes": 9216,
+      "contentType": "image/webp",
+      "sha256": "20874facffcbd0b21a778971eb5807a9fe4d375a21268d8b4e10674ebd087ce7",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/jake-tex.webp",
+      "bytes": 9126,
+      "contentType": "image/webp",
+      "sha256": "a0343469c7ebdcc8437e5fcd55616b9259f6be8fa28c6746dfd195737416a85b",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/jake-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/king-idle.gb",
+      "bytes": 220188,
+      "contentType": "application/octet-stream",
+      "sha256": "7d538b9fb028cf251f96eb67ccbd47ba612570dbab97f0cb978081295a0f5e48",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/king-tex-1.webp",
+      "bytes": 6594,
+      "contentType": "image/webp",
+      "sha256": "51d0f692ecdc5184c7f0207ccfb09ea83fc06d85855ca5bc052acbed07a94d80",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/king-tex-2.webp",
+      "bytes": 6620,
+      "contentType": "image/webp",
+      "sha256": "0796e388280f12ed25669f707cebb033f8d93fb2a9142a15bfc81d75a096a7b6",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/king-tex.webp",
+      "bytes": 6514,
+      "contentType": "image/webp",
+      "sha256": "ed195492f740879882d011983732dcfd64e9f8ab05e68156c29b21fe9a8c4be6",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/king-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/lucy-idle.gb",
+      "bytes": 240496,
+      "contentType": "application/octet-stream",
+      "sha256": "9b76419b4c34846ef91c13dc9faa2fdc4f3a0a6d1b0695a86d5554ea90b683fb",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/lucy-tex-1.webp",
+      "bytes": 5914,
+      "contentType": "image/webp",
+      "sha256": "51bd4710df93fa05fe59ae90127318487e71c583aacc5012f054ced6231eb995",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/lucy-tex-2.webp",
+      "bytes": 6434,
+      "contentType": "image/webp",
+      "sha256": "df5bec8625086bbb4951fcc9e5990213c9926306f6cd5f39d83bc81971b65cd3",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/lucy-tex.webp",
+      "bytes": 6016,
+      "contentType": "image/webp",
+      "sha256": "de9ef084f883283360da95001f28ce0bd687223c3b6bf68b7e13f8218e5585d0",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/lucy-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/ninja-idle.gb",
+      "bytes": 247396,
+      "contentType": "application/octet-stream",
+      "sha256": "4c24cc517c32145797b5f3d3e76995fa09ce6ce03aa37f946dd6df712479ca5d",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/ninja-tex-1.webp",
+      "bytes": 4646,
+      "contentType": "image/webp",
+      "sha256": "d5305dfe0c0b80b027a30c96cfc048e11a7c7395c0dddacb0f4bf6cfed1957f8",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/ninja-tex-2.webp",
+      "bytes": 5704,
+      "contentType": "image/webp",
+      "sha256": "5377b9fd86538880b331ae4ce6762339c2d5e21ad57af260ce24b7bbbb925d63",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/ninja-tex.webp",
+      "bytes": 3826,
+      "contentType": "image/webp",
+      "sha256": "9f69a541906219b1092e4e6e8d898bbf50abed99325c654b224730fdeb9f5acf",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/ninja-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tagbot-idle.gb",
+      "bytes": 234644,
+      "contentType": "application/octet-stream",
+      "sha256": "1fa83083a9c39d271a654ea616c6307778b6ce5b5be3a498482040bdabf72f8f",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/tagbot-tex-1.webp",
+      "bytes": 7340,
+      "contentType": "image/webp",
+      "sha256": "bd3b1b823c118aea49ca5c2fe909da7ae0306c6208daac7545559e2d361af37a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tagbot-tex-2.webp",
+      "bytes": 7030,
+      "contentType": "image/webp",
+      "sha256": "ea82104624383a2509f64685eb353b5b78991ceab1367d2215e03e030f621d2e",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tagbot-tex.webp",
+      "bytes": 6692,
+      "contentType": "image/webp",
+      "sha256": "3f4b37e74a093f5cff32f3989d85d649c9afdfc7bcd783989f9ea3abc8698504",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tagbot-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tasha-idle.gb",
+      "bytes": 259288,
+      "contentType": "application/octet-stream",
+      "sha256": "e1e08b90d6e83097f2a566ed169bda2ed9cdd8a7a1b5566c939009141d958b6a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/tasha-tex-1.webp",
+      "bytes": 7860,
+      "contentType": "image/webp",
+      "sha256": "28be37cf83caba33ede12fbb2a61ef06827a717d473358624b5891d87aa3cbda",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tasha-tex-2.webp",
+      "bytes": 7318,
+      "contentType": "image/webp",
+      "sha256": "64bce45567266bd20d55ad733cf90d584a7ad67f6d38c086a69f9b3a25269891",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tasha-tex.webp",
+      "bytes": 7392,
+      "contentType": "image/webp",
+      "sha256": "d6a166c49ca265b9fea407e7d6c4dfe5e4c395e9dc6baee139b0fa7bce6c94e0",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tasha-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tricky-idle.gb",
+      "bytes": 338196,
+      "contentType": "application/octet-stream",
+      "sha256": "7a584cfca8cd28163885850e51dc500765acdc81dd3c5818ee1bdfe6c0c79025",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/tricky-tex-1.webp",
+      "bytes": 6682,
+      "contentType": "image/webp",
+      "sha256": "95a2b88efdb9987b45d665585e0cf6482ddd6cbe158db71c7c52db0480da3313",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tricky-tex-2.webp",
+      "bytes": 7664,
+      "contentType": "image/webp",
+      "sha256": "1ace571312deeeeb2a8e12e0043f4527909c29d62259a07612e13ce0c6984270",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/tricky-tex.webp",
+      "bytes": 6964,
+      "contentType": "image/webp",
+      "sha256": "058fabb3087a2befa38f138bc5441c549b01d4c2213706946c83de81fc7ba03d",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/tricky-tex.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/yutani-idle.gb",
+      "bytes": 227032,
+      "contentType": "application/octet-stream",
+      "sha256": "b81ee1776ce0e2e890c6e60c9edb50e5df838554e0e44da3f9889aee99563edf",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-idle.gb"
+    },
+    {
+      "assetPath": "assets/characters-idle/yutani-tex-1.webp",
+      "bytes": 5442,
+      "contentType": "image/webp",
+      "sha256": "8aa8f9835c59539f1a623fedaaa4af84003757dd612a57e7b702fa28e4da8791",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-tex-1.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/yutani-tex-2.webp",
+      "bytes": 5442,
+      "contentType": "image/webp",
+      "sha256": "8aa8f9835c59539f1a623fedaaa4af84003757dd612a57e7b702fa28e4da8791",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-tex-2.webp"
+    },
+    {
+      "assetPath": "assets/characters-idle/yutani-tex.webp",
+      "bytes": 5442,
+      "contentType": "image/webp",
+      "sha256": "8aa8f9835c59539f1a623fedaaa4af84003757dd612a57e7b702fa28e4da8791",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/characters-idle/yutani-tex.webp"
+    },
+    {
+      "assetPath": "assets/data/awards.json",
+      "bytes": 1890,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "fd42ea4e7100c3268ce57673b608268d208e020b6229feaa7f11c5e8f141f904",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/awards.json"
+    },
+    {
+      "assetPath": "assets/data/chunks-basic.json",
+      "bytes": 35004,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "b82fe8479f10763013ceaa52a38c00135f468b0dac0177446f93d0a7fb7aace0",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/chunks-basic.json"
+    },
+    {
+      "assetPath": "assets/data/chunks-full.json",
+      "bytes": 1289575,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "c41d3e0138a51308e5c3ba4e3bbaa1b49c30869428dacb1dbd815190397b59d1",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/chunks-full.json"
+    },
+    {
+      "assetPath": "assets/data/chunks-idle.json",
+      "bytes": 1303,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "c2f7df68aaa83f52f86d22891456721acabd0c97145228611d531a3b039d72be",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/chunks-idle.json"
+    },
+    {
+      "assetPath": "assets/data/lang-en.json",
+      "bytes": 10392,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "37d5acd293f4ddb029f6e31b0abb6175eb5cd111539ff8e0b58a8f950a97db3c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/lang-en.json"
+    },
+    {
+      "assetPath": "assets/data/lang-pt-br.json",
+      "bytes": 10895,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "979427742e084448db5137705a3d6adc229ed1b785a695c6c23364a27d762047",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/data/lang-pt-br.json"
+    },
+    {
+      "assetPath": "assets/font/lilita-one.woff2",
+      "bytes": 20104,
+      "contentType": "font/woff2",
+      "sha256": "4e460286778f3b0f5be20fd98a7537e4d147327446781ab9c48d151fe0631a93",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/font/lilita-one.woff2"
+    },
+    {
+      "assetPath": "assets/font/stencilia.woff2",
+      "bytes": 22040,
+      "contentType": "font/woff2",
+      "sha256": "51eb939965edafc857eeb2399a3ac0a2fbfc8ecd41afcd8e82be1ab3a4b5b4bf",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/font/stencilia.woff2"
+    },
+    {
+      "assetPath": "assets/font/titan-one.woff2",
+      "bytes": 18360,
+      "contentType": "font/woff2",
+      "sha256": "64556afb420ffb78bad1ac51bed82830a406d65bfd5473f85f2c8e442062bd98",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/font/titan-one.woff2"
+    },
+    {
+      "assetPath": "assets/game-basic/caustic.webp",
+      "bytes": 742,
+      "contentType": "image/webp",
+      "sha256": "5167c9985a243dc98f044632c5ee3d439fc9f6957db59324d7a30b240805a6d5",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/caustic.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/character_shadow.webp",
+      "bytes": 98,
+      "contentType": "image/webp",
+      "sha256": "147e490c5146e7c91ad79e1ff5f7566ff39e20b004d8e0832b9484c51da19b3c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/character_shadow.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/default-particle.webp",
+      "bytes": 120,
+      "contentType": "image/webp",
+      "sha256": "5b5f7964c53bdbde5d2155389959b7148d400c5f5617f6eee359879f59077920",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/default-particle.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/effects-tex.webp",
+      "bytes": 470,
+      "contentType": "image/webp",
+      "sha256": "10d6571bcaef6632d8111172c4fe81439f52149656271da97dd57073e852ae66",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/effects-tex.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/enemies.webp",
+      "bytes": 8548,
+      "contentType": "image/webp",
+      "sha256": "7115426c1ba73a7e86be61aa8aaf80ba40675e656bfeb6d63fc1c780890d3585",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/enemies.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/fog.webp",
+      "bytes": 674,
+      "contentType": "image/webp",
+      "sha256": "041711ab2938b03d28b689368788fc365ec9dc28e177e13a35d23aa2327b6cbb",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/fog.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/fountain.webp",
+      "bytes": 2910,
+      "contentType": "image/webp",
+      "sha256": "a0a3815455d15a1c68837efdf257b4f99611d9cebacd7039afb50420af0342d4",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/fountain.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/halo.webp",
+      "bytes": 610,
+      "contentType": "image/webp",
+      "sha256": "35f9c7103f12159dfc2bf87771e0ceda39342c8c977a4a25189ae46d604a1b54",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/halo.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/jetpack-smoke.webp",
+      "bytes": 7652,
+      "contentType": "image/webp",
+      "sha256": "d52cae12b9a66b43fabdb61d6cfb9e3fbafedbac511d9b23e329739c4ca7b9ed",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/jetpack-smoke.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/model-dog-catch.gb",
+      "bytes": 129684,
+      "contentType": "application/octet-stream",
+      "sha256": "625eb2ddad436a331a613a2f48c85533898007844114c6440e6097298898c2e9",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-dog-catch.gb"
+    },
+    {
+      "assetPath": "assets/game-basic/model-dog-movement.gb",
+      "bytes": 83160,
+      "contentType": "application/octet-stream",
+      "sha256": "9059daa590142fa9eb7b6305ac8bcb9b71499d41ca539aee766699632cb18315",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-dog-movement.gb"
+    },
+    {
+      "assetPath": "assets/game-basic/model-guard-catch.gb",
+      "bytes": 203140,
+      "contentType": "application/octet-stream",
+      "sha256": "5c1975dd3ceab727121fb1a1fffc55530a61ed8ca3824698c01257b6bc099f95",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-guard-catch.gb"
+    },
+    {
+      "assetPath": "assets/game-basic/model-guard-movement.gb",
+      "bytes": 161132,
+      "contentType": "application/octet-stream",
+      "sha256": "5a2e32d31430539b3c19e0e7d3dd333ebc2e212d476cc02320b8920473592de7",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/model-guard-movement.gb"
+    },
+    {
+      "assetPath": "assets/game-basic/rain.webp",
+      "bytes": 358,
+      "contentType": "image/webp",
+      "sha256": "2d60415c0a748dbdef9f2514fb510f3490301801b8c9b0755d9a978bdc03e63a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/rain.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/reflection.webp",
+      "bytes": 2730,
+      "contentType": "image/webp",
+      "sha256": "11b03e60865d2dfe914f8d5cc94451c451d8a24b63940dea2591fadc7f471a2f",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/reflection.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/shadow.webp",
+      "bytes": 2832,
+      "contentType": "image/webp",
+      "sha256": "af9274edc0837b28538305aad28d02cd2f2833601081f461ace7733dc19cd9b9",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/shadow.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/smoke.webp",
+      "bytes": 1602,
+      "contentType": "image/webp",
+      "sha256": "93f283961ea585842fc0fe26d8725e9c5bceac5f264f58e52804935d0fd3ac55",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/smoke.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/spark.webp",
+      "bytes": 112,
+      "contentType": "image/webp",
+      "sha256": "ce3ff7ac90d7ee6e13e080e8547b03834949a878f06944064912243fd91ab8d2",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/spark.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/spray-splash.webp",
+      "bytes": 666,
+      "contentType": "image/webp",
+      "sha256": "ab3c978b245fd787f614ae30f0dba92cee75088835d26a2e10b0bde8e0558016",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/spray-splash.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/trains_bag.webp",
+      "bytes": 898,
+      "contentType": "image/webp",
+      "sha256": "18ec317b2f3a9119acd0dd5a83e169a558e8bac320e7cbde2709f7df34aadbc8",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/trains_bag.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/vfx_spark.webp",
+      "bytes": 184,
+      "contentType": "image/webp",
+      "sha256": "861147cd3ee5a65bd9c8cbd04fe8594fb981b6915e1a2fd29d1e7c41be9d21dc",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/vfx_spark.webp"
+    },
+    {
+      "assetPath": "assets/game-basic/wave_noise.webp",
+      "bytes": 320,
+      "contentType": "image/webp",
+      "sha256": "b92d4d41ea055e32b38a31d49ce6177e5ad02eb7aebbe01e31e01138d0998d3a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-basic/wave_noise.webp"
+    },
+    {
+      "assetPath": "assets/game-full/props-extra.gb",
+      "bytes": 77672,
+      "contentType": "application/octet-stream",
+      "sha256": "be2680e8e0f7d8514cd78a18e76166f617e5e0f061b70c0c5f804641cb6233fe",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-full/props-extra.gb"
+    },
+    {
+      "assetPath": "assets/game-full/props.gb",
+      "bytes": 621068,
+      "contentType": "application/octet-stream",
+      "sha256": "288b9fe4e3edec12db984d5c33db3ec59357664d995d3d2aa0b71a084e50f32e",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-full/props.gb"
+    },
+    {
+      "assetPath": "assets/game-idle/epic_fight.gb",
+      "bytes": 474608,
+      "contentType": "application/octet-stream",
+      "sha256": "de46c72702b5c24246332fb9a793ff27684f9a2476b6727b484f11abde26974e",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/epic_fight.gb"
+    },
+    {
+      "assetPath": "assets/game-idle/mystery-box.gb",
+      "bytes": 6516,
+      "contentType": "application/octet-stream",
+      "sha256": "6ae7e949ebc2f835317e96c52263e2b202d01684b08be9e36e5a6a4e7f046076",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/mystery-box.gb"
+    },
+    {
+      "assetPath": "assets/game-idle/props-start.gb",
+      "bytes": 38280,
+      "contentType": "application/octet-stream",
+      "sha256": "b79d760c7a2be1e331e2c1bb13b9cf47726b9fe712a3a98e389e8130fa3b8864",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/props-start.gb"
+    },
+    {
+      "assetPath": "assets/game-idle/props-tex.webp",
+      "bytes": 9950,
+      "contentType": "image/webp",
+      "sha256": "b7e91e93d8b15e23e64488f4c696495d4949cde1f1008e47075b5834280d1344",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/props-tex.webp"
+    },
+    {
+      "assetPath": "assets/game-idle/trains-tex.webp",
+      "bytes": 2302,
+      "contentType": "image/webp",
+      "sha256": "1963dd8a0a6a78abcc613127ea210eeee57ca0a79e537e4c282101b88c7b078f",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/game-idle/trains-tex.webp"
+    },
+    {
+      "assetPath": "assets/images/app-icon-114.png",
+      "bytes": 7837,
+      "contentType": "image/png",
+      "sha256": "42fbc6f0a839ddfcb062f685c899eacd69f31d1b98c4894c54f62ac054eb1343",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-114.png"
+    },
+    {
+      "assetPath": "assets/images/app-icon-16.png",
+      "bytes": 982,
+      "contentType": "image/png",
+      "sha256": "8f6840f0cb9264f3168eb05784965e46fb67ea002a320cd0b805632987c66ffe",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-16.png"
+    },
+    {
+      "assetPath": "assets/images/app-icon-57.png",
+      "bytes": 3391,
+      "contentType": "image/png",
+      "sha256": "44214ca266095a482add902e603faab9c5e98f845becf0ed2f5e95991e4afc5a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-57.png"
+    },
+    {
+      "assetPath": "assets/images/app-icon-72.png",
+      "bytes": 4541,
+      "contentType": "image/png",
+      "sha256": "44ed2b1194609dcd6e078759a6bee3b1c84b3f869345e612e59e32dd7a9ff59c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/images/app-icon-72.png"
+    },
+    {
+      "assetPath": "assets/preload/splash.png",
+      "bytes": 30684,
+      "contentType": "image/png",
+      "sha256": "3f7d3d4f788dd1dc82c6dac0930b0ef1f852e6ce1aa37585f13025bd8c515426",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/preload/splash.png"
+    },
+    {
+      "assetPath": "assets/preload/splash.webp",
+      "bytes": 18748,
+      "contentType": "image/webp",
+      "sha256": "847cd4c7af9a349de945d2d82b6a53eca88eb5b9f38c6fb888730cacc66340be",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/preload/splash.webp"
+    },
+    {
+      "assetPath": "assets/ui/ui.webp",
+      "bytes": 287150,
+      "contentType": "image/webp",
+      "sha256": "fe8259434e54b97d267a0da356495757f4d17087db4ad0d9d85a6949026b2dad",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/ui/ui.webp"
+    },
+    {
+      "assetPath": "assets/ui/ui.webp.json",
+      "bytes": 27945,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "0f1830dfd9765229216cba464fdc6e06937a3b3e77dfced3a805f2b47ccdb2ef",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/assets/ui/ui.webp.json"
+    },
+    {
+      "assetPath": "bundles/bali/audio-basic/theme.ogg",
+      "bytes": 609910,
+      "contentType": "audio/ogg",
+      "sha256": "d19963ccc326e0cea8bb17f7450623bd6577f73418ca87f7bab47bc2e7360c2f",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/audio-basic/theme.ogg"
+    },
+    {
+      "assetPath": "bundles/bali/game-basic/environment-basic.gb",
+      "bytes": 141572,
+      "contentType": "application/octet-stream",
+      "sha256": "92db200bb585ffe153ce7f331ef3d2d126c2b97bc79321d188947122b88d7edf",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-basic/environment-basic.gb"
+    },
+    {
+      "assetPath": "bundles/bali/game-basic/trains-basic.gb",
+      "bytes": 23220,
+      "contentType": "application/octet-stream",
+      "sha256": "9d975a3aff75056e9d5066ba88093dbd3efeeceba6b57a45b2c735cdba83ce59",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-basic/trains-basic.gb"
+    },
+    {
+      "assetPath": "bundles/bali/game-full/environment-full.gb",
+      "bytes": 2074392,
+      "contentType": "application/octet-stream",
+      "sha256": "3aad943c6c5c1f2a6ced19a27655f16e20cd03870fdc96d11a325e56c9b73dd9",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-full/environment-full.gb"
+    },
+    {
+      "assetPath": "bundles/bali/game-full/trains-full.gb",
+      "bytes": 94036,
+      "contentType": "application/octet-stream",
+      "sha256": "df68d5353368f7749832c3186bb45c6d21f47eed56b36e6a5ec4cb6f6c0824a8",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-full/trains-full.gb"
+    },
+    {
+      "assetPath": "bundles/bali/game-idle/environment-idle.gb",
+      "bytes": 41360,
+      "contentType": "application/octet-stream",
+      "sha256": "311972489941462a49b9cabb702a05a56f8add1c0e1cc4b60f72c5c534acc445",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/environment-idle.gb"
+    },
+    {
+      "assetPath": "bundles/bali/game-idle/environment-tex@2x.webp",
+      "bytes": 20808,
+      "contentType": "image/webp",
+      "sha256": "353a7fa8c2adb08b7277a625e83df91128a9d0e73992b957930edd8f5696bd37",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/environment-tex@2x.webp"
+    },
+    {
+      "assetPath": "bundles/bali/game-idle/train-start.png",
+      "bytes": 18156,
+      "contentType": "image/png",
+      "sha256": "6823870765e8d0aace4a4dff38a055e91cc4ba7f5591f3ff5aa96ba2eff72e9c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/train-start.png"
+    },
+    {
+      "assetPath": "bundles/bali/game-idle/trains-idle.gb",
+      "bytes": 58780,
+      "contentType": "application/octet-stream",
+      "sha256": "2aa41768232909272cce02cdeb95b83efa269e811f92470e1e84cd8cbb0585fc",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/game-idle/trains-idle.gb"
+    },
+    {
+      "assetPath": "bundles/bali/manifest.json",
+      "bytes": 3361,
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "694339363f19830d91288c3528cff4b05f944958df7dcc4e13e1745ad3f24f41",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/bundles/bali/manifest.json"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3084,
+      "contentType": "text/html",
+      "sha256": "0317621299f3a131cc6b653cb5988aa69015a815781c88d9f6ea97a01df4b677",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/index.html",
+      "restoredFromVeuCapture": true
+    },
+    {
+      "assetPath": "js/boot.js",
+      "bytes": 3041,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "72a528336417dac9fe6e98e416f7831b93bfadbe0d48a90da866e9424200a9cb",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/boot.js"
+    },
+    {
+      "assetPath": "js/dependencies.bundle.js",
+      "bytes": 1698531,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "6bb4e194374998cf8cde01c6d826d7cc0732ce656f60bf964a25eea64ad8d63a",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/dependencies.bundle.js"
+    },
+    {
+      "assetPath": "js/dependencies.bundle.js.LICENSE.txt",
+      "bytes": 8900,
+      "contentType": "text/plain",
+      "sha256": "b3fd599d8175931d8eff16912b7a3bd54788d8c179f39c845195bd9d8eb4c90d",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/dependencies.bundle.js.LICENSE.txt"
+    },
+    {
+      "assetPath": "js/index.js",
+      "bytes": 1219657,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "2ff3957161a505cc4af4e61c5d9c6ba49b54f229835707a54ba02bd3924a6d40",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/index.js"
+    },
+    {
+      "assetPath": "js/loading.js",
+      "bytes": 2748,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "d3ee5afcc647d1422386ce7893f943073086b7424ab8cb109469d8da1ed8413c",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/loading.js"
+    },
+    {
+      "assetPath": "js/workers/worker.616dde51248bd0b4ac82.js",
+      "bytes": 119163,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "07636e002a6ed927480d3131c357a6e3840eb6787be390a28de6d5e0096a2f53",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/js/workers/worker.616dde51248bd0b4ac82.js"
+    },
+    {
+      "assetPath": "subwaysurfers.webmanifest",
+      "bytes": 1524,
+      "contentType": "text/plain; charset=utf-8",
+      "sha256": "d3a82a6180be150cd666e9a6c714cc78c6061e004fbdb543dbf29c46d99b1de4",
+      "source": "https://5dd312fa-015f-11ea-ad56-9cb6d0d995f7.gdn.poki.com/b05f1bb8-3159-4c02-8066-4dc1327308e0/subwaysurfers.webmanifest"
+    }
+  ],
+  "skipped": [
+    {
+      "assetPath": "js/index.js.LICENSE.txt",
+      "skipped": true,
+      "status": 404
+    }
+  ],
+  "errors": []
 }

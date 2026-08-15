@@ -1,0 +1,33 @@
+{
+  "name": "Go Battle 2",
+  "sourcePage": "https://poki.com/en/g/go-battle-2",
+  "engine": "GameMaker HTML5",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3096,
+      "sha256": "0da44b22ab98769c155109f6e0cb67864faac96fbe69de56bdff441e9d26a19f"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 1054,
+      "sha256": "e7749cafc6300f11f202e7b90111daceb4eb152a461bce4a905a38104902c27b"
+    },
+    {
+      "assetPath": "js/tiptap-poki-gate.js",
+      "bytes": 672,
+      "sha256": "e304564c2f50efaab3d76ec28be4dced1b6022dbd7d39ffb32d164300aa2ebcc"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 2408,
+      "sha256": "3105ddbba605bf4459d53c7439772f2acee69683a87200f0539b703fca02b573"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 947,
+      "sha256": "82e4d1b15986a88c8437145394a5123befcf07e8213cdd6d5b7034e4507d14a8"
+    }
+  ],
+  "files": []
+}

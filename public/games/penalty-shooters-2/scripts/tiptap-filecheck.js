@@ -1,0 +1,1 @@
+if (location.protocol.substr(0, 4) === "file") { alert("Web exports won"t work until you upload them."); }

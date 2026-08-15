@@ -76,25 +76,6 @@
             <script type="text/javascript" src="html5game/GoBattle2Poki_tio.js?GCAZB=1869386675"></script>
 
         <!-- Poki gate (local shim) -->
-            <script>(function() {
-                function fin(ok) {
-                    window.PokiSDK_OK = ok;
-                    GameMaker_Init();
-                }
-                window.addEventListener("load", function(_) {
-                    window.PokiSDK_loadState = 0;
-                    if (window.PokiSDK) {
-                        PokiSDK.init().then(function() {
-                        fin(true);
-                    }).catch(function() {
-                        fin(false);
-                    });
-                    } else {
-                        window.PokiSDK = null;
-                        fin(false);
-                    }
-                });
-                })();
-            </script>
+            <script src="js/tiptap-poki-gate.js"></script>
     </body>
 </html>

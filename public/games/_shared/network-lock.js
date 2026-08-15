@@ -1,5 +1,7 @@
 (() => {
   "use strict";
+  // Load-time marker: proves the lock executed before any game code.
+  window.__TIPTAP_NETWORK_LOCK__ = true;
 
   const ALLOWED_PROTOCOLS = new Set(["data:", "blob:"]);
   const blocked = [];
@@ -286,5 +288,39 @@
     };
     if (document.documentElement) startObserver();
     else document.addEventListener("DOMContentLoaded", startObserver, { once: true });
+  }
+
+  // Scripts injected at runtime (document.createElement("script").src =
+  // "https://...") are a common Poki SDK / analytics vector.
+  if (typeof HTMLScriptElement === "function") {
+    const sp = HTMLScriptElement.prototype, sd = Object.getOwnPropertyDescriptor(sp, "src");
+    if (sd && typeof sd.set === "function") {
+      try { Object.defineProperty(sp, "src", {
+        configurable: true, enumerable: sd.enumerable,
+        get() { return sd.get ? sd.get.call(this) : this.getAttribute("src"); },
+        set(v) { if (v && !allowed(v)) { report("script-src", v); return; } sd.set.call(this, v); },
+      }); } catch {}
+    }
+    const scriptScan = (node) => {
+      if (!node || node.nodeType !== 1) return;
+      if (node.tagName === "SCRIPT") { const src = node.getAttribute("src") || node.src; if (src && !allowed(src)) { report("script-observed", src); node.removeAttribute("src"); node.textContent = ""; } }
+      if (typeof node.querySelectorAll === "function") node.querySelectorAll("script").forEach(s => { const src = s.getAttribute("src") || s.src; if (src && !allowed(src)) { report("script-observed", src); s.removeAttribute("src"); s.textContent = ""; } });
+    };
+    const scriptObs = new MutationObserver(mutations => { mutations.forEach(m => m.addedNodes && m.addedNodes.forEach(scriptScan)); });
+    const startScriptObs = () => { scriptObs.observe(document.documentElement, { childList: true, subtree: true }); scriptScan(document.documentElement); };
+    if (document.documentElement) startScriptObs();
+    else document.addEventListener("DOMContentLoaded", startScriptObs, { once: true });
+  }
+
+  // Pixel/beacon trackers use new Image().src.
+  if (typeof HTMLImageElement === "function") {
+    const ip = HTMLImageElement.prototype, id = Object.getOwnPropertyDescriptor(ip, "src");
+    if (id && typeof id.set === "function") {
+      try { Object.defineProperty(ip, "src", {
+        configurable: true, enumerable: id.enumerable,
+        get() { return id.get ? id.get.call(this) : this.getAttribute("src"); },
+        set(v) { if (v && !allowed(v)) { report("image-src", v); return; } id.set.call(this, v); },
+      }); } catch {}
+    }
   }
 })();

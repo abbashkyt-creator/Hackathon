@@ -1,0 +1,1046 @@
+{
+    "c2array": true,
+    "size": [
+        14,
+        24,
+        1
+    ],
+    "data": [
+        [
+            [
+                "en"
+            ],
+            [
+                "moves "
+            ],
+            [
+                " takes the domino"
+            ],
+            [
+                "You won!"
+            ],
+            [
+                " won!"
+            ],
+            [
+                "Searching for players"
+            ],
+            [
+                "Starting the game..."
+            ],
+            [
+                "Players at the table:"
+            ],
+            [
+                "You won!"
+            ],
+            [
+                ""
+            ],
+            [
+                "He reached & points faster than anyone else, congratulations!"
+            ],
+            [
+                " You reached & points faster than anyone else, congratulations!"
+            ],
+            [
+                "Play again?"
+            ],
+            [
+                "Yes"
+            ],
+            [
+                "Exit to menu"
+            ],
+            [
+                "Points to win:"
+            ],
+            [
+                "Play"
+            ],
+            [
+                "Select"
+            ],
+            [
+                "Selected"
+            ],
+            [
+                "Buy random"
+            ],
+            [
+                "Take"
+            ],
+            [
+                "Wins"
+            ],
+            [
+                "Defeat!"
+            ],
+            [
+                "Your Rank:"
+            ]
+        ],
+        [
+            [
+                "ru"
+            ],
+            [
+                " ходит"
+            ],
+            [
+                " берет домино"
+            ],
+            [
+                "Ты\\nвыиграл!"
+            ],
+            [
+                " победил!"
+            ],
+            [
+                "Идет поиск игроков"
+            ],
+            [
+                "Начинаем игру..."
+            ],
+            [
+                "Игроков за столом:"
+            ],
+            [
+                "Ты"
+            ],
+            [
+                "выиграл!"
+            ],
+            [
+                "Он быстрее всех набрал & очков, поздравляем!"
+            ],
+            [
+                "Ты быстрее всех набрал & очков, поздравляем!"
+            ],
+            [
+                "Сыграть ещё?"
+            ],
+            [
+                "Да"
+            ],
+            [
+                "Выйти в меню"
+            ],
+            [
+                "Очков до победы:"
+            ],
+            [
+                "Играть"
+            ],
+            [
+                "Выбрать"
+            ],
+            [
+                "Выбрано"
+            ],
+            [
+                "Купить случайно"
+            ],
+            [
+                "Забрать"
+            ],
+            [
+                "Побед"
+            ],
+            [
+                "Поражение!"
+            ],
+            [
+                "Ваш ранг:"
+            ]
+        ],
+        [
+            [
+                "de"
+            ],
+            [
+                " ist am Zug"
+            ],
+            [
+                " nimmt ein Domino"
+            ],
+            [
+                "Du hast gewonnen!"
+            ],
+            [
+                " hat gewonnen!"
+            ],
+            [
+                "Spieler werden gesucht"
+            ],
+            [
+                "Spiel wird gestartet..."
+            ],
+            [
+                "Spieler am Tisch:"
+            ],
+            [
+                "Du hast"
+            ],
+            [
+                "gewonnen!"
+            ],
+            [
+                "Er hat als Erster 100 Punkte erreicht, herzlichen Glückwunsch!"
+            ],
+            [
+                "Du hast als Erster 100 Punkte erreicht, herzlichen Glückwunsch!"
+            ],
+            [
+                "Noch einmal spielen?"
+            ],
+            [
+                "Ja"
+            ],
+            [
+                "Zum Menü zurückkehren"
+            ],
+            [
+                "Punkte zum Sieg:"
+            ],
+            [
+                "Spielen"
+            ],
+            [
+                "Auswählen"
+            ],
+            [
+                "Ausgewählt"
+            ],
+            [
+                "Zufällig kaufen"
+            ],
+            [
+                "Nehmen"
+            ],
+            [
+                "Siege"
+            ],
+            [
+                "Niederlage!"
+            ],
+            [
+                "Dein Rang:"
+            ]
+        ],
+        [
+            [
+                "arb"
+            ],
+            [
+                " يتحرك"
+            ],
+            [
+                " يأخذ الدومينو"
+            ],
+            [
+                "لقد فزت!"
+            ],
+            [
+                " فاز!"
+            ],
+            [
+                "يتم البحث عن اللاعبين"
+            ],
+            [
+                "نبدأ اللعبة..."
+            ],
+            [
+                "عدد اللاعبين على الطاولة:"
+            ],
+            [
+                "لقد فزت!"
+            ],
+            [
+                ""
+            ],
+            [
+                "لقد جمع 100 نقطة أسرع من الجميع، نهنئه!"
+            ],
+            [
+                "لقد جمعت 100 نقطة أسرع من الجميع، نهنئك!"
+            ],
+            [
+                "هل تريد اللعب مرة أخرى؟"
+            ],
+            [
+                "نعم"
+            ],
+            [
+                "العودة إلى القائمة"
+            ],
+            [
+                "النقاط المطلوبة للفوز:"
+            ],
+            [
+                "العب"
+            ],
+            [
+                "اختر"
+            ],
+            [
+                "مُختار"
+            ],
+            [
+                "شراء عشوائيًا"
+            ],
+            [
+                "خذ"
+            ],
+            [
+                "انتصارات"
+            ],
+            [
+                "هزيمة!"
+            ],
+            [
+                "رتبتك:"
+            ]
+        ],
+        [
+            [
+                "hin"
+            ],
+            [
+                " चलता है"
+            ],
+            [
+                " डोमिनो लेता है"
+            ],
+            [
+                "तुम जीत गए!"
+            ],
+            [
+                " जीत गया!"
+            ],
+            [
+                "खिलाड़ियों की खोज की जा रही है"
+            ],
+            [
+                "खेल शुरू कर रहे हैं..."
+            ],
+            [
+                "मेज़ पर खिलाड़ियों की संख्या:"
+            ],
+            [
+                "तुम"
+            ],
+            [
+                "जीत गए!"
+            ],
+            [
+                "उसने सबसे तेज़ 100 अंक हासिल किए, बधाई हो!"
+            ],
+            [
+                "आपने सबसे तेज़ 100 अंक हासिल किए, बधाई हो!"
+            ],
+            [
+                " फिर से खेलना चाहते हैं?"
+            ],
+            [
+                "हाँ"
+            ],
+            [
+                "मेनू पर वापस जाएं"
+            ],
+            [
+                "जीतने के लिए आवश्यक अंक:"
+            ],
+            [
+                "खेलें"
+            ],
+            [
+                "चुनें"
+            ],
+            [
+                "चुना गया"
+            ],
+            [
+                "यादृच्छिक रूप से खरीदें"
+            ],
+            [
+                "लेना"
+            ],
+            [
+                "जीतें"
+            ],
+            [
+                "हार!"
+            ],
+            [
+                "आपकी रैंक:"
+            ]
+        ],
+        [
+            [
+                "chi"
+            ],
+            [
+                "行动"
+            ],
+            [
+                "拿骨牌"
+            ],
+            [
+                "你赢了！"
+            ],
+            [
+                "赢了！"
+            ],
+            [
+                "正在搜索玩家"
+            ],
+            [
+                "开始游戏..."
+            ],
+            [
+                "桌上玩家数:"
+            ],
+            [
+                "你赢了！"
+            ],
+            [
+                ""
+            ],
+            [
+                "他最快获得了100分，祝贺他！"
+            ],
+            [
+                "你最快获得了100分，祝贺你！"
+            ],
+            [
+                "再玩一次吗？"
+            ],
+            [
+                "是的"
+            ],
+            [
+                "返回菜单"
+            ],
+            [
+                "获胜所需分数:"
+            ],
+            [
+                "开始游戏"
+            ],
+            [
+                "选择"
+            ],
+            [
+                "已选择"
+            ],
+            [
+                "随机购买"
+            ],
+            [
+                "拿取"
+            ],
+            [
+                "胜利"
+            ],
+            [
+                "失败！"
+            ],
+            [
+                "你的排名："
+            ]
+        ],
+        [
+            [
+                "co"
+            ],
+            [
+                "이 이동합니다"
+            ],
+            [
+                "이 도미노를 가져간다"
+            ],
+            [
+                "당신이 이겼습니다!"
+            ],
+            [
+                "이 이겼습니다!"
+            ],
+            [
+                "플레이어를 검색 중입니다"
+            ],
+            [
+                "게임을 시작합니다..."
+            ],
+            [
+                "테이블의 플레이어 수:"
+            ],
+            [
+                "당신이"
+            ],
+            [
+                "이겼습니다!"
+            ],
+            [
+                "그가 가장 빨리 100점을 얻었습니다. 축하합니다!"
+            ],
+            [
+                "당신이 가장 빨리 100점을 얻었습니다. 축하합니다!"
+            ],
+            [
+                "다시 플레이하시겠습니까?"
+            ],
+            [
+                "네"
+            ],
+            [
+                "메뉴로 나가기"
+            ],
+            [
+                "승리까지 필요한 점수:"
+            ],
+            [
+                "게임 시작"
+            ],
+            [
+                "선택"
+            ],
+            [
+                "선택됨"
+            ],
+            [
+                "무작위 구매"
+            ],
+            [
+                "가져가기"
+            ],
+            [
+                "승리"
+            ],
+            [
+                "패배!"
+            ],
+            [
+                "당신의 랭크:"
+            ]
+        ],
+        [
+            [
+                "ja"
+            ],
+            [
+                "が動く"
+            ],
+            [
+                "がドミノを取る"
+            ],
+            [
+                "あなたが勝ちました！"
+            ],
+            [
+                "が勝ちました！"
+            ],
+            [
+                "プレイヤーを検索中です"
+            ],
+            [
+                "ゲームを開始します..."
+            ],
+            [
+                "テーブルのプレイヤー数:"
+            ],
+            [
+                "あなたが"
+            ],
+            [
+                "勝ちました！"
+            ],
+            [
+                "彼が最速で100ポイントを獲得しました、おめでとうございます！"
+            ],
+            [
+                "あなたが最速で100ポイントを獲得しました、おめでとうございます！"
+            ],
+            [
+                "もう一度プレイしますか？"
+            ],
+            [
+                "はい"
+            ],
+            [
+                "メニューに戻る"
+            ],
+            [
+                "勝利に必要な得点:"
+            ],
+            [
+                "プレイ開始"
+            ],
+            [
+                "選択"
+            ],
+            [
+                "選択中"
+            ],
+            [
+                "ランダム購入"
+            ],
+            [
+                "取る"
+            ],
+            [
+                "勝利"
+            ],
+            [
+                "敗北！"
+            ],
+            [
+                "あなたのランク:"
+            ]
+        ],
+        [
+            [
+                "pt"
+            ],
+            [
+                " se move"
+            ],
+            [
+                " pega o dominó"
+            ],
+            [
+                "Você venceu!"
+            ],
+            [
+                " venceu!"
+            ],
+            [
+                "Procurando jogadores"
+            ],
+            [
+                "Iniciando o jogo..."
+            ],
+            [
+                "Jogadores na mesa:"
+            ],
+            [
+                "Você"
+            ],
+            [
+                "venceu!"
+            ],
+            [
+                "Ele marcou 100 pontos mais rápido que todos, parabéns!"
+            ],
+            [
+                "Você marcou 100 pontos mais rápido que todos, parabéns!"
+            ],
+            [
+                "Jogar novamente?"
+            ],
+            [
+                "Sim"
+            ],
+            [
+                "Sair para o menu"
+            ],
+            [
+                "Pontos para vencer:"
+            ],
+            [
+                "Jogar"
+            ],
+            [
+                "Selecionar"
+            ],
+            [
+                "Selecionado"
+            ],
+            [
+                "Comprar aleatoriamente"
+            ],
+            [
+                "Pegar"
+            ],
+            [
+                "Vitórias"
+            ],
+            [
+                "Derrota!"
+            ],
+            [
+                "Sua classificação:"
+            ]
+        ],
+        [
+            [
+                "pl"
+            ],
+            [
+                " wykonuje ruch"
+            ],
+            [
+                " bierze domino"
+            ],
+            [
+                "Wygrałeś!"
+            ],
+            [
+                " wygrał!"
+            ],
+            [
+                "Trwa wyszukiwanie graczy"
+            ],
+            [
+                "Rozpoczynamy grę..."
+            ],
+            [
+                "Graczy przy stole:"
+            ],
+            [
+                "Wygrałeś!"
+            ],
+            [
+                ""
+            ],
+            [
+                "Zdobył 100 punktów szybciej niż wszyscy, gratulacje!"
+            ],
+            [
+                "Zdobyłeś 100 punktów szybciej niż wszyscy, gratulacje!"
+            ],
+            [
+                "Zagrać jeszcze raz?"
+            ],
+            [
+                "Tak"
+            ],
+            [
+                "Wyjść do menu"
+            ],
+            [
+                "Punkty do zwycięstwa:"
+            ],
+            [
+                "Graj"
+            ],
+            [
+                "Wybierz"
+            ],
+            [
+                "Wybrano"
+            ],
+            [
+                "Kup losowo"
+            ],
+            [
+                "Weź"
+            ],
+            [
+                "Zwycięstwa"
+            ],
+            [
+                "Porażka!"
+            ],
+            [
+                "Twój ranking:"
+            ]
+        ],
+        [
+            [
+                "tr"
+            ],
+            [
+                " hareket ediyor"
+            ],
+            [
+                " domino alır"
+            ],
+            [
+                "Kazandın!"
+            ],
+            [
+                " kazandı!"
+            ],
+            [
+                "Oyuncular aranıyor"
+            ],
+            [
+                "Oyuna başlıyoruz..."
+            ],
+            [
+                "Masadaki oyuncu sayısı:"
+            ],
+            [
+                "Kazandın!"
+            ],
+            [
+                ""
+            ],
+            [
+                "100 puanı herkesten önce topladı, tebrikler!"
+            ],
+            [
+                "100 puanı herkesten önce topladın, tebrikler!"
+            ],
+            [
+                "Tekrar oynamak ister misiniz?"
+            ],
+            [
+                "Evet"
+            ],
+            [
+                "Menüye dön"
+            ],
+            [
+                "Kazanmak için gereken puan:"
+            ],
+            [
+                "Oyna"
+            ],
+            [
+                "Seç"
+            ],
+            [
+                "Seçildi"
+            ],
+            [
+                "Rastgele satın al"
+            ],
+            [
+                "Al"
+            ],
+            [
+                "Galibiyetler"
+            ],
+            [
+                "Mağlubiyet!"
+            ],
+            [
+                "Sıralamanız:"
+            ]
+        ],
+        [
+            [
+                "it"
+            ],
+            [
+                " si muove"
+            ],
+            [
+                " prende il domino"
+            ],
+            [
+                "Hai vinto!"
+            ],
+            [
+                " ha vinto!"
+            ],
+            [
+                "Ricerca di giocatori in corso"
+            ],
+            [
+                "Iniziamo il gioco..."
+            ],
+            [
+                "Giocatori al tavolo:"
+            ],
+            [
+                "Hai vinto!"
+            ],
+            [
+                ""
+            ],
+            [
+                "Ha raggiunto 100 punti più velocemente di tutti, congratulazioni!"
+            ],
+            [
+                "Hai raggiunto 100 punti più velocemente di tutti, congratulazioni!"
+            ],
+            [
+                "Vuoi giocare di nuovo?"
+            ],
+            [
+                "Sì"
+            ],
+            [
+                "Torna al menu"
+            ],
+            [
+                "Punti per vincere:"
+            ],
+            [
+                "Gioca"
+            ],
+            [
+                "Seleziona"
+            ],
+            [
+                "Selezionato"
+            ],
+            [
+                "Acquisto casuale"
+            ],
+            [
+                "Prendi"
+            ],
+            [
+                "Vittorie"
+            ],
+            [
+                "Sconfitta!"
+            ],
+            [
+                "Il tuo grado:"
+            ]
+        ],
+        [
+            [
+                "es"
+            ],
+            [
+                " se mueve"
+            ],
+            [
+                " toma el dominó"
+            ],
+            [
+                "¡Has ganado!"
+            ],
+            [
+                " ha ganado!"
+            ],
+            [
+                "Buscando jugadores"
+            ],
+            [
+                "Iniciando el juego..."
+            ],
+            [
+                "Jugadores en la mesa:"
+            ],
+            [
+                "¡Has ganado!"
+            ],
+            [
+                ""
+            ],
+            [
+                "¡Él alcanzó los 100 puntos más rápido que todos, felicidades!"
+            ],
+            [
+                "¡Has alcanzado los 100 puntos más rápido que todos, felicidades!"
+            ],
+            [
+                "¿Jugar otra vez?"
+            ],
+            [
+                "Sí"
+            ],
+            [
+                "Salir al menú"
+            ],
+            [
+                "Puntos para ganar:"
+            ],
+            [
+                "Jugar"
+            ],
+            [
+                "Seleccionar"
+            ],
+            [
+                "Seleccionado"
+            ],
+            [
+                "Comprar al azar"
+            ],
+            [
+                "Tomar"
+            ],
+            [
+                "Victorias"
+            ],
+            [
+                "¡Derrota!"
+            ],
+            [
+                "Tu rango:"
+            ]
+        ],
+        [
+            [
+                "fr"
+            ],
+            [
+                " joue"
+            ],
+            [
+                " prend le domino"
+            ],
+            [
+                "Tu as gagné!"
+            ],
+            [
+                " a gagné!"
+            ],
+            [
+                "Recherche de joueurs en cours"
+            ],
+            [
+                "Démarrage du jeu..."
+            ],
+            [
+                "Joueurs à la table:"
+            ],
+            [
+                "Tu as gagné!"
+            ],
+            [
+                ""
+            ],
+            [
+                "Il a atteint 100 points plus vite que tout le monde, félicitations !"
+            ],
+            [
+                "Tu as atteint 100 points plus vite que tout le monde, félicitations !"
+            ],
+            [
+                "Rejouer ?"
+            ],
+            [
+                "Oui"
+            ],
+            [
+                "Retourner au menu"
+            ],
+            [
+                "Points pour gagner :"
+            ],
+            [
+                "Jouer"
+            ],
+            [
+                "Sélectionner"
+            ],
+            [
+                "Sélectionné"
+            ],
+            [
+                "Acheter au hasard"
+            ],
+            [
+                "Prendre"
+            ],
+            [
+                "Victoires"
+            ],
+            [
+                "Défaite !"
+            ],
+            [
+                "Votre rang :"
+            ]
+        ]
+    ]
+}

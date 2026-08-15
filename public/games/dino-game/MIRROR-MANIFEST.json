@@ -1,115 +1,115 @@
 {
-    "name":  "Dinosaur Game",
-    "sourcePage":  "https://poki.com/en/g/dinosaur-game",
-    "sourceRoot":  "https://a4e4a244-d11b-4d94-b1d8-deb2dbbaff02.gdn.poki.com/09a3212c-2757-4232-93dc-c002f4ac007f/",
-    "gameId":  "a4e4a244-d11b-4d94-b1d8-deb2dbbaff02",
-    "gameVersionId":  "09a3212c-2757-4232-93dc-c002f4ac007f",
-    "capturedWith":  "Visual Editor Ultimate",
-    "integrationFiles":  [
-                             {
-                                 "sha256":  "04850e851932bc455d55572e7f86109109cd1f01229c53c47c36bcfe5cdbb93b",
-                                 "assetPath":  "index.html",
-                                 "bytes":  3421,
-                                 "purpose":  "Local bridge and network lock"
-                             },
-                             {
-                                 "sha256":  "9870f2b744218e1764821188d265a33b8a13671a0813480444ffd959b922e1e3",
-                                 "assetPath":  "NOTICE.txt",
-                                 "bytes":  986,
-                                 "purpose":  "Notice"
-                             },
-                             {
-                                 "sha256":  "5974154a529ea1ca469f42c1acf24a8cd74895b6a6ffdc2889dcc621d47e7a4e",
-                                 "assetPath":  "js/tiptap-platform-bridge.js",
-                                 "bytes":  4196,
-                                 "purpose":  "Same-origin owned-ad and lifecycle bridge"
-                             }
-                         ],
-    "files":  [
-                  {
-                      "assetPath":  "img/1x-cloud.png",
-                      "bytes":  140,
-                      "sha256":  "7a5d37f714d830591ac6faefe1fa9c1eec6991ccc5764e793349242ed19aca15"
-                  },
-                  {
-                      "assetPath":  "img/1x-horizon.png",
-                      "bytes":  266,
-                      "sha256":  "8b1b30964ec10d2bdc9a9ab35f908c793655a5bb6cdf74b3f910ee5df601d870"
-                  },
-                  {
-                      "assetPath":  "img/1x-obstacle-large.png",
-                      "bytes":  467,
-                      "sha256":  "0755aad396fce2da33c12c0a066a0ebde1bc8d4cb3fdcf72f28988b6127e0388"
-                  },
-                  {
-                      "assetPath":  "img/1x-obstacle-small.png",
-                      "bytes":  337,
-                      "sha256":  "64bd1ff1354da4c762269144134b1606de540ec18d31500c138a334edd9f5ef4"
-                  },
-                  {
-                      "assetPath":  "img/1x-restart.png",
-                      "bytes":  159,
-                      "sha256":  "685836275410cf00e8fd839b7eb98e59586e3a3719a35271f64cd860697daabd"
-                  },
-                  {
-                      "assetPath":  "img/1x-text.png",
-                      "bytes":  325,
-                      "sha256":  "cbe81d8cb1df02f7fb7ef6188ba7b21e7e0d725c14a284a75a41bd7eb03754fd"
-                  },
-                  {
-                      "assetPath":  "img/1x-trex.png",
-                      "bytes":  344,
-                      "sha256":  "2cb2e67b6e991a5f5d6c10086f40e1ada80fb3a3f94e5beab064135edd9f57ca"
-                  },
-                  {
-                      "assetPath":  "img/2x-cloud.png",
-                      "bytes":  169,
-                      "sha256":  "30a997768f065ef0b6db3be01c5726d95180379855808c589925929856f9e31c"
-                  },
-                  {
-                      "assetPath":  "img/2x-horizon.png",
-                      "bytes":  323,
-                      "sha256":  "087e54b29e4a04ebdde9ef95bd0f6d8f6291062740023352ec760c919681467b"
-                  },
-                  {
-                      "assetPath":  "img/2x-obstacle-large.png",
-                      "bytes":  522,
-                      "sha256":  "15122980cc728eab592de55cb9c821d3fd029ee04cfc7274dcd177a280d31551"
-                  },
-                  {
-                      "assetPath":  "img/2x-obstacle-small.png",
-                      "bytes":  372,
-                      "sha256":  "b3e1aa6739a55ea9793ed66b2c16eeaf0205af45577313f58267d26315b956eb"
-                  },
-                  {
-                      "assetPath":  "img/2x-restart.png",
-                      "bytes":  190,
-                      "sha256":  "dfd977acb1874efbc35cecc1470fad603babcfd5d59c9bd4412879ed7755069a"
-                  },
-                  {
-                      "assetPath":  "img/2x-text.png",
-                      "bytes":  335,
-                      "sha256":  "6b920f14ec0be12bf96796b6e2144730991f5799711fc5d94f34d61729943a8c"
-                  },
-                  {
-                      "assetPath":  "img/2x-trex.png",
-                      "bytes":  389,
-                      "sha256":  "be0621d153ba57e9996694760765350d85cc9bd2249a4fda37f14e6a49e6994e"
-                  },
-                  {
-                      "assetPath":  "sounds/offline-sound-hit.mp3",
-                      "bytes":  5730,
-                      "sha256":  "509119d93ad46588bb330377570ef53dec8be9bca9ab691c744c8447d3c0528b"
-                  },
-                  {
-                      "assetPath":  "sounds/offline-sound-press.mp3",
-                      "bytes":  3755,
-                      "sha256":  "20290f3c46881b4a7dcbeb170696a0b22686e904692edc80422165db4449ea35"
-                  },
-                  {
-                      "assetPath":  "sounds/offline-sound-reached.mp3",
-                      "bytes":  7497,
-                      "sha256":  "e5409ef55093e1ac769dcd93be3f7036192384c361f88ff9a7010370420bdcab"
-                  }
-              ]
+  "name": "Dinosaur Game",
+  "sourcePage": "https://poki.com/en/g/dinosaur-game",
+  "sourceRoot": "https://a4e4a244-d11b-4d94-b1d8-deb2dbbaff02.gdn.poki.com/09a3212c-2757-4232-93dc-c002f4ac007f/",
+  "gameId": "a4e4a244-d11b-4d94-b1d8-deb2dbbaff02",
+  "gameVersionId": "09a3212c-2757-4232-93dc-c002f4ac007f",
+  "capturedWith": "Visual Editor Ultimate",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3421,
+      "sha256": "04850e851932bc455d55572e7f86109109cd1f01229c53c47c36bcfe5cdbb93b",
+      "purpose": "Local bridge and network lock"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 986,
+      "sha256": "9870f2b744218e1764821188d265a33b8a13671a0813480444ffd959b922e1e3",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 4196,
+      "sha256": "5974154a529ea1ca469f42c1acf24a8cd74895b6a6ffdc2889dcc621d47e7a4e",
+      "purpose": "Same-origin owned-ad and lifecycle bridge"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "img/1x-cloud.png",
+      "bytes": 140,
+      "sha256": "7a5d37f714d830591ac6faefe1fa9c1eec6991ccc5764e793349242ed19aca15"
+    },
+    {
+      "assetPath": "img/1x-horizon.png",
+      "bytes": 266,
+      "sha256": "8b1b30964ec10d2bdc9a9ab35f908c793655a5bb6cdf74b3f910ee5df601d870"
+    },
+    {
+      "assetPath": "img/1x-obstacle-large.png",
+      "bytes": 467,
+      "sha256": "0755aad396fce2da33c12c0a066a0ebde1bc8d4cb3fdcf72f28988b6127e0388"
+    },
+    {
+      "assetPath": "img/1x-obstacle-small.png",
+      "bytes": 337,
+      "sha256": "64bd1ff1354da4c762269144134b1606de540ec18d31500c138a334edd9f5ef4"
+    },
+    {
+      "assetPath": "img/1x-restart.png",
+      "bytes": 159,
+      "sha256": "685836275410cf00e8fd839b7eb98e59586e3a3719a35271f64cd860697daabd"
+    },
+    {
+      "assetPath": "img/1x-text.png",
+      "bytes": 325,
+      "sha256": "cbe81d8cb1df02f7fb7ef6188ba7b21e7e0d725c14a284a75a41bd7eb03754fd"
+    },
+    {
+      "assetPath": "img/1x-trex.png",
+      "bytes": 344,
+      "sha256": "2cb2e67b6e991a5f5d6c10086f40e1ada80fb3a3f94e5beab064135edd9f57ca"
+    },
+    {
+      "assetPath": "img/2x-cloud.png",
+      "bytes": 169,
+      "sha256": "30a997768f065ef0b6db3be01c5726d95180379855808c589925929856f9e31c"
+    },
+    {
+      "assetPath": "img/2x-horizon.png",
+      "bytes": 323,
+      "sha256": "087e54b29e4a04ebdde9ef95bd0f6d8f6291062740023352ec760c919681467b"
+    },
+    {
+      "assetPath": "img/2x-obstacle-large.png",
+      "bytes": 522,
+      "sha256": "15122980cc728eab592de55cb9c821d3fd029ee04cfc7274dcd177a280d31551"
+    },
+    {
+      "assetPath": "img/2x-obstacle-small.png",
+      "bytes": 372,
+      "sha256": "b3e1aa6739a55ea9793ed66b2c16eeaf0205af45577313f58267d26315b956eb"
+    },
+    {
+      "assetPath": "img/2x-restart.png",
+      "bytes": 190,
+      "sha256": "dfd977acb1874efbc35cecc1470fad603babcfd5d59c9bd4412879ed7755069a"
+    },
+    {
+      "assetPath": "img/2x-text.png",
+      "bytes": 335,
+      "sha256": "6b920f14ec0be12bf96796b6e2144730991f5799711fc5d94f34d61729943a8c"
+    },
+    {
+      "assetPath": "img/2x-trex.png",
+      "bytes": 389,
+      "sha256": "be0621d153ba57e9996694760765350d85cc9bd2249a4fda37f14e6a49e6994e"
+    },
+    {
+      "assetPath": "sounds/offline-sound-hit.mp3",
+      "bytes": 5730,
+      "sha256": "509119d93ad46588bb330377570ef53dec8be9bca9ab691c744c8447d3c0528b"
+    },
+    {
+      "assetPath": "sounds/offline-sound-press.mp3",
+      "bytes": 3755,
+      "sha256": "20290f3c46881b4a7dcbeb170696a0b22686e904692edc80422165db4449ea35"
+    },
+    {
+      "assetPath": "sounds/offline-sound-reached.mp3",
+      "bytes": 7497,
+      "sha256": "e5409ef55093e1ac769dcd93be3f7036192384c361f88ff9a7010370420bdcab"
+    }
+  ]
 }

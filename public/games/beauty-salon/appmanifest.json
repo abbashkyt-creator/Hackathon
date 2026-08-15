@@ -1,0 +1,11 @@
+{
+	"name": "BeautySalon",
+	"short_name": "BeautySalon",
+	"description": "weloplay",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}
