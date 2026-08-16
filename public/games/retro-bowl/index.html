@@ -28,15 +28,15 @@
               height: 100%;
               position: relative;
             }
-            /* Tip Tap local mirror: scale the landscape game canvas to fit the
-               portrait phone frame (letterbox, centered). */
+            /* Tip Tap local mirror: render the canvas at its NATIVE resolution
+               (480x270) so the game's raw-pixel mouse hit-testing aligns with
+               what the user sees. The portrait phone frame letterboxes it. */
             #canvas {
               position: absolute;
               left: 50%;
               top: 50%;
-              width: 100%;
-              height: auto;
-              aspect-ratio: 16 / 9;
+              width: 480px;
+              height: 270px;
               transform: translate(-50%, -50%);
             }
             canvas {

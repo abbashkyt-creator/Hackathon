@@ -9,8 +9,14 @@
     gameLoadingStart: function () { log("gameLoadingStart"); },
     gameLoadingFinished: function () { log("gameLoadingFinished"); },
     gameLoadingProgress: function () { log("gameLoadingProgress"); },
-    gamePlayStart: function () { log("gamePlayStart"); },
-    gamePlayStop: function () { log("gamePlayStop"); },
+    // Real PokiSDK API uses camelCase "gameplayStart"/"gameplayStop" — the
+    // game's vph_poki.js glue calls exactly these; missing them throws a
+    // TypeError that the engine's error handler turns into game_end() and a
+    // frozen canvas. (gamePlayStart/gamePlayStop aliases kept for safety.)
+    gameplayStart: function () { log("gameplayStart"); },
+    gameplayStop: function () { log("gameplayStop"); },
+    gamePlayStart: function () { log("gamePlayStart (alias)"); this.gameplayStart(); },
+    gamePlayStop: function () { log("gamePlayStop (alias)"); this.gameplayStop(); },
     commercialBreak: function () { log("commercialBreak (no-op)"); return Promise.resolve(); },
     rewardedBreak: function () { log("rewardedBreak (no-op)"); return Promise.resolve({ success: true }); },
     happyTime: function () { log("happyTime"); },
