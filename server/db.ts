@@ -215,6 +215,12 @@ const GAME_SEED: StoredGameRecord[] = [
     accent: "#ef4444",
   },
   {
+    slug: "retro-bowl",
+    title: "Retro Bowl",
+    rule_text: "Lead your team to the championship.",
+    accent: "#22c55e",
+  },
+  {
     slug: "penalty-shooters-2",
     title: "Penalty Shooters 2",
     rule_text: "Beat the keeper. Win the cup.",

@@ -29,6 +29,7 @@ export const GAME_SCORE_POLICIES = {
   "tic-tac-toe": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "go-battle-2": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
 
 
 

@@ -36,7 +36,8 @@ export type GameSlug =
   | "penalty-shooters-2"
   | "tic-tac-toe"
   | "go-battle-2"
-  | "stickman-battle";
+  | "stickman-battle"
+  | "retro-bowl";
 
 export interface GameDefinition {
   slug: GameSlug;

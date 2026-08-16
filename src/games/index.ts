@@ -36,3 +36,4 @@ export { PenaltyShooters2Game } from "./PenaltyShooters2Game";
 export { TicTacToeGame } from "./TicTacToeGame";
 export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
+export { RetroBowlGame } from "./RetroBowlGame";

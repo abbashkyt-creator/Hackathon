@@ -84,6 +84,7 @@ import {
   TicTacToeGame,
   GoBattle2Game,
   StickmanBattleGame,
+  RetroBowlGame,
 } from "./games";
 import type {
   BootstrapData,
@@ -137,6 +138,7 @@ const GAME_COMPONENTS: Record<GameSlug, ComponentType<GameProps>> = {
   "tic-tac-toe": TicTacToeGame,
   "go-battle-2": GoBattle2Game,
   "stickman-battle": StickmanBattleGame,
+  "retro-bowl": RetroBowlGame,
 };
 
 // Smooth feed-button navigation can make an auto-focusing iframe blur the
@@ -185,6 +187,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "tic-tac-toe": "THREE IN A ROW",
   "go-battle-2": "BATTLE ARENA",
   "stickman-battle": "FIGHT!",
+  "retro-bowl": "TOUCHDOWN!",
 };
 
 interface FeedEntry {

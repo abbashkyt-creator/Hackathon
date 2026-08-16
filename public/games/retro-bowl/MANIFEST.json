@@ -1,0 +1,46 @@
+{
+ "game": "retro-bowl",
+ "source": "poki.com CDN (806e2242-df99-4dcd-b6ac-2c20175159a8.gdn.poki.com)",
+ "files": [
+  {
+   "path": "index.html",
+   "size": 3106
+  },
+  {
+   "path": "NOTICE.txt",
+   "size": 973
+  },
+  {
+   "path": "html5game/RetroBowl.js",
+   "size": 7178822
+  },
+  {
+   "path": "html5game/RetroBowl_texture_0.png",
+   "size": 1349
+  },
+  {
+   "path": "html5game/RetroBowl_texture_1.png",
+   "size": 500555
+  },
+  {
+   "path": "html5game/RetroBowl_texture_2.png",
+   "size": 551958
+  },
+  {
+   "path": "html5game/RetroBowl_texture_3.png",
+   "size": 126189
+  },
+  {
+   "path": "html5game/splash.png",
+   "size": 555
+  },
+  {
+   "path": "js/poki-sdk-shim.js",
+   "size": 1860
+  },
+  {
+   "path": "js/tiptap-platform-bridge.js",
+   "size": 861
+  }
+ ]
+}

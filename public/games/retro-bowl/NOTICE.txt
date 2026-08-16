@@ -1,0 +1,22 @@
+Retro Bowl — LOCAL SOURCE MIRROR
+====================================
+
+This directory contains a local mirror of the real Retro Bowl HTML5 game
+(GameMaker:Studio export) as published on poki.com, downloaded from the
+official Poki game CDN for the Tip Tap Games hackathon project.
+
+Original publisher: New Star Games — mirrored with authorization from the
+competition rules / creator permission.
+
+Files mirrored: html5game/RetroBowl.js (7.18MB, full game engine with embedded
+audio), 4 texture pages (RetroBowl_texture_0..3.png), splash.png, locally
+patched index.html.
+
+Modifications:
+- Poki SDK script replaced with a fail-closed local shim (js/poki-sdk-shim.js)
+- Tip Tap platform bridge injected (js/tiptap-platform-bridge.js)
+- network-lock.js + ad-client.js injected (shared)
+- index.html rewritten locally; the original is NOT overwritten
+- Canvas centered + scaled responsively for mobile + desktop
+
+All assets are served locally; no external requests are made.
