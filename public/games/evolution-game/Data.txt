@@ -1,0 +1,228 @@
+Missions{
+    1{
+        Reach[1]
+        Text[Build bridge to next platform]
+        Stat[Pathes]
+    }
+    2{
+        Reach[10]
+        Text[Gather shiny stone %/%M]
+        Stat[E.Wood]
+    }
+    3{
+        Reach[1]
+        Text[Hatch your first egg!]
+        Stat[Eggs]
+    }
+    4{
+        Reach[2]
+        Text[Kill blue aliens %/%M]
+        Stat[E.Blue Alien]
+    }
+    5{
+        Reach[2]
+        Text[Kill red aliens %/%M]
+        Stat[E.Red Alien]
+    }
+    6{
+        Reach[2]
+        Text[Get your second tiny helper!]
+        Stat[Eggs]
+    }
+    7{
+        Reach[1]
+        Text[KILL THE GIANT BOSS]
+        Stat[Bosses]
+    }
+    8{
+        Reach[1]
+        Text[Open portal to next world]
+        Stat[Portal]
+    }
+}
+
+Pets{
+    Common{
+        0[50]
+        1[60]
+        2[90]
+        3[120]
+    }
+    Rare{
+        0[50]
+        1[70]
+        2[100]
+        3[160]
+    }
+    Legendary{
+        0[80]
+        1[100]
+        2[150]
+        3[200]
+    }
+}
+Eggs{
+    Common[100]
+    Common{
+        1[0]1.[89]
+        2[90]
+        3[99]
+    }
+
+    Rare[200]
+    Rare{
+        1[85]
+        2[0]2.[80]
+        3[95]
+    }
+
+    Legendary[500]
+    Legendary{
+        1[99]
+        2[0]2.[88]
+        3[89]
+    }
+}
+Enemies{
+    Info[
+        HP is Hitpoints, P is points, T for trophies & D for damage
+    ]
+    Red Apple{
+        HP[200]
+        P[5]
+        T[1]
+        D[100]
+        Type[Heal]
+    }
+    Golden Apple{
+        HP[300]
+        P[10]
+        T[2]
+        D[200]
+        Type[Heal]
+    }
+    Cherries{
+        HP[400]
+        P[10]
+        T[20]
+        D[100]
+        Type[Heal]
+    }
+    Wood{
+        HP[100]
+        P[2]
+        T[0]
+        D[0]
+        C[Wood]
+        Type[Resource]
+    }
+    Gold{
+        HP[100]
+        P[5]
+        T[0]
+        D[0]
+        C[Gold]
+        Type[Resource]
+    }
+    Tiny Orange{
+        HP[100]
+        P[20]
+        T[1]
+        D[10]
+        Type[Alien]
+    }
+    Blue Alien{
+        HP[500]
+        P[220]
+        T[9]
+        D[100]
+        0{
+            HP[400]
+            P[10]
+            T[2]
+            D[100]
+        }
+        2{
+            HP[1200]
+            P[250]
+            T[12]
+            D[200]
+        }
+        Type[Alien]
+    }
+    Red Alien{
+        HP[500]
+        P[300]
+        T[12]
+        D[200]
+        2{
+            HP[1400]
+            P[350]
+            T[15]
+            D[300]
+        }
+        Type[Alien]
+    }
+    Purple Alien{
+        HP[1200]
+        P[400]
+        T[14]
+        D[300]
+        Type[Alien]
+    }
+    Red Horns{
+        HP[1200]
+        P[400]
+        T[4]
+        D[400]
+        Type[Alien]
+    }
+    Giant Red{
+        HP[1200]
+        P[400]
+        T[36]
+        D[200]
+        Type[Boss]
+    }
+    3 Eyes Blue{
+        HP[1600]
+        P[500]
+        T[50]
+        D[400]
+        Type[Boss]
+    }
+    Boss 3{
+        HP[2400]
+        P[600]
+        T[60]
+        D[500]
+        Type[Boss]
+    }
+}
+Player{
+    1{HP[300]}
+    2{
+        HP[500]
+        P[500]
+    }
+    3{
+        HP[1000]
+        P[1200]
+    }
+    4{
+        HP[1500]
+        P[2000]
+    }
+    5{
+        HP[2000]
+        P[4000]
+    }
+    6{
+        HP[2500]
+        P[5200]
+    }
+    7{
+        HP[3000]
+        P[8000]
+    }
+}

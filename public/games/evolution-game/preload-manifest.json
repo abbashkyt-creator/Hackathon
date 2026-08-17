@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/evolution-game/index.html",
+    "/games/evolution-game/js/poki-sdk-shim.js",
+    "/games/evolution-game/js/tiptap-platform-bridge.js",
+    "/games/evolution-game/js/tiptap-inline-1.js"
+  ]
+}

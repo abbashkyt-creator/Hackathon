@@ -1,0 +1,360 @@
+{
+  "name": "evolution-game",
+  "sourcePage": "https://poki.com/en/g/evolution-game",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1712,
+      "sha256": "e089ef99d8a48350e53642d9d53976815644d7882a05b96975976ea880c706b3",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "9973eddb39bcc480407afbb3a0ba01b39ce9019ea07b8831640a96a8d615262d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "b202fd44200721e8f115548835176f0073379dc87ef72c7c87ce6d1336034d0e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "ec6160696b17f0ebe1f0e2418b6c7ae89a099e21ee7fa6fa4339ca142510fd95",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 428,
+      "sha256": "072ca8478dd9b5cab8ef2c8fcce8855ca35aeec259d9cec69262ab6da2ba802c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 839,
+      "sha256": "8e2671ed2a4de04e8f4954f0ad2ef78d563ae71ebd01770bc0122f8fe9b31556"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 757577,
+      "sha256": "01dd5e1bc16b05d99d8105f17b4c283f30c3a97b0c51f3d75b35237355f68fe9"
+    },
+    {
+      "assetPath": "Data.txt",
+      "bytes": 3464,
+      "sha256": "6974160526ab03b87a722c5a5b3c6e76fd3e7da7a6f8c023f30005b75220a9b5"
+    },
+    {
+      "assetPath": "fonts/MADE Waffle Soft PERSONAL USE.otf",
+      "bytes": 133516,
+      "sha256": "751468c5c277857f3e7764391dfb2e63dadc4adc3c0df052ea8f162909cf9a90"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/Poki_628x628 (1).png",
+      "bytes": 58069,
+      "sha256": "37a4fcbcbe125e520651877817b12300b339a355d2634b332b3ea02746f5c2a4"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet0.webp",
+      "bytes": 247130,
+      "sha256": "a309b645a96758b84cb55c76684c1988542368c43f91be06573afc2d74cb149d"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet1.webp",
+      "bytes": 150812,
+      "sha256": "7070769ea71194dfd4e85a5b67ce602f2a6c1f513bea763972c989cf67af8149"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet2.webp",
+      "bytes": 307928,
+      "sha256": "4799d0c1c47d81e8c4d867fd54c992eead1f396a9be66f7a53645dd1092b8c69"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet3.webp",
+      "bytes": 326252,
+      "sha256": "ee37e63a43304be791b3eb05fa1c6bba5829f0855d82159086b489ebef60dbef"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet4.webp",
+      "bytes": 312098,
+      "sha256": "874aad34f8de292648441e797393a30faf7d8cf073421c6a9a93178bd97c8c67"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet5.webp",
+      "bytes": 36194,
+      "sha256": "caa65326ed4228a28067f304d16b7546c0a3802e76bf24eed80a4aed829794ab"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet6.webp",
+      "bytes": 16084,
+      "sha256": "c8181215bbe766dd34a64b41064c2a91e6c8e1976848b690f56f84ba1aa6c246"
+    },
+    {
+      "assetPath": "images/asteroidattack-sheet7.webp",
+      "bytes": 40,
+      "sha256": "7baa14fceb6999c6f7295f7959950c4a978f741c76f4f499fe9466cded6214f3"
+    },
+    {
+      "assetPath": "images/bush-sheet0.webp",
+      "bytes": 58116,
+      "sha256": "76b195093fa770a4d6e13d1391f8c1a73099aaff2cb380f7d687d241e5db34e5"
+    },
+    {
+      "assetPath": "images/bush-sheet1.webp",
+      "bytes": 4272,
+      "sha256": "1493985ed987773d82ec6a10d9a356b3c3e02f7a12c60e9f61a1c67d00bcda28"
+    },
+    {
+      "assetPath": "images/egghatching-sheet0.webp",
+      "bytes": 78628,
+      "sha256": "8b919977136191b4a32ebfc96759c4541293f179d600af8b7a1543143914a667"
+    },
+    {
+      "assetPath": "images/emoji-sheet0.webp",
+      "bytes": 9752,
+      "sha256": "59289b3c9696920740bdb7bcbb41c7ffcef0c93042707a3fa95cbd01f386afd4"
+    },
+    {
+      "assetPath": "images/enemy-sheet0.webp",
+      "bytes": 41222,
+      "sha256": "0b37de60ddf3ab071a2f9c272cb7b07c4814499943a6a45a6db856e165526e10"
+    },
+    {
+      "assetPath": "images/enemy-sheet1.webp",
+      "bytes": 15206,
+      "sha256": "b080c6c6b0c2364f71350ebc5a8aef890fb1b29834f8156d55ffa7d39bb4a52c"
+    },
+    {
+      "assetPath": "images/enemy-sheet2.webp",
+      "bytes": 14500,
+      "sha256": "51c72169c204bf41cf5e525c9f861a93152bda894c2eb733aa0b72096fb92a09"
+    },
+    {
+      "assetPath": "images/eye-sheet0.webp",
+      "bytes": 7324,
+      "sha256": "4756e33c96ca747133aeb876f40d56f1ac9fcf5445050fb865d7e03020ad4bb9"
+    },
+    {
+      "assetPath": "images/missionicon-sheet0.webp",
+      "bytes": 42646,
+      "sha256": "a2534b8f24c8810748b86506c3c505c1d1a37edc629cf376532a77060f4a386a"
+    },
+    {
+      "assetPath": "images/missionicon-sheet1.webp",
+      "bytes": 15630,
+      "sha256": "07fa1ee8d44d726e6d808e827737800f383b3447743c0b8c129f02437a89bbd4"
+    },
+    {
+      "assetPath": "images/missionicon-sheet2.webp",
+      "bytes": 5256,
+      "sha256": "01357b8f205ff6f6ddc3a9e6791fc8dcddfd8d82a7df53500baf7ee6b2ed9b04"
+    },
+    {
+      "assetPath": "images/pet-sheet0.webp",
+      "bytes": 14776,
+      "sha256": "f4ee46e4df53bd1e80082caa6cbcf03fa952b6e6f56a8fa106862e9965cb6cd9"
+    },
+    {
+      "assetPath": "images/player-sheet0.webp",
+      "bytes": 144482,
+      "sha256": "5299bbcee87809f4892b8bdbad589ad12306d37bc2bf3f36c9e0d8aa75dfac78"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 74106,
+      "sha256": "855aafaa2f354838a316d6e497c4753e305398a5d04657e8d78dc7ef8378a234"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 82878,
+      "sha256": "c9afb4b06fc564e398db14c8763eb660f6bf91354741834f095208db8c0e6692"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 169832,
+      "sha256": "365f5b5f17894ab5c264d3410ae8c624284df7a87797a57815085cd1e5fc8bff"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 28046,
+      "sha256": "d5e7dd9e1fdc463240b145bb39320ae1f6b680cf00a6058ef1b8287905b312c4"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 25332,
+      "sha256": "af0532b58ef266e7191234d8a9f9d7904417fbf561f08dbeb98152ca0ee3e5b1"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.webp",
+      "bytes": 1760,
+      "sha256": "11e98e12b5886d4299f6d4f089694f1b7768630ecc53d0d35df05d43b620654c"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 217930,
+      "sha256": "bcea1304766f068f7a32b54a4cd2c34c934c6b48b25bef9412206668c6955161"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 92696,
+      "sha256": "edf98b151b8f64e9cbb57e3177032e919890ebaa9b15f9775a71a7af1d85c78c"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 8272,
+      "sha256": "c058f850aa9cd9da29da4fd86933e516ddbdd4e28eea9df6c20998df49331d67"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 19880,
+      "sha256": "fa1d1d8d2939dce325f132aa26b923123c8e6bb645eee8d4012b19ab600ca66a"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 31620,
+      "sha256": "80f21661bbd59355fb685064c92c974509301255aae0bc8e89f49790ae4c227f"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 26484,
+      "sha256": "adf849e4746871be8911a26ae86f7a256289e6eaf0e81f216163d2495527c07e"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 31044,
+      "sha256": "70996860d8ab88966c3dee45182a2d65662c8b4177e80eac921ac659fd282173"
+    },
+    {
+      "assetPath": "images/shared-2-sheet4.webp",
+      "bytes": 2414,
+      "sha256": "b150d1344c8ded07dda6266e0cf395cf9edaf0612c260c1feac012e4dce4a6db"
+    },
+    {
+      "assetPath": "images/sparkle-sheet0.webp",
+      "bytes": 6762,
+      "sha256": "21e2a140281deca2c801c590dad419d1d1c0012fa3d39335c5ba23ce45b314cd"
+    },
+    {
+      "assetPath": "images/sparkle-sheet1.webp",
+      "bytes": 164,
+      "sha256": "bad3aad4b3d6b5796c8c97db4df4658e14f121bc9338be19aa76cff4da79389a"
+    },
+    {
+      "assetPath": "images/tinyindicator-sheet0.webp",
+      "bytes": 11238,
+      "sha256": "b71ee93f5ebfc02d24faac2ee356f7358671457ac0693fdad6f2a9213d42e0ad"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1712,
+      "sha256": "e089ef99d8a48350e53642d9d53976815644d7882a05b96975976ea880c706b3"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "b202fd44200721e8f115548835176f0073379dc87ef72c7c87ce6d1336034d0e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "ec6160696b17f0ebe1f0e2418b6c7ae89a099e21ee7fa6fa4339ca142510fd95"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 428,
+      "sha256": "072ca8478dd9b5cab8ef2c8fcce8855ca35aeec259d9cec69262ab6da2ba802c"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1475861,
+      "sha256": "0bbb7060b624c3696bd9e261594b8291395432c3063e48644ec8ad4dae416a00"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 134580,
+      "sha256": "1682428f754e6400e83acc6207e53d611170a1d8bbb665955e4d6c95f500ce21"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
