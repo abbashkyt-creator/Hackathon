@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/ludo-online/index.html",
+    "/games/ludo-online/js/poki-sdk-shim.js",
+    "/games/ludo-online/js/tiptap-platform-bridge.js",
+    "/games/ludo-online/js/tiptap-inline-1.js",
+    "/games/ludo-online/js/tiptap-inline-2.js"
+  ]
+}
