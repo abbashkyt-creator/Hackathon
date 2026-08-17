@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/flying-wheels-evolution/index.html",
+    "/games/flying-wheels-evolution/js/poki-sdk-shim.js",
+    "/games/flying-wheels-evolution/js/tiptap-platform-bridge.js",
+    "/games/flying-wheels-evolution/js/tiptap-inline-1.js"
+  ]
+}

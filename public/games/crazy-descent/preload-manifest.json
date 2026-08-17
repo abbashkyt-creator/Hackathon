@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/crazy-descent/index.html",
+    "/games/crazy-descent/js/poki-sdk-shim.js",
+    "/games/crazy-descent/js/tiptap-platform-bridge.js",
+    "/games/crazy-descent/js/tiptap-inline-1.js"
+  ]
+}

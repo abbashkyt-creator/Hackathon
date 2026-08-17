@@ -405,6 +405,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "pets-park": { embedded: true, preloadManifest: "/games/pets-park/preload-manifest.json", assetManifest: "/games/pets-park/MIRROR-MANIFEST.json", prepareByMount: true },
   "doodle-race": { embedded: true, preloadManifest: "/games/doodle-race/preload-manifest.json", assetManifest: "/games/doodle-race/MIRROR-MANIFEST.json", prepareByMount: true },
   "heroes-league": { embedded: true, preloadManifest: "/games/heroes-league/preload-manifest.json", assetManifest: "/games/heroes-league/MIRROR-MANIFEST.json", prepareByMount: true },
+  "coin-machine": { embedded: true, preloadManifest: "/games/coin-machine/preload-manifest.json", assetManifest: "/games/coin-machine/MIRROR-MANIFEST.json", prepareByMount: true },
+  "flying-wheels-evolution": { embedded: true, preloadManifest: "/games/flying-wheels-evolution/preload-manifest.json", assetManifest: "/games/flying-wheels-evolution/MIRROR-MANIFEST.json", prepareByMount: true },
+  "crazy-descent": { embedded: true, preloadManifest: "/games/crazy-descent/preload-manifest.json", assetManifest: "/games/crazy-descent/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

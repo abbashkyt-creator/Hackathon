@@ -447,6 +447,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "pets-park": { creatorId: "pets-park", creatorName: "Pets Park", creatorLabel: "BY PETS PARK · LOCAL SOURCE MIRROR", category: "Arcade" },
   "doodle-race": { creatorId: "doodle-race", creatorName: "Doodle Race", creatorLabel: "BY DOODLE RACE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "heroes-league": { creatorId: "heroes-league", creatorName: "Heroes League", creatorLabel: "BY HEROES LEAGUE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "coin-machine": { creatorId: "coin-machine", creatorName: "Coin Machine", creatorLabel: "BY COIN MACHINE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "flying-wheels-evolution": { creatorId: "flying-wheels-evolution", creatorName: "Flying Wheels Evolution", creatorLabel: "BY FLYING WHEELS EVOLUTION · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "crazy-descent": { creatorId: "crazy-descent", creatorName: "Crazy Descent", creatorLabel: "BY CRAZY DESCENT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
