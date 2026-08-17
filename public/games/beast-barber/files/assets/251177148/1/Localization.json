@@ -1,0 +1,63 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "en-US"
+            },
+            "messages": {
+                "new_bonker": "+1 Bonker",
+                "new_miner": "+1 Miner",
+                "tier0_name": "Velora Forest",
+                "ftue1": "This is the [color=\"#ffee2d\"]BIG ROCK[/color].\n\nHit it.",
+                "ftue2": "Good.\n\nShow it who's the true hero.\n\n(It's you.)",
+                "ftue3_1": "You'll need to hire some workers to do the job.",
+                "ftue3_2": "Come here.",
+                "ftue4": "Great!\n\nNow, these little guys [color=\"#ffee2d\"]aren't free[/color].\n\nIt's time for you to go on an [color=\"#ffee2d\"]adventure[/color].",
+                "ftue5": "You have [color=\"#ffee2d\"]30 seconds[/color] to reach the [color=\"#ffee2d\"]objective[/color].\n\nBe careful, you will [color=\"#ff462b\"]lose time[/color] if you get [color=\"#ff462b\"]hit[/color].",
+                "ftue6_1": "Destroy the [color=\"#ffee2d\"]objective[/color] to complete the level!",
+                "ftue6_2": "Try again.\n\nMove close to the [color=\"#ff462b\"]enemy[/color] to attack and complete the [color=\"#ffee2d\"]objective[/color].",
+                "ftue7": "Great job!\n\nTake this sword, it's dangerous to go alone.",
+                "ftue8": "Ready for the Level 2!",
+                "loot": "Loot",
+                "produced": "Produced",
+                "claim": "Claim",
+                "auto_claim_in": "Auto-claim in {seconds}s",
+                "level_x": "Level {level}",
+                "time_limit": "Time limit: {timeLimit}s",
+                "attempts": "Attempts: {attempts}",
+                "objective": "Objective"
+            }
+        },
+        {
+            "info": {
+                "locale": "fr-FR"
+            },
+            "messages": {
+                "new_bonker": "+1 Cogneur",
+                "new_miner": "+1 Mineur",
+                "tier0_name": "Forêt de Velora",
+                "ftue1": "Ceci est [color=\"#ffee2d\"]Le Gros Rocher[/color].\n\nFrappe-le.",
+                "ftue2": "Bien.\n\nMontrer-lui qui est le vrai héros.\n\n(C'est toi.)",
+                "ftue3_1": "Tu vas avoir besoin de recruter des travailleurs pour faire le travail.",
+                "ftue3_2": "Viens ici.",
+                "ftue4": "Bien!\n\nCes petits gars [color=\"#ffee2d\"]ne sont pas gratuits[/color].\n\nC'est le moment pour toi de partir à l'[color=\"#ffee2d\"]aventure[/color].",
+                "ftue5": "Tu as [color=\"#ffee2d\"]30 secondes[/color] pour atteindre l'[color=\"#ffee2d\"]objectif[/color].\n\nAttention, tu [color=\"#ff462b\"]perdras du temps[/color] si tu es [color=\"#ff462b\"]touché[/color].\n\nMaintenant vas-y!",
+                "ftue6_1": "Détruit l'[color=\"#ffee2d\"]objectif[/color] pour terminer le niveau!",
+                "ftue6_2": "Essaie encore.\n\nApproche-toi de l'[color=\"#ff462b\"]ennemi[/color] pour l'attaquer et remplir l'[color=\"#ffee2d\"]objectif[/color].",
+                "ftue7": "Bien joué!\n\nPrends cette épée, c'est dangereux de se promener seul.",
+                "ftue8": "Paré pour le niveau 2 !",
+                "loot": "Butin",
+                "produced": "Produit",
+                "claim": "Récupérer",
+                "auto_claim_in": "Auto-récup. dans {seconds}s",
+                "level_x": "Niveau {level}",
+                "time_limit": "Temps limite: {timeLimit}s",
+                "attempts": "Essais: {attempts}",
+                "objective": "Objectif"
+            }
+        }
+    ]
+}

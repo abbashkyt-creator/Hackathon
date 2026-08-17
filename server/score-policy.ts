@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "graveyard-shift": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "human-bullet-gun": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "whip-flip": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "papa-louie-2": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

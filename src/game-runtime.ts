@@ -328,6 +328,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "papa-louie-2": { embedded: true, preloadManifest: "/games/papa-louie-2/preload-manifest.json", assetManifest: "/games/papa-louie-2/MIRROR-MANIFEST.json", prepareByMount: true },
   "whip-flip": { embedded: true, preloadManifest: "/games/whip-flip/preload-manifest.json", assetManifest: "/games/whip-flip/MIRROR-MANIFEST.json", prepareByMount: true },
   "human-bullet-gun": { embedded: true, preloadManifest: "/games/human-bullet-gun/preload-manifest.json", assetManifest: "/games/human-bullet-gun/MIRROR-MANIFEST.json", prepareByMount: true },
+  "graveyard-shift": { embedded: true, preloadManifest: "/games/graveyard-shift/preload-manifest.json", assetManifest: "/games/graveyard-shift/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
