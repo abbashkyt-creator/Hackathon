@@ -1,0 +1,80 @@
+{
+  "name": "vortex-racer",
+  "sourcePage": "https://poki.com/en/g/vortex-racer",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1440,
+      "sha256": "4bc7d33f99ec751eb8d6f1fdcb879cd1b1abcfe1ce226397bf9da46c47432f99",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "a21762d31e31c53481a65a5c6b74d242f23e1ec35379c00ed62be975227b1f60",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "ccf309d0c22c12f0cc087af77867e7d2296dc64a4a5c7ceff67a871a9c62252e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "23f5fc7458c0314ad344b2647abf1f2c2c9a620cf2d5805ef2fa75d78c35e1cc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "bc2a1d765b1c17fcadc2ca8709ddde6d76f30bbb3dd50a19ab39c95e3f639700",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1440,
+      "sha256": "4bc7d33f99ec751eb8d6f1fdcb879cd1b1abcfe1ce226397bf9da46c47432f99"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "ccf309d0c22c12f0cc087af77867e7d2296dc64a4a5c7ceff67a871a9c62252e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1251,
+      "sha256": "e6eecf1353120f435646e76eb8e3f7ef8bdf651193ab0fdb60844fa27433bdb6"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "23f5fc7458c0314ad344b2647abf1f2c2c9a620cf2d5805ef2fa75d78c35e1cc"
+    },
+    {
+      "assetPath": "moonbird.js",
+      "bytes": 169872,
+      "sha256": "c2f0baf72afcbd6aa2f020d3b69c259c61dad90bef04eacf3adc4c93f37c45f4"
+    },
+    {
+      "assetPath": "moonbird.wasm",
+      "bytes": 273502,
+      "sha256": "36a5f8f2f462ea259dd1eae6fe71018ec5db7779a3bf577e4719e9f84e831368"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "bc2a1d765b1c17fcadc2ca8709ddde6d76f30bbb3dd50a19ab39c95e3f639700"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

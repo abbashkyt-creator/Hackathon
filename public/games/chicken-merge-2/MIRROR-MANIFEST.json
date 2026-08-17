@@ -1,0 +1,450 @@
+{
+  "name": "chicken-merge-2",
+  "sourcePage": "https://poki.com/en/g/chicken-merge-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 19628,
+      "sha256": "05f53cdb5c3d14ed1c6954c8e97ad7353079ea10262dd9eb29222434e2714e59",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "3e8f01fa7c817425de9d139a693d9354b7194f0ad9eaab4de4d3e64800f83ebc",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "51d3f1a9aa98afc6253a3460486b5a9463b2b42af3edf222b7169ca16799b9e3",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "4858cd5f4216cae5738dbae59a60a15194e75a3d1c707f4dcc93b23e827e4b39",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 358,
+      "sha256": "91f363df0ff5a2cdff049442a8c3f2c53b522df07e765aeba06e51d416c153ba",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 169,
+      "sha256": "b697cf4089df2e5b6a2b0072253ca12d0c459cd3b9b4b7e4deb140dce91bc44b"
+    },
+    {
+      "assetPath": "c2runtime.js",
+      "bytes": 1048207,
+      "sha256": "d7bf7a799adb2a246917b482aa40a76c1b755e52edf9bcba2e329c25ff6d875d"
+    },
+    {
+      "assetPath": "data.js",
+      "bytes": 1297362,
+      "sha256": "472fe9a9f253aaa6be4a7ff1adcd4eefccb9d6d386b3718c2d69b1accab90a84"
+    },
+    {
+      "assetPath": "icon-256.png",
+      "bytes": 21931,
+      "sha256": "08ded5aea4b8cea1b22e520946b9fc5f6dc52eb9799b2be6cc2b2759df417e4b"
+    },
+    {
+      "assetPath": "images/ach_bar.png",
+      "bytes": 276,
+      "sha256": "7b3c2db03a39141040b4ea7c377c81150e9d12dadbdff888583cf224035621a3"
+    },
+    {
+      "assetPath": "images/a_door.png",
+      "bytes": 96,
+      "sha256": "fd740a897247b3c995fdb4df080bb12f9a486bfee0759e1137e9dee70a9d495e"
+    },
+    {
+      "assetPath": "images/a_loading_bg-sheet0.png",
+      "bytes": 184643,
+      "sha256": "b078c9d69fec6c2e01a486f9f44e3d9fa7eb854690d4321a09a6ed108d25438a"
+    },
+    {
+      "assetPath": "images/a_message-sheet0.png",
+      "bytes": 4233,
+      "sha256": "fa9f758beca8605cd02fd35e2a9f47abccf09abebed7fba9601516d127f4e18d"
+    },
+    {
+      "assetPath": "images/a_projectile-sheet0.png",
+      "bytes": 102627,
+      "sha256": "bdc39ee25df3c91304b59098d161aa8243aa88daf2c5bb3475ef5f36c8aa5cfe"
+    },
+    {
+      "assetPath": "images/a_vfx_trail-sheet0.png",
+      "bytes": 7949,
+      "sha256": "2af52b93d91b2cf5f72f91639b64a201aa6fa009a5d5f4311bc60681d56f1c4b"
+    },
+    {
+      "assetPath": "images/barricade-sheet0.png",
+      "bytes": 5132,
+      "sha256": "f37188b246b6757a13ba7dc97657e2fabdc31279acbb149e546106ea4bda115a"
+    },
+    {
+      "assetPath": "images/barricade_level-sheet0.png",
+      "bytes": 1776,
+      "sha256": "b76d71497972fa7b1045ba273ebf802a64a06a877721787d27ed834631909741"
+    },
+    {
+      "assetPath": "images/boost_bar-sheet0.png",
+      "bytes": 107,
+      "sha256": "ae094ddc2872b04391d62e23b0a4ff5eb04ef6fa7a0b11aaf9c5bd55b74302f9"
+    },
+    {
+      "assetPath": "images/boost_bar_frame-sheet0.png",
+      "bytes": 84,
+      "sha256": "cc34979edfe79184dac580622ef968ec84f8e0b5fc2472935d1096d53572faef"
+    },
+    {
+      "assetPath": "images/btn_common-sheet0.png",
+      "bytes": 11934,
+      "sha256": "f8389086d988c3c6ce5501fdcba2fc17c6dc60bd36cb293a0aa1ff68192bd77e"
+    },
+    {
+      "assetPath": "images/btn_generic-sheet0.png",
+      "bytes": 24346,
+      "sha256": "97055589a3f6f9fa5cdc00f9381fa2967151e01849eacf1a21d94020a37345b4"
+    },
+    {
+      "assetPath": "images/btn_icon-sheet0.png",
+      "bytes": 37615,
+      "sha256": "321ddba73335951bcce69c6e0a78350af129ea4b5a72670b161242655fe62b26"
+    },
+    {
+      "assetPath": "images/btn_main-sheet0.png",
+      "bytes": 20975,
+      "sha256": "f1bb0e58753b5af30491b10e98e166a5492148a684f61f6d80b7ccd88c4a28b5"
+    },
+    {
+      "assetPath": "images/btn_play-sheet0.png",
+      "bytes": 9595,
+      "sha256": "57abcae5a0c707e1957cded79a31e69100a07f0036407fce7c5cb00601059d5b"
+    },
+    {
+      "assetPath": "images/btn_time_lapse-sheet0.png",
+      "bytes": 9703,
+      "sha256": "6f2326985c474e81ae1126270a996b6bf075398a4c6d604a231593659fa483b9"
+    },
+    {
+      "assetPath": "images/btn_time_needle-sheet0.png",
+      "bytes": 536,
+      "sha256": "1eea29f2026a71ac47e8f8bd237b6475c55577427b9118ee5cbc345de39c28d5"
+    },
+    {
+      "assetPath": "images/btn_upgrade-sheet0.png",
+      "bytes": 10106,
+      "sha256": "2857f3edd51823c39381c801bf346d9c7d7ef6b0e99cdc92e35bf850182a79fa"
+    },
+    {
+      "assetPath": "images/chicken-sheet0.png",
+      "bytes": 115295,
+      "sha256": "135643ddff71bda9b7787af58a895fbb97cf15ec5f0dc2b4ba769e75662b9665"
+    },
+    {
+      "assetPath": "images/chicken-sheet1.png",
+      "bytes": 56424,
+      "sha256": "2fc68768e028372387dc26dfba2b526952a82a558172b83fddc2ccb0906e781c"
+    },
+    {
+      "assetPath": "images/chicken_weapon-sheet0.png",
+      "bytes": 48465,
+      "sha256": "59d14617feda640469beffebec34e3ebec6973e4212053a1353598c59af21dbf"
+    },
+    {
+      "assetPath": "images/chicken_weapon-sheet1.png",
+      "bytes": 49693,
+      "sha256": "c159786a8fd0f1f4b2d49d7f095a8f80d0278cac384686f9e5687f302fab89c2"
+    },
+    {
+      "assetPath": "images/egg-sheet0.png",
+      "bytes": 2504,
+      "sha256": "dd93b15ddf2500bbf4790b7443279b0cbcd00779ec20f440c47ef3c144489b71"
+    },
+    {
+      "assetPath": "images/enemy-sheet0.png",
+      "bytes": 37329,
+      "sha256": "556a49066493cf709e1eb2094f91cae8205e167083944b58fa43915f1d6c946e"
+    },
+    {
+      "assetPath": "images/enemy-sheet1.png",
+      "bytes": 30754,
+      "sha256": "22cbe7eeb8636470f21bd39b9ed1607b1b5af51f2869a1ef2699bf1d469a143a"
+    },
+    {
+      "assetPath": "images/enemy-sheet2.png",
+      "bytes": 14445,
+      "sha256": "d47ca99ba55dfefc603940c1dc3046ed04b9746a22b4668b486538af4b5b61ed"
+    },
+    {
+      "assetPath": "images/enemy_hp_bar.png",
+      "bytes": 92,
+      "sha256": "bbad68ea6740ebf85994d9d93b4e9c2e85dfc59cac79fac34ba6501c8164838e"
+    },
+    {
+      "assetPath": "images/enemy_hp_frame.png",
+      "bytes": 96,
+      "sha256": "a5435326549fd9ce40bbee5c43cccdd328548cf11f82d6c227c1c4a54c1da6cf"
+    },
+    {
+      "assetPath": "images/enemy_hp_wbar.png",
+      "bytes": 83,
+      "sha256": "c03f0e29d629bcf51b1e304795203dbb61de88fdc8a736310f81265ea6111238"
+    },
+    {
+      "assetPath": "images/env_objects_b-sheet0.png",
+      "bytes": 34032,
+      "sha256": "53510a4f95889096ab3fecf9ad2ad09141fedd7166dce71ac2f31c0aae453c03"
+    },
+    {
+      "assetPath": "images/env_objects_s-sheet0.png",
+      "bytes": 42728,
+      "sha256": "33ae880e8309661af173d2c18147820c46d2b57e388fdf9273ce65ea5e60bb98"
+    },
+    {
+      "assetPath": "images/env_top_green.png",
+      "bytes": 2822,
+      "sha256": "f6a15d999760b7869634eb3f8db93e32ce1ee94cdeda22fd36343ab8c3adaa88"
+    },
+    {
+      "assetPath": "images/en_drop_coin-sheet0.png",
+      "bytes": 3758,
+      "sha256": "1f18e10342c4f52f50993975c68821c29f0e1e685f3a2481d6dc96719367d479"
+    },
+    {
+      "assetPath": "images/exc_mark-sheet0.png",
+      "bytes": 1026,
+      "sha256": "edb34f339d59799547feb600744278f29255dbbfc8a563b9da1795115ac72cc6"
+    },
+    {
+      "assetPath": "images/gem-sheet0.png",
+      "bytes": 3220,
+      "sha256": "211ea89ba4f99226cd7d282e29db9ca089dc5f54d46ecf7a32df2ebef8c0a406"
+    },
+    {
+      "assetPath": "images/go_trophy-sheet0.png",
+      "bytes": 39113,
+      "sha256": "a31bd5d0d922565c5b9496607a44b39331e882d594604f3a98daa6f99bb90f30"
+    },
+    {
+      "assetPath": "images/hud_coins_frame-sheet0.png",
+      "bytes": 2796,
+      "sha256": "cec7d0b6cee94c9635f2635746dfc9d6a2f947d5fe0651cfb1aec064a50db90c"
+    },
+    {
+      "assetPath": "images/hud_gems_frame-sheet0.png",
+      "bytes": 3565,
+      "sha256": "ed72dcb7c3c9c37be43dcb92cecbf40333b8d17444b5e7650bdd995bdc81f1eb"
+    },
+    {
+      "assetPath": "images/hud_repiar_bar.png",
+      "bytes": 1236,
+      "sha256": "fac038554f8fbcc1cf624d712140bc95204edbd353bdd452c7ba06816fa1c03f"
+    },
+    {
+      "assetPath": "images/hud_wave_bar.png",
+      "bytes": 803,
+      "sha256": "f09774da863de120bc019facf920ac56ad2160165b802cfe650d003da9e272af"
+    },
+    {
+      "assetPath": "images/hud_wave_frame-sheet0.png",
+      "bytes": 596,
+      "sha256": "bb650feb32758d9e6a05bc666b1ce43707857c717f57a806154c961b42bd1ddf"
+    },
+    {
+      "assetPath": "images/hud_wave_icon-sheet0.png",
+      "bytes": 4205,
+      "sha256": "89e7bba535680a59fb6baa1dee64db4ba903b872650f52029c38d9653ed0ed7b"
+    },
+    {
+      "assetPath": "images/icon_coins-sheet0.png",
+      "bytes": 3200,
+      "sha256": "ab75fb3e5e53e7777ef5695632c8ed38ce2adcca9f55766f90efd910f4512cbe"
+    },
+    {
+      "assetPath": "images/icon_rage-sheet0.png",
+      "bytes": 14505,
+      "sha256": "100705c30f57d51e72ce60da4480299faf8678a51220a8148b565196260ce759"
+    },
+    {
+      "assetPath": "images/obj_level_frame-sheet0.png",
+      "bytes": 5264,
+      "sha256": "e5206f720aef40b4129714d6d5e3fc4ecbc373628264a4d83f1e6dc9f1e821d0"
+    },
+    {
+      "assetPath": "images/popup_boards-sheet0.png",
+      "bytes": 19032,
+      "sha256": "793a49c50067588e6864c7ea5232224e7f853da196eed0dcb3441f14a096e6fe"
+    },
+    {
+      "assetPath": "images/road_boundary.png",
+      "bytes": 1042,
+      "sha256": "368580b77a8405dcf5e94d9724bdb3339953cc7aa56512ec70dbfc6d5a660979"
+    },
+    {
+      "assetPath": "images/road_line.png",
+      "bytes": 167,
+      "sha256": "97c69298f20d17dcb4a0bbef866283846c99a983e138c0c7d84116b22a1bde3d"
+    },
+    {
+      "assetPath": "images/seagull-sheet0.png",
+      "bytes": 8548,
+      "sha256": "85f8f3b07b0dc022c55ee6abf54517c6b4fbf243fc232d2177142dab9cc93d68"
+    },
+    {
+      "assetPath": "images/seagull_shadow-sheet0.png",
+      "bytes": 400,
+      "sha256": "8cefd4d0b49cceeb9f96c3f71b7ca763e5eff651be4bfc3868cd0d3a65600057"
+    },
+    {
+      "assetPath": "images/slot-sheet0.png",
+      "bytes": 14338,
+      "sha256": "b6848b670325ad5a5cca3f2d44609efce9cb6284615c8e1ecb7170bef1b78432"
+    },
+    {
+      "assetPath": "images/slot_highlight-sheet0.png",
+      "bytes": 1188,
+      "sha256": "7c45b29717cbe7939ce655b409d5fe8c71bb40e30f846b9897e888be8b7b646e"
+    },
+    {
+      "assetPath": "images/spine_test-sheet0.png",
+      "bytes": 109,
+      "sha256": "577389b436825e93420ff2b637bf3d526bcce53e6a40ca07c8bd39210fd18125"
+    },
+    {
+      "assetPath": "images/stroke-sheet0.png",
+      "bytes": 704,
+      "sha256": "c7531428a189a98c889b2cea42fff13cbc1fd0bb2cb1994cde5a72df2d2aa12b"
+    },
+    {
+      "assetPath": "images/sun_rays-sheet0.png",
+      "bytes": 7602,
+      "sha256": "28dfd2f5c3ef8b03db851ff55981c822b40028a98216613f9a61f3b18281baa5"
+    },
+    {
+      "assetPath": "images/tuto_focus-sheet0.png",
+      "bytes": 6647,
+      "sha256": "ccf52ee00da03c0ca4436c4dc1eb4391b93112ef7878f0898d3020563f632f34"
+    },
+    {
+      "assetPath": "images/tuto_hand-sheet0.png",
+      "bytes": 2666,
+      "sha256": "7308e1783b35076cef16d779b2f1a2de36134d4be2b3555b39597fac66c8cdbc"
+    },
+    {
+      "assetPath": "images/ui_assets-sheet0.png",
+      "bytes": 99081,
+      "sha256": "f878e6f6a66a6a3d25371dcfbb1586def05c0bd0c0aaacaaec1193e8e5925237"
+    },
+    {
+      "assetPath": "images/vfx_level_up-sheet0.png",
+      "bytes": 6058,
+      "sha256": "1a883c008af75a241f620ba3702b83c9560250b3526190e6c326472d33b07be0"
+    },
+    {
+      "assetPath": "images/vfx_particle_a.png",
+      "bytes": 2330,
+      "sha256": "b039f84cb8b089afc1546ff963cc04bdbbfd78c081f9768ece783f727b1905ee"
+    },
+    {
+      "assetPath": "images/vfx_particle_c.png",
+      "bytes": 709,
+      "sha256": "03c0a5119e175ea6accbc4b720f43889632be9ef8a615a7e41ebf5524f3a097b"
+    },
+    {
+      "assetPath": "images/vfx_particle_f.png",
+      "bytes": 1487,
+      "sha256": "63bbba4325dc697950edd2c62e15137105fbec0d2d79cc6e37169d46471819f7"
+    },
+    {
+      "assetPath": "images/vfx_shoot-sheet0.png",
+      "bytes": 22082,
+      "sha256": "8c2d1e282cf2d50636dca2b785ccdf0572c9ba2bf3583e3193fd08a553b59785"
+    },
+    {
+      "assetPath": "images/vfx_shoot-sheet1.png",
+      "bytes": 31723,
+      "sha256": "7671c245ba81cdeace6fda87a7e1d2f20b90db8c21c8cb98443d18e721c1b75b"
+    },
+    {
+      "assetPath": "images/vfx_text-sheet0.png",
+      "bytes": 9219,
+      "sha256": "02d4c68dd825da2b2f81aa4608e6bfd2dd68d6e00ac4be6fb249b0488fd136a2"
+    },
+    {
+      "assetPath": "images/vfx_trigger-sheet0.png",
+      "bytes": 230427,
+      "sha256": "6cf88bc5c2cbe1c7c1bafda8b2c0c85b83ee50c126a45670dde510859f8359cc"
+    },
+    {
+      "assetPath": "images/vfx_trigger-sheet1.png",
+      "bytes": 38630,
+      "sha256": "f6bb8b807f59141e81cc5586e9d0db7452af9f3d0d88e85fbd8fee48210b7bc0"
+    },
+    {
+      "assetPath": "images/vignette-sheet0.png",
+      "bytes": 126,
+      "sha256": "aaa6d27deea0782a95e12b50b778f414adeb632dbf76d44565617af06a80b46d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 19628,
+      "sha256": "05f53cdb5c3d14ed1c6954c8e97ad7353079ea10262dd9eb29222434e2714e59"
+    },
+    {
+      "assetPath": "jquery-2.1.1.min.js",
+      "bytes": 84248,
+      "sha256": "9451ed8fd4c4fd0d216a5f3e80409c0f8759a404fb1dda1f9b8b27aa39d74a6f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "51d3f1a9aa98afc6253a3460486b5a9463b2b42af3edf222b7169ca16799b9e3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "4858cd5f4216cae5738dbae59a60a15194e75a3d1c707f4dcc93b23e827e4b39"
+    },
+    {
+      "assetPath": "loading-logo.png",
+      "bytes": 8612,
+      "sha256": "b8d557c907511296f773b425ace4ab3d2e1aa2b7cdcd6683f891c2d633a9f152"
+    },
+    {
+      "assetPath": "offlineClient.js",
+      "bytes": 1434,
+      "sha256": "68e0bcd6d56e3756b0ca2739642810447609fcd395f17c21cd748798898884e5"
+    },
+    {
+      "assetPath": "poki_sitelock.js",
+      "bytes": 1142,
+      "sha256": "ebdc9b1182bbf3d3a2fb8b54eef06bb2909b6727533b4417b8d9dfee4aa3ed59"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 358,
+      "sha256": "91f363df0ff5a2cdff049442a8c3f2c53b522df07e765aeba06e51d416c153ba"
+    },
+    {
+      "assetPath": "spine_webgl.js",
+      "bytes": 423289,
+      "sha256": "14a82eb47ba76c0fd00f22b8f04103bf59d0ee4b1f8e7d0cc23882aebc1cc273"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

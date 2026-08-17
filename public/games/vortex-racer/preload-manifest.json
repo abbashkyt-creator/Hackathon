@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/vortex-racer/index.html",
+    "/games/vortex-racer/js/poki-sdk-shim.js",
+    "/games/vortex-racer/js/tiptap-platform-bridge.js",
+    "/games/vortex-racer/js/tiptap-inline-1.js"
+  ]
+}

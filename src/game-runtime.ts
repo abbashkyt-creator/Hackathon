@@ -460,6 +460,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "merge-rot": { embedded: true, preloadManifest: "/games/merge-rot/preload-manifest.json", assetManifest: "/games/merge-rot/MIRROR-MANIFEST.json", prepareByMount: true },
   "one-line-draw": { embedded: true, preloadManifest: "/games/one-line-draw/preload-manifest.json", assetManifest: "/games/one-line-draw/MIRROR-MANIFEST.json", prepareByMount: true },
   "mad-skills-motocross-2": { embedded: true, preloadManifest: "/games/mad-skills-motocross-2/preload-manifest.json", assetManifest: "/games/mad-skills-motocross-2/MIRROR-MANIFEST.json", prepareByMount: true },
+  "emoji-builder": { embedded: true, preloadManifest: "/games/emoji-builder/preload-manifest.json", assetManifest: "/games/emoji-builder/MIRROR-MANIFEST.json", prepareByMount: true },
+  "vortex-racer": { embedded: true, preloadManifest: "/games/vortex-racer/preload-manifest.json", assetManifest: "/games/vortex-racer/MIRROR-MANIFEST.json", prepareByMount: true },
+  "world-soccer-champions": { embedded: true, preloadManifest: "/games/world-soccer-champions/preload-manifest.json", assetManifest: "/games/world-soccer-champions/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

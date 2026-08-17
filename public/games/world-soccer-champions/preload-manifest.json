@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/world-soccer-champions/index.html",
+    "/games/world-soccer-champions/js/poki-sdk-shim.js",
+    "/games/world-soccer-champions/js/tiptap-platform-bridge.js",
+    "/games/world-soccer-champions/js/tiptap-inline-1.js"
+  ]
+}

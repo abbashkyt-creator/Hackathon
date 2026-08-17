@@ -1,0 +1,105 @@
+{
+  "name": "mad-skills-motocross-2",
+  "sourcePage": "https://poki.com/en/g/mad-skills-motocross-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 8414,
+      "sha256": "25161b521581fe678d85940dd929a28b99763a40e0707b781fc5adb7a866b27e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "462956cd77397ec7f9c8c1bf3ae6c6872fae3b56a4523257554e345ecf1f5365",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "136608ce548fa1f2db6ba4478dac32c037ce529ca2b26127039bfef22aa12a45",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "936dcf8d033c52b1d088428ce0b52d7c64b2ce1f9eb09a4c04021b50a1f1d7ab",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 371,
+      "sha256": "43e5e9ec65569ea54ddefa03df5f656f26828ef341f84152123787ace01c7495",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "body.png",
+      "bytes": 27994,
+      "sha256": "9cb36f0c8b64368e218bc980c267044e86b9856193abda11cd6b732d78da80ac"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47582,
+      "sha256": "ac470a40128f328cf26b1f46132d97cf08aaa65fd08e4636b755bdbcaa9d675b"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 8414,
+      "sha256": "25161b521581fe678d85940dd929a28b99763a40e0707b781fc5adb7a866b27e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "136608ce548fa1f2db6ba4478dac32c037ce529ca2b26127039bfef22aa12a45"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 3549,
+      "sha256": "c9de02bb5a23f942a5e2e9db2a382a072416f3d88fd0b2942989bfe9616906e0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 235,
+      "sha256": "5f99421f7c7374cb4652096bc3f68437c7e0ef547489374c962a0de332f8b963"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 317,
+      "sha256": "ab52d49952561c8614783c4f8e4dc0fd0ca02c7f2f9a799ae59f1baf58d1d857"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "936dcf8d033c52b1d088428ce0b52d7c64b2ce1f9eb09a4c04021b50a1f1d7ab"
+    },
+    {
+      "assetPath": "MSM2.wasm",
+      "bytes": 2242666,
+      "sha256": "3a84f5eb55018cd63f33a002b0fd640017c411945bd8fc1ef58df6a193f95878"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 371,
+      "sha256": "43e5e9ec65569ea54ddefa03df5f656f26828ef341f84152123787ace01c7495"
+    },
+    {
+      "assetPath": "wheel.png",
+      "bytes": 9453,
+      "sha256": "de9f373624307872238b6ff75089a0749de5404795737eb863e63ffd0d9c25f2"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

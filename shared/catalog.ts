@@ -502,6 +502,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "merge-rot": { creatorId: "merge-rot", creatorName: "Merge Rot", creatorLabel: "BY MERGE ROT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "one-line-draw": { creatorId: "one-line-draw", creatorName: "One Line Draw", creatorLabel: "BY ONE LINE DRAW · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mad-skills-motocross-2": { creatorId: "mad-skills-motocross-2", creatorName: "Mad Skills Motocross 2", creatorLabel: "BY MAD SKILLS MOTOCROSS 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "emoji-builder": { creatorId: "emoji-builder", creatorName: "Emoji Builder", creatorLabel: "BY EMOJI BUILDER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "vortex-racer": { creatorId: "vortex-racer", creatorName: "Vortex Racer", creatorLabel: "BY VORTEX RACER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "world-soccer-champions": { creatorId: "world-soccer-champions", creatorName: "World Soccer Champions", creatorLabel: "BY WORLD SOCCER CHAMPIONS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
