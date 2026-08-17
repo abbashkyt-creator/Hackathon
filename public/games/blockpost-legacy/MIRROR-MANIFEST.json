@@ -1,0 +1,70 @@
+{
+  "name": "blockpost-legacy",
+  "sourcePage": "https://poki.com/en/g/blockpost-legacy",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 690,
+      "sha256": "a96f4eeeb9caa16b84aab1d5c00be98c6983e1daa50217036add3a4a7a4139a0",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "940c4742ff3ef06cb078d561c537919fdf8b7763d98071c42b4bd3aba5c71b23",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "6ba6ad5187be81962be6c915ffe6ea29a116912f661870e4d46c8a89aa439f05",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "b1ccb8dd03db54c6411cfaca21e3a6f9f97946c79e1eeae17d2c17e4c77536f4",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "f6644fb5658c2e97ea293aa90ee885d0beda31c2f7398c8e784f56f423a89df9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 690,
+      "sha256": "a96f4eeeb9caa16b84aab1d5c00be98c6983e1daa50217036add3a4a7a4139a0"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "6ba6ad5187be81962be6c915ffe6ea29a116912f661870e4d46c8a89aa439f05"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 526,
+      "sha256": "57561c528eed0b621c6f48da25a4f56e22efb20f95310435b54249a2c22d16fd"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "b1ccb8dd03db54c6411cfaca21e3a6f9f97946c79e1eeae17d2c17e4c77536f4"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "f6644fb5658c2e97ea293aa90ee885d0beda31c2f7398c8e784f56f423a89df9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

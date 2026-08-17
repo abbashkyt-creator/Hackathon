@@ -453,6 +453,10 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "ant-art-tycoon": { creatorId: "ant-art-tycoon", creatorName: "Ant Art Tycoon", creatorLabel: "BY ANT ART TYCOON · LOCAL SOURCE MIRROR", category: "Arcade" },
   "run-3": { creatorId: "run-3", creatorName: "Run 3", creatorLabel: "BY RUN 3 · LOCAL SOURCE MIRROR", category: "Arcade" },
   "blockpost": { creatorId: "blockpost", creatorName: "Blockpost", creatorLabel: "BY BLOCKPOST · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "blockpost-legacy": { creatorId: "blockpost-legacy", creatorName: "Blockpost Legacy", creatorLabel: "BY BLOCKPOST LEGACY · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "jetpack-fury": { creatorId: "jetpack-fury", creatorName: "Jetpack Fury", creatorLabel: "BY JETPACK FURY · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "digger-escape": { creatorId: "digger-escape", creatorName: "Digger Escape", creatorLabel: "BY DIGGER ESCAPE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "auto-ninja": { creatorId: "auto-ninja", creatorName: "Auto Ninja", creatorLabel: "BY AUTO NINJA · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

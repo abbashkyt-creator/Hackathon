@@ -1,0 +1,140 @@
+{
+  "name": "auto-ninja",
+  "sourcePage": "https://poki.com/en/g/auto-ninja",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3323,
+      "sha256": "49345eb2c40e288c12a342190c1717c320f76fa41ea5b51e49402aacb44d76b7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "00b881badc2240b2719bc30d3aac50bb675716d80530a86c4737fbc3cd0d8a87",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "a19a33ff214c3d0678e0d35490ec516fb46a1b28238ad8f6beb9e66dda485c8d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "4770b445805d67cc2c153e8c44d468a29b67b61d5994c71c573bbf9647256323",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "dcb845f31e655f3826411a420706d93843663e466626aaf5a01d904ed163c0bf",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "html5game/aqh_GameDistribution.js",
+      "bytes": 1816,
+      "sha256": "7505ff84eeb2f4d836f6390e8d890b7cbd2ce8e700ade62ecf81329c34aca3e9"
+    },
+    {
+      "assetPath": "html5game/bqh_JSBasics.js",
+      "bytes": 11161,
+      "sha256": "650d233b74246ba481c67e5378112c5e38e8aec7d6f87175ddfb84f4692a4379"
+    },
+    {
+      "assetPath": "html5game/dqh_poki.js",
+      "bytes": 4461,
+      "sha256": "633deeb9a553b41a6ff801c4db0a5c94eadf516be1e60a4c66229f81b1fc362f"
+    },
+    {
+      "assetPath": "html5game/One click platformer Maurice.js",
+      "bytes": 3350053,
+      "sha256": "da81647db384a4e8820742d5e8e72cd7ad76030bdd232db517af04269aa9c25c"
+    },
+    {
+      "assetPath": "html5game/sound/worklets/audio-worklet.js",
+      "bytes": 26247,
+      "sha256": "171c69389ddd06e237fbb4d031401ab91ac07d8124ebc8a5ace20e4a5201e623"
+    },
+    {
+      "assetPath": "html5game/splash.png",
+      "bytes": 114567,
+      "sha256": "0234a1aa742b76b045ca6ca06634e7fecd6cf069f022a84594110e0f1d27dfc2"
+    },
+    {
+      "assetPath": "html5game/tph_coolmathgamesAPI.js",
+      "bytes": 1876,
+      "sha256": "4a28c59161f8b42fce48b313b39e03e3eb2040b5fb2bca2226d3491a91902ce4"
+    },
+    {
+      "assetPath": "html5game/uph_crazygames.js",
+      "bytes": 6129,
+      "sha256": "572ae8d4718da39365450cca280389cf7a4f1bb53215c3ffaf416ae4fd77c3b5"
+    },
+    {
+      "assetPath": "html5game/vph_custom_loading_bar.js",
+      "bytes": 1865,
+      "sha256": "b5a85ae414ebd65853384840f4b5d8c7f36b8ce6bca3b3d796c6739b8a1dd42c"
+    },
+    {
+      "assetPath": "html5game/wph_ToggleFullScreen.js",
+      "bytes": 1193,
+      "sha256": "eef6eeef2738cddf97173f28f87f004f397433a3ca68c55283624d1df07e44ac"
+    },
+    {
+      "assetPath": "html5game/xph_GameAnalytics.js",
+      "bytes": 90902,
+      "sha256": "641bc475a64e38d02d396531502492eea62fc4e8e608a713c3902e91a78ed743"
+    },
+    {
+      "assetPath": "html5game/zph_GameAnalyticsExt.js",
+      "bytes": 4079,
+      "sha256": "3c46de41100d615d1f08005811eea46d06f6cc60f3633340d5faecd15a338b2d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3323,
+      "sha256": "49345eb2c40e288c12a342190c1717c320f76fa41ea5b51e49402aacb44d76b7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "a19a33ff214c3d0678e0d35490ec516fb46a1b28238ad8f6beb9e66dda485c8d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 126,
+      "sha256": "1a3612ca8a143902d6fa83c7de41c164c9ab303a278dc49df1efd915836430d3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 619,
+      "sha256": "117abd62acd4a44dc654f26396e3f6bb4150d6b9a84fa5d51419215d930aa473"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 32,
+      "sha256": "543bd06d98651fae53beb0576575356bffc3195ca1cedce3d649acf91b5acd72"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "4770b445805d67cc2c153e8c44d468a29b67b61d5994c71c573bbf9647256323"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "dcb845f31e655f3826411a420706d93843663e466626aaf5a01d904ed163c0bf"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

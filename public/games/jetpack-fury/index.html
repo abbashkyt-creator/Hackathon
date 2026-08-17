@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jetpack-fury</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <script src="/games/_shared/network-lock.js"></script>
+        <script src="/games/_shared/ad-client.js"></script>
+        <script src="js/poki-sdk-shim.js"></script>
+        <script src="js/tiptap-platform-bridge.js"></script>
+        <script src="js/tiptap-inline-1.js"></script>
+        <script src="js/tiptap-inline-2.js"></script>
+    </head>
+    <body>
+<!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <title>Jetpack Fury - Poki</title> <style>
+body { margin: 0; padding: 0; background: linear-gradient(135deg, #2a0845 0%, #4C1A57 50%, #6F00D8 100%); overflow: hidden;
+}
+body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #2a0845 0%, #4C1A57 50%, #6F00D8 100%); z-index: 0; pointer-events: none;
+}
+.pulse-container { position: fixed; top: 50%; left: 50%; width: 0; height: 0; pointer-events: none; z-index: 0;
+}
+.pulse-wave { position: absolute; top: 50%; left: 50%; width: 40px; height: 40px; border: 4px solid rgba(79, 121, 255, 0.9); border-radius: 50%; transform: translate(-50%, -50%) scale(0); animation: pulseWave 4s ease-out infinite; box-shadow: 0 0 20px rgba(111, 0, 216, 0.5);
+}
+.pulse-wave:nth-child(1) { animation-delay: 0s; border-color: rgba(111, 0, 216, 0.7); }
+.pulse-wave:nth-child(2) { animation-delay: 0.8s; border-color: rgba(76, 121, 255, 0.6); }
+.pulse-wave:nth-child(3) { animation-delay: 1.6s; border-color: rgba(147, 51, 234, 0.5); }
+.pulse-wave:nth-child(4) { animation-delay: 2.4s; border-color: rgba(79, 121, 255, 0.4); }
+.pulse-wave:nth-child(5) { animation-delay: 3.2s; border-color: rgba(111, 0, 216, 0.3); }
+@keyframes pulseWave { 0% { transform: translate(-50%, -50%) scale(0); opacity: 1; } 60% { opacity: 0.4; } 100% { transform: translate(-50%, -50%) scale(35); opacity: 0; }
+}
+.pulse-wave::before { content: ''; position: absolute; top: 50%; left: 50%; width: 4px; height: 4px; background: radial-gradient(circle, rgba(79, 121, 255, 0.7) 0%, transparent 70%); border-radius: 50%; transform: translate(-50%, -50%); animation: sparkle 4s ease-out infinite;
+}
+@keyframes sparkle { 0% { opacity: 1; transform: translate(-50%, -50%) scale(1); } 30% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.5); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(0); }
+}
+</style>
+</head>
+<body> <div class='pulse-container'> <div class='pulse-wave'></div> <div class='pulse-wave'></div> <div class='pulse-wave'></div> <div class='pulse-wave'></div> <div class='pulse-wave'></div>
+</div> </body>
+</html>
+    </body>
+</html>

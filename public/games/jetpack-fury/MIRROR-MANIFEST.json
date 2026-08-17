@@ -1,0 +1,75 @@
+{
+  "name": "jetpack-fury",
+  "sourcePage": "https://poki.com/en/g/jetpack-fury",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2785,
+      "sha256": "b4ef992e189a05bf4134c754600cce54b736c35a3caf740dce65246a4bcd105e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "418dd1c5481a41f8e6665dcded497b31ed7a087649178672982c0a0841cabb11",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "045d448e30af6e2e2481d434c9bc3da0679b2bf32f83bda16fd49e3cb71efb54",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "c47fd240eaa991c5918e98b74552cc366178685db9136a505cb6641d79352a36",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 262,
+      "sha256": "f8c7eb05fe7186dabd13ebe93088f05390e5ff52ea4cd86fa93fe8929b59dd19",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2785,
+      "sha256": "b4ef992e189a05bf4134c754600cce54b736c35a3caf740dce65246a4bcd105e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "045d448e30af6e2e2481d434c9bc3da0679b2bf32f83bda16fd49e3cb71efb54"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1224,
+      "sha256": "071640d8ebe9c429a358f2275ec7ec41af0a45d78b242d7502a21beee581057f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 415,
+      "sha256": "916af8c134e204188a30d0a8d0f561fb8df752817b8ae4f60fccdfb44d1a2518"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "c47fd240eaa991c5918e98b74552cc366178685db9136a505cb6641d79352a36"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 262,
+      "sha256": "f8c7eb05fe7186dabd13ebe93088f05390e5ff52ea4cd86fa93fe8929b59dd19"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

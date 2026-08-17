@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/auto-ninja/index.html",
+    "/games/auto-ninja/js/poki-sdk-shim.js",
+    "/games/auto-ninja/js/tiptap-platform-bridge.js",
+    "/games/auto-ninja/js/tiptap-inline-1.js",
+    "/games/auto-ninja/js/tiptap-inline-2.js",
+    "/games/auto-ninja/js/tiptap-inline-3.js"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/digger-escape/index.html",
+    "/games/digger-escape/js/poki-sdk-shim.js",
+    "/games/digger-escape/js/tiptap-platform-bridge.js",
+    "/games/digger-escape/js/tiptap-inline-1.js"
+  ]
+}
