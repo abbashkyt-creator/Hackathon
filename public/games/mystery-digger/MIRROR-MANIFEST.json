@@ -1,0 +1,70 @@
+{
+  "name": "mystery-digger",
+  "sourcePage": "https://poki.com/en/g/mystery-digger",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "ed1722bdef1c0ed8ec2ab65a8dabf87c001aacdd3039db4289fb133182621b35",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "7d3b4af5e83fd86951dfe9eaad071a8f2294f06277cba102dd8be7406dcd697b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "7154d64bdf6bbe822cd7c871c67af72f39eaf24a3ac1085738ba281c90c8d140",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "12a6d39544016ddc48da7623ae92bf6f25134c1c881c9bc71cfef94fbf22d6d0",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "84d27d791f53a9633cfbdc679d9897a0415421c3da32db00898de5cdca2e5bde",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "ed1722bdef1c0ed8ec2ab65a8dabf87c001aacdd3039db4289fb133182621b35"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "7154d64bdf6bbe822cd7c871c67af72f39eaf24a3ac1085738ba281c90c8d140"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1215,
+      "sha256": "01147a8205a0b40dbb8ba456d858a15c6aa34e910486e8e16f99c2b3144efdb8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "12a6d39544016ddc48da7623ae92bf6f25134c1c881c9bc71cfef94fbf22d6d0"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "84d27d791f53a9633cfbdc679d9897a0415421c3da32db00898de5cdca2e5bde"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

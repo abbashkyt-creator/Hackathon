@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/dasi-spa-manager/index.html",
+    "/games/dasi-spa-manager/js/poki-sdk-shim.js",
+    "/games/dasi-spa-manager/js/tiptap-platform-bridge.js",
+    "/games/dasi-spa-manager/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "dasi-spa-manager",
+  "sourcePage": "https://poki.com/en/g/dasi-spa-manager",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "9ecc0af083bd41d601cde67d2074df93c6ce0a1dcd758922337336ced1ced6de",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "2f0f8a7e9c93206fa2c2f832853fad201c24d0c83cb3a41ad4bf54f35e7a9991",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "18ea9ed4a3d1b386dd2ea66ad0414f4e2d066a3d3f68d2d446eed532b7b8f335",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "9a44526604dcfc2b1948f5569fb71f9c01bc5b8041fe1043cfec45d07e440c3f",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "4192918fa17a4a74f2463f39b6201ed323986880dab16c1f0281dd1f834f4e57",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "9ecc0af083bd41d601cde67d2074df93c6ce0a1dcd758922337336ced1ced6de"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "18ea9ed4a3d1b386dd2ea66ad0414f4e2d066a3d3f68d2d446eed532b7b8f335"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1113,
+      "sha256": "b4a8d46a3d66122485bf792d8cb345f0a0b5cf5181a1d254817ac2b5faf3ecf5"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "9a44526604dcfc2b1948f5569fb71f9c01bc5b8041fe1043cfec45d07e440c3f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "4192918fa17a4a74f2463f39b6201ed323986880dab16c1f0281dd1f834f4e57"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

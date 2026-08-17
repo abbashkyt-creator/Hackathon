@@ -1,0 +1,7 @@
+.custom-input-style {
+	color: rgba(0, 0, 0, 0);
+	font-size: 21.4px;
+	background: none; /* Убирает фон текстового поля */
+    border: none; /* Убирает границу текстового поля */
+	text-align: left;
+}
