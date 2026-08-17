@@ -482,6 +482,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "ranch-ufo": { creatorId: "ranch-ufo", creatorName: "Ranch UFO", creatorLabel: "BY RANCH UFO · LOCAL SOURCE MIRROR", category: "Arcade" },
   "hot-air": { creatorId: "hot-air", creatorName: "Hot Air", creatorLabel: "BY HOT AIR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "master-assassin": { creatorId: "master-assassin", creatorName: "Master Assassin", creatorLabel: "BY MASTER ASSASSIN · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "sticker-book-puzzle": { creatorId: "sticker-book-puzzle", creatorName: "Sticker Book Puzzle", creatorLabel: "BY STICKER BOOK PUZZLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

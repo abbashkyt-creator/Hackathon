@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "sticker-book-puzzle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "master-assassin": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "hot-air": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "ranch-ufo": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

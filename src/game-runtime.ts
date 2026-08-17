@@ -440,6 +440,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "ranch-ufo": { embedded: true, preloadManifest: "/games/ranch-ufo/preload-manifest.json", assetManifest: "/games/ranch-ufo/MIRROR-MANIFEST.json", prepareByMount: true },
   "hot-air": { embedded: true, preloadManifest: "/games/hot-air/preload-manifest.json", assetManifest: "/games/hot-air/MIRROR-MANIFEST.json", prepareByMount: true },
   "master-assassin": { embedded: true, preloadManifest: "/games/master-assassin/preload-manifest.json", assetManifest: "/games/master-assassin/MIRROR-MANIFEST.json", prepareByMount: true },
+  "sticker-book-puzzle": { embedded: true, preloadManifest: "/games/sticker-book-puzzle/preload-manifest.json", assetManifest: "/games/sticker-book-puzzle/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

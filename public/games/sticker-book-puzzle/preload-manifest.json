@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/sticker-book-puzzle/index.html",
+    "/games/sticker-book-puzzle/js/poki-sdk-shim.js",
+    "/games/sticker-book-puzzle/js/tiptap-platform-bridge.js",
+    "/games/sticker-book-puzzle/js/tiptap-inline-1.js"
+  ]
+}
