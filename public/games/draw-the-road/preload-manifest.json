@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/draw-the-road/index.html",
+    "/games/draw-the-road/js/poki-sdk-shim.js",
+    "/games/draw-the-road/js/tiptap-platform-bridge.js",
+    "/games/draw-the-road/loader.min.js"
+  ]
+}

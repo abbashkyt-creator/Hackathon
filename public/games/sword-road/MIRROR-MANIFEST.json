@@ -1,0 +1,110 @@
+{
+  "name": "sword-road",
+  "sourcePage": "https://poki.com/en/g/sword-road",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1385,
+      "sha256": "f36f69b7e904235aac3c4612122615700e88e93b850c146a99c5d1d121e6b9c5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "2c11e292a7ba3db1dd0d9f50735496f3e12852da338945f0ed03581faadf9c23",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "20585d9b54b7b30a1648271ea51d8af8eb52701e8e0c68df15ffc9daa7796aa8",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "dbdf655cd13db60e9b1dcd2ee8538c116b756eeb50c62d5b4870c713f0dd26ab",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "7cf1937f9c01ffe64cf64e827e851789f1a3ba547d33d52903b117a891509773",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "game.js",
+      "bytes": 237557,
+      "sha256": "9db6a81c89a86eda62d70dfddfae494cb116e3566c850730996fea490e4230c3"
+    },
+    {
+      "assetPath": "images/251023_player_all.jpg",
+      "bytes": 203396,
+      "sha256": "49e9c69b640d27be7a9174db7d01bfbbb818caa43a863f189bbee99f59ff0ccd"
+    },
+    {
+      "assetPath": "images/cs1_260319.png",
+      "bytes": 281877,
+      "sha256": "ab3ec78e20e8fdcb2393e190c7e202fcf1ff7b25acb2acc929f74509d5437ad3"
+    },
+    {
+      "assetPath": "images/GLTFLoader.js",
+      "bytes": 84697,
+      "sha256": "1934fbb6b49c85c19f8ddc6b9212428366c7666ffb2e3cfcb66e0778f2e0023b"
+    },
+    {
+      "assetPath": "images/ground1.jpg",
+      "bytes": 46592,
+      "sha256": "6318371eb9c332591a6b3465d39de75d1c249dd3fddaeaedbd25877bc3a8df31"
+    },
+    {
+      "assetPath": "images/map.jpg",
+      "bytes": 120814,
+      "sha256": "6ea90b8911c2a4362b8fe2a567ecb12c2f8cb8331e685828254ffdf6661164c8"
+    },
+    {
+      "assetPath": "images/SkeletonUtils.js",
+      "bytes": 12553,
+      "sha256": "2e2c3b6bcfabc072cd79cb24a93d135080e2e70a5be4b6e0f031d3407957ed5a"
+    },
+    {
+      "assetPath": "images/sound_hs_vbr.mp3",
+      "bytes": 262510,
+      "sha256": "1dc471601553acd05cda84d44c92aac707f86a46b1505e8f370aa345a3726fdb"
+    },
+    {
+      "assetPath": "images/three.min.js",
+      "bytes": 593604,
+      "sha256": "a572c55128b19deaca81d6e42ecd52e3a8846a8027cb7235efd2924876e75c75"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1385,
+      "sha256": "f36f69b7e904235aac3c4612122615700e88e93b850c146a99c5d1d121e6b9c5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "20585d9b54b7b30a1648271ea51d8af8eb52701e8e0c68df15ffc9daa7796aa8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "dbdf655cd13db60e9b1dcd2ee8538c116b756eeb50c62d5b4870c713f0dd26ab"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "7cf1937f9c01ffe64cf64e827e851789f1a3ba547d33d52903b117a891509773"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

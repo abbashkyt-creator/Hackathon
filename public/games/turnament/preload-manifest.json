@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/turnament/index.html",
+    "/games/turnament/js/poki-sdk-shim.js",
+    "/games/turnament/js/tiptap-platform-bridge.js",
+    "/games/turnament/js/tiptap-inline-1.js"
+  ]
+}

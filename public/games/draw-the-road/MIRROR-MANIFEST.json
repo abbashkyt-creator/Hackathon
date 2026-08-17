@@ -1,0 +1,75 @@
+{
+  "name": "draw-the-road",
+  "sourcePage": "https://poki.com/en/g/draw-the-road",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 6913,
+      "sha256": "43ab635a626a9df37db2ee90e16b8c55fed541fb6375337b3522fae3899f393a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "8ecb55189ef88fd9b10aeb2cb4ea6610bd7f6322e8c24edea1c399f759333efa",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "82739cf67f0870d6fb0a06a7b4432c751d067571aeb4fc8814f2f990dd59800d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "cba62d13216a358a8b1fa01454b8865eed1e149fa5ce408853fc9d77ec7c8f87",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "32764822a55635676ef49d77a918d8620ba6879f3ac0dcd722c6e8640860e1d0",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "code.min.js",
+      "bytes": 1326627,
+      "sha256": "3faa1e404e7546062f6e923170eb836a03b5ffbfd06805fdff4d4a61b9a23744"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 6913,
+      "sha256": "43ab635a626a9df37db2ee90e16b8c55fed541fb6375337b3522fae3899f393a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "82739cf67f0870d6fb0a06a7b4432c751d067571aeb4fc8814f2f990dd59800d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "cba62d13216a358a8b1fa01454b8865eed1e149fa5ce408853fc9d77ec7c8f87"
+    },
+    {
+      "assetPath": "loader.min.js",
+      "bytes": 84010,
+      "sha256": "2e4056193f489805bc701f04d2c3578d6ce55a7973b24bd533ffafb7bd746250"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "32764822a55635676ef49d77a918d8620ba6879f3ac0dcd722c6e8640860e1d0"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

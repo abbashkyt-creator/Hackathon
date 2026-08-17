@@ -1,0 +1,85 @@
+{
+  "name": "turnament",
+  "sourcePage": "https://poki.com/en/g/turnament",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2189,
+      "sha256": "6fc1515c4cd28d12a7913749d543ca19b39a812579a5eeb41c905ec3688b3a0d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "7cbd4ba9e0f3fb30e87a2cbd19a646821bd0fe4e8258766868fd8427adc0596e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "7e5e4fea9b74f1d02bb411ce794d5e475ee9a9e8414d8dc1a71a301ea5350b12",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "a05aabba1be7072c4187be1acbaddaaaa31d6069a5bb96a9adeb076e835b961e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "6dbf75e020073f2ea09b77398e4023d40ca636f936d3688963cbea92632792d1",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/todo.jpg",
+      "bytes": 8576,
+      "sha256": "7bb3e36cb2eecf12828040215778ae1a9d9f1405855e55ad8cbc90b78227e7b4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2189,
+      "sha256": "6fc1515c4cd28d12a7913749d543ca19b39a812579a5eeb41c905ec3688b3a0d"
+    },
+    {
+      "assetPath": "js/loader.js",
+      "bytes": 6366,
+      "sha256": "24bd5bca2d4325821002a1fb28cf978a4181db073e6196250372fbf47ef3308d"
+    },
+    {
+      "assetPath": "js/NitromeBatch11.js",
+      "bytes": 2489646,
+      "sha256": "1253dd194d718059a5081789af9e755522a82257aacce8a9cac2e839ccd7c671"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "7e5e4fea9b74f1d02bb411ce794d5e475ee9a9e8414d8dc1a71a301ea5350b12"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1999,
+      "sha256": "ec7da761916edfe3df4509f5f8a06edb6ecfc8662e5372d762dcbe71826a8dfd"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "a05aabba1be7072c4187be1acbaddaaaa31d6069a5bb96a9adeb076e835b961e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "6dbf75e020073f2ea09b77398e4023d40ca636f936d3688963cbea92632792d1"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

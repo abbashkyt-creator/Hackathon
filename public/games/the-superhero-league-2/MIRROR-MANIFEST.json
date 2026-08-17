@@ -1,0 +1,90 @@
+{
+  "name": "the-superhero-league-2",
+  "sourcePage": "https://poki.com/en/g/the-superhero-league-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2512,
+      "sha256": "d3f6ace7b6cee4a29c20b3ee14ecf3522e6e571b208889cede894929b17a84ea",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "f2a6f336323f5a8945de9f0270f1e39cd2ff2f46f3b20523455fe531c4f8060c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "fcc883e42de7ddfed6ba414e66ecbfd91889e1fe608547299b8a28919e1a9909",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "5580247cd64a28e31b4948219beb6947d97fa736a7c91f4747b824c2194ad918",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 371,
+      "sha256": "ee2a8ada91bb6669bb7eb78aeff365dfad033c3a2c864282bf65bc5206f34890",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2512,
+      "sha256": "d3f6ace7b6cee4a29c20b3ee14ecf3522e6e571b208889cede894929b17a84ea"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "fcc883e42de7ddfed6ba414e66ecbfd91889e1fe608547299b8a28919e1a9909"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1729,
+      "sha256": "bc6bae5c2c5c28ce7b03bbb67c1621778ac6620212b64941b9bc9b37897fd24e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 675,
+      "sha256": "84758eb8a492ca778c583edd73e8edb9eefcbbec8f6992eead09dedbaa98a46d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 2220,
+      "sha256": "05f1ad24d4c11b07f39b24293b5f766e29a15f1f2704ad51514b62f40dc09a90"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "5580247cd64a28e31b4948219beb6947d97fa736a7c91f4747b824c2194ad918"
+    },
+    {
+      "assetPath": "MrSuper2.js",
+      "bytes": 238159,
+      "sha256": "b36b43b924ff9ec200a30616e6a788bac0fa434aa7a7dd2b817fc683fdaf6347"
+    },
+    {
+      "assetPath": "MrSuper2.wasm",
+      "bytes": 12483146,
+      "sha256": "ef10a8689443ba58c2cb2a7a007153505e66137024f3979a73cb4d2f20f47006"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 371,
+      "sha256": "ee2a8ada91bb6669bb7eb78aeff365dfad033c3a2c864282bf65bc5206f34890"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -357,6 +357,12 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "grass-knight": { creatorId: "grass-knight", creatorName: "Grass Knight", creatorLabel: "BY GRASS KNIGHT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "slime-dunk": { creatorId: "slime-dunk", creatorName: "Slime Dunk!", creatorLabel: "BY SLIME DUNK! · LOCAL SOURCE MIRROR", category: "Arcade" },
   "the-superhero-league-2": { creatorId: "the-superhero-league-2", creatorName: "The Superhero League 2", creatorLabel: "BY THE SUPERHERO LEAGUE 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "sword-road": { creatorId: "sword-road", creatorName: "Sword Road", creatorLabel: "BY SWORD ROAD · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "carrom-multiplayer": { creatorId: "carrom-multiplayer", creatorName: "Carrom Multiplayer", creatorLabel: "BY CARROM MULTIPLAYER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "turnament": { creatorId: "turnament", creatorName: "Turnament", creatorLabel: "BY TURNAMENT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "papa-louie-3": { creatorId: "papa-louie-3", creatorName: "Papa Louie 3", creatorLabel: "BY PAPA LOUIE 3 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "mirror-image": { creatorId: "mirror-image", creatorName: "Mirror Image", creatorLabel: "BY MIRROR IMAGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "bos-bedroom": { creatorId: "bo-s-bedroom", creatorName: "Bo's Bedroom", creatorLabel: "BY BO'S BEDROOM · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

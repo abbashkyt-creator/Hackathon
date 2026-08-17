@@ -1,0 +1,95 @@
+{
+  "name": "bos-bedroom",
+  "sourcePage": "https://poki.com/en/g/bos-bedroom",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5385,
+      "sha256": "7e38882b0d082cffc3731cbaa33d815f1f1b476952c2059171f908cf80827761",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "aede68d7f1681459e30476631a512dd232ec0ad327b2ecb3f35c601a2c3cb83c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d2c4a9a50c57bafc585361af8ab7c67d7f73efbf9d2703fecb0ff21fc76d4306",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "8ccf194fba0fcf13a72db3fac3e5bd18a010a986be2030274b4074af684e9818",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "b8e030f48bd0e7409917b89830ad634dfb55f82f4ea411136b1cebc70f3a155c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "BosBedroom.wasm",
+      "bytes": 2599666,
+      "sha256": "f5db4a2f21f34d6dc3fc2b6ebd5e2a8e43e1a4870d6b71050995566ca80756d7"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47996,
+      "sha256": "bdf4d39cf0d15eb246235565f4f5d4e6f7f9da9bb86c2f27c0994e41c9edd725"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5385,
+      "sha256": "7e38882b0d082cffc3731cbaa33d815f1f1b476952c2059171f908cf80827761"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d2c4a9a50c57bafc585361af8ab7c67d7f73efbf9d2703fecb0ff21fc76d4306"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 323,
+      "sha256": "6b2329b5630fef765f88161c185e36898199f975f8f711659eef424b99ffd3cc"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "8ccf194fba0fcf13a72db3fac3e5bd18a010a986be2030274b4074af684e9818"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "b8e030f48bd0e7409917b89830ad634dfb55f82f4ea411136b1cebc70f3a155c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

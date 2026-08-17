@@ -1,0 +1,115 @@
+{
+  "name": "carrom-multiplayer",
+  "sourcePage": "https://poki.com/en/g/carrom-multiplayer",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2839,
+      "sha256": "44486baa57ced1a78754002bad715d76a9cb75900812995c511bb556254eac30",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "83cf071f37f5397c721c987d32ee8e9ab0bef9a650f4f8ebbae0d022939026e7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "56e13c97f928c7575c00f1374e11c61e05aae0ef7e53bfc49d001beadc5b603d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "6b37eacc70c1597fbf85afc2cdf40268f24ee082767fc7a4063c388112e577b0",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "2c236ac6379bd3fd3a28c62581bd5a0c50bf1214b9c56237309d0b1a904ed64c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "icon.png",
+      "bytes": 3011,
+      "sha256": "6a003d12da36702e53f3b2aae6a20d818d4bede4bd26e65238c51d65f4545a82"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2839,
+      "sha256": "44486baa57ced1a78754002bad715d76a9cb75900812995c511bb556254eac30"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "56e13c97f928c7575c00f1374e11c61e05aae0ef7e53bfc49d001beadc5b603d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 73,
+      "sha256": "66f912c02eed99ad823231e711c072f025f869d58c17c7d8f63ddd4ae2794dbe"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "6b37eacc70c1597fbf85afc2cdf40268f24ee082767fc7a4063c388112e577b0"
+    },
+    {
+      "assetPath": "logo.png",
+      "bytes": 162224,
+      "sha256": "1d4cdde143f4c4157632e76a0e86941da07ac9272b3e83e5c769364178c4ef3d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "2c236ac6379bd3fd3a28c62581bd5a0c50bf1214b9c56237309d0b1a904ed64c"
+    },
+    {
+      "assetPath": "RobotoSlab-Bold.woff2",
+      "bytes": 52084,
+      "sha256": "b45c045d0bbe5983e59e929c9e1cc6b67a994b362432130a2716e099de21c7ed"
+    },
+    {
+      "assetPath": "script.js",
+      "bytes": 2048,
+      "sha256": "ddc414ca13621c32d5408d6952a91d5813daf5d0ef3adfe69264874e36041248"
+    },
+    {
+      "assetPath": "sitelock.js",
+      "bytes": 61,
+      "sha256": "548857263ded99db2c6261080bc723b667ccabc19abff4a1643a345e61f18579"
+    },
+    {
+      "assetPath": "src/import-map.json",
+      "bytes": 40,
+      "sha256": "2be73d8f2e7e1d814627714ace691b6e1a9d445c779426a224e7f3685f0fa278"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/system.bundle.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2898,
+      "sha256": "eff15673900ef8ca4b744754d286ebb9b0f29086578a8c4c2839a789eb34c7bc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

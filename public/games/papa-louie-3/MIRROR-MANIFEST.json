@@ -1,0 +1,75 @@
+{
+  "name": "papa-louie-3",
+  "sourcePage": "https://poki.com/en/g/papa-louie-3",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2215,
+      "sha256": "afb31c319a2ecf29c21ffe5686b5e48b2101172eef6bd353b6ba0fa5cd0d0ddc",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "526e2e04085fc74a66198258beee59e4de93fd8f639359f1593610fad15f6dd9",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "2e570e3abb5d5416b09963fadee603ee5c18bd9e42a600f5883b4cdf2a2b3060",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "047683f5fbaa696db0b3506a3b28c6b7cf172c57735d24f492ff618e30db86de",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "4ebdc1094e2d987ee86e25ec7cdac3ec65bc76c15deb0b93bc8948edb5037710",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2215,
+      "sha256": "afb31c319a2ecf29c21ffe5686b5e48b2101172eef6bd353b6ba0fa5cd0d0ddc"
+    },
+    {
+      "assetPath": "js/loader.js",
+      "bytes": 6366,
+      "sha256": "24bd5bca2d4325821002a1fb28cf978a4181db073e6196250372fbf47ef3308d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "2e570e3abb5d5416b09963fadee603ee5c18bd9e42a600f5883b4cdf2a2b3060"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 2380,
+      "sha256": "239cb9e22559ebdbb945219f5203be29d6c5894e412999e6abac241eebed7737"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "047683f5fbaa696db0b3506a3b28c6b7cf172c57735d24f492ff618e30db86de"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "4ebdc1094e2d987ee86e25ec7cdac3ec65bc76c15deb0b93bc8948edb5037710"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

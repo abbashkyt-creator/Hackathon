@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/carrom-multiplayer/index.html",
+    "/games/carrom-multiplayer/js/poki-sdk-shim.js",
+    "/games/carrom-multiplayer/js/tiptap-platform-bridge.js",
+    "/games/carrom-multiplayer/js/tiptap-inline-1.js"
+  ]
+}

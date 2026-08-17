@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/sword-road/index.html",
+    "/games/sword-road/js/poki-sdk-shim.js",
+    "/games/sword-road/js/tiptap-platform-bridge.js"
+  ]
+}
