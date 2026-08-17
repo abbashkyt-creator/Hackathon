@@ -3,10 +3,6 @@
     "/games/cozy-garden-design/index.html",
     "/games/cozy-garden-design/js/poki-sdk-shim.js",
     "/games/cozy-garden-design/js/tiptap-platform-bridge.js",
-    "/games/cozy-garden-design/scripts/modernjscheck.js",
-    "/games/cozy-garden-design/scripts/supportcheck.js",
-    "/games/cozy-garden-design/scripts/offlineclient.js",
-    "/games/cozy-garden-design/scripts/main.js",
-    "/games/cozy-garden-design/scripts/register-sw.js"
+    "/games/cozy-garden-design/js/tiptap-inline-1.js"
   ]
 }

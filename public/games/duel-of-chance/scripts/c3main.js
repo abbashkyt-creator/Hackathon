@@ -1,0 +1,9 @@
+import "./../box2d.wasm.js";
+import "./c3runtime.js";
+import "./plugins/SkymenInputManager/c3runtime/main.js";
+import "./plugins/skymen_pokiSDK/c3runtime/main.js";
+import "./plugins/MasterPose_Collider/c3runtime/main.js";
+import "./plugins/MasterPose_Vector/c3runtime/main.js";
+import "./behaviors/skymen_RadialProgress/c3runtime/main.js";
+import "./objRefTable.js";
+import "./project/javaScriptInEvents.js";

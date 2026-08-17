@@ -1,0 +1,370 @@
+{
+    "c2array": true,
+    "size": [
+        45,
+        2,
+        1
+    ],
+    "data": [
+        [
+            [
+                "sq"
+            ],
+            [
+                "Shtypni dhe mbani shtypur ekranin"
+            ]
+        ],
+        [
+            [
+                "ar"
+            ],
+            [
+                "اضغط مع الاستمرار على الشاشة"
+            ]
+        ],
+        [
+            [
+                "be"
+            ],
+            [
+                "Націсніце і ўтрымлівайце экран"
+            ]
+        ],
+        [
+            [
+                "bg"
+            ],
+            [
+                "Натиснете и задръжте екрана"
+            ]
+        ],
+        [
+            [
+                "ca"
+            ],
+            [
+                "Mantenga presionada la pantalla"
+            ]
+        ],
+        [
+            [
+                "zh"
+            ],
+            [
+                "按住屏幕"
+            ]
+        ],
+        [
+            [
+                "hr"
+            ],
+            [
+                "Pritisnite i držite zaslon"
+            ]
+        ],
+        [
+            [
+                "cs"
+            ],
+            [
+                "Stiskněte a podržte obrazovku"
+            ]
+        ],
+        [
+            [
+                "da"
+            ],
+            [
+                "Tryk og hold på skærmen"
+            ]
+        ],
+        [
+            [
+                "nl"
+            ],
+            [
+                "Houd het scherm ingedrukt"
+            ]
+        ],
+        [
+            [
+                "en"
+            ],
+            [
+                "Press and hold the screen"
+            ]
+        ],
+        [
+            [
+                "fi"
+            ],
+            [
+                "Paina ja pidä näyttöä painettuna"
+            ]
+        ],
+        [
+            [
+                "fr"
+            ],
+            [
+                "Appuyez longuement sur l'écran"
+            ]
+        ],
+        [
+            [
+                "de"
+            ],
+            [
+                "Halten Sie den Bildschirm gedrückt"
+            ]
+        ],
+        [
+            [
+                "el"
+            ],
+            [
+                "Πατήστε παρατεταμένα την οθόνη"
+            ]
+        ],
+        [
+            [
+                "iw"
+            ],
+            [
+                "לחץ והחזק את המסך"
+            ]
+        ],
+        [
+            [
+                "hi"
+            ],
+            [
+                "स्क्रीन को दबाकर रखें"
+            ]
+        ],
+        [
+            [
+                "hu"
+            ],
+            [
+                "Nyomja meg és tartsa lenyomva a képernyőt"
+            ]
+        ],
+        [
+            [
+                "is"
+            ],
+            [
+                "Ýttu á og haltu skjánum"
+            ]
+        ],
+        [
+            [
+                "in"
+            ],
+            [
+                "Tekan dan tahan layar"
+            ]
+        ],
+        [
+            [
+                "ga"
+            ],
+            [
+                "Brúigh agus coinnigh an scáileán\n\n"
+            ]
+        ],
+        [
+            [
+                "it"
+            ],
+            [
+                "Tieni premuto lo schermo"
+            ]
+        ],
+        [
+            [
+                "ja"
+            ],
+            [
+                "画面を長押しします"
+            ]
+        ],
+        [
+            [
+                "ko"
+            ],
+            [
+                "화면을 길게 누르세요\n\n"
+            ]
+        ],
+        [
+            [
+                "lv"
+            ],
+            [
+                "Nospiediet un turiet ekrānu"
+            ]
+        ],
+        [
+            [
+                "lt"
+            ],
+            [
+                "Paspauskite ir palaikykite ekraną"
+            ]
+        ],
+        [
+            [
+                "mk"
+            ],
+            [
+                "Притиснете и задржете го екранот"
+            ]
+        ],
+        [
+            [
+                "ms"
+            ],
+            [
+                "Tekan dan tahan skrin"
+            ]
+        ],
+        [
+            [
+                "mt"
+            ],
+            [
+                "Agħfas u żomm l-iskrin"
+            ]
+        ],
+        [
+            [
+                "no"
+            ],
+            [
+                "Trykk og hold på skjermen"
+            ]
+        ],
+        [
+            [
+                "nb"
+            ],
+            [
+                "Trykk og hold på skjermen"
+            ]
+        ],
+        [
+            [
+                "nn"
+            ],
+            [
+                "Trykk og hold på skjermen"
+            ]
+        ],
+        [
+            [
+                "pl"
+            ],
+            [
+                "Naciśnij i przytrzymaj ekran"
+            ]
+        ],
+        [
+            [
+                "pt"
+            ],
+            [
+                "Pressione e segure a tela"
+            ]
+        ],
+        [
+            [
+                "ro"
+            ],
+            [
+                "Apăsați și mențineți apăsat ecranul"
+            ]
+        ],
+        [
+            [
+                "ru"
+            ],
+            [
+                "Нажмите и удерживайте экран."
+            ]
+        ],
+        [
+            [
+                "sr"
+            ],
+            [
+                "Притисните и држите екран"
+            ]
+        ],
+        [
+            [
+                "sk"
+            ],
+            [
+                "Stlačte a podržte obrazovku"
+            ]
+        ],
+        [
+            [
+                "sl"
+            ],
+            [
+                "Pritisnite in držite zaslon"
+            ]
+        ],
+        [
+            [
+                "es"
+            ],
+            [
+                "Mantenga presionada la pantalla"
+            ]
+        ],
+        [
+            [
+                "sv"
+            ],
+            [
+                "Tryck och håll ner skärmen"
+            ]
+        ],
+        [
+            [
+                "th"
+            ],
+            [
+                "กดหน้าจอค้างไว้\n\n"
+            ]
+        ],
+        [
+            [
+                "tr"
+            ],
+            [
+                "Ekrana basılı tutun"
+            ]
+        ],
+        [
+            [
+                "uk"
+            ],
+            [
+                "Натисніть і утримуйте екран"
+            ]
+        ],
+        [
+            [
+                "vi"
+            ],
+            [
+                "Nhấn và giữ màn hình"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/flick-goal/index.html",
+    "/games/flick-goal/js/poki-sdk-shim.js",
+    "/games/flick-goal/js/tiptap-platform-bridge.js",
+    "/games/flick-goal/js/tiptap-inline-1.js"
+  ]
+}

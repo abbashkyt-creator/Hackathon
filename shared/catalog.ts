@@ -472,6 +472,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "brainrot-craft": { creatorId: "brainrot-craft", creatorName: "Brainrot Craft", creatorLabel: "BY BRAINROT CRAFT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "tower-merge": { creatorId: "tower-merge", creatorName: "Tower Merge", creatorLabel: "BY TOWER MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "plane-wars": { creatorId: "plane-wars", creatorName: "Plane Wars", creatorLabel: "BY PLANE WARS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cozy-garden-design": { creatorId: "cozy-garden-design", creatorName: "Cozy Garden Design", creatorLabel: "BY COZY GARDEN DESIGN · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "nekopirate-quest-for-gold": { creatorId: "nekopirate-quest-for-gold", creatorName: "Nekopirate: Quest for Gold!", creatorLabel: "BY NEKOPIRATE: QUEST FOR GOLD! · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "flick-goal": { creatorId: "flick-goal", creatorName: "Flick Goal", creatorLabel: "BY FLICK GOAL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

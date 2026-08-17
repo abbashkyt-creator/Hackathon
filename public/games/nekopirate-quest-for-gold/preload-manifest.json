@@ -3,10 +3,6 @@
     "/games/nekopirate-quest-for-gold/index.html",
     "/games/nekopirate-quest-for-gold/js/poki-sdk-shim.js",
     "/games/nekopirate-quest-for-gold/js/tiptap-platform-bridge.js",
-    "/games/nekopirate-quest-for-gold/scripts/modernjscheck.js",
-    "/games/nekopirate-quest-for-gold/scripts/supportcheck.js",
-    "/games/nekopirate-quest-for-gold/scripts/offlineclient.js",
-    "/games/nekopirate-quest-for-gold/scripts/main.js",
-    "/games/nekopirate-quest-for-gold/scripts/register-sw.js"
+    "/games/nekopirate-quest-for-gold/js/tiptap-inline-1.js"
   ]
 }
