@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/samurai-punch/index.html",
+    "/games/samurai-punch/js/poki-sdk-shim.js",
+    "/games/samurai-punch/js/tiptap-platform-bridge.js",
+    "/games/samurai-punch/js/tiptap-inline-1.js"
+  ]
+}

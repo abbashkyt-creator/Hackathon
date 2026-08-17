@@ -1,0 +1,200 @@
+{
+  "name": "gobattle2",
+  "sourcePage": "https://poki.com/en/g/gobattle2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2583,
+      "sha256": "08592577a0383442fd8c01af946d144bf5e8a97e48a132d0949d272fc3f02cf8",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "116b4fc59054db6d317752d94d50392166f31264b4436dd707afc6b8a839f123",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "54a0ac5b1f7ff2eb726ef980b3b6255b2d66850ca33724ee4cd7c95b10e75de0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "9141ca1bac44f4963d7935a21e57d586066ff9c4bf2fa889bdcd045fce8440b6",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 247,
+      "sha256": "b96bdaa17a9d26614e991f5ea78453a711dcaf7b3baed707c08aff7a11e6026d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio.js",
+      "bytes": 3170661,
+      "sha256": "2b47fd2a551ef6be192e052cae2fae4eb08c4e6892e55d50eb1fd267e0ad4e5c"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_0.png",
+      "bytes": 1136,
+      "sha256": "7b8d0aa094277f0fab1819165217419b0500d3644743f164a7092a761e3a1804"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_1.png",
+      "bytes": 284610,
+      "sha256": "e0f742ae270a0b30aaa7997561e76de33dcb0966ab95647cb6cafb74e7101c13"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_10.png",
+      "bytes": 108277,
+      "sha256": "fc49b7241394457d4b681ba788d78c937f2ad8887b2e8851266c10b27b7357e1"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_11.png",
+      "bytes": 132148,
+      "sha256": "1820a642cfc969f0c1756c050994b5fe1fa813e2e5d2cc530da03007cffd86b5"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_12.png",
+      "bytes": 108216,
+      "sha256": "265e91e8edb58cdf192ad14f12f02449a2949f065c68aa60873128b0e5d97dd2"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_13.png",
+      "bytes": 270188,
+      "sha256": "a728bbcb891faacee797096e90a6d3e8dbecd07c0e380f6b67d0f9db070dbbb2"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_14.png",
+      "bytes": 60792,
+      "sha256": "96285293e3a00a2080d5c7e3084d0654f96c0c0f16d7f022009fdc8cc110f8dc"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_15.png",
+      "bytes": 444401,
+      "sha256": "39c459b0eeb4219f091f48744c53da630333e28e191d5843c96b353900c12c8b"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_16.png",
+      "bytes": 1311,
+      "sha256": "3658b5a253e3e41b6e2e946bb9d26df1b1f65525bc776ed308c34de770f32ac6"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_17.png",
+      "bytes": 2785,
+      "sha256": "a65b5c95cd458b1c26d23a632aab4499b2f55026ac14b12bc784b0c7e4b845cc"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_18.png",
+      "bytes": 285958,
+      "sha256": "e302e6546c768d373aa92f5e1013cfa4ef84e35be64bb084c41c7f113517bd7b"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_2.png",
+      "bytes": 183068,
+      "sha256": "06c6f32598f67673e16635943854473488a42731a6f35f4853d1df0f0830a521"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_3.png",
+      "bytes": 51176,
+      "sha256": "64dcc256389c8133a4b21873939fa74a9496682db4488e17b85740a22057e27f"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_4.png",
+      "bytes": 81782,
+      "sha256": "c63f2e2312436ebbfdeff15692f01d4869a7097244ee8c09971af90a98612f88"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_5.png",
+      "bytes": 39411,
+      "sha256": "906e42f9d12fba2e2d98ff7c960e33d6876e29e8d8d6c57e3f131dfe03a57c1a"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_6.png",
+      "bytes": 24095,
+      "sha256": "e149b4e1b0e4bbe3ee5ba141972c8531970a985a5dec4bf765ab178620880335"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_7.png",
+      "bytes": 36220,
+      "sha256": "383b0b3489f5c09a03d719284042a8136fd93af7fddae9cb914609570d375f2f"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_8.png",
+      "bytes": 54068,
+      "sha256": "e4ea9becd62186a019798bd42dc78f94bbd2813a20b3bc5989e7d63df8335396"
+    },
+    {
+      "assetPath": "html5game/GoBattle2Poki_tio_texture_9.png",
+      "bytes": 64331,
+      "sha256": "9783ea460cb76e6301e328d41199666dbadceeaaf66a1e4df4af3c8aee5f9569"
+    },
+    {
+      "assetPath": "html5game/sound/worklets/audio-worklet.js",
+      "bytes": 25824,
+      "sha256": "b42cd18a5b921eee2a36eda4fe16d1f0974ab7358eb03c54d0457e88df7b207c"
+    },
+    {
+      "assetPath": "html5game/splash.png",
+      "bytes": 6075,
+      "sha256": "d27409772c93a616e2ccbbe29d32436c8f657adc6cf39f2e827be89b0a738396"
+    },
+    {
+      "assetPath": "html5game/tph_browser_hdpi.js",
+      "bytes": 361,
+      "sha256": "f4437b73454f24c454ec1ab01196eae80816d437d5abad7a4f5a7f7e9eea418d"
+    },
+    {
+      "assetPath": "html5game/wph_ImageLoadBar.js",
+      "bytes": 1503,
+      "sha256": "b2310c3e4e2d99adde7fed742039bded8b367949ce5307451966d839a0f57e42"
+    },
+    {
+      "assetPath": "html5game/yph_poki.js",
+      "bytes": 8710,
+      "sha256": "76570ace996943cd91dd3ed7461a4b4a0b024043b5c78b24a2ebdbd263b0f985"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2583,
+      "sha256": "08592577a0383442fd8c01af946d144bf5e8a97e48a132d0949d272fc3f02cf8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "54a0ac5b1f7ff2eb726ef980b3b6255b2d66850ca33724ee4cd7c95b10e75de0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 757,
+      "sha256": "996e9730e4dd7275f07884f29a1d416abfec48775e77dff76a20cabaccec21cb"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1872,
+      "sha256": "fafe96034607afa8a2c5e03a77854e401cf96b97ff301a8e1ea6ba928cc87a2e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "9141ca1bac44f4963d7935a21e57d586066ff9c4bf2fa889bdcd045fce8440b6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 247,
+      "sha256": "b96bdaa17a9d26614e991f5ea78453a711dcaf7b3baed707c08aff7a11e6026d"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,70 @@
+{
+  "name": "basketball-superstars",
+  "sourcePage": "https://poki.com/en/g/basketball-superstars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "df0fe0f4ef2cac49db948e9d7ddebfd1760e347ff3e4ff8876a143013d5352d5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "6f3e37010b009cf1ade5122c036fcf21ca8c63183ed192ae0445114fb84da0f4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "9941c22fa4e61bb2c7836a546464e2ba12569259e40e6a3b3bd3c3ae912b5b3a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "bf0afb48cb21852195643e60d5837d8ab7e971c7c7b3785a572bb857b03bbfa7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "47cfcacc38c8bfd41e8082cb94ecdbce134486abdd4d8c0c9ce1c5c4fdd7d45b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "df0fe0f4ef2cac49db948e9d7ddebfd1760e347ff3e4ff8876a143013d5352d5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "9941c22fa4e61bb2c7836a546464e2ba12569259e40e6a3b3bd3c3ae912b5b3a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1221,
+      "sha256": "10767c34e8d97fac4147adc55b9bdcfcbd33257e61618a68b6ad700c1964e606"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "bf0afb48cb21852195643e60d5837d8ab7e971c7c7b3785a572bb857b03bbfa7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "47cfcacc38c8bfd41e8082cb94ecdbce134486abdd4d8c0c9ce1c5c4fdd7d45b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

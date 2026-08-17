@@ -1,0 +1,75 @@
+{
+  "name": "schools-out-the-great-escape",
+  "sourcePage": "https://poki.com/en/g/schools-out-the-great-escape",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1052,
+      "sha256": "b6246b853709662b74ad1244fc6f291c1e6857b433b901f3b0ae00258872ba09",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 182,
+      "sha256": "2238ce6ca832809bcac1db640e43c22f066078cfe1b75ac3db3969d7dc8f0a22",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 946,
+      "sha256": "585ec746b9008e1d1fc27e5a8c02cf0ea3a8b7aa0a9f1d430ff956846c7d5064",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 869,
+      "sha256": "c3e1a65a12b684c6f8564099ab8b35adef77709fd35d102a2b1fe633bb6c07b3",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 342,
+      "sha256": "a3cde9240fc8f8a120e5d0d70a0ea1eafb88ceb48ff1f8a165587ad95d9f76e6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1052,
+      "sha256": "b6246b853709662b74ad1244fc6f291c1e6857b433b901f3b0ae00258872ba09"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 946,
+      "sha256": "585ec746b9008e1d1fc27e5a8c02cf0ea3a8b7aa0a9f1d430ff956846c7d5064"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1336,
+      "sha256": "28d0ab1a8ca25c242e83351a2cbda6123380fe5d120b9bed7ccce725ab468d8a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 2510,
+      "sha256": "115974c7dbba344124398f77483b3f3fef0511f075e2ac8be12680761224abb0"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 869,
+      "sha256": "c3e1a65a12b684c6f8564099ab8b35adef77709fd35d102a2b1fe633bb6c07b3"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 342,
+      "sha256": "a3cde9240fc8f8a120e5d0d70a0ea1eafb88ceb48ff1f8a165587ad95d9f76e6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

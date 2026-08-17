@@ -417,6 +417,10 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "auto-ninja": { embedded: true, preloadManifest: "/games/auto-ninja/preload-manifest.json", assetManifest: "/games/auto-ninja/MIRROR-MANIFEST.json", prepareByMount: true },
   "moving-blocks": { embedded: true, preloadManifest: "/games/moving-blocks/preload-manifest.json", assetManifest: "/games/moving-blocks/MIRROR-MANIFEST.json", prepareByMount: true },
   "cougar-simulator-big-cats": { embedded: true, preloadManifest: "/games/cougar-simulator-big-cats/preload-manifest.json", assetManifest: "/games/cougar-simulator-big-cats/MIRROR-MANIFEST.json", prepareByMount: true },
+  "schools-out-the-great-escape": { embedded: true, preloadManifest: "/games/schools-out-the-great-escape/preload-manifest.json", assetManifest: "/games/schools-out-the-great-escape/MIRROR-MANIFEST.json", prepareByMount: true },
+  "basketball-superstars": { embedded: true, preloadManifest: "/games/basketball-superstars/preload-manifest.json", assetManifest: "/games/basketball-superstars/MIRROR-MANIFEST.json", prepareByMount: true },
+  "gobattle2": { embedded: true, preloadManifest: "/games/gobattle2/preload-manifest.json", assetManifest: "/games/gobattle2/MIRROR-MANIFEST.json", prepareByMount: true },
+  "samurai-punch": { embedded: true, preloadManifest: "/games/samurai-punch/preload-manifest.json", assetManifest: "/games/samurai-punch/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -1,0 +1,70 @@
+{
+  "name": "cougar-simulator-big-cats",
+  "sourcePage": "https://poki.com/en/g/cougar-simulator-big-cats",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 858,
+      "sha256": "fb8b536f9749da1204be06c6a022d9dd1e1f69558485de636342886bc2e50b90",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "26eb3fc23ad44e6aa0e780373ba373c3ae2a442e0d61f1257bcca7290451dd2c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "46a11ab5a9339cf15e854d220c9694ee4e0a3b6d7a14426f1844ba17cb0eaa45",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "2858cdd96e8eeb3a9d4c850b18e43a74c008d2959019881a5bc9b8f19c2fdc37",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "684a95fde5208358fa629b33b109dffc2d6a43d750604a860b866b60c61e69d7",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 858,
+      "sha256": "fb8b536f9749da1204be06c6a022d9dd1e1f69558485de636342886bc2e50b90"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "46a11ab5a9339cf15e854d220c9694ee4e0a3b6d7a14426f1844ba17cb0eaa45"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1282,
+      "sha256": "aa87e6b6655c8c465144ab00d39b4813f2fe2a1317abdea8390507253e5aaa7e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "2858cdd96e8eeb3a9d4c850b18e43a74c008d2959019881a5bc9b8f19c2fdc37"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "684a95fde5208358fa629b33b109dffc2d6a43d750604a860b866b60c61e69d7"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

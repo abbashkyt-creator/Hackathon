@@ -459,6 +459,10 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "auto-ninja": { creatorId: "auto-ninja", creatorName: "Auto Ninja", creatorLabel: "BY AUTO NINJA · LOCAL SOURCE MIRROR", category: "Arcade" },
   "moving-blocks": { creatorId: "moving-blocks", creatorName: "Moving Blocks", creatorLabel: "BY MOVING BLOCKS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cougar-simulator-big-cats": { creatorId: "cougar-simulator-big-cats", creatorName: "Cougar Simulator: Big Cats", creatorLabel: "BY COUGAR SIMULATOR: BIG CATS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "schools-out-the-great-escape": { creatorId: "school-s-out", creatorName: "School's Out", creatorLabel: "BY SCHOOL'S OUT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "basketball-superstars": { creatorId: "basketball-superstars", creatorName: "Basketball Superstars", creatorLabel: "BY BASKETBALL SUPERSTARS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "gobattle2": { creatorId: "gobattle-2", creatorName: "GoBattle 2", creatorLabel: "BY GOBATTLE 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "samurai-punch": { creatorId: "samurai-punch", creatorName: "Samurai Punch", creatorLabel: "BY SAMURAI PUNCH · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

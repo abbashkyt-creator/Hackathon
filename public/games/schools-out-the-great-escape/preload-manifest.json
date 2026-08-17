@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/schools-out-the-great-escape/index.html",
+    "/games/schools-out-the-great-escape/js/poki-sdk-shim.js",
+    "/games/schools-out-the-great-escape/js/tiptap-platform-bridge.js",
+    "/games/schools-out-the-great-escape/js/tiptap-inline-1.js",
+    "/games/schools-out-the-great-escape/js/tiptap-inline-2.js"
+  ]
+}
