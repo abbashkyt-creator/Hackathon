@@ -38,6 +38,8 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { DasiSpaManagerGame } from "./DasiSpaManagerGame";
+export { TankVsZombiesGame } from "./TankVsZombiesGame";
 export { HarvestSimulatorGame } from "./HarvestSimulatorGame";
 export { HexellentGame } from "./HexellentGame";
 export { ScaryLittlePranksterGame } from "./ScaryLittlePranksterGame";

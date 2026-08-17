@@ -452,6 +452,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "scary-little-prankster": { embedded: true, preloadManifest: "/games/scary-little-prankster/preload-manifest.json", assetManifest: "/games/scary-little-prankster/MIRROR-MANIFEST.json", prepareByMount: true },
   "hexellent": { embedded: true, preloadManifest: "/games/hexellent/preload-manifest.json", assetManifest: "/games/hexellent/MIRROR-MANIFEST.json", prepareByMount: true },
   "harvest-simulator": { embedded: true, preloadManifest: "/games/harvest-simulator/preload-manifest.json", assetManifest: "/games/harvest-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
+  "tank-vs-zombies": { embedded: true, preloadManifest: "/games/tank-vs-zombies/preload-manifest.json", assetManifest: "/games/tank-vs-zombies/MIRROR-MANIFEST.json", prepareByMount: true },
+  "dasi-spa-manager": { embedded: true, preloadManifest: "/games/dasi-spa-manager/preload-manifest.json", assetManifest: "/games/dasi-spa-manager/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "dasi-spa-manager"
+  | "tank-vs-zombies"
   | "harvest-simulator"
   | "hexellent"
   | "scary-little-prankster"

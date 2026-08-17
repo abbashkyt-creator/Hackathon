@@ -494,6 +494,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "scary-little-prankster": { creatorId: "scary-little-prankster", creatorName: "Scary Little Prankster", creatorLabel: "BY SCARY LITTLE PRANKSTER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "hexellent": { creatorId: "hexellent", creatorName: "Hexellent", creatorLabel: "BY HEXELLENT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "harvest-simulator": { creatorId: "harvest-simulator", creatorName: "Harvest Simulator", creatorLabel: "BY HARVEST SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "tank-vs-zombies": { creatorId: "tank-vs-zombies", creatorName: "Tank VS Zombies", creatorLabel: "BY TANK VS ZOMBIES · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "dasi-spa-manager": { creatorId: "dasi-spa-manager", creatorName: "Dasi Spa Manager", creatorLabel: "BY DASI SPA MANAGER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
