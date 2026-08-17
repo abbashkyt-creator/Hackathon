@@ -1,0 +1,105 @@
+{
+  "name": "roller",
+  "sourcePage": "https://poki.com/en/g/roller",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1911,
+      "sha256": "9086f6c5d7a5fb0387927e3b62ce3e56fe82bcefcd7e82447d1684c5916894c1",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 160,
+      "sha256": "d889d5d20c6a5682aca8d08d88463b61ada26faf316286d855212fd386a790d1",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 902,
+      "sha256": "c64cb4a9d6336a203e2ad73f7190ef2d97ea3993571274a0a10377c05ca34a1b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 847,
+      "sha256": "dce379961fce17d067d8660d978a1abe0c852140317b9a84f2e8299369891461",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 146,
+      "sha256": "f233796f1219d7c09d1e57995b67774e40f80891606f073f2329893337d89f2d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1911,
+      "sha256": "9086f6c5d7a5fb0387927e3b62ce3e56fe82bcefcd7e82447d1684c5916894c1"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 902,
+      "sha256": "c64cb4a9d6336a203e2ad73f7190ef2d97ea3993571274a0a10377c05ca34a1b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 847,
+      "sha256": "dce379961fce17d067d8660d978a1abe0c852140317b9a84f2e8299369891461"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 146,
+      "sha256": "f233796f1219d7c09d1e57995b67774e40f80891606f073f2329893337d89f2d"
+    },
+    {
+      "assetPath": "webapp/baloo2.woff",
+      "bytes": 24072,
+      "sha256": "89fa817f0aa813456b98ba2d34435022bb0fd9747f0a6197f1d64c614f66177b"
+    },
+    {
+      "assetPath": "webapp/cover.jpg",
+      "bytes": 16293,
+      "sha256": "8ffa1a573c2b3dc1ae5424b0d50cc6ffd1b25c1c62d49f935378631761150845"
+    },
+    {
+      "assetPath": "webapp/fancade.css",
+      "bytes": 6459,
+      "sha256": "e5878068247b2c4e9c52d832283926424d6a2f796f7312aad499dd2641679df9"
+    },
+    {
+      "assetPath": "webapp/index.js",
+      "bytes": 196620,
+      "sha256": "c71468c2b95001d8a44736503f0f306d1a5065358e4b292f6c2cf90e60d608f4"
+    },
+    {
+      "assetPath": "webapp/index.wasm",
+      "bytes": 2172598,
+      "sha256": "3986b4fecb2d13c5aba7a2e5d748bb2978e54f12e520cd035de8d5eb184ff7c6"
+    },
+    {
+      "assetPath": "webapp/source_min.js",
+      "bytes": 22919,
+      "sha256": "c11a176d84e1d5c14ae0b76b8d219470fc1a00a2102b3183db6c7527f41f2069"
+    },
+    {
+      "assetPath": "webapp/view_common.css",
+      "bytes": 5273,
+      "sha256": "854599a24a1d8f73e090686a2551864577a17b0d5f1d5ee0b1fac7b74386a83b"
+    },
+    {
+      "assetPath": "webapp/view_common.js",
+      "bytes": 7671,
+      "sha256": "d4dd392434d753afb678d1101b05fcc772f25ae67ed1c5a0c9a4f2cd6de22904"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

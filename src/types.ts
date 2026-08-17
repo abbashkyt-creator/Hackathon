@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "roller"
+  | "color-merge-lines"
   | "grass-cutter"
   | "thung-wars"
   | "snake-vs-human"

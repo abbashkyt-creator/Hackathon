@@ -366,6 +366,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "snake-vs-human": { embedded: true, preloadManifest: "/games/snake-vs-human/preload-manifest.json", assetManifest: "/games/snake-vs-human/MIRROR-MANIFEST.json", prepareByMount: true },
   "thung-wars": { embedded: true, preloadManifest: "/games/thung-wars/preload-manifest.json", assetManifest: "/games/thung-wars/MIRROR-MANIFEST.json", prepareByMount: true },
   "grass-cutter": { embedded: true, preloadManifest: "/games/grass-cutter/preload-manifest.json", assetManifest: "/games/grass-cutter/MIRROR-MANIFEST.json", prepareByMount: true },
+  "color-merge-lines": { embedded: true, preloadManifest: "/games/color-merge-lines/preload-manifest.json", assetManifest: "/games/color-merge-lines/MIRROR-MANIFEST.json", prepareByMount: true },
+  "roller": { embedded: true, preloadManifest: "/games/roller/preload-manifest.json", assetManifest: "/games/roller/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

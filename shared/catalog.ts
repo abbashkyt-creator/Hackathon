@@ -408,6 +408,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "snake-vs-human": { creatorId: "snake-vs-human", creatorName: "Snake Vs Human", creatorLabel: "BY SNAKE VS HUMAN · LOCAL SOURCE MIRROR", category: "Arcade" },
   "thung-wars": { creatorId: "thung-wars", creatorName: "Thung Wars", creatorLabel: "BY THUNG WARS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "grass-cutter": { creatorId: "grass-cutter", creatorName: "Grass Cutter", creatorLabel: "BY GRASS CUTTER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "color-merge-lines": { creatorId: "color-merge-lines", creatorName: "Color Merge Lines", creatorLabel: "BY COLOR MERGE LINES · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "roller": { creatorId: "roller", creatorName: "Roller", creatorLabel: "BY ROLLER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

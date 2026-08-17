@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/roller/index.html",
+    "/games/roller/js/poki-sdk-shim.js",
+    "/games/roller/js/tiptap-platform-bridge.js"
+  ]
+}
