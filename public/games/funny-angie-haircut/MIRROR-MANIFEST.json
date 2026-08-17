@@ -1,0 +1,75 @@
+{
+  "name": "funny-angie-haircut",
+  "sourcePage": "https://poki.com/en/g/funny-angie-haircut",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2477,
+      "sha256": "403757e7cf4063538cc48da1046f80eb42c6e08d08e0278da63bf8793eaea73a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "d4e83af022a84eee12aa32e49d970ce88a2e53b9db43abc6ebcd2a260a8121cb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "80ad1c2ab6273f3ca4bc5a503e14077f54f2b8cf7135f01c1c87d3e0e3f90321",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "ae69e8e7494cc60707235421fe35143f25e1ba22aed2ab6975e03646a00b4dda",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "a30d98ddcb4a179becbf9b85489f9e1d53b8451869f66f1795f2442194a95de7",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12486,
+      "sha256": "eada1ce7864e25cff7baece57bc31a9a27b65270d6019f3d70d7b7fbdd164d57"
+    },
+    {
+      "assetPath": "funny_angie_haircut.js",
+      "bytes": 1928055,
+      "sha256": "2747b5a33b90b4b52dd99e03364e4e2dede32e2473961b24497fa0899816010f"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2477,
+      "sha256": "403757e7cf4063538cc48da1046f80eb42c6e08d08e0278da63bf8793eaea73a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "80ad1c2ab6273f3ca4bc5a503e14077f54f2b8cf7135f01c1c87d3e0e3f90321"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "ae69e8e7494cc60707235421fe35143f25e1ba22aed2ab6975e03646a00b4dda"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "a30d98ddcb4a179becbf9b85489f9e1d53b8451869f66f1795f2442194a95de7"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,70 @@
+{
+  "name": "ragdoll-drop",
+  "sourcePage": "https://poki.com/en/g/ragdoll-drop",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1502,
+      "sha256": "2199bafc3bbc6d4585c06b23c5cfdff8242c8225ceb0f8049f4e8c26c3afecd9",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "5923ad540932ee80f7796fdb1d01c1b93fbd27e91b7b8a6f92638f61bec5b1cf",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "04246b944247bb630c62cd4ae9d02ac59207280ae72b02e99f202d3cbf37186a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "1949bd44c37d12f1d5badf2ee8d3a369596449c40abeaa14ee417e7d9248a076",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "38608d249a6390b00f1c0613e26b2363c02681d26cc617fba5d38cffd9d611c5",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1502,
+      "sha256": "2199bafc3bbc6d4585c06b23c5cfdff8242c8225ceb0f8049f4e8c26c3afecd9"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "04246b944247bb630c62cd4ae9d02ac59207280ae72b02e99f202d3cbf37186a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1289,
+      "sha256": "16234570e4f6e81b9b2830bfa876341d823d072678264406ef4be2f410bf554e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "1949bd44c37d12f1d5badf2ee8d3a369596449c40abeaa14ee417e7d9248a076"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "38608d249a6390b00f1c0613e26b2363c02681d26cc617fba5d38cffd9d611c5"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

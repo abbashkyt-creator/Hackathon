@@ -387,6 +387,10 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "obby-roads": { creatorId: "obby-roads", creatorName: "Obby Roads", creatorLabel: "BY OBBY ROADS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "bacon-survivor": { creatorId: "bacon-survivor", creatorName: "Bacon Survivor", creatorLabel: "BY BACON SURVIVOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "hill-climb-racing-lite": { creatorId: "hill-climb-racing-lite", creatorName: "Hill Climb Racing Lite", creatorLabel: "BY HILL CLIMB RACING LITE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "ludo-online": { creatorId: "ludo-online", creatorName: "Ludo Online", creatorLabel: "BY LUDO ONLINE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "blumgi-bounce": { creatorId: "blumgi-bounce", creatorName: "Blumgi Bounce", creatorLabel: "BY BLUMGI BOUNCE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "ragdoll-drop": { creatorId: "ragdoll-drop", creatorName: "Ragdoll Drop", creatorLabel: "BY RAGDOLL DROP · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "kates-cooking-party": { creatorId: "kate-s-cooking-party", creatorName: "Kate's Cooking Party", creatorLabel: "BY KATE'S COOKING PARTY · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

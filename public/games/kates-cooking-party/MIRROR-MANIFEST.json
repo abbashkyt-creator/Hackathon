@@ -1,0 +1,155 @@
+{
+  "name": "kates-cooking-party",
+  "sourcePage": "https://poki.com/en/g/kates-cooking-party",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 912,
+      "sha256": "2e2dddc04059215907b47b75216492e386e677ed7c4b2493f2848b40d854e8e9",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "f63447343395d6b7c1cd36fc821d2772fc050e817822d4c7faf374a382b03014",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "ffffb30c4284a53833716221359958a67ede7f67c743a7f7e35ec969fa8372a7",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "c9e46a7c9e7b21cbda11f1752b48d7a99c6580f15144ec800c772b023b747c50",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "5be3d152d435a4fbdb6ebf6078cef966ba6da498910833587919675db690e806",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/audiosheets/01.json",
+      "bytes": 2190,
+      "sha256": "c4b75d2ffc07056d585fa74602edccc80f0420b67aa06dc5e77d50302c375f63"
+    },
+    {
+      "assetPath": "assets/audiosheets/01.mp3",
+      "bytes": 1384533,
+      "sha256": "38a1368851db423a2feecb2bb1000fcc0945044bdb13af98c4cd86705e9c9186"
+    },
+    {
+      "assetPath": "assets/Preloader.png",
+      "bytes": 203496,
+      "sha256": "32f5b9506ac1be5cf685161f91d79a38fdc4d1a826c133558c957dd825a979c0"
+    },
+    {
+      "assetPath": "assets/spine/Boy/Cr1.json",
+      "bytes": 43456,
+      "sha256": "a8eb1d5f29e67b0a211743681477937454d42ed1143ef20058a711711471ee66"
+    },
+    {
+      "assetPath": "assets/spine/Character02/Cr2.json",
+      "bytes": 142683,
+      "sha256": "2820c2f3d29ffd9ec1f0eed8735d676db991af1b302d2f63c20b59acd1202d39"
+    },
+    {
+      "assetPath": "assets/spine/Character03/Cr3.json",
+      "bytes": 149430,
+      "sha256": "7f065f03ef87e4b7b0f0f7245a478938befb0175df9d64b88882eb4ec5fb7319"
+    },
+    {
+      "assetPath": "assets/spine/Character04/Cr4.json",
+      "bytes": 142753,
+      "sha256": "e32daf3f300fce46e3619cee46538a51b3b112abc719dd41c75b07a49b5aee2e"
+    },
+    {
+      "assetPath": "assets/spine/Character05/Cr5.json",
+      "bytes": 142715,
+      "sha256": "6459073ca2f3a18bbcd1b03999a05c3ae048fe5de4aa34aec42ecd49e50b23cb"
+    },
+    {
+      "assetPath": "assets/spine/Character06/Cr6.json",
+      "bytes": 143313,
+      "sha256": "3309214f208fe1dcad05b4b61dec3c0196da116077dfec0e82a2026d251d95c2"
+    },
+    {
+      "assetPath": "assets/spine/Character07/Cr7.json",
+      "bytes": 142737,
+      "sha256": "597490aec159706980f8f95affe5c652636012dbc0ce92aa624765d3ac740112"
+    },
+    {
+      "assetPath": "assets/spine/Character08/Cr8.json",
+      "bytes": 143757,
+      "sha256": "92ff153ab691aee659a9843ba4d30c1b91073375dfb36d15fd30fc22664d787e"
+    },
+    {
+      "assetPath": "assets/spine/Character09/Cr9.json",
+      "bytes": 142771,
+      "sha256": "569f5f2afa271f39c71e28916e0ef62b40f07c9fb3c1a3662ed99a53f19245a3"
+    },
+    {
+      "assetPath": "assets/spine/Character10/Cr10.json",
+      "bytes": 142771,
+      "sha256": "0ec2ee8e956f36b5928fc066666c1f8a9b7790ddb5100f5cfe84ac2bbff893ec"
+    },
+    {
+      "assetPath": "assets/spine/Chef/Chef.json",
+      "bytes": 22540,
+      "sha256": "a3023d5498123aee2e45656f4c4ec3340b040efba93b751f485124489318d3d6"
+    },
+    {
+      "assetPath": "assets/spine/WaitressNew/Waiters.json",
+      "bytes": 189812,
+      "sha256": "8c83572b3c227f064ce57ec8e375380e8fbc0efd985eab1494d56ad209090a2d"
+    },
+    {
+      "assetPath": "assets/spritesheets/01.json",
+      "bytes": 10924,
+      "sha256": "28e345bd48a5a53e83c0b458a307aa7e0ea90870f273712edfaddcd50fb73525"
+    },
+    {
+      "assetPath": "assets/spritesheets/01.png",
+      "bytes": 487687,
+      "sha256": "9591dc9c9ec35928ead4be9668f11300bdec391693b7927830c65e5144bb65bd"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 912,
+      "sha256": "2e2dddc04059215907b47b75216492e386e677ed7c4b2493f2848b40d854e8e9"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "ffffb30c4284a53833716221359958a67ede7f67c743a7f7e35ec969fa8372a7"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "c9e46a7c9e7b21cbda11f1752b48d7a99c6580f15144ec800c772b023b747c50"
+    },
+    {
+      "assetPath": "main.1edb47d4a922bcbf1856.js",
+      "bytes": 1286097,
+      "sha256": "84b445812cdaf6ded2231c8b4ec5ac2019e76cb9472ae3f8f1b39fc4254206e5"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "5be3d152d435a4fbdb6ebf6078cef966ba6da498910833587919675db690e806"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

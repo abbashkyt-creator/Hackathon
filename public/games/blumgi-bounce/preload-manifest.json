@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/blumgi-bounce/index.html",
+    "/games/blumgi-bounce/js/poki-sdk-shim.js",
+    "/games/blumgi-bounce/js/tiptap-platform-bridge.js",
+    "/games/blumgi-bounce/js/tiptap-inline-1.js"
+  ]
+}

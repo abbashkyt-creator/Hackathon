@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/funny-angie-haircut/index.html",
+    "/games/funny-angie-haircut/js/poki-sdk-shim.js",
+    "/games/funny-angie-haircut/js/tiptap-platform-bridge.js"
+  ]
+}

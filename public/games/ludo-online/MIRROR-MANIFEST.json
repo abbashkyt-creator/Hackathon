@@ -1,0 +1,105 @@
+{
+  "name": "ludo-online",
+  "sourcePage": "https://poki.com/en/g/ludo-online",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4014,
+      "sha256": "c400e533c98419a4ae9be025465b2bd2252ee38c08941b1afb53e599159c792a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "066623b301ad0564259bf20014ae02c0f3649b0c0efd8adec3f0a6f908d959ec",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "ef1169e6ee3816bb056e0654a12a8b41c4f8e6b8de436cccfcaa82e23f7a4098",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "86f6fec6d738f3d6ee9fd63cabb682e3953288eaf897df489dd40c0efe429e84",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 257,
+      "sha256": "300a81531a84deab4ae5cba7b567c2bcac2bcb9da8831244b71cec53997bf629",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4014,
+      "sha256": "c400e533c98419a4ae9be025465b2bd2252ee38c08941b1afb53e599159c792a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "ef1169e6ee3816bb056e0654a12a8b41c4f8e6b8de436cccfcaa82e23f7a4098"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 2035,
+      "sha256": "6fcb03c6d115f3984dce214c0b5de6da87f341b642dadf1216ac65dd63cd3db1"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 73,
+      "sha256": "66f912c02eed99ad823231e711c072f025f869d58c17c7d8f63ddd4ae2794dbe"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "86f6fec6d738f3d6ee9fd63cabb682e3953288eaf897df489dd40c0efe429e84"
+    },
+    {
+      "assetPath": "logo.png",
+      "bytes": 25224,
+      "sha256": "977d8e706c00d6582ba64f9043bbe8ded1f9302696905bde0653678ea96f3297"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 257,
+      "sha256": "300a81531a84deab4ae5cba7b567c2bcac2bcb9da8831244b71cec53997bf629"
+    },
+    {
+      "assetPath": "sitelock.js",
+      "bytes": 61,
+      "sha256": "548857263ded99db2c6261080bc723b667ccabc19abff4a1643a345e61f18579"
+    },
+    {
+      "assetPath": "src/import-map.json",
+      "bytes": 40,
+      "sha256": "2be73d8f2e7e1d814627714ace691b6e1a9d445c779426a224e7f3685f0fa278"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/system.bundle.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1264,
+      "sha256": "4393d3c21ee92b28ea6fcaf4f46f9da3359051904d7b76f3358bc59d66f47da8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

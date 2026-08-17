@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/kates-cooking-party/index.html",
+    "/games/kates-cooking-party/js/poki-sdk-shim.js",
+    "/games/kates-cooking-party/js/tiptap-platform-bridge.js"
+  ]
+}
