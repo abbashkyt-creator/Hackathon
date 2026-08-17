@@ -435,6 +435,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "kigurumi-dress-up": { creatorId: "kigurumi-dress-up", creatorName: "Kigurumi Dress Up", creatorLabel: "BY KIGURUMI DRESS UP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "bee-sort-by-sam": { creatorId: "bee-sort-by-sam", creatorName: "Bee Sort by Sam", creatorLabel: "BY BEE SORT BY SAM · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cafe-bara": { creatorId: "cafe-bara", creatorName: "Cafe Bara", creatorLabel: "BY CAFE BARA · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "a-cleaning-story": { creatorId: "a-cleaning-story", creatorName: "A Cleaning Story", creatorLabel: "BY A CLEANING STORY · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

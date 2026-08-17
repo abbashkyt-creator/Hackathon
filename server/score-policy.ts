@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "a-cleaning-story": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "cafe-bara": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "bee-sort-by-sam": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "kigurumi-dress-up": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

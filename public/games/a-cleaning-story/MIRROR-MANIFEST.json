@@ -1,0 +1,385 @@
+{
+  "name": "a-cleaning-story",
+  "sourcePage": "https://poki.com/en/g/a-cleaning-story",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1880,
+      "sha256": "4ab266a9928af4bf96ef202b23a30f8ee2fe9f078c0543584055eaf4f3720984",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "016c82038295020c5f87a7248bc7badcb66bfefbbe9281fa51c07ee877b01605",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "6890132af1e584f3cd42595e78f0bc5eb4e18ec47edf07f55db8b53ab8efd3dc",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a5b1b3952d199b8dfd43dd7cc179710271723c45726515f58ce72cdddd34758c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "533ce64fb09538b5186e7fa03af1c83f1d378b297bb6892780cfbfc4df03846d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 748,
+      "sha256": "556d4009f729781f6a6aa55ca4a79afd55c916e5c3ca7be2c7f960644af3e140"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 5588591,
+      "sha256": "c1d15ed7427afda2a84bb13d342af0a0ccdbeea5a32adc766b416cebd42e73cf"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 3602,
+      "sha256": "623cfdac84e15ebc1a0eccc81e4319bca84382f0dd1e99de98029622adef3f3a"
+    },
+    {
+      "assetPath": "images/alfomenu-sheet0.webp",
+      "bytes": 464056,
+      "sha256": "999233e0216d84bb768499872d6245422b408503537b47b9b168d3f717494595"
+    },
+    {
+      "assetPath": "images/alfomenu-sheet1.webp",
+      "bytes": 39782,
+      "sha256": "1c569b84c1ec6c4c6a4ef955f2d05307d43e0ce8b46d7c733b57d1f824bba125"
+    },
+    {
+      "assetPath": "images/area-sheet0.webp",
+      "bytes": 82,
+      "sha256": "c46354e2bdd889649ceaf235ebc37b4ab4dee04db478391318714d2a4d0178ce"
+    },
+    {
+      "assetPath": "images/bar-sheet0.webp",
+      "bytes": 9372,
+      "sha256": "356fea72af898ccd70fd9c0af5d1abba1fa8415b32fc81b1e20a7895077037e8"
+    },
+    {
+      "assetPath": "images/barra-sheet0.webp",
+      "bytes": 38,
+      "sha256": "a321d57906e8771eab07f7909bf6fd8ad908a4fad6c6df36632fb1303808b50e"
+    },
+    {
+      "assetPath": "images/cadillo-sheet0.webp",
+      "bytes": 46120,
+      "sha256": "f6a03bd3941a22f423c17e5b06b66a092cc08a7d094cc24bd903a6b43dfdf910"
+    },
+    {
+      "assetPath": "images/cepillo-sheet0.webp",
+      "bytes": 28382,
+      "sha256": "0e0e7d8c0b7ad8a876e658785f7834f8a5df2a9471f0cbe4c33aedffba833d6f"
+    },
+    {
+      "assetPath": "images/confetti-sheet0.webp",
+      "bytes": 11110,
+      "sha256": "4c8bf3693c37a7ee1f3c9f92ad1cb57984870fb80a2250c82753f021e388562c"
+    },
+    {
+      "assetPath": "images/exclamation-sheet0.webp",
+      "bytes": 8674,
+      "sha256": "691118384e65aaeadf6b3e11e275bb421ec7ee070f483bf57626cb28d9f0c7c2"
+    },
+    {
+      "assetPath": "images/image-sheet0.webp",
+      "bytes": 394844,
+      "sha256": "ca7045e146d7d285d70e5414596a224ca3b607d8888648a72eba2897189d9b5d"
+    },
+    {
+      "assetPath": "images/image2-sheet0.webp",
+      "bytes": 160478,
+      "sha256": "26611588ffd2fa23b1a058f7aa2ca970ebc9e524c21a04f7358dfac20bc9f23c"
+    },
+    {
+      "assetPath": "images/image3-sheet0.webp",
+      "bytes": 165828,
+      "sha256": "6dd4abc9849ff9cb1d553995792985a18138e589568c5f92b05521319d34e0e2"
+    },
+    {
+      "assetPath": "images/image4-sheet0.webp",
+      "bytes": 184152,
+      "sha256": "a5043d7dd99404914524e7e5f6a5bcdf5e49db4f723d36f2f26609bc988534b7"
+    },
+    {
+      "assetPath": "images/newstars-sheet0.webp",
+      "bytes": 4236,
+      "sha256": "beebc36f5baefc871c6d817a99bb2862edfc30c5c4d76fe94a1bb6b8a6ed09f0"
+    },
+    {
+      "assetPath": "images/pelo-sheet0.webp",
+      "bytes": 7372,
+      "sha256": "8f43136f89dc3b64ae54a6566db93e22904ba2bfbaf1f7b13114e9dc5bb25f0e"
+    },
+    {
+      "assetPath": "images/perro-sheet0.webp",
+      "bytes": 38280,
+      "sha256": "6b8f0327a0f2ed772afc95fb5e2522d57da0b6656ede3570fba3a98febf04a3e"
+    },
+    {
+      "assetPath": "images/progressbackground-sheet0.webp",
+      "bytes": 38,
+      "sha256": "db90333619cabca865530aa6b7e16140684dff745b512a13ffc5d8f668523dc1"
+    },
+    {
+      "assetPath": "images/progressbarcepillo-sheet0.webp",
+      "bytes": 106,
+      "sha256": "f81c5e6e6583ef0f41d1661b97328ce7dfc4758a264ad6b7cef80fe1194d3375"
+    },
+    {
+      "assetPath": "images/progressbarsoap-sheet0.webp",
+      "bytes": 96,
+      "sha256": "0c947c242d4c31daa75932b27a428d0fce1c63a3a68f016481a9f78a6f89834b"
+    },
+    {
+      "assetPath": "images/progressbarwater-sheet0.webp",
+      "bytes": 112,
+      "sha256": "b46944ec76c53183871421bdced99f16e712fdf681f4712073bed00dbfcde90b"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 111722,
+      "sha256": "f1660f8b4efd1825e6ccef2596f4ba39ae8976b94000b502d455a19b2a0d652c"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 44206,
+      "sha256": "69687b6a886ecdf0c1857579694824aeaeece0730aaa4777c719e46c9eca80d1"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 199664,
+      "sha256": "9e34a49229ee274284a235ba54d52f9a4fb47ef66c2cc30b198d06f178d2b464"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 16904,
+      "sha256": "2376507c0ed5d3f9f0fcd63c6ba98ab12a0f203cac968443e12b4aa182146a0d"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 15712,
+      "sha256": "a5d7a320cdd981e6713a318caafc44b673944f6b5ed9f7c73b96797e64cfb3ed"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.webp",
+      "bytes": 506,
+      "sha256": "cb901ce2448eac9a7433c5bf504d2251f2d20e84f55810e62d32c8f4ef56c559"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.webp",
+      "bytes": 38,
+      "sha256": "69bb04a2d1300f87eb5aa9634586dda778c0119e181999e3d59d9ffe29d73f66"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1880,
+      "sha256": "4ab266a9928af4bf96ef202b23a30f8ee2fe9f078c0543584055eaf4f3720984"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "6890132af1e584f3cd42595e78f0bc5eb4e18ec47edf07f55db8b53ab8efd3dc"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a5b1b3952d199b8dfd43dd7cc179710271723c45726515f58ce72cdddd34758c"
+    },
+    {
+      "assetPath": "media/008727333-cartoon-bounce.webm",
+      "bytes": 17682,
+      "sha256": "5c8641c4fc9824931bd80b4b0424b00eed71eeab58b7a8c9453a1085aa40890c"
+    },
+    {
+      "assetPath": "media/237981374-scrubbing-floor-deck-brush.webm",
+      "bytes": 4769,
+      "sha256": "79053baf88a29744771c01ffc286ffbab011e808982c4cecb2ac3434a61eb9cd"
+    },
+    {
+      "assetPath": "media/baby-talk-76380.webm",
+      "bytes": 19222,
+      "sha256": "7ee86f560c78606f58ffd761848dc1ac327f7cfbdd4c51853b590be7b25b3965"
+    },
+    {
+      "assetPath": "media/bell-notification-337658.webm",
+      "bytes": 32918,
+      "sha256": "ecfcb407eb0617f2aa4b6bce55dec6646f01cdf3ba3f9aefc9929756d5d0dde7"
+    },
+    {
+      "assetPath": "media/buster-cat-purr-cu-190916-62254.webm",
+      "bytes": 26505,
+      "sha256": "8776c06f42ef3d4cb225ff65e6802215c3e81bfdb772cb89e43646159bf2937c"
+    },
+    {
+      "assetPath": "media/cat-meow-8-fx-306184.webm",
+      "bytes": 13050,
+      "sha256": "a04f9769a3d70807a24b73a4c2a372ecc3023a2b9f0ba5b388b2ce73819590f3"
+    },
+    {
+      "assetPath": "media/chime-sound-7143.webm",
+      "bytes": 26260,
+      "sha256": "b08b3b00acec6ee3d746fcd121a3bbc71a29d0b499eab5d6d7360ac3bf5b0391"
+    },
+    {
+      "assetPath": "media/film-camera-shutter-with-auto-winder-275995.webm",
+      "bytes": 10395,
+      "sha256": "264b1933e3762f7a288512b48fe77b87b56986655eb56d61d969ea18d9147671"
+    },
+    {
+      "assetPath": "media/fire-sound-effects-224089.webm",
+      "bytes": 36755,
+      "sha256": "4c0133cfafcecffe8e87c5472cc12032126e011b84a7e56384ac566a0562c128"
+    },
+    {
+      "assetPath": "media/plastic-tapping-asmr-294295.webm",
+      "bytes": 8436,
+      "sha256": "74332a580e82a0ad3b75f245c27b1664d7efa452b165b8566af81f8e84179b87"
+    },
+    {
+      "assetPath": "media/shine-1-268902.webm",
+      "bytes": 65121,
+      "sha256": "2673bba723c48c3b203c3760087d7aa09f3bdf0594a945be1657980316928df6"
+    },
+    {
+      "assetPath": "media/short-fire-whoosh_1-317280.webm",
+      "bytes": 22850,
+      "sha256": "36df67516cb9f30f6812b1fe432a9bcf44353d84a5f461c1d439b4695da61eee"
+    },
+    {
+      "assetPath": "media/soft-piano-asmr-romantic-whispers-of-love-by-whispering-embrace-301735.webm",
+      "bytes": 855189,
+      "sha256": "824dcd682bdc6388cc4ab1fe5398ed7b2af73858d90355b79a2ac44842a1a044"
+    },
+    {
+      "assetPath": "media/squishing-soap-out-sponge-owi-83432.webm",
+      "bytes": 22898,
+      "sha256": "28252ea5262b041731902abbf8a5eaa2ae41a79760fa7f79e783576be1b94e70"
+    },
+    {
+      "assetPath": "media/vaccum-cleaner-74269.webm",
+      "bytes": 53876,
+      "sha256": "8b9eb5b4cfa3df4ac010ad8a4db7ee339da4f186e057009fdc63f586f5b40fa2"
+    },
+    {
+      "assetPath": "media/water-noises-241049.webm",
+      "bytes": 74518,
+      "sha256": "7d39a5965c900d7a1c80a30a27353d655a3989afbf29b877c3fd24e7fb0e9bbd"
+    },
+    {
+      "assetPath": "media/wind-chime-small-64660.webm",
+      "bytes": 56837,
+      "sha256": "a00f03724aa4b0332b3841dcb7bf629d4651d4bf379f16ae91704741653dd6f2"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "533ce64fb09538b5186e7fa03af1c83f1d378b297bb6892780cfbfc4df03846d"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1560296,
+      "sha256": "e98463ab6aa2f17479879a989213706fe3581264718f7f2539efc0541dd751cb"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 123441,
+      "sha256": "393d61a2faaafb1c256f09b7a47f17dede324f7f095054249583bfab3c26fa5b"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4799,
+      "sha256": "6173f57586040a4937f752c81f8f30586fbc50a8426180e5f65b52cf56115b9a"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2130,
+      "sha256": "ea7cd092261264fa89c8c4d554bc1e87cf2c5ca4ee23826e95e33f5af756ce21"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 2871,
+      "sha256": "2d2c638a7aaba50f2f46dc2634e5dac098fe3d05509f613b690b874fadc1fcc8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

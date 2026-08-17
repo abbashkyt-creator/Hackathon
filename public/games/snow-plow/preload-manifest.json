@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/snow-plow/index.html",
+    "/games/snow-plow/js/poki-sdk-shim.js",
+    "/games/snow-plow/js/tiptap-platform-bridge.js",
+    "/games/snow-plow/playcanvas-stable.min.js",
+    "/games/snow-plow/__settings__.js",
+    "/games/snow-plow/__modules__.js",
+    "/games/snow-plow/__start__.js",
+    "/games/snow-plow/__loading__.js"
+  ]
+}

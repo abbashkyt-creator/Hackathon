@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/a-cleaning-story/index.html",
+    "/games/a-cleaning-story/js/poki-sdk-shim.js",
+    "/games/a-cleaning-story/js/tiptap-platform-bridge.js",
+    "/games/a-cleaning-story/js/tiptap-inline-1.js"
+  ]
+}

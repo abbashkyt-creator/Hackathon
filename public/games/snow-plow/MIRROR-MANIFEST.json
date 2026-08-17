@@ -1,0 +1,70 @@
+{
+  "name": "snow-plow",
+  "sourcePage": "https://poki.com/en/g/snow-plow",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 693,
+      "sha256": "588b316f8cd1bd89b6ac08b698a8ca200b6f2b37d1238d9fb3d8b26ce33b44ae",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "e1dafad68553b7d200ee0b3cd1e2c5be85d8e07890de736b2fe9ce8fa1dd2cac",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "bf5a71896f5b878a5aec21c97832cb9c3c035bafb2f5b8dc81e0f774f009aa40",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "709dfcc572b92faabe04482904c9221072674ef18dacfb972bcbec51688e13ca",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "c2663cc21bfe67ed9157cd1d44e6558b12d25da61a62601a7b018016b3751d11",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 693,
+      "sha256": "588b316f8cd1bd89b6ac08b698a8ca200b6f2b37d1238d9fb3d8b26ce33b44ae"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "bf5a71896f5b878a5aec21c97832cb9c3c035bafb2f5b8dc81e0f774f009aa40"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "709dfcc572b92faabe04482904c9221072674ef18dacfb972bcbec51688e13ca"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 343,
+      "sha256": "a141629105ab1031f0ce66c2f70f100a084215858aa9c9b213e0c5ad68c464dc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "c2663cc21bfe67ed9157cd1d44e6558b12d25da61a62601a7b018016b3751d11"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
