@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/diva-hair-salon/index.html",
+    "/games/diva-hair-salon/js/poki-sdk-shim.js",
+    "/games/diva-hair-salon/js/tiptap-platform-bridge.js",
+    "/games/diva-hair-salon/js/tiptap-inline-1.js"
+  ]
+}

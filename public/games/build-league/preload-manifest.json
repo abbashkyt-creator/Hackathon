@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/build-league/index.html",
+    "/games/build-league/js/poki-sdk-shim.js",
+    "/games/build-league/js/tiptap-platform-bridge.js",
+    "/games/build-league/files/assets/243636942/1/Utils.js",
+    "/games/build-league/files/assets/243637645/1/PokiPlugin.js",
+    "/games/build-league/playcanvas-stable.min.js",
+    "/games/build-league/__settings__.js",
+    "/games/build-league/__modules__.js"
+  ]
+}

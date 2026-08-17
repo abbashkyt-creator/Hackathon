@@ -1,0 +1,115 @@
+{
+  "name": "build-league",
+  "sourcePage": "https://poki.com/en/g/build-league",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 765,
+      "sha256": "8c6d5fc2b9743abec3d34ab01caf155d2a60982d063ddfb1076e2abaa7ea0f32",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "190f8448b39cf9b68159be3bb18fea675d762db2054506d6cc4d511861959bff",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "bcce70d6ae093c9510de38f083cdfb09da653c6c021b87afccf66b88b6fdce4e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "932860584e372ffe4f0252c3ff3e426e1e8de31bd64ff414ffda6badfab2c6c0",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 428,
+      "sha256": "e2f822fdfa45ef05ae66b8c709cb0d8f4ca5cc39c7ee9681dfe551ebc558ae78",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2291259.json",
+      "bytes": 11345646,
+      "sha256": "d005c8ef9f4c289338c162cc921d014695079e3e4cc1e7f2be1d54965b0ec359"
+    },
+    {
+      "assetPath": "files/assets/243636942/1/Utils.js",
+      "bytes": 59244,
+      "sha256": "dcdcba48d33292ec3fc09225ba44424b899aadc9171f10b6ab8f37aa08fe25e3"
+    },
+    {
+      "assetPath": "files/assets/243637645/1/PokiPlugin.js",
+      "bytes": 9189,
+      "sha256": "fb02dac03ecd7523a90159b72334bb344dd12727684f5017d22dca851d7a63c4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 765,
+      "sha256": "8c6d5fc2b9743abec3d34ab01caf155d2a60982d063ddfb1076e2abaa7ea0f32"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "bcce70d6ae093c9510de38f083cdfb09da653c6c021b87afccf66b88b6fdce4e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "932860584e372ffe4f0252c3ff3e426e1e8de31bd64ff414ffda6badfab2c6c0"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 351,
+      "sha256": "bde42c6b0de968670d8f9c0f3724b96f05fba66c383b0991398c3e20cd8cce13"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 1766329,
+      "sha256": "7ad502873aa814fc5b2c74193806e088e92acc087230a11116c1a615804e1145"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 428,
+      "sha256": "e2f822fdfa45ef05ae66b8c709cb0d8f4ca5cc39c7ee9681dfe551ebc558ae78"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 8683,
+      "sha256": "0bc0db59724fab33270c324608ca16bbd7ceebc5d1357dbf1e226dc545be0982"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 2382,
+      "sha256": "0bbcd8db5c85b270877f645733408d573ae7998a88a5ce496b17d614913ceaf0"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

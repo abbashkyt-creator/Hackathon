@@ -441,6 +441,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "snow-plow": { creatorId: "snow-plow", creatorName: "Snow Plow", creatorLabel: "BY SNOW PLOW · LOCAL SOURCE MIRROR", category: "Arcade" },
   "morph-balls": { creatorId: "morph-balls", creatorName: "Morph Balls", creatorLabel: "BY MORPH BALLS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "block-sandbox": { creatorId: "block-sandbox", creatorName: "Block Sandbox", creatorLabel: "BY BLOCK SANDBOX · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "diva-hair-salon": { creatorId: "diva-hair-salon", creatorName: "Diva Hair Salon", creatorLabel: "BY DIVA HAIR SALON · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
