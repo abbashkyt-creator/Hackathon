@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/collect-n-evolve/index.html",
+    "/games/collect-n-evolve/js/poki-sdk-shim.js",
+    "/games/collect-n-evolve/js/tiptap-platform-bridge.js",
+    "/games/collect-n-evolve/playcanvas-stable.min.js",
+    "/games/collect-n-evolve/__settings__.js",
+    "/games/collect-n-evolve/__modules__.js",
+    "/games/collect-n-evolve/__start__.js",
+    "/games/collect-n-evolve/__loading__.js"
+  ]
+}

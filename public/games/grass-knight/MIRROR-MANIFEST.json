@@ -1,0 +1,85 @@
+{
+  "name": "grass-knight",
+  "sourcePage": "https://poki.com/en/g/grass-knight",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2752,
+      "sha256": "eb5050ac2ed156b3d68debe3c695909d840741bf75f9cafce73af779484c7022",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "e39b02d2d082cf49e20bc834560ad50ad17477bcc07862eddd5aada2f3edf2bf",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "a2cb4bfdf2d2b5bb9099574c57cdb8fe8c0c0d3072ec7b129a53cc746ec41464",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "6493e5bc634d47d5cd6ff9779230a68c50c8e27d736bf338a04ca35790bc66b5",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "49a21ff0bd774e28cca250af255d41a8c350d159efc4c44528f23efd79962f19",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2752,
+      "sha256": "eb5050ac2ed156b3d68debe3c695909d840741bf75f9cafce73af779484c7022"
+    },
+    {
+      "assetPath": "index.png",
+      "bytes": 24029,
+      "sha256": "fab7ec6067c99509d72b65296d84a28f5056b74eb78176adb927812ee193b2e8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "a2cb4bfdf2d2b5bb9099574c57cdb8fe8c0c0d3072ec7b129a53cc746ec41464"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 219,
+      "sha256": "a297735b52f20144bb4552e427deba55180d4b457b15b2b23ec876da6563ca16"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 28,
+      "sha256": "5752c944d4643ae9356fa57f42e99d884195a31a071b3260a0a07e4aa4150606"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 2348,
+      "sha256": "6caec4d34aaebe9f3ac590c8b64bdcea3961ea8cc49aa3bd4381c799e4cda356"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "6493e5bc634d47d5cd6ff9779230a68c50c8e27d736bf338a04ca35790bc66b5"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "49a21ff0bd774e28cca250af255d41a8c350d159efc4c44528f23efd79962f19"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,85 @@
+{
+  "name": "pizza-planet",
+  "sourcePage": "https://poki.com/en/g/pizza-planet",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1525,
+      "sha256": "45be4f9b7e2eed8760b7d9b33e612f4d2d7a36a426a6848962db2b7bc955bd5d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "0b1f3a80e4f57623a9954de47182dfc053d678a06d5a96032f996b05a1e9a4bd",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "0148491a980d1a977e1cc4251b622b0f67144cdb89a7319d040bd4ecf5940f13",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "afe163c762ee93a75bc5d3f00dc4f39ba04cce3ebf0ccdf539c530e27057f4ca",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 261,
+      "sha256": "0632e4d23961ae8ad40eb9a8e54bfc15099e51d037669402a942b2efb5f3f298",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 19135,
+      "sha256": "a2b7470eb27b46f517b4e07122f5d6e7e050143a646cce3a3d1f1ece73ad1369"
+    },
+    {
+      "assetPath": "FMsounds/music.mp3",
+      "bytes": 1150471,
+      "sha256": "f1edaa4ac98dfcd5a4240ee1289fa271d5c6d494cb620694b56e67b60c452d7c"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1525,
+      "sha256": "45be4f9b7e2eed8760b7d9b33e612f4d2d7a36a426a6848962db2b7bc955bd5d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "0148491a980d1a977e1cc4251b622b0f67144cdb89a7319d040bd4ecf5940f13"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "afe163c762ee93a75bc5d3f00dc4f39ba04cce3ebf0ccdf539c530e27057f4ca"
+    },
+    {
+      "assetPath": "lib/GameAnalytics.js",
+      "bytes": 90915,
+      "sha256": "31a960241a5795e5eb283bd6fd262500c1812c06faa88df70a0416dfec548595"
+    },
+    {
+      "assetPath": "PizzaPlanet1301bis.js",
+      "bytes": 2983461,
+      "sha256": "b5dcce3cf1b93cf87fedcdd292b2aa788151ffa9ae6f47cea1fd559747ebe4e8"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 261,
+      "sha256": "0632e4d23961ae8ad40eb9a8e54bfc15099e51d037669402a942b2efb5f3f298"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

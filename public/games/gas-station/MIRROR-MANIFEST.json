@@ -1,0 +1,70 @@
+{
+  "name": "gas-station",
+  "sourcePage": "https://poki.com/en/g/gas-station",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "eadafc53e913c767941e6719e7a40b8b0752c861fcd708990ace054ffa1d62f4",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "44de111df635ecbe7961eb5ea371ad0d2d38bb730f278641309a985a4a742f9f",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "e9f11992cfe5251ecfde53b55d478c38fbf4a6d99f687d61ffe08bec8cabaacd",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "740e7757eeea019bd3b5b7c245f5810f24088ca531dce5cc019118a8c6319d17",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "98bd4ef2783e09b2c12956d3d423d8a1c9b524fd4cbccdcf80eac9c4141632b9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "eadafc53e913c767941e6719e7a40b8b0752c861fcd708990ace054ffa1d62f4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "e9f11992cfe5251ecfde53b55d478c38fbf4a6d99f687d61ffe08bec8cabaacd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1231,
+      "sha256": "46fe56ee7a39b586ccaab7724d781c0ee144c22f7e2e93a6309f2156357c852c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "740e7757eeea019bd3b5b7c245f5810f24088ca531dce5cc019118a8c6319d17"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "98bd4ef2783e09b2c12956d3d423d8a1c9b524fd4cbccdcf80eac9c4141632b9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

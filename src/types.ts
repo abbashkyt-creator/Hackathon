@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "slime-dunk"
+  | "grass-knight"
   | "gas-station"
   | "idle-spinner-factory-builder"
   | "ludo-king"

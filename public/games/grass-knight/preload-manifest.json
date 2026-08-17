@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/grass-knight/index.html",
+    "/games/grass-knight/js/poki-sdk-shim.js",
+    "/games/grass-knight/js/tiptap-platform-bridge.js",
+    "/games/grass-knight/js/tiptap-inline-1.js",
+    "/games/grass-knight/js/tiptap-inline-2.js",
+    "/games/grass-knight/js/tiptap-inline-3.js"
+  ]
+}

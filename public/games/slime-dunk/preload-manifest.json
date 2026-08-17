@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/slime-dunk/index.html",
+    "/games/slime-dunk/js/poki-sdk-shim.js",
+    "/games/slime-dunk/js/tiptap-platform-bridge.js",
+    "/games/slime-dunk/js/tiptap-inline-1.js"
+  ]
+}
