@@ -1,0 +1,85 @@
+{
+  "name": "sky-race",
+  "sourcePage": "https://poki.com/en/g/sky-race",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1540,
+      "sha256": "cee970ceef91ad5e6bc0b1180ad251fbeda28d9d5b63f6f71dcd7833584d0724",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "9344a07e18d97519ff6908ee27fb8994c0d92699a79afb8d8a6c4f6a61fb3344",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "81284545be711817b002af7f613277bafedde6d256ec08c6ba40213fce2169d0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "f150e241f511337177473bc00d806ce92cff4a1ff0e97ee782887d4cc56ad07d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "296e398305e3755219d09244e00512d1f207a683954d8df204e41d77c203ac75",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "icon.png",
+      "bytes": 5876,
+      "sha256": "6be3f0399adb96bd01ed2b02e540ef89bbd7781f0dc7a5ca2aad4c9dba5ceca5"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1540,
+      "sha256": "cee970ceef91ad5e6bc0b1180ad251fbeda28d9d5b63f6f71dcd7833584d0724"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "81284545be711817b002af7f613277bafedde6d256ec08c6ba40213fce2169d0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 28287,
+      "sha256": "1a1f5c6ddfd15b905dfb30321e9ea586036b4eb5d4c46011b9953455e554aefd"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "f150e241f511337177473bc00d806ce92cff4a1ff0e97ee782887d4cc56ad07d"
+    },
+    {
+      "assetPath": "playgama-bridge-config.json",
+      "bytes": 1750,
+      "sha256": "f40dcd5a788e61ce80a7ff389b5710a51650e07d0fa9d534cb62dd5057ed5937"
+    },
+    {
+      "assetPath": "playgama-bridge.js",
+      "bytes": 643485,
+      "sha256": "493b8e8526243da525cc1e1f6a23718a2371d011f71f9c3b9062b7b047c371d8"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "296e398305e3755219d09244e00512d1f207a683954d8df204e41d77c203ac75"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

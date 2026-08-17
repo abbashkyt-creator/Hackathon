@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/thung-wars/index.html",
+    "/games/thung-wars/js/poki-sdk-shim.js",
+    "/games/thung-wars/js/tiptap-platform-bridge.js",
+    "/games/thung-wars/js/tiptap-inline-1.js"
+  ]
+}

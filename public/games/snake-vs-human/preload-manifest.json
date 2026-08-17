@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/snake-vs-human/index.html",
+    "/games/snake-vs-human/js/poki-sdk-shim.js",
+    "/games/snake-vs-human/js/tiptap-platform-bridge.js",
+    "/games/snake-vs-human/js/tiptap-inline-1.js"
+  ]
+}

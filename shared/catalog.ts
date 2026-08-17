@@ -405,6 +405,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "subway-surfers-match": { creatorId: "subway-surfers-match", creatorName: "Subway Surfers Match", creatorLabel: "BY SUBWAY SURFERS MATCH · LOCAL SOURCE MIRROR", category: "Arcade" },
   "scary-teacher-playtime-adventure": { creatorId: "scary-teacher-playtime-adventure", creatorName: "Scary Teacher PlayTime Adventure", creatorLabel: "BY SCARY TEACHER PLAYTIME ADVENTURE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "sky-race": { creatorId: "sky-race", creatorName: "Sky Race", creatorLabel: "BY SKY RACE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "snake-vs-human": { creatorId: "snake-vs-human", creatorName: "Snake Vs Human", creatorLabel: "BY SNAKE VS HUMAN · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "thung-wars": { creatorId: "thung-wars", creatorName: "Thung Wars", creatorLabel: "BY THUNG WARS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "grass-cutter": { creatorId: "grass-cutter", creatorName: "Grass Cutter", creatorLabel: "BY GRASS CUTTER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

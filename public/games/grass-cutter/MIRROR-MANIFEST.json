@@ -1,0 +1,70 @@
+{
+  "name": "grass-cutter",
+  "sourcePage": "https://poki.com/en/g/grass-cutter",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "0768ebe81b6a1cf5a987fce95afa83623037b2c2702776f2557bf640117912a9",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "6490492e698c919ea5296849946bf545bb16b5f8b48bd2e629b07905314ec1d3",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "eea05db43563ee92630d71504bf93be8921b5251405aedeb4a0afba104aee57b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "99c06e431ff0d9a5950b916f89009f677fc4fd3acb564bb4361b708151d12028",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "50095308f93e99f919c455f6869bf74b7408cdec1de22d506361527dbae8b120",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "0768ebe81b6a1cf5a987fce95afa83623037b2c2702776f2557bf640117912a9"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "eea05db43563ee92630d71504bf93be8921b5251405aedeb4a0afba104aee57b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1336,
+      "sha256": "301ef589428eb8c4c1b773318301cc9c487c8ab8575d11e802c8079c6ca0dedd"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "99c06e431ff0d9a5950b916f89009f677fc4fd3acb564bb4361b708151d12028"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "50095308f93e99f919c455f6869bf74b7408cdec1de22d506361527dbae8b120"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/grass-cutter/index.html",
+    "/games/grass-cutter/js/poki-sdk-shim.js",
+    "/games/grass-cutter/js/tiptap-platform-bridge.js",
+    "/games/grass-cutter/js/tiptap-inline-1.js"
+  ]
+}

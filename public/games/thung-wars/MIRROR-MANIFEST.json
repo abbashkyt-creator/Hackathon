@@ -1,0 +1,510 @@
+{
+  "name": "thung-wars",
+  "sourcePage": "https://poki.com/en/g/thung-wars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1976,
+      "sha256": "4ae9f0bb18b4408e6b399e0d40f8b445ae81d939b543129582de2b1e730de810",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "bea91ac023bde925c8a563c872419a76ff184ee9de70c157d53117f71e91a3ba",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "a20c594396ad8438ca05efae5b73bb818471f004b870affcc5332a86795ab07d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "378efb18ca454db2a29d60eea4379704c734cb210d66ba6faaee6ac3e5521199",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "1853b37a531b82b815a1b0f9e9bc0352946ac9b0936ef5e0865cd886cc209aa4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 770,
+      "sha256": "ecbe71a9d0736e8d708e0a3848b8940bfd8c7496a54c783ad9ee862bc9106f04"
+    },
+    {
+      "assetPath": "comp.json",
+      "bytes": 2207,
+      "sha256": "483db68cad5c79f015b42cfa776e935f68916403f75b7606d43c4cc24e328b40"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 604760,
+      "sha256": "ee8af48541800ca53cfe3b52302710b2a06bda21e9dbed87116c206c25fdc3fa"
+    },
+    {
+      "assetPath": "fonts/Dys.otf",
+      "bytes": 39008,
+      "sha256": "65688b2d1a1ab999b3b446177412f476047b36eed78887550fae6da1a1f18182"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 4957,
+      "sha256": "f2a4da007ab0b8daeb0d86679b459885f6f2e3a7f904a8c193ec34a7999c9b04"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 83,
+      "sha256": "c2e199f451c20adf5d048d8b64a7b9b1a6ea04a455bae23c819af697e9a26d29"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 11458,
+      "sha256": "2ed457d2feb921e67cf533121a7135b53a154c71e73048679069277bf406a2e9"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 83,
+      "sha256": "08b6f2d88f888da588f7ed3570b9419e9d91aee5f72b9cdebfb502bade82097e"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 27736,
+      "sha256": "bc4e1793f1e4db9d0ce2d81637d57e94fcb98954e8a4dd88e4232af3942a9a8b"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 86,
+      "sha256": "db5dfe5347860b46209167a2943af7af50ad4a788669f69df0ba8ee8b5b10268"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 5711,
+      "sha256": "ae423a27cac6bf1dc64f568e642dafa9b06241f25ae0ed0b463baae4cdd358c7"
+    },
+    {
+      "assetPath": "images/assasino-sheet0.webp",
+      "bytes": 199698,
+      "sha256": "00498f02979983df4eee8334c22277e8db65e2dbbaec2b3b495bafd54063912a"
+    },
+    {
+      "assetPath": "images/ballerina-sheet0.webp",
+      "bytes": 252140,
+      "sha256": "dee03dbc7756b38556d3a9a6d2b1a493d4e000e4d40ec9fbf04639118fcc2696"
+    },
+    {
+      "assetPath": "images/banini-sheet0.webp",
+      "bytes": 155888,
+      "sha256": "13ff6f1e22303ab101e2dca671564cc4d9710204121d4c210fcb1d25dc8a5d9f"
+    },
+    {
+      "assetPath": "images/bg_sky-sheet0.webp",
+      "bytes": 464,
+      "sha256": "69cf4a6cd7cecd42ac0d4d0d799d0f33ffa4e2da46c4b4b6402bc06820db4a40"
+    },
+    {
+      "assetPath": "images/bg_sky2-sheet0.webp",
+      "bytes": 3380,
+      "sha256": "1ddb3f3f645cc34497c00f187b7ae2a9418e8f5c373117e395ea1d6560ad85f9"
+    },
+    {
+      "assetPath": "images/black-sheet0.webp",
+      "bytes": 42,
+      "sha256": "91215496af8fa6960653fed36484b2ed1c1240153a8732020c061893c3441466"
+    },
+    {
+      "assetPath": "images/bombcollis-sheet0.webp",
+      "bytes": 44,
+      "sha256": "3beda82a3f0fdc5d9f2de435398cb5df7dbf7ea1231c26503aa62ad3350a300b"
+    },
+    {
+      "assetPath": "images/bomb_keci-sheet0.webp",
+      "bytes": 138158,
+      "sha256": "6edb7fa57c7456dfbbe824759522a75553cb0bd63c4e51af12f64588af0a6d47"
+    },
+    {
+      "assetPath": "images/bonditto-sheet0.webp",
+      "bytes": 143334,
+      "sha256": "bf81e59d318cc324c350a9e0c20ea9382455db0292c824c64bb2b9dffa946296"
+    },
+    {
+      "assetPath": "images/bonditto-sheet1.webp",
+      "bytes": 24720,
+      "sha256": "893aba26c7b43d1f1fa14be978552ac4d148e892e00b2a2265ecd10b6bdc5199"
+    },
+    {
+      "assetPath": "images/bonecca-sheet0.webp",
+      "bytes": 125474,
+      "sha256": "176b1651ed5d324a982c4796f9677169c73a85e4ff7706a38a8d87d98585e1a3"
+    },
+    {
+      "assetPath": "images/burricat-sheet0.webp",
+      "bytes": 205872,
+      "sha256": "3360dcc13f58571f94b5cb60ab9abc8ea8463d1ae11025f3cb46b00566e3b27a"
+    },
+    {
+      "assetPath": "images/can1-sheet0.webp",
+      "bytes": 38,
+      "sha256": "6fb71df53755184b6805020768020575bb908e75f6a6e5e2c0ec329246661a94"
+    },
+    {
+      "assetPath": "images/can2-sheet0.webp",
+      "bytes": 38,
+      "sha256": "134d8e97e286163341983a726bb38706833abc9820f1649298fa91db0630d04d"
+    },
+    {
+      "assetPath": "images/cattufo-sheet0.webp",
+      "bytes": 84774,
+      "sha256": "f2de1a25c81499fc4509240c281ce00c425ea030f816cf8da8b94ef6a3f043d3"
+    },
+    {
+      "assetPath": "images/chimp_banini2-sheet0.webp",
+      "bytes": 100808,
+      "sha256": "ce1927575a614fcf9f864706b75ec1f4ddc94b3eace8a0c6d054d42cb37f0cb3"
+    },
+    {
+      "assetPath": "images/confetti-sheet0.webp",
+      "bytes": 764,
+      "sha256": "c449f5b60079a668a72f6ddf5f283b25ce73dff45a0f17add43a470857e514a9"
+    },
+    {
+      "assetPath": "images/confetti-sheet1.webp",
+      "bytes": 52,
+      "sha256": "17c350538dbd7dc00ca6862e40eaa19c87e5a028c75ceeacc988f695dae00896"
+    },
+    {
+      "assetPath": "images/donut_horse-sheet0.webp",
+      "bytes": 152828,
+      "sha256": "157ae430052e588b31935332c4cc689415620898975645bbd1e1475678834d56"
+    },
+    {
+      "assetPath": "images/electric-sheet0.webp",
+      "bytes": 45578,
+      "sha256": "967e5673fee4c7b68d6d80364416acf21dc9abd51fdd2d1a0784c89ef60d0efa"
+    },
+    {
+      "assetPath": "images/explosion2-sheet0.webp",
+      "bytes": 128668,
+      "sha256": "817ab9fff4421f9670be99f64985971e69d3c91275fa0981ff1121e28172e1d5"
+    },
+    {
+      "assetPath": "images/explosion2-sheet1.webp",
+      "bytes": 13916,
+      "sha256": "de498f7164b6aacaca24c7dede240b7fb20ba095c40fa6354426496ba43ef4f7"
+    },
+    {
+      "assetPath": "images/fader-sheet0.webp",
+      "bytes": 42,
+      "sha256": "91215496af8fa6960653fed36484b2ed1c1240153a8732020c061893c3441466"
+    },
+    {
+      "assetPath": "images/flame-sheet0.webp",
+      "bytes": 42072,
+      "sha256": "6a8fcad7125c0f1746ed71b19c545bee8dae055cd46728573ddffffd9f5d01e4"
+    },
+    {
+      "assetPath": "images/flame-sheet1.webp",
+      "bytes": 1218,
+      "sha256": "c678befa2cd225a19b4a85c42ed4a666bc201106db356084893bfdb7e0ed5a9b"
+    },
+    {
+      "assetPath": "images/ghost_man-sheet0.webp",
+      "bytes": 91800,
+      "sha256": "9d6b6bd7c502d0c850fad683628b78f333dfbc74b331f33d523065c5b52a77e3"
+    },
+    {
+      "assetPath": "images/heal-sheet0.webp",
+      "bytes": 8878,
+      "sha256": "ad3aec15d51ed406cde69ed1644d5e40ad1545257b291450ef062953d95cefed"
+    },
+    {
+      "assetPath": "images/healt_en-sheet0.webp",
+      "bytes": 244,
+      "sha256": "0ac9df1c4cc9f42ab6ff598d2e373ec0e9e3c878351b76b65f4aeed71bf594dc"
+    },
+    {
+      "assetPath": "images/healt_my-sheet0.webp",
+      "bytes": 300,
+      "sha256": "d457f9daac190334f67c9fd2399e3a205ba2eaf193b2adff144a579111e96251"
+    },
+    {
+      "assetPath": "images/king-sheet0.webp",
+      "bytes": 185654,
+      "sha256": "8b12fa428e467df9573cf38543e92cf40fc6a0b09e7b40b4f3e98b73d77282a5"
+    },
+    {
+      "assetPath": "images/lambalina-sheet0.webp",
+      "bytes": 116426,
+      "sha256": "70e18f5dcada4a86073855723db82a212646bbab60724b56569edcbb06814744"
+    },
+    {
+      "assetPath": "images/lazer-sheet0.webp",
+      "bytes": 251788,
+      "sha256": "fec8d757fcbfa882b4eeae244dd030d2e3087d41cdf67602d3f9e3669a7a72d2"
+    },
+    {
+      "assetPath": "images/lazer-sheet1.webp",
+      "bytes": 102364,
+      "sha256": "1c399d53678e382bb25af833d34837d7172b45c4502174b58d70a0d5d34b1ce2"
+    },
+    {
+      "assetPath": "images/lazercat-sheet0.webp",
+      "bytes": 1748,
+      "sha256": "0f077f08f257e2de453a15765f6cbf02db378c9e6988642e1b1b52a92347a449"
+    },
+    {
+      "assetPath": "images/lazercat2-sheet0.webp",
+      "bytes": 250,
+      "sha256": "05ba2a9d95966c20e9bab394dec2b7e59709678fd6493b2edbb0522a65549d5b"
+    },
+    {
+      "assetPath": "images/noscroll-sheet0.webp",
+      "bytes": 44,
+      "sha256": "177af5a585b2c7ad4d8d13548d7fda05b2615021602bbb86a204d22b233fed00"
+    },
+    {
+      "assetPath": "images/postaman-sheet0.webp",
+      "bytes": 103504,
+      "sha256": "879fb1ed6cf9128587cd2c60dda1d9dfa368dd4bc951b2465819169689f56485"
+    },
+    {
+      "assetPath": "images/rock_panda-sheet0.webp",
+      "bytes": 135272,
+      "sha256": "c2936df0c3243265e299bf57de629e75e98e8f69c3deb03db02bbec902e85ef3"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 132690,
+      "sha256": "498546d4cfe6e722c471153c09aa756631c42cd9aee3005e59cc55143e4c39c3"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 108138,
+      "sha256": "8894b09a938ca025028e79d24db6cfa6c4108ff1c659d74aeb434529efca1a49"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 3574,
+      "sha256": "f5d376decf53106a043904700495f182744e30cd001ebb80d33a82dfb464c6f0"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 245936,
+      "sha256": "e128ce3c27912ff2b7bafffaea054d1e85e0f0579593f6b4b8d450abaa1c3d59"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 346870,
+      "sha256": "96bf2f5320a8958b8c4cd5313d64327a797d889334e7fdb363a3e6597b31c2e6"
+    },
+    {
+      "assetPath": "images/shared-1-sheet10.webp",
+      "bytes": 30360,
+      "sha256": "471a669b48966f00b9326ca89e232d149066482a63e315b52d7e829274d1967f"
+    },
+    {
+      "assetPath": "images/shared-1-sheet11.webp",
+      "bytes": 27994,
+      "sha256": "3d3c6ca6b8346c04d439d0630534c0e8b96f4a6e3e9e5aef0fb20576f14e69ce"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 77768,
+      "sha256": "afa196b0071c393cfe2adcb720ebb22527475fdb99b3ac5128efb70d597b3ba6"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 113914,
+      "sha256": "fbbaefaec89622ea63e7d6191a3d827e7659671fe81e45231cbc8c35e1443b2b"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.webp",
+      "bytes": 19548,
+      "sha256": "a5fd2958a452c958d62fe5c0237d5ebd1c582c166ac4b5286b9a4f77f9beda1c"
+    },
+    {
+      "assetPath": "images/shared-1-sheet5.webp",
+      "bytes": 488,
+      "sha256": "b9c4fec33452ceaedfb16ed73ea11406986de140ac7b6ab90b2f9ab9b6cddcd0"
+    },
+    {
+      "assetPath": "images/shared-1-sheet6.webp",
+      "bytes": 23702,
+      "sha256": "1c819a62bdb8150fb7492899055bc799d06c72f20ff45661ee2bba248d96d2e9"
+    },
+    {
+      "assetPath": "images/shared-1-sheet7.webp",
+      "bytes": 56396,
+      "sha256": "0f66a666db3003f862341c4e160bd3882dbc7fac25a81acec47f8b1329aeac47"
+    },
+    {
+      "assetPath": "images/shared-1-sheet8.webp",
+      "bytes": 52904,
+      "sha256": "68911cc321807f0b0d3ca404590ed91523c83f8a28509bc8417a09f8d148ddce"
+    },
+    {
+      "assetPath": "images/shared-1-sheet9.webp",
+      "bytes": 18834,
+      "sha256": "5f34beff84242b9d86bcc28ae6f9f5c415ec4a22490383e238c1d7ca0b818368"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 112428,
+      "sha256": "41bae22fd53d9cef939cfd3c77059af625dacbfb3b95e015178daf5ebc22b565"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 60998,
+      "sha256": "ac0b25f8279c4e3762737e444a1e09f5b9fd39ed495c1a30231afe4c3ebf0a20"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 108906,
+      "sha256": "4a6503385ef6ce191d5f81c26ea367110fc6a14729f736e42777fe5b7f827fdd"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 88468,
+      "sha256": "1d1cc0ed8d4db1d3bd5dcea5769b6e45d91613269e940256c572aab9f7b4f68e"
+    },
+    {
+      "assetPath": "images/shared-2-sheet4.webp",
+      "bytes": 65254,
+      "sha256": "686eef119a31d956f323290027332b6c76eec67d83c732a900a4a69e07f309dd"
+    },
+    {
+      "assetPath": "images/shared-2-sheet5.webp",
+      "bytes": 71014,
+      "sha256": "78ab42e4d4f181698272fb50542ef838facec50c7714a8650ae360ab2b996ea2"
+    },
+    {
+      "assetPath": "images/tiledarkaplang-sheet0.webp",
+      "bytes": 44,
+      "sha256": "d60bfd31ced5a705d48c2e3457cf8c12171336426b9435879a8ebc70f87edd06"
+    },
+    {
+      "assetPath": "images/tiledbottomgrass-sheet0.webp",
+      "bytes": 44,
+      "sha256": "d60bfd31ced5a705d48c2e3457cf8c12171336426b9435879a8ebc70f87edd06"
+    },
+    {
+      "assetPath": "images/tralala-sheet0.webp",
+      "bytes": 125604,
+      "sha256": "e024c519f783413f88ea279154cd91e272cd18ac764f6763725f1d121885439e"
+    },
+    {
+      "assetPath": "images/tungtung-sheet0.webp",
+      "bytes": 136450,
+      "sha256": "b58e3ae7ead45929b14f8bb4575923e2990a364c8d420c73189bb50fe82fa8f1"
+    },
+    {
+      "assetPath": "images/tungtung-sheet1.webp",
+      "bytes": 17606,
+      "sha256": "22a8d0f8234876c27192dc1a002ddbf569cd9ac5018f90d994c56b03ecc5d915"
+    },
+    {
+      "assetPath": "images/unitcounter-sheet0.webp",
+      "bytes": 2014,
+      "sha256": "3dcbd74d26536c2b5e1057cbe766c9215231feebcd2d4fe44f027d506c921aba"
+    },
+    {
+      "assetPath": "images/upgrade1-sheet0.webp",
+      "bytes": 28068,
+      "sha256": "d3250a71bb9f6c006107ff8d4367d149ed79f25629408073e881aa79f9f5b01a"
+    },
+    {
+      "assetPath": "images/upgrade3-sheet0.webp",
+      "bytes": 15264,
+      "sha256": "95573818bfa12c5ac4129db8c115455a6c1ff71c5f86e13673a1f34d0b7d8783"
+    },
+    {
+      "assetPath": "images/war_start-sheet0.webp",
+      "bytes": 102784,
+      "sha256": "53faffccf119467510565d1dab507c896661cfea269bd91efb5301ae3a7e9958"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1976,
+      "sha256": "4ae9f0bb18b4408e6b399e0d40f8b445ae81d939b543129582de2b1e730de810"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "a20c594396ad8438ca05efae5b73bb818471f004b870affcc5332a86795ab07d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "378efb18ca454db2a29d60eea4379704c734cb210d66ba6faaee6ac3e5521199"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "1853b37a531b82b815a1b0f9e9bc0352946ac9b0936ef5e0865cd886cc209aa4"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1467341,
+      "sha256": "1846d71d0e8b73cc42e3341fa04350e2129b10eb01e79f8c66c9dd4921153ec0"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 121607,
+      "sha256": "93a8adc1c414f5b34ca3257db9ea89f41a346edc5b897879d281201292a9a961"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

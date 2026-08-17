@@ -1,0 +1,70 @@
+{
+  "name": "snake-vs-human",
+  "sourcePage": "https://poki.com/en/g/snake-vs-human",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "813ce31cafa1c4f22b30d8572e4c2044ae1c0b312f66514c1fdd59102c41bcde",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "208252266847bde57878f94c98f5eaaa2e8896b0fb5f0a59cd1a35463ee1ec09",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "dd041fd0ee84592da2e0d90600ab7a050f917ec6bd844cfdc0acda59e377a43d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "91ed3f75e859ec463cb4e0a287107284844e14e89a3705cd9960ee2322c9ce06",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "7cef86a4d9946832a8f70b7d5f39c92f2b5798ff812ada940263f3e133887ca9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "813ce31cafa1c4f22b30d8572e4c2044ae1c0b312f66514c1fdd59102c41bcde"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "dd041fd0ee84592da2e0d90600ab7a050f917ec6bd844cfdc0acda59e377a43d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1304,
+      "sha256": "fec24c27d97b74200649f45e2abe1522447883415584ee05686c61a9e867fd59"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "91ed3f75e859ec463cb4e0a287107284844e14e89a3705cd9960ee2322c9ce06"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "7cef86a4d9946832a8f70b7d5f39c92f2b5798ff812ada940263f3e133887ca9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
