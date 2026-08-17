@@ -2,6 +2,9 @@
   "critical": [
     "/games/drills-merge-master/index.html",
     "/games/drills-merge-master/js/poki-sdk-shim.js",
-    "/games/drills-merge-master/js/tiptap-platform-bridge.js"
+    "/games/drills-merge-master/js/tiptap-platform-bridge.js",
+    "/games/drills-merge-master/js/tiptap-inline-1.js",
+    "/games/drills-merge-master/js/tiptap-inline-2.js",
+    "/games/drills-merge-master/js/tiptap-inline-3.js"
   ]
 }

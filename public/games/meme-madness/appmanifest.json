@@ -1,0 +1,11 @@
+{
+	"name": "Meme Games Play Viral Trends",
+	"short_name": "Meme Games Play Viral Trends",
+	"description": "Meme Games - Meme Madness",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}

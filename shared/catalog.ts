@@ -427,6 +427,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "blocky-out": { creatorId: "blocky-out", creatorName: "Blocky Out", creatorLabel: "BY BLOCKY OUT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "rumble-rush": { creatorId: "rumble-rush", creatorName: "Rumble Rush", creatorLabel: "BY RUMBLE RUSH · LOCAL SOURCE MIRROR", category: "Arcade" },
   "beach-boxing-simulator": { creatorId: "beach-boxing-simulator", creatorName: "Beach Boxing Simulator", creatorLabel: "BY BEACH BOXING SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "drills-merge-master": { creatorId: "drills-merge-master", creatorName: "Drills Merge Master", creatorLabel: "BY DRILLS MERGE MASTER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "right-jump": { creatorId: "right-jump", creatorName: "Right Jump", creatorLabel: "BY RIGHT JUMP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
