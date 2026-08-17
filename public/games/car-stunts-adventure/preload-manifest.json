@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/car-stunts-adventure/index.html",
+    "/games/car-stunts-adventure/js/poki-sdk-shim.js",
+    "/games/car-stunts-adventure/js/tiptap-platform-bridge.js",
+    "/games/car-stunts-adventure/files/assets/222488141/1/PlatformConfig.js",
+    "/games/car-stunts-adventure/playcanvas-stable.min.js",
+    "/games/car-stunts-adventure/__settings__.js",
+    "/games/car-stunts-adventure/__modules__.js",
+    "/games/car-stunts-adventure/__start__.js"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/golden-hit/index.html",
+    "/games/golden-hit/js/poki-sdk-shim.js",
+    "/games/golden-hit/js/tiptap-platform-bridge.js",
+    "/games/golden-hit/playcanvas-stable.min.js",
+    "/games/golden-hit/files/assets/207021058/1/PokiPlugin.js",
+    "/games/golden-hit/__settings__.js",
+    "/games/golden-hit/__start__.js",
+    "/games/golden-hit/__loading__.js"
+  ]
+}

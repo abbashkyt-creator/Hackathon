@@ -1,0 +1,170 @@
+{
+  "name": "car-stunts-adventure",
+  "sourcePage": "https://poki.com/en/g/car-stunts-adventure",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 699,
+      "sha256": "aa0d2b1cfec3874fea45fe8c5c8b27e8ada60994640297e6763e86662e0c6fff",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "95fc6f0407a535387fcc40d5028d2146513df9b00427765116c76e9aea0583a4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "8dc57fd08ec117290505b5f778d63c8c3146685aad4460c51d2780bb9cb00608",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "20e247b50c1539e1f422e4a5372842cee4dabc7cb9c66bef733cb5b71c0fdbd1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 475,
+      "sha256": "aecb384cb9427636e38c55562eb69b329eff76558190b7684af56e63046d040d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2212433.json",
+      "bytes": 351358,
+      "sha256": "00ab6dbfcf8ea67c512e5693e6856e3d28c605614fbb77e92facf79659615c25"
+    },
+    {
+      "assetPath": "2214438.json",
+      "bytes": 9719,
+      "sha256": "94008cce93e5e2cd28cc47e431062737260fad2922e5adf6f9c7b2dd08cd0118"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 3129260,
+      "sha256": "073fc8219eb34131df29c1124eee8227044af7cc19c554778fd68dec2339ad2d"
+    },
+    {
+      "assetPath": "files/assets/206167809/1/ammo.js",
+      "bytes": 1895438,
+      "sha256": "2700ed751c7203f1a95cee96af69f34c0a1a9557ce52291ef0ecb8431796e562"
+    },
+    {
+      "assetPath": "files/assets/206167810/1/ammo.wasm.js",
+      "bytes": 391789,
+      "sha256": "02d64f358ec638f458fae29c291168ccd4f157a6a5622a4cd70760cc1b5cc15e"
+    },
+    {
+      "assetPath": "files/assets/206167811/1/ammo.wasm.wasm",
+      "bytes": 659433,
+      "sha256": "772899614f44ea350189c1c7f181c9d76cf6820c3ead129e8e3d3c0f46dc1799"
+    },
+    {
+      "assetPath": "files/assets/206167906/1/basis.wasm.wasm",
+      "bytes": 497768,
+      "sha256": "ced1ecb366f2501c9d7f45e9b21c4fbe81fdbb5be39fdf982a1efdda593459df"
+    },
+    {
+      "assetPath": "files/assets/206167907/1/basis.js",
+      "bytes": 807092,
+      "sha256": "2df54ffb0cccb3bdde6bc61acb74e18dd1331b6da9b2cd5df3ef495b87ef9a6a"
+    },
+    {
+      "assetPath": "files/assets/206167909/1/basis.wasm.js",
+      "bytes": 62151,
+      "sha256": "87e69a71732d692b1a74527fb36377c5863b0dc81cd4847d2e64bc84867f24ba"
+    },
+    {
+      "assetPath": "files/assets/222387970/1/Sport Car_36.json",
+      "bytes": 3661,
+      "sha256": "4467600877ac770827f6f831c173161a8a81fe4ec1ce2e312385aa23f839d038"
+    },
+    {
+      "assetPath": "files/assets/222388041/1/Color.png",
+      "bytes": 2452,
+      "sha256": "f05db6802e8c29b6bd18c360aa5af2c4df9ee24d541e3dd94caf5730495990e1"
+    },
+    {
+      "assetPath": "files/assets/222388042/1/Glass.png",
+      "bytes": 14052,
+      "sha256": "cd2ecbd7620f154f4c5112ed5e7ca16e88ab7997f38892a6e3f9921445b91a30"
+    },
+    {
+      "assetPath": "files/assets/222488141/1/PlatformConfig.js",
+      "bytes": 692,
+      "sha256": "d8b3d3f859d84abd5262b3812f9140ec9dfb9d5463a08d0cd9b4167ffd3ab585"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 699,
+      "sha256": "aa0d2b1cfec3874fea45fe8c5c8b27e8ada60994640297e6763e86662e0c6fff"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "8dc57fd08ec117290505b5f778d63c8c3146685aad4460c51d2780bb9cb00608"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "20e247b50c1539e1f422e4a5372842cee4dabc7cb9c66bef733cb5b71c0fdbd1"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 367,
+      "sha256": "8c3b10e832c3a5d467bc5bef556d60cfd37bf0b8399e44c0519c26cc1b36897f"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 1766329,
+      "sha256": "7ad502873aa814fc5b2c74193806e088e92acc087230a11116c1a615804e1145"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 475,
+      "sha256": "aecb384cb9427636e38c55562eb69b329eff76558190b7684af56e63046d040d"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 360329,
+      "sha256": "f12844f92ef4c869c55a61e512513a13e90b6d383d166972fdd869f4a7b36664"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 8591,
+      "sha256": "a6a755a7b6589ab8938283959d770b62747d99637761e3eac120cb695290e3c5"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 2472,
+      "sha256": "05a43feb9423590020437d0f26a929e42b2c55382d51c7270e0344dcee49d00b"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

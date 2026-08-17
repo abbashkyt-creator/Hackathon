@@ -1,0 +1,155 @@
+{
+  "name": "golden-hit",
+  "sourcePage": "https://poki.com/en/g/golden-hit",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 649,
+      "sha256": "69b108946ae33335848f12f32f5117718f336204425a172cb57fe671a307e5ff",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "38f42162571b82a8017dabcdb6c5624f71b474669234be6d879eac7c6a7f103c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "e994df2c19599c1ab140a2f4a584848f4c92b1c3b85975b0fc1d7d4dea31efc3",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "bfc4fc73c2936532c6daa6bbd0d8bdc71148cfb6f8f8d4bb45c224260f1c067e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 391,
+      "sha256": "aaec65fa78f85d61e3c60cfe1e0903e53185213b0d7fd8df0f718941486415e3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2131500.json",
+      "bytes": 9094340,
+      "sha256": "22d2a6e21da2f8f09498c4c29a0600c22c7b83916da9a51a19c617d709fbbbc0"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 8526667,
+      "sha256": "73dd7ed65248210f78e6425387929f0690c76cedd21a5811b28b2d1dc3e40555"
+    },
+    {
+      "assetPath": "files/assets/206951903/1/Nougat-ExtraBlack.png",
+      "bytes": 65308,
+      "sha256": "f30a99b7ece8178614f72bc6ddeba6eb5cec5ba5d108417f0e1370240746983d"
+    },
+    {
+      "assetPath": "files/assets/206951905/1/LilitaOne-Regular.png",
+      "bytes": 87194,
+      "sha256": "1fcb6f1e2d3aebbbff344bf0e633f9ec973dc61afcba848085889dfd1e94985d"
+    },
+    {
+      "assetPath": "files/assets/207021058/1/PokiPlugin.js",
+      "bytes": 6559,
+      "sha256": "a0d132fc148934868cf04080328adb8b276e8f92b23196a04a1f593b338cead8"
+    },
+    {
+      "assetPath": "files/assets/207021438/1/Sky_Toon17.png",
+      "bytes": 1258592,
+      "sha256": "0a1c71af17f5b089653641d1d8b1fc70bfaaf761739e801dceae77b924f1743c"
+    },
+    {
+      "assetPath": "files/assets/207217731/1/Slider07_Icon2.png",
+      "bytes": 2866,
+      "sha256": "2996e3982ac9c3d178a92e5be738a9b6f0cd3187f7e3c7b24ade0b9714aaa508"
+    },
+    {
+      "assetPath": "files/assets/207218063/1/Slider11_Fill_Blue.png",
+      "bytes": 381,
+      "sha256": "d8bd8f7bd9280b7e5e3de7a741a9c6a2dc460dee1b9c2fc1d31443f1bb403eb1"
+    },
+    {
+      "assetPath": "files/assets/207219129/1/Slider19_Fusion_BgGlow.png",
+      "bytes": 102923,
+      "sha256": "f2289b5cba2931aa263ed8bfbc3a8874958ff12d1dd87a91c7f8800a548df692"
+    },
+    {
+      "assetPath": "files/assets/207219284/1/Popup_SideFrame02_BottomGlow.png",
+      "bytes": 15434,
+      "sha256": "02d627735632b4bb853fb2682afd724654279e7423a878bb9fbd574c103ec146"
+    },
+    {
+      "assetPath": "files/assets/207219301/1/Popup_00_TitleLIne.png",
+      "bytes": 3660,
+      "sha256": "9b9bcb9540272eecf32946c8c6f6ff945530d590daf223864446e4ecf099ed00"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 649,
+      "sha256": "69b108946ae33335848f12f32f5117718f336204425a172cb57fe671a307e5ff"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "e994df2c19599c1ab140a2f4a584848f4c92b1c3b85975b0fc1d7d4dea31efc3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "bfc4fc73c2936532c6daa6bbd0d8bdc71148cfb6f8f8d4bb45c224260f1c067e"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 347,
+      "sha256": "62d249000b5a8d88cb734fee4c4e2c27da495986b761c0b308b23c620ae6ab77"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2244127,
+      "sha256": "1b77f58f4423819ef8d321dd56a512ec16b81fe37b3e579b52ec56b2c75e5b29"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 391,
+      "sha256": "aaec65fa78f85d61e3c60cfe1e0903e53185213b0d7fd8df0f718941486415e3"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 310657,
+      "sha256": "66afb0af530dd454664a76f3a4d5220242a105e68994c8867e28cc2e87245554"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 6042,
+      "sha256": "59e81baa0a3e21ef1ff96df64694800a767ad48b3bbf800ffd06ae899d8089bd"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 1163,
+      "sha256": "0d14f47bd30a557b51b9667a4219bf3bc2232a67113326f67bb190bef9e2d436"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12272,
+      "sha256": "92f28e46fe6fb9e488e2126f46b180fe783adc679a7548867786675708ecedfd"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
