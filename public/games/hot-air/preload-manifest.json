@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/hot-air/index.html",
+    "/games/hot-air/js/poki-sdk-shim.js",
+    "/games/hot-air/js/tiptap-platform-bridge.js",
+    "/games/hot-air/js/tiptap-inline-1.js"
+  ]
+}

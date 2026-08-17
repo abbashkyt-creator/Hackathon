@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { HotAirGame } from "./HotAirGame";
 export { RanchUfoGame } from "./RanchUfoGame";
 export { MyCozyHomeGame } from "./MyCozyHomeGame";
 export { PerfectLandingPlanePilotGame } from "./PerfectLandingPlanePilotGame";

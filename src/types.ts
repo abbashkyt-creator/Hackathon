@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "hot-air"
   | "ranch-ufo"
   | "my-cozy-home"
   | "perfect-landing-plane-pilot"
