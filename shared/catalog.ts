@@ -425,6 +425,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "porki-poke": { creatorId: "porki-poke", creatorName: "Porki Poke", creatorLabel: "BY PORKI POKE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "squid-dash": { creatorId: "squid-dash", creatorName: "Squid Dash", creatorLabel: "BY SQUID DASH · LOCAL SOURCE MIRROR", category: "Arcade" },
   "blocky-out": { creatorId: "blocky-out", creatorName: "Blocky Out", creatorLabel: "BY BLOCKY OUT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "rumble-rush": { creatorId: "rumble-rush", creatorName: "Rumble Rush", creatorLabel: "BY RUMBLE RUSH · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "beach-boxing-simulator": { creatorId: "beach-boxing-simulator", creatorName: "Beach Boxing Simulator", creatorLabel: "BY BEACH BOXING SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

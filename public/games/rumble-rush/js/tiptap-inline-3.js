@@ -1,0 +1,1 @@
+function waitForUnityGame(){if(window.unityGame){initializeFirebase(window.unityGame);initializeUtils(window.unityGame)}else{const interval=setInterval(()=>{if(window.unityGame){clearInterval(interval);initializeFirebase(window.unityGame);initializeUtils(window.unityGame)}},1000)}}waitForUnityGame();

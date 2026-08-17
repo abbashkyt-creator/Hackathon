@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "beach-boxing-simulator"
+  | "rumble-rush"
   | "blocky-out"
   | "squid-dash"
   | "porki-poke"

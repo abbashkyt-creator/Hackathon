@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/drills-merge-master/index.html",
+    "/games/drills-merge-master/js/poki-sdk-shim.js",
+    "/games/drills-merge-master/js/tiptap-platform-bridge.js"
+  ]
+}

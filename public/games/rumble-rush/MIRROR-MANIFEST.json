@@ -1,0 +1,115 @@
+{
+  "name": "rumble-rush",
+  "sourcePage": "https://poki.com/en/g/rumble-rush",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1253,
+      "sha256": "7679c908ff3641a770f73b9e0549e575840519d7cd8ffd02373414931f21e639",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "6eef63f2e053be01086fba5152df2d4b5ba2f27bacee5abedd4d5331100aab15",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "c1a56fec92389ca42403c97b4d4756d03ebfa0c5155c66cdbbfb4abd82697a44",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "f83f69cacb5fa5090e4692bf31900050283e07ed266ce0eeabe476c630b6c735",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "b30e4f2718923db78c184d7b9ba7063a46e37b1966f5630bf961bbd897ddc6a5",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "firebase/10.2.0/firebase-analytics-compat.js",
+      "bytes": 26460,
+      "sha256": "a48347c10644d77b5e715d3452663196d88be7cb844c4534bf57b1841cfc9fa3"
+    },
+    {
+      "assetPath": "firebase/10.2.0/firebase-app-compat.js",
+      "bytes": 28949,
+      "sha256": "c1e04eb29177f579c1d246079a185077d0702dead97e09b16bc2665081bff8d6"
+    },
+    {
+      "assetPath": "firebase/10.2.0/firebase-auth-compat.js",
+      "bytes": 136301,
+      "sha256": "2360127247f6212645ce1d9e83186bc038162d87e0717ba391d12d4898f5b659"
+    },
+    {
+      "assetPath": "firebase/10.2.0/firebase-firestore-compat.js",
+      "bytes": 339888,
+      "sha256": "4dcc784783d88eaead3e915c67579c9a31f455de85c2412880be0519844e2713"
+    },
+    {
+      "assetPath": "firebase/10.2.0/firebase-remote-config-compat.js",
+      "bytes": 27270,
+      "sha256": "7e901156c5d36ac356bbbf0126889838188c0d44acbcef7d798abaeb328b8321"
+    },
+    {
+      "assetPath": "firebase/firebase.js",
+      "bytes": 37610,
+      "sha256": "185fdb5624d8da01dadd2447281cba53b59f40a8b7d1f5fada0826a2976c4e3b"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1253,
+      "sha256": "7679c908ff3641a770f73b9e0549e575840519d7cd8ffd02373414931f21e639"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "c1a56fec92389ca42403c97b4d4756d03ebfa0c5155c66cdbbfb4abd82697a44"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1273,
+      "sha256": "e0afac0e87a795f495e360a40c145e987a6337892811e51292222da6f420d6ae"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 967,
+      "sha256": "bc1a69f1f3fb59c0a3328e7a303e570efd709b1726b495b5e61c8fb00abb034e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 302,
+      "sha256": "0b350cf6a7b8ab1c76c886fc31d2cdd747f74487a4f76889dbd28ee6092c9c2b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "f83f69cacb5fa5090e4692bf31900050283e07ed266ce0eeabe476c630b6c735"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "b30e4f2718923db78c184d7b9ba7063a46e37b1966f5630bf961bbd897ddc6a5"
+    },
+    {
+      "assetPath": "utils.js",
+      "bytes": 1087,
+      "sha256": "bfbf8cb88fadf99311f3870a67a028ae232fe2c889f8c63ba8d807442e7f02fc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,90 @@
+{
+  "name": "drills-merge-master",
+  "sourcePage": "https://poki.com/en/g/drills-merge-master",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 15318,
+      "sha256": "ff4b666802144296a41dc5cfa8042c571811ac2315b4d7a3bc9d5cdac59ad7df",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "3b0b70107d7c420143ec4ed419038b8a0509f7739ee9364fdd342d65c8ea2dd9",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "de31be187066c9b1f10c54e54d91f269fbe2ec051afaf151b05845606580a98f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "e9e626fe7fa142d1417b55af0004e6e604e070c4c4d4dc957cecbcf60191a9ff",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "248c1543df6ca908d42d58f7c19e53d753b43e139170dd70f4178d040a043a23",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "3d_image_no_depth_min.js",
+      "bytes": 5201,
+      "sha256": "cd15bda4c8f5876c36cccd227938cfe0cf6cf8062501113cf1fbc5acf81b47e6"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47887,
+      "sha256": "a453dfd7e6929dadb43421d9a168f6e7d28b2ef7e0cecd3c930551c79658e375"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 89859,
+      "sha256": "8834347114c8f351b55dde1600a46b84f78e4310bca259c4b8ee38c3cd23a998"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 15318,
+      "sha256": "ff4b666802144296a41dc5cfa8042c571811ac2315b4d7a3bc9d5cdac59ad7df"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "de31be187066c9b1f10c54e54d91f269fbe2ec051afaf151b05845606580a98f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "e9e626fe7fa142d1417b55af0004e6e604e070c4c4d4dc957cecbcf60191a9ff"
+    },
+    {
+      "assetPath": "load_bar_bg.png",
+      "bytes": 481,
+      "sha256": "da5ae5b26299e4069dc4d825549ef001351f6c781556c2f1793443125fd7334f"
+    },
+    {
+      "assetPath": "load_bar_fg.png",
+      "bytes": 494,
+      "sha256": "3695c1d7ac759b0c6a57c1100c3806f4b40affd9f68203afc66ea2c421b84bfa"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "248c1543df6ca908d42d58f7c19e53d753b43e139170dd70f4178d040a043a23"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

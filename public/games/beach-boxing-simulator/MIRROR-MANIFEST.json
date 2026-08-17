@@ -1,0 +1,70 @@
+{
+  "name": "beach-boxing-simulator",
+  "sourcePage": "https://poki.com/en/g/beach-boxing-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 851,
+      "sha256": "42eba21ab2d07b6c8369d2c3c3ef87a34b22f940658d35b26f3e32eb6181f5a6",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "8a228a660406e2891a07cab6e9c4ee6532b3acc60b8416b60fd0cdc7cc979435",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "c5114a4a10a758d54deeec31a3b78b63553ebccc2a5f2080801f31175716cfa4",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "72c4290170f6fe509a7f275aa3863f72352c7a114e2e3da7ce52761570b354ee",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "1554eec8303942bd6968608631e2ce63361d37d1bfbe8182e291901b83c1830a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 851,
+      "sha256": "42eba21ab2d07b6c8369d2c3c3ef87a34b22f940658d35b26f3e32eb6181f5a6"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "c5114a4a10a758d54deeec31a3b78b63553ebccc2a5f2080801f31175716cfa4"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1304,
+      "sha256": "2ae8567c09db172a2408a62ca0d795b9866357870e3f9b806900f3f73ea0b077"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "72c4290170f6fe509a7f275aa3863f72352c7a114e2e3da7ce52761570b354ee"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "1554eec8303942bd6968608631e2ce63361d37d1bfbe8182e291901b83c1830a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

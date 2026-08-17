@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/rumble-rush/index.html",
+    "/games/rumble-rush/js/poki-sdk-shim.js",
+    "/games/rumble-rush/js/tiptap-platform-bridge.js",
+    "/games/rumble-rush/js/tiptap-inline-1.js",
+    "/games/rumble-rush/js/tiptap-inline-2.js",
+    "/games/rumble-rush/js/tiptap-inline-3.js"
+  ]
+}

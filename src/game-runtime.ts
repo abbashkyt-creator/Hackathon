@@ -383,6 +383,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "porki-poke": { embedded: true, preloadManifest: "/games/porki-poke/preload-manifest.json", assetManifest: "/games/porki-poke/MIRROR-MANIFEST.json", prepareByMount: true },
   "squid-dash": { embedded: true, preloadManifest: "/games/squid-dash/preload-manifest.json", assetManifest: "/games/squid-dash/MIRROR-MANIFEST.json", prepareByMount: true },
   "blocky-out": { embedded: true, preloadManifest: "/games/blocky-out/preload-manifest.json", assetManifest: "/games/blocky-out/MIRROR-MANIFEST.json", prepareByMount: true },
+  "rumble-rush": { embedded: true, preloadManifest: "/games/rumble-rush/preload-manifest.json", assetManifest: "/games/rumble-rush/MIRROR-MANIFEST.json", prepareByMount: true },
+  "beach-boxing-simulator": { embedded: true, preloadManifest: "/games/beach-boxing-simulator/preload-manifest.json", assetManifest: "/games/beach-boxing-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
