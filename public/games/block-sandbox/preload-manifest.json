@@ -3,8 +3,6 @@
     "/games/block-sandbox/index.html",
     "/games/block-sandbox/js/poki-sdk-shim.js",
     "/games/block-sandbox/js/tiptap-platform-bridge.js",
-    "/games/block-sandbox/scripts/modernjscheck.js",
-    "/games/block-sandbox/scripts/supportcheck.js",
-    "/games/block-sandbox/scripts/main.js"
+    "/games/block-sandbox/js/tiptap-inline-1.js"
   ]
 }

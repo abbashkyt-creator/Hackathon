@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "block-sandbox": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "morph-balls": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "snow-plow": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "the-superhero-league": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

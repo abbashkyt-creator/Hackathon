@@ -398,6 +398,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "the-superhero-league": { embedded: true, preloadManifest: "/games/the-superhero-league/preload-manifest.json", assetManifest: "/games/the-superhero-league/MIRROR-MANIFEST.json", prepareByMount: true },
   "snow-plow": { embedded: true, preloadManifest: "/games/snow-plow/preload-manifest.json", assetManifest: "/games/snow-plow/MIRROR-MANIFEST.json", prepareByMount: true },
   "morph-balls": { embedded: true, preloadManifest: "/games/morph-balls/preload-manifest.json", assetManifest: "/games/morph-balls/MIRROR-MANIFEST.json", prepareByMount: true },
+  "block-sandbox": { embedded: true, preloadManifest: "/games/block-sandbox/preload-manifest.json", assetManifest: "/games/block-sandbox/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

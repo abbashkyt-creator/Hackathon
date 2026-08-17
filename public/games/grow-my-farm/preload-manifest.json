@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/grow-my-farm/index.html",
+    "/games/grow-my-farm/js/poki-sdk-shim.js",
+    "/games/grow-my-farm/js/tiptap-platform-bridge.js",
+    "/games/grow-my-farm/playcanvas-stable.min.js",
+    "/games/grow-my-farm/files/assets/216457591/1/colyseus.js",
+    "/games/grow-my-farm/__settings__.js",
+    "/games/grow-my-farm/__modules__.js",
+    "/games/grow-my-farm/__start__.js"
+  ]
+}

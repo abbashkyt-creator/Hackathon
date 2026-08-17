@@ -440,6 +440,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "the-superhero-league": { creatorId: "the-superhero-league", creatorName: "The Superhero League", creatorLabel: "BY THE SUPERHERO LEAGUE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "snow-plow": { creatorId: "snow-plow", creatorName: "Snow Plow", creatorLabel: "BY SNOW PLOW · LOCAL SOURCE MIRROR", category: "Arcade" },
   "morph-balls": { creatorId: "morph-balls", creatorName: "Morph Balls", creatorLabel: "BY MORPH BALLS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "block-sandbox": { creatorId: "block-sandbox", creatorName: "Block Sandbox", creatorLabel: "BY BLOCK SANDBOX · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
