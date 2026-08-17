@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "mech-bots-arena"
+  | "star-blogger-left-or-right"
   | "mystery-digger"
   | "dasi-spa-manager"
   | "tank-vs-zombies"

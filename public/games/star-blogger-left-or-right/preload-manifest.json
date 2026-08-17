@@ -3,8 +3,7 @@
     "/games/star-blogger-left-or-right/index.html",
     "/games/star-blogger-left-or-right/js/poki-sdk-shim.js",
     "/games/star-blogger-left-or-right/js/tiptap-platform-bridge.js",
-    "/games/star-blogger-left-or-right/scripts/modernjscheck.js",
-    "/games/star-blogger-left-or-right/scripts/supportcheck.js",
-    "/games/star-blogger-left-or-right/scripts/main.js"
+    "/games/star-blogger-left-or-right/js/tiptap-inline-1.js",
+    "/games/star-blogger-left-or-right/js/tiptap-inline-2.js"
   ]
 }

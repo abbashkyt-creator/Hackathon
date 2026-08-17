@@ -497,6 +497,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "tank-vs-zombies": { creatorId: "tank-vs-zombies", creatorName: "Tank VS Zombies", creatorLabel: "BY TANK VS ZOMBIES · LOCAL SOURCE MIRROR", category: "Arcade" },
   "dasi-spa-manager": { creatorId: "dasi-spa-manager", creatorName: "Dasi Spa Manager", creatorLabel: "BY DASI SPA MANAGER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mystery-digger": { creatorId: "mystery-digger", creatorName: "Mystery Digger", creatorLabel: "BY MYSTERY DIGGER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "star-blogger-left-or-right": { creatorId: "star-blogger-left-or-right", creatorName: "Star Blogger: Left or Right", creatorLabel: "BY STAR BLOGGER: LEFT OR RIGHT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "mech-bots-arena": { creatorId: "mech-bots-arena", creatorName: "Mech Bots Arena", creatorLabel: "BY MECH BOTS ARENA · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

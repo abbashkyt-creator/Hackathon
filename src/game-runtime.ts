@@ -455,6 +455,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "tank-vs-zombies": { embedded: true, preloadManifest: "/games/tank-vs-zombies/preload-manifest.json", assetManifest: "/games/tank-vs-zombies/MIRROR-MANIFEST.json", prepareByMount: true },
   "dasi-spa-manager": { embedded: true, preloadManifest: "/games/dasi-spa-manager/preload-manifest.json", assetManifest: "/games/dasi-spa-manager/MIRROR-MANIFEST.json", prepareByMount: true },
   "mystery-digger": { embedded: true, preloadManifest: "/games/mystery-digger/preload-manifest.json", assetManifest: "/games/mystery-digger/MIRROR-MANIFEST.json", prepareByMount: true },
+  "star-blogger-left-or-right": { embedded: true, preloadManifest: "/games/star-blogger-left-or-right/preload-manifest.json", assetManifest: "/games/star-blogger-left-or-right/MIRROR-MANIFEST.json", prepareByMount: true },
+  "mech-bots-arena": { embedded: true, preloadManifest: "/games/mech-bots-arena/preload-manifest.json", assetManifest: "/games/mech-bots-arena/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
