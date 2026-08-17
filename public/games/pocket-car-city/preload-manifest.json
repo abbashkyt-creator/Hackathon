@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/pocket-car-city/index.html",
+    "/games/pocket-car-city/js/poki-sdk-shim.js",
+    "/games/pocket-car-city/js/tiptap-platform-bridge.js",
+    "/games/pocket-car-city/js/tiptap-inline-1.js"
+  ]
+}

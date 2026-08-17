@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/capitalist-bus-driver/index.html",
+    "/games/capitalist-bus-driver/js/poki-sdk-shim.js",
+    "/games/capitalist-bus-driver/js/tiptap-platform-bridge.js",
+    "/games/capitalist-bus-driver/js/tiptap-inline-1.js"
+  ]
+}

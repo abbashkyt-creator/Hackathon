@@ -371,6 +371,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "stickman-maze-run": { embedded: true, preloadManifest: "/games/stickman-maze-run/preload-manifest.json", assetManifest: "/games/stickman-maze-run/MIRROR-MANIFEST.json", prepareByMount: true },
   "dwerg": { embedded: true, preloadManifest: "/games/dwerg/preload-manifest.json", assetManifest: "/games/dwerg/MIRROR-MANIFEST.json", prepareByMount: true },
   "hockey-taka": { embedded: true, preloadManifest: "/games/hockey-taka/preload-manifest.json", assetManifest: "/games/hockey-taka/MIRROR-MANIFEST.json", prepareByMount: true },
+  "pocket-car-city": { embedded: true, preloadManifest: "/games/pocket-car-city/preload-manifest.json", assetManifest: "/games/pocket-car-city/MIRROR-MANIFEST.json", prepareByMount: true },
+  "the-third-piglets-tower": { embedded: true, preloadManifest: "/games/the-third-piglets-tower/preload-manifest.json", assetManifest: "/games/the-third-piglets-tower/MIRROR-MANIFEST.json", prepareByMount: true },
+  "capitalist-bus-driver": { embedded: true, preloadManifest: "/games/capitalist-bus-driver/preload-manifest.json", assetManifest: "/games/capitalist-bus-driver/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/the-third-piglets-tower/index.html",
+    "/games/the-third-piglets-tower/js/poki-sdk-shim.js",
+    "/games/the-third-piglets-tower/js/tiptap-platform-bridge.js"
+  ]
+}
