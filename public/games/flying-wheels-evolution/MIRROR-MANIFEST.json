@@ -1,0 +1,70 @@
+{
+  "name": "flying-wheels-evolution",
+  "sourcePage": "https://poki.com/en/g/flying-wheels-evolution",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 982,
+      "sha256": "8353db814409a02cefb8adf7c0956854d5d18da65a9858ce31441aa7ae7c7b0e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 177,
+      "sha256": "657e821d47fbc38b802548039e59afc581aa67599d57f2db230e4739814d0a9f",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 936,
+      "sha256": "88390a545007ba200dee2982d36010bee7dc5ada6e78ceeeb28bb517c16e324a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 864,
+      "sha256": "400b2747e0a69838efa65fbdfb22eda30495a1450c322efa16ec54a19a8cf7bb",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 257,
+      "sha256": "2b2722b9dda030c6ba08c0440c930648d33014bffd439ea882a138620e253c03",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 982,
+      "sha256": "8353db814409a02cefb8adf7c0956854d5d18da65a9858ce31441aa7ae7c7b0e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 936,
+      "sha256": "88390a545007ba200dee2982d36010bee7dc5ada6e78ceeeb28bb517c16e324a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1095,
+      "sha256": "d969d0b84b9ba63c47c1952fd295ccf79f6a0344bfc104d8e827609c77739d9c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 864,
+      "sha256": "400b2747e0a69838efa65fbdfb22eda30495a1450c322efa16ec54a19a8cf7bb"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 257,
+      "sha256": "2b2722b9dda030c6ba08c0440c930648d33014bffd439ea882a138620e253c03"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

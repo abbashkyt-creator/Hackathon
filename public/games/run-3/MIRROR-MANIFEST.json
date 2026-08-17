@@ -1,0 +1,125 @@
+{
+  "name": "run-3",
+  "sourcePage": "https://poki.com/en/g/run-3",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2366,
+      "sha256": "5fe8a44ff7b48a56d851c6ed1b04ab0815fb5fef0c609c4287931e31c7a03347",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 159,
+      "sha256": "c33998bf79528b654ae1a6c7eef279951ab60afb90e4bf674dbce32c9efa84d5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 900,
+      "sha256": "21e53c2c866196d24b90d47a064fb658d0a09354c6d521153f87de77dc7da0d1",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 846,
+      "sha256": "e0e7661186cdb6451c819af873ad33da760db2c8147eeac88e42875ed01b9ca2",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 143,
+      "sha256": "0f81373748714fab1a8d0de7ce8a6095836bcdbfbc597b68c08c737d45b690bb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 6475,
+      "sha256": "cd4157891b36467631ec6ece9dc99ea30429e82e0ecb53d6bdb1029c398c23e9"
+    },
+    {
+      "assetPath": "font/Comfortaa.otf",
+      "bytes": 211388,
+      "sha256": "9c97c0a63e3f35037514186a216a202e7e162cee386cc084d6110fae27b001b8"
+    },
+    {
+      "assetPath": "font/PERMANENTMARKER.TTF",
+      "bytes": 74752,
+      "sha256": "9d31a5198c4ca4dfc9c5760022e7bb5b30eb21b8917963b2a3a2cda197f4f219"
+    },
+    {
+      "assetPath": "img/singledpi/texture/CandyCorn.png",
+      "bytes": 500,
+      "sha256": "b1bc86e7d14cc0ea412833a6c13cefacb3baaf5cd0c229333e9006099ef543da"
+    },
+    {
+      "assetPath": "img/singledpi/texture/Skybox0.png",
+      "bytes": 11109,
+      "sha256": "7fc47a43b866ea29334961a8bf110b585e97457543b9c5f00106f3583dd0e970"
+    },
+    {
+      "assetPath": "img/singledpi/texture/Skybox2.png",
+      "bytes": 7683,
+      "sha256": "f22e19a84cb5eb4bee81f9591709a3d575d1e66f720ca2f5aeb7017fd218e954"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2366,
+      "sha256": "5fe8a44ff7b48a56d851c6ed1b04ab0815fb5fef0c609c4287931e31c7a03347"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 900,
+      "sha256": "21e53c2c866196d24b90d47a064fb658d0a09354c6d521153f87de77dc7da0d1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 846,
+      "sha256": "e0e7661186cdb6451c819af873ad33da760db2c8147eeac88e42875ed01b9ca2"
+    },
+    {
+      "assetPath": "model/terrain.png",
+      "bytes": 66271,
+      "sha256": "417596c5e7462ba64373e4082b03cb93bcfa6fb72d56c72d53f9c0fdad53972b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 143,
+      "sha256": "0f81373748714fab1a8d0de7ce8a6095836bcdbfbc597b68c08c737d45b690bb"
+    },
+    {
+      "assetPath": "Run3.js",
+      "bytes": 7495767,
+      "sha256": "cec2cee51b3e29ae6f40428449fd4eedfbae6d5079e486240d26fdef51c28ee4"
+    },
+    {
+      "assetPath": "text/ExploreLevels.txt",
+      "bytes": 199227,
+      "sha256": "a0c6fe8c494eabc0ce02f4fc9d93ac9387c3ac930261272c45c3827edc13a063"
+    },
+    {
+      "assetPath": "text/MapContents.json",
+      "bytes": 10034,
+      "sha256": "b6b43a6132a927d4615f2c0200b58ba05c384ae38bf9f01b12199e0f53ff4f79"
+    },
+    {
+      "assetPath": "text/wall/Affliction.txt",
+      "bytes": 1693,
+      "sha256": "6438177ad1d630d75b5b0851024b7e022f9ead127a0036d49c28270f6bc63b6a"
+    },
+    {
+      "assetPath": "text/wall/TellAFriend.txt",
+      "bytes": 4458,
+      "sha256": "486b4a7121ca357eca77d9cbea200b8bdab42a401a51b94448fe1d733a58db35"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

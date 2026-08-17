@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/run-3/index.html",
+    "/games/run-3/js/poki-sdk-shim.js",
+    "/games/run-3/js/tiptap-platform-bridge.js"
+  ]
+}

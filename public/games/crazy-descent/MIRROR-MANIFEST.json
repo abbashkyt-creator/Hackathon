@@ -1,0 +1,70 @@
+{
+  "name": "crazy-descent",
+  "sourcePage": "https://poki.com/en/g/crazy-descent",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "a88c3bedf4c17747343f3dcc978f03a091897b0724e5da8e8585577d2d6eb6be",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "1703970103b2dbf85af57d8592609579a7cdc55e83913702dfbce5e34c3bf760",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "4f0e15758d317031baac6f4cd412a8d75ce3636522a4f11ea5261828ec545aa4",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "def2f59564fe560b94f397764bc585f666a4385985361f7472b60864ee28fb30",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "483937b6945142a4243f660cdb4997a238dd50b8cd55451e3d68048216154fd4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "a88c3bedf4c17747343f3dcc978f03a091897b0724e5da8e8585577d2d6eb6be"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "4f0e15758d317031baac6f4cd412a8d75ce3636522a4f11ea5261828ec545aa4"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1244,
+      "sha256": "dd277b51102ae371d3a25fa7f9ed60cf72da43b42efa349f319ac98df41e6ff1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "def2f59564fe560b94f397764bc585f666a4385985361f7472b60864ee28fb30"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "483937b6945142a4243f660cdb4997a238dd50b8cd55451e3d68048216154fd4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

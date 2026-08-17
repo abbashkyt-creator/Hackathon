@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "ant-art-tycoon"
   | "crazy-descent"
   | "flying-wheels-evolution"
   | "coin-machine"

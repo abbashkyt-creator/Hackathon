@@ -408,6 +408,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "coin-machine": { embedded: true, preloadManifest: "/games/coin-machine/preload-manifest.json", assetManifest: "/games/coin-machine/MIRROR-MANIFEST.json", prepareByMount: true },
   "flying-wheels-evolution": { embedded: true, preloadManifest: "/games/flying-wheels-evolution/preload-manifest.json", assetManifest: "/games/flying-wheels-evolution/MIRROR-MANIFEST.json", prepareByMount: true },
   "crazy-descent": { embedded: true, preloadManifest: "/games/crazy-descent/preload-manifest.json", assetManifest: "/games/crazy-descent/MIRROR-MANIFEST.json", prepareByMount: true },
+  "ant-art-tycoon": { embedded: true, preloadManifest: "/games/ant-art-tycoon/preload-manifest.json", assetManifest: "/games/ant-art-tycoon/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
