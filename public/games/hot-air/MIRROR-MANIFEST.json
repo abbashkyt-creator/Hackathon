@@ -1,0 +1,85 @@
+{
+  "name": "hot-air",
+  "sourcePage": "https://poki.com/en/g/hot-air",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2184,
+      "sha256": "d052d396c7962f0e1afd3464106a53d56e93a83d310ece1b8d2c2ec93634f226",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 161,
+      "sha256": "563c83bfa2cfe4e1b8588bcce9ec573a97c780ba618e93cd4014027f4356c61c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 904,
+      "sha256": "c42b72412e84c83ef3f35a11bba8dfcb86af02a005ea76f14f5b53fb566791fd",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 848,
+      "sha256": "7932738ff0321e3acbd1396390a305dbad422839dc6847d684df69b92d741f86",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 193,
+      "sha256": "7351bcf59c2074d313d859f6c82e42caa75c13f72475593e0dcba39e40c35262",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/todo.jpg",
+      "bytes": 8576,
+      "sha256": "7bb3e36cb2eecf12828040215778ae1a9d9f1405855e55ad8cbc90b78227e7b4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2184,
+      "sha256": "d052d396c7962f0e1afd3464106a53d56e93a83d310ece1b8d2c2ec93634f226"
+    },
+    {
+      "assetPath": "js/loader.js",
+      "bytes": 6366,
+      "sha256": "24bd5bca2d4325821002a1fb28cf978a4181db073e6196250372fbf47ef3308d"
+    },
+    {
+      "assetPath": "js/NitromeBatch11.js",
+      "bytes": 2484581,
+      "sha256": "59eb1be9fb6d7dc5b9ffee446296595d8937a1d9189249a03cde389aded92475"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 904,
+      "sha256": "c42b72412e84c83ef3f35a11bba8dfcb86af02a005ea76f14f5b53fb566791fd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1980,
+      "sha256": "f8214b34d00104c921a97bab61f6d3016aad26e4cce15738c252159ca34e0e53"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 848,
+      "sha256": "7932738ff0321e3acbd1396390a305dbad422839dc6847d684df69b92d741f86"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 193,
+      "sha256": "7351bcf59c2074d313d859f6c82e42caa75c13f72475593e0dcba39e40c35262"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

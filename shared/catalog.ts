@@ -481,6 +481,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "my-cozy-home": { creatorId: "my-cozy-home", creatorName: "My Cozy Home", creatorLabel: "BY MY COZY HOME · LOCAL SOURCE MIRROR", category: "Arcade" },
   "ranch-ufo": { creatorId: "ranch-ufo", creatorName: "Ranch UFO", creatorLabel: "BY RANCH UFO · LOCAL SOURCE MIRROR", category: "Arcade" },
   "hot-air": { creatorId: "hot-air", creatorName: "Hot Air", creatorLabel: "BY HOT AIR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "master-assassin": { creatorId: "master-assassin", creatorName: "Master Assassin", creatorLabel: "BY MASTER ASSASSIN · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

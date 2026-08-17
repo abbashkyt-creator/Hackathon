@@ -3,10 +3,6 @@
     "/games/master-assassin/index.html",
     "/games/master-assassin/js/poki-sdk-shim.js",
     "/games/master-assassin/js/tiptap-platform-bridge.js",
-    "/games/master-assassin/scripts/modernjscheck.js",
-    "/games/master-assassin/scripts/supportcheck.js",
-    "/games/master-assassin/scripts/offlineclient.js",
-    "/games/master-assassin/scripts/main.js",
-    "/games/master-assassin/scripts/register-sw.js"
+    "/games/master-assassin/js/tiptap-inline-1.js"
   ]
 }
