@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "sky-race"
   | "scary-teacher-playtime-adventure"
   | "subway-surfers-match"
   | "subway-surfers-blast"

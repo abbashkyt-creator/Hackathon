@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { SkyRaceGame } from "./SkyRaceGame";
 export { ScaryTeacherPlaytimeAdventureGame } from "./ScaryTeacherPlaytimeAdventureGame";
 export { SubwaySurfersMatchGame } from "./SubwaySurfersMatchGame";
 export { SubwaySurfersBlastGame } from "./SubwaySurfersBlastGame";

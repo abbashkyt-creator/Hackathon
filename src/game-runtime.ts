@@ -362,6 +362,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "subway-surfers-blast": { embedded: true, preloadManifest: "/games/subway-surfers-blast/preload-manifest.json", assetManifest: "/games/subway-surfers-blast/MIRROR-MANIFEST.json", prepareByMount: true },
   "subway-surfers-match": { embedded: true, preloadManifest: "/games/subway-surfers-match/preload-manifest.json", assetManifest: "/games/subway-surfers-match/MIRROR-MANIFEST.json", prepareByMount: true },
   "scary-teacher-playtime-adventure": { embedded: true, preloadManifest: "/games/scary-teacher-playtime-adventure/preload-manifest.json", assetManifest: "/games/scary-teacher-playtime-adventure/MIRROR-MANIFEST.json", prepareByMount: true },
+  "sky-race": { embedded: true, preloadManifest: "/games/sky-race/preload-manifest.json", assetManifest: "/games/sky-race/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

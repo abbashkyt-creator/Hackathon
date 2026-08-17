@@ -404,6 +404,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "subway-surfers-blast": { creatorId: "subway-surfers-blast", creatorName: "Subway Surfers Blast", creatorLabel: "BY SUBWAY SURFERS BLAST · LOCAL SOURCE MIRROR", category: "Arcade" },
   "subway-surfers-match": { creatorId: "subway-surfers-match", creatorName: "Subway Surfers Match", creatorLabel: "BY SUBWAY SURFERS MATCH · LOCAL SOURCE MIRROR", category: "Arcade" },
   "scary-teacher-playtime-adventure": { creatorId: "scary-teacher-playtime-adventure", creatorName: "Scary Teacher PlayTime Adventure", creatorLabel: "BY SCARY TEACHER PLAYTIME ADVENTURE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "sky-race": { creatorId: "sky-race", creatorName: "Sky Race", creatorLabel: "BY SKY RACE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "sky-race": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "scary-teacher-playtime-adventure": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "subway-surfers-match": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "subway-surfers-blast": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

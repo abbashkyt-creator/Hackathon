@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/sky-race/index.html",
+    "/games/sky-race/js/poki-sdk-shim.js",
+    "/games/sky-race/js/tiptap-platform-bridge.js",
+    "/games/sky-race/js/tiptap-inline-1.js"
+  ]
+}
