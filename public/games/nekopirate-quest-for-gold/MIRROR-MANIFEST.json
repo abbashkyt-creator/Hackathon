@@ -1,0 +1,545 @@
+{
+  "name": "nekopirate-quest-for-gold",
+  "sourcePage": "https://poki.com/en/g/nekopirate-quest-for-gold",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1674,
+      "sha256": "f8d8b597adc0ccb8bba093d4aecf78398237be71cda1cbccca3236c0690c9554",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "47a88e74f5fc0ba76a2f23fbe3cfbb7884eac3de7e5ee9fe4a85dcbbb029b5f8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "f51175d6ebd380215c73ca06345a08507dddeb8c193d851e7a42b1e79208922a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "5c666649221cde4b6aa44dfac401a197f6e35993d3335d5e333ad27dd6ced950",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 516,
+      "sha256": "cb687967d9b7303538572a4abd35a6d4216fa75ff6a519857829fad95433fc5b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 741,
+      "sha256": "6c3827690b988da6065aab2669b6a0dd1fbed0633d2543729ab9d78aa7cf5c13"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 1695961,
+      "sha256": "09da57c375988ec105ae74b20a9ac8b759e87d41aa474cb2c9c790c086e1af78"
+    },
+    {
+      "assetPath": "file.css",
+      "bytes": 209,
+      "sha256": "5e7fd6106f333f8af78b1209dd452c5e060736d397bbcb68ad7fb42960fafe65"
+    },
+    {
+      "assetPath": "fonts/Heavitas.ttf",
+      "bytes": 122632,
+      "sha256": "153e3021196f8e3b783758940098eac5b556c3dc754df845d55dd5a24e898f56"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 5270,
+      "sha256": "6716bee596019f62145704c759231e179c729a61a8fa82ff66e679c358dd2149"
+    },
+    {
+      "assetPath": "images/bosslive-sheet0.webp",
+      "bytes": 66,
+      "sha256": "671fbb813f1938972883af87b9b96616887ebc180faf013fa83e4c43565ef0d8"
+    },
+    {
+      "assetPath": "images/bosstrigger-sheet0.webp",
+      "bytes": 38,
+      "sha256": "1d996a0b0c2d0717872a0ba83507a5606886641d0d2739b4a5417e79ee503a0c"
+    },
+    {
+      "assetPath": "images/bridgefloor-sheet0.webp",
+      "bytes": 1562,
+      "sha256": "7031c92128e512650bf0c2014640f7e1b3d9369284b3d8017fcd90689609a8e3"
+    },
+    {
+      "assetPath": "images/confetti-sheet0.webp",
+      "bytes": 11110,
+      "sha256": "4c8bf3693c37a7ee1f3c9f92ad1cb57984870fb80a2250c82753f021e388562c"
+    },
+    {
+      "assetPath": "images/deadsprite-sheet0.webp",
+      "bytes": 38762,
+      "sha256": "22bf6ff77f63aa9f2a1842c19a881493da5f0b709e17f6987c9782a0da8fd8bd"
+    },
+    {
+      "assetPath": "images/dead_zone-sheet0.webp",
+      "bytes": 44,
+      "sha256": "505b035bc2af9f0817de76e7ed509751d1af8845e67bef51974bd7cbbe48d001"
+    },
+    {
+      "assetPath": "images/dungeondoor-sheet0.webp",
+      "bytes": 24032,
+      "sha256": "8d54c660f88bd86a975bed94059068ee0beb29a324ebb910210bf4ccaf8cfa28"
+    },
+    {
+      "assetPath": "images/enem_rat-sheet0.webp",
+      "bytes": 11612,
+      "sha256": "8f4633322820b3077bc92b3d91c965e4ee7f4670da48062a0737094ac1e1f6fa"
+    },
+    {
+      "assetPath": "images/enem_ratboss-sheet0.webp",
+      "bytes": 61834,
+      "sha256": "e5a50f498dc13bc5af57b81a71b479b2c08f9826ce77fa146daf668b15ec6ecb"
+    },
+    {
+      "assetPath": "images/enem_swordman-sheet0.webp",
+      "bytes": 157330,
+      "sha256": "0728179571ac6674729eee72e0eaa0b2b1878fe42c1038092ab83e7a1c251cc7"
+    },
+    {
+      "assetPath": "images/fireball-sheet0.webp",
+      "bytes": 820,
+      "sha256": "eff95c9c32695a7ddd38397302e7db52ce87aa0433bb4e3dd70d110e1a117f38"
+    },
+    {
+      "assetPath": "images/instructions-sheet0.webp",
+      "bytes": 13808,
+      "sha256": "a65ada0d4c3ac9892429102fa56b6aa2e145dbb27f300c9fffc06b4acfdc4261"
+    },
+    {
+      "assetPath": "images/itemunlocked-sheet0.webp",
+      "bytes": 6966,
+      "sha256": "94a92837329eb919290e248aa82cc1df49845cbd64d2964b3b2180404eb5aaa2"
+    },
+    {
+      "assetPath": "images/jump_throughplatforms-sheet0.webp",
+      "bytes": 44,
+      "sha256": "9ed401e0bfe37ecd45e17176c9f14f74d630448c2d2c9cfe4c81607f9bff0ee8"
+    },
+    {
+      "assetPath": "images/lava-sheet0.webp",
+      "bytes": 100,
+      "sha256": "a05c27bbda00ff61aee46bebfe2de34e1a4491b3bf6584c049c21a65a5d2791e"
+    },
+    {
+      "assetPath": "images/limit_bird-sheet0.webp",
+      "bytes": 44,
+      "sha256": "133429789284f84b4389154d82c5945b0b7f787b44908dac1c6f5338d1cbde67"
+    },
+    {
+      "assetPath": "images/masks-sheet0.webp",
+      "bytes": 110454,
+      "sha256": "d3dfc02d3cc3db4119ed497b59538eed1f8e1b2a21d7322e3b21aade66e8c2df"
+    },
+    {
+      "assetPath": "images/masks-sheet1.webp",
+      "bytes": 21010,
+      "sha256": "3ce32706e5892182a76ad0bc42594a01c7c033c1008e287e32c07ef4e1043d2b"
+    },
+    {
+      "assetPath": "images/mina_map_sprite-sheet0.webp",
+      "bytes": 17322,
+      "sha256": "cce6b622c842f990b0d48a68d05d88cea5a8af4ae8289b3491a4e0cf52d9ad0f"
+    },
+    {
+      "assetPath": "images/newzoom-sheet0.webp",
+      "bytes": 608,
+      "sha256": "3fdbbcd80d46d3cf47c43d94b4f9dfda90cf307a353518802d691201a86f1f5b"
+    },
+    {
+      "assetPath": "images/newzoom2-sheet0.webp",
+      "bytes": 608,
+      "sha256": "3fdbbcd80d46d3cf47c43d94b4f9dfda90cf307a353518802d691201a86f1f5b"
+    },
+    {
+      "assetPath": "images/pauseblack-sheet0.webp",
+      "bytes": 38,
+      "sha256": "a321d57906e8771eab07f7909bf6fd8ad908a4fad6c6df36632fb1303808b50e"
+    },
+    {
+      "assetPath": "images/pillars_back-sheet0.webp",
+      "bytes": 9042,
+      "sha256": "57bbb7c0f1cd4b34dcb8b2ef51828ebd8971f5cecf58e6eefcbfe69bdf718704"
+    },
+    {
+      "assetPath": "images/playergraphics-sheet0.webp",
+      "bytes": 139346,
+      "sha256": "f44f3aec61b0571ba287637317607f3bd63bd9f3eaecc5067405cf16b0957dec"
+    },
+    {
+      "assetPath": "images/playergraphics-sheet1.webp",
+      "bytes": 90312,
+      "sha256": "35ed4072b7e9ca259046925127bed9181a24ec52ab24cf98e4ea81c91ec50851"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 168774,
+      "sha256": "b3c63419ec30a87452bf0c7be6012768f485b5561d37b40b853f8a9d8c3bdd8f"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 73910,
+      "sha256": "9185e6d6d52815cef55d41af8f81b352e53a804fb099db5b2f205ecd37e8c96c"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 20558,
+      "sha256": "72b56d789223b2883cae3f43291bce12a53652798fe66bde7d319448df8b1339"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 510,
+      "sha256": "a625ebae621c11e1fd056db3088b1a82cda9d10c2374722aeb6e511949c9f759"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 300136,
+      "sha256": "ca68193214522da24b28e2d8b51f57ae0564807b0082635ab56415b403592972"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 146582,
+      "sha256": "6272324f5c3a87820abf2af646be4bbe7548b3f583f094bf405b3838ca96f543"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 201250,
+      "sha256": "1d03bf907b08736a3b4e16ea1c4fbc471df54a4dea867bbdb8e431e8a72918fd"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 10590,
+      "sha256": "3aa91d74ad6b4bcb3d3b3065605e69cf50a7168ab63be6132bf1f671573a5819"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.webp",
+      "bytes": 19258,
+      "sha256": "86d368b5b210670433ec242651e941bc6e9bdcef7819c7d759c0ed6198df30ec"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 316290,
+      "sha256": "898476c1bee073412faedba8fa0003d74e6f7b8dc863172391e28fd100286317"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 73162,
+      "sha256": "01c5093004d6d4a2c5e3036ced4b2bd0cf1ae793dd3a5f7950756149dc32ae9f"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 30904,
+      "sha256": "3b04207e0d66b72e12fc8913cecf7e2e438cef7e6b665d484eb71ef4988a19e1"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 11744,
+      "sha256": "24a32c04472464b49ec0436670283b61f7ccdd4256cd9f3549c221fba5237425"
+    },
+    {
+      "assetPath": "images/shared-3-sheet0.webp",
+      "bytes": 152256,
+      "sha256": "e6325e4b78a3bc6f2236ba7e6edacad932df9f4d0ea72f26cdca01ee35304113"
+    },
+    {
+      "assetPath": "images/shared-3-sheet1.webp",
+      "bytes": 74042,
+      "sha256": "233a60646ab7d167f95553806269809bda73a15bd164e695e9f1c8c3dfe47302"
+    },
+    {
+      "assetPath": "images/shared-3-sheet2.webp",
+      "bytes": 204400,
+      "sha256": "c9ab16edf0cd5ebf34eff009260f09a9f77c78da0a7169f850a416899f2cce66"
+    },
+    {
+      "assetPath": "images/shared-3-sheet3.webp",
+      "bytes": 14888,
+      "sha256": "f573fc53b73ccaf7d23c61d0a85eb4e58e5a31756988576287e3dac25b3a82bb"
+    },
+    {
+      "assetPath": "images/shared-3-sheet4.webp",
+      "bytes": 6596,
+      "sha256": "6a90c666a0ef50db5277a3a7b7f4ecdcf5fc9a1c42aef7032fa87b626ae29e73"
+    },
+    {
+      "assetPath": "images/shared-4-sheet0.webp",
+      "bytes": 46408,
+      "sha256": "2bc44cc9ef05f1ded8e13b94bcc3cbde8471c24e0d3eed91b89d3efdcec9c68b"
+    },
+    {
+      "assetPath": "images/shared-4-sheet1.webp",
+      "bytes": 24092,
+      "sha256": "75c55898add53cec0c1b8da15a8894ccfcdaec418ff3007830b70606d1451e48"
+    },
+    {
+      "assetPath": "images/shared-4-sheet2.webp",
+      "bytes": 6192,
+      "sha256": "c196111570a4b8f5eef157d051071ef539c5e3669f0449a5a64ef8cf8e9ebca5"
+    },
+    {
+      "assetPath": "images/spiderweb-sheet0.webp",
+      "bytes": 124,
+      "sha256": "afc94e3ae14481a1fd04f9869ddf74d7bcc638860c101599c521a562a546f2fc"
+    },
+    {
+      "assetPath": "images/spiderweb2-sheet0.webp",
+      "bytes": 124,
+      "sha256": "afc94e3ae14481a1fd04f9869ddf74d7bcc638860c101599c521a562a546f2fc"
+    },
+    {
+      "assetPath": "images/spr_pistolpirate-sheet0.webp",
+      "bytes": 51060,
+      "sha256": "a9f055d5fba0b4fdd3660632fbff8e6707904d5cb5e0d5ff0b2eb3f7a1e2c67a"
+    },
+    {
+      "assetPath": "images/spr_playerskin2-sheet0.webp",
+      "bytes": 19330,
+      "sha256": "8885e58a6c43b2cd69c0a80d48c76addefa019de8782edcf1b7ea48cab5599c6"
+    },
+    {
+      "assetPath": "images/stairs-sheet0.webp",
+      "bytes": 44,
+      "sha256": "ea7ceb83ee3f089f78bd514c279414df080e57bfbfa2f657d02dcd3fc8d5397a"
+    },
+    {
+      "assetPath": "images/stairs_bottom-sheet0.webp",
+      "bytes": 44,
+      "sha256": "22444b3d21dc037030bb95441ae3f3189c67d3dfff0577058989f51f99cfa184"
+    },
+    {
+      "assetPath": "images/stairs_top-sheet0.webp",
+      "bytes": 44,
+      "sha256": "22444b3d21dc037030bb95441ae3f3189c67d3dfff0577058989f51f99cfa184"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.webp",
+      "bytes": 868,
+      "sha256": "de4459b89e4657a88249aad11529d852a45796402d1e9f8622034bc6e3931315"
+    },
+    {
+      "assetPath": "images/tiledbackground17-sheet0.webp",
+      "bytes": 42,
+      "sha256": "26f77241f09a49c4220f0ff57cd49e809b66374487778a1c233481d9d9b8eed9"
+    },
+    {
+      "assetPath": "images/tiledbackground19-sheet0.webp",
+      "bytes": 72,
+      "sha256": "dca254daf0d5e98d7ed1da1e0893c0b2f6fa1a81326ddb1985c0b1b16f25c345"
+    },
+    {
+      "assetPath": "images/tiledbackground2-sheet0.webp",
+      "bytes": 42,
+      "sha256": "91215496af8fa6960653fed36484b2ed1c1240153a8732020c061893c3441466"
+    },
+    {
+      "assetPath": "images/tiledbackground20-sheet0.webp",
+      "bytes": 356,
+      "sha256": "99b07230c73d186e84a2479d7dff447e1e6cf39dd68ab6c41e43e27eaf8f5018"
+    },
+    {
+      "assetPath": "images/tiledbackground21-sheet0.webp",
+      "bytes": 234,
+      "sha256": "cd92b7144c3e7f8d50e3b06b14914e7a6051cdeb4a0da74479bf4cf7cfcef7eb"
+    },
+    {
+      "assetPath": "images/tiledbackground22-sheet0.webp",
+      "bytes": 224,
+      "sha256": "13d519e4345de869256584f0c181062cb9166d28b472cf36c36a6c95a6e3d932"
+    },
+    {
+      "assetPath": "images/tiledbackground23-sheet0.webp",
+      "bytes": 108,
+      "sha256": "b7c7ed025acb887959df8cacf0fdfdf5e30defb8fb68abdd38892f27fff5ce9f"
+    },
+    {
+      "assetPath": "images/tiledbackground24-sheet0.webp",
+      "bytes": 9470,
+      "sha256": "9e21867073d828e504a9b934459801d3c73ee00543f41780da39e30b0ea925f1"
+    },
+    {
+      "assetPath": "images/tiledbackground26-sheet0.webp",
+      "bytes": 4842,
+      "sha256": "5a0ad4fe444f8088cc62a09be588c5a539ce069f6cc29317f778eb9bb0125f5f"
+    },
+    {
+      "assetPath": "images/tiledbackground27-sheet0.webp",
+      "bytes": 2106,
+      "sha256": "df650673c0f8c91ac711f7ec6375e6a8323d6553fb21d439e505068540fbfc5d"
+    },
+    {
+      "assetPath": "images/tiledbackground7-sheet0.webp",
+      "bytes": 44,
+      "sha256": "b1d69314085684d1a88bd01bbbd5f1f06e241971eb8713525a30cef945fdbaf6"
+    },
+    {
+      "assetPath": "images/tile_hearts-sheet0.webp",
+      "bytes": 766,
+      "sha256": "228b5481d4d54a271270f39504c6605c4ccde9f755d7e1c7fb56aa2c35c57db9"
+    },
+    {
+      "assetPath": "images/tile_hearts_blank-sheet0.webp",
+      "bytes": 660,
+      "sha256": "d1db4f3e922316841339c8a6f405ea6344637c9dc9c6636988bd5cae5aa3c707"
+    },
+    {
+      "assetPath": "images/tile_taverninterior-sheet0.webp",
+      "bytes": 1892,
+      "sha256": "ee9841b229442508fe7aac016253bc3713f838ccf1924c2d1813a07dbd8111f8"
+    },
+    {
+      "assetPath": "images/tile_woodbar-sheet0.webp",
+      "bytes": 80,
+      "sha256": "96208d1b8104d86f799d2266d868e60c6c09bb3d90834e5672a82473a553bc35"
+    },
+    {
+      "assetPath": "images/triggership-sheet0.webp",
+      "bytes": 38,
+      "sha256": "35e3751cfd9d245df5e4d602ae90de2b192c80b22752b9d8c1bc098a574a13d1"
+    },
+    {
+      "assetPath": "images/trigger_bossrat-sheet0.webp",
+      "bytes": 44,
+      "sha256": "469a326e68caf78536975ca517ce9269ff129c41e6b31dd3b2374f9557522d64"
+    },
+    {
+      "assetPath": "images/trigger_pirate-sheet0.webp",
+      "bytes": 38,
+      "sha256": "f6593ad7618e63b444c00f8fca3b0a6ddd982871ff8e59712e547c7347fd3465"
+    },
+    {
+      "assetPath": "images/water-sheet0.webp",
+      "bytes": 38,
+      "sha256": "2f2a7e111640fbec842f45eb1b447367554c974309aefcbbf0cfc5ffe1cda191"
+    },
+    {
+      "assetPath": "images/water_background-sheet0.webp",
+      "bytes": 72,
+      "sha256": "9f358c9c21a1264b239a54048c23f31a6bbe9f5e0e2ee4693ae93344e7fba13a"
+    },
+    {
+      "assetPath": "images/water_border-sheet0.webp",
+      "bytes": 38,
+      "sha256": "8184d477fe5e0a23dd4a82853f50ef1bf1bc4e7f32a6e342d5c82f864d3ef862"
+    },
+    {
+      "assetPath": "images/water_mask-sheet0.webp",
+      "bytes": 38,
+      "sha256": "5286fab8ad0276141de5e1b55155937621aeaa6cbbc8599e3bf70e7dbb57b0d0"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1674,
+      "sha256": "f8d8b597adc0ccb8bba093d4aecf78398237be71cda1cbccca3236c0690c9554"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "f51175d6ebd380215c73ca06345a08507dddeb8c193d851e7a42b1e79208922a"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "5c666649221cde4b6aa44dfac401a197f6e35993d3335d5e333ad27dd6ced950"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 516,
+      "sha256": "cb687967d9b7303538572a4abd35a6d4216fa75ff6a519857829fad95433fc5b"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1595494,
+      "sha256": "ab7971bfd47ca2122beb6f38da52b5e3bd636a95bdbddeb3a12aa1b91728802f"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 130143,
+      "sha256": "b9ed33ac893dc6407046cabcf5b8f90880acaa5dba3c43028440d009483b78f3"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4745,
+      "sha256": "e9b6c3ad78eefce680d3dd8bba33eed7260800b345a2e8cf7462f448a4d0c46b"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "07f8a5d97baeb0c9e9a2db2768d677eae041f328c90193c2113d364b1ef07039"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

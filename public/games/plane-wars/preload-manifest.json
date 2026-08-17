@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/plane-wars/index.html",
+    "/games/plane-wars/js/poki-sdk-shim.js",
+    "/games/plane-wars/js/tiptap-platform-bridge.js"
+  ]
+}

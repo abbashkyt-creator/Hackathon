@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "plane-wars"
   | "tower-merge"
   | "brainrot-craft"
   | "circloo-xl"

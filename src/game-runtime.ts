@@ -429,6 +429,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "circloo-xl": { embedded: true, preloadManifest: "/games/circloo-xl/preload-manifest.json", assetManifest: "/games/circloo-xl/MIRROR-MANIFEST.json", prepareByMount: true },
   "brainrot-craft": { embedded: true, preloadManifest: "/games/brainrot-craft/preload-manifest.json", assetManifest: "/games/brainrot-craft/MIRROR-MANIFEST.json", prepareByMount: true },
   "tower-merge": { embedded: true, preloadManifest: "/games/tower-merge/preload-manifest.json", assetManifest: "/games/tower-merge/MIRROR-MANIFEST.json", prepareByMount: true },
+  "plane-wars": { embedded: true, preloadManifest: "/games/plane-wars/preload-manifest.json", assetManifest: "/games/plane-wars/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

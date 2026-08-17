@@ -1,0 +1,155 @@
+{
+  "name": "plane-wars",
+  "sourcePage": "https://poki.com/en/g/plane-wars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 61314,
+      "sha256": "d9003569cb48fa33f55f690c623e91ec93c9e1adb5a29a7277a25089165ef560",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "55975c651bcdabfa0adb20583ed75ae7b8bc1c5a427902cd1a7014d53c18bd3c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "828a8b550054a5e0545a175ff99617e3e46dc3292bae2062e3f86b96efd86e77",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "fd2a1395072059361a74f27ef854cc0a1f2bdab3323ecf6066c77ae1cafece47",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "d1653ebd61c5e9a070862fc918bbc91ec9d80938e8c2e693d7f7b944e5d02daf",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/beep-ctmt97j8.ogg",
+      "bytes": 32955,
+      "sha256": "f4ee80bf21309e586bdf2a762f6058ffb910257d3d95d555180863633066d94c"
+    },
+    {
+      "assetPath": "assets/cashicon-Ci5DlIsD.png",
+      "bytes": 4706,
+      "sha256": "401d316891203b84a5bd0782d83117e5368867b5148f7cc2af354eb3d2f92d7f"
+    },
+    {
+      "assetPath": "assets/explosion-DSOoyDEl.mp3",
+      "bytes": 43200,
+      "sha256": "62394a4fb8554b89e4fa830caf9b84bc2b6a0e0a42f9acc3180531b1a46ce32e"
+    },
+    {
+      "assetPath": "assets/FredokaOne-Regular-CqP-Tvqc.woff2",
+      "bytes": 15596,
+      "sha256": "e9986c62b19bce3791c4c103a4aa87c91d22d9e1c9f252f7f802ea26d3405769"
+    },
+    {
+      "assetPath": "assets/guidehand-BwviidcF.png",
+      "bytes": 3238,
+      "sha256": "7c147efbe3cf80bbca5d609bfba05b5d469cccbb89e5fd830106a44f250d4faa"
+    },
+    {
+      "assetPath": "assets/gun-BFSMwrp-.mp3",
+      "bytes": 9519,
+      "sha256": "ecfa1980aa66248a887cab170afc5f7651580c04c80c2cee2400028b507c2e26"
+    },
+    {
+      "assetPath": "assets/hit-D1Hj2Zq3.mp3",
+      "bytes": 40960,
+      "sha256": "aea4c3abd20dda0a5d72dcac7ebbf48cfa8f8a9d7793c92ae8ce03ca0d09addb"
+    },
+    {
+      "assetPath": "assets/index-B2gGrP8u.js",
+      "bytes": 269749,
+      "sha256": "bdcd72465188c733eb1f656aa5c2cde2208801fe03d14fdec925e79a84c288e2"
+    },
+    {
+      "assetPath": "assets/kill-Dl-zKq3-.mp3",
+      "bytes": 65201,
+      "sha256": "f87edb8695b11a19cc540c735e49f510eb85b8486ba3f4086bac9c64869b9349"
+    },
+    {
+      "assetPath": "assets/killicon-B2GSYp7f.png",
+      "bytes": 3410,
+      "sha256": "5c9fef45bea83a12fccabb29b113a40d7b82cbe9795fb51dfe885bd6e5482655"
+    },
+    {
+      "assetPath": "assets/loading-bg-BQ6p5xhC.jpg",
+      "bytes": 36478,
+      "sha256": "36464887834b0f9900f2d314f576ff480f901858fcfdc9e8ec916b301fa2e46a"
+    },
+    {
+      "assetPath": "assets/multiplayericon-CwWAMZ7s.png",
+      "bytes": 4305,
+      "sha256": "0d244c2da36b407a8af4c734524cef246551a482200b9024c3f1eedd7677e2e9"
+    },
+    {
+      "assetPath": "assets/music-5K-pbjaI.mp3",
+      "bytes": 3742267,
+      "sha256": "e56eb3449abb20848d0a20c253c90832250016e31b60b617b03b7f757a0ddf8b"
+    },
+    {
+      "assetPath": "assets/propeller-BPckjey3.mp3",
+      "bytes": 23740,
+      "sha256": "9b7f2cb27b1a3cc0926d7ccf999a14ce20f97794bad7334ecc39dd6b0f733d16"
+    },
+    {
+      "assetPath": "assets/right-click-afMJCkVK.png",
+      "bytes": 3583,
+      "sha256": "08d4d502714d508d56fad1a072baebd803332d0923074d1af096cc4c8b1e0ad5"
+    },
+    {
+      "assetPath": "assets/settingsicon-Bvw7IpLx.png",
+      "bytes": 3954,
+      "sha256": "56fde876f723e6db1868d62c9c60b261522984c2178cad81c6bc6c80ac3ab849"
+    },
+    {
+      "assetPath": "assets/style-eWLrFd_F.css",
+      "bytes": 42303,
+      "sha256": "afd12b932692235ef6d5a8e421bc31f47cba6562c6279c11f26f33b9a276d58c"
+    },
+    {
+      "assetPath": "assets/three-BIut9GC5.js",
+      "bytes": 619706,
+      "sha256": "f49510d7611d6105b18d904373f16453a2fbb9c7b7e8bc3c55d4f575dd821d6d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 61314,
+      "sha256": "d9003569cb48fa33f55f690c623e91ec93c9e1adb5a29a7277a25089165ef560"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "828a8b550054a5e0545a175ff99617e3e46dc3292bae2062e3f86b96efd86e77"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "fd2a1395072059361a74f27ef854cc0a1f2bdab3323ecf6066c77ae1cafece47"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "d1653ebd61c5e9a070862fc918bbc91ec9d80938e8c2e693d7f7b944e5d02daf"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

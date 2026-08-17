@@ -471,6 +471,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "circloo-xl": { creatorId: "circloo-xl", creatorName: "circloO XL", creatorLabel: "BY CIRCLOO XL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "brainrot-craft": { creatorId: "brainrot-craft", creatorName: "Brainrot Craft", creatorLabel: "BY BRAINROT CRAFT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "tower-merge": { creatorId: "tower-merge", creatorName: "Tower Merge", creatorLabel: "BY TOWER MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "plane-wars": { creatorId: "plane-wars", creatorName: "Plane Wars", creatorLabel: "BY PLANE WARS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

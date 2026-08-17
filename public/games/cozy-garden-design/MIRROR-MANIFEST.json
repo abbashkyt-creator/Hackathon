@@ -1,0 +1,330 @@
+{
+  "name": "cozy-garden-design",
+  "sourcePage": "https://poki.com/en/g/cozy-garden-design",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1619,
+      "sha256": "65193ee5e9fa26c2de6ab2e7b44d95e88e365f9086ffd4568736dda7c9830a6d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "abb49a92a0af666aab6dc4e33936426aca87dc37960541056da1c6b340dc9daf",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "695321093c940ca29b2c077285a1e1feff73975295820aff5f85af4658e57f8c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "07c7854d0dce15e8fa4f62ade985ecaf1a8bc238941cca572e0d2aa84f3c6ce7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 460,
+      "sha256": "fc858ee1532bee7ca530af5ba89027dc327c69ba34a2be7f0862478c83d80eaf",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 737,
+      "sha256": "22ed3303a628053e15b8e0fca4aa858b1f867563dc579d08af662247aa1704de"
+    },
+    {
+      "assetPath": "avatar.json",
+      "bytes": 637750,
+      "sha256": "126c23aafc5422146615df1f61f52be107505e7f04cc1f5f67d01da20fcf4aa7"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 625250,
+      "sha256": "75c9edd2287bbd31c5ac0efa61aef1e1ef38e2e75b3c7b4cf4c25480690ac4ba"
+    },
+    {
+      "assetPath": "fonts/FredokaOne-Regular.ttf",
+      "bytes": 46660,
+      "sha256": "bb80451cf3d8c602761ef0866a2a5aa510bcd8cd5ae3cb0d1565a95184a02e9a"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 500,
+      "sha256": "b316db45dd9940f692ded86d918b66f3a6c0f4b65b310ab38b7de13062b6de36"
+    },
+    {
+      "assetPath": "images/auxfloorline-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d82d0c6b324bb4b743908edce1cb80d9b69b405827081946e16b2e44c3629849"
+    },
+    {
+      "assetPath": "images/auxroomcollider_floor-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d82d0c6b324bb4b743908edce1cb80d9b69b405827081946e16b2e44c3629849"
+    },
+    {
+      "assetPath": "images/auxroomcollider_wall-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d82d0c6b324bb4b743908edce1cb80d9b69b405827081946e16b2e44c3629849"
+    },
+    {
+      "assetPath": "images/bgbasic-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d0685fafaaf7ff1faadf702cfc672aa8c07e434ffbb119d79231284f65c8f1b3"
+    },
+    {
+      "assetPath": "images/bgflat-sheet0.webp",
+      "bytes": 38,
+      "sha256": "eb1492050b78d60aefdacd70d1b6ff9637ab6c3fbcccbfb2560a0936ed03505a"
+    },
+    {
+      "assetPath": "images/bgorientation-sheet0.webp",
+      "bytes": 38,
+      "sha256": "eb1492050b78d60aefdacd70d1b6ff9637ab6c3fbcccbfb2560a0936ed03505a"
+    },
+    {
+      "assetPath": "images/bgroomfloorextral-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d0685fafaaf7ff1faadf702cfc672aa8c07e434ffbb119d79231284f65c8f1b3"
+    },
+    {
+      "assetPath": "images/bgroomfloorextral2-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d0685fafaaf7ff1faadf702cfc672aa8c07e434ffbb119d79231284f65c8f1b3"
+    },
+    {
+      "assetPath": "images/btnpose-sheet0.webp",
+      "bytes": 14472,
+      "sha256": "63ac109991f14af3148c120dbb8d67a1ff8fe67f7e5b6e771e4fa4f4c64b35eb"
+    },
+    {
+      "assetPath": "images/partbook01-sheet0.webp",
+      "bytes": 3348,
+      "sha256": "f26d03fab6e4c35365620789b404e204f371fa0a4edd199e653f8663875a996b"
+    },
+    {
+      "assetPath": "images/partfloorasset01-sheet0.webp",
+      "bytes": 7724,
+      "sha256": "0271d17950c5060d4a3930dd3b865aad76656fb865ff4abeb017deccf9e4da6e"
+    },
+    {
+      "assetPath": "images/partoutdoorcouch01-sheet0.webp",
+      "bytes": 22452,
+      "sha256": "c267cb049de1407b9be7ec41c99ff791fc999c359a49934552912d305eb5ac65"
+    },
+    {
+      "assetPath": "images/partoutdoorcouch02-sheet0.webp",
+      "bytes": 16646,
+      "sha256": "1d3f82c78d28f3d4d6180f055f30662a847641f1fad3ec2a40f9047da8166638"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 55698,
+      "sha256": "ad46f5a49dad3f0da844b513bf00e52d6f9fa01de5dd2c0bfc433686765d6e04"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 46336,
+      "sha256": "ac5692bb187ba81ec723694e8b89e74efcbf3c24339e249d74cdf88d5b8056f5"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 5016,
+      "sha256": "c5d70267630b0ff0b3cffd421fbe55e5c66c61d4c10de1c218af3b8476924aff"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 33638,
+      "sha256": "1b9aa796876d801044425f4d26ac9d902a4be11544b522cf902e4332a754a4b9"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 282,
+      "sha256": "97f119b28fe0416ce22595461cf09efb73ecf82a567a51bb16441ca6e6daee99"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 98946,
+      "sha256": "e662557213a755c676685b7809d0edac5c766de16cd1507d7a80892f87f478c3"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 57138,
+      "sha256": "18e1f5c058e523c0b937d68e399c2bcf6404a05d720d5b9a0fe14fc69eb108cc"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 93714,
+      "sha256": "c67580c07607ffa1082aa8c1b034e42a5c93a46ed8c601e2cb446cfe79e81e5f"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 48286,
+      "sha256": "b376f9187689f5e065a70e5acb1ec69c78fdfd1d5ac50470c9b9d560f4c84d95"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 12416,
+      "sha256": "f2a39599d527eb7fd6ad3f7a1dea714f7697389f01e51b61a31f67d00534f6b9"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 9556,
+      "sha256": "4cd65b6b8df5763f3678670e3dc7bdffda84317f08d69bb8e2bf5cadbf65e6c6"
+    },
+    {
+      "assetPath": "images/sprtransition-sheet0.webp",
+      "bytes": 42408,
+      "sha256": "bc9e87b2d07cbbc9ed402dee614a66de41656f722c9cecfcd0f708ef360d72f2"
+    },
+    {
+      "assetPath": "images/tileprojectionline-sheet0.webp",
+      "bytes": 38,
+      "sha256": "02501d117f3ae14864952d737b54e0ab00f4474851501b3a357a069ac007bcd1"
+    },
+    {
+      "assetPath": "images/tmbroomcategory-sheet0.webp",
+      "bytes": 50798,
+      "sha256": "f2e62179fcdcf0eb2181fae9e17c8a6b4d2a66921eb4c16f94ba84db17befb59"
+    },
+    {
+      "assetPath": "images/tmbroompart-sheet0.webp",
+      "bytes": 171048,
+      "sha256": "7172ab55049adda55bc467e81d5b6ce6ebc1dcb2de1e5e07feeffe80f972cdaa"
+    },
+    {
+      "assetPath": "images/wallbg-sheet0.webp",
+      "bytes": 480,
+      "sha256": "838e458209920cc970bd8bbbd17cb2a0220061047bc8a721b6312f2a424707ae"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1619,
+      "sha256": "65193ee5e9fa26c2de6ab2e7b44d95e88e365f9086ffd4568736dda7c9830a6d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "695321093c940ca29b2c077285a1e1feff73975295820aff5f85af4658e57f8c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "07c7854d0dce15e8fa4f62ade985ecaf1a8bc238941cca572e0d2aa84f3c6ce7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 460,
+      "sha256": "fc858ee1532bee7ca530af5ba89027dc327c69ba34a2be7f0862478c83d80eaf"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1537625,
+      "sha256": "c2d3aa1f36effc93493c2e9fdfa13e67b468cade818f316dd71568287155bc37"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 134948,
+      "sha256": "68da626c4593a7cb3d103e78a0d3e9a71a7c7a85331120ce5098dc43c8454f2c"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 2150,
+      "sha256": "913bfe452cf58571db8675f14b47529e5d74ab5236cd7f0b8c1c603b35edd9a7"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1902,
+      "sha256": "70f865a843acd1b9ece2fb9e6a943753356ccf086ef78af382b64f3864bca2b4"
+    },
+    {
+      "assetPath": "tests/char_parts.json",
+      "bytes": 60077,
+      "sha256": "f87191c4ec4d8b7834543a7eb3e8ac43a74b622e727d8f33d7a8c3677f5af2ee"
+    },
+    {
+      "assetPath": "tests/char_presets.json",
+      "bytes": 3546,
+      "sha256": "442e3417d9995fc37e23afd811dc08dbd28d1f71298cb78eb5747a19e5a1ca63"
+    },
+    {
+      "assetPath": "tests/room_parts.json",
+      "bytes": 35239,
+      "sha256": "47312dbc47638f94266f423c47ccbb1b7c9db2ae8411011f3bda95ba312d259e"
+    },
+    {
+      "assetPath": "tests/save_data_default.json",
+      "bytes": 1635,
+      "sha256": "c2d8ece54fe2b1e334f6ce6dbe83c5449c05ff5cc9eff5cda72616f059bb4774"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
