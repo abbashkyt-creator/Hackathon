@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/travel-merge/index.html",
+    "/games/travel-merge/js/poki-sdk-shim.js",
+    "/games/travel-merge/js/tiptap-platform-bridge.js"
+  ]
+}

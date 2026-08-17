@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/family-sort/index.html",
+    "/games/family-sort/js/poki-sdk-shim.js",
+    "/games/family-sort/js/tiptap-platform-bridge.js",
+    "/games/family-sort/js/tiptap-inline-1.js",
+    "/games/family-sort/js/tiptap-inline-2.js"
+  ]
+}

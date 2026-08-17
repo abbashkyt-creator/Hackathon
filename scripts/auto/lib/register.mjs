@@ -1,15 +1,41 @@
 /**
  * lib/register.mjs — register a mirrored game in every product surface.
- * Anchor-based insertions (after the "drift-boss" entry in each file).
+ * Line-based insertions: find anchor LINE, insert adjacent line.
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 const ROOT = "C:/Project C/Hackation";
 const read = r => readFileSync(join(ROOT,r),"utf8");
 const write = (r,c) => writeFileSync(join(ROOT,r),c,"utf8");
-const contains = (r,s) => read(r).includes(s);
-function insertAfter(r, needle, block) { if (contains(r, block.split("\n")[1]||block)) return false; const t=read(r), i=t.indexOf(needle); if(i<0) throw new Error(`anchor not found in ${r}: ${needle.slice(0,40)}`); write(r, t.slice(0,i+needle.length)+"\n"+block+t.slice(i+needle.length)); return true; }
-function insertBefore(r, needle, block) { if (contains(r, (block.split("\n").find(l=>l.trim().length>4)||""))) return false; const t=read(r), i=t.indexOf(needle); if(i<0) throw new Error(`anchor not found in ${r}: ${needle.slice(0,40)}`); write(r, t.slice(0,i)+block+t.slice(i)); return true; }
+
+function insertAfterLine(r, needleSubstring, newLine) {
+  const content = read(r);
+  const lines = content.split("\n");
+  // Check if newLine already exists
+  if (lines.some(l => l.includes(newLine.trim()))) return false;
+  // Find the LINE containing needleSubstring
+  const idx = lines.findIndex(l => l.includes(needleSubstring));
+  if (idx < 0) { console.warn(`anchor not found in ${r}: ${needleSubstring.slice(0,40)}`); return false; }
+  lines.splice(idx + 1, 0, newLine);
+  write(r, lines.join("\n"));
+  return true;
+}
+
+function insertBeforeLine(r, needleSubstring, newLine) {
+  const content = read(r);
+  const lines = content.split("\n");
+  // Check if newLine already exists
+  if (lines.some(l => l.includes(newLine.trim()))) return false;
+  // Find the LINE containing needleSubstring
+  const idx = lines.findIndex(l => l.includes(needleSubstring));
+  if (idx < 0) { console.warn(`anchor not found in ${r}: ${needleSubstring.slice(0,40)}`); return false; }
+  lines.splice(idx, 0, newLine);
+  write(r, lines.join("\n"));
+  return true;
+}
+
+function insertAfter(r, needle, block) { return insertAfterLine(r, needle, block); }
+function insertBefore(r, needle, block) { return insertBeforeLine(r, needle, block); }
 
 export function pascal(slug) { return slug.split("-").map(p=>p.charAt(0).toUpperCase()+p.slice(1)).join(""); }
 export function taglineFor(title) { return title.replace(/[^A-Za-z0-9 ]/g,"").trim().split(/\s+/).slice(0,3).join(" ").toUpperCase().slice(0,24)||"PLAY NOW"; }
@@ -21,16 +47,16 @@ export function registerGame({ slug, title, creatorName, creatorId, category }) 
   if (!existsSync(wp)) writeFileSync(wp, wrapper, "utf8");
   const ins = (r,n,b) => { try { return insertAfter(r,n,b); } catch(e) { console.warn(e.message); return false; } };
   const insB = (r,n,b) => { try { return insertBefore(r,n,b); } catch(e) { console.warn(e.message); return false; } };
-  ins("src/games/index.ts", "export { DriftBossGame }", `export { ${comp} } from "./${comp}";`);
+  ins("src/games/index.ts", "DriftBossGame", `export { ${comp} } from "./${comp}";`);
   ins("src/App.tsx", "DriftBossGame,", `  ${comp},`);
   ins("src/App.tsx", `"drift-boss": DriftBossGame,`, `  "${slug}": ${comp},`);
-  ins("src/App.tsx", `"drift-boss": "DRIFT`, `  "${slug}": "${taglineFor(title)}",`);
-  insB("shared/catalog.ts", `  "drift-boss": {`, `  "${slug}": { creatorId: "${creatorId||"poki-mirror"}", creatorName: "${creatorName||"Poki Mirror"}", creatorLabel: "BY ${(creatorName||"POKI MIRROR").toUpperCase()} · LOCAL SOURCE MIRROR", category: "${category||"Arcade"}" },\n`);
+  ins("src/App.tsx", `"drift-boss": "DRIFT! BOSS!",`, `  "${slug}": "${taglineFor(title)}",`);
+  insB("shared/catalog.ts", `  "drift-boss": {`, `  "${slug}": { creatorId: "${creatorId||"poki-mirror"}", creatorName: "${creatorName||"Poki Mirror"}", creatorLabel: "BY ${(creatorName||"POKI MIRROR").toUpperCase()} · LOCAL SOURCE MIRROR", category: "${category||"Arcade"}" },`);
   ins("src/types.ts", `  | "drift-boss"`, `  | "${slug}"`);
-  insB("src/offline-catalog.ts", `    {\n      slug: "drift-boss",`, `    { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },\n`);
-  insB("src/game-runtime.ts", `  "drift-boss": {`, `  "${slug}": { embedded: true, preloadManifest: "/games/${slug}/preload-manifest.json", assetManifest: "/games/${slug}/MIRROR-MANIFEST.json", prepareByMount: true },\n`);
-  insB("server/db.ts", `  {\n    slug: "drift-boss",`, `  { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },\n`);
-  ins("server/score-policy.ts", `  "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`, `  "${slug}": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`);
+  insB("src/offline-catalog.ts", `slug: "drift-boss",`, `    { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },`);
+  insB("src/game-runtime.ts", `"drift-boss": {`, `  "${slug}": { embedded: true, preloadManifest: "/games/${slug}/preload-manifest.json", assetManifest: "/games/${slug}/MIRROR-MANIFEST.json", prepareByMount: true },`);
+  insB("server/db.ts", `slug: "drift-boss",`, `  { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },`);
+  ins("server/score-policy.ts", `"drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`, `  "${slug}": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`);
   return [];
 }
 

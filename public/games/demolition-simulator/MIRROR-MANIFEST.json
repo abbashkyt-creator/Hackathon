@@ -1,0 +1,135 @@
+{
+  "name": "demolition-simulator",
+  "sourcePage": "https://poki.com/en/g/demolition-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1698,
+      "sha256": "d3f01f65ea3363ee9f978a64e09aabdf8a5b2565e0850a08fa1bd4c6b6861c7f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "17ed0f122d77228e094d333f5ba36248e2098c5c8cfffb5619dad66ada8e20cf",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "ad4c81a8d441fbbded961f2c7595417c54d9bd47b361c800f9fdef8fc72127a4",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "a7f6c9a7825201c14cb7dc34df084fb3053e51a1dff637dcba68c9f2b1e60ec6",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 188,
+      "sha256": "08798927eefcd018c61c2960f687eafc4a2a8f4f9b92950fae293dbecd6178cf",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/main-CwpafbGK.js",
+      "bytes": 581757,
+      "sha256": "7ad23bd5bf9694b752934cb6b772e866594b930b30bc7975fae3454d31d4b02f"
+    },
+    {
+      "assetPath": "assets/main-udIzA-Hd.css",
+      "bytes": 65868,
+      "sha256": "098c22a7cee52edf880b587c21c00adb26e4f6ea74093f38e441a17b96d52e4e"
+    },
+    {
+      "assetPath": "assets/rapier-CoWKi3pR.js",
+      "bytes": 2658,
+      "sha256": "a28120d0a7e6574452c9eb4c456c8bd81feda2ceb63641ca5f87be3d0c3c6058"
+    },
+    {
+      "assetPath": "assets/rapier-K1Hqgdmo.js",
+      "bytes": 141058,
+      "sha256": "21bc900a561658783dc030dd2081f3dc36fa9bdf71ba8a77bc2b582e95cc9b60"
+    },
+    {
+      "assetPath": "assets/rapier_wasm3d_bg-bb0TTxsO.wasm",
+      "bytes": 1570176,
+      "sha256": "6a1c4773be3dc8b5addbf2837a9e178c6b6c79b660e04bb30e48d40b32ec2ce1"
+    },
+    {
+      "assetPath": "assets/rolldown-runtime-lhHHWwHU.js",
+      "bytes": 158,
+      "sha256": "a526d1bb3288ef04d001028843220a24b0867a4edf8c685b69506d6525af36ff"
+    },
+    {
+      "assetPath": "assets/three-BoRsXESI.js",
+      "bytes": 547666,
+      "sha256": "634fe69b70e33b1d5c51e22fe09036c14a11ef37a4182813903cb14d115a2a1c"
+    },
+    {
+      "assetPath": "assets/three-examples-BUd6mwcp.js",
+      "bytes": 96540,
+      "sha256": "46d4f61bbdcd3ffbfdf5ce9a2cf849cb0733b11461977cd524923c6ecd222a20"
+    },
+    {
+      "assetPath": "favicon.svg",
+      "bytes": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "assetPath": "font/SofiaSans-Black-ascii.woff",
+      "bytes": 17012,
+      "sha256": "ee15f31f3a0b2e14930b5446c40f38383c956475ff8f64fdfccf5de12e4e95ca"
+    },
+    {
+      "assetPath": "icons/camera-clear.svg",
+      "bytes": 346,
+      "sha256": "8a54da205472eb736b878921596f7d80ac0053941876a7600aa73070e4bcba72"
+    },
+    {
+      "assetPath": "icons/dozer_side.png",
+      "bytes": 9314,
+      "sha256": "4d9f0af12aff6076d24dd13ae5dd4eb923c566b78b40ab7729065251c77a73e3"
+    },
+    {
+      "assetPath": "icons/volume-2.svg",
+      "bytes": 337,
+      "sha256": "73a8f2b9b3c62bc763643835b2d544b54abee2a6462c1f5d088c39e81b228220"
+    },
+    {
+      "assetPath": "icons/volume-x.svg",
+      "bytes": 348,
+      "sha256": "19d76a0b4f88696c89ac418130a7c74b8771275aa50fbcdd335a64f7020062b9"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1698,
+      "sha256": "d3f01f65ea3363ee9f978a64e09aabdf8a5b2565e0850a08fa1bd4c6b6861c7f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "ad4c81a8d441fbbded961f2c7595417c54d9bd47b361c800f9fdef8fc72127a4"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "a7f6c9a7825201c14cb7dc34df084fb3053e51a1dff637dcba68c9f2b1e60ec6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 188,
+      "sha256": "08798927eefcd018c61c2960f687eafc4a2a8f4f9b92950fae293dbecd6178cf"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

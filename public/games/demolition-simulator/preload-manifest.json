@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/demolition-simulator/index.html",
+    "/games/demolition-simulator/js/poki-sdk-shim.js",
+    "/games/demolition-simulator/js/tiptap-platform-bridge.js"
+  ]
+}

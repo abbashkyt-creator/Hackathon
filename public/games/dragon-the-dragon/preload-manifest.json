@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/dragon-the-dragon/index.html",
+    "/games/dragon-the-dragon/js/poki-sdk-shim.js",
+    "/games/dragon-the-dragon/js/tiptap-platform-bridge.js"
+  ]
+}

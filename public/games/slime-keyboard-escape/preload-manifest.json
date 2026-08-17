@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/slime-keyboard-escape/index.html",
+    "/games/slime-keyboard-escape/js/poki-sdk-shim.js",
+    "/games/slime-keyboard-escape/js/tiptap-platform-bridge.js",
+    "/games/slime-keyboard-escape/js/tiptap-inline-1.js"
+  ]
+}

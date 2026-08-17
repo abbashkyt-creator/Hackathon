@@ -1,0 +1,70 @@
+{
+  "name": "travel-merge",
+  "sourcePage": "https://poki.com/en/g/travel-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 8124,
+      "sha256": "c340b80e309d8b26e4a27eac9fbc41387036f696dec717cc77fcd45f09de3d27",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "68ebe51a39cd1e3b2a3ff2dcc026d0f57188bd025163024a9123a7e200c65ad8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "2b2640774e05308ddbcd76d0d6eeca7b569f69a93f653c33929d1403c7408398",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "933c5d19cb3a11c78188037b131e8dd9c043922290752da93efe896d5b23126b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 164,
+      "sha256": "b1ef97d0d0f879b8be5c674c27af5940f1becfa8bfaecca97d946e58cbe1f6a4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47913,
+      "sha256": "b847bff0ecfa404e66e36db77ad7dbe6f5de7bdb13b8105ed46489178707e51e"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 13835,
+      "sha256": "6996108941f6277d0ca76300049fafb79f3fc052f531b1a2d93575725e73b4b3"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "2b2640774e05308ddbcd76d0d6eeca7b569f69a93f653c33929d1403c7408398"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "933c5d19cb3a11c78188037b131e8dd9c043922290752da93efe896d5b23126b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 164,
+      "sha256": "b1ef97d0d0f879b8be5c674c27af5940f1becfa8bfaecca97d946e58cbe1f6a4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

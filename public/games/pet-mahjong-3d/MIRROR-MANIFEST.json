@@ -1,0 +1,80 @@
+{
+  "name": "pet-mahjong-3d",
+  "sourcePage": "https://poki.com/en/g/pet-mahjong-3d",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 9509,
+      "sha256": "d45422921232873bedb32fd2884ad566e053f746235fcf305f043302f1500f78",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "a7e3990d70396b2517a53bd4563c081f2ae845c555c54a3a42732c63a7ae4112",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "ab0dba320c6b1f282dcb00de0c02844e2e7162e4ec47bbbb7267c48d4f0a78a9",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "992088fc02e720b413c543daec746745708972eecbb28e7954e27e8eea921440",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 170,
+      "sha256": "de571aab6bf185ec9d1f8f648cc1ca8722d1703d6031aadf4c945bcf8b1b2344",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/boot-preloader-art-ph7X2lC0.webp",
+      "bytes": 25746,
+      "sha256": "c62170f4110d0e7b6a0fdc98fbdd921ffaa5f4508b1c4bb85a9cd127bd1f0e7e"
+    },
+    {
+      "assetPath": "assets/index-B8IwKmCp.css",
+      "bytes": 99946,
+      "sha256": "e24f478f1472e5869d342e551f4d4c4ccedaa72ea98d9cfbaec83ff9252fc1f6"
+    },
+    {
+      "assetPath": "assets/index-xJs5lvL1.js",
+      "bytes": 547362,
+      "sha256": "f4df5303e6fb196719e201fca2605d8b4d3ab898b348242cbbe4487c04375020"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 10604,
+      "sha256": "d38b4b518fbb4fd6a9958d9a5ef197f1d6b18b803f84faa72810bec7b52c05da"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "ab0dba320c6b1f282dcb00de0c02844e2e7162e4ec47bbbb7267c48d4f0a78a9"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "992088fc02e720b413c543daec746745708972eecbb28e7954e27e8eea921440"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 170,
+      "sha256": "de571aab6bf185ec9d1f8f648cc1ca8722d1703d6031aadf4c945bcf8b1b2344"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

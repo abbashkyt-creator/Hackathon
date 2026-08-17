@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/little-farm-world/index.html",
+    "/games/little-farm-world/js/poki-sdk-shim.js",
+    "/games/little-farm-world/js/tiptap-platform-bridge.js",
+    "/games/little-farm-world/js/tiptap-inline-1.js"
+  ]
+}

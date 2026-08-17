@@ -54,13 +54,13 @@ console.log(`========================\n`);
 sweepIngestChromes();
 
 function saveProgress() {
-  const ok = Object.values(progress.games).filter(g => g.ok).length;
-  const fail = Object.values(progress.games).filter(g => !g.ok).length;
-  progress.summary = { total: allSlugs.length, processed: Object.keys(progress.games).length, ok, fail, remaining: allSlugs.length - Object.keys(progress.games).length, finishedAt: new Date().toISOString() };
+  const okCount = Object.values(progress.games).filter(g => g.ok).length;
+  const failCount = Object.values(progress.games).filter(g => !g.ok).length;
+  progress.summary = { total: allSlugs.length, processed: Object.keys(progress.games).length, ok: okCount, fail: failCount, remaining: allSlugs.length - Object.keys(progress.games).length, finishedAt: new Date().toISOString() };
   writeFileSync(PROGRESS_PATH, JSON.stringify(progress, null, 2));
 }
 
-let done = 0, ok = 0, fail = 0;
+let done = 0, succeed = 0, failed = 0;
 const startTime = Date.now();
 
 function runOne(slug) {
@@ -86,12 +86,12 @@ function runOne(slug) {
       };
 
       done++;
-      if (ok) { ok++; } else { fail++; }
+      if (ok) { succeed++; } else { failed++; }
 
       const elapsed = Math.round((Date.now() - startTime) / 1000);
       const rate = done / (elapsed / 60);
       const eta = Math.round((todo.length - done) / Math.max(rate, 0.1));
-      console.log(`[${ok}/${done}/${fail}] ${slug} ${ok ? "OK" : "FAIL: " + (error || "").slice(0, 100)} (${elapsed}s, ~${eta}m left)`);
+      console.log(`[${succeed}/${done}/${failed}] ${slug} ${ok ? "OK" : "FAIL: " + (error || "").slice(0, 100)} (${elapsed}s, ~${eta}m left)`);
 
       // Save progress every 10 games
       if (done % 10 === 0) saveProgress();
@@ -102,24 +102,26 @@ function runOne(slug) {
 }
 
 async function main() {
-  const running = [];
   let cursor = 0;
+  const promises = new Set();
 
-  while (cursor < todo.length) {
-    while (running.length < workers && cursor < todo.length) {
+  while (cursor < todo.length || promises.size > 0) {
+    // Launch workers up to limit
+    while (promises.size < workers && cursor < todo.length) {
       const slug = todo[cursor++];
-      running.push(runOne(slug).then(() => running.splice(running.indexOf(running.find(p => p === arguments[0])), 1)).catch(() => {}));
+      const p = runOne(slug).finally(() => promises.delete(p));
+      promises.add(p);
     }
-    if (running.length > 0) await Promise.race(running);
+    // Wait for at least one to finish
+    if (promises.size > 0) await Promise.race([...promises]);
   }
-  await Promise.all(running);
 
   sweepIngestChromes();
   saveProgress();
 
   const elapsed = Math.round((Date.now() - startTime) / 1000);
   console.log(`\n=== COMPLETE ===`);
-  console.log(`OK: ${ok}, Failed: ${fail}, Total: ${done}`);
+  console.log(`OK: ${succeed}, Failed: ${failed}, Total: ${done}`);
   console.log(`Time: ${Math.round(elapsed / 60)}m ${elapsed % 60}s`);
   console.log(`Progress saved to: ${PROGRESS_PATH}`);
 }

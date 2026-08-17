@@ -1,0 +1,70 @@
+{
+  "name": "slime-keyboard-escape",
+  "sourcePage": "https://poki.com/en/g/slime-keyboard-escape",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5669,
+      "sha256": "14a1a53c5c06d9384b4d4750a614fa6db12a58cb51d7767b08cb3d4d19f3a1ed",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "8e47ad8d54102390fecb28111379e5c1c02e0110bafd0ae07ca521d4c6929bb4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "89e325f47def1cbb264477867f13d17dfe5d5bf72eea28bf8427f95409cb5686",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "1febe5a88499b781cd480a87fd441c857d6300e83d55b568f8d6dbb93b0ce6f7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "b460bd038466b6cd5ce03898a3233e85e90a8f2543e49f85cc81871d8e3801ca",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5669,
+      "sha256": "14a1a53c5c06d9384b4d4750a614fa6db12a58cb51d7767b08cb3d4d19f3a1ed"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "89e325f47def1cbb264477867f13d17dfe5d5bf72eea28bf8427f95409cb5686"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 808,
+      "sha256": "d5ed7731379e25d5e6a55125bcd5ca940708525bfec01d7cb72ff73a97c2e37b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "1febe5a88499b781cd480a87fd441c857d6300e83d55b568f8d6dbb93b0ce6f7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "b460bd038466b6cd5ce03898a3233e85e90a8f2543e49f85cc81871d8e3801ca"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

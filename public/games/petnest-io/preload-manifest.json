@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/petnest-io/index.html",
+    "/games/petnest-io/js/poki-sdk-shim.js",
+    "/games/petnest-io/js/tiptap-platform-bridge.js"
+  ]
+}

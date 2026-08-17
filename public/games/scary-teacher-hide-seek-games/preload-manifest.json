@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/scary-teacher-hide-seek-games/index.html",
+    "/games/scary-teacher-hide-seek-games/js/poki-sdk-shim.js",
+    "/games/scary-teacher-hide-seek-games/js/tiptap-platform-bridge.js",
+    "/games/scary-teacher-hide-seek-games/js/tiptap-inline-1.js"
+  ]
+}

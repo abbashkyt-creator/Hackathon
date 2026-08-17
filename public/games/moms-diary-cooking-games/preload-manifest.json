@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/moms-diary-cooking-games/index.html",
+    "/games/moms-diary-cooking-games/js/poki-sdk-shim.js",
+    "/games/moms-diary-cooking-games/js/tiptap-platform-bridge.js",
+    "/games/moms-diary-cooking-games/js/tiptap-inline-1.js",
+    "/games/moms-diary-cooking-games/js/tiptap-inline-2.js",
+    "/games/moms-diary-cooking-games/js/tiptap-inline-3.js"
+  ]
+}

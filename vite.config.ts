@@ -7,6 +7,17 @@ export default defineConfig({
     target: "es2022",
     sourcemap: true,
   },
+  optimizeDeps: {
+    exclude: [],
+    // Exclude game directories from dependency scanning
+  },
+  server: {
+    fs: {
+      allow: ["."],
+    },
+  },
+  // Prevent Vite from scanning game directories (binary JS breaks the scanner)
+  assetsInclude: [],
   test: {
     environment: "node",
     exclude: [

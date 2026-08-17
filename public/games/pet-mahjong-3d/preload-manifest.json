@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/pet-mahjong-3d/index.html",
+    "/games/pet-mahjong-3d/js/poki-sdk-shim.js",
+    "/games/pet-mahjong-3d/js/tiptap-platform-bridge.js"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "name": "petnest-io",
+  "sourcePage": "https://poki.com/en/g/petnest-io",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2112,
+      "sha256": "5f623ec981182e0dfcebf11c7b9ef5aa4a144935848e4eedd590a4b8abf9c6ab",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "779e2bf970ba56f36859257c47db05b792857f3df7c80e42da040ebf0fa30e9e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "8ed5994ce2db91e5bd52775505c6d8f52acd97d8cd7f09d9bd2c45c232ec3396",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "b4486f1c4b1dbdecdf8bd2043529c092980f1bf691cd4fb7f4e4202f061bb22f",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "0a96e069aa3f102d278c818c1a2c24cce5b161632453bd96c0ac715f28d63d6e",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/af-D6CtWBWh.js",
+      "bytes": 36732,
+      "sha256": "f7e35b6f7ecaee2fe0bc09da98df70d941ed995fa024bfae71584c3c5c9c048e"
+    },
+    {
+      "assetPath": "assets/ar-DbrdPeDc.js",
+      "bytes": 46758,
+      "sha256": "c1628bc7cb31a46fcb6e9d3385772027377bbf7498f52842e1d83e503f5b5606"
+    },
+    {
+      "assetPath": "assets/AssetManager-CUPp_kDe.js",
+      "bytes": 21564,
+      "sha256": "85657a1fb1e3849a077ce87b0402a65a2eb713dcfa5c9a9b1511a47c2262d3c5"
+    },
+    {
+      "assetPath": "assets/AssetManager-kchTOiAl.css",
+      "bytes": 4886,
+      "sha256": "2a58722f3a1a2bea3f39b65618db305e7a9ee4c593523e3d8cdb1730e293d109"
+    },
+    {
+      "assetPath": "assets/Auth-CYLqQlKO.css",
+      "bytes": 140,
+      "sha256": "35d3b67364d6860ae85ab8614ab538a4d47372587ef8a257460d3ed388d25df4"
+    },
+    {
+      "assetPath": "assets/Auth-DwnGVooc.js",
+      "bytes": 1381,
+      "sha256": "4efe46a52be1244cdb67a36d286d02546ba19805f8ac9eae4aba1234245f5192"
+    },
+    {
+      "assetPath": "assets/bg-C_9V_5C1.js",
+      "bytes": 51912,
+      "sha256": "3cf5a16f28215d7c9d2c4357069b1186a0684e0fc887baaf610e6fa1c9576f34"
+    },
+    {
+      "assetPath": "assets/bn-DvoAJ7UR.js",
+      "bytes": 66221,
+      "sha256": "95606ccec7bc45ad159c7b555e0d2d0de1cd00476b4389820063fa1f577ac9d0"
+    },
+    {
+      "assetPath": "assets/ca-CCJPZU76.js",
+      "bytes": 38575,
+      "sha256": "f0e6cd556d9fe31832ee7b5cc2e3f506fcddf221995a4057bf69e3a94a218545"
+    },
+    {
+      "assetPath": "assets/characterModel-C7AyWGbO.js",
+      "bytes": 113437,
+      "sha256": "5e2d1967349be98bf4e92086fca7e1f9d2de228dcaf3e28a49b9917dfb808a4b"
+    },
+    {
+      "assetPath": "assets/cs-CiIODVKW.js",
+      "bytes": 38443,
+      "sha256": "1d8ebf654cca019a59449b0876e5b5d56786dda9c8ed46ff842da205e5df5ad1"
+    },
+    {
+      "assetPath": "assets/currency-A5yIzXIQ.js",
+      "bytes": 109932,
+      "sha256": "34f7a7e42748ce1160907641ec66b571151b37cff23bb84c682d4d67a98a4aaa"
+    },
+    {
+      "assetPath": "assets/da-C_eWnWBc.js",
+      "bytes": 36236,
+      "sha256": "718f8ada056fdc9b603a2da8b73fc11f08072ff5c5f3cd7de131fb71ccd25c67"
+    },
+    {
+      "assetPath": "assets/de-Bg_uw70n.js",
+      "bytes": 38928,
+      "sha256": "54b4a22804d3d35798f0efbb7864a736832e92626fdf61f613a5da9642a23fb5"
+    },
+    {
+      "assetPath": "assets/el-1PwhCc6h.js",
+      "bytes": 56690,
+      "sha256": "c4b67298f0b6be36667100a4a1e58da15492d0361c0d437f7428bd0e1f29d00a"
+    },
+    {
+      "assetPath": "assets/en-CcXvpayX.js",
+      "bytes": 1191,
+      "sha256": "167b6f13dc750f4051ea6e5cfde21180cb31f35ec11cb54c85adb8d2def5fc20"
+    },
+    {
+      "assetPath": "assets/favicon-192-wLBehHmQ.webp",
+      "bytes": 8304,
+      "sha256": "375d7c085d1af80bdb2c4690d67a4b9bf3db0f9e1590b50add3d14d0e534fb42"
+    },
+    {
+      "assetPath": "assets/favicon-32-BMn6kjbx.webp",
+      "bytes": 1026,
+      "sha256": "3739a71f52ba825f16a21c09c8490ecd6b665e70d8232a8260e15afa77093df7"
+    },
+    {
+      "assetPath": "assets/Game-BYSGs0ot.js",
+      "bytes": 2999469,
+      "sha256": "614fd9471df7eedb65ced1de44fdae02d8bc475cecfe4d14e4be1745945d566a"
+    },
+    {
+      "assetPath": "assets/Game-DCULMgbH.css",
+      "bytes": 302573,
+      "sha256": "4ff5e8300b411b3627ef1a26c8ead1e52b4ca34f772eb2deef3c3638d0f9bbbb"
+    },
+    {
+      "assetPath": "assets/index-BLTtsUJe.css",
+      "bytes": 24304,
+      "sha256": "2eeb3fa7fe918fb666d8c4340835cbf2ac334ee8ecedfa5fe91824808a1fdc40"
+    },
+    {
+      "assetPath": "assets/index-CN5ZJuYN.js",
+      "bytes": 1003051,
+      "sha256": "278a84cecebc750a02765d76893c98b5955d5a3506bf27dd97d08fff3c303c12"
+    },
+    {
+      "assetPath": "assets/Mod-Bug6t_2x.js",
+      "bytes": 8275,
+      "sha256": "088067bfcefecf1e5b13fe7fef4cd494ee21f3b90c67bcee0995fed641f0d335"
+    },
+    {
+      "assetPath": "assets/Mod-DdOQsDi1.css",
+      "bytes": 3951,
+      "sha256": "4c46d5742d3c0f5815e8374829b939db6625b70902080059620c64fb64920874"
+    },
+    {
+      "assetPath": "assets/oauthPopup-Du8zaksd.js",
+      "bytes": 1983,
+      "sha256": "f1bbfa8fe97f38d68546f2322ad028f1e2d99fa853849c3d28cda9a7f3538f8d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 852,
+      "sha256": "4ea31f97f9f1730d6b63f9d9a87c27195a1a75b375050a1679735fcf293165b4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "8ed5994ce2db91e5bd52775505c6d8f52acd97d8cd7f09d9bd2c45c232ec3396"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "b4486f1c4b1dbdecdf8bd2043529c092980f1bf691cd4fb7f4e4202f061bb22f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "0a96e069aa3f102d278c818c1a2c24cce5b161632453bd96c0ac715f28d63d6e"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

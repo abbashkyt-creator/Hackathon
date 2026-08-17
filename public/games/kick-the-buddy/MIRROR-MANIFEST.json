@@ -1,0 +1,95 @@
+{
+  "name": "kick-the-buddy",
+  "sourcePage": "https://poki.com/en/g/kick-the-buddy",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1460,
+      "sha256": "4a092ccaebce1aa417ecc2f547a27853e8d013979be42517e0338f76df8a8531",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "a5cfb5df1d795275db3789793314d1746686ccdbe30fa7ad43cc03ade7dc5de7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "fef75ee7a5584ef7acd8504a316a79d3019ae51f44bb089361f3b8b34df03209",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "844b9951fdd2648f3a45248890ad0e4292c4507d541eb5cec341d0df7c27d32e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 272,
+      "sha256": "b6f8a591f57804253e0807530a62bb19f6434e2259f68b1853fc18665afe3e0e",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1460,
+      "sha256": "4a092ccaebce1aa417ecc2f547a27853e8d013979be42517e0338f76df8a8531"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "fef75ee7a5584ef7acd8504a316a79d3019ae51f44bb089361f3b8b34df03209"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 6367,
+      "sha256": "0f1795228f5020de08cb1861011f9fd8f0804d5b43d294a1a5e70587ba5e2d2e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 5666,
+      "sha256": "3b20a981d7b7f482e45cb61b4401d7d768b665329b8d3ffb4e4afd54c4bafde3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "844b9951fdd2648f3a45248890ad0e4292c4507d541eb5cec341d0df7c27d32e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 272,
+      "sha256": "b6f8a591f57804253e0807530a62bb19f6434e2259f68b1853fc18665afe3e0e"
+    },
+    {
+      "assetPath": "TemplateData/background.png",
+      "bytes": 694483,
+      "sha256": "780fd0387f84a1a9ca9ee998e4b9addf6ad6c22c00c6ae228f54d5c8370bfa47"
+    },
+    {
+      "assetPath": "TemplateData/favicon.ico",
+      "bytes": 21159,
+      "sha256": "2a18c46ace9ba42b17f24bc78d7f61c8a421f72f810265487b5d5c21184ecb68"
+    },
+    {
+      "assetPath": "TemplateData/pinpinutils.js",
+      "bytes": 2371,
+      "sha256": "db1c7f79c9bf1abad1ecacb69b6eb9fed36d898a3ebdc420c322c2eef3a90f0e"
+    },
+    {
+      "assetPath": "TemplateData/style.css",
+      "bytes": 2938,
+      "sha256": "eae6772c069a2bbd59481ca2fcd335eda9ba11f72e1d7eb689f3fce826d94814"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

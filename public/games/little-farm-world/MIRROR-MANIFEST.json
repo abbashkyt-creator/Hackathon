@@ -1,0 +1,70 @@
+{
+  "name": "little-farm-world",
+  "sourcePage": "https://poki.com/en/g/little-farm-world",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "9dda89728600d2f9045c8ae8f1940d7334ccd3fe655f485ad21d2b5e52ef5fc4",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "e1b6bff2d8a36e5a7e89689f7c80b756e32fb200babc6cb3c34fa49a3771086f",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "e39f0781d9ea07a234fc2d6dd775335a7c5eeff896a662be55b3d047508eff55",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "11cca0a4aa97f9b4b0a2573d964ba23eed1330191355d9ba795f94f1226cae22",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "8497762780f2b989bafa6ff0d1fdeb055eb8f223cecef1c45513deae140b76fe",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "9dda89728600d2f9045c8ae8f1940d7334ccd3fe655f485ad21d2b5e52ef5fc4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "e39f0781d9ea07a234fc2d6dd775335a7c5eeff896a662be55b3d047508eff55"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1231,
+      "sha256": "6af8297a0024d8447b3161022e9427cb1dd93fdd63ab24edd6dac34fd452b445"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "11cca0a4aa97f9b4b0a2573d964ba23eed1330191355d9ba795f94f1226cae22"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "8497762780f2b989bafa6ff0d1fdeb055eb8f223cecef1c45513deae140b76fe"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

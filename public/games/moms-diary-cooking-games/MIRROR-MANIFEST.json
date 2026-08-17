@@ -1,0 +1,100 @@
+{
+  "name": "moms-diary-cooking-games",
+  "sourcePage": "https://poki.com/en/g/moms-diary-cooking-games",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2611,
+      "sha256": "6e8bb32c1245aee5dfa8e749e683c9f4a617544ce052f03a029c8a4676105dbb",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 178,
+      "sha256": "8591fc36281677aed0cbab2c313a159ff565a22bc5601d56b48611b054285c60",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "3087281adc316eb320698f421dbe390ace70fed1f76b7982164fd9651a962088",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "f79bbcdbbaaa86e28dbfad6a8754f87ea83c7491d3932bd001893601b0ea4d51",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 383,
+      "sha256": "801f0cf89be20f6c101457a8a8a2cdae27e5e044595c7f26b9fbcde898a91054",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2611,
+      "sha256": "6e8bb32c1245aee5dfa8e749e683c9f4a617544ce052f03a029c8a4676105dbb"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "3087281adc316eb320698f421dbe390ace70fed1f76b7982164fd9651a962088"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 14,
+      "sha256": "3cf79ddf73b0b56ed07e2959604688a58d9682f0402b2bb0a366c89b720b0bf7"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 79,
+      "sha256": "4eb1cf0d9e42b51d11d86b6356e5f02c67474a3ab5aef010cb253acee370d9ab"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 4754,
+      "sha256": "f6c5eb2e541c8e7f5fe69918f0ee2af3b8c1d5728de52809c796d3da42c316e9"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "f79bbcdbbaaa86e28dbfad6a8754f87ea83c7491d3932bd001893601b0ea4d51"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 383,
+      "sha256": "801f0cf89be20f6c101457a8a8a2cdae27e5e044595c7f26b9fbcde898a91054"
+    },
+    {
+      "assetPath": "src/import-map.0dfcf.json",
+      "bytes": 46,
+      "sha256": "5590b961d07e52160768ca78a208901c8fea6e10f83ed1f240789980d968a1ff"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.5adbf.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/system.bundle.543e6.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.02f4a.css",
+      "bytes": 1222,
+      "sha256": "338fc9d734af60103e6d303333e28b413f477b295fd7dd233dc7022320c56e48"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
