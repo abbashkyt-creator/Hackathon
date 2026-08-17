@@ -1,0 +1,70 @@
+{
+  "name": "mech-bots-arena",
+  "sourcePage": "https://poki.com/en/g/mech-bots-arena",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "04fb1b64e91a4aab77a5bb4e0ab3cd882fc5b1682088ecc532b2ac5cd81a7347",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "289e588b8c7950c06363fa31c30a473c27f44261bf2ee7757808f19adae1bc25",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "34027021c0334d3d0374df83ff8946a25df46e15ec91ec635e132baaba5e3013",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "e5e1ffd3c5edc0a6c2feadad0630f724e43923c01e803a6aab8c930694d033e5",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "dbe35460ed64fae2a208e2bf7ccfb6f2911238b704a309161c85a07ed55ead4c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "04fb1b64e91a4aab77a5bb4e0ab3cd882fc5b1682088ecc532b2ac5cd81a7347"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "34027021c0334d3d0374df83ff8946a25df46e15ec91ec635e132baaba5e3013"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1228,
+      "sha256": "6e09d66b45cdb4552e932a43da93864cc613d5581d6a9a13981f583b99a73bc7"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "e5e1ffd3c5edc0a6c2feadad0630f724e43923c01e803a6aab8c930694d033e5"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "dbe35460ed64fae2a208e2bf7ccfb6f2911238b704a309161c85a07ed55ead4c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

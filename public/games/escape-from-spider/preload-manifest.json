@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/escape-from-spider/index.html",
+    "/games/escape-from-spider/js/poki-sdk-shim.js",
+    "/games/escape-from-spider/js/tiptap-platform-bridge.js",
+    "/games/escape-from-spider/playcanvas-stable.min.js",
+    "/games/escape-from-spider/files/assets/196475975/1/colyseus.js",
+    "/games/escape-from-spider/files/assets/210326667/1/Waypoints.js",
+    "/games/escape-from-spider/__settings__.js",
+    "/games/escape-from-spider/__modules__.js"
+  ]
+}

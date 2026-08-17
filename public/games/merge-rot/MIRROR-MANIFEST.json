@@ -1,0 +1,70 @@
+{
+  "name": "merge-rot",
+  "sourcePage": "https://poki.com/en/g/merge-rot",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 825,
+      "sha256": "1da85579f927103be01b015da0022236b67d4913dca3c3fa1d44171c8fdbed77",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "a238905208cc3948ebd19629c95d2c4423bd6eba28ffcb5484f74a6b05f13ac7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "b2e0c1845b93abf2702e115d9a6cf56b87d0f3edfddfe787ae0f315d66c430d4",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "c5871c32312fca9040da2299fda5df0eeb50d97f1795d655be55124ba6c94ae3",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "89e49ad3ca1b341ac51d8b1a2777387eb87030b3be5d0363dc7b481c4a358a30",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 825,
+      "sha256": "1da85579f927103be01b015da0022236b67d4913dca3c3fa1d44171c8fdbed77"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "b2e0c1845b93abf2702e115d9a6cf56b87d0f3edfddfe787ae0f315d66c430d4"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1199,
+      "sha256": "3b59ac91b942636eb96cf4cdd6d8fe9dae9ef9148515ce0fed686706596e8b31"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "c5871c32312fca9040da2299fda5df0eeb50d97f1795d655be55124ba6c94ae3"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "89e49ad3ca1b341ac51d8b1a2777387eb87030b3be5d0363dc7b481c4a358a30"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

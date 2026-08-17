@@ -499,6 +499,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "mystery-digger": { creatorId: "mystery-digger", creatorName: "Mystery Digger", creatorLabel: "BY MYSTERY DIGGER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "star-blogger-left-or-right": { creatorId: "star-blogger-left-or-right", creatorName: "Star Blogger: Left or Right", creatorLabel: "BY STAR BLOGGER: LEFT OR RIGHT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mech-bots-arena": { creatorId: "mech-bots-arena", creatorName: "Mech Bots Arena", creatorLabel: "BY MECH BOTS ARENA · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "merge-rot": { creatorId: "merge-rot", creatorName: "Merge Rot", creatorLabel: "BY MERGE ROT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

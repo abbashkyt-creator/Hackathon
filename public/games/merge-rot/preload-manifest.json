@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/merge-rot/index.html",
+    "/games/merge-rot/js/poki-sdk-shim.js",
+    "/games/merge-rot/js/tiptap-platform-bridge.js",
+    "/games/merge-rot/js/tiptap-inline-1.js"
+  ]
+}

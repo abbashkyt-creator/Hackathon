@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/one-line-draw/index.html",
+    "/games/one-line-draw/js/poki-sdk-shim.js",
+    "/games/one-line-draw/js/tiptap-platform-bridge.js",
+    "/games/one-line-draw/js/vendor/modernizr-2.6.2.min.js",
+    "/games/one-line-draw/js/vendor/jquery.min.js",
+    "/games/one-line-draw/js/vendor/detectmobilebrowser.js",
+    "/games/one-line-draw/js/vendor/createjs.min.js",
+    "/games/one-line-draw/js/vendor/TweenMax.min.js"
+  ]
+}

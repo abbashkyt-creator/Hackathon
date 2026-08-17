@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "merge-rot"
   | "mech-bots-arena"
   | "star-blogger-left-or-right"
   | "mystery-digger"
