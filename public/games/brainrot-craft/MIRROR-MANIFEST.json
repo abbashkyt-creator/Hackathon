@@ -1,0 +1,180 @@
+{
+  "name": "brainrot-craft",
+  "sourcePage": "https://poki.com/en/g/brainrot-craft",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1151,
+      "sha256": "c7451f6eb7b34739d484abf791c2e563de93e72c67bb56ace26328bce7407fd8",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "0e5b9038c171ccc6425c859e1821952cf7f9eb955e1e04cc65467d25c2cc02c8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "93c041cb9025940242458359414b59124844d8a46d62d208f52c7f4a90b13725",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "e07459155d8318249971270b8e2f9dd7efe29acc2d3375503e2c98e6a7978cf6",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 322,
+      "sha256": "50680d5bbf6e6a6510dfa22bfd5f33be236ba13f54bbe1c0c787dbb8560f75ed",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 225,
+      "sha256": "749cd24ff66b6135d118be62aaf50a7f4a89971d4459fc754835bf6c44dce97f"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 107638,
+      "sha256": "186561a818fbbda6ee9a881504cc8d7828a0470c796a3e72249b7033d808b602"
+    },
+    {
+      "assetPath": "fonts/Kaph-Regular.ttf",
+      "bytes": 569816,
+      "sha256": "8e868500fac8cdf3f4a33a27d506dfdb0a50f38e01e6d3e2f2c38a860b4fea22"
+    },
+    {
+      "assetPath": "Game.json",
+      "bytes": 3419,
+      "sha256": "ef4a1f3e658f257b8461c737106288c6f72cce4acd7c8b0c8f23255adc0d2037"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 99,
+      "sha256": "5bb01e8faf2dd167a1d82f80a6a04836ad61efe2352e3994a67561f37f5b399c"
+    },
+    {
+      "assetPath": "images/craft-sheet0.webp",
+      "bytes": 585592,
+      "sha256": "103c4a0c7c04ab8caee997746a7fc7eead3e18a172bd455d6e38eea7a048345b"
+    },
+    {
+      "assetPath": "images/craft-sheet1.webp",
+      "bytes": 442232,
+      "sha256": "c456b22b05fbb727de4b95cd5e45e5c4a26d7d31c937abde675dfa19163e5c7e"
+    },
+    {
+      "assetPath": "images/craft-sheet2.webp",
+      "bytes": 323818,
+      "sha256": "b53de80de7fc2d83955164c2d9aef857f3afd34493533ed804aff7f39da35553"
+    },
+    {
+      "assetPath": "images/scrollbrainrot-sheet0.webp",
+      "bytes": 44,
+      "sha256": "43b9ce6f96af0f6591683da0e73a362f194d22fb03608530f249f18b6f380868"
+    },
+    {
+      "assetPath": "images/scrollmaterial-sheet0.webp",
+      "bytes": 44,
+      "sha256": "d4858613cb2e30b5c09f36c41f4aa0f219bcc8f1da0638e8f88d1ca2ed312eab"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 18366,
+      "sha256": "a95aa0e862eae6a122fe7ca592736cf32c9702d38af7a5b53babe7c4094645ed"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 26106,
+      "sha256": "cee2918c943e5aed78b3ff4ef5cc97f1e3d29e339dba2f1b009009e8c57a47f8"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 4058,
+      "sha256": "49772b8d2e5a65ab32020564dcfe7cec6d90f1e500d4f096d1d4f323835a221f"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 1940,
+      "sha256": "8eba80f7095ff1e40e443880baf67afea352ca59854c63d88432c4e92195ae54"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 36,
+      "sha256": "51d7a4bf0295695ae6c700d59087245c88b0ee3c417764465e69a36a4599bf95"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1151,
+      "sha256": "c7451f6eb7b34739d484abf791c2e563de93e72c67bb56ace26328bce7407fd8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "93c041cb9025940242458359414b59124844d8a46d62d208f52c7f4a90b13725"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "e07459155d8318249971270b8e2f9dd7efe29acc2d3375503e2c98e6a7978cf6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 322,
+      "sha256": "50680d5bbf6e6a6510dfa22bfd5f33be236ba13f54bbe1c0c787dbb8560f75ed"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1328534,
+      "sha256": "9bbf79e3b0fcad959ab599a33b2d0beb3d1eb450cf15ec0e0134598229d5f898"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 123588,
+      "sha256": "3d37e8484f76e40344c41dcff1c80393afb79036f43735d7e603bb4acdda186b"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4745,
+      "sha256": "e9b6c3ad78eefce680d3dd8bba33eed7260800b345a2e8cf7462f448a4d0c46b"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 3423,
+      "sha256": "0519805a2936df760a28f7dd172599ffb23ff8cb5826661b3ced1c10538cef53"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

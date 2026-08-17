@@ -1,0 +1,115 @@
+{
+  "name": "circloo-xl",
+  "sourcePage": "https://poki.com/en/g/circloo-xl",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4119,
+      "sha256": "db81e1f25cae8c1579a3b482d8587cdce2181cd961ebc7a3184dba0a6aab8701",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "81528383aec9abacebf0d716f615ed00d99cb5506b8139695614eb529f01861e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "d4a7dfe310adc0d5f2a6532c9c9f14f8b681a3e1ea2a02b59d12296e68a0696d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "a8e4bde165c531ae864501292a475b62bad1ecf44e5e803f782d0b39997d2491",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "98e6d31e0e53d0991f8b3f743236648729e3b71b6f1b73a842be84cbaedf2603",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "html5game/circloo-xl-web.js",
+      "bytes": 1922170,
+      "sha256": "566d79c27926d2e0a7de225a45786233e928d0400c670bb4b6ed2703eb141b78"
+    },
+    {
+      "assetPath": "html5game/circloo-xl-web_texture_0.png",
+      "bytes": 1349,
+      "sha256": "8901ccbd435f184509d51433e0c261195d998c3de451d268443cc0e1d0f22c91"
+    },
+    {
+      "assetPath": "html5game/circloo-xl-web_texture_1.png",
+      "bytes": 52252,
+      "sha256": "929b2be5fa900cdc0d58505c0f36ccee65f6d6d8ae881121cd384a02ef32c78d"
+    },
+    {
+      "assetPath": "html5game/circloo-xl-web_texture_2.png",
+      "bytes": 62,
+      "sha256": "3e382ae5cecb663e497f22d7146b51053679c5f34e2b0bc4267c94630aaebd2d"
+    },
+    {
+      "assetPath": "html5game/sound/worklets/audio-worklet.js",
+      "bytes": 26645,
+      "sha256": "2781ae5cf6d2789761ea502ba6b01a8d22d573ad8858e1448147b7fac217c88b"
+    },
+    {
+      "assetPath": "html5game/tph_html5fixes3.js",
+      "bytes": 5919,
+      "sha256": "a5b0190f4b9f13ae7aaebb4b48aa60c2866ac2887613358b2b72c3f983ae127c"
+    },
+    {
+      "assetPath": "html5game/vph_poki.js",
+      "bytes": 5657,
+      "sha256": "89f5135ff89e9cb658a8e5389f800c3ada62f46c75c9c4b6c30a721d01e60f04"
+    },
+    {
+      "assetPath": "html5game/wph_web_dyn_textures.js",
+      "bytes": 4777,
+      "sha256": "ff85bac5983ccf604a990cefb84a34d0ff78c717b0014564042cd829b2662bf4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4119,
+      "sha256": "db81e1f25cae8c1579a3b482d8587cdce2181cd961ebc7a3184dba0a6aab8701"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "d4a7dfe310adc0d5f2a6532c9c9f14f8b681a3e1ea2a02b59d12296e68a0696d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 980,
+      "sha256": "0993c7138c3da29f8cd64aa1e72b2753adab13334fc1875ba12ca8731f9ed5d2"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1286,
+      "sha256": "b00d3333f90d1b337677df495e70902399b110307980610222564463f961045f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "a8e4bde165c531ae864501292a475b62bad1ecf44e5e803f782d0b39997d2491"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "98e6d31e0e53d0991f8b3f743236648729e3b71b6f1b73a842be84cbaedf2603"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

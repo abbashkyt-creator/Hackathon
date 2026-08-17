@@ -1,0 +1,105 @@
+{
+  "name": "bounce-ball",
+  "sourcePage": "https://poki.com/en/g/bounce-ball",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5119,
+      "sha256": "f44019dd488329e11e1af09c1a3899f285fc1d4dc6c0bae92a4b5f5470e46974",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "8019702d62f6ef3ad10d34a4c35fe670d09f9f91857e7342821f638c2e4bd2c8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "902d4082c3f6243868fd9822eb3e2a1eb93f15cb398b4feb7237cb5e0a21d050",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "7d869e439e22a9649b14083e01157b6f1869f4e9950420c97dff58ebc53240e7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "828c4b05c498f1672c895dfc393e3b493549195268be2683a15b0c704c5d1ebb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "BounceBall.wasm",
+      "bytes": 2622716,
+      "sha256": "66cdaf34490a7e23bb79e820bf07133fc984e1dc883ad5da47b777325deb306e"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47909,
+      "sha256": "2feaf943a7dd3772a48828e705f7797262f19c40205bf37ed63d0f5f6d9bc355"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 90897,
+      "sha256": "0f01fb484d6fc0260ebc8a71774233f4b05c22171ebfc8c8ab6e4ca5658db345"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5119,
+      "sha256": "f44019dd488329e11e1af09c1a3899f285fc1d4dc6c0bae92a4b5f5470e46974"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "902d4082c3f6243868fd9822eb3e2a1eb93f15cb398b4feb7237cb5e0a21d050"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 243,
+      "sha256": "9e0ae8a393ae96499432f94131143053a120ce2294e0beb148ba914cdc3d8c7b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1808,
+      "sha256": "d2d2e79e6d22df10c6ba15f11a34d8f42b18bd35327c9ef68e4cd3b9d1e05d89"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 43,
+      "sha256": "6ea3b885ab2e8312020c60d8ca781f999dba58c3b61fbcea2aa813401c867cc9"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "7d869e439e22a9649b14083e01157b6f1869f4e9950420c97dff58ebc53240e7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "828c4b05c498f1672c895dfc393e3b493549195268be2683a15b0c704c5d1ebb"
+    },
+    {
+      "assetPath": "scripts/utils.js",
+      "bytes": 1793,
+      "sha256": "3f8a85391b8c4ca13b4d16dfb4e9025db9bd941efba689933f1d4ca36fded157"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
