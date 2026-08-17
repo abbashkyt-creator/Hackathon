@@ -447,6 +447,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "swole-simulator": { embedded: true, preloadManifest: "/games/swole-simulator/preload-manifest.json", assetManifest: "/games/swole-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "cook-house": { embedded: true, preloadManifest: "/games/cook-house/preload-manifest.json", assetManifest: "/games/cook-house/MIRROR-MANIFEST.json", prepareByMount: true },
   "chess-multiplayer": { embedded: true, preloadManifest: "/games/chess-multiplayer/preload-manifest.json", assetManifest: "/games/chess-multiplayer/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cashchubbies-islands": { embedded: true, preloadManifest: "/games/cashchubbies-islands/preload-manifest.json", assetManifest: "/games/cashchubbies-islands/MIRROR-MANIFEST.json", prepareByMount: true },
+  "j-j-jump": { embedded: true, preloadManifest: "/games/j-j-jump/preload-manifest.json", assetManifest: "/games/j-j-jump/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

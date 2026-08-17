@@ -489,6 +489,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "swole-simulator": { creatorId: "swole-simulator", creatorName: "Swole Simulator", creatorLabel: "BY SWOLE SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cook-house": { creatorId: "cook-house", creatorName: "Cook House", creatorLabel: "BY COOK HOUSE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "chess-multiplayer": { creatorId: "chess-multiplayer", creatorName: "Chess Multiplayer", creatorLabel: "BY CHESS MULTIPLAYER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cashchubbies-islands": { creatorId: "cashchubbies-islands", creatorName: "Cashchubbies Islands", creatorLabel: "BY CASHCHUBBIES ISLANDS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "j-j-jump": { creatorId: "j-j-jump", creatorName: "J-J-Jump", creatorLabel: "BY J-J-JUMP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

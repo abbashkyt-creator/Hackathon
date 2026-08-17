@@ -1,0 +1,120 @@
+{
+  "name": "cashchubbies-islands",
+  "sourcePage": "https://poki.com/en/g/cashchubbies-islands",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5771,
+      "sha256": "8f4e12fc34d56b6de4015216bbbcd84033c7a352f96abfb4d88be4a24977e9d8",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "67cddcf88ed6ea81956fd85ed749fa2b318409d3d61ae80364657b4e95383e17",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "7b6f62c08e26926e83b6d250f6bec06400635e4e5bdabde50718e9d43c796af0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "f524111cd08ce8f68006a32bb94c9cbb2428aa7ea85b1152a8f5f9ef8932d075",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "0ab35ccd1671259ed03966849f0350467a21c5898939bdd97c70db0fec22ed30",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "3d_image_no_depth_min.js",
+      "bytes": 5201,
+      "sha256": "cd15bda4c8f5876c36cccd227938cfe0cf6cf8062501113cf1fbc5acf81b47e6"
+    },
+    {
+      "assetPath": "CashchubbiesIsland.wasm",
+      "bytes": 2371226,
+      "sha256": "cf275e37b1be4e62547f1d8f19abde9ebeaf67b4eed77f7e2565cd5e9996c1a3"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 46002,
+      "sha256": "4c3ddfff6d26bd5cfafd0e540a402bc28c3806e2adfb0ec6282023f2de4cb83a"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 89859,
+      "sha256": "8834347114c8f351b55dde1600a46b84f78e4310bca259c4b8ee38c3cd23a998"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5771,
+      "sha256": "8f4e12fc34d56b6de4015216bbbcd84033c7a352f96abfb4d88be4a24977e9d8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "7b6f62c08e26926e83b6d250f6bec06400635e4e5bdabde50718e9d43c796af0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 71,
+      "sha256": "ebf0e93b2cda5108963dda3a5608ef092778d204d6b3a58c07967234bd809c52"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 7512,
+      "sha256": "533211960f5a934b0eb5cae53093f2b5e539aab4580dc3cd6c016256879fb493"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 1154,
+      "sha256": "e8f8e3b874beb513bd57c3638e156c673580a78fcb80483844efd301bd03efce"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "f524111cd08ce8f68006a32bb94c9cbb2428aa7ea85b1152a8f5f9ef8932d075"
+    },
+    {
+      "assetPath": "loading.jpg",
+      "bytes": 157200,
+      "sha256": "9d64a1143db942c55a01652b304c1fdef978c11dafcc8a5713dcc2ff21b7e346"
+    },
+    {
+      "assetPath": "load_bar_bg.png",
+      "bytes": 481,
+      "sha256": "da5ae5b26299e4069dc4d825549ef001351f6c781556c2f1793443125fd7334f"
+    },
+    {
+      "assetPath": "load_bar_fg.png",
+      "bytes": 494,
+      "sha256": "3695c1d7ac759b0c6a57c1100c3806f4b40affd9f68203afc66ea2c421b84bfa"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "0ab35ccd1671259ed03966849f0350467a21c5898939bdd97c70db0fec22ed30"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

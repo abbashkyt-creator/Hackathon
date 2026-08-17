@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/cashchubbies-islands/index.html",
+    "/games/cashchubbies-islands/js/poki-sdk-shim.js",
+    "/games/cashchubbies-islands/js/tiptap-platform-bridge.js",
+    "/games/cashchubbies-islands/js/tiptap-inline-1.js",
+    "/games/cashchubbies-islands/js/tiptap-inline-2.js",
+    "/games/cashchubbies-islands/js/tiptap-inline-3.js"
+  ]
+}

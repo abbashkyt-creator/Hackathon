@@ -31,6 +31,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "j-j-jump": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "cashchubbies-islands": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "chess-multiplayer": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "cook-house": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "swole-simulator": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
