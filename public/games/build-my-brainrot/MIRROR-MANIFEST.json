@@ -1,0 +1,105 @@
+{
+  "name": "build-my-brainrot",
+  "sourcePage": "https://poki.com/en/g/build-my-brainrot",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 702,
+      "sha256": "4de44c9299c761068da87d45bfc2e95910ca47fcce875ce5ca3b02a3428b494c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "26fafe9a6da4b31fc342fc198b467327c48c5c5548f0b27a4f0ebe6a21a95ffe",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "e4595cd6a3d2d839ea49281c4bbd9d4b0c9c066e1e82ece88f70181648f39d5c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "161806fb5bbc78ce1d6dc9f99388b21440bd1b60a3f38d4015d74433f906ef57",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 423,
+      "sha256": "329c94e4da2d2243851bca45d6a37a083a6e8e944c8533537954786aa5965b32",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2252117.json",
+      "bytes": 385312,
+      "sha256": "39cf115a13f96fa00e2ef286c79c3dbfe98fe1f3acd0d4e8db5b4ca788909054"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 702,
+      "sha256": "4de44c9299c761068da87d45bfc2e95910ca47fcce875ce5ca3b02a3428b494c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "e4595cd6a3d2d839ea49281c4bbd9d4b0c9c066e1e82ece88f70181648f39d5c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "161806fb5bbc78ce1d6dc9f99388b21440bd1b60a3f38d4015d74433f906ef57"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 361,
+      "sha256": "64e1add2a3558265fcd7eb300d3c7efcc7772fb40e7847d496bef8b1a17ca4cb"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2311091,
+      "sha256": "ab941edb56f269537eff73298d2b03cdca3a2b12aff8ea2c28f1baa68db799bc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 423,
+      "sha256": "329c94e4da2d2243851bca45d6a37a083a6e8e944c8533537954786aa5965b32"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 919892,
+      "sha256": "70bf03d1d02ebb0d1c0ad42d129300f688de180e6f0fb3b558a9c138782f838a"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 1396,
+      "sha256": "2785289a009bb53061a9e9a3dd0954a90c4921d627ad09b58d5a6acee90b3c86"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

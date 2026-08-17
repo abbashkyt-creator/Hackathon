@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/critters-quest/index.html",
+    "/games/critters-quest/js/poki-sdk-shim.js",
+    "/games/critters-quest/js/tiptap-platform-bridge.js",
+    "/games/critters-quest/js/tiptap-inline-1.js"
+  ]
+}

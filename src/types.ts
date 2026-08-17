@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "the-real-juggle"
+  | "critters-quest"
   | "brainrot-merge"
   | "merge-monster-battles"
   | "stupidella-horror-2"

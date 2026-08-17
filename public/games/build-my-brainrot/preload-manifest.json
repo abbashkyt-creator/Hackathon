@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/build-my-brainrot/index.html",
+    "/games/build-my-brainrot/js/poki-sdk-shim.js",
+    "/games/build-my-brainrot/js/tiptap-platform-bridge.js",
+    "/games/build-my-brainrot/playcanvas-stable.min.js",
+    "/games/build-my-brainrot/__settings__.js",
+    "/games/build-my-brainrot/__modules__.js",
+    "/games/build-my-brainrot/__start__.js",
+    "/games/build-my-brainrot/__loading__.js"
+  ]
+}

@@ -377,6 +377,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "stupidella-horror-2": { embedded: true, preloadManifest: "/games/stupidella-horror-2/preload-manifest.json", assetManifest: "/games/stupidella-horror-2/MIRROR-MANIFEST.json", prepareByMount: true },
   "merge-monster-battles": { embedded: true, preloadManifest: "/games/merge-monster-battles/preload-manifest.json", assetManifest: "/games/merge-monster-battles/MIRROR-MANIFEST.json", prepareByMount: true },
   "brainrot-merge": { embedded: true, preloadManifest: "/games/brainrot-merge/preload-manifest.json", assetManifest: "/games/brainrot-merge/MIRROR-MANIFEST.json", prepareByMount: true },
+  "critters-quest": { embedded: true, preloadManifest: "/games/critters-quest/preload-manifest.json", assetManifest: "/games/critters-quest/MIRROR-MANIFEST.json", prepareByMount: true },
+  "the-real-juggle": { embedded: true, preloadManifest: "/games/the-real-juggle/preload-manifest.json", assetManifest: "/games/the-real-juggle/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

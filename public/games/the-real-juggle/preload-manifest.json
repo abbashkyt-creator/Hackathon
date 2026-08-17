@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/the-real-juggle/index.html",
+    "/games/the-real-juggle/js/poki-sdk-shim.js",
+    "/games/the-real-juggle/js/tiptap-platform-bridge.js",
+    "/games/the-real-juggle/js/tiptap-inline-1.js"
+  ]
+}

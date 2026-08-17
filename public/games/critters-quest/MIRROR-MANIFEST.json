@@ -1,0 +1,70 @@
+{
+  "name": "critters-quest",
+  "sourcePage": "https://poki.com/en/g/critters-quest",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "48de24ff8418d014b33bb2a1d8dea2b477c7941efdba84a870b41b98e455047f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "1a7633c4f92d70af95d9f03262a2df986f0f424f1f0f42e4628dccef6e6419d1",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "0eef1afa7842b950de72add2e32069f475f24521fe57c97e7e6953fc443a2b19",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "62ae811a9b89a300586b267d28c18e78ba9e2dddce042bd007badeb4c79ae61e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "9e56cb84adfc58312cb5fb307fe25ed1936fd667a46f5d9a3906f8c8e16013b9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "48de24ff8418d014b33bb2a1d8dea2b477c7941efdba84a870b41b98e455047f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "0eef1afa7842b950de72add2e32069f475f24521fe57c97e7e6953fc443a2b19"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1212,
+      "sha256": "3a0abd579570e3d61ea81ebd554dbd3e43cf9aafa10da5cfeb936b524dd9a3c5"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "62ae811a9b89a300586b267d28c18e78ba9e2dddce042bd007badeb4c79ae61e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "9e56cb84adfc58312cb5fb307fe25ed1936fd667a46f5d9a3906f8c8e16013b9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

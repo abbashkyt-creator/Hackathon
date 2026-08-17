@@ -419,6 +419,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "stupidella-horror-2": { creatorId: "stupidella-horror-2", creatorName: "Stupidella Horror 2", creatorLabel: "BY STUPIDELLA HORROR 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
   "merge-monster-battles": { creatorId: "merge-monster-battles", creatorName: "Merge Monster Battles", creatorLabel: "BY MERGE MONSTER BATTLES · LOCAL SOURCE MIRROR", category: "Arcade" },
   "brainrot-merge": { creatorId: "brainrot-merge", creatorName: "Brainrot Merge", creatorLabel: "BY BRAINROT MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "critters-quest": { creatorId: "critters-quest", creatorName: "Critters Quest", creatorLabel: "BY CRITTERS QUEST · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "the-real-juggle": { creatorId: "the-real-juggle", creatorName: "The Real Juggle", creatorLabel: "BY THE REAL JUGGLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
