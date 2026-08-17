@@ -3,10 +3,6 @@
     "/games/porki-poke/index.html",
     "/games/porki-poke/js/poki-sdk-shim.js",
     "/games/porki-poke/js/tiptap-platform-bridge.js",
-    "/games/porki-poke/scripts/modernjscheck.js",
-    "/games/porki-poke/scripts/supportcheck.js",
-    "/games/porki-poke/scripts/offlineclient.js",
-    "/games/porki-poke/scripts/main.js",
-    "/games/porki-poke/scripts/register-sw.js"
+    "/games/porki-poke/js/tiptap-inline-1.js"
   ]
 }

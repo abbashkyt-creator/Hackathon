@@ -421,6 +421,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "brainrot-merge": { creatorId: "brainrot-merge", creatorName: "Brainrot Merge", creatorLabel: "BY BRAINROT MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "critters-quest": { creatorId: "critters-quest", creatorName: "Critters Quest", creatorLabel: "BY CRITTERS QUEST · LOCAL SOURCE MIRROR", category: "Arcade" },
   "the-real-juggle": { creatorId: "the-real-juggle", creatorName: "The Real Juggle", creatorLabel: "BY THE REAL JUGGLE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "evolution-game": { creatorId: "evolution-game", creatorName: "Evolution Game", creatorLabel: "BY EVOLUTION GAME · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "porki-poke": { creatorId: "porki-poke", creatorName: "Porki Poke", creatorLabel: "BY PORKI POKE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

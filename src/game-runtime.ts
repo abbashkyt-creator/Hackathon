@@ -379,6 +379,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "brainrot-merge": { embedded: true, preloadManifest: "/games/brainrot-merge/preload-manifest.json", assetManifest: "/games/brainrot-merge/MIRROR-MANIFEST.json", prepareByMount: true },
   "critters-quest": { embedded: true, preloadManifest: "/games/critters-quest/preload-manifest.json", assetManifest: "/games/critters-quest/MIRROR-MANIFEST.json", prepareByMount: true },
   "the-real-juggle": { embedded: true, preloadManifest: "/games/the-real-juggle/preload-manifest.json", assetManifest: "/games/the-real-juggle/MIRROR-MANIFEST.json", prepareByMount: true },
+  "evolution-game": { embedded: true, preloadManifest: "/games/evolution-game/preload-manifest.json", assetManifest: "/games/evolution-game/MIRROR-MANIFEST.json", prepareByMount: true },
+  "porki-poke": { embedded: true, preloadManifest: "/games/porki-poke/preload-manifest.json", assetManifest: "/games/porki-poke/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
