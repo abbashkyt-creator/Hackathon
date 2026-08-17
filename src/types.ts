@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "heroes-league"
   | "doodle-race"
   | "pets-park"
   | "need-for-madness"

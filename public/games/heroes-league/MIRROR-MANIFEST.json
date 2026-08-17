@@ -1,0 +1,105 @@
+{
+  "name": "heroes-league",
+  "sourcePage": "https://poki.com/en/g/heroes-league",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5339,
+      "sha256": "28a43763e46d691ef7fa34a934dcea8d4a5a95df3e8e38ed214f04281ef8cb1e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "2fd69b7ea4a45680a66f7ea881c770162922a3966f2d60c9f39c0715ba1a92d6",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "74806f1a8169da11a918e5512f3c1dff145749f1a8cec9b3f568fe90a420ac14",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "d347a972f6a3079e343d79cf0b588586e32bfbb5c803a150f5b0da1aecda6857",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 317,
+      "sha256": "53a8aed49be0a0c9fc32f6aabddf46627ec795e60e503ecbafc46cbd38a686b6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47586,
+      "sha256": "5a0b0aa0a36e393d7f3ebd391e7de289c84ff1cfe762479a5e076a3a5a889037"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 89859,
+      "sha256": "8834347114c8f351b55dde1600a46b84f78e4310bca259c4b8ee38c3cd23a998"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5339,
+      "sha256": "28a43763e46d691ef7fa34a934dcea8d4a5a95df3e8e38ed214f04281ef8cb1e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "74806f1a8169da11a918e5512f3c1dff145749f1a8cec9b3f568fe90a420ac14"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 5202,
+      "sha256": "cd92b47f0290c9e0a9c6fd03ef4e2a8328401b07cc0692474eb1a981e9cf0c85"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 77,
+      "sha256": "b96439ff725109ecb7c06964b605cd3a121a62d45f008872d016a244c6e527dd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "d347a972f6a3079e343d79cf0b588586e32bfbb5c803a150f5b0da1aecda6857"
+    },
+    {
+      "assetPath": "load_bar_bg.png",
+      "bytes": 853,
+      "sha256": "97d3693bbebd0eef90af9d484f0279d676d7cc66aee4a10e09531a11062b709a"
+    },
+    {
+      "assetPath": "load_bar_fg.png",
+      "bytes": 464,
+      "sha256": "76b3b1894e164ed0be6b712b8f44b1f88552da689a3581b95840defd9cfabf14"
+    },
+    {
+      "assetPath": "plus_one.wasm",
+      "bytes": 2362528,
+      "sha256": "233cc16936ef682fd6d7222b3e63aafec261f92d0adbc5e4d9c2f165ea8fd26f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 317,
+      "sha256": "53a8aed49be0a0c9fc32f6aabddf46627ec795e60e503ecbafc46cbd38a686b6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
