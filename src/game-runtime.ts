@@ -374,6 +374,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "pocket-car-city": { embedded: true, preloadManifest: "/games/pocket-car-city/preload-manifest.json", assetManifest: "/games/pocket-car-city/MIRROR-MANIFEST.json", prepareByMount: true },
   "the-third-piglets-tower": { embedded: true, preloadManifest: "/games/the-third-piglets-tower/preload-manifest.json", assetManifest: "/games/the-third-piglets-tower/MIRROR-MANIFEST.json", prepareByMount: true },
   "capitalist-bus-driver": { embedded: true, preloadManifest: "/games/capitalist-bus-driver/preload-manifest.json", assetManifest: "/games/capitalist-bus-driver/MIRROR-MANIFEST.json", prepareByMount: true },
+  "stupidella-horror-2": { embedded: true, preloadManifest: "/games/stupidella-horror-2/preload-manifest.json", assetManifest: "/games/stupidella-horror-2/MIRROR-MANIFEST.json", prepareByMount: true },
+  "merge-monster-battles": { embedded: true, preloadManifest: "/games/merge-monster-battles/preload-manifest.json", assetManifest: "/games/merge-monster-battles/MIRROR-MANIFEST.json", prepareByMount: true },
+  "brainrot-merge": { embedded: true, preloadManifest: "/games/brainrot-merge/preload-manifest.json", assetManifest: "/games/brainrot-merge/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -1,0 +1,90 @@
+{
+  "name": "stupidella-horror-2",
+  "sourcePage": "https://poki.com/en/g/stupidella-horror-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2006,
+      "sha256": "9f2543b6ed74cbd248904e474984c71e391be87d6fbe340314501610eed7ecb7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "b09dea9d6788887e1255cf48ea3e3f1d3a1a887b57c2bad4b6e1a3ca26ed87d8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "e8ab80de15e8ad3ec40192b849e0fd613566a58e04d35c03cfba2beaae85b85f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "5431d00ebe25d8b6feb096ecc89f09927cc1369e6d159347ae0028862de48d59",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "ada5f728635be4859065a45532ea4ca7abd8eb8042ef58febcaea98818ae0c84",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2006,
+      "sha256": "9f2543b6ed74cbd248904e474984c71e391be87d6fbe340314501610eed7ecb7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "e8ab80de15e8ad3ec40192b849e0fd613566a58e04d35c03cfba2beaae85b85f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "5431d00ebe25d8b6feb096ecc89f09927cc1369e6d159347ae0028862de48d59"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "ada5f728635be4859065a45532ea4ca7abd8eb8042ef58febcaea98818ae0c84"
+    },
+    {
+      "assetPath": "preloader_stuh2_var222.jpg",
+      "bytes": 133235,
+      "sha256": "a9158615ac551777879141ac4be78c8fe6f1dc0ec287be8bbdc88bed8d92b5e3"
+    },
+    {
+      "assetPath": "ruffle_2023_12_16/2cf3560fd6159678eefc.wasm",
+      "bytes": 13894144,
+      "sha256": "c61d0887bd0866dcb6f3077a562585ca5149184b411c67a6098508a47f873675"
+    },
+    {
+      "assetPath": "ruffle_2023_12_16/7d8ce55eac07b090e911.wasm",
+      "bytes": 13641976,
+      "sha256": "7ab5acd5e67fb640f1dbca1eb0c3b50a899bcb1c5c9dd006b29c8faaa754c7d8"
+    },
+    {
+      "assetPath": "ruffle_2023_12_16/ruffle.js",
+      "bytes": 388497,
+      "sha256": "7e4c97d646a4343ae8cc0d0a95a9ea732324738999932776abf3c147b2f82967"
+    },
+    {
+      "assetPath": "StuH2_webgl.js",
+      "bytes": 7565,
+      "sha256": "3d103be30bfd15467b7f19b2309ab57ee4d4db9da639d7ec62323e28f2bec9f9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

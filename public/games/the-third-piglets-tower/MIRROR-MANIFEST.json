@@ -1,0 +1,120 @@
+{
+  "name": "the-third-piglets-tower",
+  "sourcePage": "https://poki.com/en/g/the-third-piglets-tower",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 890,
+      "sha256": "6f53da8f4ff96b1be6f714c33a058b40c3d5ba25967fabb047ebbf94da9ceb59",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 177,
+      "sha256": "93aaea5406a34bbb43066731ff91906a171729bfa4b156f42dc034b8cbd6ca1c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 936,
+      "sha256": "af7458684d7b39bd32c13da721373374ad0b49887c1e32990d168df43bbd19da",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 864,
+      "sha256": "1a2e39f18b6c49b77d674d6c1471b57092850f80fb3a9ac03801de992512f281",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "07ba2840dd56fa36b2c4ebbb673daffb6635d5745d2ea1fe5eba25ab65748f26",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/preloader/AIA_logo.png",
+      "bytes": 48794,
+      "sha256": "fe291b474c2bfcb437387ee4767cf7037368f82d5e56b81478c17960b723858b"
+    },
+    {
+      "assetPath": "assets/preloader/gauge_init.png",
+      "bytes": 81,
+      "sha256": "509aad6e981459048ce77fc5138cdb59c519053019db4bd86640ba39d5dc63cd"
+    },
+    {
+      "assetPath": "assets/preloader/logo_init.png",
+      "bytes": 3854,
+      "sha256": "75d2e55198b4b3615c3b237842448026c264d860b6923bee6e33864765b52cca"
+    },
+    {
+      "assetPath": "assets/preloader/logo_titleScreen.png",
+      "bytes": 7245,
+      "sha256": "1c4fb2eeee2a4c6f7b24320fd235fde256842e8551719ca0047d04af0adf97b7"
+    },
+    {
+      "assetPath": "assets/preloader/logo_Ukraine.png",
+      "bytes": 2615,
+      "sha256": "1cfab698b7bde75fb9e2a48fd6119e7d8c4647420961e18518a1480b733995ad"
+    },
+    {
+      "assetPath": "assets/preloader/redBGD_init.png",
+      "bytes": 91,
+      "sha256": "05c49ed0670b278de550c97a720a90827a6cc2c1558cf842e4413c2624d56dff"
+    },
+    {
+      "assetPath": "assets/preloader/titleScreen.png",
+      "bytes": 70031,
+      "sha256": "d000a050f9fdfbda46b2084b1fba369fd7927540aa1c7e971a5f81c05b5229b4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 890,
+      "sha256": "6f53da8f4ff96b1be6f714c33a058b40c3d5ba25967fabb047ebbf94da9ceb59"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 936,
+      "sha256": "af7458684d7b39bd32c13da721373374ad0b49887c1e32990d168df43bbd19da"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 864,
+      "sha256": "1a2e39f18b6c49b77d674d6c1471b57092850f80fb3a9ac03801de992512f281"
+    },
+    {
+      "assetPath": "lz-string.min.js",
+      "bytes": 4814,
+      "sha256": "95f4d1cbf099f57161b664bc048426ec3df92637801a4c79116e83315aa787e7"
+    },
+    {
+      "assetPath": "main-compiled.js",
+      "bytes": 1882398,
+      "sha256": "d16f3b0cf5e33e6adbd903e75160e47dd43793a486a7f2f999908f79b6920fa2"
+    },
+    {
+      "assetPath": "pako.min.js",
+      "bytes": 46861,
+      "sha256": "c0ca8a09d52a28b918fcbe6e3ca6c9e75668a8628992e7ac9387484209844c56"
+    },
+    {
+      "assetPath": "phaser.min.js",
+      "bytes": 1193491,
+      "sha256": "397fc65bb751b2549b59c64647edf70300d604b742cd6be03d8298b8f35ca9d6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "07ba2840dd56fa36b2c4ebbb673daffb6635d5745d2ea1fe5eba25ab65748f26"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

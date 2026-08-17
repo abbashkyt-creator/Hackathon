@@ -416,6 +416,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "pocket-car-city": { creatorId: "pocket-car-city", creatorName: "Pocket Car City!", creatorLabel: "BY POCKET CAR CITY! · LOCAL SOURCE MIRROR", category: "Arcade" },
   "the-third-piglets-tower": { creatorId: "the-third-piglet-s-tower", creatorName: "The Third Piglet's Tower", creatorLabel: "BY THE THIRD PIGLET'S TOWER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "capitalist-bus-driver": { creatorId: "capitalist-bus-driver", creatorName: "Capitalist Bus Driver", creatorLabel: "BY CAPITALIST BUS DRIVER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "stupidella-horror-2": { creatorId: "stupidella-horror-2", creatorName: "Stupidella Horror 2", creatorLabel: "BY STUPIDELLA HORROR 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "merge-monster-battles": { creatorId: "merge-monster-battles", creatorName: "Merge Monster Battles", creatorLabel: "BY MERGE MONSTER BATTLES · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "brainrot-merge": { creatorId: "brainrot-merge", creatorName: "Brainrot Merge", creatorLabel: "BY BRAINROT MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

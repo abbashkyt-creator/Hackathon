@@ -1,0 +1,70 @@
+{
+  "name": "capitalist-bus-driver",
+  "sourcePage": "https://poki.com/en/g/capitalist-bus-driver",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "40b558e2f842a514835fce58146a9863e54ebdd878fb7daa99c0096bc572a6c0",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "b2420baf2cc3116cdf9b2323608886deb6104a0541e1f42c22271bed9229fe87",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "23f38898643cc99db932913eff36beb55d27225a7808a9c2886c99ad0f579d64",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "765a78fdeb68991f9e52e0d503e79a7ebd4a1f9dcadda81b23e8ac25a24d6135",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "80f8819e379eb657e8c70c32c39dec6bff38d9a59e295b125bbf7b6cb90098f4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "40b558e2f842a514835fce58146a9863e54ebdd878fb7daa99c0096bc572a6c0"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "23f38898643cc99db932913eff36beb55d27225a7808a9c2886c99ad0f579d64"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1235,
+      "sha256": "e9c4f2564d816d5a7a3214cc1e83ad9ace48a149b9a6efa1914eb3067c246f7c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "765a78fdeb68991f9e52e0d503e79a7ebd4a1f9dcadda81b23e8ac25a24d6135"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "80f8819e379eb657e8c70c32c39dec6bff38d9a59e295b125bbf7b6cb90098f4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

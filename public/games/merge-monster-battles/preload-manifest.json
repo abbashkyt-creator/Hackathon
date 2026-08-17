@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/merge-monster-battles/index.html",
+    "/games/merge-monster-battles/js/poki-sdk-shim.js",
+    "/games/merge-monster-battles/js/tiptap-platform-bridge.js",
+    "/games/merge-monster-battles/js/tiptap-inline-1.js"
+  ]
+}

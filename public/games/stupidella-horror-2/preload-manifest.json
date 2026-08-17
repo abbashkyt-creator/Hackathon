@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/stupidella-horror-2/index.html",
+    "/games/stupidella-horror-2/js/poki-sdk-shim.js",
+    "/games/stupidella-horror-2/js/tiptap-platform-bridge.js"
+  ]
+}

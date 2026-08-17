@@ -1,0 +1,70 @@
+{
+  "name": "pocket-car-city",
+  "sourcePage": "https://poki.com/en/g/pocket-car-city",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "0b69efe325c6516cddcea12c07d8a8f32c2466061b1cddf1108c0ab135b9746b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "433a597113430252c403ec3f8ef4e44a095d4e540389715cbf78a102c87cc065",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "66c2244d94c8e89f3c7f89795638b7fd891adc5d7de77884f5278f74204e820c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "f4a9b83cb7ef3367f26a3d331e2eb79ccf9e80c514a1bf8c9afe78deafa7c337",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "29f68fecba6894a25f19278643d31f0074c472750c8b1b8212959667d772f3eb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "0b69efe325c6516cddcea12c07d8a8f32c2466061b1cddf1108c0ab135b9746b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "66c2244d94c8e89f3c7f89795638b7fd891adc5d7de77884f5278f74204e820c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1347,
+      "sha256": "fa383c6cd66939b199a1b1a6c3c391cd8292387fdfbbbbbdf3d8e57203cef02f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "f4a9b83cb7ef3367f26a3d331e2eb79ccf9e80c514a1bf8c9afe78deafa7c337"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "29f68fecba6894a25f19278643d31f0074c472750c8b1b8212959667d772f3eb"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
