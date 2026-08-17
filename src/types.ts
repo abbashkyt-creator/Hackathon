@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "tuning-car-racing"
   | "alien-raid-monster-evolution"
   | "free-skate"
   | "magic-battleground"

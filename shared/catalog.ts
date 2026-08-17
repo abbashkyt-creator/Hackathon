@@ -337,6 +337,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "magic-battleground": { creatorId: "magic-battleground", creatorName: "Magic Battleground", creatorLabel: "BY MAGIC BATTLEGROUND · LOCAL SOURCE MIRROR", category: "Arcade" },
   "free-skate": { creatorId: "free-skate", creatorName: "Free Skate", creatorLabel: "BY FREE SKATE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "alien-raid-monster-evolution": { creatorId: "alien-raid-monster-evolution", creatorName: "Alien Raid Monster Evolution", creatorLabel: "BY ALIEN RAID MONSTER EVOLUTION · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "tuning-car-racing": { creatorId: "tuning-car-racing", creatorName: "Tuning Car Racing", creatorLabel: "BY TUNING CAR RACING · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

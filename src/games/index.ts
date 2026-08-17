@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { TuningCarRacingGame } from "./TuningCarRacingGame";
 export { AlienRaidMonsterEvolutionGame } from "./AlienRaidMonsterEvolutionGame";
 export { FreeSkateGame } from "./FreeSkateGame";
 export { MagicBattlegroundGame } from "./MagicBattlegroundGame";

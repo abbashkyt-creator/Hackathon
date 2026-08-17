@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/tuning-car-racing/index.html",
+    "/games/tuning-car-racing/js/poki-sdk-shim.js",
+    "/games/tuning-car-racing/js/tiptap-platform-bridge.js",
+    "/games/tuning-car-racing/js/tiptap-inline-1.js"
+  ]
+}

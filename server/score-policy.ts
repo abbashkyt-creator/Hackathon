@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "tuning-car-racing": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "alien-raid-monster-evolution": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "free-skate": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "magic-battleground": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

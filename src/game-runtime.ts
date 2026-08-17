@@ -295,6 +295,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "magic-battleground": { embedded: true, preloadManifest: "/games/magic-battleground/preload-manifest.json", assetManifest: "/games/magic-battleground/MIRROR-MANIFEST.json", prepareByMount: true },
   "free-skate": { embedded: true, preloadManifest: "/games/free-skate/preload-manifest.json", assetManifest: "/games/free-skate/MIRROR-MANIFEST.json", prepareByMount: true },
   "alien-raid-monster-evolution": { embedded: true, preloadManifest: "/games/alien-raid-monster-evolution/preload-manifest.json", assetManifest: "/games/alien-raid-monster-evolution/MIRROR-MANIFEST.json", prepareByMount: true },
+  "tuning-car-racing": { embedded: true, preloadManifest: "/games/tuning-car-racing/preload-manifest.json", assetManifest: "/games/tuning-car-racing/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
