@@ -1,0 +1,545 @@
+{
+  "name": "stickman-maze-run",
+  "sourcePage": "https://poki.com/en/g/stickman-maze-run",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1880,
+      "sha256": "b5ec3451cc36f7ff4046d342706a1e09c8dbaaa305f890b924d5c5df733a06b2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "5bd5d925e82bd83e17ec44b19e55329ec6673ce72537384a7971b8d796a203e0",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "ddc579e53855b86f46515982026aca8085fd7179e402ecabf525b6de1fd7863e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "cef928881c1c48625d5a3fdb0fde1642aad695da0eb8f379fedf31191cac2d30",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "0b09b0c2f800161377d8b6ab48319ea55e571ee8af15b0b8077390dd0cd1aea9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 747,
+      "sha256": "2476b6997615a6e123414470b5fa36a305bd33105cdc41b101d3ff2a5118e011"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 9160844,
+      "sha256": "0dd573a02481f06fcbf824696ea064df1f4ce7d34e965cdcda854fa0698ca66a"
+    },
+    {
+      "assetPath": "fonts/Jersey25-Regular.ttf",
+      "bytes": 141388,
+      "sha256": "95af77ec28678963817afbeb761c643391d634f5979678baef99c0e7dc8d92e0"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 4716,
+      "sha256": "8952c0f72c28165a78ac301afcf51c84a1abd859b265b79b9cf0b705052fd1df"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 789,
+      "sha256": "7c950fcbf94d049987b4e403fa5dc538a00c40aefb4c9e418073cd4c6ff0898f"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 10802,
+      "sha256": "9f0060e61128f2d4982869a79bc239b4ab989d67d49153e26bfa2fadb59bc08f"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 1520,
+      "sha256": "dc71f23f4a2237f01eb44c73df260bad2a3618f9eb06d1c2e61688762fff1618"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 30820,
+      "sha256": "6103de3ca3e9ebcc9979787350b239ec110edb4ced613140c84a2b1924634004"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 2940,
+      "sha256": "5f1e7bc55f1cdae0d59516d2fbdac9ce6c6361a1e436c74de0bc2746b15db87d"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 16274,
+      "sha256": "74a14070f88b60aff8ee8fbc2e19cdd099107170c629baf13856429f59ab61c0"
+    },
+    {
+      "assetPath": "images/alerticonbg-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/boxfade_tb-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/buttonlevelsback-sheet0.webp",
+      "bytes": 9580,
+      "sha256": "06e708e23b1e09e4d0e70016f2520ccfe7c6965f56819a5a16f24eebc47d2904"
+    },
+    {
+      "assetPath": "images/buttonlevelsnext-sheet0.webp",
+      "bytes": 3226,
+      "sha256": "c94c40da883f7488339dc29c6203ba31df8d6ed42af0afe65f95076336f5dac2"
+    },
+    {
+      "assetPath": "images/challengeendmenu_tb-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/challengescoreuibg_tb-sheet0.webp",
+      "bytes": 86,
+      "sha256": "20bdf831e85e45d672728def898e0f4a4ded35f6ac351a4f7b96ad5ba8dd51d8"
+    },
+    {
+      "assetPath": "images/closedarea_tb-sheet0.webp",
+      "bytes": 790,
+      "sha256": "fe2c023daf612c5542da518077cbc23c237b504dde55e43b63b70ccef2f02301"
+    },
+    {
+      "assetPath": "images/controlstutorial-sheet0.webp",
+      "bytes": 4016,
+      "sha256": "7c828445c9e9f62103f059603297818ce9de7290e9d9618ebac655eaa4a1a598"
+    },
+    {
+      "assetPath": "images/controlswalljumptutorial-sheet0.webp",
+      "bytes": 1512,
+      "sha256": "47c34f700aeb2defcaf261a37fff1cd8a1df4bf9106b73cefa53f4ebd4e1ccb1"
+    },
+    {
+      "assetPath": "images/exitpointrace-sheet0.webp",
+      "bytes": 50,
+      "sha256": "89243e6c665cb4ebb4f75be9923d01b49d68e05487c11885b0a34a7ae668faf8"
+    },
+    {
+      "assetPath": "images/exitpointsparkdrop-sheet0.webp",
+      "bytes": 102,
+      "sha256": "7ff13e17f6fe4c4e5cd3a1857c44944145148d9b6d774e06fde703ea31f215b7"
+    },
+    {
+      "assetPath": "images/flash-sheet0.webp",
+      "bytes": 34,
+      "sha256": "15ba73ac76eec3ebfe42d676ebbff7af2c687f952b3eefd5716ca5ca0e309691"
+    },
+    {
+      "assetPath": "images/gravityarea_tb-sheet0.webp",
+      "bytes": 268,
+      "sha256": "a3a5a8be9e05becb563d48b6aabca9aadbf8a222df03909b110740e06c449ddc"
+    },
+    {
+      "assetPath": "images/gravitybuttonpoints_tb-sheet0.webp",
+      "bytes": 130,
+      "sha256": "b8689337aa9cda4b73ce397fbdb265b618637cbd9bc5407bbb7219130ee00edb"
+    },
+    {
+      "assetPath": "images/groundlasereffect_tb-sheet0.webp",
+      "bytes": 148,
+      "sha256": "bd7c0dff7f563185bb4fc34eff1a835d75b9a3b78141664dab666b1a08590a09"
+    },
+    {
+      "assetPath": "images/levelendbox2_tb-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/levelendbox_tb-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/levelsui-sheet0.webp",
+      "bytes": 1882,
+      "sha256": "ee17c84411e894abd6e81752f8ce71c97a8851051377180b9d34c32727b05964"
+    },
+    {
+      "assetPath": "images/lightforms-sheet0.webp",
+      "bytes": 18928,
+      "sha256": "d63f0a6182603e434f775b0f124d505fe97416d31a5ecc54fdd1d5e83852b8b2"
+    },
+    {
+      "assetPath": "images/lockedareaeffect_tb-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/lockedarea_tb-sheet0.webp",
+      "bytes": 544,
+      "sha256": "e801518806843c13781ba257c1014e273b7151bbd71e168ecb428ffd40954f3c"
+    },
+    {
+      "assetPath": "images/player1graphics-sheet0.webp",
+      "bytes": 465664,
+      "sha256": "3ff579c27d12f8f2dcac12482042205f01f89250749a2386148480c99450e54d"
+    },
+    {
+      "assetPath": "images/player1graphics-sheet1.webp",
+      "bytes": 154028,
+      "sha256": "b46aee5384cc3f9b488b3c253db22500bef75a9427fd7bf74a7899a7f529f87b"
+    },
+    {
+      "assetPath": "images/playereffectsparks-sheet0.webp",
+      "bytes": 1318,
+      "sha256": "e3b2232c1ef15f1a89b64bfaeb8590c5bc9cd9ccd47469888d448387fa8fe030"
+    },
+    {
+      "assetPath": "images/playergraphicstrail-sheet0.webp",
+      "bytes": 9670,
+      "sha256": "4e619c307827426d8ae02c7ab61fc82e56e48a096bd3ce8ee1a822fc82922a3a"
+    },
+    {
+      "assetPath": "images/playergraphicstrailtutorial-sheet0.webp",
+      "bytes": 26086,
+      "sha256": "04b18665668446b7f547dea7e3474a28df7c23f5ae04ccef2918461ac5eb8372"
+    },
+    {
+      "assetPath": "images/playergraphicswc-sheet0.webp",
+      "bytes": 17312,
+      "sha256": "7e7897d8f0416c246704cc14f0bd4ea7b7fa3a26fa5a3647c3b40cb4c4e0b41d"
+    },
+    {
+      "assetPath": "images/playerwalljumptutorial-sheet0.webp",
+      "bytes": 8168,
+      "sha256": "1f298b118ed56d5f62a1893670bdfe64e7c3aeea482e65ca238dc63643def638"
+    },
+    {
+      "assetPath": "images/playerwalljumptutorial-sheet1.webp",
+      "bytes": 2452,
+      "sha256": "09ea143d8c5447912651e9e7264c523affabaf058fc14832a969b018a33d2c27"
+    },
+    {
+      "assetPath": "images/playerwalljumptutorial-sheet2.webp",
+      "bytes": 1112,
+      "sha256": "73efb4099b136e9a621c0182c658dcfae178be0d517c9968dd97df0c8f9f3475"
+    },
+    {
+      "assetPath": "images/portalteleport_tb-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/portal_tb-sheet0.webp",
+      "bytes": 156,
+      "sha256": "cd6550ba1abf6a3f10a8ed8dcba20de24341c655cb912c228f56016694f907b2"
+    },
+    {
+      "assetPath": "images/powerupcancelbox_tb-sheet0.webp",
+      "bytes": 102,
+      "sha256": "40472a72b027093dcc2fe571a187bcce10759930964ad26857dc65bd4bc51eb5"
+    },
+    {
+      "assetPath": "images/progressendbar-sheet0.webp",
+      "bytes": 44,
+      "sha256": "77ef814e716841e989025a0eccfa64e2c881ec3580d564383b00e524ce6da271"
+    },
+    {
+      "assetPath": "images/progressendbarplayericon-sheet0.webp",
+      "bytes": 4500,
+      "sha256": "458251cf9f7fe24b883244db9e66b467a7075730090fdec55fda2dd8a42c2d99"
+    },
+    {
+      "assetPath": "images/progressendgift-sheet0.webp",
+      "bytes": 15340,
+      "sha256": "f730f93774c649b7886761ec40bfc7047ee5f54096be9704ef6964b4ddc596ad"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 26800,
+      "sha256": "4809fc31ed1eebf8ffdc9a3d07b6c04f237c6dcef45f2746d999adb8976159ac"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 13838,
+      "sha256": "7af31235374d9aa10c4eef8756e27e7649043c897a9237aee23e1dfac22316d2"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 1064,
+      "sha256": "84dc32d6fdc5aade5c00d41c740a14cb22dfd961898db73a3ee22bb0de6df40d"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 92,
+      "sha256": "60697b1291e92812ba5178f48c9ada05eb659daea2190513b5cdc5de9110f355"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 65728,
+      "sha256": "ce5e42fb80ea5a0d545a0621b13515187233f7466af2aeedd36ec9e3014483b8"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 36962,
+      "sha256": "ed390887249ed83334f74187f0a5bf8315e07d3b4e4a8e6fae39bd038fd5c823"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 816,
+      "sha256": "6cd165756c5b9b45ca87298b25d1a2ecda50f83fffc08c918850614025aa94b4"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 11962,
+      "sha256": "3fd3e53f01505381c280f1e022677d66470f41024d5b94f88c6e1389aaeae16e"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 26554,
+      "sha256": "662c0195b864a8e93d5eb8d22731f5ac940a2c20b8f041353db956e4be647f00"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 5490,
+      "sha256": "7284981d10ef535c3d1d18cd4d08ed9fb83940b81bcbb1d12789e9b2087bd220"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 34,
+      "sha256": "b0ff5420a87b7117d944273dafe43684066c6cae95533df2fbada29cf1523a9f"
+    },
+    {
+      "assetPath": "images/shared-3-sheet0.webp",
+      "bytes": 14386,
+      "sha256": "eb5538006ba59c260e3ff9513f0261ae86cf69a8377586663ae16ee2559ac856"
+    },
+    {
+      "assetPath": "images/shared-3-sheet1.webp",
+      "bytes": 15094,
+      "sha256": "bca26a59fa41c2ddd83827e8035b1de8a7e982e4708c6d29eec7cb329fae48a6"
+    },
+    {
+      "assetPath": "images/shared-3-sheet2.webp",
+      "bytes": 142,
+      "sha256": "9f71da6148afc422940f614e8c976ad5a0c7d6c6245817786e42fa5bfa5b669d"
+    },
+    {
+      "assetPath": "images/shared-4-sheet0.webp",
+      "bytes": 1596,
+      "sha256": "f5c3a56dc09b361c2e29358c9942cbc5ee94301c4b130683b921d535c5a4b05e"
+    },
+    {
+      "assetPath": "images/shared-4-sheet1.webp",
+      "bytes": 232,
+      "sha256": "d3314682fc73c12fdcedcceb39e5d33d96d801747ce835525513491bb21908be"
+    },
+    {
+      "assetPath": "images/shared-4-sheet2.webp",
+      "bytes": 38,
+      "sha256": "e3f31a14f397d3fe1b7191e5e6c7992ea14b54a17aaff71d6b4ed5539b37a3bc"
+    },
+    {
+      "assetPath": "images/signs-sheet0.webp",
+      "bytes": 6422,
+      "sha256": "a7c073bb746f424d56dbe3a010d81a662aa8e3d083baa038694740c37f630ec1"
+    },
+    {
+      "assetPath": "images/signs-sheet1.webp",
+      "bytes": 160,
+      "sha256": "b91d5fc26af968acfa787ebfb49663e51aaaacba6a7b061af91f967ad511b86c"
+    },
+    {
+      "assetPath": "images/signstutorial-sheet0.webp",
+      "bytes": 264,
+      "sha256": "b05ed4c29e14e6c62d6152351abbb603ef15ec0fea7dda778cc0b7cd00e6b508"
+    },
+    {
+      "assetPath": "images/skinsbutton-sheet0.webp",
+      "bytes": 27968,
+      "sha256": "918c549b045d60cf64c4623f25460412904f89a35590c7767370ab2fb3332d58"
+    },
+    {
+      "assetPath": "images/skinsmenubg-sheet0.webp",
+      "bytes": 72,
+      "sha256": "9627c275547218afa92295e939303c5b7e0956708c507a454355991acc1d92aa"
+    },
+    {
+      "assetPath": "images/speedeffectwc_tb-sheet0.webp",
+      "bytes": 1608,
+      "sha256": "aa09f37dedbc299c66633fc23f6594a80b7c003ed407b8c5b03c48b8086aa415"
+    },
+    {
+      "assetPath": "images/speedramp-sheet0.webp",
+      "bytes": 838,
+      "sha256": "bdb6ffa823c5156172358301d0df2ae003528ab3e624d020001bc1bbd1bdb9f4"
+    },
+    {
+      "assetPath": "images/texturea1_tb-sheet0.webp",
+      "bytes": 58,
+      "sha256": "cc4698363d96ef420cd91f72d62586070cc6dda66468a0be368c3bd3e3d40e50"
+    },
+    {
+      "assetPath": "images/texturea2_tb-sheet0.webp",
+      "bytes": 58,
+      "sha256": "281498e9cda896387cd248adf81f1a123d6d65193b8d8d9183ea75cb6574d730"
+    },
+    {
+      "assetPath": "images/texturea4_tb-sheet0.webp",
+      "bytes": 124,
+      "sha256": "f9632c792decd1c26b8917a1cec77c822b3f65f794dbaba20db17821fa46678d"
+    },
+    {
+      "assetPath": "images/texturea5_tb-sheet0.webp",
+      "bytes": 230,
+      "sha256": "eb3d382cc694ed863c4b2a23c94afa89aa2eaaba705bc3a821c4c37fd4c7456a"
+    },
+    {
+      "assetPath": "images/texturea6_tb-sheet0.webp",
+      "bytes": 72,
+      "sha256": "9627c275547218afa92295e939303c5b7e0956708c507a454355991acc1d92aa"
+    },
+    {
+      "assetPath": "images/textureb1_tb-sheet0.webp",
+      "bytes": 68,
+      "sha256": "ef8affa1dce860cecae5bd7f6eedcac3e474ee585dbc535e9041057bf36b0519"
+    },
+    {
+      "assetPath": "images/textureb2_tb-sheet0.webp",
+      "bytes": 70,
+      "sha256": "d15beb479a56c1df6d6c7777d1effea085fbd69c95992ccb35338058355147c6"
+    },
+    {
+      "assetPath": "images/texturec1_tb-sheet0.webp",
+      "bytes": 66,
+      "sha256": "177b0b13d0bf38dbabad3dcb5b6a0000fc491ced7208d55978c5a9643f8c7604"
+    },
+    {
+      "assetPath": "images/texturec2_tb-sheet0.webp",
+      "bytes": 78,
+      "sha256": "a9e38b682d34988bd94d0325ab3cd7880f940eae75510c77314a40ec1a4e52a3"
+    },
+    {
+      "assetPath": "images/textureplatformmovable1_tb-sheet0.webp",
+      "bytes": 52,
+      "sha256": "c3615c60a93542f4651bbdeb75831679774dc62663043104f082806c3846faaf"
+    },
+    {
+      "assetPath": "images/turret1detectionline-sheet0.webp",
+      "bytes": 90,
+      "sha256": "dcb2d0fdc80e97b4563205d55424430ca6a8d3c226519adbee2c16468afc8799"
+    },
+    {
+      "assetPath": "images/uiachievementsmedal-sheet0.webp",
+      "bytes": 4900,
+      "sha256": "6a18b9b5765a26af5cfee1208cf4f2753a559b87fb57644da7f056352415ddff"
+    },
+    {
+      "assetPath": "images/uileaderboardicons-sheet0.webp",
+      "bytes": 4482,
+      "sha256": "53e3e78a2d476417369af98a436ee928054b4681e3c457cd63c6b1fb3f0ffcb5"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1880,
+      "sha256": "b5ec3451cc36f7ff4046d342706a1e09c8dbaaa305f890b924d5c5df733a06b2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "ddc579e53855b86f46515982026aca8085fd7179e402ecabf525b6de1fd7863e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "cef928881c1c48625d5a3fdb0fde1642aad695da0eb8f379fedf31191cac2d30"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "0b09b0c2f800161377d8b6ab48319ea55e571ee8af15b0b8077390dd0cd1aea9"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 52,
+      "sha256": "eabe5a136cca6805a02fd424998480457d694ce96aa4c90db92896b75e886d09"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1644252,
+      "sha256": "2f970c149545060f926e0bcb341db7023cd53cebc3d701a45d740b76cad8d3ac"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 140481,
+      "sha256": "eefbc42f6d905a589c7508298539fba98ec9b53ae6773ce398bf1f757e80fe28"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/objRefTable.js",
+      "bytes": 37986,
+      "sha256": "249cb7d4f66b1a4ae7fbc496f56f649569941ff49bb55fe29bccb803a3f74951"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 3419,
+      "sha256": "3bc13560c6cce96348aa6181968851d8830348aef5874d35ed6fd0c32e86fed6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

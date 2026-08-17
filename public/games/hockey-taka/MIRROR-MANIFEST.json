@@ -1,0 +1,90 @@
+{
+  "name": "hockey-taka",
+  "sourcePage": "https://poki.com/en/g/hockey-taka",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2485,
+      "sha256": "c47c3967ee33d358f51ec3a37ddfbe0dc92e5ea39383148b8208b7e00e2b9b79",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "cfbbf14f21a56c4993ffecd8add85077c7bc9ab106e3e614f0176d4b5cca0bbe",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "a8e736e0c8e4d4daf2ca2f5f127672c593474e0d0dea8bbe5c60665d08198660",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "3057fc5e8cddc2e51de7763b92e2e45bc672bc9761bb9a5bcfa63b2cc6fb4841",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "8b588c598a5bd526df1a511a0ac0cf28eddc137b190d54536a0d77b789c7b232",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2485,
+      "sha256": "c47c3967ee33d358f51ec3a37ddfbe0dc92e5ea39383148b8208b7e00e2b9b79"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "a8e736e0c8e4d4daf2ca2f5f127672c593474e0d0dea8bbe5c60665d08198660"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 454,
+      "sha256": "74a37f10a5e86570964ca77ed5f471ce578d6d0e28bf6926a022f35a05a59f93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "3057fc5e8cddc2e51de7763b92e2e45bc672bc9761bb9a5bcfa63b2cc6fb4841"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "8b588c598a5bd526df1a511a0ac0cf28eddc137b190d54536a0d77b789c7b232"
+    },
+    {
+      "assetPath": "src/import-map.json",
+      "bytes": 40,
+      "sha256": "2be73d8f2e7e1d814627714ace691b6e1a9d445c779426a224e7f3685f0fa278"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/system.bundle.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1283,
+      "sha256": "b9dac5de1b7792243a6432dfe553901f0a235f41edb42c719d482d1c17016a2f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

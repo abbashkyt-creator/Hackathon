@@ -410,6 +410,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "grass-cutter": { creatorId: "grass-cutter", creatorName: "Grass Cutter", creatorLabel: "BY GRASS CUTTER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "color-merge-lines": { creatorId: "color-merge-lines", creatorName: "Color Merge Lines", creatorLabel: "BY COLOR MERGE LINES · LOCAL SOURCE MIRROR", category: "Arcade" },
   "roller": { creatorId: "roller", creatorName: "Roller", creatorLabel: "BY ROLLER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "stickman-maze-run": { creatorId: "stickman-maze-run", creatorName: "Stickman Maze Run", creatorLabel: "BY STICKMAN MAZE RUN · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "dwerg": { creatorId: "dwerg", creatorName: "Dwerg", creatorLabel: "BY DWERG · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "hockey-taka": { creatorId: "hockey-taka", creatorName: "Hockey Taka", creatorLabel: "BY HOCKEY TAKA · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

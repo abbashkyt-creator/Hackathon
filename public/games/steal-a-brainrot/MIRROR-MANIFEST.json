@@ -1,0 +1,105 @@
+{
+  "name": "steal-a-brainrot",
+  "sourcePage": "https://poki.com/en/g/steal-a-brainrot",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 763,
+      "sha256": "0e543cec1edb2bfb3a7b7a821a27c6488a341f9eb89c25c9579001c715418afb",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "d463158cfa3fc0ae995862703a6ac6f11b88898176cf882d81927fadf0774a5b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "a7c6ba62f873938dd60b8c6724f727bc88ddfb8cd3e162f9b34fa75d8d7badbb",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "cec34dcca7200d5104ead32fadb9f8886c9cf10f211a7bdd492999b7c5fa0319",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 437,
+      "sha256": "86f82e0ee5cdc6609f7a981bcb7181d812892cd5a62fb6ac7e215b0887be289f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "files/assets/231280462/1/colyseus.js",
+      "bytes": 238693,
+      "sha256": "32c16cef6030d8218e43d9ed98bcb98220bbf2bd0ba70e1398b162cf70440574"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 763,
+      "sha256": "0e543cec1edb2bfb3a7b7a821a27c6488a341f9eb89c25c9579001c715418afb"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "a7c6ba62f873938dd60b8c6724f727bc88ddfb8cd3e162f9b34fa75d8d7badbb"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "cec34dcca7200d5104ead32fadb9f8886c9cf10f211a7bdd492999b7c5fa0319"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 353,
+      "sha256": "b2edaeef262c3f366f982fe2473c8f516df5f05801bd56f1bba4a01aeb9c1dd3"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 1766329,
+      "sha256": "7ad502873aa814fc5b2c74193806e088e92acc087230a11116c1a615804e1145"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 437,
+      "sha256": "86f82e0ee5cdc6609f7a981bcb7181d812892cd5a62fb6ac7e215b0887be289f"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 851031,
+      "sha256": "86c15b49c576421a399a49ae0930635a3856697aa8e46bc9896708a02161af97"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 2855,
+      "sha256": "12c1ad00f6386e08bf522dd26414dce733d7824cfda1f4b416f7805e33d066b7"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

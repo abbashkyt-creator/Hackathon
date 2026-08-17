@@ -1,0 +1,625 @@
+{
+  "name": "dwerg",
+  "sourcePage": "https://poki.com/en/g/dwerg",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 10812,
+      "sha256": "bf6c91a55a4a7bd8406aa544e4b2e2347a327cbc370bc21e56e4a20b0f952aa1",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 159,
+      "sha256": "2069845c87ed3df81e755221ff5e66633f5a7020867c74f9768cef1badc01b92",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 900,
+      "sha256": "5a6ff45cdd85ec969022523220f252351f26d6916633b80db3bdd615bbf0fc4b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 846,
+      "sha256": "af709b926aa29ed229ba61bdce8857e6210a35b49d5b8761bfac364057bb8681",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 143,
+      "sha256": "f6da63b73a641c0cf00f1311b0f1b3a71bdfb1145df1dc0219d64032ea72f3b3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/acorn.png",
+      "bytes": 10142,
+      "sha256": "9d7d58f6a4d2cf71190f5dcd13297ce435de315fd793a68af4d121b712590988"
+    },
+    {
+      "assetPath": "assets/block-crack-1.png",
+      "bytes": 1105,
+      "sha256": "532a8e951b02886b1c38385e52301b0a6c8f96de393879c99dbc98aaa50ddfee"
+    },
+    {
+      "assetPath": "assets/block-crack-2.png",
+      "bytes": 1876,
+      "sha256": "4f142b3b26a68f2b487de2c44bae5fcbc8053b54c6b256ff848e98a01297f844"
+    },
+    {
+      "assetPath": "assets/block-crack-3.png",
+      "bytes": 2872,
+      "sha256": "b6f0e21f7aad4592d77cbc1b1975041bacd817aaf22498c185eae555a9d3d503"
+    },
+    {
+      "assetPath": "assets/branch.png",
+      "bytes": 2703,
+      "sha256": "23eb8c43cf0a6041b05c5d8ce93d15d0c12630be9368b29b5cda8df321cdd0ad"
+    },
+    {
+      "assetPath": "assets/cart.png",
+      "bytes": 2232,
+      "sha256": "8ddf68a2cbcaec8cd180c2b378be5bcfabd87fe2f01b02d5d7b42baf96d1c16d"
+    },
+    {
+      "assetPath": "assets/circle.png",
+      "bytes": 729,
+      "sha256": "7fbd258a27268ee3e7aa7c11f6080aa1c09a221d35d76a8d3899cac864befffa"
+    },
+    {
+      "assetPath": "assets/clapper.png",
+      "bytes": 1399,
+      "sha256": "1ae160b26ee18789642f4e10d038ddde7254b03b747be773230cbe64925374c7"
+    },
+    {
+      "assetPath": "assets/coin.png",
+      "bytes": 4953,
+      "sha256": "6053d1f20df11361ed26d4c3b1c4d7ec22013ea045d30726ced264a67e7ae570"
+    },
+    {
+      "assetPath": "assets/copper-axe.png",
+      "bytes": 2311,
+      "sha256": "2aa2249aa06419f0c58b7ce61674984315559fe2e46e17a38754d96a71f30e68"
+    },
+    {
+      "assetPath": "assets/copper-bar.png",
+      "bytes": 2242,
+      "sha256": "2b9a116f8c826ad1264bd4bf10112adc7a617bb7d03623df0993191db22bdfd2"
+    },
+    {
+      "assetPath": "assets/copper-crate.png",
+      "bytes": 5391,
+      "sha256": "fca183c14ff9b8eb6f089e30f2165bcc0b73e04fef9898834e171e818dcbd904"
+    },
+    {
+      "assetPath": "assets/copper-mine-1.png",
+      "bytes": 11598,
+      "sha256": "158bf42187e835effef04ef0965d7da88a71c7bba1755e49d22d7eb79b645506"
+    },
+    {
+      "assetPath": "assets/copper-mine-2.png",
+      "bytes": 7401,
+      "sha256": "ebe7b7b48d2c378dae0546fb2b2899f93d4919c751404f6be33bf81c92c42577"
+    },
+    {
+      "assetPath": "assets/copper-mine-3.png",
+      "bytes": 3376,
+      "sha256": "637391b73cc4e6fb814bd8f72a9f17706e08b39b8af87d354d9c98ee7e866e38"
+    },
+    {
+      "assetPath": "assets/copper-mine.png",
+      "bytes": 13581,
+      "sha256": "7e337835febd7f33b41aba886a1e921d84e627a9b99b35eb50859cab9a21b51d"
+    },
+    {
+      "assetPath": "assets/copper-shovel.png",
+      "bytes": 7870,
+      "sha256": "aaf06f6ce26842834bf177c58cc1f5e36aa77cac2b3e00e24b0500aa1e939e65"
+    },
+    {
+      "assetPath": "assets/copper.png",
+      "bytes": 2727,
+      "sha256": "a87786d355a8ea4cba1a95bcb9ab7eec7c7a5abf61996783b4b4b0fa15f0236f"
+    },
+    {
+      "assetPath": "assets/crate-2.png",
+      "bytes": 4610,
+      "sha256": "0615db04aa0572045b697cfbc73a25f166b7a8c0576fa5823dfdf159f22ae7c6"
+    },
+    {
+      "assetPath": "assets/crate-3.png",
+      "bytes": 4843,
+      "sha256": "ee9829f1d0cce895285734474abf4b29fd4cca46750ab6739593e682f07a990d"
+    },
+    {
+      "assetPath": "assets/crate.png",
+      "bytes": 4923,
+      "sha256": "9b1c771122e0ea0de7d9b5576b226260af5a26c629e8fcd3106377f0db248592"
+    },
+    {
+      "assetPath": "assets/driller.png",
+      "bytes": 10382,
+      "sha256": "08b01489f0d8329615c2ecb65d61e2ee4903229b74781575ef13e7c9c09fee8a"
+    },
+    {
+      "assetPath": "assets/electricity.png",
+      "bytes": 9582,
+      "sha256": "0be05e9b5ffc496b8f3ff30621d0569012041185972c28d550e7eea76f4e5b3d"
+    },
+    {
+      "assetPath": "assets/final-rocket.png",
+      "bytes": 24621,
+      "sha256": "f2fa490e3a32e558c53eef1fe7c87d97f692df313e5fa08d21cb76bcaf4d7bce"
+    },
+    {
+      "assetPath": "assets/foliage-flower.png",
+      "bytes": 1978,
+      "sha256": "2744b5bff157bdc27c3e85005a83c46943083addae57756b95620eb09add8616"
+    },
+    {
+      "assetPath": "assets/foliage-grass-1.png",
+      "bytes": 1477,
+      "sha256": "891ad446f8438c201b6995806680ab89df3247cce24fd4c6c18cf0fb0967b89b"
+    },
+    {
+      "assetPath": "assets/foliage-grass-2.png",
+      "bytes": 831,
+      "sha256": "62588bed3009c5cc74b05ae6e77aa68170bbca8e329c0ac4b8a542dae7996bd1"
+    },
+    {
+      "assetPath": "assets/foliage-grass-3.png",
+      "bytes": 1895,
+      "sha256": "75e6a6bda207532d491df0437b39c5e51a78e413e872261cb4f20ad0a8ac467c"
+    },
+    {
+      "assetPath": "assets/foliage-grass-4.png",
+      "bytes": 1358,
+      "sha256": "91edf388193942750b8406b8c4fcadb8f3436307c53fbc307de5c3e16603310d"
+    },
+    {
+      "assetPath": "assets/foliage-grass-5.png",
+      "bytes": 699,
+      "sha256": "996cf12df767e820dd2d0f192ac1d85dd5e11fefd70244cca6da3e2dffb42080"
+    },
+    {
+      "assetPath": "assets/foliage-grass-6.png",
+      "bytes": 424,
+      "sha256": "1c3cd33db1d4e45accbba8ad9e0784fe94b7c50f7a5aeff88cc43dbdecf0939f"
+    },
+    {
+      "assetPath": "assets/foliage-mushroom.png",
+      "bytes": 877,
+      "sha256": "a54a312860de188c4cc39b7bd6518f68dc401b4c74c2310a84ba6efbca2ea35b"
+    },
+    {
+      "assetPath": "assets/foliage-pebbles-1.png",
+      "bytes": 1187,
+      "sha256": "056d4fc6ab1968bb34f0cd54f085d36b57738663fa5c442e035fa61d0db8256d"
+    },
+    {
+      "assetPath": "assets/foliage-pebbles-2.png",
+      "bytes": 874,
+      "sha256": "cfa974a7363becc853d80a4335c5918eac6d82c03109328f274ed78bb287a163"
+    },
+    {
+      "assetPath": "assets/foliage-pebbles-3.png",
+      "bytes": 681,
+      "sha256": "b785a26175d4105c3c97a7ca47e1f44d38f88e7831424f99036137ef90405226"
+    },
+    {
+      "assetPath": "assets/font/TangoSans.ttf",
+      "bytes": 19764,
+      "sha256": "12f9205c02f2f0daecaa5aff96c81aaa50665fec68bffb7bafd842883cfb8163"
+    },
+    {
+      "assetPath": "assets/forest-1.png",
+      "bytes": 4908,
+      "sha256": "8d0a784a5385d30cd7ccf462f425266efca52144f4f9210526bb15e8bd250449"
+    },
+    {
+      "assetPath": "assets/gears-status.png",
+      "bytes": 1377,
+      "sha256": "08e90f1e989aa5c0fab2f48344d01d9a197d1befc450a4b0bc49692467dd73c3"
+    },
+    {
+      "assetPath": "assets/gears.png",
+      "bytes": 21525,
+      "sha256": "76551ac04e123199a510567299798449125b3a1a3d07f6dc5cbd6d59c41172f6"
+    },
+    {
+      "assetPath": "assets/gem-1.png",
+      "bytes": 4229,
+      "sha256": "7fe8a0e951417fe72750992d7af5b3e85ab3f03907b1d1185317ae1024d52878"
+    },
+    {
+      "assetPath": "assets/gem-2.png",
+      "bytes": 4325,
+      "sha256": "6023489109634a90cadc982fed09287d045bd14f07baee0493816e72fd1ae141"
+    },
+    {
+      "assetPath": "assets/glass-shard.png",
+      "bytes": 2086,
+      "sha256": "a1c624bcc64d17b182567c99718cdcf321d42359207b19ac296b7da0b27a1c5d"
+    },
+    {
+      "assetPath": "assets/gold-axe.png",
+      "bytes": 2293,
+      "sha256": "ed6d6bc6a4890c5af8ed0d6f03ea1e1a4727404dfed8c40f704aec915882bdd6"
+    },
+    {
+      "assetPath": "assets/gold-bar.png",
+      "bytes": 2769,
+      "sha256": "7fe0ccfa952c844b4bb3d9c26eec3501dce6a591917b1e0cdc8713e3efc948f1"
+    },
+    {
+      "assetPath": "assets/gold-mine-1.png",
+      "bytes": 10727,
+      "sha256": "9aea6e7d2be192b3b3336b70ba3e1f673d48ae4f0b723477d432c4fbfea22650"
+    },
+    {
+      "assetPath": "assets/gold-mine-2.png",
+      "bytes": 7088,
+      "sha256": "4ef8e45032970b3286ee1cb46eca7e1fa61723530b8856fdc510a986784ec098"
+    },
+    {
+      "assetPath": "assets/gold-mine-3.png",
+      "bytes": 3569,
+      "sha256": "571a2aa1e21c2abc6e133e6def6bb7dd0f08934b4fbbff0bbe03135441529907"
+    },
+    {
+      "assetPath": "assets/gold-mine.png",
+      "bytes": 11440,
+      "sha256": "e2bd5626c13ef46359716f6cb4428761607e05c70a1106df10d957cae7c032e0"
+    },
+    {
+      "assetPath": "assets/gold-shovel.png",
+      "bytes": 7851,
+      "sha256": "8d871d0fc0ac5351bcedecd24ed92f0b64000ef0a057e3a4137f0968c06a7e68"
+    },
+    {
+      "assetPath": "assets/gold.png",
+      "bytes": 4166,
+      "sha256": "d3a6ca17b17d76ac94ccc9b5654969360500dd1769493ea08ff8fdaa74c014b6"
+    },
+    {
+      "assetPath": "assets/helper-head.png",
+      "bytes": 3606,
+      "sha256": "207b1692c9c36e6d1124338051387bb80bed4805c29dc9ef168207fb9ed3d531"
+    },
+    {
+      "assetPath": "assets/iron-axe.png",
+      "bytes": 2334,
+      "sha256": "6bef0ae28994d572229973943cfb35d16026cd7fe18e451bf248e9974e71b9b0"
+    },
+    {
+      "assetPath": "assets/iron-bar.png",
+      "bytes": 2887,
+      "sha256": "b16f7dd8c49fc08af8a77a2f5fb7a007387c8faf85972d7e3360a086c3803be7"
+    },
+    {
+      "assetPath": "assets/iron-crate.png",
+      "bytes": 4264,
+      "sha256": "52ab7767a0e707a896e52bfdd0297a913ad69d00e1ac7e02f71a5137836491f5"
+    },
+    {
+      "assetPath": "assets/iron-mine-1.png",
+      "bytes": 11035,
+      "sha256": "d27c02751215aa2fab3d2ead72f03b04cec4b3b1577419b49a2e80e069e490c8"
+    },
+    {
+      "assetPath": "assets/iron-mine-2.png",
+      "bytes": 7138,
+      "sha256": "cc91d8102f39986e18c99412a8fb757deff1474ede95aa4b5165406d12cb92bb"
+    },
+    {
+      "assetPath": "assets/iron-mine-3.png",
+      "bytes": 3533,
+      "sha256": "912f9bef40977f30ca47c1e1876370fb065c8ae86bba00b2e403f19cd9d72445"
+    },
+    {
+      "assetPath": "assets/iron-mine.png",
+      "bytes": 12631,
+      "sha256": "dd64e80b6c396b61e187be520eb0eb528272f8c8998156f307d157a9c6f14c82"
+    },
+    {
+      "assetPath": "assets/iron-shovel.png",
+      "bytes": 7916,
+      "sha256": "54de3c29de167083a220d36366210026ab189ace347761b1ac0afb1750d016d7"
+    },
+    {
+      "assetPath": "assets/iron.png",
+      "bytes": 2619,
+      "sha256": "ed5222134285dff593675d0162e3fd1a047c6c22e8b4d7d681f354793c0e414a"
+    },
+    {
+      "assetPath": "assets/jetpack.png",
+      "bytes": 6118,
+      "sha256": "a6fa3b85ab1d302ad8ca778b4027c2b427a31806d1c1df7ea4cbef2f3cec3f14"
+    },
+    {
+      "assetPath": "assets/key.png",
+      "bytes": 6688,
+      "sha256": "4d046181c662e3595a75a3eb45e20073fe1bceb26b3999d28ff00b48fc835b3e"
+    },
+    {
+      "assetPath": "assets/lab.png",
+      "bytes": 11961,
+      "sha256": "28d4df8a2a0f87c263c2aacd60a571d9ac989f8657c74b84fd2c9bc503c6c090"
+    },
+    {
+      "assetPath": "assets/level-badge.png",
+      "bytes": 4495,
+      "sha256": "2a46cf20e51da4681104ddfe56573b4a3e9f3eac22cc1a2a14e5b6bbd3f2f0a8"
+    },
+    {
+      "assetPath": "assets/mission-shard.png",
+      "bytes": 1725,
+      "sha256": "50b2f0225fbd1bb0b4d92dc5e7a61a24e139c01774d5728614908195443728ea"
+    },
+    {
+      "assetPath": "assets/mole.png",
+      "bytes": 9196,
+      "sha256": "20c77e3f5d205afa293e5daa30d37c6055d0b437e010ea7622ffa68179d4e7fb"
+    },
+    {
+      "assetPath": "assets/objective-arrow.png",
+      "bytes": 3146,
+      "sha256": "4c858ef7bcd54f079898938ff375209139fa8334d1f36fe0dcbbd1fca8a86ddc"
+    },
+    {
+      "assetPath": "assets/plank.png",
+      "bytes": 3137,
+      "sha256": "a32feb3a29502b936aa59675360ede8e88c0d1eec60c69c182e51d95e9365d31"
+    },
+    {
+      "assetPath": "assets/player-foot.png",
+      "bytes": 593,
+      "sha256": "f94c228a99d22083e9f274e54c96bf51aed281ac3d342b34c4c806dff6ffc848"
+    },
+    {
+      "assetPath": "assets/player-head.png",
+      "bytes": 5693,
+      "sha256": "093d35e4d7c8d2cabf0845389b4a59b8927118aa34ef3aa02357af3c4737ab3f"
+    },
+    {
+      "assetPath": "assets/red-cross.png",
+      "bytes": 1541,
+      "sha256": "bc533bc0910d213232ac0d031e545f78996c2a2ed3a411404d330a6ffcda77b2"
+    },
+    {
+      "assetPath": "assets/refinery.png",
+      "bytes": 11734,
+      "sha256": "a55e40a2d0f3f211e8220cfc13a8834627f82aa01d78c5bf0c35cda00031a18b"
+    },
+    {
+      "assetPath": "assets/rock-1.png",
+      "bytes": 5053,
+      "sha256": "1428bb7151be85ad0f518823704207d2166fcc6ab6ab37dd6d6aae8d80f6ed89"
+    },
+    {
+      "assetPath": "assets/rock-2.png",
+      "bytes": 4520,
+      "sha256": "9d23e4df58fe6d74cd3c8e8f5bd8db73cd6392a878f854369f1d358f703b3523"
+    },
+    {
+      "assetPath": "assets/rock-3.png",
+      "bytes": 4668,
+      "sha256": "bd80e9b98d92bf13ba70f73f11457188d7ea3d086d5af58b3f72d6ca60a49520"
+    },
+    {
+      "assetPath": "assets/rock-particle.png",
+      "bytes": 204,
+      "sha256": "1f45d07023106b14c7dd80114eb92dfcea5b4e3d73f425e0317a7e1485320e65"
+    },
+    {
+      "assetPath": "assets/rocket-stage-1.png",
+      "bytes": 22233,
+      "sha256": "03cd29b64932bb457b6d4d80e49e1fdba0824de8d7efa455e22d21dc87a2bea1"
+    },
+    {
+      "assetPath": "assets/rocket-stage-2.png",
+      "bytes": 30969,
+      "sha256": "8cf2013993636691f6d28b7affc76fa9d742200b699437a33df49a08e5e59462"
+    },
+    {
+      "assetPath": "assets/rocket-stage-3.png",
+      "bytes": 29227,
+      "sha256": "84b518fd65d3c714c3fec9f2cb9d844a2e079b184dd4db9d6556d497b05c13d7"
+    },
+    {
+      "assetPath": "assets/rocket-stage-4.png",
+      "bytes": 25055,
+      "sha256": "b6d395aa058ca345ef583373a39f315b72999abc510866d9beeb4c0381eb884b"
+    },
+    {
+      "assetPath": "assets/rocket-stage-5.png",
+      "bytes": 5641,
+      "sha256": "9ea929e66172d319cb2da8f15f9c451e74ce61cd0da6a0d7ac85a46954caad80"
+    },
+    {
+      "assetPath": "assets/rocket.png",
+      "bytes": 37343,
+      "sha256": "c838585c1d5146147e8011896cb300ab10f31da1cae2fc012910ae96f060a5dd"
+    },
+    {
+      "assetPath": "assets/rounded-rect-10px.png",
+      "bytes": 252,
+      "sha256": "db2f3835a8338959facbcabe443666d0e788d4f4c1f73700b9823d1ee56851e9"
+    },
+    {
+      "assetPath": "assets/rounded-rect-5px.png",
+      "bytes": 161,
+      "sha256": "055487ff4ffcb7377e72abd293cdf2d1e2f355cab9f663f62fcd94a1fa9bc673"
+    },
+    {
+      "assetPath": "assets/rounded-rect-hollow-10px.png",
+      "bytes": 292,
+      "sha256": "f4db5bc819103acc18f8cdcb9096dd0e5098006e4d96b56c7ca0d237018416d8"
+    },
+    {
+      "assetPath": "assets/sawmill.png",
+      "bytes": 8486,
+      "sha256": "2f76bcc392c4815baa4e26c9fc4972b119d2e9aa7ce36a9a977a257388bb914f"
+    },
+    {
+      "assetPath": "assets/shadow.png",
+      "bytes": 640,
+      "sha256": "d3db7876f99bac6a75b0da5481cfe93699b935756422ab8b2678a18d55a78237"
+    },
+    {
+      "assetPath": "assets/shop.png",
+      "bytes": 10798,
+      "sha256": "37b110a4a5d6dd1b564a69078228f2f3608011b727eb1c405498826b5adf2d06"
+    },
+    {
+      "assetPath": "assets/shore.png",
+      "bytes": 759,
+      "sha256": "ccf9403a2e971a7b8b0c4ad8815a1e290bcf687566a95db98bec98a0a3c67cf3"
+    },
+    {
+      "assetPath": "assets/sparkle.png",
+      "bytes": 547,
+      "sha256": "717018638eb088730935a96bdc52807ddfe054539fa0cc8ec6cdd0d22a46a768"
+    },
+    {
+      "assetPath": "assets/temple-wall.png",
+      "bytes": 5855,
+      "sha256": "bfbc6787c9f2950e1a59bdb9b7a10e0d1b4350b5b8b2d9165186e3d4d388e99a"
+    },
+    {
+      "assetPath": "assets/tree-1.png",
+      "bytes": 6065,
+      "sha256": "14403a4cf7f26ee8ca0387d03449fce28220dc4d2214f089c714c38fcf11dbb0"
+    },
+    {
+      "assetPath": "assets/tree-2.png",
+      "bytes": 2835,
+      "sha256": "013d42fb5eea180f0d8891d1bf71a5207ec4b0a040bcb5d16f9275afc792909d"
+    },
+    {
+      "assetPath": "assets/tree-3.png",
+      "bytes": 1380,
+      "sha256": "ae406e42c2ca4346a2e8a12becb64006aa5cda22483b332cd17bef21672613be"
+    },
+    {
+      "assetPath": "assets/tree.png",
+      "bytes": 9546,
+      "sha256": "ec3848b8364a6f943afdb5c635c20ec8142e62792e9a2874a77d4bb613f4cdd8"
+    },
+    {
+      "assetPath": "assets/upgrade-backpack.png",
+      "bytes": 4792,
+      "sha256": "9184dd0dde1ecf9c8e9f2de4fd3c056a852bed1852fd2a3f96afce2d76ed3538"
+    },
+    {
+      "assetPath": "assets/upgrade-boots.png",
+      "bytes": 3887,
+      "sha256": "182090ae0354247388fc081fe0083af51ef3e3ec5562f6eed0e6caaca793d47f"
+    },
+    {
+      "assetPath": "assets/upgrade-crit.png",
+      "bytes": 4083,
+      "sha256": "6891bf2fdbe1ff6aee2570f81fe24881bdc6b995c9b29a9c55236f924b419a7e"
+    },
+    {
+      "assetPath": "assets/upgrade-helpers.png",
+      "bytes": 4415,
+      "sha256": "e105ee1c5ea5cd9319ff8eaa1333b45a601664f256c5ef98ec3b418d35e98b9d"
+    },
+    {
+      "assetPath": "assets/upgrade-muscles.png",
+      "bytes": 3711,
+      "sha256": "a8ab20b5de57ee8fedaf44957753bb372dc4f635e0aba47fa39f59536c92b2c1"
+    },
+    {
+      "assetPath": "assets/upgrade.png",
+      "bytes": 1290,
+      "sha256": "ccd00bd90b0074fd18a6baa891c9bb5de672d6024393875311b810e70e8db5d4"
+    },
+    {
+      "assetPath": "assets/village-floor.png",
+      "bytes": 1195,
+      "sha256": "fac6c487c018d616524ffa6f8abb1154727e142e2c46bacbd1a3e77ed864b26e"
+    },
+    {
+      "assetPath": "assets/water.png",
+      "bytes": 1420,
+      "sha256": "22c40a20fccea7eda06a4605a76c389c97b6206e5b844ded8a884f5c3e0f174c"
+    },
+    {
+      "assetPath": "assets/wood-axe.png",
+      "bytes": 2470,
+      "sha256": "373295930b0a07ccb45cf680c014b3eb20827bd72240b709f678f271941dfb62"
+    },
+    {
+      "assetPath": "browserAll.402ce18c.js",
+      "bytes": 57430,
+      "sha256": "9ff881bf7e0eef915073f0033b2e5ade3bc713d05f7a3fd73a7e21f5c7a90500"
+    },
+    {
+      "assetPath": "browserAll.e08c7865.js",
+      "bytes": 46844,
+      "sha256": "35b3a3ff0a42e744a61feac23c76be895adea911a7521bfe816e5c46aff64843"
+    },
+    {
+      "assetPath": "index.c6417d91.js",
+      "bytes": 676158,
+      "sha256": "afdb63f0674f1f5098c624a4c36534747ba98d6f1e15e22e9b0682506a40d8d1"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 10812,
+      "sha256": "bf6c91a55a4a7bd8406aa544e4b2e2347a327cbc370bc21e56e4a20b0f952aa1"
+    },
+    {
+      "assetPath": "index.runtime.8b23d3a6.js",
+      "bytes": 1103,
+      "sha256": "60c49c506c1b7c32c426167761d5dc1863524941798c560e0aeb0e344c14ab26"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 900,
+      "sha256": "5a6ff45cdd85ec969022523220f252351f26d6916633b80db3bdd615bbf0fc4b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 846,
+      "sha256": "af709b926aa29ed229ba61bdce8857e6210a35b49d5b8761bfac364057bb8681"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 143,
+      "sha256": "f6da63b73a641c0cf00f1311b0f1b3a71bdfb1145df1dc0219d64032ea72f3b3"
+    },
+    {
+      "assetPath": "WebGLRenderer.3827d29d.js",
+      "bytes": 72307,
+      "sha256": "9e112d09a98aa15dd454390e1d914d8b6236b988414d4ab0b38041d4ae135938"
+    },
+    {
+      "assetPath": "WebGPURenderer.45117168.js",
+      "bytes": 56943,
+      "sha256": "0e145340406281c9709326ca7539ae56fded22446653f6f40328d7047143b141"
+    },
+    {
+      "assetPath": "WebGPURenderer.4b5d4199.js",
+      "bytes": 43797,
+      "sha256": "e09ac2f1b6701c3961a6364f719a0394a7f52a15e47f94cbbc696dce6428be30"
+    },
+    {
+      "assetPath": "webworkerAll.fe8881ed.js",
+      "bytes": 2222,
+      "sha256": "8efb44dfc8ee29ee6c1a05686fdd709cc61268bf6911e3bbf4cf2e840f1610b2"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

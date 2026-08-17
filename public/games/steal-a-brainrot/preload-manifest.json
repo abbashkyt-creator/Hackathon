@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/steal-a-brainrot/index.html",
+    "/games/steal-a-brainrot/js/poki-sdk-shim.js",
+    "/games/steal-a-brainrot/js/tiptap-platform-bridge.js",
+    "/games/steal-a-brainrot/playcanvas-stable.min.js",
+    "/games/steal-a-brainrot/files/assets/231280462/1/colyseus.js",
+    "/games/steal-a-brainrot/__settings__.js",
+    "/games/steal-a-brainrot/__modules__.js",
+    "/games/steal-a-brainrot/__start__.js"
+  ]
+}

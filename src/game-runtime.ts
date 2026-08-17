@@ -368,6 +368,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "grass-cutter": { embedded: true, preloadManifest: "/games/grass-cutter/preload-manifest.json", assetManifest: "/games/grass-cutter/MIRROR-MANIFEST.json", prepareByMount: true },
   "color-merge-lines": { embedded: true, preloadManifest: "/games/color-merge-lines/preload-manifest.json", assetManifest: "/games/color-merge-lines/MIRROR-MANIFEST.json", prepareByMount: true },
   "roller": { embedded: true, preloadManifest: "/games/roller/preload-manifest.json", assetManifest: "/games/roller/MIRROR-MANIFEST.json", prepareByMount: true },
+  "stickman-maze-run": { embedded: true, preloadManifest: "/games/stickman-maze-run/preload-manifest.json", assetManifest: "/games/stickman-maze-run/MIRROR-MANIFEST.json", prepareByMount: true },
+  "dwerg": { embedded: true, preloadManifest: "/games/dwerg/preload-manifest.json", assetManifest: "/games/dwerg/MIRROR-MANIFEST.json", prepareByMount: true },
+  "hockey-taka": { embedded: true, preloadManifest: "/games/hockey-taka/preload-manifest.json", assetManifest: "/games/hockey-taka/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

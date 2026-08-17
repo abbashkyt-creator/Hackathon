@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/dwerg/index.html",
+    "/games/dwerg/js/poki-sdk-shim.js",
+    "/games/dwerg/js/tiptap-platform-bridge.js"
+  ]
+}

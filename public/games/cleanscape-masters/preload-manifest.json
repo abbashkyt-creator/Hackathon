@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/cleanscape-masters/index.html",
+    "/games/cleanscape-masters/js/poki-sdk-shim.js",
+    "/games/cleanscape-masters/js/tiptap-platform-bridge.js",
+    "/games/cleanscape-masters/files/assets/268980986/1/loadingLogo.js",
+    "/games/cleanscape-masters/playcanvas-stable.min.js",
+    "/games/cleanscape-masters/__settings__.js",
+    "/games/cleanscape-masters/__modules__.js",
+    "/games/cleanscape-masters/__start__.js"
+  ]
+}

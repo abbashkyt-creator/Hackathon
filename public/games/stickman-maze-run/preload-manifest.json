@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/stickman-maze-run/index.html",
+    "/games/stickman-maze-run/js/poki-sdk-shim.js",
+    "/games/stickman-maze-run/js/tiptap-platform-bridge.js",
+    "/games/stickman-maze-run/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/hockey-taka/index.html",
+    "/games/hockey-taka/js/poki-sdk-shim.js",
+    "/games/hockey-taka/js/tiptap-platform-bridge.js",
+    "/games/hockey-taka/js/tiptap-inline-1.js"
+  ]
+}
