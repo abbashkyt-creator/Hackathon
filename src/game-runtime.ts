@@ -392,6 +392,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "buck-bounce": { embedded: true, preloadManifest: "/games/buck-bounce/preload-manifest.json", assetManifest: "/games/buck-bounce/MIRROR-MANIFEST.json", prepareByMount: true },
   "kigurumi-dress-up": { embedded: true, preloadManifest: "/games/kigurumi-dress-up/preload-manifest.json", assetManifest: "/games/kigurumi-dress-up/MIRROR-MANIFEST.json", prepareByMount: true },
   "bee-sort-by-sam": { embedded: true, preloadManifest: "/games/bee-sort-by-sam/preload-manifest.json", assetManifest: "/games/bee-sort-by-sam/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cafe-bara": { embedded: true, preloadManifest: "/games/cafe-bara/preload-manifest.json", assetManifest: "/games/cafe-bara/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -2,6 +2,9 @@
   "critical": [
     "/games/cafe-bara/index.html",
     "/games/cafe-bara/js/poki-sdk-shim.js",
-    "/games/cafe-bara/js/tiptap-platform-bridge.js"
+    "/games/cafe-bara/js/tiptap-platform-bridge.js",
+    "/games/cafe-bara/js/tiptap-inline-1.js",
+    "/games/cafe-bara/js/tiptap-inline-2.js",
+    "/games/cafe-bara/js/tiptap-inline-3.js"
   ]
 }
