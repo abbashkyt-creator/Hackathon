@@ -1,0 +1,70 @@
+{
+  "name": "metamon",
+  "sourcePage": "https://poki.com/en/g/metamon",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 821,
+      "sha256": "335ec6f3febac3508bef58bbc086268ffb8a67bbf06474978761b08f0f13f932",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 161,
+      "sha256": "b587773235eb68edfc68d8d8f1e3eb68802bdda9096b2ac74ab2c795529b54c5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 904,
+      "sha256": "f9fbdc102a7f29f64400624e214a6e6cf6057c0cca673771f4e1f4d5cb6ef5e6",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 848,
+      "sha256": "77903940de7ca3a4692b212b32458db8e6b07b43ca040ec5f2aaaaca9d6bb4d7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 193,
+      "sha256": "a1284fc55907593348370f93d7c8b87d8fbea2924a45dbabb4ddfb4a9d3744bb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 821,
+      "sha256": "335ec6f3febac3508bef58bbc086268ffb8a67bbf06474978761b08f0f13f932"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 904,
+      "sha256": "f9fbdc102a7f29f64400624e214a6e6cf6057c0cca673771f4e1f4d5cb6ef5e6"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1352,
+      "sha256": "620e2de7f005d2b055a02c3e8fdbdd97d0237aef2fba07a584e735c71249010b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 848,
+      "sha256": "77903940de7ca3a4692b212b32458db8e6b07b43ca040ec5f2aaaaca9d6bb4d7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 193,
+      "sha256": "a1284fc55907593348370f93d7c8b87d8fbea2924a45dbabb4ddfb4a9d3744bb"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

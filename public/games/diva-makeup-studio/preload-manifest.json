@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/diva-makeup-studio/index.html",
+    "/games/diva-makeup-studio/js/poki-sdk-shim.js",
+    "/games/diva-makeup-studio/js/tiptap-platform-bridge.js",
+    "/games/diva-makeup-studio/js/tiptap-inline-1.js"
+  ]
+}

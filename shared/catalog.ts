@@ -338,6 +338,11 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "free-skate": { creatorId: "free-skate", creatorName: "Free Skate", creatorLabel: "BY FREE SKATE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "alien-raid-monster-evolution": { creatorId: "alien-raid-monster-evolution", creatorName: "Alien Raid Monster Evolution", creatorLabel: "BY ALIEN RAID MONSTER EVOLUTION · LOCAL SOURCE MIRROR", category: "Arcade" },
   "tuning-car-racing": { creatorId: "tuning-car-racing", creatorName: "Tuning Car Racing", creatorLabel: "BY TUNING CAR RACING · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "metamon": { creatorId: "metamon", creatorName: "Metamon", creatorLabel: "BY METAMON · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "crazy-race": { creatorId: "crazy-race", creatorName: "Crazy Race", creatorLabel: "BY CRAZY RACE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "diva-makeup-studio": { creatorId: "diva-makeup-studio", creatorName: "Diva Makeup Studio", creatorLabel: "BY DIVA MAKEUP STUDIO · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "flat-baseball": { creatorId: "flat-baseball", creatorName: "Flat Baseball", creatorLabel: "BY FLAT BASEBALL · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cat-simulator": { creatorId: "cat-simulator", creatorName: "Cat Simulator", creatorLabel: "BY CAT SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

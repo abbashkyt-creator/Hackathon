@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/metamon/index.html",
+    "/games/metamon/js/poki-sdk-shim.js",
+    "/games/metamon/js/tiptap-platform-bridge.js",
+    "/games/metamon/js/tiptap-inline-1.js"
+  ]
+}

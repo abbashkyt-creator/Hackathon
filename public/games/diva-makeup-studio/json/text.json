@@ -1,0 +1,170 @@
+{
+  "font0": {
+    "en": "Fredoka",
+    "fr": "Fredoka",
+    "de": "Fredoka",
+    "pt": "Fredoka",
+    "es": "Fredoka"
+  },
+  "vibeStyle": {
+    "en": "Vibe Rating",
+    "fr": "Style Vibe",
+    "de": "Style-Wert",
+    "pt": "Estilo Vibe",
+    "es": "Nivel Vibe"
+  },
+  "vibe0": {
+    "en": "Drama Queen",
+    "fr": "Reine Drama",
+    "de": "Drama Queen",
+    "pt": "Drama Queen",
+    "es": "Reina Drama"
+  },
+  "vibe1": {
+    "en": "Rebel Chic",
+    "fr": "Chic Rebelle",
+    "de": "Rebel Chic",
+    "pt": "Chique Rebelde",
+    "es": "Chic Rebelde"
+  },
+  "vibe2": {
+    "en": "Casual Cool",
+    "fr": "Cool Relax",
+    "de": "Locker Cool",
+    "pt": "Cool Casual",
+    "es": "Cool Casual"
+  },
+  "vibe3": {
+    "en": "Savage Style",
+    "fr": "Style Audacieux",
+    "de": "Wilder Style",
+    "pt": "Estilo Ousado",
+    "es": "Estilo Salvaje"
+  },
+  "vibe4": {
+    "en": "Party Princess",
+    "fr": "Princesse Fête",
+    "de": "Party Prinzessin",
+    "pt": "Princesa Festa",
+    "es": "Princesa Party"
+  },
+  "vibe5": {
+    "en": "Fresh Face",
+    "fr": "Visage Frais",
+    "de": "Frischer Look",
+    "pt": "Rosto Fresco",
+    "es": "Cara Fresca"
+  },
+  "vibe6": {
+    "en": "Zero Chill",
+    "fr": "Zéro Calme",
+    "de": "Null Chill",
+    "pt": "Sem Limites",
+    "es": "Cero Chill"
+  },
+  "vibe7": {
+    "en": "No Rules",
+    "fr": "Sans Règles",
+    "de": "Keine Regeln",
+    "pt": "Sem Regras",
+    "es": "Sin Reglas"
+  },
+  "vibe8": {
+    "en": "Big Energy",
+    "fr": "Grosse Énergie",
+    "de": "Viel Energie",
+    "pt": "Muita Energia",
+    "es": "Gran Energía"
+  },
+  "vibe9": {
+    "en": "Boss Look",
+    "fr": "Look Boss",
+    "de": "Boss Look",
+    "pt": "Look Poder",
+    "es": "Look Jefa"
+  },
+  "theme0": {
+    "en": "Random Mix",
+    "fr": "Mix Surprise",
+    "de": "Zufallsmix",
+    "pt": "Mistura Louca",
+    "es": "Mezcla Loca"
+  },
+  "theme1": {
+    "en": "Perfect Pastel",
+    "fr": "Pastel Parfait",
+    "de": "Pastell Perfekt",
+    "pt": "Pastel Perfeito",
+    "es": "Pastel Perfecto"
+  },
+  "theme2": {
+    "en": "Purple Magic",
+    "fr": "Magie Violette",
+    "de": "Lila Magie",
+    "pt": "Magia Roxa",
+    "es": "Magia Púrpura"
+  },
+  "theme3": {
+    "en": "Cool Crush",
+    "fr": "Crush Cool",
+    "de": "Cool Crush",
+    "pt": "Paixão Cool",
+    "es": "Crush Cool"
+  },
+  "theme4": {
+    "en": "Neon Splash",
+    "fr": "Splash Néon",
+    "de": "Neon Splash",
+    "pt": "Splash Neon",
+    "es": "Splash Neón"
+  },
+  "theme5": {
+    "en": "Sunshine Glow",
+    "fr": "Éclat Soleil",
+    "de": "Sonnen-Glow",
+    "pt": "Brilho Solar",
+    "es": "Brillo Sol"
+  },
+  "theme6": {
+    "en": "Emerald Dream",
+    "fr": "Rêve Émeraude",
+    "de": "Smaragd Traum",
+    "pt": "Sonho Esmeralda",
+    "es": "Sueño Esmeralda"
+  },
+  "theme7": {
+    "en": "Fresh'n'Fruity",
+    "fr": "Frais & Fruité",
+    "de": "Frisch & Fruchtig",
+    "pt": "Fresco & Frutado",
+    "es": "Fresco y Frutal"
+  },
+  "theme8": {
+    "en": "Flower Power",
+    "fr": "Flower Power",
+    "de": "Flower Power",
+    "pt": "Flower Power",
+    "es": "Flower Power"
+  },
+  "theme9": {
+    "en": "Gem Pop",
+    "fr": "Pop Gemme",
+    "de": "Edel Pop",
+    "pt": "Pop Joia",
+    "es": "Pop Gema"
+  },
+  "theme10": {
+    "en": "Glaze Craze",
+    "fr": "Folie Glacée",
+    "de": "Glanz-Fieber",
+    "pt": "Brilho Mania",
+    "es": "Locura Brillo"
+  },
+  "theme11": {
+    "en": "Candy Crush",
+    "fr": "Bonbon Fun",
+    "de": "Candy Spaß",
+    "pt": "Doce Mania",
+    "es": "Dulce Fun"
+  }
+}

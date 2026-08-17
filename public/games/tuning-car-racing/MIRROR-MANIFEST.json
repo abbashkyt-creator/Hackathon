@@ -1,0 +1,70 @@
+{
+  "name": "tuning-car-racing",
+  "sourcePage": "https://poki.com/en/g/tuning-car-racing",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "1c6cf42696819e1621aed89ef559567868b91789095d8fadaa3b53905606e747",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "59f0e714ca694735321a1827206757ae637df11b55ec8bdfbb0e9ea16b6294c2",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "d9388d4f6609e5c5ba368f347ec85a78c4fc2473fe8aac502a5dbb8580517ebd",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "3bf5f749e2b440d748dadf5383705bd377623a8edca10fb11bb0f6cfcb9dfce1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "5d9e3eaf128b14cc60b3ca38f66133de275a656a546cd6f6505b024380c61f37",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "1c6cf42696819e1621aed89ef559567868b91789095d8fadaa3b53905606e747"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "d9388d4f6609e5c5ba368f347ec85a78c4fc2473fe8aac502a5dbb8580517ebd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1234,
+      "sha256": "26a7bc3eecab63cc632eecf48be40eee66b14833cdbb9382a4d9dc846f1a7b45"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "3bf5f749e2b440d748dadf5383705bd377623a8edca10fb11bb0f6cfcb9dfce1"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "5d9e3eaf128b14cc60b3ca38f66133de275a656a546cd6f6505b024380c61f37"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

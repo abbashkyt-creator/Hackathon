@@ -1,0 +1,240 @@
+{
+  "name": "diva-makeup-studio",
+  "sourcePage": "https://poki.com/en/g/diva-makeup-studio",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1827,
+      "sha256": "816c0cc4f666cb12c0479bbf0db98d25b43c19ed50b00061d11fba1e190f9b26",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "18af06cc532d5c936344c356ce7c5ebba36006d7a26b91cb485078ee6df81cc7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "fd128fba5fca932e423ab132c76eb7b4c4fcb88cc3fcbb541d6f45c8346445c2",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "deed33cb067c64e5e18b9fbc11c497c4caf31f89b57d97f175a8c958bedd20f7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "f40e9f460d5a4d38995848334bec21a25176784df864b6c74d1799879ecfd1fa",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "app.js",
+      "bytes": 168302,
+      "sha256": "e43d13c73dd3c1656d3ed8af7e03fbd195dcb7a254b7f8474161f5dabe27a3f0"
+    },
+    {
+      "assetPath": "audio/music.mp3",
+      "bytes": 715823,
+      "sha256": "ef51a3c0931ba2ceb1f5d74f04ef3cea3ec653d36bf350eba61aaf1438f0fd37"
+    },
+    {
+      "assetPath": "audio/sound.mp3",
+      "bytes": 1617128,
+      "sha256": "f91ebd0962efa721676b65e46750c3a34aa3a7b28bbbf8cd0c646fe245f9b62c"
+    },
+    {
+      "assetPath": "FileSaver.js",
+      "bytes": 5818,
+      "sha256": "393cdb028c7055a68a4a1e3dfd28958a64d01f99f9a2d1884bb54869af834a45"
+    },
+    {
+      "assetPath": "gsap.min.js",
+      "bytes": 60111,
+      "sha256": "5c35ab89df1a197f8d670498ec9cd3bbaa1602b23bd52c3e69467d1ddd0fe66a"
+    },
+    {
+      "assetPath": "Howler.min.js",
+      "bytes": 34630,
+      "sha256": "3dc2e18f59b6ea49821ee8a56f8d98d5526f61e5c0cc41fbbbef2feb7969ea41"
+    },
+    {
+      "assetPath": "images/bgMain.jpg",
+      "bytes": 42438,
+      "sha256": "eba972fc0cabb49bdf5d9f40c970c8fe8e606223b3feb9608a424fe77b7cef8e"
+    },
+    {
+      "assetPath": "images/face000.jpg",
+      "bytes": 117332,
+      "sha256": "dbf82b4a0d7c7239650e9cafe1695b51e85256246808e69f7823aa23d53a0017"
+    },
+    {
+      "assetPath": "images/face001.jpg",
+      "bytes": 109968,
+      "sha256": "362e843f053337d395cfd8f4b412774861d3b487df5006cefdf535598dc28c54"
+    },
+    {
+      "assetPath": "images/face002.jpg",
+      "bytes": 73424,
+      "sha256": "376dba0be93d48ab16f3a20de3491cdda9681d6b03b31d2033ec3c8975deb9d3"
+    },
+    {
+      "assetPath": "images/face003.jpg",
+      "bytes": 89983,
+      "sha256": "c23f2284110acd80c61c48e584e8cf8ac4da39479acd4f20aa272e47f7157a1e"
+    },
+    {
+      "assetPath": "images/face01.jpg",
+      "bytes": 8941,
+      "sha256": "0fef68b45042318f18b7f6617f724691c02caa2a70e800e441dc3be2d912f351"
+    },
+    {
+      "assetPath": "images/face100.jpg",
+      "bytes": 102110,
+      "sha256": "e14277d51e9832e603e4537e3faf2830bc0e3230a0653dc0fecbcd0f237922a3"
+    },
+    {
+      "assetPath": "images/face101.jpg",
+      "bytes": 100639,
+      "sha256": "e0463a87ef0122ee8cd68049e747a5193cdbb3d82ed86986fda329b6e5969347"
+    },
+    {
+      "assetPath": "images/face102.jpg",
+      "bytes": 63576,
+      "sha256": "8f819de73c6046db211d47183ed9a119ac975daf28b61c269469b96cf4a05061"
+    },
+    {
+      "assetPath": "images/face103.jpg",
+      "bytes": 86498,
+      "sha256": "0ffdf4110498923cc43fb446aa63c4bdeb9a336c6582c23b2994f06422fa22f5"
+    },
+    {
+      "assetPath": "images/face11.jpg",
+      "bytes": 6194,
+      "sha256": "43e573cd944996adf0c180e00915ce5d061a393e2b04597a19bbeaf785c3f385"
+    },
+    {
+      "assetPath": "images/face200.jpg",
+      "bytes": 110098,
+      "sha256": "c000199ed24ca15cf0344fea451b12cbfead67261c1f550aaffb84cb225411db"
+    },
+    {
+      "assetPath": "images/face201.jpg",
+      "bytes": 103428,
+      "sha256": "319ee73a0e361342041932eceb79a6989307be914282252b5e05ae6bf5ab8fde"
+    },
+    {
+      "assetPath": "images/face202.jpg",
+      "bytes": 85545,
+      "sha256": "7134835b7b08b01c0d8ba2a754812620424c3fa6938b18b12fcca0501a15baf6"
+    },
+    {
+      "assetPath": "images/face203.jpg",
+      "bytes": 99966,
+      "sha256": "c371494e14518a1b5da638fd5a565464d4656aa2f2d64663d42f7ac4d72547a6"
+    },
+    {
+      "assetPath": "images/face21.jpg",
+      "bytes": 6869,
+      "sha256": "bf2eece4c1e83c9bfc004ce005ab24bcadaa31d21ffcea2ed8e7c377f4d607a3"
+    },
+    {
+      "assetPath": "images/flare.png",
+      "bytes": 30552,
+      "sha256": "96d060aafcadc347ef28a3c93fd3b01d29a98472b53116e68e1693f9685e0cb7"
+    },
+    {
+      "assetPath": "images/jewellery.png",
+      "bytes": 89832,
+      "sha256": "80af55c7781852af421ed4395e5226966d3768f43e99c4b7c190310b4bdfaa1b"
+    },
+    {
+      "assetPath": "images/loader.png",
+      "bytes": 26133,
+      "sha256": "757d4aa5bec9e5288df03adf5f921ba4089f989ec7605b8c8f678ebcbb6995a6"
+    },
+    {
+      "assetPath": "images/loadSpinner.png",
+      "bytes": 1007,
+      "sha256": "2a098e8224419d0e10ab9ad1f7cecca460e6b4c792bbe8da1eb73f6c3f87325a"
+    },
+    {
+      "assetPath": "images/makeup.png",
+      "bytes": 346292,
+      "sha256": "b34c9b93e95e827e1b2c7c1467cf4ff151864bd59819eadc6b3385c93f72fffd"
+    },
+    {
+      "assetPath": "images/solids.png",
+      "bytes": 521797,
+      "sha256": "222a3e745495c63aed26deb488be6eb5d298626d4cd179a6a7b585546106fc94"
+    },
+    {
+      "assetPath": "images/splashLogo.png",
+      "bytes": 17908,
+      "sha256": "7192fd7f93a0c98e8073d2d902421bffbd9e9d9f5dc8cfe8a914e2bd3064baad"
+    },
+    {
+      "assetPath": "images/stickers.png",
+      "bytes": 153201,
+      "sha256": "1a1c5451a530555a68bc0b37297521b584306f0b9c4ca926705eb6bb3c91b7a7"
+    },
+    {
+      "assetPath": "images/uiButs.png",
+      "bytes": 443686,
+      "sha256": "3bd22692be83b6bd317c38f7b3f2b8201ea81d74a488e4eac1cac1676e3481be"
+    },
+    {
+      "assetPath": "images/uiElements.png",
+      "bytes": 272371,
+      "sha256": "a79d43ca86a81a21dfc93eff1ddc4b414b514ce89476e9d066ff70aa93ab24c2"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1827,
+      "sha256": "816c0cc4f666cb12c0479bbf0db98d25b43c19ed50b00061d11fba1e190f9b26"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "fd128fba5fca932e423ab132c76eb7b4c4fcb88cc3fcbb541d6f45c8346445c2"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 560,
+      "sha256": "c9fdddce26002e922f5347ee9dcf10196a66f3067eb2ad1ae431d749f04cea58"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "deed33cb067c64e5e18b9fbc11c497c4caf31f89b57d97f175a8c958bedd20f7"
+    },
+    {
+      "assetPath": "json/text.json",
+      "bytes": 3661,
+      "sha256": "3956dd363c666fb6ac1b8521e97bfd11d909037c16e6ecd2946ebc7330b52c86"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "f40e9f460d5a4d38995848334bec21a25176784df864b6c74d1799879ecfd1fa"
+    },
+    {
+      "assetPath": "VisibilityManager.js",
+      "bytes": 2601,
+      "sha256": "68e5e362b3a06bbb7be5dfb5d773bcc1305da05dc5f9eefaa1cacc879ffc7df2"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

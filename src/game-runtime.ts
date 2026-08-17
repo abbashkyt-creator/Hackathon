@@ -296,6 +296,11 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "free-skate": { embedded: true, preloadManifest: "/games/free-skate/preload-manifest.json", assetManifest: "/games/free-skate/MIRROR-MANIFEST.json", prepareByMount: true },
   "alien-raid-monster-evolution": { embedded: true, preloadManifest: "/games/alien-raid-monster-evolution/preload-manifest.json", assetManifest: "/games/alien-raid-monster-evolution/MIRROR-MANIFEST.json", prepareByMount: true },
   "tuning-car-racing": { embedded: true, preloadManifest: "/games/tuning-car-racing/preload-manifest.json", assetManifest: "/games/tuning-car-racing/MIRROR-MANIFEST.json", prepareByMount: true },
+  "metamon": { embedded: true, preloadManifest: "/games/metamon/preload-manifest.json", assetManifest: "/games/metamon/MIRROR-MANIFEST.json", prepareByMount: true },
+  "crazy-race": { embedded: true, preloadManifest: "/games/crazy-race/preload-manifest.json", assetManifest: "/games/crazy-race/MIRROR-MANIFEST.json", prepareByMount: true },
+  "diva-makeup-studio": { embedded: true, preloadManifest: "/games/diva-makeup-studio/preload-manifest.json", assetManifest: "/games/diva-makeup-studio/MIRROR-MANIFEST.json", prepareByMount: true },
+  "flat-baseball": { embedded: true, preloadManifest: "/games/flat-baseball/preload-manifest.json", assetManifest: "/games/flat-baseball/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cat-simulator": { embedded: true, preloadManifest: "/games/cat-simulator/preload-manifest.json", assetManifest: "/games/cat-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

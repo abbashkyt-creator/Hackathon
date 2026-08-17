@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/flat-baseball/index.html",
+    "/games/flat-baseball/js/poki-sdk-shim.js",
+    "/games/flat-baseball/js/tiptap-platform-bridge.js",
+    "/games/flat-baseball/js/tiptap-inline-1.js"
+  ]
+}

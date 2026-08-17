@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/cat-simulator/index.html",
+    "/games/cat-simulator/js/poki-sdk-shim.js",
+    "/games/cat-simulator/js/tiptap-platform-bridge.js",
+    "/games/cat-simulator/js/tiptap-inline-1.js"
+  ]
+}

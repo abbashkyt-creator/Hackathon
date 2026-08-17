@@ -1,0 +1,70 @@
+{
+  "name": "alien-raid-monster-evolution",
+  "sourcePage": "https://poki.com/en/g/alien-raid-monster-evolution",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 863,
+      "sha256": "73d4d7e5e5a93a12fb2150972fb7f9fc35bc9200f0b858bcd9b378b7e70daa70",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 182,
+      "sha256": "ba8ab3177d6b0c5d8b7ecfdffe8beb40c0118b866cff4379f2b7b1d51c765d44",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 946,
+      "sha256": "e58a8ae448df2bdf292ab9adbb180737bf4c7090d85592e8d54374132a104b45",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 869,
+      "sha256": "787f609e8555148f42ba2c884748a6c66aac226325f5557aa1abdbc59f323016",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 277,
+      "sha256": "2d2eb8aca1f7bb05db808f9e41f55a1da804b6f797dd58c1693b2c9ff7e93c63",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 863,
+      "sha256": "73d4d7e5e5a93a12fb2150972fb7f9fc35bc9200f0b858bcd9b378b7e70daa70"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 946,
+      "sha256": "e58a8ae448df2bdf292ab9adbb180737bf4c7090d85592e8d54374132a104b45"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1254,
+      "sha256": "1263aa8c88900a415ed2896be7d9f80c059d59d553791fd0c1f9cd414a5c81d5"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 869,
+      "sha256": "787f609e8555148f42ba2c884748a6c66aac226325f5557aa1abdbc59f323016"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 277,
+      "sha256": "2d2eb8aca1f7bb05db808f9e41f55a1da804b6f797dd58c1693b2c9ff7e93c63"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,70 @@
+{
+  "name": "crazy-race",
+  "sourcePage": "https://poki.com/en/g/crazy-race",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "4cc467d543d9191a660d67641112397b46fd53d283a585fe440ee6635cae002b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "9094a48ddca16fd9ce93f32beeeace557f79958e5781a6de1b647f66314f1974",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "17e55af4ea1ab25b8940e371f894f07738dd4ef77e7be471d679b8d3e8b04068",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "d02bc240f03938fdc869b4efabd594cecff495b620080697ed7a387e161eca60",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "e0f373cad67d8fb5e9e86641ff0860c0168ccb9b0fee0ba5732cf450ab5b8887",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "4cc467d543d9191a660d67641112397b46fd53d283a585fe440ee6635cae002b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "17e55af4ea1ab25b8940e371f894f07738dd4ef77e7be471d679b8d3e8b04068"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1032,
+      "sha256": "717f4910615778b97b52ed2dac223ed608c51c8f1fe1b59c8279b93420bc5215"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "d02bc240f03938fdc869b4efabd594cecff495b620080697ed7a387e161eca60"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "e0f373cad67d8fb5e9e86641ff0860c0168ccb9b0fee0ba5732cf450ab5b8887"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

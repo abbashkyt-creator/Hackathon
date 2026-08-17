@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/crazy-race/index.html",
+    "/games/crazy-race/js/poki-sdk-shim.js",
+    "/games/crazy-race/js/tiptap-platform-bridge.js",
+    "/games/crazy-race/js/tiptap-inline-1.js"
+  ]
+}
