@@ -1,0 +1,75 @@
+{
+  "name": "planet-destruction",
+  "sourcePage": "https://poki.com/en/g/planet-destruction",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 897,
+      "sha256": "ed92ff7a48c3a78e3f58a3a9bd450444e31794b7d55eae2e4a794af3f59152e7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "58147b22d1a334f75d7daeb2da64f49c47a099fa4463076d62d30da82542f2f2",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "05df0f8a839a9fda974617824dd59aba9a3deaf7f766cc99fa2b28a2ae3eb71c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "d67d73a6a541e03b0f539e81c497676aea622dc21c42a7149ab1e05c4e3c013e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 292,
+      "sha256": "3148251f75ccf297ace0b7d5d3e0e828a2f8e6f3f1507d8cfce5694eea720b02",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 897,
+      "sha256": "ed92ff7a48c3a78e3f58a3a9bd450444e31794b7d55eae2e4a794af3f59152e7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "05df0f8a839a9fda974617824dd59aba9a3deaf7f766cc99fa2b28a2ae3eb71c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 993,
+      "sha256": "2dcb7968c812fe4dec2ba3529e9e07805a39395930bea6393481032ff948683d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 214,
+      "sha256": "0418c63557f6f6aab62f6875e00fb207e9120b8b318c3297525091dd94cc00b7"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "d67d73a6a541e03b0f539e81c497676aea622dc21c42a7149ab1e05c4e3c013e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 292,
+      "sha256": "3148251f75ccf297ace0b7d5d3e0e828a2f8e6f3f1507d8cfce5694eea720b02"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

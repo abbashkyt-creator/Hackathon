@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/eggsplosion/index.html",
+    "/games/eggsplosion/js/poki-sdk-shim.js",
+    "/games/eggsplosion/js/tiptap-platform-bridge.js",
+    "/games/eggsplosion/js/tiptap-inline-1.js"
+  ]
+}

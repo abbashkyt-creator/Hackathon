@@ -375,6 +375,12 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "brain-test-special": { creatorId: "brain-test-special", creatorName: "Brain Test Special", creatorLabel: "BY BRAIN TEST SPECIAL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cat-bird": { creatorId: "cat-bird", creatorName: "Cat Bird", creatorLabel: "BY CAT BIRD · LOCAL SOURCE MIRROR", category: "Arcade" },
   "pizza-planet": { creatorId: "pizza-planet", creatorName: "Pizza Planet", creatorLabel: "BY PIZZA PLANET · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "eggsplosion": { creatorId: "eggsplosion", creatorName: "Eggsplosion", creatorLabel: "BY EGGSPLOSION · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "planet-destruction": { creatorId: "planet-destruction", creatorName: "Planet Destruction", creatorLabel: "BY PLANET DESTRUCTION · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "tear-blocks-down": { creatorId: "tear-blocks-down", creatorName: "Tear Blocks Down", creatorLabel: "BY TEAR BLOCKS DOWN · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "little-tricky-prankster": { creatorId: "little-tricky-prankster", creatorName: "Little Tricky Prankster", creatorLabel: "BY LITTLE TRICKY PRANKSTER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "no-pain-no-gain": { creatorId: "no-pain-no-gain", creatorName: "No Pain No Gain", creatorLabel: "BY NO PAIN NO GAIN · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cube-builder": { creatorId: "cube-builder", creatorName: "Cube Builder", creatorLabel: "BY CUBE BUILDER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

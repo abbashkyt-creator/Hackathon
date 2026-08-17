@@ -333,6 +333,12 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "brain-test-special": { embedded: true, preloadManifest: "/games/brain-test-special/preload-manifest.json", assetManifest: "/games/brain-test-special/MIRROR-MANIFEST.json", prepareByMount: true },
   "cat-bird": { embedded: true, preloadManifest: "/games/cat-bird/preload-manifest.json", assetManifest: "/games/cat-bird/MIRROR-MANIFEST.json", prepareByMount: true },
   "pizza-planet": { embedded: true, preloadManifest: "/games/pizza-planet/preload-manifest.json", assetManifest: "/games/pizza-planet/MIRROR-MANIFEST.json", prepareByMount: true },
+  "eggsplosion": { embedded: true, preloadManifest: "/games/eggsplosion/preload-manifest.json", assetManifest: "/games/eggsplosion/MIRROR-MANIFEST.json", prepareByMount: true },
+  "planet-destruction": { embedded: true, preloadManifest: "/games/planet-destruction/preload-manifest.json", assetManifest: "/games/planet-destruction/MIRROR-MANIFEST.json", prepareByMount: true },
+  "tear-blocks-down": { embedded: true, preloadManifest: "/games/tear-blocks-down/preload-manifest.json", assetManifest: "/games/tear-blocks-down/MIRROR-MANIFEST.json", prepareByMount: true },
+  "little-tricky-prankster": { embedded: true, preloadManifest: "/games/little-tricky-prankster/preload-manifest.json", assetManifest: "/games/little-tricky-prankster/MIRROR-MANIFEST.json", prepareByMount: true },
+  "no-pain-no-gain": { embedded: true, preloadManifest: "/games/no-pain-no-gain/preload-manifest.json", assetManifest: "/games/no-pain-no-gain/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cube-builder": { embedded: true, preloadManifest: "/games/cube-builder/preload-manifest.json", assetManifest: "/games/cube-builder/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

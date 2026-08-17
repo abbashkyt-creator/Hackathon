@@ -1,0 +1,85 @@
+{
+  "name": "cat-bird",
+  "sourcePage": "https://poki.com/en/g/cat-bird",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1440,
+      "sha256": "d25578e881a249f3f5bb287ce4b271422b03f516aa9aa8f68e9d0d364d4bb708",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "33319072adb5e82a624eca5d58868bcb989815ee1d27a0e8d8039df2cf5d5f1d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "5aa461ed83a66355ecc66af8110fcf26e865ef8e9d0e4743da4dff5c66828c41",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "15386066d091048f284671a98b1355567f779ef21a1e4b3e88097f4615274edb",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 242,
+      "sha256": "747dfb7a245c0ac224c50c139de4b3374dac19db88214a81a794ba5b01a06e41",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Cat Bird Poki.js",
+      "bytes": 3189097,
+      "sha256": "4e60f6acd8564ab7481626345a635b219fd7e33b2497ad2ade9f4767c5a9a7a2"
+    },
+    {
+      "assetPath": "favicon.png",
+      "bytes": 6179,
+      "sha256": "a8ff06c8b467fe79de1dc30899eb9a38cab39bb2adf67a6db6552c733f0c9940"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1440,
+      "sha256": "d25578e881a249f3f5bb287ce4b271422b03f516aa9aa8f68e9d0d364d4bb708"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "5aa461ed83a66355ecc66af8110fcf26e865ef8e9d0e4743da4dff5c66828c41"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 391,
+      "sha256": "ddb4e5048191c0dcc1ea3d05371d7910031a270a0e4a2dba9d17be001441af78"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 78,
+      "sha256": "66174087caade2114f5ff1caf4aab811a122586b0b50b345e69502cf396a893c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "15386066d091048f284671a98b1355567f779ef21a1e4b3e88097f4615274edb"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 242,
+      "sha256": "747dfb7a245c0ac224c50c139de4b3374dac19db88214a81a794ba5b01a06e41"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

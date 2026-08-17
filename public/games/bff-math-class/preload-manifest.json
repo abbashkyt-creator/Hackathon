@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/bff-math-class/index.html",
+    "/games/bff-math-class/js/poki-sdk-shim.js",
+    "/games/bff-math-class/js/tiptap-platform-bridge.js"
+  ]
+}

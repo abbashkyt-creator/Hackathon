@@ -1,0 +1,70 @@
+{
+  "name": "no-pain-no-gain",
+  "sourcePage": "https://poki.com/en/g/no-pain-no-gain",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 855,
+      "sha256": "eb76be949094a6efba6b053e5e7ba4a26ca110b5409f39d3088ad15ded78d45c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "229aa846238cadf1b4835d3e30ff2396c731174be4c2a56d5057df9ac97b80c0",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "db046176c147a9676c9006c0f81830eadcbd14ebfdea63438cad67728d5c385c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "0bee2bb37b3bf0bcc61eb953e90f6d8ec421da5fbc9fe3539f6b764f3ec6f55b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "48c5aa8389143401275c11d7cb6e59432b5dbecc1f98701e9e106dd95fafd426",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 855,
+      "sha256": "eb76be949094a6efba6b053e5e7ba4a26ca110b5409f39d3088ad15ded78d45c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "db046176c147a9676c9006c0f81830eadcbd14ebfdea63438cad67728d5c385c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1248,
+      "sha256": "f9b6c98607dee1d309532fd3696f7fd5e8861a8c66c325ef380fc11fbaea288d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "0bee2bb37b3bf0bcc61eb953e90f6d8ec421da5fbc9fe3539f6b764f3ec6f55b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "48c5aa8389143401275c11d7cb6e59432b5dbecc1f98701e9e106dd95fafd426"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

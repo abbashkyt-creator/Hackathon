@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/planet-destruction/index.html",
+    "/games/planet-destruction/js/poki-sdk-shim.js",
+    "/games/planet-destruction/js/tiptap-platform-bridge.js",
+    "/games/planet-destruction/js/tiptap-inline-1.js",
+    "/games/planet-destruction/js/tiptap-inline-2.js"
+  ]
+}

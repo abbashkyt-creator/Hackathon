@@ -1,0 +1,190 @@
+{
+  "name": "eggsplosion",
+  "sourcePage": "https://poki.com/en/g/eggsplosion",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1505,
+      "sha256": "e8c6530473add3e76597df771ac85d1f67fd38dd4708b178e4c45c6210efe7aa",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "87ff9cd659ccb6c3e4342290f0fd52760360bd9a7b1954d14ccda3376cccd9e0",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "268b6835b2fcea3f3e3a7c5cd17cdc9cfa9f90197017e6cdf91a4d0989a0fa7a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "c782de7232a9d43da39174bb99414651d0a257a0ec5a6934d6d154831b68f990",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "625277bd725868d21a4cf5ee4386a36827a7c52edd6a57860758cb54d5066b45",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 219,
+      "sha256": "9659465649b0371091910dc9bc90c4810081ba7ca0b03ff2e1898954a41f4973"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 89983,
+      "sha256": "1b0c6cbfd244cc33eb8392c739a9fcfb71409b3c44a169ef9eee9043dd0bdd25"
+    },
+    {
+      "assetPath": "fonts/Kaph-Regular.ttf",
+      "bytes": 569816,
+      "sha256": "8e868500fac8cdf3f4a33a27d506dfdb0a50f38e01e6d3e2f2c38a860b4fea22"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 226697,
+      "sha256": "9b827f8b0841956d05e4cf639b245ba06a1e0689d4d2789aa2eb79f6084e6ea3"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 99,
+      "sha256": "5bb01e8faf2dd167a1d82f80a6a04836ad61efe2352e3994a67561f37f5b399c"
+    },
+    {
+      "assetPath": "images/background-sheet0.webp",
+      "bytes": 1240,
+      "sha256": "373dade7cab4fb2eecbc0b1b00d3db06fc4e84b126fd491b24654350f37b34fe"
+    },
+    {
+      "assetPath": "images/chicken-sheet0.webp",
+      "bytes": 45578,
+      "sha256": "a6a31996480c5183358c5a7cc81d6e51c5d8337431f784fe356d07c9232aadd9"
+    },
+    {
+      "assetPath": "images/hpbarprogress-sheet0.webp",
+      "bytes": 44,
+      "sha256": "f6f60216506cf09d4e483b4a8e764eb51229a8f54eb5318014db45ebe6a126e7"
+    },
+    {
+      "assetPath": "images/loadingbarprogress-sheet0.webp",
+      "bytes": 44,
+      "sha256": "50bdb654de3196a6919250d883d48f6bf7e9ae1ba6ec1ee4d283c7872c73a86f"
+    },
+    {
+      "assetPath": "images/settingbackground-sheet0.webp",
+      "bytes": 128,
+      "sha256": "63688ea4a3f80216c5a1a6c18c6423bb8ea2ff661a52b146cbcca181a5f86fd0"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 24376,
+      "sha256": "5519924a03f362c64697c4e575b48fe255417785c1e59e2330982e48efeb0c21"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 26426,
+      "sha256": "dd7a239f79b21e92e19c3f974fa6fac8851fe85498d9e4b3c0f68f01bedebda1"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 44400,
+      "sha256": "f623ed62faaf75f1a033c306ddc7bcf799cd0179bf7e4ce1980a3e3b8f180ddb"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 1148,
+      "sha256": "12d129d24db05828ba614f4c477da32e505bafc6221f9c1de6d946824673d2a3"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 52,
+      "sha256": "9ac28f01ef55a2df4e56f2fb7d71743b220a38f8819b3ae46b37d1a81bafcc64"
+    },
+    {
+      "assetPath": "images/uimask-sheet0.webp",
+      "bytes": 42,
+      "sha256": "045e8b3d86948a595a3f330fcb1efa223a4d52450cbd2b91cf684a64a35ddff7"
+    },
+    {
+      "assetPath": "images/uiscroll-sheet0.webp",
+      "bytes": 44,
+      "sha256": "d4858613cb2e30b5c09f36c41f4aa0f219bcc8f1da0638e8f88d1ca2ed312eab"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1505,
+      "sha256": "e8c6530473add3e76597df771ac85d1f67fd38dd4708b178e4c45c6210efe7aa"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "268b6835b2fcea3f3e3a7c5cd17cdc9cfa9f90197017e6cdf91a4d0989a0fa7a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "c782de7232a9d43da39174bb99414651d0a257a0ec5a6934d6d154831b68f990"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "625277bd725868d21a4cf5ee4386a36827a7c52edd6a57860758cb54d5066b45"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1388908,
+      "sha256": "217e7dd34e66ddb7734600b590e50b1a1324cf17101709f0430cf2494297d976"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 121557,
+      "sha256": "978b2fa8597e02ef456cb7d750c60a26eff3722b6f6251ae145214952753bccf"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

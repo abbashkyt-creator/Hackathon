@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/no-pain-no-gain/index.html",
+    "/games/no-pain-no-gain/js/poki-sdk-shim.js",
+    "/games/no-pain-no-gain/js/tiptap-platform-bridge.js",
+    "/games/no-pain-no-gain/js/tiptap-inline-1.js"
+  ]
+}

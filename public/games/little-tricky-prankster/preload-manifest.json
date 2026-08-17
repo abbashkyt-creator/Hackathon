@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/little-tricky-prankster/index.html",
+    "/games/little-tricky-prankster/js/poki-sdk-shim.js",
+    "/games/little-tricky-prankster/js/tiptap-platform-bridge.js",
+    "/games/little-tricky-prankster/js/tiptap-inline-1.js"
+  ]
+}

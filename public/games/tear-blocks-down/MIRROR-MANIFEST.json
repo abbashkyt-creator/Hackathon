@@ -1,0 +1,85 @@
+{
+  "name": "tear-blocks-down",
+  "sourcePage": "https://poki.com/en/g/tear-blocks-down",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1551,
+      "sha256": "c255917cbd9ca923fd67f35f54c102b1eec2b3880a46b8e69d2855fa5a0c2736",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "255781cd06baf3dc97641749cf1347ffbe7ca0b1ba86656a4bc7ae4d27378571",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "4419dd44cd8fa4937b54963377117972806b51c7b0234cfce6b1bd5462bd41b2",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "d324274e991293d5aa1192bd632ae8a378339ccede9e20e4662e69bedeebefcc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "072ee1519574f1f08813c93b546ac83f374dfb2e4e8d34cf53a1043d450e105a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "icon.png",
+      "bytes": 6572,
+      "sha256": "a14cc0fb6b89a524ba382f39bef2f53ce52ede62d7efcee59f15ca258228a7a0"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1551,
+      "sha256": "c255917cbd9ca923fd67f35f54c102b1eec2b3880a46b8e69d2855fa5a0c2736"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "4419dd44cd8fa4937b54963377117972806b51c7b0234cfce6b1bd5462bd41b2"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 29115,
+      "sha256": "810515b721a1aaef47acc32dad6e1ead5998154de7154123a92bf51a84939ff4"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "d324274e991293d5aa1192bd632ae8a378339ccede9e20e4662e69bedeebefcc"
+    },
+    {
+      "assetPath": "playgama-bridge-config.json",
+      "bytes": 1818,
+      "sha256": "8a2fcc684b13e9181bee9daf70e9ec71f1eaf50cbc0dd599a7808b0be392288b"
+    },
+    {
+      "assetPath": "playgama-bridge.js",
+      "bytes": 661917,
+      "sha256": "daf6bf3eb17e0645f7f63c2f237695c4b6f079193ab2b0c7702ae5a38ea2fd5c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "072ee1519574f1f08813c93b546ac83f374dfb2e4e8d34cf53a1043d450e105a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

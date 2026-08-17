@@ -1,0 +1,75 @@
+{
+  "name": "tictoc-nightlife-fashion",
+  "sourcePage": "https://poki.com/en/g/tictoc-nightlife-fashion",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2819,
+      "sha256": "c9c8d63965f792e0e48cee6ad98b5cbdfd9f967b4627d247dabe764693b1f965",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 178,
+      "sha256": "20ad5ccdec2f898111bdb2f0d2d13782aabdcd69227c81e8346f5a3d97bcf999",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "5f2dd703ebd34cde3bf61c80bef87aad964f2669a10bd66f0937bb81628ae408",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "3905057c7ec5e64d707b91a422ef7e208a72633ec05d50a5c02b770efda5ba5d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 200,
+      "sha256": "e21b2b7f255103eec2a422cb826fe875fbcbe6b96161cfc5581f1fe89dbace5f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12486,
+      "sha256": "eada1ce7864e25cff7baece57bc31a9a27b65270d6019f3d70d7b7fbdd164d57"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2819,
+      "sha256": "c9c8d63965f792e0e48cee6ad98b5cbdfd9f967b4627d247dabe764693b1f965"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "5f2dd703ebd34cde3bf61c80bef87aad964f2669a10bd66f0937bb81628ae408"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "3905057c7ec5e64d707b91a422ef7e208a72633ec05d50a5c02b770efda5ba5d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 200,
+      "sha256": "e21b2b7f255103eec2a422cb826fe875fbcbe6b96161cfc5581f1fe89dbace5f"
+    },
+    {
+      "assetPath": "tictoc_nightlife_fashion.js",
+      "bytes": 2022992,
+      "sha256": "670b8b153f420adb2e2d759483cb1fe5952fb31cf8d1628150b57557158f5ec5"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
