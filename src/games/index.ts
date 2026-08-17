@@ -38,6 +38,8 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { NeedForMadnessGame } from "./NeedForMadnessGame";
+export { ScrewJamPuzzleGame } from "./ScrewJamPuzzleGame";
 export { DivaHairSalonGame } from "./DivaHairSalonGame";
 export { BlockSandboxGame } from "./BlockSandboxGame";
 export { MorphBallsGame } from "./MorphBallsGame";

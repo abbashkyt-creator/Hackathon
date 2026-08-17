@@ -400,6 +400,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "morph-balls": { embedded: true, preloadManifest: "/games/morph-balls/preload-manifest.json", assetManifest: "/games/morph-balls/MIRROR-MANIFEST.json", prepareByMount: true },
   "block-sandbox": { embedded: true, preloadManifest: "/games/block-sandbox/preload-manifest.json", assetManifest: "/games/block-sandbox/MIRROR-MANIFEST.json", prepareByMount: true },
   "diva-hair-salon": { embedded: true, preloadManifest: "/games/diva-hair-salon/preload-manifest.json", assetManifest: "/games/diva-hair-salon/MIRROR-MANIFEST.json", prepareByMount: true },
+  "screw-jam-puzzle": { embedded: true, preloadManifest: "/games/screw-jam-puzzle/preload-manifest.json", assetManifest: "/games/screw-jam-puzzle/MIRROR-MANIFEST.json", prepareByMount: true },
+  "need-for-madness": { embedded: true, preloadManifest: "/games/need-for-madness/preload-manifest.json", assetManifest: "/games/need-for-madness/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

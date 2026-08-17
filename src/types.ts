@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "need-for-madness"
+  | "screw-jam-puzzle"
   | "diva-hair-salon"
   | "block-sandbox"
   | "morph-balls"

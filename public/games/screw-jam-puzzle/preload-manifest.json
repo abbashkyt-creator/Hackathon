@@ -3,8 +3,6 @@
     "/games/screw-jam-puzzle/index.html",
     "/games/screw-jam-puzzle/js/poki-sdk-shim.js",
     "/games/screw-jam-puzzle/js/tiptap-platform-bridge.js",
-    "/games/screw-jam-puzzle/scripts/modernjscheck.js",
-    "/games/screw-jam-puzzle/scripts/supportcheck.js",
-    "/games/screw-jam-puzzle/scripts/main.js"
+    "/games/screw-jam-puzzle/js/tiptap-inline-1.js"
   ]
 }

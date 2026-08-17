@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/need-for-madness/index.html",
+    "/games/need-for-madness/js/poki-sdk-shim.js",
+    "/games/need-for-madness/js/tiptap-platform-bridge.js",
+    "/games/need-for-madness/js/tiptap-inline-1.js"
+  ]
+}

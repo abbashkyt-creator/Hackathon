@@ -1,0 +1,60 @@
+{
+	"piggyBank": {
+		"unlock": 1
+	},
+	"dailyLogin": {
+		"unlock": 1
+	},
+	"social": {
+		"unlock": 1
+	},
+	"removeAds": {
+		"unlock": 6
+	},
+	"luckySpin": {
+		"unlock": 10,
+		"show": 6
+	},
+	"weeklyEvent": {
+		"unlock": 13
+	},
+	"dailyChallenge": {
+		"unlock": 15,
+		"show": 13
+	},
+	"tournament": {
+		"unlock": 18
+	},
+	"leaderboard": {
+		"unlock": 18
+	},
+	"screwRace": {
+		"unlock": 23,
+		"show": 13
+	},
+	"inviteFriends": {
+		"unlock": 28,
+		"show": 25
+	},
+	"masterPass": {
+		"unlock": 30,
+		"show": 28
+	},
+	"springTreasure": {
+		"unlock": 34,
+		"show": 30
+	},
+	"pirateQuest": {
+		"unlock": 38,
+		"show": 34
+	},
+	"winGoHome": {
+		"unlock": 9
+	},
+	"exclusiveOffer": {
+		"unlock": 22
+	},
+	"sideItemAds": {
+		"unlock": 5
+	}
+}
