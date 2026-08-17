@@ -475,6 +475,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "cozy-garden-design": { creatorId: "cozy-garden-design", creatorName: "Cozy Garden Design", creatorLabel: "BY COZY GARDEN DESIGN · LOCAL SOURCE MIRROR", category: "Arcade" },
   "nekopirate-quest-for-gold": { creatorId: "nekopirate-quest-for-gold", creatorName: "Nekopirate: Quest for Gold!", creatorLabel: "BY NEKOPIRATE: QUEST FOR GOLD! · LOCAL SOURCE MIRROR", category: "Arcade" },
   "flick-goal": { creatorId: "flick-goal", creatorName: "Flick Goal", creatorLabel: "BY FLICK GOAL · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "duel-of-chance": { creatorId: "duel-of-chance", creatorName: "Duel of Chance", creatorLabel: "BY DUEL OF CHANCE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cow-castle": { creatorId: "cow-castle", creatorName: "Cow Castle", creatorLabel: "BY COW CASTLE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "perfect-landing-plane-pilot": { creatorId: "perfect-landing-plane-pilot", creatorName: "Perfect Landing, Plane Pilot", creatorLabel: "BY PERFECT LANDING, PLANE PILOT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

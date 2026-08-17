@@ -1,0 +1,70 @@
+{
+  "name": "perfect-landing-plane-pilot",
+  "sourcePage": "https://poki.com/en/g/perfect-landing-plane-pilot",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 991,
+      "sha256": "7eb974bc06e3c73658d0419261c6f9901b049a129603822d734eb1e7faf85f19",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 181,
+      "sha256": "99adec636cb865946450235d7ab084ba96bf5cc8fbc3195861baca0de6b4fc5d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 944,
+      "sha256": "219685413ee1b55e769d2b2eb0352ed85c1452b2c0f89a63121a96daec40fddf",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 868,
+      "sha256": "b492dcbb5fd0e4c2b67f7778d99d2f5c233f00c7446d97054a09e06856c1f94f",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 273,
+      "sha256": "c177715ac684bc75d3b7ca8f47bf4f98c9daf685cb5fcd432f44829c5e93dcd0",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 991,
+      "sha256": "7eb974bc06e3c73658d0419261c6f9901b049a129603822d734eb1e7faf85f19"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 944,
+      "sha256": "219685413ee1b55e769d2b2eb0352ed85c1452b2c0f89a63121a96daec40fddf"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1320,
+      "sha256": "c866c5bf162033808ff5fdfd3eeb0dbc411de9ff65f0f1db24dd85b58261176b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 868,
+      "sha256": "b492dcbb5fd0e4c2b67f7778d99d2f5c233f00c7446d97054a09e06856c1f94f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 273,
+      "sha256": "c177715ac684bc75d3b7ca8f47bf4f98c9daf685cb5fcd432f44829c5e93dcd0"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

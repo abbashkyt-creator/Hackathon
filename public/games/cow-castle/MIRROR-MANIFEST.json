@@ -1,0 +1,110 @@
+{
+  "name": "cow-castle",
+  "sourcePage": "https://poki.com/en/g/cow-castle",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5805,
+      "sha256": "0563c799f4ad567c3ec4e3bba8e314373aefad675061b1942555340a9c7d2874",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "433e08ede216d07bef27f773844ae81705ab692145197ca25f3b08cebfc91343",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "891359facbcc54b603d46daf89c26034629d45ba0ae7bb4be530b6571e43b76f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "fafada6a965abc7badbfa3c5b2bf6ca649d2562da0f7e056c027d7ee40710d46",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "86d01350c56d14f2829d2aa8f6e861cb4b3db3815b5f5aa4cd6abd7c758ebc77",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "CowCastle.wasm",
+      "bytes": 2456306,
+      "sha256": "48b8c1cb5de601263c66c327577d01eedbd14599d809d7970507ce45e75c9f28"
+    },
+    {
+      "assetPath": "CowCastle_pthread.wasm",
+      "bytes": 2473586,
+      "sha256": "d554405080d103496aa12794e0d18a8132f8fbada79dc4f88fb3ac106f55c89f"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47871,
+      "sha256": "50810f734b241ea22e16e5e890b2def4b8bec6ff44ab12f570f8fee618fdc26d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5805,
+      "sha256": "0563c799f4ad567c3ec4e3bba8e314373aefad675061b1942555340a9c7d2874"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "891359facbcc54b603d46daf89c26034629d45ba0ae7bb4be530b6571e43b76f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 5804,
+      "sha256": "e0822af63e034144f5244e6cb20bf7d7b61a3e3c6cd4ee115288b956ce61b2db"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1145,
+      "sha256": "1fd87e775cca71686409b09c8056fde412be267cf868ca846e806eac150c3fd0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 481,
+      "sha256": "c7933746e7ffd80bc489a2d7a46d58cd68031fae540ddc5a0facb7a470dfcedf"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "fafada6a965abc7badbfa3c5b2bf6ca649d2562da0f7e056c027d7ee40710d46"
+    },
+    {
+      "assetPath": "load_bar_bg.png",
+      "bytes": 932,
+      "sha256": "2ba34775c15a3425f85ce5eba70b8d8c936baea4cd8baa603a9f9a04505f37ba"
+    },
+    {
+      "assetPath": "load_bar_fg.png",
+      "bytes": 1647,
+      "sha256": "0db2227ec7ecc3264df933b28a5313299adb0935b1341482ce38ec2b7ec2a483"
+    },
+    {
+      "assetPath": "modernizr-custom.js",
+      "bytes": 3403,
+      "sha256": "ec14caa981abbdaa16e61909d19b6aabb4cb4e60b998a3f6197ac7a6c56e0576"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "86d01350c56d14f2829d2aa8f6e861cb4b3db3815b5f5aa4cd6abd7c758ebc77"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

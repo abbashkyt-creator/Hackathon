@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/carnado-stunt-car/index.html",
+    "/games/carnado-stunt-car/js/poki-sdk-shim.js",
+    "/games/carnado-stunt-car/js/tiptap-platform-bridge.js",
+    "/games/carnado-stunt-car/playcanvas-stable.min.js",
+    "/games/carnado-stunt-car/__settings__.js",
+    "/games/carnado-stunt-car/__modules__.js",
+    "/games/carnado-stunt-car/__start__.js",
+    "/games/carnado-stunt-car/__loading__.js"
+  ]
+}

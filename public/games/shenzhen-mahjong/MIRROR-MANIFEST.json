@@ -1,0 +1,70 @@
+{
+  "name": "shenzhen-mahjong",
+  "sourcePage": "https://poki.com/en/g/shenzhen-mahjong",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4107,
+      "sha256": "9c96d1b4513236e53e3b3e8d3a37320b6757d048cefcd8725265cee17a8a41bc",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "377d1c05f4313efecf35105f58f056d344dc501bf4a1a7ce329fb55a9e607cfe",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "4d52f591b11f7b593a689faa4dd21261bf8424bc6d66474e42fa76a90c44c90f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "098912fb3defec8593e2d74338f82e11e88fa6a955080dd3be21ee8f71da5375",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 176,
+      "sha256": "bece96d1504d84f2efa9dbb87da6b1e7950b86e21b86851796beba92b4fc797d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "bundle.min.js",
+      "bytes": 1275567,
+      "sha256": "e8f93635b4767ba3c5acdf15eed62275dadd5f128439c688c6e2d57a9e69a3f3"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4107,
+      "sha256": "9c96d1b4513236e53e3b3e8d3a37320b6757d048cefcd8725265cee17a8a41bc"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "4d52f591b11f7b593a689faa4dd21261bf8424bc6d66474e42fa76a90c44c90f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "098912fb3defec8593e2d74338f82e11e88fa6a955080dd3be21ee8f71da5375"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 176,
+      "sha256": "bece96d1504d84f2efa9dbb87da6b1e7950b86e21b86851796beba92b4fc797d"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

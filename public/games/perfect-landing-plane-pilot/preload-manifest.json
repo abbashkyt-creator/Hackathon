@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/perfect-landing-plane-pilot/index.html",
+    "/games/perfect-landing-plane-pilot/js/poki-sdk-shim.js",
+    "/games/perfect-landing-plane-pilot/js/tiptap-platform-bridge.js",
+    "/games/perfect-landing-plane-pilot/js/tiptap-inline-1.js"
+  ]
+}

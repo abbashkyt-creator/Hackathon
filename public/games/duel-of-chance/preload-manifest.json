@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/duel-of-chance/index.html",
+    "/games/duel-of-chance/js/poki-sdk-shim.js",
+    "/games/duel-of-chance/js/tiptap-platform-bridge.js",
+    "/games/duel-of-chance/js/tiptap-inline-1.js"
+  ]
+}

@@ -433,6 +433,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "cozy-garden-design": { embedded: true, preloadManifest: "/games/cozy-garden-design/preload-manifest.json", assetManifest: "/games/cozy-garden-design/MIRROR-MANIFEST.json", prepareByMount: true },
   "nekopirate-quest-for-gold": { embedded: true, preloadManifest: "/games/nekopirate-quest-for-gold/preload-manifest.json", assetManifest: "/games/nekopirate-quest-for-gold/MIRROR-MANIFEST.json", prepareByMount: true },
   "flick-goal": { embedded: true, preloadManifest: "/games/flick-goal/preload-manifest.json", assetManifest: "/games/flick-goal/MIRROR-MANIFEST.json", prepareByMount: true },
+  "duel-of-chance": { embedded: true, preloadManifest: "/games/duel-of-chance/preload-manifest.json", assetManifest: "/games/duel-of-chance/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cow-castle": { embedded: true, preloadManifest: "/games/cow-castle/preload-manifest.json", assetManifest: "/games/cow-castle/MIRROR-MANIFEST.json", prepareByMount: true },
+  "perfect-landing-plane-pilot": { embedded: true, preloadManifest: "/games/perfect-landing-plane-pilot/preload-manifest.json", assetManifest: "/games/perfect-landing-plane-pilot/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/cow-castle/index.html",
+    "/games/cow-castle/js/poki-sdk-shim.js",
+    "/games/cow-castle/js/tiptap-platform-bridge.js",
+    "/games/cow-castle/js/tiptap-inline-1.js",
+    "/games/cow-castle/js/tiptap-inline-2.js",
+    "/games/cow-castle/js/tiptap-inline-3.js"
+  ]
+}

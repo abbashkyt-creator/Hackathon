@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/shenzhen-mahjong/index.html",
+    "/games/shenzhen-mahjong/js/poki-sdk-shim.js",
+    "/games/shenzhen-mahjong/js/tiptap-platform-bridge.js"
+  ]
+}
