@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/human-bullet-gun/index.html",
+    "/games/human-bullet-gun/js/poki-sdk-shim.js",
+    "/games/human-bullet-gun/js/tiptap-platform-bridge.js",
+    "/games/human-bullet-gun/js/tiptap-inline-1.js"
+  ]
+}

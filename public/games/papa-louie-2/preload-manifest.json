@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/papa-louie-2/index.html",
+    "/games/papa-louie-2/js/poki-sdk-shim.js",
+    "/games/papa-louie-2/js/tiptap-platform-bridge.js",
+    "/games/papa-louie-2/js/tiptap-inline-1.js"
+  ]
+}

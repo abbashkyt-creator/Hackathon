@@ -1,0 +1,70 @@
+{
+  "name": "snow-riders",
+  "sourcePage": "https://poki.com/en/g/snow-riders",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "b3435e5e43351cb81f3238548f78ff33e6110e9d2e510153acec362ed5ed189e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "8f8451990c3ada3fe3e3912cbec6e8886c3165b3dc50e5d7674e016a28fdf6fb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "284a3c19251d7980690441b1be3e3ae79577cd7a89b470f7eacace37162a6c8d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "f77aa08121c100a9b2dac7e9b3292aea1457ce7c37a2ce19a8f33893a6c59e52",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "a61ba24ca98ba904c77a8229aff7af7ba5b3bcd7c950a2222c75dfa307ad6a6b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "b3435e5e43351cb81f3238548f78ff33e6110e9d2e510153acec362ed5ed189e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "284a3c19251d7980690441b1be3e3ae79577cd7a89b470f7eacace37162a6c8d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1216,
+      "sha256": "3841afd1301d517848eda014094fa0cae7695c91a33afb9a0769f109794067d1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "f77aa08121c100a9b2dac7e9b3292aea1457ce7c37a2ce19a8f33893a6c59e52"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "a61ba24ca98ba904c77a8229aff7af7ba5b3bcd7c950a2222c75dfa307ad6a6b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

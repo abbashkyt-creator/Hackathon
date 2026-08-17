@@ -1,0 +1,70 @@
+{
+  "name": "whip-flip",
+  "sourcePage": "https://poki.com/en/g/whip-flip",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 975,
+      "sha256": "745ac85ac16d64f3403ec638160153e465b49ab6c23e92cedc6f11311048b92e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "458328697f668658820f37b751e4843f77c6d83ee8de0258e5c0464d9798c062",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "206f1dec48ff0569cbeb83044b2978a0bbe0350618147d0d41f69f2d189220e8",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "566e5c74dee74538cfd016de627284814560abe126895d166e1264cb787b6323",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "34a8788303d8a3baf2f7de14b9e6c9980e962970815c5640bc81f48b4ec7901f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 975,
+      "sha256": "745ac85ac16d64f3403ec638160153e465b49ab6c23e92cedc6f11311048b92e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "206f1dec48ff0569cbeb83044b2978a0bbe0350618147d0d41f69f2d189220e8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1055,
+      "sha256": "7b93c548c0ce986677e3ef46607ea35e525f0ee5274c239a3332bf6804be5a86"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "566e5c74dee74538cfd016de627284814560abe126895d166e1264cb787b6323"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "34a8788303d8a3baf2f7de14b9e6c9980e962970815c5640bc81f48b4ec7901f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

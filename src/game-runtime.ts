@@ -325,6 +325,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "racing-rampage": { embedded: true, preloadManifest: "/games/racing-rampage/preload-manifest.json", assetManifest: "/games/racing-rampage/MIRROR-MANIFEST.json", prepareByMount: true },
   "snek-left": { embedded: true, preloadManifest: "/games/snek-left/preload-manifest.json", assetManifest: "/games/snek-left/MIRROR-MANIFEST.json", prepareByMount: true },
   "snow-riders": { embedded: true, preloadManifest: "/games/snow-riders/preload-manifest.json", assetManifest: "/games/snow-riders/MIRROR-MANIFEST.json", prepareByMount: true },
+  "papa-louie-2": { embedded: true, preloadManifest: "/games/papa-louie-2/preload-manifest.json", assetManifest: "/games/papa-louie-2/MIRROR-MANIFEST.json", prepareByMount: true },
+  "whip-flip": { embedded: true, preloadManifest: "/games/whip-flip/preload-manifest.json", assetManifest: "/games/whip-flip/MIRROR-MANIFEST.json", prepareByMount: true },
+  "human-bullet-gun": { embedded: true, preloadManifest: "/games/human-bullet-gun/preload-manifest.json", assetManifest: "/games/human-bullet-gun/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

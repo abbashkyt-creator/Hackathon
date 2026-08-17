@@ -1,0 +1,70 @@
+{
+  "name": "bubble-heroes",
+  "sourcePage": "https://poki.com/en/g/bubble-heroes",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "df819d6ac2a0d3bbf44f2d99ddec846e82ed93c20205e7a6b2dfd1c9e66403eb",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "aa7a498eb0df607dadb0e6ddaf90458bcfc11c58374a3002a1bc18f903700b49",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "dda4ab999659fb5fda714325752a2658036215586853dad93f68d0d1ad7ff3e5",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "3bcdd646d9e49c94deb20d820fcb50b2843d65580b4b2b8c0f301773aa77bf39",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "dad4010a4caa4eb0934f16b791148651ed9255d17befeeaeab0e65958af62f33",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "df819d6ac2a0d3bbf44f2d99ddec846e82ed93c20205e7a6b2dfd1c9e66403eb"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "dda4ab999659fb5fda714325752a2658036215586853dad93f68d0d1ad7ff3e5"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1223,
+      "sha256": "14354a1b77490ecf0a9ac865a3f0c59102f2e0c37976866a1f1f75d73020d4d6"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "3bcdd646d9e49c94deb20d820fcb50b2843d65580b4b2b8c0f301773aa77bf39"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "dad4010a4caa4eb0934f16b791148651ed9255d17befeeaeab0e65958af62f33"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

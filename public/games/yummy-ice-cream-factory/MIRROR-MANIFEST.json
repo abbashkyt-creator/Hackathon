@@ -1,0 +1,75 @@
+{
+  "name": "yummy-ice-cream-factory",
+  "sourcePage": "https://poki.com/en/g/yummy-ice-cream-factory",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2481,
+      "sha256": "ca49dbae9cddfa09da09e0fe142e996e3c4f87b5cf41e7673ffe119f4168fc07",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 177,
+      "sha256": "6b124bdad3baacb9b9b42a3688f1ca3be02c9e23cab7271e15ca65309923cbd1",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 936,
+      "sha256": "d0a5a68041311c77d2b00d043b65432695e764942d518d21b25399f2fc485d11",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 864,
+      "sha256": "23364b9ea01fd5b82f9483af4ca3ec3d591b639dc32910a8f88aefbd33afb9dc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "6a9f363502f59c365a3bbcc4276cee705fb4ade738fd1aec8719886aab7b414a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12486,
+      "sha256": "eada1ce7864e25cff7baece57bc31a9a27b65270d6019f3d70d7b7fbdd164d57"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2481,
+      "sha256": "ca49dbae9cddfa09da09e0fe142e996e3c4f87b5cf41e7673ffe119f4168fc07"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 936,
+      "sha256": "d0a5a68041311c77d2b00d043b65432695e764942d518d21b25399f2fc485d11"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 864,
+      "sha256": "23364b9ea01fd5b82f9483af4ca3ec3d591b639dc32910a8f88aefbd33afb9dc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "6a9f363502f59c365a3bbcc4276cee705fb4ade738fd1aec8719886aab7b414a"
+    },
+    {
+      "assetPath": "yummy_ice_cream_factory.js",
+      "bytes": 1989907,
+      "sha256": "c7f87d2d1b1be6c2191693359f29e912e65c9b34131071905c5cb243007d09af"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

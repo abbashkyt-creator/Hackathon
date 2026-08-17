@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/whip-flip/index.html",
+    "/games/whip-flip/js/poki-sdk-shim.js",
+    "/games/whip-flip/js/tiptap-platform-bridge.js",
+    "/games/whip-flip/js/tiptap-inline-1.js"
+  ]
+}

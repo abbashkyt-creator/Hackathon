@@ -1,0 +1,90 @@
+{
+  "name": "stickman-climb-3d",
+  "sourcePage": "https://poki.com/en/g/stickman-climb-3d",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 619,
+      "sha256": "7c5e70c147b8289ce9598a942fcda70f67ee628d7f96ee59c26a9ab0d65b8536",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "db9fa5e37d007932461a42ef68dbe595108985c3c8ca9702b3926f159885bf07",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "1b35e82513a806b6d7eeaad88bbfd39e16be101170e3a59b41143f9e9418dd18",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "31f1ab32e1b39b2a4ebd88bb6f7eae4f7edefd3ab9fe0e2c4335381b3ee22211",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 179,
+      "sha256": "57e1cdbff6962ceb49462b177b47be14f2cb075246ffaf5ccc3e15be846fd5e7",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 619,
+      "sha256": "7c5e70c147b8289ce9598a942fcda70f67ee628d7f96ee59c26a9ab0d65b8536"
+    },
+    {
+      "assetPath": "js/esm-D0CNDHvt.js",
+      "bytes": 12141,
+      "sha256": "13b6de347523c4d49e25f97691d88f1c9376e5a7de4949808c57d5add107cc40"
+    },
+    {
+      "assetPath": "js/index.mjs",
+      "bytes": 3807116,
+      "sha256": "aca6f6d8b61fdf04349e698bb5d7a529cedea0fe08a16ebc52812b4891993cbc"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "1b35e82513a806b6d7eeaad88bbfd39e16be101170e3a59b41143f9e9418dd18"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "31f1ab32e1b39b2a4ebd88bb6f7eae4f7edefd3ab9fe0e2c4335381b3ee22211"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 361,
+      "sha256": "47b17c7686bbbc06bab257ca6d170fe87201a751c789f455ea99bf176ab10f0c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 179,
+      "sha256": "57e1cdbff6962ceb49462b177b47be14f2cb075246ffaf5ccc3e15be846fd5e7"
+    },
+    {
+      "assetPath": "protobuf.min.js",
+      "bytes": 67292,
+      "sha256": "a988fe2529ec1d39f80c06173fb1741e6f0142831c996652bb777d8dd3f595d3"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

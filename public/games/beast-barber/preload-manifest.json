@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/beast-barber/index.html",
+    "/games/beast-barber/js/poki-sdk-shim.js",
+    "/games/beast-barber/js/tiptap-platform-bridge.js"
+  ]
+}

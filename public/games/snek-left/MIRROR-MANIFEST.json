@@ -1,0 +1,105 @@
+{
+  "name": "snek-left",
+  "sourcePage": "https://poki.com/en/g/snek-left",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1920,
+      "sha256": "39b1ebbb0d6c4f0d2ae85ecf76b9a58a0c82b794c2106ee2eb1800ceac22db55",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "aadf489aa5d1ac0897429b694a1a2d80fe851271b3ca6ed0e3ad292a747976c6",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "c7ec8a9cb1c4f26ed09b8211603c8fb147705f6d6ba390ab33f8459cdf018bce",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "87140b1a220499e221e9f52034bcd39b3ffc5f6b3bcd97123f604f16da4d9f1c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 155,
+      "sha256": "19409ce439f63e0ca6da6b3e4d3ee5717d01810d04d85a926b158ff80fbd6144",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1920,
+      "sha256": "39b1ebbb0d6c4f0d2ae85ecf76b9a58a0c82b794c2106ee2eb1800ceac22db55"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "c7ec8a9cb1c4f26ed09b8211603c8fb147705f6d6ba390ab33f8459cdf018bce"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "87140b1a220499e221e9f52034bcd39b3ffc5f6b3bcd97123f604f16da4d9f1c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 155,
+      "sha256": "19409ce439f63e0ca6da6b3e4d3ee5717d01810d04d85a926b158ff80fbd6144"
+    },
+    {
+      "assetPath": "webapp/baloo2.woff",
+      "bytes": 24072,
+      "sha256": "89fa817f0aa813456b98ba2d34435022bb0fd9747f0a6197f1d64c614f66177b"
+    },
+    {
+      "assetPath": "webapp/cover.jpg",
+      "bytes": 20812,
+      "sha256": "6c57199f5f1a65d6f107a085e947621ddad776cdea62fcdc42b80b082c1a70a1"
+    },
+    {
+      "assetPath": "webapp/fancade.css",
+      "bytes": 6459,
+      "sha256": "e5878068247b2c4e9c52d832283926424d6a2f796f7312aad499dd2641679df9"
+    },
+    {
+      "assetPath": "webapp/index.js",
+      "bytes": 196788,
+      "sha256": "c523aff50d2bf1c0a663e2d624a298793596d3d9840b838b883257fb85165673"
+    },
+    {
+      "assetPath": "webapp/index.wasm",
+      "bytes": 2172598,
+      "sha256": "3986b4fecb2d13c5aba7a2e5d748bb2978e54f12e520cd035de8d5eb184ff7c6"
+    },
+    {
+      "assetPath": "webapp/source_min.js",
+      "bytes": 22923,
+      "sha256": "903e26b6a4d9cd0ac2f07e99aff5f843f5c5faec36549d8baaf0c0a85dac08f4"
+    },
+    {
+      "assetPath": "webapp/view_common.css",
+      "bytes": 5273,
+      "sha256": "854599a24a1d8f73e090686a2551864577a17b0d5f1d5ee0b1fac7b74386a83b"
+    },
+    {
+      "assetPath": "webapp/view_common.js",
+      "bytes": 7671,
+      "sha256": "d4dd392434d753afb678d1101b05fcc772f25ae67ed1c5a0c9a4f2cd6de22904"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

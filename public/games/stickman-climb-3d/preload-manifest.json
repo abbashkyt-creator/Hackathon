@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/stickman-climb-3d/index.html",
+    "/games/stickman-climb-3d/js/poki-sdk-shim.js",
+    "/games/stickman-climb-3d/js/tiptap-platform-bridge.js"
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "name": "racing-rampage",
+  "sourcePage": "https://poki.com/en/g/racing-rampage",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1844,
+      "sha256": "8bb4b7e1d3883c6dd2c21eb56512628edb7fbcdedb0b752192a22554f3c9cfe7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "c58c954f3215cf3f09671da9b655ca308a12553742c37e95a87b24ab485edcd2",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "ea93450a94e2c469ceb9e62471821ff09b3d6d85e8b0c36b8ba4407e908ad349",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "9ee3b5d2900190bcd5ef27a11c8194f24fb95763e2f45282af9e6443b485b061",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "69037174060f715af860786e60149e07c90f4539c4b88116f0898f45f710bd8b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 627,
+      "sha256": "d70985fd5737e8b158539c5e7233ed0e8db7000709c75615e83b7d4a5f5ad6c2"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 352850,
+      "sha256": "07a28767aea738b24604227699cd884f811d392cd2540c01f7f8208e08f21feb"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 4212,
+      "sha256": "4f823d08e5a47a62bbcb83287796d5731c6b2f6509ef5299753e1a565432a943"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 506,
+      "sha256": "fe436a59d27831de83176292d3bf557b1cc3b75014daeedae6bd6c36187cfcc8"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5924,
+      "sha256": "ffff0086aa20f749e581b42098f46de3cbfdb7ade9622fe64ffface721baf754"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 1402,
+      "sha256": "e8b1784da37fbbaed8ab31ce482e26c297cf26d44ca17621bc5d46db02c6b7b5"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 2031,
+      "sha256": "43cccad8368c5c396a94108d04459c01c059260a9d1f73f817bf01adbd399bf8"
+    },
+    {
+      "assetPath": "images/barrblocksidetxtr-sheet0.webp",
+      "bytes": 116,
+      "sha256": "0621e94e88806865509f3b89f97bb3fe01d1c3ac09fea748403fbf4064190d39"
+    },
+    {
+      "assetPath": "images/barrblocktoptxtr-sheet0.webp",
+      "bytes": 478,
+      "sha256": "1a68427cb996e6295b9b9c969ef02963a57f4718fd0544b541f89c2aa1fa38f0"
+    },
+    {
+      "assetPath": "images/bgplain-sheet0.webp",
+      "bytes": 44,
+      "sha256": "0c5d8bbd4a37b731fbc30da0b8485a3b80fa544ed66c3f6c401f65b4ecc9388e"
+    },
+    {
+      "assetPath": "images/bgtrans-sheet0.webp",
+      "bytes": 44,
+      "sha256": "12ef5b3cfffd12f310e39e742bae5d7142507889dc8c8e7ac192d9975b5c8a27"
+    },
+    {
+      "assetPath": "images/boxcolors-sheet0.webp",
+      "bytes": 11694,
+      "sha256": "93ca84e700230ff0633ebe8ca3b3a21d38a48b4f5a3550240ce4a6352548e302"
+    },
+    {
+      "assetPath": "images/boxguihelper-sheet0.webp",
+      "bytes": 38,
+      "sha256": "2ea4c8229de844fcb987a288844238372aa1ee92ae592630975eda1db1daafb8"
+    },
+    {
+      "assetPath": "images/boxpartsico-sheet0.webp",
+      "bytes": 16264,
+      "sha256": "6937e057bd80b95ce2f4e80679a8addd9250981bf1f80a191640c7c2159de843"
+    },
+    {
+      "assetPath": "images/boxpartsico-sheet1.webp",
+      "bytes": 1346,
+      "sha256": "e811a6926941780cc1f1b29a95e17ca34071ff1d944e23898bc0ea4a848b4264"
+    },
+    {
+      "assetPath": "images/boxselector-sheet0.webp",
+      "bytes": 10174,
+      "sha256": "c0dfce94166d3b2b179e7ba6da80c3da6f7f6aef9f5a40ae8086361b85661015"
+    },
+    {
+      "assetPath": "images/buildtex0face-sheet0.webp",
+      "bytes": 132,
+      "sha256": "5861c87fbd28901277426128eb2737911e583e141c5e181a2d9c629e18d31df7"
+    },
+    {
+      "assetPath": "images/buildtex0side-sheet0.webp",
+      "bytes": 56,
+      "sha256": "0c345955552a5cdf797e996c51bec8252519a981034f207c0e9ab7d5d231193c"
+    },
+    {
+      "assetPath": "images/buildtex1face-sheet0.webp",
+      "bytes": 1088,
+      "sha256": "8e7b5fb229d5141e1e6a041a7657130350b994a3f9061030b27c3a67aad14534"
+    },
+    {
+      "assetPath": "images/buildtex1side-sheet0.webp",
+      "bytes": 92,
+      "sha256": "f1bc161bc3ff4867c0d3a7335193ce7c11a3c2d01a667274c530b46e2ad66d1f"
+    },
+    {
+      "assetPath": "images/buildtex2face-sheet0.webp",
+      "bytes": 540,
+      "sha256": "efd4113451a9695814b0ea00eceb4b8ccfa3ed267d2fde60954628e6be7efa73"
+    },
+    {
+      "assetPath": "images/buildtex2side-sheet0.webp",
+      "bytes": 70,
+      "sha256": "220cbb95f42524411c5cbf1774ec05c6ea835df3af71ddef3ae11e2deab405c3"
+    },
+    {
+      "assetPath": "images/buildtex3face-sheet0.webp",
+      "bytes": 266,
+      "sha256": "ab454690cf2858aa2d2c21adf3ecbce13a5442cc7c04cb27202369524ff27cbb"
+    },
+    {
+      "assetPath": "images/buildtex3side-sheet0.webp",
+      "bytes": 78,
+      "sha256": "7cf85f1ff61d2d9f4d18b1391a1efdb9f68c51b546ca540c68fbca4153eb9594"
+    },
+    {
+      "assetPath": "images/checkpoint-sheet0.webp",
+      "bytes": 38,
+      "sha256": "83dea1a1304f0eafe7893bfb5bad13e4edf1e09639ed7e3fbf582f5cf020a2e1"
+    },
+    {
+      "assetPath": "images/controlarea-sheet0.webp",
+      "bytes": 44,
+      "sha256": "f8f14708db25e07abc1ceaebd5cdbcc694649609aebeddba3bae37ba8c63a35f"
+    },
+    {
+      "assetPath": "images/decofinish-sheet0.webp",
+      "bytes": 60,
+      "sha256": "91f84d538cd1da736c66f73ab417d371e0ed0c5b0a7c46d5a5fd35ac3b04e71c"
+    },
+    {
+      "assetPath": "images/finbg-sheet0.webp",
+      "bytes": 44,
+      "sha256": "c87f651fcc9d81c85cb07c63ed4550098b26a3bee4ac4e697faee0d7e7696c6c"
+    },
+    {
+      "assetPath": "images/flash-sheet0.webp",
+      "bytes": 44,
+      "sha256": "ba3037f7ad70e0f30469247b466707d00388d36ace8502d86c6e1ede7df9900f"
+    },
+    {
+      "assetPath": "images/gui_mask-sheet0.webp",
+      "bytes": 44,
+      "sha256": "9d587366163b2b6755d6678c31a6238761d54e5a148845dd22abf5a5fac3b5f2"
+    },
+    {
+      "assetPath": "images/pausebg-sheet0.webp",
+      "bytes": 44,
+      "sha256": "499ad27198802e1a1217d6f3feb0824b7232894d22c4e669b36f71ceced53b6f"
+    },
+    {
+      "assetPath": "images/pittexface-sheet0.webp",
+      "bytes": 4528,
+      "sha256": "5b1b75eb8e2fb195d64684addacb745518dbe8360fd4cdfd1c813860b223211c"
+    },
+    {
+      "assetPath": "images/pittexside-sheet0.webp",
+      "bytes": 102,
+      "sha256": "a22d44beb0b44f9daad9cf6d537a42a5cda6c7107bd86eba3442dc8808631fca"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 14990,
+      "sha256": "9734501c50b2aa2fcd013937fe71601cfd2378d8c5876714287d8cbc962a8861"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 41796,
+      "sha256": "b5e7852f42cdd40a02b2bb9c6172436b3b9a07396012680967e265b361061dd0"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 2602,
+      "sha256": "02cf9edb39267de63f3b6f560531d1e2d11878cd073cf1c51c65e715de991266"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 51568,
+      "sha256": "33d4c358aeee7a5915dfebed2b5539cf3498145cc6886be779d4018fa62e998c"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 41152,
+      "sha256": "883fcb54b49aefb03df2dfe8f3aa2464477088e48ea77a0938fc3220d72c49ee"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 142252,
+      "sha256": "c7ab33f9f7ef175fa5091243451f3872dbfcc82b2c567bb0d53c1fff69a6d1fc"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 68308,
+      "sha256": "88a16274deb4e893bdcfe1240b9c242d25a371e70b6b4064170d54f4c2270209"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.webp",
+      "bytes": 3824,
+      "sha256": "c3cfaf54ea7ed55d3e301204c0fce7ea7e431ad50ab5ddbbb29d7ac687d7c661"
+    },
+    {
+      "assetPath": "images/shared-1-sheet5.webp",
+      "bytes": 10502,
+      "sha256": "fb48fe89e2c6e789ae8dd535fe85d24ddd12135460e2b7926855c5cb3c26b124"
+    },
+    {
+      "assetPath": "images/shared-1-sheet6.webp",
+      "bytes": 196,
+      "sha256": "abbf4f2d61a87017d1c0a5a4bfe3dd4916cbdde92dcecbd9ab1499a3d939cd28"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 34680,
+      "sha256": "3a05eb6ab151a4e5bfacac96d4245980f16561c691c56562a9b59c86b8329026"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 12506,
+      "sha256": "97b9785843afc838b924cf9d9ff98a4645a31d1ca1b47ccb247f07e76add42d5"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 1512,
+      "sha256": "2b215bdf7c99692518b62217ba20a3e887ade1d5c2bd8052f57baeb4b15562dc"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 38,
+      "sha256": "eb1492050b78d60aefdacd70d1b6ff9637ab6c3fbcccbfb2560a0936ed03505a"
+    },
+    {
+      "assetPath": "images/standstexback-sheet0.webp",
+      "bytes": 666,
+      "sha256": "cbb865bd866a89541742a501326b4af643078e02a538f1d3f7ef2ea9ef1c1692"
+    },
+    {
+      "assetPath": "images/standstexface-sheet0.webp",
+      "bytes": 63686,
+      "sha256": "60669181e1272811ce5bc82328e286fc5a3ce3e778585518d728d0c258f82c13"
+    },
+    {
+      "assetPath": "images/steer_bar-sheet0.webp",
+      "bytes": 44,
+      "sha256": "dcdce6eabe81543f6c531dd605c9d1d75dfac828098a7f9a38d9727c6341032b"
+    },
+    {
+      "assetPath": "images/trackgrass-sheet0.webp",
+      "bytes": 796,
+      "sha256": "8a9d3d605f859806f6818f8a5f00e4e5a3e0ea19f187300705c32b9b9d28380f"
+    },
+    {
+      "assetPath": "images/trackgravel-sheet0.webp",
+      "bytes": 1432,
+      "sha256": "c08158a61cbb07327bb5c8199c10413190f2abf8e896f367cf236bb6454e6d1e"
+    },
+    {
+      "assetPath": "images/trackpit-sheet0.webp",
+      "bytes": 1984,
+      "sha256": "4be3d6e88e69aede7907f76df5c645d054901c965e57ceba0f007738d6c1e464"
+    },
+    {
+      "assetPath": "images/trackplain-sheet0.webp",
+      "bytes": 1348,
+      "sha256": "6397548be5621e9b02f51ab52dc4bd5205d7b35ec0976e047e4350239cc81bec"
+    },
+    {
+      "assetPath": "images/tracksand-sheet0.webp",
+      "bytes": 1292,
+      "sha256": "6282f99b49cab971b34a51bce9fba924bab788b6d5bfdc82da2a6a8250ef23a4"
+    },
+    {
+      "assetPath": "images/trackstart-sheet0.webp",
+      "bytes": 1250,
+      "sha256": "d87cfc2e7b109595266c6c0a46b5d384ac0a6d8c05b92cc7e26dfac3ef22d8f4"
+    },
+    {
+      "assetPath": "images/trackstripe-sheet0.webp",
+      "bytes": 2592,
+      "sha256": "d3856b94b1d6409a334d1e8442b91e46816ffb032605f1e8f48f550c96617b7d"
+    },
+    {
+      "assetPath": "images/triggerbrake-sheet0.webp",
+      "bytes": 38,
+      "sha256": "bc78cb1de19b91a296d0e0430113851169721c3ca876309c07c96a6806c873de"
+    },
+    {
+      "assetPath": "images/turnsignstxt-sheet0.webp",
+      "bytes": 344,
+      "sha256": "0e5921d645c601839bee59960c6a5dc2a425d0c9a42b6101ebf72445446f4ae0"
+    },
+    {
+      "assetPath": "images/vfxblowtex-sheet0.webp",
+      "bytes": 82586,
+      "sha256": "13d99b0568ce526565681c43b748389eeb79ed75866c11b9c03ea02d6ba4f2b4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1844,
+      "sha256": "8bb4b7e1d3883c6dd2c21eb56512628edb7fbcdedb0b752192a22554f3c9cfe7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "ea93450a94e2c469ceb9e62471821ff09b3d6d85e8b0c36b8ba4407e908ad349"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "9ee3b5d2900190bcd5ef27a11c8194f24fb95763e2f45282af9e6443b485b061"
+    },
+    {
+      "assetPath": "lib/achv.json",
+      "bytes": 3434,
+      "sha256": "e39de0cc9253e28c8607b4e659afbf4320f166e42560ce605621c714a1a02bb2"
+    },
+    {
+      "assetPath": "lib/names.json",
+      "bytes": 7705,
+      "sha256": "000f541b1804112fe0d9faa0de2d1aea0c01bbad668f3a0913684c98ff7fc60c"
+    },
+    {
+      "assetPath": "lib/pc.json",
+      "bytes": 1081,
+      "sha256": "a5b5d4946b0040565cf0f7ea8c271d3e114b0b2101eee7eb280ba0e5f4088fd4"
+    },
+    {
+      "assetPath": "lib/tmc.json",
+      "bytes": 1346,
+      "sha256": "a96827032dd66b10930a22f50da64c2843f813634749082207e1216eb4817c0b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "69037174060f715af860786e60149e07c90f4539c4b88116f0898f45f710bd8b"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1504432,
+      "sha256": "251052f9965d9a2c15a542d75cab051cccc3ffd4c0700a696a918d454b079bc5"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 119699,
+      "sha256": "e9566f64af02cbb1645fbb180353da91e17d6051c962662a17c1d1eeef337392"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

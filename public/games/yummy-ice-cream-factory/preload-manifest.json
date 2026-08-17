@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/yummy-ice-cream-factory/index.html",
+    "/games/yummy-ice-cream-factory/js/poki-sdk-shim.js",
+    "/games/yummy-ice-cream-factory/js/tiptap-platform-bridge.js"
+  ]
+}

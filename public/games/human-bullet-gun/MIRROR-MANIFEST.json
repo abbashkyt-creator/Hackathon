@@ -1,0 +1,70 @@
+{
+  "name": "human-bullet-gun",
+  "sourcePage": "https://poki.com/en/g/human-bullet-gun",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "46a111520ba6b8fd8c1d0e48cc570f08679e53cabe1fc86fa5ae018f4f54abbb",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "9e5d27071bb3c87a4a3e678fb37e230da2e758f26d97707355d0e8bf28eb3202",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "8718b84a300a8d03328de52fb8fa392a1a6436eaaefdd0ae951caf4d88b8b290",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "e02ade098d8a798abdb6491820642ebf15aed19a3e84cae413ad69c1f9f8560b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9abc2a438776ebbe167b9f5e938818f37f591d310a760e6697b44155460fc075",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "46a111520ba6b8fd8c1d0e48cc570f08679e53cabe1fc86fa5ae018f4f54abbb"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "8718b84a300a8d03328de52fb8fa392a1a6436eaaefdd0ae951caf4d88b8b290"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1212,
+      "sha256": "12abc1adfad34708bb97cbdf95295ab0bccce9d48a381efa98edf645e5afcd89"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "e02ade098d8a798abdb6491820642ebf15aed19a3e84cae413ad69c1f9f8560b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9abc2a438776ebbe167b9f5e938818f37f591d310a760e6697b44155460fc075"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
