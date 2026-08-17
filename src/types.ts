@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "mad-skills-motocross-2"
+  | "one-line-draw"
   | "merge-rot"
   | "mech-bots-arena"
   | "star-blogger-left-or-right"

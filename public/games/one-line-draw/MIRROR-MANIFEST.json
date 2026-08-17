@@ -9,8 +9,8 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 3630,
-      "sha256": "3ced0387710a9d3fd9756b726e5e9dbc75df7a0eeccb6bd7211a7522c57199c5",
+      "bytes": 2929,
+      "sha256": "0487c6da0615a8cd4b1254b92eb30de24aaf4318772c5102560d6abff9086fd8",
       "purpose": "Localized entry"
     },
     {
@@ -33,8 +33,8 @@
     },
     {
       "assetPath": "preload-manifest.json",
-      "bytes": 449,
-      "sha256": "472a0bc93d946f68f015e7d482aa4252daaf19e17256d222f73d7c32a7d5e70a",
+      "bytes": 317,
+      "sha256": "3a38da6b3fc481b2f83f77b1e49eb3f340d7546bf3dac184a364190c8bed8399",
       "purpose": "Preload manifest"
     }
   ],

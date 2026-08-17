@@ -458,6 +458,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "star-blogger-left-or-right": { embedded: true, preloadManifest: "/games/star-blogger-left-or-right/preload-manifest.json", assetManifest: "/games/star-blogger-left-or-right/MIRROR-MANIFEST.json", prepareByMount: true },
   "mech-bots-arena": { embedded: true, preloadManifest: "/games/mech-bots-arena/preload-manifest.json", assetManifest: "/games/mech-bots-arena/MIRROR-MANIFEST.json", prepareByMount: true },
   "merge-rot": { embedded: true, preloadManifest: "/games/merge-rot/preload-manifest.json", assetManifest: "/games/merge-rot/MIRROR-MANIFEST.json", prepareByMount: true },
+  "one-line-draw": { embedded: true, preloadManifest: "/games/one-line-draw/preload-manifest.json", assetManifest: "/games/one-line-draw/MIRROR-MANIFEST.json", prepareByMount: true },
+  "mad-skills-motocross-2": { embedded: true, preloadManifest: "/games/mad-skills-motocross-2/preload-manifest.json", assetManifest: "/games/mad-skills-motocross-2/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

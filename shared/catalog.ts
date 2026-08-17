@@ -500,6 +500,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "star-blogger-left-or-right": { creatorId: "star-blogger-left-or-right", creatorName: "Star Blogger: Left or Right", creatorLabel: "BY STAR BLOGGER: LEFT OR RIGHT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mech-bots-arena": { creatorId: "mech-bots-arena", creatorName: "Mech Bots Arena", creatorLabel: "BY MECH BOTS ARENA · LOCAL SOURCE MIRROR", category: "Arcade" },
   "merge-rot": { creatorId: "merge-rot", creatorName: "Merge Rot", creatorLabel: "BY MERGE ROT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "one-line-draw": { creatorId: "one-line-draw", creatorName: "One Line Draw", creatorLabel: "BY ONE LINE DRAW · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "mad-skills-motocross-2": { creatorId: "mad-skills-motocross-2", creatorName: "Mad Skills Motocross 2", creatorLabel: "BY MAD SKILLS MOTOCROSS 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
