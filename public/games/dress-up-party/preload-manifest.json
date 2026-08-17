@@ -2,6 +2,9 @@
   "critical": [
     "/games/dress-up-party/index.html",
     "/games/dress-up-party/js/poki-sdk-shim.js",
-    "/games/dress-up-party/js/tiptap-platform-bridge.js"
+    "/games/dress-up-party/js/tiptap-platform-bridge.js",
+    "/games/dress-up-party/js/tiptap-inline-1.js",
+    "/games/dress-up-party/js/tiptap-inline-2.js",
+    "/games/dress-up-party/js/tiptap-inline-3.js"
   ]
 }

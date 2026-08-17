@@ -1,0 +1,80 @@
+{
+  "name": "talking-tom-gold-run",
+  "sourcePage": "https://poki.com/en/g/talking-tom-gold-run",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1070,
+      "sha256": "8d07e336d9c984f092718b2a0102387f05b8172fcc848a450ef5408ae0f994b0",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "f7ed485f54ac6a2ca5df4b8adb1b263c8a98116d9de9db09db257e0401591f10",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "19fe117cc6c36ec1fb672a3d5aeb640491006b79b11b34fe4a7c54b1fdc3e140",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "b7bfa7756b1d4c885a81d80c7dcbb592e8016a58ace9f911497e4e689f1d3f64",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 245,
+      "sha256": "a971f41b2f8151bc111d69a5a72ad8e723a2b1662188a4c2ddeb131e33bdffba",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 550,
+      "sha256": "cfdf044290783e8f6c60255bec112078411e915f96f57356aff9a8ab18dfd267"
+    },
+    {
+      "assetPath": "js/index.mjs",
+      "bytes": 3137022,
+      "sha256": "13b6edaadfe5a4904c69f2a142634e0e91c8d946b8dec31bbacd3f829e851905"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "19fe117cc6c36ec1fb672a3d5aeb640491006b79b11b34fe4a7c54b1fdc3e140"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "b7bfa7756b1d4c885a81d80c7dcbb592e8016a58ace9f911497e4e689f1d3f64"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 377,
+      "sha256": "c772119f9517f190e0b571ac8d2de3b54935bbbb174e6491eeecd2e00a843651"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 188,
+      "sha256": "9f088d484d4c12d4a17652cf865152d86801abedef437f264e7a0e2d67fb2061"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

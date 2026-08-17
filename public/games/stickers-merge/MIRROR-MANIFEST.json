@@ -1,0 +1,135 @@
+{
+  "name": "stickers-merge",
+  "sourcePage": "https://poki.com/en/g/stickers-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1731,
+      "sha256": "4ba5669e2986c743da404620b5a8bf0d91c8630fd4065fa186f65cc992d3cd13",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "7dcc11938e0e96042ff3b3ae8f6ed5f54bf6be2233a884e1aa980665d113bf14",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "3fde5f238f6dedf84a451d5d7171d499546e4353aa90dc1eb97836452cc3c4bb",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "24d83f01227f385836ca46935cd4a85b50749ef13b5a96879a056166bffe0a9c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 170,
+      "sha256": "354fdcded354516df570cdcc3ea96cec86961feb14c6ffae8aebf8cc97f8708c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/BitmapFont-BJRDwtnR.js",
+      "bytes": 12445,
+      "sha256": "7d82c39ef31be3d1fd302b70cf17cccbee339ad3be4ceb7a7beb79cffdb9c464"
+    },
+    {
+      "assetPath": "assets/browserAll-BDDJUskm.js",
+      "bytes": 41839,
+      "sha256": "45eb0c34444e9b95d8791e14be6995f0fa615148db4bd336a049193f9aaba5eb"
+    },
+    {
+      "assetPath": "assets/BufferResource-DBLPrN2b.js",
+      "bytes": 9791,
+      "sha256": "63820233af0df16daa0682730a70cd56ef760bf28abce6d9e1da228685a2899c"
+    },
+    {
+      "assetPath": "assets/CanvasRenderer-DZmAL_JK.js",
+      "bytes": 17902,
+      "sha256": "dd8eece599c46d9c0c4ccde22195a6a48a61c7fd1bbed568bf171626ce710ee0"
+    },
+    {
+      "assetPath": "assets/Filter-TXSomJrc.js",
+      "bytes": 1008,
+      "sha256": "54aa6e6fb10e1e1a5d721c40481a21d0b8b9f59aecc3689e55853662060f2f46"
+    },
+    {
+      "assetPath": "assets/index-Dm2FPplh.js",
+      "bytes": 1515273,
+      "sha256": "eecd51a2b7866e487decd0784d692eac88c9ad61f1ad9e71efea4f8ab5c4190d"
+    },
+    {
+      "assetPath": "assets/layout-B-g7p08E.json",
+      "bytes": 13612,
+      "sha256": "76d8cadb795dec6ffaaa579d1aa48a88d1c8dad0107545f5137247cd86062b72"
+    },
+    {
+      "assetPath": "assets/layout-CHauyxNR.json",
+      "bytes": 17106,
+      "sha256": "a784a26572d028353833c35c8381b7222cb1db20a10c6ba93e81fa6be7abd0d2"
+    },
+    {
+      "assetPath": "assets/RenderTargetSystem-DdmHe5d1.js",
+      "bytes": 46827,
+      "sha256": "05f1f3510cf5ae79f0984d2b3e9a8fcc7a89de96157d0f9ed693cccb521ca541"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-BieH3Exn.js",
+      "bytes": 70274,
+      "sha256": "b799df39f9a4d44fd93f4c44231e1158a7eba1d34ee28f43ee1af10ad21bd5d6"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-BtaGtYgJ.js",
+      "bytes": 39532,
+      "sha256": "f931dc8b25c4516ac664c5e827397d5cdf10aa8265d5083881cb14aabdf5dcc6"
+    },
+    {
+      "assetPath": "assets/webworkerAll-C0_wt8dN.js",
+      "bytes": 12134,
+      "sha256": "a9b23115e6994218e1581c72c18577ff99a01b60d7a65de477e98a47f94a1149"
+    },
+    {
+      "assetPath": "assets/_popup-P_DHDlaj.json",
+      "bytes": 13494,
+      "sha256": "543157a9c34e6c2c4460952681a5f6ee076e664ec9aff76da9502c83218121db"
+    },
+    {
+      "assetPath": "assets/_ui-Dz38gKlb.json",
+      "bytes": 4624,
+      "sha256": "44d61c9a7c5eaebeebff5f12b0c21305bacae59a23eea8437147cc55ee1b22a5"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1778,
+      "sha256": "0600fced462c9f62de7d63452c2e8309693ecf3fe999a64c342fbb1429f11982"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "3fde5f238f6dedf84a451d5d7171d499546e4353aa90dc1eb97836452cc3c4bb"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "24d83f01227f385836ca46935cd4a85b50749ef13b5a96879a056166bffe0a9c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 170,
+      "sha256": "354fdcded354516df570cdcc3ea96cec86961feb14c6ffae8aebf8cc97f8708c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

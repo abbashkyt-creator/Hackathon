@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/oozys-lab/index.html",
+    "/games/oozys-lab/js/poki-sdk-shim.js",
+    "/games/oozys-lab/js/tiptap-platform-bridge.js",
+    "/games/oozys-lab/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "annoying-teacher-punch-game",
+  "sourcePage": "https://poki.com/en/g/annoying-teacher-punch-game",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 990,
+      "sha256": "e694f464df3e3e639e73149ce29c3d7660e933280d033cb0e672e4624a814bba",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 181,
+      "sha256": "f98426f2a869884018a57276e2a66bad32a5fdc8b54ad730f8ea5778c717de0c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 944,
+      "sha256": "8bd131c21075c0558c2e0de3c2c52d1c6253f038e388341813266a047272ce3c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 868,
+      "sha256": "765a3377b4ec8478a5f254fd8bd6daa1bd46e83674049494ab97803d62e1f626",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 273,
+      "sha256": "5ba4587bc3783bc344f3fbc8c519963f73be7d2aeb9462e22860af1a98a94b12",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 990,
+      "sha256": "e694f464df3e3e639e73149ce29c3d7660e933280d033cb0e672e4624a814bba"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 944,
+      "sha256": "8bd131c21075c0558c2e0de3c2c52d1c6253f038e388341813266a047272ce3c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1036,
+      "sha256": "67590332484a9c646d5bc29dc50e228ebd98620b6452ea160859a0bfab13cca1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 868,
+      "sha256": "765a3377b4ec8478a5f254fd8bd6daa1bd46e83674049494ab97803d62e1f626"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 273,
+      "sha256": "5ba4587bc3783bc344f3fbc8c519963f73be7d2aeb9462e22860af1a98a94b12"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

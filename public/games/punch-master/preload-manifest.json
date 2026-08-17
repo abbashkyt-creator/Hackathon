@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/punch-master/index.html",
+    "/games/punch-master/js/poki-sdk-shim.js",
+    "/games/punch-master/js/tiptap-platform-bridge.js",
+    "/games/punch-master/js/tiptap-inline-1.js",
+    "/games/punch-master/js/tiptap-inline-2.js",
+    "/games/punch-master/js/tiptap-inline-3.js"
+  ]
+}

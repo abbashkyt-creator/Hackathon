@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>blumgi-splash</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <script src="/games/_shared/network-lock.js"></script>
+        <script src="/games/_shared/ad-client.js"></script>
+        <script src="js/poki-sdk-shim.js"></script>
+        <script src="js/tiptap-platform-bridge.js"></script>
+      <script  src="./poly-decomp.min.js"></script>
+      <script  src="./matter.min.js"></script>
+      <script  src="./RCHIPL.js"></script>
+      <script  src="ploptheblob-sfx.js"></script>
+        <script src="js/tiptap-inline-1.js"></script>
+    </head>
+    <body>
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <title>PlopTheBlob</title> <!-- TEST: Google Fonts (remove for Poki build) --> <style> /* Nunito font (local - Poki compatible) */ @font-face { font-family: 'Nunito'; font-weight: 900; font-style: normal; font-display: block; src: url('./fonts/Nunito-Black.woff2') format('woff2'); } @font-face { font-family: 'Nunito Black'; font-style: normal; font-display: block; src: url('./fonts/Nunito-Black.woff2') format('woff2'); } * { margin: 0; padding: 0; box-sizing: border-box; } html, body { width: 100%; height: 100%; overflow: hidden; background: #fff; touch-action: none; } canvas { display: block; } </style>
+</head>
+<body>
+<div id="game-loader" style="position:fixed;inset:0;background:#4ECDC4;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:99999;opacity:1;"><div style="width:200px;height:8px;background:rgba(255,255,255,0.3);border-radius:4px;overflow:hidden;"><div id="loader-bar" style="width:0%;height:100%;background:#fff;border-radius:4px;transition:width 0.1s ease-out;"></div></div><div id="loader-percent" style="margin-top:12px;color:#fff;font-family:system-ui,-apple-system,sans-serif;font-size:14px;font-weight:500;">0%</div></div> <canvas id="game"></canvas> <!-- Poly-decomp for concave polygon support --> <!-- Matter.js for physics --> <!-- WebAudioTinySynth - GM instruments for Music module --> <!-- Audio DSP modules (single-source-of-truth) --> <!-- RCHIPL_AudioCore.js - Audio DSP bake & IndexedDB cache --> <!-- RCHIPL_Renderer.js - Shape rendering module (loaded first) --> <!-- RCHIPL.js loaded externally (always up to date) --> </body>
+</html>
+    </body>
+</html>

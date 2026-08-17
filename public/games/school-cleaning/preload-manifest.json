@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/school-cleaning/index.html",
+    "/games/school-cleaning/js/poki-sdk-shim.js",
+    "/games/school-cleaning/js/tiptap-platform-bridge.js",
+    "/games/school-cleaning/js/tiptap-inline-1.js"
+  ]
+}

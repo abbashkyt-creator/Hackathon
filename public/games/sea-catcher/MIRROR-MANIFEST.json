@@ -1,0 +1,200 @@
+{
+  "name": "sea-catcher",
+  "sourcePage": "https://poki.com/en/g/sea-catcher",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1063,
+      "sha256": "c388d0b7b73ad8435952c77037d4eaa7a442bcbd7d8552ca779776f758b212d3",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "f25db8f9bf12e9e7ee60ce6c166f4ebfcf1e72926593398709dc054a454e476e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "7d5ed3209550de46ef22033b23821144105ac3c6e3e431463ebcfb7f36ab1b5b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "2fb7233e58d7e2a3d9254fa0baf2517ee245edc09c7ba61be4fd0a65a4393cf4",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 161,
+      "sha256": "56219bee5e8ca3056fd9096a33a29d149eab248bed4ba0abcf0f53a53293e544",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/browserAll-BA-313uR.js",
+      "bytes": 41042,
+      "sha256": "8e6d9dce6a32553b477e6b431af14274668d68e330d8e47e17d9f6d3031b498d"
+    },
+    {
+      "assetPath": "assets/colorToUniform-PQq3AkLq.js",
+      "bytes": 1738,
+      "sha256": "bf5800625cc518981926cadd42e7271e9ed73e1d57742c88dcb718f1551971f6"
+    },
+    {
+      "assetPath": "assets/cs-FM7ObYMf.js",
+      "bytes": 3162,
+      "sha256": "dfb8069bc0748c060b22175b405dda8021b5a58976ca420993f0e4c5c2765ce5"
+    },
+    {
+      "assetPath": "assets/de-Cyf4TAKb.js",
+      "bytes": 3285,
+      "sha256": "77881b9d7cff3f738ddf9226cccff88812561ac3ee79a080ffeeb07f997de384"
+    },
+    {
+      "assetPath": "assets/en-wKEKs9S1.js",
+      "bytes": 2980,
+      "sha256": "6ec50b1cc34555aef5d8476eaf5ef8c99512ce11c2b61fc0cb46d1b6f29d1f17"
+    },
+    {
+      "assetPath": "assets/es-DDmNAD2V.js",
+      "bytes": 3324,
+      "sha256": "7df8c9f695399a0ad2de658968582073395b92cb84cca03a4dbe6b760aee074e"
+    },
+    {
+      "assetPath": "assets/fr-CT1PZapq.js",
+      "bytes": 3375,
+      "sha256": "89058fd676d8284220a6dc12d58b934c5dc307b3ab2d9935677d94423c7c21c4"
+    },
+    {
+      "assetPath": "assets/index.poki-D0cezM2H.js",
+      "bytes": 485562,
+      "sha256": "54ab92d884955eda7e1a46d6ead82694434e84f1f14696d08e627e8ae4ffa0f7"
+    },
+    {
+      "assetPath": "assets/it-BTGLOEz-.js",
+      "bytes": 3341,
+      "sha256": "bf377fca7ace0e03aa71c735e941aa83bb35c1b15e84b3f330d40df7fdb949ab"
+    },
+    {
+      "assetPath": "assets/ja-B4RpJnj0.js",
+      "bytes": 3544,
+      "sha256": "c13d2f8e04406289a208d41f892af33e90312349f12d2fe8ccef14f456c0ee00"
+    },
+    {
+      "assetPath": "assets/ko-DJxzKXix.js",
+      "bytes": 3456,
+      "sha256": "5f94266d9aac2755fab2db89892020297a8ddce9d6cec9206bd803407731b0a2"
+    },
+    {
+      "assetPath": "assets/no-Bp4tqgsJ.js",
+      "bytes": 3152,
+      "sha256": "0aa9c925e0d64ca460213e4bca5b5ad176cf2979c4481e84c0adcf045a35b20b"
+    },
+    {
+      "assetPath": "assets/pl-D80iYjFu.js",
+      "bytes": 3286,
+      "sha256": "017148e6421b3dd25bf9e7ec0524effcd6c98c4ab0df7c06bfa3cffc833ad163"
+    },
+    {
+      "assetPath": "assets/poki-BISRIZnV.js",
+      "bytes": 1035,
+      "sha256": "649ec08da0bdeb65f9f27ff2ac059479e13ddc154c9777ef3c87e000aff407f0"
+    },
+    {
+      "assetPath": "assets/pt-4JHHh8MG.js",
+      "bytes": 3316,
+      "sha256": "c65230d1ca6c87867e4722c1c913cc5e83b3ba04b07ed7bb59f8c50fd9a90555"
+    },
+    {
+      "assetPath": "assets/ru-CEO-Yyay.js",
+      "bytes": 4300,
+      "sha256": "d9f02ca36c8625d450345c400718063442337acda042d8ad9d9b0bf2e9b9bff9"
+    },
+    {
+      "assetPath": "assets/SharedSystems-Dv78eWsI.js",
+      "bytes": 55222,
+      "sha256": "04a4a9b64e6b1903da404c5fe0d63edefc9d734e9ae53b73b1d1447add8c300a"
+    },
+    {
+      "assetPath": "assets/tr-BkPYxHFh.js",
+      "bytes": 3229,
+      "sha256": "c171763b25bf8dc9735c7f0b4f67040ce4a477991b2f9894205165d5423b1363"
+    },
+    {
+      "assetPath": "assets/uk-BWSK2yC0.js",
+      "bytes": 4194,
+      "sha256": "504c9d7984c1c8d9533240f2d2a6d6f3f525f60610d80b03ea9d7345c890f59f"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-DPbCU9Ne.js",
+      "bytes": 63248,
+      "sha256": "6a96052033171c45a5a7536e70d6fc14c140a7e69d2ac7ebf4b52093601cfff3"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-zE1Yt3i8.js",
+      "bytes": 36958,
+      "sha256": "43cd374343201436b8a0adaa17be285645e84d0bed9022340b7bc4960d81d6c1"
+    },
+    {
+      "assetPath": "assets/webworkerAll-q34s9yLp.js",
+      "bytes": 55596,
+      "sha256": "2ffc580747dbe58fdcde00318f0cc0bfdbeff464c5764ac418144c36647937f2"
+    },
+    {
+      "assetPath": "assets/zh-DHnbzEtv.js",
+      "bytes": 3014,
+      "sha256": "7cd1ffcf44e1fe39e46502593c6433d8fec607b2d2f8f8aa9de8846bceb31a3d"
+    },
+    {
+      "assetPath": "displacement_map.webp",
+      "bytes": 4652,
+      "sha256": "81092262a711c1bd1171d2a3d1f621b1fd35f35439e9b50e8e3299e512bcb137"
+    },
+    {
+      "assetPath": "font.ttf",
+      "bytes": 132068,
+      "sha256": "33834506fb216047a70654dce857e073412d78943678052024a9d1cf89cec724"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1063,
+      "sha256": "c388d0b7b73ad8435952c77037d4eaa7a442bcbd7d8552ca779776f758b212d3"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "7d5ed3209550de46ef22033b23821144105ac3c6e3e431463ebcfb7f36ab1b5b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "2fb7233e58d7e2a3d9254fa0baf2517ee245edc09c7ba61be4fd0a65a4393cf4"
+    },
+    {
+      "assetPath": "main.json",
+      "bytes": 35040,
+      "sha256": "b65bd029dc0239a2d00a35aaa868f03047ec965be4c803b83d7424d5bb207543"
+    },
+    {
+      "assetPath": "main.webp",
+      "bytes": 528134,
+      "sha256": "36f5d7e4cd40577bc1bc208832571c8a375ad2b79f7db5b4ca28faedcd8a872f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 161,
+      "sha256": "56219bee5e8ca3056fd9096a33a29d149eab248bed4ba0abcf0f53a53293e544"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

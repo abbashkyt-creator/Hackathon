@@ -1,0 +1,70 @@
+{
+  "name": "backrooms-recovery",
+  "sourcePage": "https://poki.com/en/g/backrooms-recovery",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 843,
+      "sha256": "e708ffba1a55182b3192de1ef2d65fbe758892964cb80bd6fc6a6305dfdb03e2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "16f0391704e1b54cdab19911f9bbe23fef48ba2a508d5f8d8cbed06ed004f59b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "4608a8baa90af75edaf7811e2a9b32fc9442e233c1919057b84484363c8ddb03",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "4976b53f38e08e962d12137ba4014066c0d84b82725e90dd077346a15f2b70e2",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "905a61a2ef22ed79af9d992df47b75a62197e5407eb93fd99d442caefc11a2d6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 843,
+      "sha256": "e708ffba1a55182b3192de1ef2d65fbe758892964cb80bd6fc6a6305dfdb03e2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "4608a8baa90af75edaf7811e2a9b32fc9442e233c1919057b84484363c8ddb03"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1077,
+      "sha256": "d62cbb9150967e35b1c058ddcb95c272c50dda2fb964c3ca4007a66cecd56634"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "4976b53f38e08e962d12137ba4014066c0d84b82725e90dd077346a15f2b70e2"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "905a61a2ef22ed79af9d992df47b75a62197e5407eb93fd99d442caefc11a2d6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

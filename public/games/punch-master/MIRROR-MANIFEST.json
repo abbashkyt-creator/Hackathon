@@ -1,0 +1,85 @@
+{
+  "name": "punch-master",
+  "sourcePage": "https://poki.com/en/g/punch-master",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1097,
+      "sha256": "c1683ff032f61b1e12c45f7eaa628c0b76455c86792e37f941bd12154ea2b030",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "91b6d0fa54f7734fdd13e5434b41cd6453d4233b969c471538af37b17f8c83df",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "0112f6b110db01e633912aee67f8b80fc5023fdd21441731b797c697400e3f99",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "c9abf520ffec33dc0b6d668af3445607fe54ca92e53c8f9b52657a85e7968bd2",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "69eab9bfc350fef13a7fa0da2b437092a7ee93aeffce120847d1c30d76c711ae",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Images/Icon.png",
+      "bytes": 8141,
+      "sha256": "5f85457b111dbdbe63a94ad1c9ae4ea55918448bb5f8a315511e05b4641ae691"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1097,
+      "sha256": "c1683ff032f61b1e12c45f7eaa628c0b76455c86792e37f941bd12154ea2b030"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "0112f6b110db01e633912aee67f8b80fc5023fdd21441731b797c697400e3f99"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 517,
+      "sha256": "73509f69ab30115a09b585fff4dce68bc624aa85474d599dbc934250c02aa51a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1522,
+      "sha256": "b225b9f81f89a1f03e24940e9353d9c245766096a788eb2ee9a9a9a567a82879"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 118,
+      "sha256": "2d629e0c44fccdb466660050fdeadabb5cf71687771a5ad7e15c03c1abb3eb09"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "c9abf520ffec33dc0b6d668af3445607fe54ca92e53c8f9b52657a85e7968bd2"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "69eab9bfc350fef13a7fa0da2b437092a7ee93aeffce120847d1c30d76c711ae"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

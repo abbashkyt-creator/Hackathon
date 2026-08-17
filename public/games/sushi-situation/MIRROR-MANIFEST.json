@@ -1,0 +1,330 @@
+{
+  "name": "sushi-situation",
+  "sourcePage": "https://poki.com/en/g/sushi-situation",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1142,
+      "sha256": "3abaaeb2358c98d72c9a7863c15907dd2b7be56380a3fa00edf5bef0c8f8deca",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "9b5b0e0dca6b0e1ff04d1a03ae1f5b65363b97bfc1b74d891adbdf86e668a3cb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "5a0885ddc5d75e46e91cdf81851304dcbbc15e8fea723588c4a49e3ee03d0d83",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "2b376ee1008e0a06aaeb9997c34f43d16f88535254fc6553a7966372b28b2777",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "a75cf15a64f920eb9426735625c0f6f87f7eaf74c7866b41beb148352dcd5d04",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/browserAll-CziT-EtK.js",
+      "bytes": 43108,
+      "sha256": "70b1e6643a35eed81ca39ba4755ded3f96cb7bb9175b2f09ebdf0641e602fbda"
+    },
+    {
+      "assetPath": "assets/colorToUniform-CSJ9H29O.js",
+      "bytes": 4174,
+      "sha256": "6032cac37d7db33c91813eefcb5234ff39c810263302dab0877a5d32ef2ca5bc"
+    },
+    {
+      "assetPath": "assets/index-BVP-UsnH.js",
+      "bytes": 462224,
+      "sha256": "ccdb9dbd4a094f340967b510fb7e339c3523a3a3121e04a4816c72ed832f11c5"
+    },
+    {
+      "assetPath": "assets/SharedSystems-D9OdK9yh.js",
+      "bytes": 55318,
+      "sha256": "0f7e5ffdeda39d2592751ceda2b122eb811f60a79b2fa62be923ebc36db7c196"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-DBmZmuAK.js",
+      "bytes": 63417,
+      "sha256": "4bdf4f1edc098530a2313f17676d49ca6fb40be84505f19afe37c6ca5dbd0810"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-u3fW40MI.js",
+      "bytes": 37165,
+      "sha256": "7bedb29cd9fa2abe6949f08032ea05730259aadf998d7c44b65083b531c2d87a"
+    },
+    {
+      "assetPath": "assets/webworkerAll-CtOTJZ_W.js",
+      "bytes": 56386,
+      "sha256": "1f48e8c7b4614e0a1f45e71518be69a1fb2d64bcb9f51065de34f13c9c972a68"
+    },
+    {
+      "assetPath": "audio/move.mp3",
+      "bytes": 15590,
+      "sha256": "822f4596606bb5d55b0823994279b87eac7009cca3c1798c020910f341a03fbb"
+    },
+    {
+      "assetPath": "audio/pickup.wav",
+      "bytes": 116132,
+      "sha256": "81418713a42bc81e4ba4cf3ad2de404a1ab7c87bcec584581cceabc9060241a4"
+    },
+    {
+      "assetPath": "audio/place.wav",
+      "bytes": 195092,
+      "sha256": "f8bcc70fca395b92ab2ef111ef874bf38c8659bc574452341f4e30bef4ec2397"
+    },
+    {
+      "assetPath": "audio/win.mp3",
+      "bytes": 34059,
+      "sha256": "420036dd0e46e25dece09c1e2cb7d85e101fa734bb6dec3da5102358f516843e"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1142,
+      "sha256": "3abaaeb2358c98d72c9a7863c15907dd2b7be56380a3fa00edf5bef0c8f8deca"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "5a0885ddc5d75e46e91cdf81851304dcbbc15e8fea723588c4a49e3ee03d0d83"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "2b376ee1008e0a06aaeb9997c34f43d16f88535254fc6553a7966372b28b2777"
+    },
+    {
+      "assetPath": "levels/content_complete.json",
+      "bytes": 25,
+      "sha256": "a1f46643f70259053f9d2ae6af9f716869bf82aa359771c1cc075394dd2035da"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "a75cf15a64f920eb9426735625c0f6f87f7eaf74c7866b41beb148352dcd5d04"
+    },
+    {
+      "assetPath": "sprites/Background/Table_Board.png",
+      "bytes": 5214,
+      "sha256": "32dd6aea5096cf29220f1d2c84416bc1e69b6ea32a83dc8ea3b6e266e5448bb5"
+    },
+    {
+      "assetPath": "sprites/Background/Table_Tray.png",
+      "bytes": 882,
+      "sha256": "f4cf4f8f6e4d836f93d6ca8594a23a303e673c97567bbf94190c1e3dc5beba60"
+    },
+    {
+      "assetPath": "sprites/BigPieces/egg.png",
+      "bytes": 2211,
+      "sha256": "fdd5d0f5492ec322d213dcd3d3e531849403f34d1a4e2833988c0a3e3eddb37e"
+    },
+    {
+      "assetPath": "sprites/BigPieces/Fish.png",
+      "bytes": 2655,
+      "sha256": "8452cc281ab6b986d977479ce4109ba24edef5b50df22846b7ecc9dc17b55b59"
+    },
+    {
+      "assetPath": "sprites/BigPieces/fishTall.png",
+      "bytes": 1130,
+      "sha256": "95fb1a5c83e01b12d356d78d7d2bd14a28d4e50ebdb62fb341c627920fce12f3"
+    },
+    {
+      "assetPath": "sprites/BigPieces/schrimpBig.png",
+      "bytes": 2149,
+      "sha256": "e04736beb84d125a9437ea083d9e946a29f5498d82604849d933b2208bb8b7a2"
+    },
+    {
+      "assetPath": "sprites/BigPieces/Schrimp_Small.png",
+      "bytes": 1809,
+      "sha256": "9e41c6a457723d765fc188673513211d50f4a58d8f7ab0055df6d62b222ef6fd"
+    },
+    {
+      "assetPath": "sprites/BigPieces/Squid.png",
+      "bytes": 2871,
+      "sha256": "7827b60f1a601909780e76b572c679c1662dbc6d2d1064e95402ee153dc0b013"
+    },
+    {
+      "assetPath": "sprites/BigPieces/SushiBigSquare.png",
+      "bytes": 1757,
+      "sha256": "06fd0e2eacbf96bb509b978649a8b75fb4834a21512dc87710420c7545047653"
+    },
+    {
+      "assetPath": "sprites/BigPieces/SushiBig_Salmon.png",
+      "bytes": 1040,
+      "sha256": "98610e50693c225ac80f1b550c9cb93271e4066b1d35d6b27767ea822ddc0d6c"
+    },
+    {
+      "assetPath": "sprites/coin.png",
+      "bytes": 1116,
+      "sha256": "93d9c9bf3144b8668499ed755a15b6c8c3231128bc9785ccac8a1d25b8cf5bce"
+    },
+    {
+      "assetPath": "sprites/Effects/sparkle.png",
+      "bytes": 348,
+      "sha256": "bf17854233c7f8afa963e50c315118c827ba6e7a3f6a8dd1866d8d2ea178baa7"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateCorner.png",
+      "bytes": 383,
+      "sha256": "48dc04cdb6a329652a2c41a856e1f344efac74984d3e0a21b085bfa206a00826"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateCorner_Doomed.png",
+      "bytes": 247,
+      "sha256": "e1d1cf4d12545ae7e1bf8aeb37777f2746c90375bbb337b8e89813ccf8eeaa93"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateCorner_Special.png",
+      "bytes": 319,
+      "sha256": "4bc9e8813cd9220ce737d73236c78aae7b634f5cab5844775d2e39a51f87797d"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateVisual.png",
+      "bytes": 1210,
+      "sha256": "9a5cf84d60e6b8781890909cfdf9a0a864ddc57418d3c4ccdf22b159b48b1939"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateVisual_blue.png",
+      "bytes": 1199,
+      "sha256": "af27375dfca987392cb20e7e956a60af8ce66dacc9520fbba27216c598602612"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateVisual_neutral.png",
+      "bytes": 1281,
+      "sha256": "ef81ef975e842f4a4b8c469243f9fad0db59fc3d2d884512bc2d9013572fe309"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateVisual_Stacked.png",
+      "bytes": 2379,
+      "sha256": "b251ead648136e6c06b2a043afad3b497ee2555f676c35a25ff8e87264d2c6c6"
+    },
+    {
+      "assetPath": "sprites/Plate/PlateVisual_Stacked_neutral.png",
+      "bytes": 2976,
+      "sha256": "dadc6141954006b0f2629aa537dfcbea193bb8151bd7a484539c810bc0d2869e"
+    },
+    {
+      "assetPath": "sprites/SingleSushi/sushi_01.png",
+      "bytes": 1181,
+      "sha256": "0b6852c4449ba1d20dfb4a00e99208a81f4d71a2eb0b319eff06e66078ee8935"
+    },
+    {
+      "assetPath": "sprites/SingleSushi/sushi_02.png",
+      "bytes": 993,
+      "sha256": "0d715394d002092460221e78927120c6a49355b0ff85cd7ad48d38f55a0c3802"
+    },
+    {
+      "assetPath": "sprites/SingleSushi/sushi_03.png",
+      "bytes": 935,
+      "sha256": "3e91db750f90dda1e4e43cd9a7ac29f2f5cb0ea4f567594f5bae518560f15bff"
+    },
+    {
+      "assetPath": "sprites/SingleSushi/sushi_04.png",
+      "bytes": 1239,
+      "sha256": "a05f60b64c7021952e50a3e9cdcc4cbbd613d1ac23b76bde52b04f61e2eb75f4"
+    },
+    {
+      "assetPath": "sprites/SingleSushi/sushi_07.png",
+      "bytes": 1039,
+      "sha256": "d1607c63567bdf733f8d7e8fb0aac3747f2fa09f2f71bd1b962c75b8b8bfdd26"
+    },
+    {
+      "assetPath": "sprites/SingleSushi/sushi_10.png",
+      "bytes": 598,
+      "sha256": "62f4558ad577b744dbc590e3ac5f6dfa8003db00275eaee4ead47353d5b01deb"
+    },
+    {
+      "assetPath": "sprites/SpecialSushi/special_wassabi.png",
+      "bytes": 1298,
+      "sha256": "961972d1427f3ceb06d9ce1f7048a0c5184d82afda5b2f95f2275483175615db"
+    },
+    {
+      "assetPath": "ui/btn_frame.png",
+      "bytes": 327,
+      "sha256": "6644720acb3194ac6cc622f18f4b6dd5e631598c830b16f608c396c135bcc5e4"
+    },
+    {
+      "assetPath": "ui/ButtonIcon_Retry.png",
+      "bytes": 1829,
+      "sha256": "8a64c5759925ef5574eb2129844c3133e6c30204ccb938951143fc7b4e3621c1"
+    },
+    {
+      "assetPath": "ui/ButtonShapeOutline.png",
+      "bytes": 1026,
+      "sha256": "4c091c6a3c22b2ce4da95492769a97e04e3a621ad7c5d783423c4fad398b046b"
+    },
+    {
+      "assetPath": "ui/extraSpotVisual.png",
+      "bytes": 2371,
+      "sha256": "b5245d721b47cffdfc258a7c0593893949b3fd921e5d6bbdfac0c5d2f660cbf8"
+    },
+    {
+      "assetPath": "ui/icon_attentionLines.png",
+      "bytes": 488,
+      "sha256": "57c39cfa15c4163d19d0268ac4218784aba45285c9d9772133f3c20b5c9ffa22"
+    },
+    {
+      "assetPath": "ui/icon_bin.png",
+      "bytes": 1039,
+      "sha256": "d41cae8e1fd93e3b487f9dac0301056965e429db138800bdb80176e6c8fba57f"
+    },
+    {
+      "assetPath": "ui/icon_checkmark.png",
+      "bytes": 495,
+      "sha256": "6e4fa76c04d2d6032501ab9b19847cd0b7db183a614f025add9d0fa12c6656b8"
+    },
+    {
+      "assetPath": "ui/Icon_commercial.png",
+      "bytes": 873,
+      "sha256": "fb98782aea92da2eb6902900a81d98ee5513fbfd75c6af6febade3d78ade2f48"
+    },
+    {
+      "assetPath": "ui/Icon_lock.png",
+      "bytes": 601,
+      "sha256": "f700f3d9dc6fbcf84e35759eb899063bfe349edfe7d232c01b2c15837d957145"
+    },
+    {
+      "assetPath": "ui/icon_refresh.png",
+      "bytes": 847,
+      "sha256": "bbbac4f9f54fab1682aed81078d4039eae764118567a3418eae46bb454485194"
+    },
+    {
+      "assetPath": "ui/icon_undo.png",
+      "bytes": 602,
+      "sha256": "2101714a4d5b1e87dd1f0368409600d9fe7e0ad1068dd8a9ab25d231b94163e8"
+    },
+    {
+      "assetPath": "ui/PlateIcon.png",
+      "bytes": 2403,
+      "sha256": "3f2af72d52b9b1bbcdfa6673a815b85b6c39eeaa61f196ad56730eee4b26d0d7"
+    },
+    {
+      "assetPath": "ui/PlateIcon_doomed.png",
+      "bytes": 1769,
+      "sha256": "3c14660e62d3568681f15c5db4840e10b69ba14b5fff80e60a7040b0e045afb2"
+    },
+    {
+      "assetPath": "ui/SwipeHand.png",
+      "bytes": 1864,
+      "sha256": "ae66c599d815c9ed37a1637d24fd0826c7bd40f56d81b4100d1cc6bda1345fe3"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

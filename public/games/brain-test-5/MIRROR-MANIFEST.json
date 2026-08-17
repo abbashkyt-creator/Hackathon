@@ -1,0 +1,70 @@
+{
+  "name": "brain-test-5",
+  "sourcePage": "https://poki.com/en/g/brain-test-5",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "ba49033e6517a6163d57d005633b57ba5175053d496e720a1ea8f19ff67cae3f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "180e92d5390666fba869478905c88e2ea6702a21bf2cc9ac5d8f9a7908fac878",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "10d688efea91a09118aab07a44048e6579c95b8f2f792397f33a4f2c1979ff21",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "51efbf01d70afb828a63b7f0c0ae2f0d1b4aee02f8a6ce364e54f0312c904490",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "525cd9efec1f57bfc948f24861ab979daaf5e7d8bde5c21779696b2b365c7bbf",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "ba49033e6517a6163d57d005633b57ba5175053d496e720a1ea8f19ff67cae3f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "10d688efea91a09118aab07a44048e6579c95b8f2f792397f33a4f2c1979ff21"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1206,
+      "sha256": "d30b3a63801cdc1cf95e0d892bad3221ddb5c751127f50fbdff061d0c45fd3b4"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "51efbf01d70afb828a63b7f0c0ae2f0d1b4aee02f8a6ce364e54f0312c904490"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "525cd9efec1f57bfc948f24861ab979daaf5e7d8bde5c21779696b2b365c7bbf"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

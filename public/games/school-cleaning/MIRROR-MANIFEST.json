@@ -1,0 +1,70 @@
+{
+  "name": "school-cleaning",
+  "sourcePage": "https://poki.com/en/g/school-cleaning",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "dfbcd084083e69e3b41ebd7cbd3f518500ab2070afcbaf5424d68d982af2723e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "d72c231b2a60f3d51bde193f3f6b5609ef5090ee9c4ff1da631cc7e862c6e5d5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "a661e0616782d71ee5b1f53b964e235df685ff990962b6a1d2164db4ce6b45c0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "3e0ee96042e217845581c0daf7c3d7355a772fc7813843e2f8400a3aa3653dcc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "9f7af03786dc635d9a21d42e3f730e4001456413a63f2c21296117c9ff753689",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "dfbcd084083e69e3b41ebd7cbd3f518500ab2070afcbaf5424d68d982af2723e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "a661e0616782d71ee5b1f53b964e235df685ff990962b6a1d2164db4ce6b45c0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1164,
+      "sha256": "62f91054446b088107199d286ddac848ca0b717b86ec701873a71e7261dcd8fd"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "3e0ee96042e217845581c0daf7c3d7355a772fc7813843e2f8400a3aa3653dcc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "9f7af03786dc635d9a21d42e3f730e4001456413a63f2c21296117c9ff753689"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,110 @@
+{
+  "name": "dan-the-man",
+  "sourcePage": "https://poki.com/en/g/dan-the-man",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5456,
+      "sha256": "d1f6e65e18777c9a1fb81d6798758bac063493b2db3204cd304e2655f6b18902",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "2bcb25294a9db28432c1022b4d238e29675075b15bb051b8dab5f6c5f72d6886",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "0d2aae0a8feac08b88134b83448dedfe3cb2e06883c420861a69f6889c960d90",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "ad496a479f68a9fc0786ec69bccfb8cd71dbca46ef980e2cb5be04809e5b5fa5",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "ffe5c684250e5316de889d27d41454f3f5b960a4fe38cde003c49dc6ae8d8ce5",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "DanTheManDefold.wasm",
+      "bytes": 2619856,
+      "sha256": "b0500c9c6c6aa362e723a8011b44fa9671cecb5040cdc28554534d04f2a490f9"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 48008,
+      "sha256": "d8b692d3b428ac1bf82405b83fc17a2229caf943e117716d94aeb60865e54991"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5456,
+      "sha256": "d1f6e65e18777c9a1fb81d6798758bac063493b2db3204cd304e2655f6b18902"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "0d2aae0a8feac08b88134b83448dedfe3cb2e06883c420861a69f6889c960d90"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 328,
+      "sha256": "e26a62067be6e64c56c5efc8191d569a518cf2a52d9da0d39fa35442e6fec711"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 903,
+      "sha256": "6531f6ec9296880dade5f0fa0ccff81fe3fe20c27baf0bcfb1cac99a606e4c82"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 818,
+      "sha256": "be3a94cf36d50229d9a01c18e3ad63c28ea4e352392874d8b2e3b79b469df645"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 328,
+      "sha256": "c7c269bd078e6a1db8a226f2d5dfeae21765c7bd2464670f2c683debf1021d7f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "ad496a479f68a9fc0786ec69bccfb8cd71dbca46ef980e2cb5be04809e5b5fa5"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "ffe5c684250e5316de889d27d41454f3f5b960a4fe38cde003c49dc6ae8d8ce5"
+    },
+    {
+      "assetPath": "yes2sdk-data.js",
+      "bytes": 167,
+      "sha256": "9805d65fbce6900b6227bb0425fd96ad52ce9a2a5d03bed8260cc996d7416117"
+    },
+    {
+      "assetPath": "yes2sdk.umd.js",
+      "bytes": 37607,
+      "sha256": "4c985a2e9c8a88c3fab44e7f5d65c46eca05008c6f7c1b255472fafce3605323"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

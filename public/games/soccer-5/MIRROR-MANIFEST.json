@@ -1,0 +1,85 @@
+{
+  "name": "soccer-5",
+  "sourcePage": "https://poki.com/en/g/soccer-5",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1825,
+      "sha256": "6ecddbd055b3e110724b98428b329021fe0b5eb7cdeea0927a9bf23b81c49f98",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "11d7b032cd2230b139cfab822f89e87026305acc6fb9a23e3ab1df805241c422",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "74d7d98da8156dd34ce43b1c43d33cc938e86adc7b93c069c668d66357f8c9da",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "b2c5d84fef8706d67fef50c48de494628a26b7bf304c952661e64e725873488c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "451ae20bd2b05b653023791614d912707dc74d59992a62bbf751acd4584f3a2b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "crypto-js.min.js",
+      "bytes": 47992,
+      "sha256": "eab5d90a71736f267af39fdf32caa8c71673fd06703279b01e0f92b0d7be0bfc"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1825,
+      "sha256": "6ecddbd055b3e110724b98428b329021fe0b5eb7cdeea0927a9bf23b81c49f98"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "74d7d98da8156dd34ce43b1c43d33cc938e86adc7b93c069c668d66357f8c9da"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 392847,
+      "sha256": "af514d469181039264f3cc6a97d8bd6f2c6d0f97d4fe7a49382d5a5110349a99"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "b2c5d84fef8706d67fef50c48de494628a26b7bf304c952661e64e725873488c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "451ae20bd2b05b653023791614d912707dc74d59992a62bbf751acd4584f3a2b"
+    },
+    {
+      "assetPath": "soundtrack/themesong.mp3",
+      "bytes": 769354,
+      "sha256": "5e7cb7d6b98371ef6734cece1bd6d702f22f8d3c6f956405b8f5e2fe822363ca"
+    },
+    {
+      "assetPath": "worldcup/status.txt",
+      "bytes": 725,
+      "sha256": "088b9359412f6c044f302f468cdc47dce09b5cf71f4c27c5540dd029e0d85f4c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

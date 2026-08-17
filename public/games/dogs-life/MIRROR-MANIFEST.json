@@ -1,0 +1,70 @@
+{
+  "name": "dogs-life",
+  "sourcePage": "https://poki.com/en/g/dogs-life",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 681,
+      "sha256": "496b710a52bfc3154a040bc5053dc3838a26ff8ef61c5a894088bf6a1037984e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "176a429a03b47c781ea8064cb0bfd250f6bf33d7b39e21a67636097fd05603bc",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "407712e66eb7fe02b1202e73ac5bbec67febb9e32e81e39eb9f83d6d79772770",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "82b2914bd98e4d1b713fd078649888efa5230421a6732b112b8c924726300e51",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "23e618fccf7b27a723c7166624e3d69079dfff6467f31ffc96914a3919e4b3db",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 681,
+      "sha256": "496b710a52bfc3154a040bc5053dc3838a26ff8ef61c5a894088bf6a1037984e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "407712e66eb7fe02b1202e73ac5bbec67febb9e32e81e39eb9f83d6d79772770"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1212,
+      "sha256": "23f72278e0a24c7d9c93d5f16223d248bdb2b96df1c635bcaa870e0f45aa25fc"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "82b2914bd98e4d1b713fd078649888efa5230421a6732b112b8c924726300e51"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "23e618fccf7b27a723c7166624e3d69079dfff6467f31ffc96914a3919e4b3db"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

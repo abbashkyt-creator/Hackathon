@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/sea-of-sharks/index.html",
+    "/games/sea-of-sharks/js/poki-sdk-shim.js",
+    "/games/sea-of-sharks/js/tiptap-platform-bridge.js",
+    "/games/sea-of-sharks/js/tiptap-inline-1.js"
+  ]
+}

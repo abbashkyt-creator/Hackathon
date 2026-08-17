@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/tens/index.html",
+    "/games/tens/js/poki-sdk-shim.js",
+    "/games/tens/js/tiptap-platform-bridge.js",
+    "/games/tens/js/tiptap-inline-1.js",
+    "/games/tens/js/tiptap-inline-2.js",
+    "/games/tens/js/tiptap-inline-3.js"
+  ]
+}

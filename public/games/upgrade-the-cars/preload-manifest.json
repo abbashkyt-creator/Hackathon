@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/upgrade-the-cars/index.html",
+    "/games/upgrade-the-cars/js/poki-sdk-shim.js",
+    "/games/upgrade-the-cars/js/tiptap-platform-bridge.js",
+    "/games/upgrade-the-cars/js/tiptap-inline-1.js",
+    "/games/upgrade-the-cars/js/tiptap-inline-2.js"
+  ]
+}

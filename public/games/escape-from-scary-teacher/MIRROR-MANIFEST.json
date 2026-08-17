@@ -1,0 +1,70 @@
+{
+  "name": "escape-from-scary-teacher",
+  "sourcePage": "https://poki.com/en/g/escape-from-scary-teacher",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 986,
+      "sha256": "03abae1aaac56a7af919624229af7b8f269f957f79ec0f3c5d73f3c8693e73e5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "c24170a2c53ecae25a8caf488031a8495ad4e192d733bd13d5016b8b4da74039",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "52df9a0c2c6786e9d33b5899febe6e94cb389e087fad66a01fd1c429794a6aa3",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "ab0caa0fd62ac2055d27f4e72d86349d0071046a22f769be873d629fe595a842",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "ae683355043f0b6c2db3a3dc8b6047d72ee262ba151a16effc3a4b19a3d58a09",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 986,
+      "sha256": "03abae1aaac56a7af919624229af7b8f269f957f79ec0f3c5d73f3c8693e73e5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "52df9a0c2c6786e9d33b5899febe6e94cb389e087fad66a01fd1c429794a6aa3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1034,
+      "sha256": "6cdfb8ef941c2e00b7a90f6d0dbad83275a2a294477bf3dabc92824e96bf2129"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "ab0caa0fd62ac2055d27f4e72d86349d0071046a22f769be873d629fe595a842"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "ae683355043f0b6c2db3a3dc8b6047d72ee262ba151a16effc3a4b19a3d58a09"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

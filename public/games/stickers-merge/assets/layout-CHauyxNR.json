@@ -1,0 +1,508 @@
+{
+  "root": {
+    "type": "Container",
+    "children": {
+      "background": {
+        "type": "Container",
+        "components": {
+          "responsiveNodeSize": {
+            "type": "ResponsiveNodeSizeComponent",
+            "enabled": true,
+            "data": {
+              "mode": "fill_width_height_ratio",
+              "minScale": 1,
+              "maxScale": 1,
+              "fill": {
+                "resizeTargets": [
+                  "gradient",
+                  "pattern"
+                ],
+                "widthPercent": 1,
+                "heightRatio": 1,
+                "minHeightPx": 1,
+                "maxHeightPx": 5000,
+                "horizontalAlign": "left",
+                "verticalAlign": "top"
+              }
+            }
+          }
+        },
+        "children": {
+          "gradient": {
+            "type": "Sprite",
+            "props": {
+              "asset": "images/common/bg-gradient.png",
+              "anchor": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          },
+          "pattern": {
+            "type": "TilingSprite",
+            "props": {
+              "asset": "images/common/pattern.png",
+              "anchor": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        }
+      },
+      "content": {
+        "type": "Container",
+        "children": {
+          "playfield": {
+            "type": "Container",
+            "props": {
+              "x": 0,
+              "y": 0
+            },
+            "components": {
+              "bootIntroAnimationPresentation": {
+                "type": "BootIntroAnimationPresentationComponent",
+                "enabled": true,
+                "data": {}
+              }
+            },
+            "children": {
+              "stickersArea": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "y": 0
+                },
+                "components": {
+                  "responsivePosition": {
+                    "type": "ResponsiveNodePositionComponent",
+                    "enabled": true,
+                    "data": {
+                      "mode": "screen",
+                      "position": {
+                        "cx": 0,
+                        "cy": 0
+                      }
+                    }
+                  },
+                  "responsiveSize": {
+                    "type": "ResponsiveNodeSizeComponent",
+                    "enabled": true,
+                    "data": {
+                      "mode": "uniform_scale",
+                      "minScale": 0.68,
+                      "maxScale": 1,
+                      "uniform": {
+                        "axis": "min",
+                        "referenceScreenWidthPx": 720,
+                        "referenceScreenHeightPx": 1280
+                      }
+                    }
+                  }
+                },
+                "children": {
+                  "titleLogo": {
+                    "type": "Sprite",
+                    "actions": {
+                      "logoReveal": {
+                        "type": "PlayButtonRevealAction",
+                        "data": {
+                          "durationMs": 420,
+                          "ease": "back.out(1.7)"
+                        }
+                      }
+                    },
+                    "components": {
+                      "responsivePosition": {
+                        "type": "ResponsiveNodePositionComponent",
+                        "enabled": true,
+                        "data": {
+                          "mode": "screen",
+                          "position": {
+                            "cx": 0,
+                            "cy": "-28%"
+                          }
+                        }
+                      },
+                      "responsiveSize": {
+                        "type": "ResponsiveNodeSizeComponent",
+                        "enabled": true,
+                        "data": {
+                          "mode": "uniform_scale",
+                          "minScale": 0.72,
+                          "maxScale": 1,
+                          "uniform": {
+                            "axis": "min",
+                            "referenceScreenWidthPx": 720,
+                            "referenceScreenHeightPx": 1280
+                          }
+                        }
+                      }
+                    },
+                    "props": {
+                      "assetByLocale": {
+                        "en": "images/common/logo_en.png",
+                        "ru": "images/common/logo_ru.png"
+                      },
+                      "x": 0,
+                      "y": 0,
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      }
+                    }
+                  },
+                  "leftStickerSlot": {
+                    "type": "Container",
+                    "props": {
+                      "x": -140,
+                      "y": 0,
+                      "visible": false
+                    },
+                    "children": {
+                      "tier1": {
+                        "type": "Container",
+                        "children": {
+                          "sprite": {
+                            "type": "Sprite",
+                            "props": {
+                              "asset": "images/stickers/02/01_1.png",
+                              "anchor": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "scale": 0.5
+                            }
+                          }
+                        }
+                      },
+                      "tier2": {
+                        "type": "Container",
+                        "props": {
+                          "visible": false
+                        },
+                        "children": {
+                          "sprite": {
+                            "type": "Sprite",
+                            "props": {
+                              "asset": "images/stickers/02/01_2.png",
+                              "anchor": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "scale": 0.5
+                            }
+                          }
+                        }
+                      },
+                      "tier3": {
+                        "type": "Container",
+                        "props": {
+                          "visible": false
+                        },
+                        "children": {
+                          "sprite": {
+                            "type": "Sprite",
+                            "props": {
+                              "asset": "images/stickers/02/01_3.png",
+                              "anchor": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "scale": 0.5
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "rightStickerSlot": {
+                    "type": "Container",
+                    "props": {
+                      "x": 140,
+                      "y": 0,
+                      "visible": false
+                    },
+                    "actions": {
+                      "upgradeTween": {
+                        "type": "StickerUpgradeTweenAction"
+                      }
+                    },
+                    "children": {
+                      "tier1": {
+                        "type": "Container",
+                        "children": {
+                          "sprite": {
+                            "type": "Sprite",
+                            "props": {
+                              "asset": "images/stickers/02/01_1.png",
+                              "anchor": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "scale": 0.5
+                            }
+                          }
+                        }
+                      },
+                      "tier2": {
+                        "type": "Container",
+                        "props": {
+                          "visible": false
+                        },
+                        "children": {
+                          "sprite": {
+                            "type": "Sprite",
+                            "props": {
+                              "asset": "images/stickers/02/01_2.png",
+                              "anchor": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "scale": 0.5
+                            }
+                          }
+                        }
+                      },
+                      "tier3": {
+                        "type": "Container",
+                        "props": {
+                          "visible": false
+                        },
+                        "children": {
+                          "sprite": {
+                            "type": "Sprite",
+                            "props": {
+                              "asset": "images/stickers/02/01_3.png",
+                              "anchor": {
+                                "x": 0.5,
+                                "y": 0.5
+                              },
+                              "scale": 0.5
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "particlesLayer": {
+                    "type": "Container",
+                    "children": {
+                      "mergeParticlesContainer": {
+                        "type": "Container",
+                        "actions": {
+                          "playMergeImpact": {
+                            "type": "DefaultMergeImpactAction",
+                            "data": {
+                              "textureAssetId": "images/common/flash.png",
+                              "burstPresetAssetId": "json/configs/scenes/level/particles/default-merge-impact-burst.json",
+                              "glowExpandDurationMs": 200,
+                              "glowCollapseDurationMs": 100,
+                              "sparkleDelayMs": 60,
+                              "sparkleExpandDurationMs": 200,
+                              "sparkleCollapseDurationMs": 200,
+                              "fxDurationMs": 260
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "handLayer": {
+                "type": "Container"
+              },
+              "dragOverlay": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "y": 0
+                },
+                "components": {
+                  "responsivePosition": {
+                    "type": "ResponsiveNodePositionComponent",
+                    "enabled": true,
+                    "data": {
+                      "mode": "screen",
+                      "position": {
+                        "cx": 0,
+                        "cy": 0
+                      }
+                    }
+                  },
+                  "responsiveSize": {
+                    "type": "ResponsiveNodeSizeComponent",
+                    "enabled": true,
+                    "data": {
+                      "mode": "uniform_scale",
+                      "minScale": 0.68,
+                      "maxScale": 1,
+                      "uniform": {
+                        "axis": "min",
+                        "referenceScreenWidthPx": 720,
+                        "referenceScreenHeightPx": 1280
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "Container",
+        "props": {
+          "x": 0,
+          "y": 0
+        },
+        "children": {
+          "loadingIndicator": {
+            "type": "Container",
+            "props": {
+              "x": 0,
+              "y": 0
+            },
+            "components": {
+              "responsivePosition": {
+                "type": "ResponsiveNodePositionComponent",
+                "enabled": true,
+                "data": {
+                  "mode": "screen",
+                  "position": {
+                    "cx": 0,
+                    "cy": "25%"
+                  }
+                }
+              }
+            },
+            "children": {
+              "content": {
+                "$include": "json/layouts/features/shared-ui/_transition-loading-indicator.json"
+              }
+            }
+          },
+          "playButtonContainer": {
+            "type": "Container",
+            "props": {
+              "x": 0,
+              "y": 0
+            },
+            "components": {
+              "responsivePosition": {
+                "type": "ResponsiveNodePositionComponent",
+                "enabled": true,
+                "data": {
+                  "mode": "screen",
+                  "position": {
+                    "cx": 0,
+                    "cy": "25%"
+                  }
+                }
+              },
+              "responsiveSize": {
+                "type": "ResponsiveNodeSizeComponent",
+                "enabled": true,
+                "data": {
+                  "mode": "uniform_scale",
+                  "minScale": 0.74,
+                  "maxScale": 1,
+                  "uniform": {
+                    "axis": "min",
+                    "referenceScreenWidthPx": 720,
+                    "referenceScreenHeightPx": 1280
+                  }
+                }
+              }
+            },
+            "children": {
+              "playButton": {
+                "type": "Sprite",
+                "props": {
+                  "asset": "images/common/btn1.png",
+                  "x": 0,
+                  "y": 0,
+                  "visible": false,
+                  "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                  }
+                },
+                "actions": {
+                  "playButtonReveal": {
+                    "type": "PlayButtonRevealAction",
+                    "data": {
+                      "durationMs": 420,
+                      "ease": "back.out(1.7)",
+                      "targetScale": 1.5
+                    }
+                  },
+                  "playButtonStartIdleLoop": {
+                    "type": "PlayButtonStartIdleLoopAction",
+                    "data": {
+                      "durationMs": 1100,
+                      "minScale": 1.3,
+                      "startScale": 1.5,
+                      "ease": "sine.inOut"
+                    }
+                  },
+                  "playButtonStopAnimations": {
+                    "type": "PlayButtonStopAnimationsAction"
+                  },
+                  "playButtonTapPress": {
+                    "type": "PlayButtonTapPressAction",
+                    "data": {
+                      "downDurationMs": 70,
+                      "upDurationMs": 90,
+                      "pressedScale": 0.9,
+                      "baseScale": 1.5,
+                      "downEase": "power2.out",
+                      "upEase": "power2.out"
+                    }
+                  }
+                },
+                "components": {
+                  "glintOverlay": {
+                    "type": "GlintOverlayComponent",
+                    "enabled": true,
+                    "data": {
+                      "overlayAssetId": "images/common/btnMainWhite.png",
+                      "intervalMs": 2000,
+                      "moveDurationMs": 400,
+                      "fadeInDurationMs": 180,
+                      "fadeOutDurationMs": 320,
+                      "peakAlpha": 0.2,
+                      "skewX": -0.36,
+                      "widthRatio": 0.34,
+                      "blendMode": "add"
+                    }
+                  },
+                  "bootPlayButton": {
+                    "type": "BootPlayButtonComponent",
+                    "enabled": true
+                  }
+                },
+                "children": {
+                  "label": {
+                    "type": "Text",
+                    "props": {
+                      "textKey": "item.play",
+                      "x": 0,
+                      "y": 0,
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "style": "introAnimationContinueButtonText"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

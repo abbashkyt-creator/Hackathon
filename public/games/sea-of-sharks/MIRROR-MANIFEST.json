@@ -1,0 +1,70 @@
+{
+  "name": "sea-of-sharks",
+  "sourcePage": "https://poki.com/en/g/sea-of-sharks",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "c3aacaa1e1ba33a5d62052959671d7a7a86b11a2ebbbd052a0ed25e4a971671d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "7e7331c1fccf23201e715a0fe7235b9c218e71ef5ca50580852365504ba48019",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "5952fa1b8e2e5dad9a39375d2dc0573eceae5d543cca7bbfb8fcc44b265a0cd6",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "42c254ec92745a48c941e5cf5de900f46e7b3ccc4e7dc1d7cf99bcb436d5afa7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "9d764cf16a39a978e45bab51c6f5f691b9b204d3f83c902abeb0c21a4293db8b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "c3aacaa1e1ba33a5d62052959671d7a7a86b11a2ebbbd052a0ed25e4a971671d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "5952fa1b8e2e5dad9a39375d2dc0573eceae5d543cca7bbfb8fcc44b265a0cd6"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1225,
+      "sha256": "bafdb1239e6b18a2f4179e027e22f2b40fea8c71e10ff0d3e68da67a9e1d25d8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "42c254ec92745a48c941e5cf5de900f46e7b3ccc4e7dc1d7cf99bcb436d5afa7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "9d764cf16a39a978e45bab51c6f5f691b9b204d3f83c902abeb0c21a4293db8b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

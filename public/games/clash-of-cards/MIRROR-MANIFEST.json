@@ -1,0 +1,70 @@
+{
+  "name": "clash-of-cards",
+  "sourcePage": "https://poki.com/en/g/clash-of-cards",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "5f899838c8e8886df724915bd1e3820fa07b95481ddcd128551953b5ead525ce",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "3157387e6785445fcd24fbef29e8944a27b7559670f353b3321501e36afd76d7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "cb7eaf8c4aed8b70f364174566047db940175e57eee44fc04b739eadeca42d86",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "9b993d9c1989f303f620fb3699cf80688bd7b6002c03b3ca4e53e735abe4658c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "e038933517b15193cab381c88d157f296af3dc293ad6ac032d3e94bee1324350",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "5f899838c8e8886df724915bd1e3820fa07b95481ddcd128551953b5ead525ce"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "cb7eaf8c4aed8b70f364174566047db940175e57eee44fc04b739eadeca42d86"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1212,
+      "sha256": "27fe9528da021d1d0b82deb62590c3bab73502988b4ba61c33f896739676af7b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "9b993d9c1989f303f620fb3699cf80688bd7b6002c03b3ca4e53e735abe4658c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "e038933517b15193cab381c88d157f296af3dc293ad6ac032d3e94bee1324350"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

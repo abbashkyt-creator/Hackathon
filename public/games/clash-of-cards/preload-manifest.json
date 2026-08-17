@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/clash-of-cards/index.html",
+    "/games/clash-of-cards/js/poki-sdk-shim.js",
+    "/games/clash-of-cards/js/tiptap-platform-bridge.js",
+    "/games/clash-of-cards/js/tiptap-inline-1.js"
+  ]
+}

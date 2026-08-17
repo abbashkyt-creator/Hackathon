@@ -1,0 +1,415 @@
+{
+  "name": "a-small-world-cup-2",
+  "sourcePage": "https://poki.com/en/g/a-small-world-cup-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2006,
+      "sha256": "8a724bf4b21f6e9e5a0f9d6b4e9d6e8b5b98f87d1c21a2361612a8a46566218c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "caa767b5c3bcff8f0f087e81d91b384ec1316609aee0b0251887ed68054e5148",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "db07493394d32217011bc42f2f1105714a41ab86b61b794e6f5b3599870278de",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "cb8cfa9c6f9ff64775a4703b71007f86d9b93e57fc6699b2387b5555c91aad20",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 241,
+      "sha256": "5302da0f600fcfbc9f7487a5907d67e8931658a1f15f5d21b433541a98053c44",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 748,
+      "sha256": "e726b817267abd1f27ed86269e44ef648e1198dceac9c33afdb2302d512ebd1e"
+    },
+    {
+      "assetPath": "a_cups.json",
+      "bytes": 5891,
+      "sha256": "0aef6fad63e5af830c89389919d271d6aa09962a388dd3776907cbb4ac183d62"
+    },
+    {
+      "assetPath": "a_players.json",
+      "bytes": 259391,
+      "sha256": "b06add6d9e883c4a3e06d721e2f8f59d7e23efd9f36e30b4e5dff2859c94fbec"
+    },
+    {
+      "assetPath": "a_teams.json",
+      "bytes": 78370,
+      "sha256": "b880e2bd33817534a8735302b85bafaf609e7a1ae5c7954e0e9c4cc43fa84341"
+    },
+    {
+      "assetPath": "blockList.json",
+      "bytes": 215366,
+      "sha256": "4b2ad78a1115ef45bec2a8a6c9702a92105c6a01b73cad70645122f37c0d654a"
+    },
+    {
+      "assetPath": "box2d.wasm",
+      "bytes": 246906,
+      "sha256": "980c1932c6b690cc927a5df0cf2b483b58740979f2966922a2f1c9af7270a80e"
+    },
+    {
+      "assetPath": "canvas_iOS.css",
+      "bytes": 254,
+      "sha256": "5c523da6aa9cdb480c66bdcb13236b975cbee2daa2bc26556a8681c5460dd7b2"
+    },
+    {
+      "assetPath": "color_palette.json",
+      "bytes": 3672,
+      "sha256": "99be55724be2d0d19bacee283970d6adc23d71202203b532539013fa78680b3c"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 716222,
+      "sha256": "91d503efa1ef7ddb7de73edba630fbbdaf4dbbeef155d2921f6e2751ac58f176"
+    },
+    {
+      "assetPath": "fonts/Aero Matics Bold Italic.woff2",
+      "bytes": 7384,
+      "sha256": "dca2adb887851f3dc4209a3ad07d1a857dbf4a5bd38d4fa6c5f4e55d185ff363"
+    },
+    {
+      "assetPath": "fonts/atlanta-college.regular.woff2",
+      "bytes": 25592,
+      "sha256": "e98e3523f19d19b82ac1d073c5a8063571138bb34332251635e45d497803aa42"
+    },
+    {
+      "assetPath": "fonts/Myriad Pro Bold Condensed.woff2",
+      "bytes": 49700,
+      "sha256": "951baf49336d19c41b0273fa907957943c80903c627e918aee85deee69fa87f2"
+    },
+    {
+      "assetPath": "html.css",
+      "bytes": 102,
+      "sha256": "081ec056554e37ee8e698964fe58cc2a86c3b318ab38eca995e62952565f4e43"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 5788,
+      "sha256": "a0cba87344c70b65df3d317c35ecf2af61c9d3d69d5f446c7a631607ed5a0504"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 750,
+      "sha256": "7f98779a46eb4538c2dc83ca4d5284e2d5b42796413b3c0943cec24d91bed760"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 11799,
+      "sha256": "473441b7d74c2ad9fd64dffbefb1feb585e490a2b0885d2230ea1f2cf7fa7b54"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 1582,
+      "sha256": "875aa04d6eaef13c535a98b008ff3c3ad811939ac57fd6974c93d2f7e0ab7513"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 24111,
+      "sha256": "7b0191b1c71890f47032e57abe701f81256f9148720ba55eed4560dd1478b9a9"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 2854,
+      "sha256": "63c90a1ce973e59af92e76e4cb9949894af3d1306ee195d189a1e4ff67b7ef78"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 13100,
+      "sha256": "251e710f3207c9deb573073512d91e66c01ac387768c4dd6936c2fe4407dd60e"
+    },
+    {
+      "assetPath": "images/card_piece-sheet0.png",
+      "bytes": 194897,
+      "sha256": "a6e268b64cbd164a438325231bf641f9e642987494561c9224813424f6da506a"
+    },
+    {
+      "assetPath": "images/card_piece-sheet1.png",
+      "bytes": 24376,
+      "sha256": "2cd2f405deb620fbca60077e83900920930daa892f92c3e72f0ea1bb34539c61"
+    },
+    {
+      "assetPath": "images/charger-sheet0.png",
+      "bytes": 127,
+      "sha256": "52b9206343794d45b3bdf08ee4863b6425a6d43ae7650ee7b676f5ae5462cc6a"
+    },
+    {
+      "assetPath": "images/cupplayer_bg_tl-sheet0.png",
+      "bytes": 83,
+      "sha256": "853dc191ffc6bd201f6da805795040e1ed6f3d7c45068054f8263dfb3f534a3a"
+    },
+    {
+      "assetPath": "images/cup_imgs-sheet0.png",
+      "bytes": 53749,
+      "sha256": "7bf667c980d5285688d962c350a384d63665ddadb9127164ce9dff67bd9029f0"
+    },
+    {
+      "assetPath": "images/flag-sheet0.png",
+      "bytes": 136827,
+      "sha256": "2142391efa4b58175dd20034350927972a8525409b01a2aea0e5800a2aaf2f21"
+    },
+    {
+      "assetPath": "images/flag-sheet1.png",
+      "bytes": 42526,
+      "sha256": "d9a0e14620fd2b34af34bb35bd74494dfea0c934d5a40e428d41126e51cc16c1"
+    },
+    {
+      "assetPath": "images/flag_club-sheet0.png",
+      "bytes": 83,
+      "sha256": "544170d235e029429e6a6cdb0898d57d6fa444d1603befd33ea8babb81d1300f"
+    },
+    {
+      "assetPath": "images/generic_bg_tl-sheet0.png",
+      "bytes": 83,
+      "sha256": "853dc191ffc6bd201f6da805795040e1ed6f3d7c45068054f8263dfb3f534a3a"
+    },
+    {
+      "assetPath": "images/phborders-sheet0.png",
+      "bytes": 83,
+      "sha256": "ec0c30873abdf0c453c4eb52d38c59f0af25af83b096fcca556d708b071fcf5e"
+    },
+    {
+      "assetPath": "images/phonerotatesticker-sheet0.png",
+      "bytes": 31189,
+      "sha256": "94932eae5431a232c61f4892d945f8231fe4ade04fcdad0878e0b9b4fbc231c7"
+    },
+    {
+      "assetPath": "images/polaroid_frame-sheet0.png",
+      "bytes": 83,
+      "sha256": "544170d235e029429e6a6cdb0898d57d6fa444d1603befd33ea8babb81d1300f"
+    },
+    {
+      "assetPath": "images/polaroid_text_overlay-sheet0.png",
+      "bytes": 83,
+      "sha256": "853dc191ffc6bd201f6da805795040e1ed6f3d7c45068054f8263dfb3f534a3a"
+    },
+    {
+      "assetPath": "images/prematch_bg-sheet0.png",
+      "bytes": 16729,
+      "sha256": "a04a49277ff28ca49d2def53e6b70ddc01911881593f4fb93e5543b69b359d9f"
+    },
+    {
+      "assetPath": "images/sbusto_bg-sheet0.png",
+      "bytes": 19441,
+      "sha256": "612892162b4da18ee226b59408cf8db3b2d9696025457a2f808f73d0c29d7149"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 41708,
+      "sha256": "5129cf3e325c507ed3f3a425d056964018938d2a667278b516c4e84568f9db3d"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 361560,
+      "sha256": "923e8494ed6374bcec3e02dccd67976559022f61aff8d7a07d9c441f15a18e9d"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 14211,
+      "sha256": "4a1eb921e80dd0793e8be15c2f3a1819e99c752413c2eb405c87d720f191a2ee"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.png",
+      "bytes": 2715,
+      "sha256": "55e4e1a6702f3fc18f82c563fb14bf0559e3aa4cd466cc339a22e792b8a6c14b"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.png",
+      "bytes": 1336,
+      "sha256": "bef8097398d9e8013353faf16b933778c25e0269f15eb07df0fd93f6859dddd0"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.png",
+      "bytes": 286,
+      "sha256": "b1bb29811038154ae69ed838b46aa3434a7556634db3c7e7331529c055109659"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.png",
+      "bytes": 383220,
+      "sha256": "32de7efe49e03917fa14c987f485d8a569c0512ff90d7af481f3eb2c72e117d1"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.png",
+      "bytes": 98635,
+      "sha256": "4161e2a3ee77d7af0b6c9a94c05c3100fc20242a87566c95812690b3347154c1"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.png",
+      "bytes": 97264,
+      "sha256": "a995ce2c3fa0a8bb50b038cca7e953f6a07653b7f1511458f7615c1067920122"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.png",
+      "bytes": 3065,
+      "sha256": "d71c6e8b1be812b0e1f235e2f671e4d5ccc28512112a5aa34039070e1761917d"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.png",
+      "bytes": 206,
+      "sha256": "66682dc930ff4d3487073f5251c3f2727c3aff49482246ed1f7c31ad5200d579"
+    },
+    {
+      "assetPath": "images/shared-1-sheet5.png",
+      "bytes": 102,
+      "sha256": "cbee5659a3938961d2281ebfb954a2cac593cf6e29b1278b85820d2b68c6ef74"
+    },
+    {
+      "assetPath": "images/shared-1-sheet6.png",
+      "bytes": 108,
+      "sha256": "45b52688a5461f4b70541a5ce1032f47d1557dcb6bb06060232a5def308615cc"
+    },
+    {
+      "assetPath": "images/text_adv-sheet0.png",
+      "bytes": 5361,
+      "sha256": "1700bea1cd9829b18492a5318cf1a6e309cff355ad6ae90706f885fef67183dd"
+    },
+    {
+      "assetPath": "images/text_rete-sheet0.png",
+      "bytes": 103,
+      "sha256": "4dc592386c20344b19cff6ad00ecd2374e69dbf4bc8761480e64fff4efc425f3"
+    },
+    {
+      "assetPath": "images/text_stands-sheet0.png",
+      "bytes": 169,
+      "sha256": "afebdba17d7c21d8ee6b385a873139295364813c1480ebdfeeafd81312ec21fc"
+    },
+    {
+      "assetPath": "images/text_topstadium-sheet0.png",
+      "bytes": 103,
+      "sha256": "40519a8d7e69abc5ffd3b1b996d23e029b8068e07bb97334fbcbd840ff7e3dd7"
+    },
+    {
+      "assetPath": "images/text_topstadium2-sheet0.png",
+      "bytes": 86,
+      "sha256": "8ea30bc03a779927be7456a7d7b9ebd9b3c79d12556b7bd634f13b438793a16d"
+    },
+    {
+      "assetPath": "images/tiledblack-sheet0.png",
+      "bytes": 83,
+      "sha256": "6c47b8514ecf57cd13f6f13c3c22c35d5fc13c4f3ad4525e0b352adb020d1fb4"
+    },
+    {
+      "assetPath": "images/tiledtransition-sheet0.png",
+      "bytes": 93,
+      "sha256": "ec1c3fa745a3ad062224b026164da8559b32df8cd296ada6383dd7b25f5d2b68"
+    },
+    {
+      "assetPath": "images/tiledvjoy0-sheet0.png",
+      "bytes": 83,
+      "sha256": "544170d235e029429e6a6cdb0898d57d6fa444d1603befd33ea8babb81d1300f"
+    },
+    {
+      "assetPath": "images/tiledvjoy1-sheet0.png",
+      "bytes": 83,
+      "sha256": "544170d235e029429e6a6cdb0898d57d6fa444d1603befd33ea8babb81d1300f"
+    },
+    {
+      "assetPath": "images/tiled_vjoy_separator-sheet0.png",
+      "bytes": 96,
+      "sha256": "c6c032e4151a1770ea02380afc172d5a58392e8068f9f331f2d607c1f9eb48d9"
+    },
+    {
+      "assetPath": "images/tut_tiledblack-sheet0.png",
+      "bytes": 83,
+      "sha256": "853dc191ffc6bd201f6da805795040e1ed6f3d7c45068054f8263dfb3f534a3a"
+    },
+    {
+      "assetPath": "images/tut_tiledreveal-sheet0.png",
+      "bytes": 83,
+      "sha256": "544170d235e029429e6a6cdb0898d57d6fa444d1603befd33ea8babb81d1300f"
+    },
+    {
+      "assetPath": "images/ui_b_overlay-sheet0.png",
+      "bytes": 83,
+      "sha256": "853dc191ffc6bd201f6da805795040e1ed6f3d7c45068054f8263dfb3f534a3a"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2006,
+      "sha256": "8a724bf4b21f6e9e5a0f9d6b4e9d6e8b5b98f87d1c21a2361612a8a46566218c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "db07493394d32217011bc42f2f1105714a41ab86b61b794e6f5b3599870278de"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "cb8cfa9c6f9ff64775a4703b71007f86d9b93e57fc6699b2387b5555c91aad20"
+    },
+    {
+      "assetPath": "languages.json",
+      "bytes": 42348,
+      "sha256": "fc3a79550ed7cb94b1661878907beaebb93b247011540a40d72fe7c247526b74"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 241,
+      "sha256": "5302da0f600fcfbc9f7487a5907d67e8931658a1f15f5d21b433541a98053c44"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1666259,
+      "sha256": "88311292e87fc4924bdbb76330ced2a758f9b4cffe96b3e9ba0a941faf9b422a"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 268672,
+      "sha256": "5eddf539b8975afa8f94355a5d86d77ca09d143c8ce43bfe00778972ea9dd79f"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

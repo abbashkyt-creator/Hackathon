@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/duck-merge/index.html",
+    "/games/duck-merge/js/poki-sdk-shim.js",
+    "/games/duck-merge/js/tiptap-platform-bridge.js",
+    "/games/duck-merge/js/tiptap-inline-1.js"
+  ]
+}

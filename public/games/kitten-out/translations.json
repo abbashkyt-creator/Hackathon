@@ -1,0 +1,18 @@
+{
+  "translations": {
+    "test text": {
+      "en": "test text",
+      "es": "texto de prueba",
+      "it": "testo di prova",
+      "pt": "texto de teste",
+      "fr": "texte de test"
+    },
+    "completed": {
+      "en": "completed",
+      "es": "completado",
+      "it": "completato",
+      "pt": "completado",
+      "fr": "terminé"
+    }
+  }
+}

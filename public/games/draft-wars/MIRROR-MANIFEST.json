@@ -1,0 +1,95 @@
+{
+  "name": "draft-wars",
+  "sourcePage": "https://poki.com/en/g/draft-wars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5386,
+      "sha256": "656eee68404fb1898e7d1e5ad57cd94292fdb2d8639040681f2cc6f56d5d1206",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "a2c3611aa51d90a3918eb6b60647221d7e0f4dbb3dcc686e34f5ffcf6b5d46cd",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "6165a97e2942d1226bb7148b1512f8a2181384bbc12b3ea9eade9381686d8441",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "f3faa023161072c6fe9cd6d3b6250ee5ce6ad9ad35119ca2f224e7b599d37e5a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "1bb057d1d75ccd2993588262de44e7955787c4b56a535c7079ab81c6dea607e4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47996,
+      "sha256": "1507697f1f32143fdb2fc79591eda716e22e6714f87dfe17ee094569edfbc274"
+    },
+    {
+      "assetPath": "DraftWars.wasm",
+      "bytes": 2340291,
+      "sha256": "c9dc57c4d1c98b2810cbe4daf0262440893c51e857422711e6cc646f6738a240"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5386,
+      "sha256": "656eee68404fb1898e7d1e5ad57cd94292fdb2d8639040681f2cc6f56d5d1206"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "6165a97e2942d1226bb7148b1512f8a2181384bbc12b3ea9eade9381686d8441"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 322,
+      "sha256": "7dda88df10dd20885002b99f1ed656920a8f31461feb852e6980c78040a6f21a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "f3faa023161072c6fe9cd6d3b6250ee5ce6ad9ad35119ca2f224e7b599d37e5a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "1bb057d1d75ccd2993588262de44e7955787c4b56a535c7079ab81c6dea607e4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

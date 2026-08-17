@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/ball-vs-block/index.html",
+    "/games/ball-vs-block/js/poki-sdk-shim.js",
+    "/games/ball-vs-block/js/tiptap-platform-bridge.js",
+    "/games/ball-vs-block/js/tiptap-inline-1.js",
+    "/games/ball-vs-block/js/tiptap-inline-2.js",
+    "/games/ball-vs-block/js/tiptap-inline-3.js"
+  ]
+}

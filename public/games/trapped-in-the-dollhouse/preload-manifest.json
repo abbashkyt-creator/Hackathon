@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/trapped-in-the-dollhouse/index.html",
+    "/games/trapped-in-the-dollhouse/js/poki-sdk-shim.js",
+    "/games/trapped-in-the-dollhouse/js/tiptap-platform-bridge.js",
+    "/games/trapped-in-the-dollhouse/js/tiptap-inline-1.js"
+  ]
+}

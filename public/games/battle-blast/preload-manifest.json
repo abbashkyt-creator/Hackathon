@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/battle-blast/index.html",
+    "/games/battle-blast/js/poki-sdk-shim.js",
+    "/games/battle-blast/js/tiptap-platform-bridge.js"
+  ]
+}

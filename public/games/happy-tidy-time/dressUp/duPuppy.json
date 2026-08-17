@@ -1,0 +1,60 @@
+{
+"frames": {
+	"baju1.png": {
+		"frame": {"x":0, "y":393, "w":134, "h":72},
+		"spriteSourceSize": {"x":0,"y":0,"w":134,"h":72},
+		"sourceSize": {"w":134,"h":72}
+	},
+	"baju2.png": {
+		"frame": {"x":213, "y":0, "w":134, "h":72},
+		"spriteSourceSize": {"x":0,"y":0,"w":134,"h":72},
+		"sourceSize": {"w":134,"h":72}
+	},
+	"baju3.png": {
+		"frame": {"x":135, "y":393, "w":134, "h":72},
+		"spriteSourceSize": {"x":0,"y":0,"w":134,"h":72},
+		"sourceSize": {"w":134,"h":72}
+	},
+	"kacamata.png": {
+		"frame": {"x":213, "y":73, "w":126, "h":60},
+		"spriteSourceSize": {"x":0,"y":0,"w":126,"h":60},
+		"sourceSize": {"w":126,"h":60}
+	},
+	"topi1.png": {
+		"frame": {"x":0, "y":131, "w":212, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":212,"h":130},
+		"sourceSize": {"w":212,"h":130}
+	},
+	"topi2.png": {
+		"frame": {"x":0, "y":0, "w":212, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":212,"h":130},
+		"sourceSize": {"w":212,"h":130}
+	},
+	"topi3.png": {
+		"frame": {"x":0, "y":262, "w":212, "h":130},
+		"spriteSourceSize": {"x":0,"y":0,"w":212,"h":130},
+		"sourceSize": {"w":212,"h":130}
+	},
+	"toy1.png": {
+		"frame": {"x":213, "y":134, "w":87, "h":64},
+		"spriteSourceSize": {"x":0,"y":0,"w":87,"h":64},
+		"sourceSize": {"w":87,"h":64}
+	},
+	"toy2.png": {
+		"frame": {"x":213, "y":199, "w":87, "h":64},
+		"spriteSourceSize": {"x":0,"y":0,"w":87,"h":64},
+		"sourceSize": {"w":87,"h":64}
+	},
+	"toy3.png": {
+		"frame": {"x":213, "y":264, "w":87, "h":64},
+		"spriteSourceSize": {"x":0,"y":0,"w":87,"h":64},
+		"sourceSize": {"w":87,"h":64}
+	}
+
+},
+"meta": {
+	"image": "duPuppy.png",
+	"size": {"w": 512, "h": 512},
+	"scale": "1"
+}
+}

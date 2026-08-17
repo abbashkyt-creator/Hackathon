@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/find-it/index.html",
+    "/games/find-it/js/poki-sdk-shim.js",
+    "/games/find-it/js/tiptap-platform-bridge.js",
+    "/games/find-it/js/tiptap-inline-1.js",
+    "/games/find-it/js/tiptap-inline-2.js",
+    "/games/find-it/js/tiptap-inline-3.js"
+  ]
+}

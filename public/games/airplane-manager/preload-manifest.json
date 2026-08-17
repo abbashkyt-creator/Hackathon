@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/airplane-manager/index.html",
+    "/games/airplane-manager/js/poki-sdk-shim.js",
+    "/games/airplane-manager/js/tiptap-platform-bridge.js",
+    "/games/airplane-manager/js/tiptap-inline-1.js"
+  ]
+}

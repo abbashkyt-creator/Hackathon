@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/sushi-situation/index.html",
+    "/games/sushi-situation/js/poki-sdk-shim.js",
+    "/games/sushi-situation/js/tiptap-platform-bridge.js"
+  ]
+}

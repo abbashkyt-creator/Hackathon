@@ -1,0 +1,495 @@
+{
+  "name": "lafufu-blind-box-dress-up",
+  "sourcePage": "https://poki.com/en/g/lafufu-blind-box-dress-up",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1887,
+      "sha256": "ba62bc4c7778e8438fdfb089b4dc0afca9b24034b596c64cef8f0e1fae293086",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "252ae1dfb6ba51c267d2f997ebe8a204795fb87f246f9b59bd49215e1028b4e1",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "9f620ab5ac23a79f65e94ec6ae5c247b1e75ba3a114b2c2ffd4add7f18682539",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "f09c4d01c67041aa9fa0e8cac25acc5d5c2bb24ec63f8ddcca73faa69b07a596",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "02b98abd5971340376a6f49bf866b73948a07f7cdd911dc9a98b3ff9a7373a4e",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 770,
+      "sha256": "89ab03fb1ba03c4d68662466939946cd8ffeebb1008a0055535a8658af06517b"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 359064,
+      "sha256": "98c231d36a5a7500a21a1f3ecf973d84a16d9f0268b4d371ae4977fdedd60beb"
+    },
+    {
+      "assetPath": "fonts/LilitaOne-Regular.ttf",
+      "bytes": 26828,
+      "sha256": "4444c23631884f411aa7f2fee35061b1756a9927940c62d2a5572acf470b3ffa"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 7247,
+      "sha256": "58230d71e2fb94f8a7d40388560b0b2112630ea36c926296fca012ae3e9db6ec"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 491,
+      "sha256": "9981bab960f41a5b9bc4f1569ab549ee4b80c065d512ea6872ab3e8f13c9b81d"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 20581,
+      "sha256": "6dbd6e16744818851ac25d21da9f9356041faa90afccbac63d8ee0e53e97d7a4"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 1233,
+      "sha256": "ff19bbb085d6e8d24a4eeda6a48c00c33a91662a5e680ddc829c4cda80d48df4"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 68443,
+      "sha256": "acf657661acdfd13a312487e8960927e55e77d28296a5f5a136ad444aabe24d7"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 2963,
+      "sha256": "78cca38ea261813f0373623e57aa770f20f81e2ff4804a49e27aa290f1dd0159"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 7247,
+      "sha256": "58230d71e2fb94f8a7d40388560b0b2112630ea36c926296fca012ae3e9db6ec"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet0.png",
+      "bytes": 6107,
+      "sha256": "76ccd630695a27c3c7f2f0b5f67d860908e674c9d82b4a303d0cace878ea51d1"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet1.png",
+      "bytes": 5833,
+      "sha256": "84eb749d29716f70b382acf8504fa71eaedf5164aae00382b6d7f17ee18aa963"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet2.png",
+      "bytes": 6060,
+      "sha256": "b6dd9424d9cd3ef0889a3dd2e03553c5693cfc863f0cadde95b32bdfb62fa859"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet3.png",
+      "bytes": 5643,
+      "sha256": "dd96760102129458093757dffab65e002cba7c96d8fb6f36e56a936b3fcc9e2a"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet4.png",
+      "bytes": 5676,
+      "sha256": "ac9f790b3006db0cdbcb88dbb3d9344dab4c33fbb4b41f14f47f481ae75d2692"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet5.png",
+      "bytes": 5072,
+      "sha256": "1f168b44e4748f3bf1f078a49d5276da3c83a5f7b46277cc605d2058fe5dc560"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet6.png",
+      "bytes": 5726,
+      "sha256": "56ca8fa3f0751bbd744115de948e63f2a588929d10cf2962abdc728c188df757"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet7.png",
+      "bytes": 5181,
+      "sha256": "1410979d171a7bab5025c0babc84287154579a6e1dd304d23205435eb765e883"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet8.png",
+      "bytes": 5485,
+      "sha256": "a0d1f4ad858c774ff0f19d3576b3ac598c3c3bfd852c1e90f37f9b3f44452f22"
+    },
+    {
+      "assetPath": "images/animatedtutorialcursortap_-sheet9.png",
+      "bytes": 5716,
+      "sha256": "75ff4b17cf10068a691f83ce9cb485963ee05f821a37ba38309900fb1468520c"
+    },
+    {
+      "assetPath": "images/arrow1-sheet0.png",
+      "bytes": 5702,
+      "sha256": "ded4e75d6b687e13a1a9cfddcc1d153ea4d35c381f56d59281494a125e9cafdf"
+    },
+    {
+      "assetPath": "images/arrow2-sheet0.png",
+      "bytes": 5550,
+      "sha256": "db9a208a8806411e208dad93f31b5c8999b6cb54df78dc0f817f3c07a9e8f2bd"
+    },
+    {
+      "assetPath": "images/dress_preview_bg-sheet0.png",
+      "bytes": 38207,
+      "sha256": "da87ed4bea8d15feab2b17d516c95b5d8c841b5a7d895fb47e8b9d46cb1e17ed"
+    },
+    {
+      "assetPath": "images/dress_preview_hat-sheet0.png",
+      "bytes": 25220,
+      "sha256": "02e11691c2c28d360adbf4e0a196122b196aae8dc44bb453812bed26defebd24"
+    },
+    {
+      "assetPath": "images/dress_preview_top-sheet0.png",
+      "bytes": 40490,
+      "sha256": "060af2fcf34f828ebb3c314baccf78f2b94dff7c4a4ecadf3a7441f42d9be933"
+    },
+    {
+      "assetPath": "images/dress_up_bg-sheet0.png",
+      "bytes": 459239,
+      "sha256": "f284764557b364e79d5d5ca84570038e2e9f57b5f2f7d8503ee56f1ce462adf9"
+    },
+    {
+      "assetPath": "images/dress_up_bg-sheet1.png",
+      "bytes": 115213,
+      "sha256": "866efaff71e1e10ab97eb4b7651585f89871e3302f59bc56e8ca55bfa8b70177"
+    },
+    {
+      "assetPath": "images/dress_up_bg-sheet2.png",
+      "bytes": 52635,
+      "sha256": "2689560a343211152621d760f61c054e7c358abceeabaf492bd724387017d16d"
+    },
+    {
+      "assetPath": "images/dress_up_hat-sheet0.png",
+      "bytes": 217515,
+      "sha256": "c7616b80c854e16f8704001ff2e14e9dea23f557a93b780b5009936fe22276f2"
+    },
+    {
+      "assetPath": "images/dress_up_hat-sheet1.png",
+      "bytes": 27305,
+      "sha256": "2b5465a01f2f838c6f65585a09a5def92a10c00491ff48ec44279ff9597ab7cf"
+    },
+    {
+      "assetPath": "images/dress_up_top-sheet0.png",
+      "bytes": 283649,
+      "sha256": "0c7afd3827168a5ed3b88e6bf47c99af7913a242946b7e9e3e1e4fef34de1157"
+    },
+    {
+      "assetPath": "images/dress_up_top-sheet1.png",
+      "bytes": 37120,
+      "sha256": "f683a581cc235e520bd7b70b82e9f9be91f35383b9b3e460be487aa3872ca99d"
+    },
+    {
+      "assetPath": "images/labubu-sheet0.png",
+      "bytes": 622725,
+      "sha256": "585e1a1f192d192343a1cef45a1a7b4502e8a05db1c1b00f3da10b44115932da"
+    },
+    {
+      "assetPath": "images/labubu-sheet1.png",
+      "bytes": 116,
+      "sha256": "d52214a26a6fe3270ec7347842394c0a246a46421235a878bd24ec2bb5357f2e"
+    },
+    {
+      "assetPath": "images/labubu_ears-sheet0.png",
+      "bytes": 40753,
+      "sha256": "93ffdfb9e05c5d4114e01ff38b02fe43834d1a2d307e720c27e9310b20ecc447"
+    },
+    {
+      "assetPath": "images/labubu_preview-sheet0.png",
+      "bytes": 87114,
+      "sha256": "1f829f21f77a3d1cdddd718e2380cd70ed5f19cefa8786a90a7f38fccf6fbddc"
+    },
+    {
+      "assetPath": "images/open_boxes_small-sheet0.png",
+      "bytes": 39694,
+      "sha256": "e39933835b27201db92d0ae0ef6be57e55e3c4ff412a74c9802b5a65aab70a8e"
+    },
+    {
+      "assetPath": "images/pictures-sheet0.png",
+      "bytes": 1552336,
+      "sha256": "c0c433c888b7ecf30820d7edc0fcfef1cf6db5a7ef47edaa17b27052f03f1078"
+    },
+    {
+      "assetPath": "images/pictures-sheet1.png",
+      "bytes": 1590429,
+      "sha256": "594e9a7bd6bba0bab166cd57f5a4ec40e181209138e9d521f541525d12ce05f2"
+    },
+    {
+      "assetPath": "images/pictures-sheet2.png",
+      "bytes": 1679132,
+      "sha256": "3fb1fd43a6e1b6a78ecdfcea556427f2e5000b60327be9ee0edd7f661cecaebd"
+    },
+    {
+      "assetPath": "images/pictures-sheet3.png",
+      "bytes": 1729336,
+      "sha256": "1fee2e134be8b04d8dd890ab31e6cec5d07009c83f790e6869ee185d1a876bed"
+    },
+    {
+      "assetPath": "images/pictures-sheet4.png",
+      "bytes": 1926912,
+      "sha256": "9851239acf70a63b52d833aa2c6b0215f167ef8ea9894437433403ed4db8088b"
+    },
+    {
+      "assetPath": "images/pictures-sheet5.png",
+      "bytes": 356083,
+      "sha256": "404e34262fd7cbbddb49da57de74161561e8c962c56cbe63640fb36413b83e45"
+    },
+    {
+      "assetPath": "images/shadowpicture-sheet0.png",
+      "bytes": 102,
+      "sha256": "9d9c2f22d4b6b3c5d6d858793910526dba79f4865ce6385eda74754d13960480"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 55440,
+      "sha256": "4c8a168d3e4a63d9a79d848746eb23ea1f46b071ae6b35d4fb1cfc27ac03ac2b"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 107232,
+      "sha256": "dc1408e84cdbdaec67e2624b3518aeab92ac56e96d55dd585a96137f3b4e6cb7"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 438618,
+      "sha256": "2e0ccd96f97e6756082dae8594b87dc6b0e559d1765c6e665a5d94a39c33f4a5"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.png",
+      "bytes": 194008,
+      "sha256": "e1f051ddc9e1edc682e54a5c8a74df2dcbf073c8d19f8feae79d2c4332cfb559"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.png",
+      "bytes": 9520,
+      "sha256": "1a389f41d279eb416b8c20dec6d1d0d7bc888f47115589e1b83c49aafbba6131"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.png",
+      "bytes": 451,
+      "sha256": "118ea5a6840ea6b079e95ce249c950b197154bfd6ba2353b4d31640ff6d4e165"
+    },
+    {
+      "assetPath": "images/shared-0-sheet6.png",
+      "bytes": 100,
+      "sha256": "92e20f3b09c1aa099a1054ca543a44acc53efc0f35a935180f06a6a1e89daffc"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.png",
+      "bytes": 7542,
+      "sha256": "5be6b359682f45fcf663c5b361d4c1612820ba9adbcfa30ccac93ab095d6c24b"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.png",
+      "bytes": 56593,
+      "sha256": "11d1ad6ab076d363532db45f67e0a6a8ca76cfb0c1f37ed58ff42146decf112d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1887,
+      "sha256": "ba62bc4c7778e8438fdfb089b4dc0afca9b24034b596c64cef8f0e1fae293086"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "9f620ab5ac23a79f65e94ec6ae5c247b1e75ba3a114b2c2ffd4add7f18682539"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "f09c4d01c67041aa9fa0e8cac25acc5d5c2bb24ec63f8ddcca73faa69b07a596"
+    },
+    {
+      "assetPath": "media/376517__cribbler__spinning-bearing.webm",
+      "bytes": 101328,
+      "sha256": "5eaa91af897962fd48f2b3e48f311e49712286ddf02b2afd733d8c47f573bda2"
+    },
+    {
+      "assetPath": "media/607207__fupicat__congrats.webm",
+      "bytes": 57066,
+      "sha256": "20b545185bf9fae2615c6a53132db303994ca41ef9befd1fc05042b53bd8cc13"
+    },
+    {
+      "assetPath": "media/686610__seth_makes_sounds__bubbglegum-pop-song.webm",
+      "bytes": 3056307,
+      "sha256": "aa9fb96194e1dc4b03e461b77b553a560a762ffc6ba9574a9216f41cc6f6e8b4"
+    },
+    {
+      "assetPath": "media/Button.webm",
+      "bytes": 3192,
+      "sha256": "ad1dba85ae03f62ad04bb0b2b492fd6741dcf481a97fa2ec3f1ef8d491ea044b"
+    },
+    {
+      "assetPath": "media/click (2).webm",
+      "bytes": 3517,
+      "sha256": "7dbade621d671aa066844628e83d94cc7c4ff6e63bd5a67bd066318c57352d0b"
+    },
+    {
+      "assetPath": "media/click_001.webm",
+      "bytes": 3539,
+      "sha256": "f989ede0f4e39a7499f8445123e2060eb1a5d4292c3a639553bf8be60a2a7f2e"
+    },
+    {
+      "assetPath": "media/click_002.webm",
+      "bytes": 938,
+      "sha256": "4d57635d4a76a22ad224c813b739817e831bdc56a14e83a577715ec7f5d89cc8"
+    },
+    {
+      "assetPath": "media/coin_bag_ring_gemstone_item_12.webm",
+      "bytes": 9185,
+      "sha256": "537fdc2e2a2cfaaa9aa7c7d8374018366d497907d3d78a3ae148788e31d057bf"
+    },
+    {
+      "assetPath": "media/confirmation_002.webm",
+      "bytes": 9485,
+      "sha256": "bcb62ed71048e7f760e330be10415457fd00e127dbb0278798c9bd882336a929"
+    },
+    {
+      "assetPath": "media/Fizz_01.webm",
+      "bytes": 6398,
+      "sha256": "e846e50aed672808417602de786b26bbd55b561cd23d87cd753b6e60aa34329f"
+    },
+    {
+      "assetPath": "media/footstep_concrete_land_01.webm",
+      "bytes": 6025,
+      "sha256": "d61e951bd090bc6df359e8e06b343130656fd33ba764c7757c1abe86566299a8"
+    },
+    {
+      "assetPath": "media/footstep_concrete_land_02.webm",
+      "bytes": 7196,
+      "sha256": "fe2707789a8654375eba78c9ea4f5a4623d2833ad165fc26599c650e66c637c1"
+    },
+    {
+      "assetPath": "media/glitch_004.webm",
+      "bytes": 1364,
+      "sha256": "65b07abc3d50c1ab296511b89c1448fca56c0e2e8a9a0d36fa616cf325ff997a"
+    },
+    {
+      "assetPath": "media/music_gameplay.webm",
+      "bytes": 1196976,
+      "sha256": "e38c800dd5fc101a0edccb23a93a4b994b0e1af7325ebf59b2eceaf3eeeefdd9"
+    },
+    {
+      "assetPath": "media/Mystical Power Up 1.webm",
+      "bytes": 48567,
+      "sha256": "28bb413add2d2f2e2812f33f4d8d948d5a1d994e4b9e87d62461b5e93b483dad"
+    },
+    {
+      "assetPath": "media/photo.webm",
+      "bytes": 6826,
+      "sha256": "2f9496f246f121b44adfb206e71c6cf8a8cf8e70d8d88dcd0c7dadc7b46a4f1c"
+    },
+    {
+      "assetPath": "media/small_box_close_05.webm",
+      "bytes": 3900,
+      "sha256": "91f711c5007234fea53eac40eba137b15971279c05b4594f47d58068804e892c"
+    },
+    {
+      "assetPath": "media/small_box_open_02.webm",
+      "bytes": 7663,
+      "sha256": "5380d14b941bc05861a3edb7b55ec05d248d4d92c4bbff8e0a19a4aa0f1d38e2"
+    },
+    {
+      "assetPath": "media/small_object_close_lid_01.webm",
+      "bytes": 7261,
+      "sha256": "dee2894d7f9c3ebbf953fb4d2b3db85eb76612f710c84b213247f2059cc463b4"
+    },
+    {
+      "assetPath": "media/switch_button_push_small_05.webm",
+      "bytes": 2705,
+      "sha256": "ee7ad4a0c6deca536f26241e2f1a7f66d4402670ccdeae231dbc8cde9be705c4"
+    },
+    {
+      "assetPath": "media/switch_button_push_small_06.webm",
+      "bytes": 3253,
+      "sha256": "86db868f24fd90a6c18d1cd9227c251690031072f247a7f12683110abc6757c8"
+    },
+    {
+      "assetPath": "media/transition.webm",
+      "bytes": 28433,
+      "sha256": "2a242b5c69944a5b337560f9b205ecd9d8a46084409d39603829c1892497bc17"
+    },
+    {
+      "assetPath": "media/win.webm",
+      "bytes": 47978,
+      "sha256": "c91af1bafc2429c5c84ef9322ce8e33d2e4071178846c34730a963b6f8797485"
+    },
+    {
+      "assetPath": "media/Wooden Pickup 1.webm",
+      "bytes": 18717,
+      "sha256": "728be3b8eeeab0735239f4ee07d4a08036b24ffb167af67885adeeb029bd17b9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "02b98abd5971340376a6f49bf866b73948a07f7cdd911dc9a98b3ff9a7373a4e"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1554020,
+      "sha256": "acb500cbf7e7c82b775dbb21564e71130eb7c21e2236f7687b8cd20b5bca56be"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 122983,
+      "sha256": "fd2b18b4c60452b522c2a5c1821c8c355700d3bf068dbda81fe39a4ac6f2e6e9"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4799,
+      "sha256": "6173f57586040a4937f752c81f8f30586fbc50a8426180e5f65b52cf56115b9a"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2130,
+      "sha256": "b2589a820cd749918c45403e3aa5177c5f6374342e4ad25fbc6ae192dcca6815"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 2871,
+      "sha256": "2d2c638a7aaba50f2f46dc2634e5dac098fe3d05509f613b690b874fadc1fcc8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/numbers-match/index.html",
+    "/games/numbers-match/js/poki-sdk-shim.js",
+    "/games/numbers-match/js/tiptap-platform-bridge.js",
+    "/games/numbers-match/js/tiptap-inline-1.js"
+  ]
+}

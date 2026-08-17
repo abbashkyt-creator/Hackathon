@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/lafufu-blind-box-dress-up/index.html",
+    "/games/lafufu-blind-box-dress-up/js/poki-sdk-shim.js",
+    "/games/lafufu-blind-box-dress-up/js/tiptap-platform-bridge.js",
+    "/games/lafufu-blind-box-dress-up/js/tiptap-inline-1.js"
+  ]
+}

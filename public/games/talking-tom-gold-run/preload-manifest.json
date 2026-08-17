@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/talking-tom-gold-run/index.html",
+    "/games/talking-tom-gold-run/js/poki-sdk-shim.js",
+    "/games/talking-tom-gold-run/js/tiptap-platform-bridge.js",
+    "/games/talking-tom-gold-run/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "blumgi-splash",
+  "sourcePage": "https://poki.com/en/g/blumgi-splash",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2464,
+      "sha256": "68ed02c085e0e45fb23cafc23d4ac1112454dce203ce6d6d7ffa780d3e8139ba",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "ad290c3665ecd9958b38bc06f65903aa3cf905bdc59c830ff70c9e8476872bbb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "21937342641ea902cd531d92961a6ef38642a4cb8120cea830d80b021fa2743e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "4f4f57ea4100672c17cbe2edf461fbe5e591d830717e0b6f979796b6afe8e47e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "9cbe2d04dd7200f94f4b15820675d72a40ae25782847a10980c97d9f5872cedb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2464,
+      "sha256": "68ed02c085e0e45fb23cafc23d4ac1112454dce203ce6d6d7ffa780d3e8139ba"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "21937342641ea902cd531d92961a6ef38642a4cb8120cea830d80b021fa2743e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 621420,
+      "sha256": "080a5ee8c3a49a174dcf10d40028e990ed0541a0fbbd60a1e936af5d04a9467e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "4f4f57ea4100672c17cbe2edf461fbe5e591d830717e0b6f979796b6afe8e47e"
+    },
+    {
+      "assetPath": "matter.min.js",
+      "bytes": 80807,
+      "sha256": "bdf68e297d6c4ec85b8dd693b8781d99db0090449c9a3ba69948eede08c9275a"
+    },
+    {
+      "assetPath": "ploptheblob-sfx.js",
+      "bytes": 65895,
+      "sha256": "f040cceac1b9d7e98a22a2f2169045665143f23d11b14afeac1b8d923a1edf86"
+    },
+    {
+      "assetPath": "poly-decomp.min.js",
+      "bytes": 5609,
+      "sha256": "e9eb28be56c87c8af4de4837ac72c20549da0bccb0ccf7e86a06a1b886ae6988"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "9cbe2d04dd7200f94f4b15820675d72a40ae25782847a10980c97d9f5872cedb"
+    },
+    {
+      "assetPath": "RCHIPL.js",
+      "bytes": 646064,
+      "sha256": "baf07ee3459dfadca969a094d8b6256b3f497008e437dfb467fc9fb728933152"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

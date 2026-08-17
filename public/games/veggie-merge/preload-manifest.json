@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/veggie-merge/index.html",
+    "/games/veggie-merge/js/poki-sdk-shim.js",
+    "/games/veggie-merge/js/tiptap-platform-bridge.js",
+    "/games/veggie-merge/js/tiptap-inline-1.js"
+  ]
+}

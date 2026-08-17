@@ -1,0 +1,70 @@
+{
+  "name": "mad-skills-rallycross",
+  "sourcePage": "https://poki.com/en/g/mad-skills-rallycross",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "2bfb55fad7ab57e870dec3432c8b5a256508d35f4532239c71720ab4531cd29c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "218c78df879d8a2cdbb8c80bacf453a62c3605c2c1a784689c418d8233aab2d5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "5f87a4da1dac259c2ceeffe599e2e98778432f69a4b74e67778493b9b298019f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "45e895b054eafcdd72aef3a7d0b8d36d18a8a430b00b29e9c6b4c1bbe867ad58",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "e47d0a32aa4b16595357fa35ae7ff5afdb46bb3906c123c35817162997bb25f8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "2bfb55fad7ab57e870dec3432c8b5a256508d35f4532239c71720ab4531cd29c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "5f87a4da1dac259c2ceeffe599e2e98778432f69a4b74e67778493b9b298019f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1228,
+      "sha256": "4c4d746e804c0a1ef5434b68c10e81ba06d435afe7073a20861b60183a866d8f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "45e895b054eafcdd72aef3a7d0b8d36d18a8a430b00b29e9c6b4c1bbe867ad58"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "e47d0a32aa4b16595357fa35ae7ff5afdb46bb3906c123c35817162997bb25f8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

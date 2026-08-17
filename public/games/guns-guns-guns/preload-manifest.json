@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/guns-guns-guns/index.html",
+    "/games/guns-guns-guns/js/poki-sdk-shim.js",
+    "/games/guns-guns-guns/js/tiptap-platform-bridge.js",
+    "/games/guns-guns-guns/js/tiptap-inline-1.js",
+    "/games/guns-guns-guns/js/tiptap-inline-2.js"
+  ]
+}

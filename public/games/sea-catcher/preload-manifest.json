@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/sea-catcher/index.html",
+    "/games/sea-catcher/js/poki-sdk-shim.js",
+    "/games/sea-catcher/js/tiptap-platform-bridge.js"
+  ]
+}

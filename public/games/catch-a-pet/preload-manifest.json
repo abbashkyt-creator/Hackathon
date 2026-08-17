@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/catch-a-pet/index.html",
+    "/games/catch-a-pet/js/poki-sdk-shim.js",
+    "/games/catch-a-pet/js/tiptap-platform-bridge.js"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/superweird/index.html",
+    "/games/superweird/js/poki-sdk-shim.js",
+    "/games/superweird/js/tiptap-platform-bridge.js",
+    "/games/superweird/js/tiptap-inline-1.js",
+    "/games/superweird/js/tiptap-inline-2.js",
+    "/games/superweird/js/tiptap-inline-3.js"
+  ]
+}

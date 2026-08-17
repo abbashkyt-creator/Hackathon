@@ -1,0 +1,384 @@
+{
+  "type": "Container",
+  "props": {
+    "cx": 0,
+    "cy": 0,
+    "zIndex": 11010,
+    "visible": false
+  },
+  "components": {
+    "settingsPopup": {
+      "type": "SettingsPopupComponent",
+      "enabled": true,
+      "data": {
+        "closeEventType": "SETTINGS__POPUP_CLOSE_REQUESTED",
+        "exitTapStartedEventType": "SETTINGS__POPUP_EXIT_STARTED",
+        "exitEventType": "SETTINGS__POPUP_EXIT_REQUESTED",
+        "musicToggleTapStartedEventType": "SETTINGS__POPUP_MUSIC_TOGGLE_STARTED",
+        "musicToggleEventType": "SETTINGS__POPUP_MUSIC_TOGGLE_REQUESTED",
+        "soundsToggleTapStartedEventType": "SETTINGS__POPUP_SOUNDS_TOGGLE_STARTED",
+        "soundsToggleEventType": "SETTINGS__POPUP_SOUNDS_TOGGLE_REQUESTED"
+      }
+    }
+  },
+  "actions": {
+    "reveal": {
+      "type": "ModalPopupRevealAction",
+      "data": {
+        "dimmerDurationMs": 300,
+        "dimmerEase": "power1.out",
+        "dimmerTargetAlpha": 0.8,
+        "popupContainerId": "popupContainer",
+        "popupTargetScale": 1,
+        "popupScaleDurationMs": 280,
+        "popupScaleDelayMs": 0,
+        "popupScaleEase": "back.out(1.7)"
+      }
+    },
+    "hide": {
+      "type": "ModalPopupHideAction",
+      "data": {
+        "popupContainerId": "popupContainer",
+        "dimmerDurationMs": 220,
+        "dimmerEase": "power2.in",
+        "contentDurationMs": 220,
+        "contentEase": "power2.in"
+      }
+    }
+  },
+  "children": {
+    "dimmer": {
+      "type": "Container",
+      "props": {
+        "x": 0,
+        "y": 0,
+        "alpha": 0
+      },
+      "children": {
+        "background": {
+          "type": "Rect",
+          "props": {
+            "x": 0,
+            "y": 0,
+            "width": "100%",
+            "height": "100%",
+            "color": "#000000",
+            "alpha": 1,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        }
+      }
+    },
+    "contentContainer": {
+      "type": "Container",
+      "props": {
+        "x": 0,
+        "y": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "children": {
+        "popupContainer": {
+          "type": "Container",
+          "children": {
+            "popupStack": {
+              "type": "Container",
+              "components": {
+                "responsiveSize": {
+                  "type": "ResponsiveNodeSizeComponent",
+                  "enabled": true,
+                  "data": {
+                    "mode": "fit_bounds",
+                    "minScale": 0.25,
+                    "maxScale": 3,
+                    "fit": {
+                      "primaryAxisByOrientation": {
+                        "port": "width",
+                        "land": "height"
+                      },
+                      "widthPercent": 0.9,
+                      "heightPercent": 0.9,
+                      "topPaddingPx": 12,
+                      "bottomPaddingPx": 12,
+                      "leftPaddingPx": 12,
+                      "rightPaddingPx": 12,
+                      "alignX": "center",
+                      "alignY": "center",
+                      "offsetYPx": 10
+                    }
+                  }
+                }
+              },
+              "children": {
+                "background": {
+                  "type": "Sprite",
+                  "props": {
+                    "x": 0,
+                    "y": 0,
+                    "asset": "images/common/popup.png",
+                    "anchor": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  }
+                },
+                "contentStack": {
+                  "type": "Container",
+                  "props": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": {
+                    "title": {
+                      "type": "Text",
+                      "props": {
+                        "x": 0,
+                        "y": -240,
+                        "textKey": "ui.settings.title",
+                        "style": "settingsPopupTitleText",
+                        "anchor": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      }
+                    },
+                    "controlsStack": {
+                      "type": "Container",
+                      "props": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "children": {
+                        "musicLabel": {
+                          "type": "Text",
+                          "props": {
+                            "x": -120,
+                            "y": -140,
+                            "textKey": "ui.settings.music",
+                            "style": "settingsPopupLabelText",
+                            "anchor": {
+                              "x": 0,
+                              "y": 0.5
+                            }
+                          }
+                        },
+                        "musicToggle": {
+                          "type": "Sprite",
+                          "props": {
+                            "x": 100,
+                            "y": -140,
+                            "asset": "images/common/iconMusicOn.png",
+                            "anchor": {
+                              "x": 0.5,
+                              "y": 0.5
+                            }
+                          },
+                          "actions": {
+                            "pressFeedback": {
+                              "type": "PressScaleAction",
+                              "data": {
+                                "downDurationMs": 80,
+                                "upDurationMs": 140,
+                                "pressedScale": 0.9,
+                                "easeDown": "power2.in",
+                                "easeUp": "back.out(1.7)"
+                              }
+                            }
+                          }
+                        },
+                        "soundsLabel": {
+                          "type": "Text",
+                          "props": {
+                            "x": -120,
+                            "y": 0,
+                            "textKey": "ui.settings.sounds",
+                            "style": "settingsPopupLabelText",
+                            "anchor": {
+                              "x": 0,
+                              "y": 0.5
+                            }
+                          }
+                        },
+                        "soundsToggle": {
+                          "type": "Sprite",
+                          "props": {
+                            "x": 100,
+                            "y": 0,
+                            "asset": "images/common/iconSoundOn.png",
+                            "anchor": {
+                              "x": 0.5,
+                              "y": 0.5
+                            }
+                          },
+                          "actions": {
+                            "pressFeedback": {
+                              "type": "PressScaleAction",
+                              "data": {
+                                "downDurationMs": 80,
+                                "upDurationMs": 140,
+                                "pressedScale": 0.9,
+                                "easeDown": "power2.in",
+                                "easeUp": "back.out(1.7)"
+                              }
+                            }
+                          }
+                        },
+                        "exitButtonsRow": {
+                          "type": "Container",
+                          "props": {
+                            "x": 50,
+                            "y": 150,
+                            "visible": false
+                          },
+                          "children": {
+                            "stayButton": {
+                              "type": "Container",
+                              "props": {
+                                "x": -130,
+                                "y": 0,
+                                "scale": 0.6
+                              },
+                              "actions": {
+                                "pressFeedback": {
+                                  "type": "PressScaleAction",
+                                  "data": {
+                                    "downDurationMs": 80,
+                                    "upDurationMs": 140,
+                                    "pressedScale": 0.9,
+                                    "easeDown": "power2.in",
+                                    "easeUp": "back.out(1.7)"
+                                  }
+                                }
+                              },
+                              "children": {
+                                "background": {
+                                  "type": "Sprite",
+                                  "props": {
+                                    "asset": "images/common/btn1.png",
+                                    "anchor": {
+                                      "x": 0.5,
+                                      "y": 0.5
+                                    }
+                                  }
+                                },
+                                "label": {
+                                  "type": "Text",
+                                  "props": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "textKey": "ui.settings.stay",
+                                    "style": "albumContinueButtonText",
+                                    "anchor": {
+                                      "x": 0.5,
+                                      "y": 0.5
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "exitButton": {
+                              "type": "Container",
+                              "props": {
+                                "x": 30,
+                                "y": 0,
+                                "scale": 0.6
+                              },
+                              "actions": {
+                                "pressFeedback": {
+                                  "type": "PressScaleAction",
+                                  "data": {
+                                    "downDurationMs": 80,
+                                    "upDurationMs": 140,
+                                    "pressedScale": 0.9,
+                                    "easeDown": "power2.in",
+                                    "easeUp": "back.out(1.7)"
+                                  }
+                                }
+                              },
+                              "children": {
+                                "background": {
+                                  "type": "Sprite",
+                                  "props": {
+                                    "asset": "images/common/btn2.png",
+                                    "anchor": {
+                                      "x": 0.5,
+                                      "y": 0.5
+                                    }
+                                  }
+                                },
+                                "label": {
+                                  "type": "Text",
+                                  "props": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "textKey": "ui.settings.exit",
+                                    "style": "albumContinueButtonText",
+                                    "anchor": {
+                                      "x": 0.5,
+                                      "y": 0.5
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "closeButtonAnchor": {
+          "type": "Container",
+          "components": {
+            "responsivePosition": {
+              "type": "ResponsiveNodePositionComponent",
+              "enabled": true,
+              "data": {
+                "mode": "screen",
+                "position": {
+                  "gx": "100%",
+                  "gy": 0
+                }
+              }
+            }
+          },
+          "children": {
+            "closeButton": {
+              "type": "Sprite",
+              "actions": {
+                "pressFeedback": {
+                  "type": "PressScaleAction",
+                  "data": {
+                    "downDurationMs": 80,
+                    "upDurationMs": 140,
+                    "pressedScale": 0.9,
+                    "easeDown": "power2.in",
+                    "easeUp": "back.out(1.7)"
+                  }
+                }
+              },
+              "props": {
+                "x": -50,
+                "y": 50,
+                "asset": "images/common/btnClose.png",
+                "anchor": {
+                  "x": 1,
+                  "y": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "cozyville-find-hidden-objects",
+  "sourcePage": "https://poki.com/en/g/cozyville-find-hidden-objects",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 9370,
+      "sha256": "df3efb55b895f61cb6afc5be26829ead0167d6f90c18648234b73c174e541e6a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 183,
+      "sha256": "8f5881f64d39d6e44990eec638fcf3a7ae3ffe1a1441c5afcc2c230248926201",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 948,
+      "sha256": "e8cf1ad8b8b384b65ab1caae3776c43b4152b77b3cab49f60bb6c015ff6685cd",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 870,
+      "sha256": "4662efa04b8be15e975f95efdbb6d1be449cf36983ccc360338835a58cb64aff",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 413,
+      "sha256": "c9ee831e0dbdba832306cc812b02793335cf297e9c1c6413d15ce218134d7858",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 48010,
+      "sha256": "ab9540ec6e89ed7ea2201c55765ae9afd9f48765efdc8ae451eca145276a8f8b"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 89859,
+      "sha256": "8834347114c8f351b55dde1600a46b84f78e4310bca259c4b8ee38c3cd23a998"
+    },
+    {
+      "assetPath": "HiddenObjectGame.wasm",
+      "bytes": 2640122,
+      "sha256": "3fdf97ac8d16bdf4d21a8ff085288fd97aad6ed0f04783a00f2a089ba4071c47"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 9370,
+      "sha256": "df3efb55b895f61cb6afc5be26829ead0167d6f90c18648234b73c174e541e6a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 948,
+      "sha256": "e8cf1ad8b8b384b65ab1caae3776c43b4152b77b3cab49f60bb6c015ff6685cd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 329,
+      "sha256": "893e02cedfec5785c7cc7786579a57eb8215bd13008468738f1876abc3305c97"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 237,
+      "sha256": "59a2a3d83359edcdbc03c801d16ea1b7371f59b2321478e75e798ee9febdecf7"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 870,
+      "sha256": "4662efa04b8be15e975f95efdbb6d1be449cf36983ccc360338835a58cb64aff"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 413,
+      "sha256": "c9ee831e0dbdba832306cc812b02793335cf297e9c1c6413d15ce218134d7858"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/marina-club-rush/index.html",
+    "/games/marina-club-rush/js/poki-sdk-shim.js",
+    "/games/marina-club-rush/js/tiptap-platform-bridge.js",
+    "/games/marina-club-rush/js/tiptap-inline-1.js"
+  ]
+}

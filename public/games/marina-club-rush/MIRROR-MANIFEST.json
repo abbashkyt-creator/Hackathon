@@ -1,0 +1,70 @@
+{
+  "name": "marina-club-rush",
+  "sourcePage": "https://poki.com/en/g/marina-club-rush",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "955f054d08c065d2ddd2a1d403de415186f8699237e8cd060f38d921a108dd22",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "c613c0d0db0c47a1cd928ca52592258810d6b5b54846a68289dbfb296052e2b9",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "721807b6e5e37244fbce831d732a96e0966f0e74e5ffc5a9f12653805890707d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f36f5231f0d20545023367c5fa0370eec575b9e6dd424cd9a44ba48b9112e387",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9a764f74acd0b33f42d564dd7d19a5013c94d5ce47ee0f05effb4a5b7f1ebd63",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "955f054d08c065d2ddd2a1d403de415186f8699237e8cd060f38d921a108dd22"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "721807b6e5e37244fbce831d732a96e0966f0e74e5ffc5a9f12653805890707d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1243,
+      "sha256": "75e8be13debcbb5c4e8f5c2923108b15d519d2698e37b45996ca8511f0168d14"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f36f5231f0d20545023367c5fa0370eec575b9e6dd424cd9a44ba48b9112e387"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9a764f74acd0b33f42d564dd7d19a5013c94d5ce47ee0f05effb4a5b7f1ebd63"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

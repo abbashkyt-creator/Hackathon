@@ -1,0 +1,411 @@
+{
+  "root": {
+    "type": "Container",
+    "children": {
+      "background": {
+        "type": "Container",
+        "components": {
+          "responsiveNodeSize": {
+            "type": "ResponsiveNodeSizeComponent",
+            "enabled": true,
+            "data": {
+              "mode": "fill_width_height_ratio",
+              "minScale": 1,
+              "maxScale": 1,
+              "fill": {
+                "resizeTargets": [
+                  "gradient",
+                  "pattern"
+                ],
+                "widthPercent": 1,
+                "heightRatio": 1,
+                "minHeightPx": 1,
+                "maxHeightPx": 5000,
+                "horizontalAlign": "left",
+                "verticalAlign": "top"
+              }
+            }
+          }
+        },
+        "children": {
+          "gradient": {
+            "type": "Sprite",
+            "props": {
+              "asset": "images/common/bg-gradient.png",
+              "anchor": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          },
+          "pattern": {
+            "type": "TilingSprite",
+            "props": {
+              "asset": "images/common/pattern.png",
+              "anchor": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        }
+      },
+      "content": {
+        "type": "Container",
+        "children": {
+          "popupStack": {
+            "type": "Container",
+            "components": {
+                  "itemSceneLayout": {
+                    "type": "ItemSceneLayoutComponent",
+                    "enabled": true,
+                    "data": {
+                  "landImageHeightScreenPercent": 0.6,
+                  "portImageWidthScreenPercent": 0.6,
+                  "landPlayButtonScale": 1,
+                  "portPlayButtonScale": 1,
+                  "landAlbumsButtonScale": 1,
+                  "portAlbumsButtonScale": 1,
+                  "albumsButtonX": -50,
+                  "albumsButtonCy": 0
+                }
+              }
+            },
+            "children": {
+              "albumTitleGroup": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "y": 0,
+                  "visible": false
+                },
+                "actions": {
+                  "titleReveal": {
+                    "type": "ItemTitleSlideRevealAction",
+                    "data": {
+                      "durationMs": 420,
+                      "ease": "back.out(1.7)"
+                    }
+                  }
+                },
+                "children": {
+                  "albumTitleCover": {
+                    "type": "TilingSprite",
+                    "props": {
+                      "x": 0,
+                      "y": 0,
+                      "asset": "images/common/titleCover.png",
+                      "zIndex": 0,
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      }
+                    }
+                  },
+                  "albumTitle": {
+                    "type": "Text",
+                    "props": {
+                      "x": 0,
+                      "y": 0,
+                      "text": "",
+                      "style": "albumNameText",
+                      "zIndex": 1,
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      }
+                    },
+                    "components": {
+                      "itemAlbumTitle": {
+                        "type": "ItemAlbumTitleComponent",
+                        "enabled": true
+                      }
+                    }
+                  }
+                }
+              },
+              "albumsSceneButton": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "scale": 0.5,
+                  "y": 0
+                },
+                "children": {
+                  "button": {
+                    "type": "Container",
+                    "components": {
+                      "itemActionButton": {
+                        "type": "ItemActionButtonComponent",
+                        "enabled": true,
+                        "data": {
+                          "tapStartedEventType": "ITEM__ALBUMS_STARTED",
+                          "eventType": "ITEM__ALBUMS_REQUESTED"
+                        }
+                      }
+                    },
+                    "actions": {
+                      "pressFeedback": {
+                        "type": "PressScaleAction",
+                        "data": {
+                          "downDurationMs": 80,
+                          "upDurationMs": 140,
+                          "pressedScale": 0.9,
+                          "easeDown": "power2.in",
+                          "easeUp": "back.out(1.7)"
+                        }
+                      }
+                    },
+                    "children": {
+                      "background": {
+                        "type": "Sprite",
+                        "props": {
+                          "x": 0,
+                          "y": 0,
+                          "asset": "images/common/btn2.png",
+                          "anchor": {
+                            "x": 0.5,
+                            "y": 0.5
+                          }
+                        }
+                      },
+                      "arrow": {
+                        "type": "Sprite",
+                        "props": {
+                          "x": 75,
+                          "y": 0,
+                          "scale": 0.8,
+                          "asset": "images/common/arrow.png",
+                          "anchor": {
+                            "x": 0.5,
+                            "y": 0.5
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "albumStage": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "y": 0
+                },
+                "children": {
+                  "albumPresentation": {
+                    "$include": "json/layouts/features/albums/_album-presentation.json"
+                  }
+                }
+              },
+              "albumProgress": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "y": 0,
+                  "visible": false,
+                  "zIndex": 5
+                },
+                "components": {
+                  "itemAlbumProgress": {
+                    "type": "ItemAlbumProgressComponent",
+                    "enabled": true
+                  }
+                },
+                "actions": {
+                  "progressReveal": {
+                    "type": "HorizontalScaleRevealAction",
+                    "data": {
+                      "delayMs": 100,
+                      "durationMs": 420,
+                      "ease": "back.out(1.7)",
+                      "targetScaleX": 1,
+                      "targetScaleY": 1
+                    }
+                  }
+                },
+                "children": {
+                  "background": {
+                    "type": "Sprite",
+                    "props": {
+                      "x": 0,
+                      "y": 0,
+                      "asset": "images/common/bar0.png",
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      }
+                    }
+                  },
+                  "fill": {
+                    "type": "Sprite",
+                    "props": {
+                      "x": 0,
+                      "y": 0,
+                      "asset": "images/common/bar1.png",
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      }
+                    }
+                  },
+                  "fillMask": {
+                    "type": "Graphics",
+                    "props": {
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  "label": {
+                    "type": "Text",
+                    "props": {
+                      "x": 0,
+                      "y": 0,
+                      "text": "0%",
+                      "style": "itemAlbumProgressText",
+                      "anchor": {
+                        "x": 0.5,
+                        "y": 0.5
+                      }
+                    }
+                  }
+                }
+              },
+              "buttons": {
+                "type": "Container",
+                "props": {
+                  "x": 0,
+                  "y": 0
+                },
+                "children": {
+                  "playButton": {
+                    "type": "Container",
+                    "props": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "components": {
+                      "itemPlayButton": {
+                        "type": "ItemPlayButtonComponent",
+                        "enabled": true
+                      },
+                      "itemActionButton": {
+                        "type": "ItemActionButtonComponent",
+                        "enabled": true,
+                        "data": {
+                          "tapStartedEventType": "ITEM__PLAY_STARTED",
+                          "eventType": "ITEM__PLAY_REQUESTED"
+                        }
+                      }
+                    },
+                    "actions": {
+                      "playButtonReveal": {
+                        "type": "PlayButtonRevealAction",
+                        "data": {
+                          "durationMs": 420,
+                          "ease": "back.out(1.7)"
+                        }
+                      },
+                      "playButtonStartIdleLoop": {
+                        "type": "PlayButtonStartIdleLoopAction",
+                        "data": {
+                          "durationMs": 900,
+                          "minScale": 0.9,
+                          "ease": "sine.inOut"
+                        }
+                      },
+                      "playButtonStopAnimations": {
+                        "type": "PlayButtonStopAnimationsAction"
+                      },
+                      "pressFeedback": {
+                        "type": "PlayButtonTapPressAction",
+                        "data": {
+                          "downDurationMs": 70,
+                          "upDurationMs": 90,
+                          "pressedScale": 0.9,
+                          "downEase": "power2.out",
+                          "upEase": "power2.out"
+                        }
+                      }
+                    },
+                    "children": {
+                      "background": {
+                        "type": "Sprite",
+                        "props": {
+                          "asset": "images/common/btn1.png",
+                          "anchor": {
+                            "x": 0.5,
+                            "y": 0.5
+                          }
+                        },
+                        "components": {
+                          "glintOverlay": {
+                            "type": "GlintOverlayComponent",
+                            "enabled": true,
+                            "data": {
+                              "overlayAssetId": "images/common/btnMainWhite.png",
+                              "intervalMs": 2000,
+                              "moveDurationMs": 400,
+                              "fadeInDurationMs": 180,
+                              "fadeOutDurationMs": 320,
+                              "peakAlpha": 0.2,
+                              "skewX": -0.36,
+                              "widthRatio": 0.34,
+                              "blendMode": "add"
+                            }
+                          }
+                        }
+                      },
+                      "videoIcon": {
+                        "type": "Sprite",
+                        "props": {
+                          "x": -75,
+                          "y": 0,
+                          "scale": 0.7,
+                          "asset": "images/common/iconVideo.png",
+                          "visible": false,
+                          "anchor": {
+                            "x": 0.5,
+                            "y": 0.5
+                          }
+                        }
+                      },
+                      "label": {
+                        "type": "Text",
+                        "props": {
+                          "x": 0,
+                          "y": 0,
+                          "textKey": "item.play",
+                          "style": "albumContinueButtonText",
+                          "anchor": {
+                            "x": 0.5,
+                            "y": 0.5
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "Container",
+        "props": {
+          "x": 0,
+          "y": 0
+        },
+        "children": {
+          "settingsButton": {
+            "$include": "json/layouts/features/settings/_button.json"
+          },
+          "settingsPopup": {
+            "$include": "json/layouts/features/settings/_popup.json"
+          }
+        }
+      }
+    }
+  }
+}

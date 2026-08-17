@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/car-circle/index.html",
+    "/games/car-circle/js/poki-sdk-shim.js",
+    "/games/car-circle/js/tiptap-platform-bridge.js",
+    "/games/car-circle/js/tiptap-inline-1.js"
+  ]
+}

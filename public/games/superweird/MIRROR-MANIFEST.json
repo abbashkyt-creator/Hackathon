@@ -1,0 +1,105 @@
+{
+  "name": "superweird",
+  "sourcePage": "https://poki.com/en/g/superweird",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5231,
+      "sha256": "b6dbd30229876bf49c8b310e5c7c10752c25ead80d3286cdef71edf3f097e929",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "7691f0ded3292e9424ab4b462494ea7e0ab5050b69bb8f9bd448ff325148eadc",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "ae0319d8e70c715668d1e8975e3d842791dfc7fe1dc777094f57ecf13fe04113",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "acbb18e2d5992356050ad1ebd8370da21afe1a83f3f5392fb92d45dcf22cd489",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "97f668882409d19b835c9e5339ebb3f4ff6e52353a1d3a89c0ea875922c39b8f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47998,
+      "sha256": "563b3f8969feb4709a879dd2f51e173e55946db22d65c067ddb23ef057e2acac"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 89859,
+      "sha256": "8834347114c8f351b55dde1600a46b84f78e4310bca259c4b8ee38c3cd23a998"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5231,
+      "sha256": "b6dbd30229876bf49c8b310e5c7c10752c25ead80d3286cdef71edf3f097e929"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "ae0319d8e70c715668d1e8975e3d842791dfc7fe1dc777094f57ecf13fe04113"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 163,
+      "sha256": "3f27878a11ae4ccac186ae3357133aa3bec75a686573eeeac6a81f5aa7017f2b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 105,
+      "sha256": "a247074e6842b8ba5f26f7f942647196d6d3d4c06c7f832a200011e4f14d16e9"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 178,
+      "sha256": "0ef97a4126d97ea6634db1ccc77017ca958b87f8234f216fc2100be6222488c5"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 330,
+      "sha256": "231420a526437313f25e992fbb8f3feb868c4f0f14e0c1c29cc77946dd59c714"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "acbb18e2d5992356050ad1ebd8370da21afe1a83f3f5392fb92d45dcf22cd489"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "97f668882409d19b835c9e5339ebb3f4ff6e52353a1d3a89c0ea875922c39b8f"
+    },
+    {
+      "assetPath": "SuperWEIRD.wasm",
+      "bytes": 2245486,
+      "sha256": "8c6a41935b4179f374bff243b21e34351d5562f37f95a9bf835d44f5f5f9910e"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

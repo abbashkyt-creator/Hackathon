@@ -1,0 +1,95 @@
+{
+"frames": {
+	"acc1.png": {
+		"frame": {"x":0, "y":132, "w":236, "h":131},
+		"spriteSourceSize": {"x":0,"y":0,"w":236,"h":131},
+		"sourceSize": {"w":236,"h":131}
+	},
+	"acc2.png": {
+		"frame": {"x":0, "y":264, "w":236, "h":131},
+		"spriteSourceSize": {"x":0,"y":0,"w":236,"h":131},
+		"sourceSize": {"w":236,"h":131}
+	},
+	"acc3.png": {
+		"frame": {"x":0, "y":0, "w":236, "h":131},
+		"spriteSourceSize": {"x":0,"y":0,"w":236,"h":131},
+		"sourceSize": {"w":236,"h":131}
+	},
+	"bajuA1.png": {
+		"frame": {"x":218, "y":396, "w":61, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":61,"h":48},
+		"sourceSize": {"w":61,"h":48}
+	},
+	"bajuA2.png": {
+		"frame": {"x":218, "y":445, "w":61, "h":48},
+		"spriteSourceSize": {"x":0,"y":0,"w":61,"h":48},
+		"sourceSize": {"w":61,"h":48}
+	},
+	"bajuB3.png": {
+		"frame": {"x":237, "y":0, "w":56, "h":43},
+		"spriteSourceSize": {"x":0,"y":0,"w":56,"h":43},
+		"sourceSize": {"w":56,"h":43}
+	},
+	"bajuB4.png": {
+		"frame": {"x":237, "y":44, "w":56, "h":43},
+		"spriteSourceSize": {"x":0,"y":0,"w":56,"h":43},
+		"sourceSize": {"w":56,"h":43}
+	},
+	"bajuC1.png": {
+		"frame": {"x":237, "y":88, "w":45, "h":45},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+		"sourceSize": {"w":45,"h":45}
+	},
+	"bajuC2.png": {
+		"frame": {"x":237, "y":134, "w":45, "h":45},
+		"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+		"sourceSize": {"w":45,"h":45}
+	},
+	"celana1.png": {
+		"frame": {"x":146, "y":438, "w":71, "h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":71,"h":41},
+		"sourceSize": {"w":71,"h":41}
+	},
+	"celana2.png": {
+		"frame": {"x":74, "y":396, "w":71, "h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":71,"h":41},
+		"sourceSize": {"w":71,"h":41}
+	},
+	"celana3.png": {
+		"frame": {"x":74, "y":438, "w":71, "h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":71,"h":41},
+		"sourceSize": {"w":71,"h":41}
+	},
+	"celana4.png": {
+		"frame": {"x":146, "y":396, "w":71, "h":41},
+		"spriteSourceSize": {"x":0,"y":0,"w":71,"h":41},
+		"sourceSize": {"w":71,"h":41}
+	},
+	"sepatu1.png": {
+		"frame": {"x":0, "y":422, "w":73, "h":25},
+		"spriteSourceSize": {"x":0,"y":0,"w":73,"h":25},
+		"sourceSize": {"w":73,"h":25}
+	},
+	"sepatu2.png": {
+		"frame": {"x":0, "y":396, "w":73, "h":25},
+		"spriteSourceSize": {"x":0,"y":0,"w":73,"h":25},
+		"sourceSize": {"w":73,"h":25}
+	},
+	"sepatu3.png": {
+		"frame": {"x":0, "y":448, "w":73, "h":25},
+		"spriteSourceSize": {"x":0,"y":0,"w":73,"h":25},
+		"sourceSize": {"w":73,"h":25}
+	},
+	"sepatu4.png": {
+		"frame": {"x":0, "y":474, "w":73, "h":25},
+		"spriteSourceSize": {"x":0,"y":0,"w":73,"h":25},
+		"sourceSize": {"w":73,"h":25}
+	}
+
+},
+"meta": {
+	"image": "duMama.png",
+	"size": {"w": 512, "h": 512},
+	"scale": "1"
+}
+}

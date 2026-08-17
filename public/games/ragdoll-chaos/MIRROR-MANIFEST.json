@@ -1,0 +1,70 @@
+{
+  "name": "ragdoll-chaos",
+  "sourcePage": "https://poki.com/en/g/ragdoll-chaos",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "423b009c3549d6309513c6d9dd097a7393be0caa369eeacf3df63ed7a4d45da8",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "5550f38b8ee5d64a85a088df713f7ed87861bee03723df173fb7f6cd2750c48e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "5adb540a99c68c70b907b8c62cc9f632b9ee74340d7eb4f78c7e36f438f45f39",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "52ee9a509467f82ac1795804cafdd5175b0fe53fbe212f99460207c1cadb1c8f",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "27e033a2a4aaead3f130b8150f49bdae85740a297b7cae3409b5c91f51aa1f43",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "423b009c3549d6309513c6d9dd097a7393be0caa369eeacf3df63ed7a4d45da8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "5adb540a99c68c70b907b8c62cc9f632b9ee74340d7eb4f78c7e36f438f45f39"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1224,
+      "sha256": "d68edfe9803f1b9f17fb2dbac816efcc3e281538dedd2529557d1363a92b76f5"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "52ee9a509467f82ac1795804cafdd5175b0fe53fbe212f99460207c1cadb1c8f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "27e033a2a4aaead3f130b8150f49bdae85740a297b7cae3409b5c91f51aa1f43"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

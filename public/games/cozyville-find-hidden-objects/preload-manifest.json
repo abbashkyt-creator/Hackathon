@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/cozyville-find-hidden-objects/index.html",
+    "/games/cozyville-find-hidden-objects/js/poki-sdk-shim.js",
+    "/games/cozyville-find-hidden-objects/js/tiptap-platform-bridge.js",
+    "/games/cozyville-find-hidden-objects/js/tiptap-inline-1.js",
+    "/games/cozyville-find-hidden-objects/js/tiptap-inline-2.js",
+    "/games/cozyville-find-hidden-objects/js/tiptap-inline-3.js"
+  ]
+}

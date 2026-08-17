@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/pull-a-sword/index.html",
+    "/games/pull-a-sword/js/poki-sdk-shim.js",
+    "/games/pull-a-sword/js/tiptap-platform-bridge.js",
+    "/games/pull-a-sword/js/tiptap-inline-1.js",
+    "/games/pull-a-sword/js/tiptap-inline-2.js",
+    "/games/pull-a-sword/js/tiptap-inline-3.js"
+  ]
+}

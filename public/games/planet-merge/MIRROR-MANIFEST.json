@@ -1,0 +1,230 @@
+{
+  "name": "planet-merge",
+  "sourcePage": "https://poki.com/en/g/planet-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1188,
+      "sha256": "236aa950e2729e12f3d5146b36b86d12203a05af04016b45afddaf135ee26089",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "e715f9f74b126d4c780c3d15ecc60752aaa99e4e291f307250ab26c003e9054a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "008c785a4dc75d19f17af785d15cfec3ddba1dcab7391c65c9989beb4cab677f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "70128713e059d1f958ddd75f4693cd14cdd837af6f4664b8ef1f1a7bf0b5c4ac",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "ddd9ee02360f6427ece924d4394f15736fa8c53ed0f0288fa805cf18fd944bc4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/145442__soughtaftersounds__menu-click-two-tone.mp3",
+      "bytes": 24824,
+      "sha256": "f29ddf46d5f45dc5efd46a4f1382a42e08db1cec218963dec200ed8ed0259cbe"
+    },
+    {
+      "assetPath": "assets/244394__werra__bangexplosion-metallic.mp3",
+      "bytes": 182553,
+      "sha256": "b76110469dfa13fdcce27d68727fe54ca8d17ec84422847c8602bf2e28175689"
+    },
+    {
+      "assetPath": "assets/268822__kwahmah_02__woodblock.mp3",
+      "bytes": 2549,
+      "sha256": "ae3b06806ee9ae57ed8bf233c772ee8efdb9c63c52ea91a09e9b43789f7e90b9"
+    },
+    {
+      "assetPath": "assets/319590__hybrid_v__shield-bash-impact.mp3",
+      "bytes": 33995,
+      "sha256": "7f6a5ccfd8323cd5488d6a157dc270c1c91d73a36b4829310fc5980fc41b9083"
+    },
+    {
+      "assetPath": "assets/32260__moxobna__smallcrowd.mp3",
+      "bytes": 239429,
+      "sha256": "30b187afeea0c941d9091d0351d178928c7aef65d6dfbc2107a832282b823c4d"
+    },
+    {
+      "assetPath": "assets/80401__steveygos93__explosion2.mp3",
+      "bytes": 154490,
+      "sha256": "89a86149f1598417dc8676775bffa23cde8d4338270b4697cb6d68956ac45556"
+    },
+    {
+      "assetPath": "assets/background.webp",
+      "bytes": 37066,
+      "sha256": "94690624198fa6cced9ca22445d045ad445f3c926847ad43999c7efc3b53fc88"
+    },
+    {
+      "assetPath": "assets/betelgeuse.png",
+      "bytes": 8646,
+      "sha256": "5364774883596e76551f5e1c2e2d6d65edfed6167e153862522364d56adc8647"
+    },
+    {
+      "assetPath": "assets/browserAll-BVZcbIrg.js",
+      "bytes": 39323,
+      "sha256": "2c5f3a934fc68fe2c9dbff80439d4014f4610116770811ab45ced7552bbd114f"
+    },
+    {
+      "assetPath": "assets/celebrate.mp3",
+      "bytes": 40557,
+      "sha256": "73b046670e4c9a83d0beb7440e98606c5bd03baa89ddc9d5e7b9e8b44a52c865"
+    },
+    {
+      "assetPath": "assets/colorToUniform-KTpA7KSL.js",
+      "bytes": 1685,
+      "sha256": "c6924e406182f195dbae44f60088e910e0d2d8aa517e85103a404fa1c4ff7097"
+    },
+    {
+      "assetPath": "assets/earth.png",
+      "bytes": 3617,
+      "sha256": "2de9e1594bdcc281c23b7f56b33396279498e1f742afc21e2b2a702fa0f1a1d5"
+    },
+    {
+      "assetPath": "assets/index-BrT52dKD.js",
+      "bytes": 746231,
+      "sha256": "4b17975c1624fbd9db5f8791ad0ecb5a388b2067fb571011d654f9dd18b902eb"
+    },
+    {
+      "assetPath": "assets/index-F99x3yt_.css",
+      "bytes": 720,
+      "sha256": "16986a5838189c54edc52bd959ee27a23ab7acba137dfc686dd7477b5466877f"
+    },
+    {
+      "assetPath": "assets/jupiter.png",
+      "bytes": 3979,
+      "sha256": "9c0fad998d80f735741a93d68b0113471edddf6acaa1406deb4d8c439278d26c"
+    },
+    {
+      "assetPath": "assets/mars.png",
+      "bytes": 2809,
+      "sha256": "71c28f698725b816212ffe0ff8a9eeb15f17912dcf1546121de39d55df400a28"
+    },
+    {
+      "assetPath": "assets/mercury.png",
+      "bytes": 3471,
+      "sha256": "ecaba28cc0e3a4ea746a0564a5a39fa70466a096c3758eb8efff88ec4ed44782"
+    },
+    {
+      "assetPath": "assets/moon.png",
+      "bytes": 3592,
+      "sha256": "c2d8da163adcc0f004e8619435603aaf67d7299b8712f4ac3c283e3f08776a7f"
+    },
+    {
+      "assetPath": "assets/neptune.png",
+      "bytes": 3259,
+      "sha256": "ec339dbb91e98b4e9dd35dacf478cbf83073fde2e26a703b4ac6849f7c4fb63a"
+    },
+    {
+      "assetPath": "assets/Pacifico-Regular.ttf",
+      "bytes": 315408,
+      "sha256": "4dac9db3fa9ca072f7861fd916bf04bdceac6069d0f3a886f5e523d922e918f1"
+    },
+    {
+      "assetPath": "assets/saturn.png",
+      "bytes": 4313,
+      "sha256": "14306a7d3beb905f380d8f1e40138bb96e99dbe0262072e20465ee36bbc28b42"
+    },
+    {
+      "assetPath": "assets/shades-1.svg",
+      "bytes": 2292,
+      "sha256": "6e9d3af342e4a387a6ce7619326cc1737265fb06fe4a9ea1abc48d896a5f46d9"
+    },
+    {
+      "assetPath": "assets/shades-2.svg",
+      "bytes": 1270,
+      "sha256": "224d453af0a1c7e5e6bdeba5aacd152379d28ecd4cf3c119ec83cb5980fcda05"
+    },
+    {
+      "assetPath": "assets/shades-7.svg",
+      "bytes": 1563,
+      "sha256": "ed3d4b360c390e48cbffb912cc70ca3585d941f90eb44ac140aeefbb1ae83c5c"
+    },
+    {
+      "assetPath": "assets/SharedSystems-CgItV0MS.js",
+      "bytes": 50554,
+      "sha256": "bdce1fb563618b1d96fe9058bde095f9899b1b29ba34e31eb269a527c364cf44"
+    },
+    {
+      "assetPath": "assets/sun.png",
+      "bytes": 8077,
+      "sha256": "9406492bacf523f1f651856ebeebc51aefef12004341a6e4e2d8f22495eb46c6"
+    },
+    {
+      "assetPath": "assets/uranus.png",
+      "bytes": 6756,
+      "sha256": "4eefae4306bb59c97128185a7e46d5e95805ce2283032365f463057c2b6fe9a3"
+    },
+    {
+      "assetPath": "assets/venus.png",
+      "bytes": 2778,
+      "sha256": "2ee34b1c02f0f720b3723021eb03ef5bb2f5827b5b8df95af9f801c6db7c162b"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-CD8RIIBA.js",
+      "bytes": 62038,
+      "sha256": "07059be457690a055c54d6d54cc96b72f715b5efbef86ff61068070824345eba"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-CC7v0vSw.js",
+      "bytes": 36792,
+      "sha256": "b5a6bc8a5382e99794719835c21b82b815ea44a9e7f98c8ccfe64feedf9da96e"
+    },
+    {
+      "assetPath": "assets/webworkerAll-C5Rc5B_v.js",
+      "bytes": 58206,
+      "sha256": "2ec6faf61aa61a21fd026ed5d438215e5493d30d691be5740da37842e6b1bb0f"
+    },
+    {
+      "assetPath": "assets/whoosh.mp3",
+      "bytes": 11577,
+      "sha256": "f91dc46729ea4db36a67c511f4e9a39cb149b6eed6c89fffc078dfd4c8c64cb0"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1188,
+      "sha256": "236aa950e2729e12f3d5146b36b86d12203a05af04016b45afddaf135ee26089"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "008c785a4dc75d19f17af785d15cfec3ddba1dcab7391c65c9989beb4cab677f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 257,
+      "sha256": "e285221e4668ab0c63e24489b9d5dd1bee471100d6a79524aadc6a2ea7e79269"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "70128713e059d1f958ddd75f4693cd14cdd837af6f4664b8ef1f1a7bf0b5c4ac"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "ddd9ee02360f6427ece924d4394f15736fa8c53ed0f0288fa805cf18fd944bc4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

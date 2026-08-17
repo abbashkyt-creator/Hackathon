@@ -1,0 +1,100 @@
+{
+  "name": "tens",
+  "sourcePage": "https://poki.com/en/g/tens",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2270,
+      "sha256": "e8f5a063392d710117c14e0607c8c4f178ab32bbf8ffc63ce7b334a50d8a3d1c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 158,
+      "sha256": "0ef65c3150f3b7af3ec8ca06f4bd61646712ddad732a9e7838051fed278f67e5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 898,
+      "sha256": "18986eba493fdf8277ddc29eac4a7f03a647be61137c881d6135b08465a1d0b8",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 845,
+      "sha256": "5edaa8543604b25f774aa4b9a4d75a9656b464298f9f225ba0af27b553058be8",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 263,
+      "sha256": "e222b1844b4044ca6cdec67eb8b0f4f1617abf31b1a2684169c0c0c4a6ed4149",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.apple-touch-icon.png",
+      "bytes": 12544,
+      "sha256": "b3387aeade8675a98f1809461cbc24656b184b051d12beb40a4619af75a4bd9c"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2270,
+      "sha256": "e8f5a063392d710117c14e0607c8c4f178ab32bbf8ffc63ce7b334a50d8a3d1c"
+    },
+    {
+      "assetPath": "index.icon.png",
+      "bytes": 72104,
+      "sha256": "fab2b29669a550e68b0a053eb950cb3021d3fb99c461cbe7b310857f3c270e1d"
+    },
+    {
+      "assetPath": "index.js",
+      "bytes": 264288,
+      "sha256": "efd11cec632e938c7f7742e8bc81ce40df3d59a28bfe13a5490fb68632f55195"
+    },
+    {
+      "assetPath": "index.png",
+      "bytes": 8567,
+      "sha256": "17aa7270030061133602b9d136aeb89bad9138b9f1ecd00446deb26c2567d3d6"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 898,
+      "sha256": "18986eba493fdf8277ddc29eac4a7f03a647be61137c881d6135b08465a1d0b8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 224,
+      "sha256": "0e55a294bb7f9564409bde7fa0acfca7feab4a4db4a83a5d7bf5e9765dc93ad8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 28,
+      "sha256": "5752c944d4643ae9356fa57f42e99d884195a31a071b3260a0a07e4aa4150606"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 3473,
+      "sha256": "4a93a661ccd9232bcb85b8647264983e6954414ce13c0d6eb50d10dc63a4e57e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 845,
+      "sha256": "5edaa8543604b25f774aa4b9a4d75a9656b464298f9f225ba0af27b553058be8"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 263,
+      "sha256": "e222b1844b4044ca6cdec67eb8b0f4f1617abf31b1a2684169c0c0c4a6ed4149"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

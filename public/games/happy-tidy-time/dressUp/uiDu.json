@@ -1,0 +1,45 @@
+{
+"frames": {
+	"btnNext1.png": {
+		"frame": {"x":0, "y":743, "w":55, "h":75},
+		"spriteSourceSize": {"x":0,"y":0,"w":55,"h":75},
+		"sourceSize": {"w":55,"h":75}
+	},
+	"btnNext2.png": {
+		"frame": {"x":0, "y":895, "w":55, "h":75},
+		"spriteSourceSize": {"x":0,"y":0,"w":55,"h":75},
+		"sourceSize": {"w":55,"h":75}
+	},
+	"btnPrev1.png": {
+		"frame": {"x":0, "y":819, "w":55, "h":75},
+		"spriteSourceSize": {"x":0,"y":0,"w":55,"h":75},
+		"sourceSize": {"w":55,"h":75}
+	},
+	"btnPrev2.png": {
+		"frame": {"x":56, "y":743, "w":55, "h":75},
+		"spriteSourceSize": {"x":0,"y":0,"w":55,"h":75},
+		"sourceSize": {"w":55,"h":75}
+	},
+	"frameDu.png": {
+		"frame": {"x":0, "y":0, "w":337, "h":648},
+		"spriteSourceSize": {"x":0,"y":0,"w":337,"h":648},
+		"sourceSize": {"w":337,"h":648}
+	},
+	"harga20.png": {
+		"frame": {"x":0, "y":696, "w":94, "h":46},
+		"spriteSourceSize": {"x":0,"y":0,"w":94,"h":46},
+		"sourceSize": {"w":94,"h":46}
+	},
+	"harga30.png": {
+		"frame": {"x":0, "y":649, "w":94, "h":46},
+		"spriteSourceSize": {"x":0,"y":0,"w":94,"h":46},
+		"sourceSize": {"w":94,"h":46}
+	}
+
+},
+"meta": {
+	"image": "uiDu.png",
+	"size": {"w": 512, "h": 1024},
+	"scale": "1"
+}
+}

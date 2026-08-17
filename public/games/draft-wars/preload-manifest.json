@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/draft-wars/index.html",
+    "/games/draft-wars/js/poki-sdk-shim.js",
+    "/games/draft-wars/js/tiptap-platform-bridge.js",
+    "/games/draft-wars/js/tiptap-inline-1.js",
+    "/games/draft-wars/js/tiptap-inline-2.js",
+    "/games/draft-wars/js/tiptap-inline-3.js"
+  ]
+}

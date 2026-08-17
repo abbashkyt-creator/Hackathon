@@ -1,0 +1,90 @@
+{
+  "name": "spacebar-clicker",
+  "sourcePage": "https://poki.com/en/g/spacebar-clicker",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 33393,
+      "sha256": "8a6ba25ef69d9938c630c04ce77b9c34fae5a5ef89f014ad7ad752258bfbb038",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "29ecde931baea6125ad2d3a8a5c8dac2a9f731f133a7e01281d6d5c03ec66941",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "cb697bbb36ccb7fd08e5267fdb4734b6baceeb1a4ffa7293fcbd6922da77946c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a3ee1e0c234b248fc68dcb35fe55131615179b454a35ec2d8e7122b8b130de52",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "6e1762b4d4cfe16e04c2e46e9a394e6eb948e2fb1b5409c9fc132fde26f87a9f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/credits.txt",
+      "bytes": 3023,
+      "sha256": "f953e0322a179de14efe6d78b7f0dc107f2eef366c2e568cb48f0a859ed70821"
+    },
+    {
+      "assetPath": "assets/music/SpacebarClicker_U0_L0.ogg",
+      "bytes": 942379,
+      "sha256": "df700acf4493f99157b355f6c500108d00ac3c3db40acc40e91dcf7dd055f58b"
+    },
+    {
+      "assetPath": "assets/music/SpacebarClicker_U0_L1.ogg",
+      "bytes": 1232430,
+      "sha256": "9e09e790c163ccaa53ddf95ae91a98a7a5cffb83800b1efca1016bc2232bf628"
+    },
+    {
+      "assetPath": "assets/music/SpacebarClicker_U0_L2.ogg",
+      "bytes": 883041,
+      "sha256": "a30f0fdc1b442351b9f2a5b86d3dadf233073f37164036a7faeb146fae89635d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 33393,
+      "sha256": "8a6ba25ef69d9938c630c04ce77b9c34fae5a5ef89f014ad7ad752258bfbb038"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "cb697bbb36ccb7fd08e5267fdb4734b6baceeb1a4ffa7293fcbd6922da77946c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 510318,
+      "sha256": "b3874b2bf7b39c5d118e378ef52f64022fb794735b978452b42da514a7d0ce2e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a3ee1e0c234b248fc68dcb35fe55131615179b454a35ec2d8e7122b8b130de52"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "6e1762b4d4cfe16e04c2e46e9a394e6eb948e2fb1b5409c9fc132fde26f87a9f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

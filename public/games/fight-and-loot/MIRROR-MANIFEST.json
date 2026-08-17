@@ -1,0 +1,215 @@
+{
+  "name": "fight-and-loot",
+  "sourcePage": "https://poki.com/en/g/fight-and-loot",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1747,
+      "sha256": "e8b2c1a5b1a439327aac3fd42d0c8c52ff666359a084d1a5fd9027b7a6daca16",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "ff9130eb3359d425a0987721a60a2f11520fa48850beda1cda4d36b756eaaeef",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "ed07ec8c330ea9f757d447422cf1fca32bfbd7fcb719143942ec55dcd397baea",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "c0840d8696098c6c0b2abcba0b4207e5b294f677f5d7341feabd507b5cc289e7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "a488e6c681b34db12702b0639f2f314aebb24e5a284a9b4aaf51b5ac98d22339",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 241,
+      "sha256": "02fd4c6b49facad0464bbfd4cb0cc0e4563e5d68bb8074f2f9d6093509fe4110"
+    },
+    {
+      "assetPath": "box2d.wasm",
+      "bytes": 246906,
+      "sha256": "980c1932c6b690cc927a5df0cf2b483b58740979f2966922a2f1c9af7270a80e"
+    },
+    {
+      "assetPath": "box2d.wasm.js",
+      "bytes": 282532,
+      "sha256": "fae7eb10b764b146a07295802d6427755292d4aac375da0e0c6e0ed444beec42"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 316278,
+      "sha256": "0f8ad7bbccda47ca21ea08633129bf0eec763ba5c6644397a0360ff495ff2ee2"
+    },
+    {
+      "assetPath": "fonts/iCielPanton-Black.otf",
+      "bytes": 105356,
+      "sha256": "7fdcac2de0084e71facad674e656457c0ca305d634ba282a1a8dd34bd30a6e82"
+    },
+    {
+      "assetPath": "gameFiles/armor_list.json",
+      "bytes": 3266,
+      "sha256": "21c74cd9c49ce22a979bcfb87a04de78ee90c466385d1a1e4fd75534e0251125"
+    },
+    {
+      "assetPath": "images/armor-sheet0.png",
+      "bytes": 1088809,
+      "sha256": "4ecc3634ec991210f516c632a2264b94e51a232d729181532694118d629d76b0"
+    },
+    {
+      "assetPath": "images/armor-sheet1.png",
+      "bytes": 72484,
+      "sha256": "b0bbd2ae01a02dd74537923daf027a983dca8fec0babbacc242e4446bb5de16c"
+    },
+    {
+      "assetPath": "images/armor2-sheet0.png",
+      "bytes": 776960,
+      "sha256": "37c13c6ba26ec65c0bd93dac0629e2879da85f43a714b055db89077351a537c3"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 621538,
+      "sha256": "b02e96e3db3a2d941abb1970968cf2c81008feec475720518ddab4c4caf514e6"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 145181,
+      "sha256": "6dc2380153fa15c804a554719872b5070f910275ad673d8edc155db0193dc6d0"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 44248,
+      "sha256": "fff6bd43b7f1da37fffd7469cd269df7c565bfb4793697d0d4365b7dcfc0a494"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.png",
+      "bytes": 6353,
+      "sha256": "9740545a14272b54ff9ca9817bf0a1c2a3fc46818c81a33f96792d628b625e8b"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.png",
+      "bytes": 7593,
+      "sha256": "a09e556538a00c40d29e0c711dd8738a08dd049425d2c8dd899f691b11df0233"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.png",
+      "bytes": 275,
+      "sha256": "dbf2905a66fd5181b456dc3269ee891a3775c9726185fcf4dfcbbe12897fcfe5"
+    },
+    {
+      "assetPath": "images/shields-sheet0.png",
+      "bytes": 313695,
+      "sha256": "166dcbedc7b95b6c79eea0d57fa160f91ac2d6714f4e1715aa15af3c40e89628"
+    },
+    {
+      "assetPath": "images/sword-sheet0.png",
+      "bytes": 266075,
+      "sha256": "ab2611773231dd5b0184b2da6aa6a759fe7b6be55a3632e5a6324c7415e1219a"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.png",
+      "bytes": 120,
+      "sha256": "4ffa6100ffb9a914a33355d6cd80e7eeffd7dcab1e12150ca3dfde9e1cf96226"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1747,
+      "sha256": "e8b2c1a5b1a439327aac3fd42d0c8c52ff666359a084d1a5fd9027b7a6daca16"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "ed07ec8c330ea9f757d447422cf1fca32bfbd7fcb719143942ec55dcd397baea"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "c0840d8696098c6c0b2abcba0b4207e5b294f677f5d7341feabd507b5cc289e7"
+    },
+    {
+      "assetPath": "lodash.custom.min.js",
+      "bytes": 4995,
+      "sha256": "8b07b05956ba6c0470d70a99b3c7e86a9c53d16d62a091fdede3a2000dadb738"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "a488e6c681b34db12702b0639f2f314aebb24e5a284a9b4aaf51b5ac98d22339"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1955566,
+      "sha256": "49c34263046261cf20434a4d8d3e3af60520e842b2910fec8d93d092d7ff2861"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 4040,
+      "sha256": "3d0196c4a87e271f7f52ff0e00c03a82c351c73bad81619c28ebbe6816bcaaf7"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 3020,
+      "sha256": "0415a4ba7564700a52cf68ad991dffa9741739885a065055d9b13bceecd457ef"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 154736,
+      "sha256": "cfed5f1e702ad6c90e1f921a5b283a5323a5cc183ecfba3545bf3bcc54c0c500"
+    },
+    {
+      "assetPath": "scripts/opus.wasm.js",
+      "bytes": 68172,
+      "sha256": "2d4794efc4b06ce7ab5472b459cd46f1622a1ee28156d2fa39593cc53ed8fac6"
+    },
+    {
+      "assetPath": "scripts/opus.wasm.wasm",
+      "bytes": 121571,
+      "sha256": "3b090d2b704dbc4d16fc236b6d695611d29b261c2588ba47eb8a30260f948a7a"
+    },
+    {
+      "assetPath": "scripts/project/scriptsInEvents.js",
+      "bytes": 1757,
+      "sha256": "9135306efa0fa1dc50cd75ab8ece57bf3ed9a5ba938f51ff6df37a20d48bfe88"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 2436,
+      "sha256": "5f395fcc330cde148e9b11e49cfadcfa9cd2e76a85d587a0eb6e322f14f507c9"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1889,
+      "sha256": "35ca60c5a53d7eee4e9c7b8e75eb24e95984aef5197c9517061b7112b35782ad"
+    },
+    {
+      "assetPath": "Tween.js",
+      "bytes": 16022,
+      "sha256": "c1f107fbaf1af8002efab5a125ee54d8596b4ed86b2086bc2dcd867913e4bf76"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

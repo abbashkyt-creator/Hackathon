@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/gunforce/index.html",
+    "/games/gunforce/js/poki-sdk-shim.js",
+    "/games/gunforce/js/tiptap-platform-bridge.js",
+    "/games/gunforce/js/tiptap-inline-1.js",
+    "/games/gunforce/js/tiptap-inline-2.js"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/planet-merge/index.html",
+    "/games/planet-merge/js/poki-sdk-shim.js",
+    "/games/planet-merge/js/tiptap-platform-bridge.js",
+    "/games/planet-merge/js/tiptap-inline-1.js"
+  ]
+}

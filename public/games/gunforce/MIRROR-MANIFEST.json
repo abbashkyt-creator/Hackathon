@@ -1,0 +1,90 @@
+{
+  "name": "gunforce",
+  "sourcePage": "https://poki.com/en/g/gunforce",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 946,
+      "sha256": "9f54c310bfa70adf40e651c31d55e79b81c71369bdde1aafeac909d880fe40d7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "d48f275696ad22a2677eeed9ca1264b54b29bbd318afca105df035df20d5921a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "417513d2b5085a07681d97a004646833f5c75c272523ba7a0468bc12938bbf07",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "e5ab2eae7e5b18994a81c1c88b765c58d3bea6cd6e36db0367371c4be2f0fa94",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 242,
+      "sha256": "ffdaf480f282c871d26a41aa579d4d85531448b8ff8f1f7d4070000c93ff95be",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/index-ZseKjLfe.js",
+      "bytes": 162982,
+      "sha256": "51e45f00b0059c7c3eb3abeadc7d0f5ce720ef4f704e34cec686c0696d4f4a45"
+    },
+    {
+      "assetPath": "characters.png",
+      "bytes": 17611,
+      "sha256": "cf8dd2511fb897595aa0e6672a38cbd0875e48e35c5d9819002688fe4a72901c"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 946,
+      "sha256": "9f54c310bfa70adf40e651c31d55e79b81c71369bdde1aafeac909d880fe40d7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "417513d2b5085a07681d97a004646833f5c75c272523ba7a0468bc12938bbf07"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 132,
+      "sha256": "4f199c4be9e2546256ae5d77fd52ff15c7aaa10e18ae040fd1b1ba2c8d1b17e6"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 193,
+      "sha256": "5147663b8921d9c91e17abcdaa14e49a84d768ead22e6d6d3c0cb9bd1e7edcc3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "e5ab2eae7e5b18994a81c1c88b765c58d3bea6cd6e36db0367371c4be2f0fa94"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 242,
+      "sha256": "ffdaf480f282c871d26a41aa579d4d85531448b8ff8f1f7d4070000c93ff95be"
+    },
+    {
+      "assetPath": "spritesMap.png",
+      "bytes": 12618,
+      "sha256": "990b13a001808355024b85a36d46eaea914cc970d27e21308d3e851e8b32685f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

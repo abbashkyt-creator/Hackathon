@@ -1,0 +1,195 @@
+{
+  "type": "Container",
+  "props": {
+    "x": 0,
+    "y": 0
+  },
+  "children": {
+    "settingsButton": {
+      "$include": "json/layouts/features/settings/_button.json"
+    },
+    "panel": {
+      "$include": "json/layouts/scenes/level/internal/_bottom-panel.json"
+    },
+    "completionOverlay": {
+      "$include": "json/layouts/scenes/level/internal/_completion-overlay.json"
+    },
+    "completionTopOverlay": {
+      "type": "Container",
+      "props": {
+        "x": 0,
+        "y": 0,
+        "zIndex": 2000,
+        "visible": true
+      },
+      "children": {
+        "title": {
+          "type": "Text",
+          "props": {
+            "x": 0,
+            "y": 0,
+            "visible": false,
+            "style": "levelSuccessTitleText",
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "zIndex": 2
+          },
+          "actions": {
+            "completionTitleReveal": {
+              "type": "LevelCompletionTitleRevealAction",
+              "data": {
+                "durationMs": 320,
+                "ease": "power2.out",
+                "startOffsetYPx": 36
+              }
+            }
+          }
+        },
+        "nextAlbumProgressLabel": {
+          "type": "Text",
+          "props": {
+            "x": 0,
+            "y": 0,
+            "visible": false,
+            "style": "levelSuccessNextAlbumText",
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "zIndex": 1
+          },
+          "actions": {
+            "completionNextAlbumProgressReveal": {
+              "type": "LevelCompletionNextAlbumProgressRevealAction",
+              "data": {
+                "revealDurationMs": 340,
+                "revealEase": "back.out(1.6)",
+                "minTextScale": 0.01
+              }
+            }
+          }
+        }
+      }
+    },
+    "panelArtwork": {
+      "$include": "json/layouts/scenes/level/internal/_panel-artwork.json"
+    },
+    "autoFillButton": {
+      "type": "Container",
+      "props": {
+        "x": 0,
+        "y": 0,
+        "zIndex": 570
+      },
+      "components": {
+        "autoFillButton": {
+          "type": "LevelAutoFillButtonComponent",
+          "enabled": true,
+          "data": {}
+        }
+      },
+      "actions": {
+        "hideButton": {
+          "type": "HideSettingsButtonAction",
+          "data": {
+            "durationMs": 250,
+            "ease": "power2.in"
+          }
+        },
+        "pressFeedback": {
+          "type": "PressScaleAction",
+          "data": {
+            "downDurationMs": 80,
+            "upDurationMs": 140,
+            "pressedScale": 0.9,
+            "easeDown": "power2.in",
+            "easeUp": "back.out(1.7)"
+          }
+        }
+      },
+      "children": {
+        "background": {
+          "type": "Sprite",
+          "props": {
+            "x": 0,
+            "y": 0,
+            "asset": "images/common/btn2.png",
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        "videoIcon": {
+          "type": "Sprite",
+          "props": {
+            "x": -75,
+            "y": 0,
+            "scale": 0.7,
+            "asset": "images/common/iconVideo.png",
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        "label": {
+          "type": "Text",
+          "props": {
+            "x": 24,
+            "y": 0,
+            "scale": 0.9,
+            "text": "FILL NOW",
+            "style": "albumContinueButtonText",
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        }
+      }
+    },
+    "stickerInsertFxLayer": {
+      "type": "Container",
+      "props": {
+        "x": 0,
+        "y": 0,
+        "zIndex": 565
+      }
+    },
+    "levelCompletionButton": {
+      "$include": "json/layouts/scenes/level/internal/_level-completion-button.json"
+    },
+    "settingsPopup": {
+      "$include": "json/layouts/features/settings/_popup.json"
+    },
+    "loadingIndicator": {
+      "type": "Container",
+      "props": {
+        "x": 0,
+        "y": 0,
+        "zIndex": 12000
+      },
+      "components": {
+        "responsivePosition": {
+          "type": "ResponsiveNodePositionComponent",
+          "enabled": true,
+          "data": {
+            "mode": "screen",
+            "position": {
+              "cx": 0,
+              "cy": 0
+            }
+          }
+        }
+      },
+      "children": {
+        "content": {
+          "$include": "json/layouts/features/shared-ui/_loading-indicator.json"
+        }
+      }
+    }
+  }
+}

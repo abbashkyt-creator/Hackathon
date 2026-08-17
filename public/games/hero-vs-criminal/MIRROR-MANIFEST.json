@@ -1,0 +1,70 @@
+{
+  "name": "hero-vs-criminal",
+  "sourcePage": "https://poki.com/en/g/hero-vs-criminal",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "d9583f965f835ca15a3c0632560ffaca01a1f8335ae76860eb61e975906d8b28",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "18c0a53b4513fdda597dd1d07f875f6f8789e49a623c97259aec607c7c413410",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "365f41785bb119f8aa4580f8e9774ba8c678380d25c17f0007b1a54d488d9227",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "0caf02d5ff8fa9043d756f33fce91227e4daa40fe03f5df1b2f2d347993225ef",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "685c6c580f58fc67395b377ceb88035eb793ad60b50fd1cb2655f50d65e3dd5c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "d9583f965f835ca15a3c0632560ffaca01a1f8335ae76860eb61e975906d8b28"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "365f41785bb119f8aa4580f8e9774ba8c678380d25c17f0007b1a54d488d9227"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1227,
+      "sha256": "9e528ab743d6e7e1d237e67901a419e26dac23651ad096f9faeb923cb761a2e3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "0caf02d5ff8fa9043d756f33fce91227e4daa40fe03f5df1b2f2d347993225ef"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "685c6c580f58fc67395b377ceb88035eb793ad60b50fd1cb2655f50d65e3dd5c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

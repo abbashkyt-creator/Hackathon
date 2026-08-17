@@ -1,0 +1,70 @@
+{
+  "name": "airplane-manager",
+  "sourcePage": "https://poki.com/en/g/airplane-manager",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "8bc11cdff1e0c10a934811ec155a239cdd717c2f093c6335a47ced87ade49bb6",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "b6bd7931bb74f807a15e2cd0b72d69d8c45e442645982045dedebb38109a74c6",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "0bfadc801a7b87ab1c15a1caadb7f7c52cedc1c9ebcad5614c45094ce8a43b1e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "6f2a7fc3577718a51a7a06aa55fc7a307f736d8ab81443dab15bdca0f1aad0ab",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9b3e22dc055428d8a5059ac52c637cc6d909ca0793f7b9797ee89cefdf2dff7d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 839,
+      "sha256": "8bc11cdff1e0c10a934811ec155a239cdd717c2f093c6335a47ced87ade49bb6"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "0bfadc801a7b87ab1c15a1caadb7f7c52cedc1c9ebcad5614c45094ce8a43b1e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1232,
+      "sha256": "74626727308483c97e5b9e1aa0eaaae4b6e06365782bb261ccd1be4806aee37d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "6f2a7fc3577718a51a7a06aa55fc7a307f736d8ab81443dab15bdca0f1aad0ab"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9b3e22dc055428d8a5059ac52c637cc6d909ca0793f7b9797ee89cefdf2dff7d"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

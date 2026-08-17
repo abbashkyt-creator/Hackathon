@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/hero-vs-criminal/index.html",
+    "/games/hero-vs-criminal/js/poki-sdk-shim.js",
+    "/games/hero-vs-criminal/js/tiptap-platform-bridge.js",
+    "/games/hero-vs-criminal/js/tiptap-inline-1.js"
+  ]
+}

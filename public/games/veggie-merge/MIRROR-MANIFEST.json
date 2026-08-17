@@ -1,0 +1,315 @@
+{
+  "name": "veggie-merge",
+  "sourcePage": "https://poki.com/en/g/veggie-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1872,
+      "sha256": "5196fe8138cfb3e2d8d4c97157b891630ddf52c528ae73415cbf44cbb8d7dcfd",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "c775cafb6a4e35ab78dbb47b004dbe9e578c94690484ea327e27f793506803d9",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "642ab20f6547241d9e650f75dfb4aed7115b07f5c188e2668111ccc1e349ab73",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "d21b8e7981c4991c54bf137e96c1b36365acc0d5a33d3f4e09928ef838e275b4",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "4b0076b3eb1f662dbc2feb74638d8f3e846046c6a70b96eaa355f115d94ddeaa",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 740,
+      "sha256": "13429b2fb294b0f4e3f741d5eef6b893163c6cdf42ddfe03f5fba1a82dec21a4"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 178745,
+      "sha256": "7718132afbc3efabdafe56ca85c9fd73f7480dee675c5aecee60155b1c6a0940"
+    },
+    {
+      "assetPath": "DicSlotData.json",
+      "bytes": 589,
+      "sha256": "40a92ca0e2fa0ad3ff78228fbbaae9864b27f0e5099d844d8f472b62b84fe47c"
+    },
+    {
+      "assetPath": "fonts/Baloo2-Bold.ttf",
+      "bytes": 420092,
+      "sha256": "e1bc2e47cfd8897297d0713cbc22e6656b7e5eadddfac6ca16f78c5618c3fe60"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 3048,
+      "sha256": "e4b4c87a9ede789dbefb945b996bb18d421174672c0965860eda9971262584aa"
+    },
+    {
+      "assetPath": "images/confetti-sheet0.webp",
+      "bytes": 11110,
+      "sha256": "4c8bf3693c37a7ee1f3c9f92ad1cb57984870fb80a2250c82753f021e388562c"
+    },
+    {
+      "assetPath": "images/customerneeds-sheet0.webp",
+      "bytes": 120812,
+      "sha256": "cb5eaf72a31ed2f3a4c5bd38baae123ba2a4385974062ce62a359931cfcf97e6"
+    },
+    {
+      "assetPath": "images/customerneeds2-sheet0.webp",
+      "bytes": 117674,
+      "sha256": "35aebf0370573e7bc40692466307ef90317e4d1e029a7053a5e0a7ce461eb1f5"
+    },
+    {
+      "assetPath": "images/item-sheet0.webp",
+      "bytes": 45028,
+      "sha256": "7aca2aaead3d3e6d4ee450bfb10b6e2be108a173aeb230ff4a66404398f1d0e1"
+    },
+    {
+      "assetPath": "images/plant-sheet0.webp",
+      "bytes": 9304,
+      "sha256": "e59b29288882f299dc417836159aa3f945b07aaa3c0895f55eeebc32076beb3c"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 15516,
+      "sha256": "3e53514dfc09463318906bba5d1d30b477eee5e867c91f951d25acc0530c2e66"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 331632,
+      "sha256": "32a4a41855080a52bdeec65a494a178c3164a7cfe70fa2f530ddc6e6389e81f8"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 47640,
+      "sha256": "ce95d82932f68ad1d1d04ddb6972e65ee5a7e4b09b01b90a4db5705f8181e7a8"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 128534,
+      "sha256": "bf911e826fcb42599cabeaa21a50bdb3b7323c09a56f4e5d40c5b89b438b5287"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 16152,
+      "sha256": "3caf682ce62b0bac64b009ca708e0f8510c33f6dfbc815c54561782bd28d17c9"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.webp",
+      "bytes": 142,
+      "sha256": "93ad72a4d47eb061dbc8615b089652019e5206a5e4f21e3d566fe45df04e8232"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.webp",
+      "bytes": 38,
+      "sha256": "0c899be7e191dddc270d814322aea48aab18fc283d738e044c6bae3d15a27410"
+    },
+    {
+      "assetPath": "images/tiledbackground2-sheet0.webp",
+      "bytes": 38,
+      "sha256": "e85669e38087ca95a98d578bf1e2dda4f9b001d140661ab5e1930e455162d1d3"
+    },
+    {
+      "assetPath": "images/vegetablesunlock-sheet0.webp",
+      "bytes": 74810,
+      "sha256": "e89f288e0bb8bb57fd8e7a688d5cfc41f8c5de62dae8fdf79d32799eb9a2e5ba"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1872,
+      "sha256": "5196fe8138cfb3e2d8d4c97157b891630ddf52c528ae73415cbf44cbb8d7dcfd"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "642ab20f6547241d9e650f75dfb4aed7115b07f5c188e2668111ccc1e349ab73"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "d21b8e7981c4991c54bf137e96c1b36365acc0d5a33d3f4e09928ef838e275b4"
+    },
+    {
+      "assetPath": "media/10.webm",
+      "bytes": 5273,
+      "sha256": "07910a9c0ba3d885703e3d12d66e0dd4a6aac2a3a3898a82bfc374f4cb0fb5ec"
+    },
+    {
+      "assetPath": "media/11.webm",
+      "bytes": 7404,
+      "sha256": "f035f099a82d6513aa195908a0b6c274c366c21db23e6899677f0389a53fde1d"
+    },
+    {
+      "assetPath": "media/12.webm",
+      "bytes": 7415,
+      "sha256": "c054f56fd39a54fb04fad19b19f3936d7f93e4a74f13a2b4ac0f6516b533a6f5"
+    },
+    {
+      "assetPath": "media/128330767-happy-farm-loop.webm",
+      "bytes": 972265,
+      "sha256": "a49305adfc17993f63c44eabca9c0ffa123aaa1ee418154d544fbcbfa4f5c585"
+    },
+    {
+      "assetPath": "media/131626215-collect-item-pack-091.webm",
+      "bytes": 4916,
+      "sha256": "d7a89a1d1638937c3cccba8112f2f59aa52347414d987c04957e5235e6a861bb"
+    },
+    {
+      "assetPath": "media/290892844-congratulations-positive-sound.webm",
+      "bytes": 44288,
+      "sha256": "f16b58e667c177151abf9805f9e1084ad46e9e12dcb0a532087aff450898030f"
+    },
+    {
+      "assetPath": "media/bell.webm",
+      "bytes": 13333,
+      "sha256": "3922ec1c6f11f4c54c1e5a7af94530fad5f30c24614ea17a4cb12cc280e4e3ba"
+    },
+    {
+      "assetPath": "media/freesound_community-car-acceleration-inside-car-7087.webm",
+      "bytes": 16014,
+      "sha256": "99637f5fff1a92eaae308524ea47c6fd05777eea065d73075532a02aafc2c315"
+    },
+    {
+      "assetPath": "media/freesound_community-trash_rustling-77734.webm",
+      "bytes": 12076,
+      "sha256": "1a98d7117587dc63d2cf7796ba3b69ac5465f957f41ac127372fec744e344799"
+    },
+    {
+      "assetPath": "media/grass.webm",
+      "bytes": 1154,
+      "sha256": "9ab0c755dfd0ffd45d551632d7e596a100a12ba18ee87f6ae7f7bf1d812304e6"
+    },
+    {
+      "assetPath": "media/load.webm",
+      "bytes": 2653,
+      "sha256": "eb1378d7380071af9debc2950d39d0919fc276589c625dd29ae577dfb5a10f8f"
+    },
+    {
+      "assetPath": "media/m1.webm",
+      "bytes": 6581,
+      "sha256": "86561695553337381ddfdeea529a379d5c9e5e2ef68039c67696223e46349e85"
+    },
+    {
+      "assetPath": "media/pop.webm",
+      "bytes": 4881,
+      "sha256": "ad6dfc72f0c81ff0bb40906da7790af9873f0f20f51640a0a3d116d660959936"
+    },
+    {
+      "assetPath": "media/sparkle.webm",
+      "bytes": 33578,
+      "sha256": "037fb5ea701cd85ee8a62578c7076a88344cee73e4157f7779444d263832f467"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "4b0076b3eb1f662dbc2feb74638d8f3e846046c6a70b96eaa355f115d94ddeaa"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1598033,
+      "sha256": "c1e0fe5b2a385ac85b8b5f52190759dbaa53af5521cbc49d6ef82f69ef8f90d6"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 124229,
+      "sha256": "7d9d5f43abc0025c083159d32a9dd0203181bc01f2472890603c142ebe944e08"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4799,
+      "sha256": "4bc0a02bc9f449938a58bf0b09c40736f700342467b8bcc68dd6d70fe6ebafa6"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2130,
+      "sha256": "58c01a9ed56eba4f0dea9e92d46c9017948e7dd93f7f84758ac9bba2c0a91940"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 2871,
+      "sha256": "2d2c638a7aaba50f2f46dc2634e5dac098fe3d05509f613b690b874fadc1fcc8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

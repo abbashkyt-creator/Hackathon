@@ -1,0 +1,70 @@
+{
+  "name": "tds-tower-destiny-survive",
+  "sourcePage": "https://poki.com/en/g/tds-tower-destiny-survive",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 859,
+      "sha256": "520253017e479f0a132b8ab620d2ade89a01eaea9ed942b52aad9a8c5e6781d5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "db1a3eac0e6160c59b5c0eaea3e7da1158c99c4a657fc275e045cf48876354ed",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "68af5121367fe4ad5a9fe85a877e8da46703aab99e9686f7abc3d64a8110cac2",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "445b7bed348406676a83fdba048ed906a3b2e6539196d5018c40efc1ec71c95b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "657754d1fbcd1ead869a84900e1b2367d7030cd9cb0888665bb9ad1a6c9527bb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 859,
+      "sha256": "520253017e479f0a132b8ab620d2ade89a01eaea9ed942b52aad9a8c5e6781d5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "68af5121367fe4ad5a9fe85a877e8da46703aab99e9686f7abc3d64a8110cac2"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1246,
+      "sha256": "821e9ce7ea38415f2de6bc2439681d15179b4c34fb803369d90165ced7013cae"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "445b7bed348406676a83fdba048ed906a3b2e6539196d5018c40efc1ec71c95b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "657754d1fbcd1ead869a84900e1b2367d7030cd9cb0888665bb9ad1a6c9527bb"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,72 @@
+DEVELOPMENT
+---
+
+Bruno Croci (crocidb) - https://bruno.croci.me/
+
+GAME ICONS
+---
+
+ - Keyboard icon by Delapouite under CC BY 3.0
+ - Cog icon by Lorc under CC BY 3.0
+ - Click icon by Skoll under CC BY 3.0
+ - Auto repair icon by Lorc under CC BY 3.0
+ - Ant icon by Delapouite under CC BY 3.0
+ - Venus of Willendorf icon by Delapouite under CC BY 3.0
+ - Koala icon by Delapouite under CC BY 3.0
+ - Smartphone icon by Delapouite under CC BY 3.0
+ - Monkey icon by Lorc under CC BY 3.0
+ - PC icon by Skoll under CC BY 3.0
+ - Sheep icon by Delapouite under CC BY 3.0
+ - Graduate cap icon by Delapouite under CC BY 3.0
+ - Parrot head icon by Lorc under CC BY 3.0
+ - Double diaphragm icon by Lorc under CC BY 3.0
+ - Squirrel icon by Delapouite under CC BY 3.0
+ - Rat icon by Delapouite under CC BY 3.0
+ - Computing icon by Lord Berandas under CC BY 3.0
+ - Sloth icon by Caro Asercion under CC BY 3.0
+ - Boat propeller icon by Delapouite under CC BY 3.0
+ - Toaster icon by Delapouite under 
+ - Vacuum cleaner icon by Delapouite under CC BY 3.0
+ - Rabbit icon by Delapouite under CC BY 3.0
+ - Frog prince icon by Delapouite under CC BY 3.0
+ - Mechanical arm icon by Lorc under CC BY 3.0
+ - Dove icon by Lorc under CC BY 3.0
+ - Processor icon by Lorc under CC BY 3.0
+ - Ring icon by Delapouite under CC BY 3.0
+ - Nano bot icon by Delapouite under CC BY 3.0
+ - Atom icon by Skoll under CC BY 3.0
+ - Ray gun icon by Lorc under CC BY 3.0
+ - Materials science icon by Lorc under CC BY 3.0
+ - Laser sparks icon by Lorc under CC BY 3.0
+ - Power generator icon by Delapouite under CC BY 3.0
+ - Sinusoidal Beam icon by Lorc under CC BY 3.0
+ - UFO icon by Delapouite under CC BY 3.0
+ - Energise icon by Lorc under CC BY 3.0
+ - Star prominences icon by Lorc under CC BY 3.0
+ - Star skull icon by Lorc under CC BY 3.0
+ - Unicorn icon by Delapouite under CC BY 3.0
+ - Round silo icon by Delapouite under CC BY 3.0
+ - Clockwork icon by Lorc under CC BY 3.0
+ - Defense satellite icon by Delapouite under CC BY 3.0
+ - Microscope Lens icon by Lorc under CC BY 3.0
+ - Guards icon by Delapouite under CC BY 3.0
+ - Dial padlock icon by Delapouite under CC BY 3.0
+ - Dice fire icon by Delapouite under CC BY 3.0
+ - Gold stack icon by Delapouite under CC BY 3.0
+ - Ticket icon by Delapouite under CC BY 3.0
+ - Bottled bolt icon by Lorc under CC BY 3.0
+ - Upgrade icon by Delapouite under CC BY 3.0
+ - Info icon by Delapouite under CC BY 3.0
+ - Time trap icon by Lorc under CC BY 3.0
+ - Hazard sign icon by Lorc under CC BY 3.0
+ - Arrow scope icon by Lorc under CC BY 3.0
+ - Extra time icon by Delapouite under CC BY 3.0
+ - World icon by Lorc under CC BY 3.0
+ - Star swirl icon by Lorc under CC BY 3.0
+ - Cosmic egg icon by Delapouite under CC BY 3.0
+
+GOOGLE FONTS
+---
+
+ - Sono, Copyright 2020 The Sono Project Authors: https://fonts.google.com/specimen/Sono/license
+ - Victor Mono, Copyright 2023 The Victor Mono Project Authors: https://fonts.google.com/specimen/Victor+Mono/license

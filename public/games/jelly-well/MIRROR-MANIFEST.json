@@ -1,0 +1,70 @@
+{
+  "name": "jelly-well",
+  "sourcePage": "https://poki.com/en/g/jelly-well",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1048,
+      "sha256": "c25073ac2187015244c0ec9b0a54b682132c7c3401b4743d2c61f90154bdd0c2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "717bb52291cd73c559db08c8cfdef2bb94dd831f9f1effbeb2b84888e08795eb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "1594d286328f9000b2a729ab626a240dc5521d8bf5eb13e71ed580149d299be3",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "0b10cd333d00d1b6ecb3d6e1561eccd39f54be489cf4de65585b8ba50638e41a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "54117634e5660215307d84f7d5bef691bead17d445c4bdbb29c72c7c4834ade8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1048,
+      "sha256": "c25073ac2187015244c0ec9b0a54b682132c7c3401b4743d2c61f90154bdd0c2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "1594d286328f9000b2a729ab626a240dc5521d8bf5eb13e71ed580149d299be3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 285,
+      "sha256": "a339bdc9de6663b562005272cf45ff0f95855bbe34b6dfc75b77c6d0f7daca1c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "0b10cd333d00d1b6ecb3d6e1561eccd39f54be489cf4de65585b8ba50638e41a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "54117634e5660215307d84f7d5bef691bead17d445c4bdbb29c72c7c4834ade8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

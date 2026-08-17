@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/fight-and-loot/index.html",
+    "/games/fight-and-loot/js/poki-sdk-shim.js",
+    "/games/fight-and-loot/js/tiptap-platform-bridge.js",
+    "/games/fight-and-loot/js/tiptap-inline-1.js"
+  ]
+}

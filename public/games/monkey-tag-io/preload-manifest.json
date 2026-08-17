@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/monkey-tag-io/index.html",
+    "/games/monkey-tag-io/js/poki-sdk-shim.js",
+    "/games/monkey-tag-io/js/tiptap-platform-bridge.js",
+    "/games/monkey-tag-io/js/tiptap-inline-1.js"
+  ]
+}

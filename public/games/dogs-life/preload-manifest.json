@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/dogs-life/index.html",
+    "/games/dogs-life/js/poki-sdk-shim.js",
+    "/games/dogs-life/js/tiptap-platform-bridge.js",
+    "/games/dogs-life/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,22 @@
+window.config = {
+		loader: 'unity-2020',
+		debug: false,
+		maxRatio: 24 / 9,
+		minRatio: 9 / 24,
+
+		title: 'World Of Yarn',
+		thumbnail: 'https:\/\/img.poki-cdn.com\/3a10ca6fce0176ed44b6d56e30e8f47d.jfif',
+		numScreenshots:  4 ,
+
+		unityVersion: '6000.3.13f1',
+		unityWebglBuildUrl: '',
+
+		fileSize:  10 ,
+		cachedDecompressedFileSizes: {
+			'0176fe3d2b1fd9a1f1c6ee4c08f3a160.framework.js':  95306 ,
+			'a8f5b3f4a466a79d76ba15c7f4169c4a.wasm':  7819609 ,
+			'cfe9bcc305832ec67c3f09889bec6725.data':  2412609 ,
+			'f5ae2e27480b0a31c329e122f4fac99c.loader.js':  8214 ,
+		},
+		"metadata": {"poki_template_version":1,"background_color":"#231F20","code_filename":"a8f5b3f4a466a79d76ba15c7f4169c4a.wasm","company_name":"Seal Unicorn Games","data_filename":"cfe9bcc305832ec67c3f09889bec6725.data","development_player":"false","framework_filename":"0176fe3d2b1fd9a1f1c6ee4c08f3a160.framework.js","height":"720","loader_filename":"f5ae2e27480b0a31c329e122f4fac99c.loader.js","product_name":"World Of Yarn","product_version":"1.0.0","splash_screen_style":"Dark","unity_version":"6000.3.13f1","use_data_caching":"true","use_threads":"false","use_wasm":"true","use_webgl_1_0":"false","use_webgl_2_0":"true","width":"1280"}
+	};

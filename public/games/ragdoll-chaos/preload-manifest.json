@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/ragdoll-chaos/index.html",
+    "/games/ragdoll-chaos/js/poki-sdk-shim.js",
+    "/games/ragdoll-chaos/js/tiptap-platform-bridge.js",
+    "/games/ragdoll-chaos/js/tiptap-inline-1.js"
+  ]
+}

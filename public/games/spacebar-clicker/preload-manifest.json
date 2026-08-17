@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/spacebar-clicker/index.html",
+    "/games/spacebar-clicker/js/poki-sdk-shim.js",
+    "/games/spacebar-clicker/js/tiptap-platform-bridge.js",
+    "/games/spacebar-clicker/js/tiptap-inline-1.js"
+  ]
+}

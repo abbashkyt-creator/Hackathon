@@ -1,0 +1,80 @@
+{
+  "name": "pull-a-sword",
+  "sourcePage": "https://poki.com/en/g/pull-a-sword",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1097,
+      "sha256": "7a9d6583649c12614b47142c5d16a1895c1b6d8de6b37b5862b318ac960a13ee",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "8867445284cb85c7d1ed746c9fc1ddd2c3208c5c59fc4a2a6e3f51adab8c484f",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "3197b05187813b5496efc7b9f2651aaa8793b75f3951344e7279a437c29c7756",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "6d8896d138959d74a4c98df75efafe603dd17caadc07a83baf773f883de9524b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "43e7e02badb7285afc7fa0318eb3f6e9727c8ce162042cba51bc50a2c455ecfa",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1097,
+      "sha256": "7a9d6583649c12614b47142c5d16a1895c1b6d8de6b37b5862b318ac960a13ee"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "3197b05187813b5496efc7b9f2651aaa8793b75f3951344e7279a437c29c7756"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 517,
+      "sha256": "73509f69ab30115a09b585fff4dce68bc624aa85474d599dbc934250c02aa51a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1520,
+      "sha256": "4792ce002c7a9b0e782b9a608a1966c5496b18d1c5fcc11d41a94ead0b3e5f5d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 118,
+      "sha256": "1b0bf699c31435d56e608c98373e5267d800092e4126c10864b586788d5d1c7e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "6d8896d138959d74a4c98df75efafe603dd17caadc07a83baf773f883de9524b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "43e7e02badb7285afc7fa0318eb3f6e9727c8ce162042cba51bc50a2c455ecfa"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

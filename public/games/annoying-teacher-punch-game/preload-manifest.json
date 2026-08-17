@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/annoying-teacher-punch-game/index.html",
+    "/games/annoying-teacher-punch-game/js/poki-sdk-shim.js",
+    "/games/annoying-teacher-punch-game/js/tiptap-platform-bridge.js",
+    "/games/annoying-teacher-punch-game/js/tiptap-inline-1.js"
+  ]
+}

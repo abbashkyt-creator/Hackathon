@@ -1,0 +1,115 @@
+{
+  "name": "car-circle",
+  "sourcePage": "https://poki.com/en/g/car-circle",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 14345,
+      "sha256": "6911b5a6af59655f645ac73a0513e5482a736566f64b244662d2dd4748e44b58",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "14a36bde3cbb14a1067c602179d34a7096496f181ecd48edef3bdc0f9c07c67b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "d1045fb365f140c9bf4e0049ccc4cdaef76ea65a2d9022ed7a41d491b2476eef",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "ef87a18681af863bdf17651e0dc8c0c72fd02c86595e18f2c161e68882fb2cd4",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "ad0d1b5acd84027511e59b9ca492161e9c40f17101b7f51ce204ce7b10740b2b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "arrow.png",
+      "bytes": 1252,
+      "sha256": "03b423a7f6aff14dbbc13eed98d0cfee0c1ed4dcc8bfd73c9e21daea1439c85d"
+    },
+    {
+      "assetPath": "end.webm",
+      "bytes": 9657,
+      "sha256": "2e40a0e8deaa349ea2a378cb87ae8a5fd47ea81a8f91e92bd91d1f886ceebef6"
+    },
+    {
+      "assetPath": "exit.webm",
+      "bytes": 7133,
+      "sha256": "74fb13620a7a82ffed51a219fcdeff0583f3cd577cd1bc28c1365579be23b194"
+    },
+    {
+      "assetPath": "flash.webm",
+      "bytes": 7904,
+      "sha256": "8f016c2f6616822a57c6bd03b10f14af58f54b07302bbff4b8b6a85fde28da45"
+    },
+    {
+      "assetPath": "hand.png",
+      "bytes": 3780,
+      "sha256": "462f085aaa4115a15d379f7db1f6be70ab9fc0e19d9852f0d4230cbc391f6311"
+    },
+    {
+      "assetPath": "hit.webm",
+      "bytes": 18101,
+      "sha256": "b31717b6a813b09001c21f827c40bd8757451bb74fc6526ee8c2ced79b7dfa1e"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 14345,
+      "sha256": "6911b5a6af59655f645ac73a0513e5482a736566f64b244662d2dd4748e44b58"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "d1045fb365f140c9bf4e0049ccc4cdaef76ea65a2d9022ed7a41d491b2476eef"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 185676,
+      "sha256": "840b40143922a5912f5d94dcfd3340526a589ffef0f3136aa0ae35f478b09acf"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "ef87a18681af863bdf17651e0dc8c0c72fd02c86595e18f2c161e68882fb2cd4"
+    },
+    {
+      "assetPath": "move.webm",
+      "bytes": 2503,
+      "sha256": "d314ee25a4054d8f5c9e057dbfa14694bec1c1cf2a63038369b492cb3fb25562"
+    },
+    {
+      "assetPath": "note.webm",
+      "bytes": 8254,
+      "sha256": "cb79b011795722fde73e29b4aa3d0b0bf06acd8ce8c231640fada1b861b9b15d"
+    },
+    {
+      "assetPath": "palettes.json",
+      "bytes": 382,
+      "sha256": "41d76c733a9b497f9fe58b287c09c82e78ceeaaa098d031c3e8246b4e5acd091"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "ad0d1b5acd84027511e59b9ca492161e9c40f17101b7f51ce204ce7b10740b2b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

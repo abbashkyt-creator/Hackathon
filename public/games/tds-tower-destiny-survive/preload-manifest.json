@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/tds-tower-destiny-survive/index.html",
+    "/games/tds-tower-destiny-survive/js/poki-sdk-shim.js",
+    "/games/tds-tower-destiny-survive/js/tiptap-platform-bridge.js",
+    "/games/tds-tower-destiny-survive/js/tiptap-inline-1.js"
+  ]
+}

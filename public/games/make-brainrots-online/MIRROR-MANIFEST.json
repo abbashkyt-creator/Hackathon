@@ -1,0 +1,105 @@
+{
+  "name": "make-brainrots-online",
+  "sourcePage": "https://poki.com/en/g/make-brainrots-online",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 6526,
+      "sha256": "d8dfcf2a3331b666da70c20b853d7de61e3bc4057b67a50ee30fdb89e086c7e1",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "666900182ec6143762aa54ef181e8d7af68d3de532ade0371495eaeafee795fe",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "fa0dcd0e22c7e7631a56490631f61a7cc738c57382b022ab819970cf577d6de0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "823c67eeee49fec38fb5bc778858025fb479728b4359ac116822db6aa9a65925",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 307,
+      "sha256": "e3efa3fdccedaa9ca183f30adf531121e8452086fb270e11d0e4d2af66eaa634",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 805,
+      "sha256": "261889acc480e9d5c1aa4853a3f3d91d93230c67cddc6ee9eaa5ca8bcb4016c4"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 5340,
+      "sha256": "21dcef0947d46b15ce1750a2ff5dd23e63fdc0d405461b6f623eecc5bf4317a4"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 13832,
+      "sha256": "4ac9fab5fc301c7123b42e998a508e567af61ba01ecba0c4f261cf8f9166f7ad"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 51169,
+      "sha256": "259982750ab1697a60e04f0f0b8d52d5f46bfd5835ea69bcb0d06438a9b1d7f3"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1985,
+      "sha256": "cab2c49f663730bf924181068e98ff40aefc6a324ed91230caf1f308f2b90e15"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 9060,
+      "sha256": "f83404bc2a5b3f9635edc99686eb6bd3169d3e9e65c923701d5d9d89d20f433a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "fa0dcd0e22c7e7631a56490631f61a7cc738c57382b022ab819970cf577d6de0"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "823c67eeee49fec38fb5bc778858025fb479728b4359ac116822db6aa9a65925"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 191,
+      "sha256": "426a28bfa2c2b17594f78e6fc07b0d44b89a49a797f4f25bac03ad4168442f22"
+    },
+    {
+      "assetPath": "v1/index-BSPAboJQ.js",
+      "bytes": 786021,
+      "sha256": "7e94b872eb035a59035cdc1009fafd0a20a323058c8321711e922d8567ced36b"
+    },
+    {
+      "assetPath": "v1/rolldown-runtime-DGvw0a72.js",
+      "bytes": 685,
+      "sha256": "c62a259caf983f4ea8940cae8d9abe35924f21613de275b1102b5f9e6243c126"
+    },
+    {
+      "assetPath": "v1/vendor-BGSUWTU-.js",
+      "bytes": 766453,
+      "sha256": "4976a781fae91a2efa44c799811ed70f5e36dfee3bb4bedd21c73795544f21aa"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,85 @@
+{
+"frames": {
+	"bajuA1.png": {
+		"frame": {"x":0, "y":698, "w":214, "h":203},
+		"spriteSourceSize": {"x":0,"y":0,"w":214,"h":203},
+		"sourceSize": {"w":214,"h":203}
+	},
+	"bajuA2.png": {
+		"frame": {"x":215, "y":698, "w":214, "h":203},
+		"spriteSourceSize": {"x":0,"y":0,"w":214,"h":203},
+		"sourceSize": {"w":214,"h":203}
+	},
+	"bajuA3.png": {
+		"frame": {"x":645, "y":698, "w":214, "h":203},
+		"spriteSourceSize": {"x":0,"y":0,"w":214,"h":203},
+		"sourceSize": {"w":214,"h":203}
+	},
+	"bajuA4.png": {
+		"frame": {"x":430, "y":698, "w":214, "h":203},
+		"spriteSourceSize": {"x":0,"y":0,"w":214,"h":203},
+		"sourceSize": {"w":214,"h":203}
+	},
+	"bajuB1.png": {
+		"frame": {"x":132, "y":902, "w":131, "h":115},
+		"spriteSourceSize": {"x":0,"y":0,"w":131,"h":115},
+		"sourceSize": {"w":131,"h":115}
+	},
+	"bajuB2.png": {
+		"frame": {"x":0, "y":902, "w":131, "h":115},
+		"spriteSourceSize": {"x":0,"y":0,"w":131,"h":115},
+		"sourceSize": {"w":131,"h":115}
+	},
+	"bajuB3.png": {
+		"frame": {"x":264, "y":902, "w":131, "h":115},
+		"spriteSourceSize": {"x":0,"y":0,"w":131,"h":115},
+		"sourceSize": {"w":131,"h":115}
+	},
+	"bajuB4.png": {
+		"frame": {"x":396, "y":902, "w":131, "h":115},
+		"spriteSourceSize": {"x":0,"y":0,"w":131,"h":115},
+		"sourceSize": {"w":131,"h":115}
+	},
+	"topi1.png": {
+		"frame": {"x":0, "y":0, "w":657, "h":697},
+		"spriteSourceSize": {"x":0,"y":0,"w":657,"h":697},
+		"sourceSize": {"w":657,"h":697}
+	},
+	"topi2.png": {
+		"frame": {"x":658, "y":0, "w":657, "h":697},
+		"spriteSourceSize": {"x":0,"y":0,"w":657,"h":697},
+		"sourceSize": {"w":657,"h":697}
+	},
+	"topi3.png": {
+		"frame": {"x":1316, "y":0, "w":657, "h":697},
+		"spriteSourceSize": {"x":0,"y":0,"w":657,"h":697},
+		"sourceSize": {"w":657,"h":697}
+	},
+	"toyA1.png": {
+		"frame": {"x":1397, "y":698, "w":135, "h":123},
+		"spriteSourceSize": {"x":0,"y":0,"w":135,"h":123},
+		"sourceSize": {"w":135,"h":123}
+	},
+	"toyB1.png": {
+		"frame": {"x":860, "y":698, "w":178, "h":222},
+		"spriteSourceSize": {"x":0,"y":0,"w":178,"h":222},
+		"sourceSize": {"w":178,"h":222}
+	},
+	"toyB2.png": {
+		"frame": {"x":1039, "y":698, "w":178, "h":222},
+		"spriteSourceSize": {"x":0,"y":0,"w":178,"h":222},
+		"sourceSize": {"w":178,"h":222}
+	},
+	"toyB3.png": {
+		"frame": {"x":1218, "y":698, "w":178, "h":222},
+		"spriteSourceSize": {"x":0,"y":0,"w":178,"h":222},
+		"sourceSize": {"w":178,"h":222}
+	}
+
+},
+"meta": {
+	"image": "duBaby.png",
+	"size": {"w": 2048, "h": 1024},
+	"scale": "1"
+}
+}

@@ -1,0 +1,190 @@
+{
+  "name": "tiger-tank-2",
+  "sourcePage": "https://poki.com/en/g/tiger-tank-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3090,
+      "sha256": "8484d127e1a026abe576449ce8cf676c1167b134eb1ac3b8e00a5880fb875969",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "5f6d1f59030749ac38996ebfcdff616c1292032f875c854343f0be6ba35a43dd",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "9d39d4cf11815623b84045180bd15b805d4f157c7dc678acf62c245d9bac79d9",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "0e2e369ab05e5f1f818e714627946a69be46873b2a67db41a88b48dd30920396",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 262,
+      "sha256": "ddd669ee89606ce8028daaf7b0d57d4729343888249787acec55a04265873f8b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Battle/Sounds/clock.mp3",
+      "bytes": 2973,
+      "sha256": "da51ff251adcfcc280712fdf5fb039e15baa0a8e2aff3fd8924723f8449b5d4e"
+    },
+    {
+      "assetPath": "Battle/Sounds/engine.mp3",
+      "bytes": 48109,
+      "sha256": "4a7d84fd7dd193468d8f082fdd7c0a09c377f9e97d4df063f14a80fbb334fa55"
+    },
+    {
+      "assetPath": "Battle/Sounds/lock.mp3",
+      "bytes": 1175,
+      "sha256": "6d1301e7bc341b0ef250e12af24e9674f14eea34a3aff3918a4422fe3d9ee607"
+    },
+    {
+      "assetPath": "Battle/Sounds/scope.mp3",
+      "bytes": 3257,
+      "sha256": "8e9bea5ad965db682fbc90fba1595b17deb29fa731c539215c40bc3cc2cf1d5f"
+    },
+    {
+      "assetPath": "Battle/Sounds/timeup.mp3",
+      "bytes": 67200,
+      "sha256": "698d9f57279045824ef4fbe4c7ec7eb0438b92c75a272fe2c839fdddf226cdc6"
+    },
+    {
+      "assetPath": "Battle/Textures/pic_pingju.png",
+      "bytes": 50747,
+      "sha256": "d42571069b2c1d19b9537e8c8e144ac18f9651c70376bcbd4ba497e8b4bf9a26"
+    },
+    {
+      "assetPath": "Battle/Textures/pic_shengli.png",
+      "bytes": 48428,
+      "sha256": "1cf174f9fce59b3d98227c4d56c548f76e60eb93b5f06ab476ecc4177755194b"
+    },
+    {
+      "assetPath": "Battle/Textures/pic_shibai.png",
+      "bytes": 41736,
+      "sha256": "b353458ff216aaacaa340b10249852379e92f65e9dcbcf2844b0e53bd82b963a"
+    },
+    {
+      "assetPath": "fileconfig.json",
+      "bytes": 3790,
+      "sha256": "df3148f8e4cdeceda28652b17682dd981a439fa27c659caff60740287c54455c"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 8401,
+      "sha256": "164d383c134d7831fe8c2dcbd690b363530dc6ebe333e6d5e1601f501863e112"
+    },
+    {
+      "assetPath": "js/bundle.js",
+      "bytes": 78726,
+      "sha256": "57d1f2ad2b659abda59751504afaace53afcdfc320eae9f2086964a6511d2736"
+    },
+    {
+      "assetPath": "js/index.js",
+      "bytes": 4662,
+      "sha256": "d72ed359512eb7e67b882bac1e662f61ce7dbb8c9d638429f5a229be8b9dabf9"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "9d39d4cf11815623b84045180bd15b805d4f157c7dc678acf62c245d9bac79d9"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "0e2e369ab05e5f1f818e714627946a69be46873b2a67db41a88b48dd30920396"
+    },
+    {
+      "assetPath": "libs/bullet.wasm",
+      "bytes": 811381,
+      "sha256": "7283880f8f0568d6b703260d360ad33f425af4bf4c8b3beb35a5bdd4b5dfa648"
+    },
+    {
+      "assetPath": "libs/laya.bullet.wasm.js",
+      "bytes": 82083,
+      "sha256": "b08acf2bed29842ebafec4f81a9ab690daad497ea411b625f2bbc7a831683b1a"
+    },
+    {
+      "assetPath": "libs/laya.core.js",
+      "bytes": 714740,
+      "sha256": "13c4d3aab1c004aaea863a4c5b8e6c59b154ed3b384154fc4bfa706bd715f7f4"
+    },
+    {
+      "assetPath": "libs/laya.d3.js",
+      "bytes": 615138,
+      "sha256": "a9da638348d870274db7efa20fa3c2a26a7d6e016bd6706602e1d8f181089987"
+    },
+    {
+      "assetPath": "libs/laya.navMesh3d.js",
+      "bytes": 11691,
+      "sha256": "7d318e785a19a290940599c1d569b467b96c385a8b6ad60d653c5be356ae66ac"
+    },
+    {
+      "assetPath": "libs/laya.navMeshCommon.js",
+      "bytes": 453343,
+      "sha256": "919e3d5a90f07d0173655dfa8dcc0b7baf13c214d439db6d9d837bfa2501b26f"
+    },
+    {
+      "assetPath": "libs/laya.particle3D.js",
+      "bytes": 160214,
+      "sha256": "631dbfef297c13b51e89579d0a5ed665bb50a4ba7e568253c40224963a356d00"
+    },
+    {
+      "assetPath": "libs/laya.particleCommon.js",
+      "bytes": 9173,
+      "sha256": "164a1848fb317eeff2417bca43a71d1dc2bc51024890e07a36ddd7859430baf3"
+    },
+    {
+      "assetPath": "libs/laya.physics3D.js",
+      "bytes": 45605,
+      "sha256": "e3a4bd7f09c73be7677a627e8e66f7a48e7e504c290b92de4ecf7bd1919766e6"
+    },
+    {
+      "assetPath": "libs/laya.ui.js",
+      "bytes": 110152,
+      "sha256": "c272a245bb72eb7d0ba9b1d07dffcf77cf042f21e8fb293d7b646f7743f1b997"
+    },
+    {
+      "assetPath": "libs/laya.webgl_2D.js",
+      "bytes": 184218,
+      "sha256": "87d01742e7196e9f0224cde42b5afaf5890ebbe2a05c895a81e573fdda474613"
+    },
+    {
+      "assetPath": "libs/laya.webgl_3D.js",
+      "bytes": 61676,
+      "sha256": "4e96e2da23e9318f9cb3244941380bd05e5b57d59be71f6306c1f7b54921dde6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 164,
+      "sha256": "32a1e2eb5de9fe62b846bf4e8dfd4c0ae7859e4bd511e6f4321ffe2e4d75671e"
+    },
+    {
+      "assetPath": "resources/clickSnd.mp3",
+      "bytes": 7506,
+      "sha256": "f9927086579a55f03b7fac4166f8b048fc81bf9dd50d70a78dc29fcd1f40014b"
+    },
+    {
+      "assetPath": "tankCfg.json",
+      "bytes": 2000,
+      "sha256": "d3978969f8aa36b1c023393f91a63e707a0656d217a56602dc75d9bd9768393c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

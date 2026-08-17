@@ -1,0 +1,550 @@
+{
+  "name": "trapped-in-the-dollhouse",
+  "sourcePage": "https://poki.com/en/g/trapped-in-the-dollhouse",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1880,
+      "sha256": "7adb66134d8c6ba666fa0b5c7f167d2118fc023639767e05482ff1b9304c647e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 178,
+      "sha256": "1a2300193dd195722181927922b9588fc20fcd64bc94113e93328ae5695dc7e4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "55cfe6e26afb44e5d58112464288fdc5bf1af17ab43a344c7e1fbf6be6482842",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "13245bc8b3efc6912a678d17613ba6b6ffb388a0dc5ec7724e0966edeb894b25",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 261,
+      "sha256": "f7c52c3157f08a2494483039ea30ac365330c6bc7c6afc178405ea182758d836",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 733,
+      "sha256": "656748d2db4ca0275d348f93c31596af2e276c66758c59539be3e8d19d74a136"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 435986,
+      "sha256": "dec5a507fe02560c40f7938c6a16893a98b29ece2e31e16de40719e922234409"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 3768,
+      "sha256": "95878161b804a346015f2a619a1e41583bbef6ddb4186c8eb6d4ae5a3440bca6"
+    },
+    {
+      "assetPath": "images/ad-sheet0.webp",
+      "bytes": 3630,
+      "sha256": "17d9da9c69b308dc35f01cc36fe56efb49eb7e91c5c54006ab2aba05d0936c0a"
+    },
+    {
+      "assetPath": "images/btn-sheet0.webp",
+      "bytes": 6786,
+      "sha256": "675e367c5cd88b9214398ee24ca0cbb4d62242dacc11dcd03a54c328fc2e2b0c"
+    },
+    {
+      "assetPath": "images/clues-sheet0.webp",
+      "bytes": 49572,
+      "sha256": "291d504893a414a0866c3cebeb5c9fb5be7ff2ed358a73879e18624c5f45c906"
+    },
+    {
+      "assetPath": "images/clues2-sheet0.webp",
+      "bytes": 49156,
+      "sha256": "e9786ea1c93c1f4c1e1b64bd6f5c7aa484bd741749dd2cc610fa72380e3840b2"
+    },
+    {
+      "assetPath": "images/exit-sheet0.webp",
+      "bytes": 34,
+      "sha256": "be9131034369454f46541aa87fb8d10a2382b15912e9fe293b3082fcb492bbb0"
+    },
+    {
+      "assetPath": "images/fade-sheet0.webp",
+      "bytes": 38,
+      "sha256": "40bb840bd7e8ae185f486e6f8cfc110d6a31978ac27053906729ce9cc633d944"
+    },
+    {
+      "assetPath": "images/fade2-sheet0.webp",
+      "bytes": 38,
+      "sha256": "40bb840bd7e8ae185f486e6f8cfc110d6a31978ac27053906729ce9cc633d944"
+    },
+    {
+      "assetPath": "images/fadein-sheet0.webp",
+      "bytes": 38,
+      "sha256": "40bb840bd7e8ae185f486e6f8cfc110d6a31978ac27053906729ce9cc633d944"
+    },
+    {
+      "assetPath": "images/flash-sheet0.webp",
+      "bytes": 38,
+      "sha256": "d0685fafaaf7ff1faadf702cfc672aa8c07e434ffbb119d79231284f65c8f1b3"
+    },
+    {
+      "assetPath": "images/itemsinventory-sheet0.webp",
+      "bytes": 14620,
+      "sha256": "e5500eb35de4233fc21af3bac4fe7d9b8fa486b2daa93a1fed7b4ffacf5609fc"
+    },
+    {
+      "assetPath": "images/muneco-sheet0.webp",
+      "bytes": 34414,
+      "sha256": "1c4e680ac60d8f076ed56e55c36cfa2db5ba8c5ac5be02bca45f2898aafad378"
+    },
+    {
+      "assetPath": "images/playarea-sheet0.webp",
+      "bytes": 38,
+      "sha256": "a321d57906e8771eab07f7909bf6fd8ad908a4fad6c6df36632fb1303808b50e"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 93614,
+      "sha256": "9a9a01a7bfd80aca6e91225db327133d4263981ecf84d978b473f639bca7cc7c"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 262462,
+      "sha256": "8c8ccddffdefd1b6db7349569401f12be8d9062d9e90da0e81e1cd9000177a56"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 126764,
+      "sha256": "4e7f76b913539a9b1899233b4cfe6cb60a659ebb6af8b04b76c2498205344259"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 5824,
+      "sha256": "6c48ec7fcacc0108106b36f28ac578826b40728e00ccd7120ed84af7487a3c77"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 96,
+      "sha256": "d718acdcfed4ef189c687917a5cf5eb8b98eaa02ae530045d4e386f5cb61dc52"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 123866,
+      "sha256": "329380a7ed7bedb9995560298889747373c079e8c9ce2b65b4a2e26cac28d29a"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 119256,
+      "sha256": "60c8d3adaa0ba202f0a71f1caef8bb2a4c7cff86746a15ba06c4e63453e2a4ac"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 92246,
+      "sha256": "89f193faaddb899ac02c85ec867655be93ab69fd0124766f549f24c54c7b6a9a"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 58678,
+      "sha256": "2dca3efca02c0eee9db28e9aef40bb4330a4e309624bc419b31013a4aa2fb7ae"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.webp",
+      "bytes": 9972,
+      "sha256": "9b066e5ee6a4da32ac8145658127dd61b360b97604000a7f3126d8bba85d8bfc"
+    },
+    {
+      "assetPath": "images/shared-1-sheet5.webp",
+      "bytes": 2394,
+      "sha256": "5de644c0c196af23568aa283d04f42062a1f7abba147a380e513faee18048442"
+    },
+    {
+      "assetPath": "images/shared-1-sheet6.webp",
+      "bytes": 50,
+      "sha256": "36ccf345f56f5c550d192f7556418534a661cf131625a9fa4b5c8559f93022b4"
+    },
+    {
+      "assetPath": "images/uicupsbackground-sheet0.webp",
+      "bytes": 312,
+      "sha256": "8b52d7666e57624d46541e560a866a435b28bfdea3a2488ae93569dc1c6949be"
+    },
+    {
+      "assetPath": "images/uicupsbackground2-sheet0.webp",
+      "bytes": 306,
+      "sha256": "c244d0313eb3a8e6981a46a614cf6f3e643027a303d546b149c210bbe55dfbe2"
+    },
+    {
+      "assetPath": "images/velatrigger-sheet0.webp",
+      "bytes": 38,
+      "sha256": "38a74a5779a437b1f20d070b6b689e8541c4c40d27d6f21789082290a459c88d"
+    },
+    {
+      "assetPath": "images/velatrigger2-sheet0.webp",
+      "bytes": 38,
+      "sha256": "38a74a5779a437b1f20d070b6b689e8541c4c40d27d6f21789082290a459c88d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1880,
+      "sha256": "7adb66134d8c6ba666fa0b5c7f167d2118fc023639767e05482ff1b9304c647e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "55cfe6e26afb44e5d58112464288fdc5bf1af17ab43a344c7e1fbf6be6482842"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "13245bc8b3efc6912a678d17613ba6b6ffb388a0dc5ec7724e0966edeb894b25"
+    },
+    {
+      "assetPath": "media/131626215-collect-item-pack-09key.webm",
+      "bytes": 13420,
+      "sha256": "49c26657300f425c788dfc3932f639a297689db6c66681240bbd961053985fc7"
+    },
+    {
+      "assetPath": "media/288552043-horror-violin-spiccato-and-pia.webm",
+      "bytes": 14680,
+      "sha256": "d23b12974a290ee5d8578940f8d33cc2d2b58f3e8344e3cf0bb5137a346ee8db"
+    },
+    {
+      "assetPath": "media/alex_jauk-tv-static-noise-256449.webm",
+      "bytes": 70687,
+      "sha256": "e35cf4bf33979cab54fee12b14738707f4ecde82ab11f9a63aa28dd797402df8"
+    },
+    {
+      "assetPath": "media/awakening.webm",
+      "bytes": 163716,
+      "sha256": "888ed6465a7478612453fb7ca4e43c3aac5d1245a6984c8c45f22b9ce0a4153c"
+    },
+    {
+      "assetPath": "media/awakeningMusic.webm",
+      "bytes": 1303997,
+      "sha256": "897929b45ec611509a7fc66002ced7571970fa2cbf2f529f533df9ab46a861ad"
+    },
+    {
+      "assetPath": "media/cardboard-box-open-182560 (1).webm",
+      "bytes": 28900,
+      "sha256": "0808d8376c24a61d8daad4e58e655d6994a6cc8d11256af9cfb394bd93ff8dbc"
+    },
+    {
+      "assetPath": "media/cracious-melancholic-melodies-328997.webm",
+      "bytes": 77720,
+      "sha256": "26a19b4f333ddf5a29e1b68df1beeeee2bce377d7a064ffacf0e7d40d1a5a218"
+    },
+    {
+      "assetPath": "media/Creepy Kid Humming A Song.webm",
+      "bytes": 29792,
+      "sha256": "a29834f233737a6f1efe2dd7e237b65b9b6dcd98d0a5f049d21a407534091e63"
+    },
+    {
+      "assetPath": "media/Creepy Toy.webm",
+      "bytes": 80484,
+      "sha256": "1e4ea5ee9cb11c851b268096be9cdc5ab0da067e9e5f835d904aba7118a2b129"
+    },
+    {
+      "assetPath": "media/desague.webm",
+      "bytes": 48948,
+      "sha256": "9b65198808bd975639ad01d0aa961f476b303cb7939d877e5825dacba3838e50"
+    },
+    {
+      "assetPath": "media/door-rattles-wood-2011-94336.webm",
+      "bytes": 14245,
+      "sha256": "76ce527b9e79152a266b104555ff1474a8b28e670660a74a4b15e8439c3167dc"
+    },
+    {
+      "assetPath": "media/dragon-studio-glass-breaking-386153.webm",
+      "bytes": 10081,
+      "sha256": "8259a3462fd67d452afad240a49ec8e67b6032112ba09fa3fc2424531fd57562"
+    },
+    {
+      "assetPath": "media/dragon-studio-monster-growl-382706 alt.webm",
+      "bytes": 41096,
+      "sha256": "2e1d93a5f588e27cb466ffa68270845a6c1d7dc53628fbc9ede74bf941cc9edf"
+    },
+    {
+      "assetPath": "media/drag_1-43939.webm",
+      "bytes": 14286,
+      "sha256": "9547ff075dc134b4e583760a1f6f65e31c0f41f226b8b2dcf11e26c9623e5397"
+    },
+    {
+      "assetPath": "media/foot-steps-sfx-182674.webm",
+      "bytes": 11926,
+      "sha256": "a31efcd8c636269e851a22f22bbf25bd2b07cb68aafd4c66f9609118456a5532"
+    },
+    {
+      "assetPath": "media/freesound_community-27-hmp-38556.webm",
+      "bytes": 6033,
+      "sha256": "6c6897d4f7789a800fad475f9e15bf5d569a6c88e90fa8c43af74ca326db1f7e"
+    },
+    {
+      "assetPath": "media/freesound_community-cartoon-laugh-6457.webm",
+      "bytes": 18755,
+      "sha256": "57fcf9df2f967a5306609ac1b2719d9fc57530eabee4fab10b659d9ced71f2b5"
+    },
+    {
+      "assetPath": "media/freesound_community-closing-a-toilet-lid-103915.webm",
+      "bytes": 12855,
+      "sha256": "bd44e389f83ed689e2bbfcc3f73195a2c6aa77332fc92532144a28c914e9ca9e"
+    },
+    {
+      "assetPath": "media/freesound_community-drawer-41055.webm",
+      "bytes": 15641,
+      "sha256": "c6a68174a9d74cde9c8f3c95f422437ae45641893c59287798a3fa873a456c6c"
+    },
+    {
+      "assetPath": "media/freesound_community-ghostly-humming-63204.webm",
+      "bytes": 222838,
+      "sha256": "df32e8620ee8705fe2e614c2eb83ac95457c9aaeb213e9610dd66d65833b81a0"
+    },
+    {
+      "assetPath": "media/freesound_community-skiffy2-80672.webm",
+      "bytes": 11240,
+      "sha256": "7bd51f4aa64587c8e719d3a44e2a49cd9a3c060897b4ad64d9b9b178232a33d3"
+    },
+    {
+      "assetPath": "media/freesound_community-vending-machine-104483.webm",
+      "bytes": 10939,
+      "sha256": "d8d14ccf1ff73ad904e2c2504b612e5dd0c5959864e069adeb3da044c438766d"
+    },
+    {
+      "assetPath": "media/freesound_community-vendingmachine-104482.webm",
+      "bytes": 25373,
+      "sha256": "5ff283e2b7d9e8cd9616bc9ce7bb74cd3ee2c5fd884dd1a5cfec92d231a658e1"
+    },
+    {
+      "assetPath": "media/glitch.webm",
+      "bytes": 15320,
+      "sha256": "0b5efd10d5da75a9df00a5023eabb04fa35073e6027484e99d680e0d1a64fe43"
+    },
+    {
+      "assetPath": "media/hansfield-panto-clowns-jingle-271283.webm",
+      "bytes": 33464,
+      "sha256": "012641a9cb9bc5a3f9558f400ae8bd59818149fe5e035d4dc7c69f792a65b03d"
+    },
+    {
+      "assetPath": "media/item.webm",
+      "bytes": 43836,
+      "sha256": "b3a3cc3d37a646286e6a7a5105b84475a070e3d86065962b1fe9a3d3a746699c"
+    },
+    {
+      "assetPath": "media/kakaist-glitch-sfx-312910.webm",
+      "bytes": 23076,
+      "sha256": "23fd57dab32b2749359a2f34108b5f86d88ad28c8ec7b142dabdb89190041f65"
+    },
+    {
+      "assetPath": "media/kalsstockmedia-free-soul-sfx-horror-sudden-jump-scare-459638.webm",
+      "bytes": 49438,
+      "sha256": "6f4e54421edf1bca9389fdfbb8d7d4e23dedd159a4f3147df3c7283ca8570706"
+    },
+    {
+      "assetPath": "media/kalsstockmedia-sudden-shock-reveal-bass-283846.webm",
+      "bytes": 73752,
+      "sha256": "aa748cce94a37ad40ef26f68b76dfa2fae1db96e57aabbf221511ec4b9d56b89"
+    },
+    {
+      "assetPath": "media/light.webm",
+      "bytes": 6336,
+      "sha256": "4010b14abbc60b98283007a3ce41835086cf2be69f234eab559c4583d11757a7"
+    },
+    {
+      "assetPath": "media/opening-metal-door-199581.webm",
+      "bytes": 20372,
+      "sha256": "a765d4875b9bb95f18cc1d9290ff3cfe55b56e08e7bab65a1dc7e953f1bd4d53"
+    },
+    {
+      "assetPath": "media/Pastel Porcelain Loops (1).webm",
+      "bytes": 1242078,
+      "sha256": "0b1b9031130b40ebc042313c06c512d50a0498f4274c7a71a1bfa19808564f7b"
+    },
+    {
+      "assetPath": "media/piano achievement.webm",
+      "bytes": 76659,
+      "sha256": "a61ffba3804949480de153f65040efc3e724878488f1e02b80af36c077532aa2"
+    },
+    {
+      "assetPath": "media/piano note.webm",
+      "bytes": 23874,
+      "sha256": "5a2b98c10c2b6600f99e6953bd8f22e95d904ac68182b851dd2f0e5a25f10ec3"
+    },
+    {
+      "assetPath": "media/piece.webm",
+      "bytes": 8721,
+      "sha256": "efa2bc06f737020d9a470c1aadb911a059fae18bda51e3e07105a18c432b65c2"
+    },
+    {
+      "assetPath": "media/rock1.webm",
+      "bytes": 20930,
+      "sha256": "41e1544d86917b9e86d33f292f82e301aa65c3da386c8705a35271e6820b1fb7"
+    },
+    {
+      "assetPath": "media/rock2.webm",
+      "bytes": 22723,
+      "sha256": "ecc2de1543fad56e8307956f4cdb3dbb73e71f69abed7767384356ce1101a104"
+    },
+    {
+      "assetPath": "media/Single Piano Note One-shot, A3, Staccato, Duration 180–250 Ms, Close-miked Up....webm",
+      "bytes": 23521,
+      "sha256": "6c1ce42a81e8f5e53056ee799542409bf1253574890389da49c1b07fe70e49c8"
+    },
+    {
+      "assetPath": "media/Single Piano Note One-shot, C4, Staccato, Duration 180–250 Ms, Close-miked Up....webm",
+      "bytes": 23127,
+      "sha256": "e4147c0d097a436e73aa77a7983e5d4cf04a229d8b2baf1f772808d977b68cae"
+    },
+    {
+      "assetPath": "media/Single Piano Note One-shot, D4, Staccato, Duration 180–250 Ms, Close-miked Up....webm",
+      "bytes": 23568,
+      "sha256": "2d6e96a47e88e661bdff1003dd95373a156621abcaea57f4530c508dd00b9cd5"
+    },
+    {
+      "assetPath": "media/Single Piano Note One-shot, E4, Staccato, Duration 180–250 Ms, Close-miked Up....webm",
+      "bytes": 19984,
+      "sha256": "74c9e4c7b49e1c2cdbe8dc8e79e011c6f01d4668bb6535bbdcf1b400b61b2960"
+    },
+    {
+      "assetPath": "media/Single Piano Note One-shot, G4, Staccato, Duration 180–250 Ms, Close-miked Up....webm",
+      "bytes": 24594,
+      "sha256": "7cc4dacc6b6e6dde79b698ad9965279dc506b3a24b59d48fedfd4ab5a19986a0"
+    },
+    {
+      "assetPath": "media/spinopel-wind-the-wall-clock-381831.webm",
+      "bytes": 14504,
+      "sha256": "c364607244c42cedfb6f3dfe7b71915845656df4a726b6e1ee775c7dc4208f5a"
+    },
+    {
+      "assetPath": "media/stdmire-there-is-a-shark-nearby-240313.webm",
+      "bytes": 30034,
+      "sha256": "9d380ac1b3534251b40c3774008a9e12e6743b8847213f37e0fe884d6ecf4741"
+    },
+    {
+      "assetPath": "media/the end.webm",
+      "bytes": 381151,
+      "sha256": "76c2e3fd446d9b05ec4b1c2edd28ae7798ef1d8de2d971724ce3fac7c4986e21"
+    },
+    {
+      "assetPath": "media/thud.webm",
+      "bytes": 11151,
+      "sha256": "d34ba6bef94fcb01af7a371318a8c5c993182fbfd2f906bbbb76c26e8a69b3cc"
+    },
+    {
+      "assetPath": "media/universfield-glass-bottle-smash-277554.webm",
+      "bytes": 16881,
+      "sha256": "2759febc67943aeed7acdef18f8e541b1dc7b68827bd562d47d2d8e08088fffa"
+    },
+    {
+      "assetPath": "media/universfield-spinning-coin-on-table-352448.webm",
+      "bytes": 27057,
+      "sha256": "7f2486c4bec5d480641efbe9695604bd024dedd9f97a86bfecc78a478dbe1168"
+    },
+    {
+      "assetPath": "media/yandere-laugh-87511.webm",
+      "bytes": 19605,
+      "sha256": "ec620b97bb03918e71cbda55d85bea3c7d8b44ef03e01b7d215ea68d3ece933e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 261,
+      "sha256": "f7c52c3157f08a2494483039ea30ac365330c6bc7c6afc178405ea182758d836"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1644861,
+      "sha256": "de31c8c2739b1bda7d02f7f6550924dca1fcc5f7cf8ca0fa7dd892241b612584"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 125558,
+      "sha256": "98ac5a892c255671078858cc4012300e7546a11b3b591eeee396d07311aba75a"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4799,
+      "sha256": "4bc0a02bc9f449938a58bf0b09c40736f700342467b8bcc68dd6d70fe6ebafa6"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2130,
+      "sha256": "b2589a820cd749918c45403e3aa5177c5f6374342e4ad25fbc6ae192dcca6815"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 2871,
+      "sha256": "2d2c638a7aaba50f2f46dc2634e5dac098fe3d05509f613b690b874fadc1fcc8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

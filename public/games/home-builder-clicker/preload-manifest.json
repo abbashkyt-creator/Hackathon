@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/home-builder-clicker/index.html",
+    "/games/home-builder-clicker/js/poki-sdk-shim.js",
+    "/games/home-builder-clicker/js/tiptap-platform-bridge.js",
+    "/games/home-builder-clicker/js/tiptap-inline-1.js"
+  ]
+}

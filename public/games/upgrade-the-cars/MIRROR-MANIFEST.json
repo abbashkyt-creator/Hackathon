@@ -1,0 +1,120 @@
+{
+  "name": "upgrade-the-cars",
+  "sourcePage": "https://poki.com/en/g/upgrade-the-cars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2852,
+      "sha256": "33147e19f7b984f02f0db071d3375c8ed1e528876918b459e2c5795bb22a3486",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "c33d2b2855633e6bcef4805c1af96034643b06ea93765641db01d4d55ff3e37c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "cc088fa932104c02ac85d2486fa91892961df646222c05f7e3c112332f5dd24c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "8bfb2e53a140f471a725b42e30d2b33e9c1778b9e8567f786690db314b28bcbf",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 282,
+      "sha256": "417c4e21cb8c0567f01d9591c07c727dda0522d0ca6968d275c764b8528ae111",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "application.js",
+      "bytes": 7104,
+      "sha256": "61c6316cb99ede6c84114c0e9d2e143a0c892c1e27971e7e9f6d562e2a7facfb"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2852,
+      "sha256": "33147e19f7b984f02f0db071d3375c8ed1e528876918b459e2c5795bb22a3486"
+    },
+    {
+      "assetPath": "index.js",
+      "bytes": 1533,
+      "sha256": "ed350c169c547d7fb7c6bcd179034d107430aac5bfe24e49d575c1090359f77c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "cc088fa932104c02ac85d2486fa91892961df646222c05f7e3c112332f5dd24c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 2197,
+      "sha256": "90f961f349ffc96daddf83db2c9454621948404e08841e668ce1fd72116f47fc"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 73,
+      "sha256": "66f912c02eed99ad823231e711c072f025f869d58c17c7d8f63ddd4ae2794dbe"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "8bfb2e53a140f471a725b42e30d2b33e9c1778b9e8567f786690db314b28bcbf"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 282,
+      "sha256": "417c4e21cb8c0567f01d9591c07c727dda0522d0ca6968d275c764b8528ae111"
+    },
+    {
+      "assetPath": "sitelock.js",
+      "bytes": 61,
+      "sha256": "548857263ded99db2c6261080bc723b667ccabc19abff4a1643a345e61f18579"
+    },
+    {
+      "assetPath": "src/effect.bin",
+      "bytes": 5755,
+      "sha256": "b0d92f8307e3109abe8af8a863d68feb58cf4f49cf000b1d48fbb3dc3ad45556"
+    },
+    {
+      "assetPath": "src/import-map.json",
+      "bytes": 40,
+      "sha256": "2be73d8f2e7e1d814627714ace691b6e1a9d445c779426a224e7f3685f0fa278"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/settings.json",
+      "bytes": 72441,
+      "sha256": "5acf80f970b35374805dae6d0f6981bef1569aba11228657337210b274417f6b"
+    },
+    {
+      "assetPath": "src/system.bundle.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1283,
+      "sha256": "b9dac5de1b7792243a6432dfe553901f0a235f41edb42c719d482d1c17016a2f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

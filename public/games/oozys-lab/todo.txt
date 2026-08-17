@@ -1,0 +1,61 @@
+IF NEXT UPDATE
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+patchnotes
+    - 5 new worlds / 25 new levels
+    - option to skip level is now always present
+    - skipping a level now also awards the moon coin
+    - level select now features teleporters to make moving to a specific level faster
+    - fixed bouncy platforms sometimes not working at sub-60 fps
+    - fixed world 8 level 2 being inconsistent at sub-60 fps
+    - fixed world 9 level 2 not working at sub-60 fps
+    - fixed world 10 level 2 not working at sub-60 fps
+    - fixed world 11 level 5 being inconsistent at sub-60 fps
+    - fixed world 13 level 2 being impossible at sub-60 fps
+    - fixed world 13 level 4 being slightly inconsistent at sub-60 fps
+    - fixed world 14 level 1 being inconsistent at sub-60 fps
+    - added cosmetic hats to unlock
+    - clarified being able to unlock cosmetics early via rewarded ad
+    - lowered difficulty of the following levels
+        world 4 level 3
+        world 5 level 3
+        world 5 level 5
+        world 6 level 5
+        world 7 level 3
+        world 7 level 4
+        world 8 level 3
+        world 8 level 4
+        world 10 level 1
+        world 10 level 2
+        world 12 level 1
+        world 12 level 3
+        world 13 level 1
+        world 14 level 1
+        world 14 level 4
+        world 15 level 1
+        world 15 level 2
+        world 15 level 3
+        world 15 level 4
+        world 15 level 5
+        world 16 level 2
+        world 16 level 3
+        world 16 level 4
+        world 17 level 1
+        world 17 level 2
+        world 17 level 3
+        world 17 level 5
+        world 18 level 3
+        world 19 level 3
+        world 19 level 5

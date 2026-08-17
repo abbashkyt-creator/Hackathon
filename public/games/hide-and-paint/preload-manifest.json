@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/hide-and-paint/index.html",
+    "/games/hide-and-paint/js/poki-sdk-shim.js",
+    "/games/hide-and-paint/js/tiptap-platform-bridge.js"
+  ]
+}

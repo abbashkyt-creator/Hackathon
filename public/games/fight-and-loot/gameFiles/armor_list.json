@@ -1,0 +1,246 @@
+[
+	{
+		"index": 0,
+		"id":"wooden",
+		"name":"Wooden",
+		"hitValue": 1,
+		"price": 10
+	},
+	{
+		"index": 1,
+		"id":"skin",
+		"name":"Animal Skin",
+		"hitValue": 3,
+		"price": 50
+	},
+	{
+		"index": 2,
+		"id":"bone",
+		"name":"Animal Bone",
+		"hitValue": 9,
+		"price": 250
+	},
+	{
+		"index": 3,
+		"id":"pumpkin",
+		"name":"Pumpkin",
+		"hitValue": 18,
+		"price": 1000
+	},
+	{
+		"index": 4,
+		"id":"bread",
+		"name":"Bread",
+		"hitValue": 36
+	},
+	{
+		"index": 5,
+		"id":"eggshell",
+		"name":"Egg Shell",
+		"hitValue": 72
+	},
+	{
+		"index": 6,
+		"id":"leaf",
+		"name":"Leaf",
+		"hitValue": 144
+	},
+	{
+		"index": 7,
+		"id":"snowwolf",
+		"name":"Snow Wolf",
+		"hitValue": 288
+	},
+	{
+		"index": 8,
+		"id":"cabbage",
+		"name":"Cabbage",
+		"hitValue": 576
+	},
+	{
+		"index": 9,
+		"id":"golden",
+		"name":"Golden",
+		"hitValue": 1152
+	},
+	{
+		"index": 10,
+		"id":"emerald",
+		"name":"Emerald",
+		"hitValue": 2304
+	},
+	{
+		"index": 11,
+		"id":"diamond",
+		"name":"Diamond",
+		"hitValue": 4608
+	},
+	{
+		"index": 12,
+		"id":"jelly",
+		"name":"Jelly",
+		"hitValue": 9216
+	},
+	{
+		"index": 13,
+		"id":"ice",
+		"name":"Ice",
+		"hitValue": 18432
+	},
+	{
+		"index": 14,
+		"id":"cactus",
+		"name":"Cactus",
+		"hitValue": 36864
+	},
+	{
+		"index": 15,
+		"id":"bat",
+		"name":"Bat",
+		"hitValue": 73728
+	},
+	{
+		"index": 16,
+		"id":"fish",
+		"name":"Fish",
+		"hitValue": 147456
+	},
+	{
+		"index": 17,
+		"id":"flowers",
+		"name":"Flowers",
+		"hitValue": 294912
+	},
+	{
+		"index": 18,
+		"id":"butterfly",
+		"name":"Butterfly",
+		"hitValue": 589824
+	},
+	{
+		"index": 19,
+		"id":"angel",
+		"name":"Angle",
+		"hitValue": 1179648
+	},
+	{
+		"index": 20,
+		"id":"guitar",
+		"name":"Guitar",
+		"hitValue": 2359296
+	},
+	{
+		"index": 21,
+		"id":"hacker",
+		"name":"Hacker",
+		"hitValue": 4718592
+	},
+	{
+		"index": 22,
+		"id":"mushroom",
+		"name":"Mushroom",
+		"hitValue": 9437184
+	},
+	{
+		"index": 23,
+		"id":"turtle",
+		"name":"Turtle",
+		"hitValue": 18874368
+	},
+	{
+		"index": 24,
+		"id":"rubik",
+		"name":"Rubik",
+		"hitValue": 37748736
+	},
+	{
+		"index": 25,
+		"id":"eagle",
+		"name":"Eagle",
+		"hitValue": 75497472
+	},
+	{
+		"index": 26,
+		"id":"card",
+		"name":"Card",
+		"hitValue": 150994944
+	},
+	{
+		"index": 27,
+		"id":"lego",
+		"name":"Lego",
+		"hitValue": 301989888
+	},
+	{
+		"index": 28,
+		"id":"trashcan",
+		"name":"Trash Can",
+		"hitValue": 603979776
+	},
+	{
+		"index": 29,
+		"id":"zombie",
+		"name":"Zombie",
+		"hitValue": 1207959552
+	},
+	{
+		"index": 30,
+		"id":"thorn",
+		"name":"Thorn",
+		"hitValue": 2415919104
+	},
+	{
+		"index": 31,
+		"id":"gears",
+		"name":"Gears",
+		"hitValue": 4831838208
+	},
+	{
+		"index": 32,
+		"id":"goldcoin",
+		"name":"Gold Coin",
+		"hitValue": 9663676416
+	},
+	{
+		"index": 33,
+		"id":"dinosaur",
+		"name":"Dinosaur",
+		"hitValue": 19327352832
+	},
+	{
+		"index": 34,
+		"id":"dragon",
+		"name":"Dragon",
+		"hitValue": 38654705664
+	},
+	{
+		"index": 35,
+		"id":"fire",
+		"name":"Fire Power",
+		"hitValue": 77309411328
+	},
+	{
+		"index": 36,
+		"id":"cyborg",
+		"name":"Cyborg",
+		"hitValue": 154618822656
+	},
+	{
+		"index": 37,
+		"id":"bee",
+		"name":"Bee Knight",
+		"hitValue": 309237645312
+	},
+	{
+		"index": 38,
+		"id":"bigflower",
+		"name":"Flower Mother",
+		"hitValue": 618475290624
+	},
+	{
+		"index": 39,
+		"id":"chicken",
+		"name":"Chicken",
+		"hitValue": 1236950581248
+	}
+]

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/world-of-yarn/index.html",
+    "/games/world-of-yarn/js/poki-sdk-shim.js",
+    "/games/world-of-yarn/js/tiptap-platform-bridge.js",
+    "/games/world-of-yarn/js/tiptap-inline-1.js"
+  ]
+}
