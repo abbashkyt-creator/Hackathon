@@ -1,0 +1,20 @@
+{
+    "skintone": {
+        "colors": [
+            "#ddbb9d",
+            "#b88768"
+        ]
+    },
+    "base": {
+        "skin": "test",
+        "colors": []
+    },
+    "socks": {
+        "skin": "test",
+        "colors": []
+    },
+    "socks_heels": {
+        "skin": "test",
+        "colors": []
+    }
+}

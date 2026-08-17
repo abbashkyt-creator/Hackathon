@@ -1,0 +1,2108 @@
+{
+    "presets": [
+        {
+            "id": "vero",
+            "skintone": {
+                "colors": [
+                    "#EABE9E",
+                    "#B77A6C"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_01",
+                "colors": [
+                    ""
+                ],
+                "tags": "ears"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_owo/eyes_01_owo",
+                "colors": [
+                    "#0C6D63",
+                    "#FF9585",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_01",
+                "colors": [
+                    "#3F8881",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_02",
+                "colors": [
+                    "#FFFFFA",
+                    "#491C60",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [],
+                "tags": "dresses,null"
+            },
+            "coats": {
+                "skin": "coats/coat_01",
+                "colors": [
+                    "#92928F",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "coats"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_02",
+                "colors": [
+                    "#92928F",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "skirts,bottoms"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [],
+                "tags": "pants,bottoms,null"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_smile/mouths_01_smile",
+                "colors": [
+                    "#FFA3A3",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    ""
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_09",
+                "colors": [
+                    "#3F8881",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_04",
+                "colors": [
+                    "#505050",
+                    "#64636D",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_02",
+                "colors": [
+                    "#92928F",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "belts": {
+                "skin": "belts/belt_null",
+                "colors": [
+                    "",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "belts,null"
+            }
+        },
+        {
+            "id": "cami",
+            "skintone": {
+                "colors": [
+                    "#C6875D",
+                    "#8B5029"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ears_null",
+                "colors": [
+                    ""
+                ],
+                "tags": "ears,null"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_uwu/eyes_03_uwu",
+                "colors": [
+                    "#FFD71E",
+                    "#69D1E6",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_03",
+                "colors": [
+                    "#86508D",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_02",
+                "colors": [
+                    "#FFFFFA",
+                    "#491C60",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [],
+                "tags": "dresses,null"
+            },
+            "coats": {
+                "skin": "coats/coat_null",
+                "colors": [
+                    "",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "coats,null"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_02",
+                "colors": [
+                    "#92928F",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "skirts,bottoms"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [],
+                "tags": "pants,bottoms,null"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_grin/mouths_02_grin",
+                "colors": [
+                    "#86508D",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    ""
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_03",
+                "colors": [
+                    "#DB7CCD",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_02",
+                "colors": [
+                    "#FFFFFA",
+                    "#86508D",
+                    "#437B88",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_03",
+                "colors": [
+                    "#86508D",
+                    "",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "belts": {
+                "skin": "belts/belt_null",
+                "colors": [
+                    "",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "belts,null"
+            },
+            "horns": {
+                "skin": "horns/horns_02",
+                "colors": [
+                    "#DB7CCD",
+                    "#9C7253",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "tails": {
+                "skin": "tails/tail_03",
+                "colors": [
+                    "#9C7253",
+                    "#D9C4A8",
+                    ""
+                ],
+                "tags": "tails"
+            }
+        },
+        {
+            "id": "fae",
+            "skintone": {
+                "colors": [
+                    "#FFC169",
+                    "#ED762C"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_02",
+                "colors": [
+                    ""
+                ],
+                "tags": "ears"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_owo/eyes_02_owo",
+                "colors": [
+                    "#FF6998",
+                    "#E0A6F2",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_02",
+                "colors": [
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_null",
+                "colors": [
+                    "#DB7CCD",
+                    "",
+                    "#FFC169",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "dresses": {
+                "skin": "dresses/dress_04",
+                "colors": [
+                    "#FFA3A3",
+                    "#7A9037",
+                    ""
+                ],
+                "tags": "dresses"
+            },
+            "coats": {
+                "skin": "coats/coat_null",
+                "colors": [
+                    "",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "coats,null"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_null",
+                "colors": [
+                    "#202C5B",
+                    "#69D1E6",
+                    "",
+                    ""
+                ],
+                "tags": "skirts,bottoms,null"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [],
+                "tags": "pants,bottoms,null"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_smile/mouths_03_smile",
+                "colors": [
+                    "#FF696A",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    ""
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_05",
+                "colors": [
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_07",
+                "colors": [
+                    "#FCE6C5",
+                    "#D9C4A8",
+                    "#C0C0BA",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_null",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "socks,null"
+            },
+            "belts": {
+                "skin": "belts/belt_null",
+                "colors": [
+                    "",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "belts,null"
+            },
+            "horns": {
+                "skin": "horns/horns_null",
+                "colors": [
+                    "",
+                    "#9C7253",
+                    ""
+                ],
+                "tags": "horns,null"
+            },
+            "tails": {
+                "skin": "tails/tails_null",
+                "colors": [
+                    "",
+                    "#D9C4A8",
+                    ""
+                ],
+                "tags": "tails,null"
+            },
+            "wings": {
+                "skin": "wings/wings_null",
+                "colors": [
+                    "",
+                    "#65E6A5",
+                    ""
+                ],
+                "tags": "wings,null"
+            },
+            "glasses": {
+                "skin": "glasses/glasses_02",
+                "colors": [
+                    "#376D0C",
+                    ""
+                ],
+                "tags": "glasses"
+            },
+            "hats": {
+                "skin": "hats/hat_06",
+                "colors": [
+                    "#7A9037",
+                    "#FFFFFA",
+                    ""
+                ],
+                "tags": "hats"
+            },
+            "bracelets": {
+                "skin": "bracelets/bracelet_02",
+                "colors": [
+                    "#427C5F",
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "bracelets"
+            },
+            "chokers": {
+                "skin": "chokers/choker_03",
+                "colors": [
+                    "#FEB0CC",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "chokers,neckwear"
+            },
+            "earrings": {
+                "skin": "earrings/earring_03",
+                "colors": [
+                    "#92928F",
+                    ""
+                ],
+                "tags": "earrings"
+            }
+        },
+        {
+            "id": "devi",
+            "skintone": {
+                "colors": [
+                    "#E09979",
+                    "#A26150"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "horns": {
+                "skin": "horns/horns_null",
+                "colors": [
+                    "",
+                    "#ED462C",
+                    ""
+                ],
+                "tags": "horns,null"
+            },
+            "backpacks": {
+                "skin": "backpacks/backpack_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "backpacks,null,bags"
+            },
+            "belts": {
+                "skin": "belts/belt_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "belts,null"
+            },
+            "chokers": {
+                "skin": "chokers/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_03",
+                "colors": [
+                    "#602628",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "coats": {
+                "skin": "coats/coat_03",
+                "colors": [
+                    "#505050",
+                    "#C0C0BA",
+                    ""
+                ],
+                "tags": "coats"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_uwu/eyes_02_uwu",
+                "colors": [
+                    "#631622",
+                    "#86508D",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "owo"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_smile/mouths_02_smile",
+                "colors": [
+                    "#631622",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "hair": {
+                "skin": "hair/hair_05",
+                "colors": [
+                    "#602628",
+                    "",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "hats": {
+                "skin": "hats/hat_08",
+                "colors": [
+                    "#505050",
+                    "",
+                    ""
+                ],
+                "tags": "hats"
+            },
+            "necklaces": {
+                "skin": "necklaces/necklace_null",
+                "colors": [
+                    ""
+                ],
+                "tags": "necklaces,null,neckwear"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "noses"
+            },
+            "pants": {
+                "skin": "pants/pants_04",
+                "colors": [
+                    "#602628",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "pants,bottoms"
+            },
+            "socks": {
+                "skin": "socks/socks_02",
+                "colors": [
+                    "#b88768",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "tops": {
+                "skin": "tops/top_04",
+                "colors": [
+                    "#FFFFFA",
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "earrings": {
+                "skin": "earrings/earrings_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "earrings,null"
+            },
+            "purses": {
+                "skin": "purses/purse_null",
+                "colors": [
+                    "#202C5B",
+                    "#FFD71E",
+                    ""
+                ],
+                "tags": "purses,bags,null"
+            },
+            "tails": {
+                "skin": "tails/tail_04",
+                "colors": [
+                    "#602628",
+                    "#505050",
+                    ""
+                ],
+                "tags": "tails"
+            },
+            "wings": {
+                "skin": "wings/wings_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "skin_details": {
+                "skin": "skin_details/skin_details_03",
+                "colors": [
+                    "#FF696A",
+                    "",
+                    ""
+                ],
+                "tags": "skin_details"
+            },
+            "ears": {
+                "skin": "ears/ear_01",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "ears"
+            },
+            "bracelets": {
+                "skin": "bracelets/",
+                "colors": [
+                    "#1FB168",
+                    "#1FB168"
+                ],
+                "tags": "0"
+            },
+            "glasses": {
+                "skin": "glasses/",
+                "colors": [
+                    "#ED762C"
+                ],
+                "tags": "0"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_null",
+                "colors": [
+                    "#48B9D4",
+                    ""
+                ],
+                "tags": "skirts,bottoms,null"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_06",
+                "colors": [
+                    "#505050",
+                    "#FFFFFA",
+                    "#FFFFFA",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [],
+                "tags": "dresses,null"
+            }
+        },
+        {
+            "id": "draca",
+            "skintone": {
+                "colors": [
+                    "#D49F85",
+                    "#A96D60"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "horns": {
+                "skin": "horns/horns_06",
+                "colors": [
+                    "#FEB0CC",
+                    "#FF696A",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "backpacks": {
+                "skin": "backpacks/backpack_null",
+                "colors": [
+                    ""
+                ],
+                "tags": "backpacks,null,bags"
+            },
+            "belts": {
+                "skin": "belts/belt_03",
+                "colors": [
+                    "#9C7253",
+                    "#FFF46A",
+                    "",
+                    ""
+                ],
+                "tags": "belts"
+            },
+            "chokers": {
+                "skin": "chokers/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_01",
+                "colors": [
+                    "#0C6D63",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "coats": {
+                "skin": "coats/coat_null",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "coats,null"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_owo/eyes_03_owo",
+                "colors": [
+                    "#FFF46A",
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "owo"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_smile/mouths_02_smile",
+                "colors": [
+                    "#3F8881",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "hair": {
+                "skin": "hair/hair_11",
+                "colors": [
+                    "#8AE3D9",
+                    "#3F8881",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "hats": {
+                "skin": "hats/hat_null",
+                "colors": [
+                    "",
+                    "#FFFFFA",
+                    "",
+                    ""
+                ],
+                "tags": "hats,null"
+            },
+            "necklaces": {
+                "skin": "necklaces/necklace_02",
+                "colors": [
+                    "#FFD71E",
+                    ""
+                ],
+                "tags": "necklaces,neclwear"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "noses"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [
+                    "#FFFFFA",
+                    ""
+                ],
+                "tags": "pants,bottoms,null"
+            },
+            "socks": {
+                "skin": "socks/socks_01",
+                "colors": [
+                    "#FCE6C5",
+                    "",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "tops": {
+                "skin": "tops/top_07",
+                "colors": [
+                    "#FCE6C5",
+                    "",
+                    "#FFC169",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "earrings": {
+                "skin": "earrings/earring_02",
+                "colors": [
+                    "#FFF46A",
+                    ""
+                ],
+                "tags": "earrings"
+            },
+            "purses": {
+                "skin": "purses/purse_null",
+                "colors": [
+                    "",
+                    "#1E6328",
+                    "",
+                    ""
+                ],
+                "tags": "purses,bags,null"
+            },
+            "tails": {
+                "skin": "tails/tail_02",
+                "colors": [
+                    "#FF6998",
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "tails"
+            },
+            "wings": {
+                "skin": "wings/wings_04",
+                "colors": [
+                    "#8AE3D9",
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "wings"
+            },
+            "skin_details": {
+                "skin": "skin_details/skin_details_01",
+                "colors": [
+                    "#b88768",
+                    ""
+                ],
+                "tags": "skin_details"
+            },
+            "ears": {
+                "skin": "ears/ear_03",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "ears"
+            },
+            "bracelets": {
+                "skin": "bracelets/bracelet_01",
+                "colors": [
+                    "#FFF46A",
+                    "#FFD71E",
+                    ""
+                ],
+                "tags": "bracelets"
+            },
+            "glasses": {
+                "skin": "glasses/glasses_02",
+                "colors": [
+                    "#015467",
+                    ""
+                ],
+                "tags": "glasses"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_04",
+                "colors": [
+                    "#FFA3A3",
+                    "#FF696A",
+                    "",
+                    ""
+                ],
+                "tags": "skirts,bottoms"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_05",
+                "colors": [
+                    "#9C7253",
+                    "#724522",
+                    "#FFF46A",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [
+                    "#BBA959",
+                    "#FFA3A3",
+                    ""
+                ],
+                "tags": "dresses,null"
+            }
+        },
+        {
+            "id": "motha",
+            "skintone": {
+                "colors": [
+                    "#906653",
+                    "#6A432E"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "horns": {
+                "skin": "horns/horns_03",
+                "colors": [
+                    "#ED762C",
+                    "#602628",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "backpacks": {
+                "skin": "backpacks/backpack_null",
+                "colors": [
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "null,bags"
+            },
+            "belts": {
+                "skin": "belts/belt_03",
+                "colors": [
+                    "#505050",
+                    "#FFD71E",
+                    ""
+                ],
+                "tags": "belts"
+            },
+            "chokers": {
+                "skin": "chokers/choker_null",
+                "colors": [
+                    "",
+                    "#015467",
+                    ""
+                ],
+                "tags": "chokers,null,neckwear"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_03",
+                "colors": [
+                    "#505050",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "coats": {
+                "skin": "coats/",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_owo/eyes_02_owo",
+                "colors": [
+                    "#FF9585",
+                    "#8D5052",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "owo"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_smile/mouths_03_smile",
+                "colors": [
+                    "#602628",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "hair": {
+                "skin": "hair/hair_03",
+                "colors": [
+                    "#505050",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "hats": {
+                "skin": "hats/hat_null",
+                "colors": [
+                    "",
+                    "#1FB168",
+                    "#0C6D63",
+                    ""
+                ],
+                "tags": "hats,null"
+            },
+            "necklaces": {
+                "skin": "necklaces/necklace_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "necklaces,null,neckwear"
+            },
+            "noses": {
+                "skin": "noses/nose_02",
+                "colors": [
+                    ""
+                ],
+                "tags": "noses"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [
+                    "#92928F",
+                    ""
+                ],
+                "tags": "pants,bottoms,null"
+            },
+            "socks": {
+                "skin": "socks/socks_01",
+                "colors": [
+                    "#FCE6C5",
+                    "",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "tops": {
+                "skin": "tops/top_null",
+                "colors": [
+                    "#7C68A6",
+                    "#491C60",
+                    "#65E6A5",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "earrings": {
+                "skin": "earrings/earring_03",
+                "colors": [
+                    "#FFD71E",
+                    ""
+                ],
+                "tags": "earrings"
+            },
+            "purses": {
+                "skin": "purses/purse_02",
+                "colors": [
+                    "#FFFFFA",
+                    "#ED762C",
+                    "",
+                    ""
+                ],
+                "tags": "purses,bags"
+            },
+            "tails": {
+                "skin": "tails/",
+                "colors": [
+                    "#ED762C"
+                ],
+                "tags": "0"
+            },
+            "wings": {
+                "skin": "wings/wings_05",
+                "colors": [
+                    "#ED762C",
+                    "#602628",
+                    ""
+                ],
+                "tags": "wings"
+            },
+            "skin_details": {
+                "skin": "skin_details/",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_01",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "ears"
+            },
+            "bracelets": {
+                "skin": "bracelets/bracelet_01",
+                "colors": [
+                    "#FFD71E",
+                    "#ED762C",
+                    ""
+                ],
+                "tags": "bracelets"
+            },
+            "glasses": {
+                "skin": "glasses/glasses_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "glasses,null"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_null",
+                "colors": [
+                    "#A0E261",
+                    "#E0A6F2",
+                    ""
+                ],
+                "tags": "skirts,bottoms,null"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_10",
+                "colors": [
+                    "#505050",
+                    "#64636D",
+                    "",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "dresses": {
+                "skin": "dresses/dress_01",
+                "colors": [
+                    "#FCE6C5",
+                    "#631622",
+                    ""
+                ],
+                "tags": "dresses"
+            }
+        },
+        {
+            "id": "test2",
+            "skintone": {
+                "colors": [
+                    "#FAE2DB",
+                    "#DF9F8C"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_02",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "ears"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_own/eyes_01_own",
+                "colors": [
+                    "#ED762C",
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_02",
+                "colors": [
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_01",
+                "colors": [
+                    "#681A52",
+                    "",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [],
+                "tags": "dresses,null"
+            },
+            "coats": {
+                "skin": "coats/",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_03",
+                "colors": [
+                    "#86508D",
+                    "#FFA3A3",
+                    ""
+                ],
+                "tags": "skirts,bottoms"
+            },
+            "pants": {
+                "skin": "pants/",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_grin/mouths_03_grin",
+                "colors": [
+                    "#92928F",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_11",
+                "colors": [
+                    "#FFD71E",
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_01",
+                "colors": [
+                    "#b88768",
+                    "",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "belts": {
+                "skin": "belts/",
+                "colors": [
+                    "",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "horns": {
+                "skin": "horns/horns_02",
+                "colors": [
+                    "#ED462C",
+                    "#65E6A5",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "backpacks": {
+                "skin": "backpacks/backpack_02",
+                "colors": [
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "chokers": {
+                "skin": "chokers/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "hats": {
+                "skin": "hats/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "necklaces": {
+                "skin": "necklaces/necklace_03",
+                "colors": [
+                    "#FFD71E",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "earrings": {
+                "skin": "earrings/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "purses": {
+                "skin": "purses/purse_02",
+                "colors": [
+                    "#FFA3A3",
+                    "#A0E261",
+                    ""
+                ],
+                "tags": "purses,bags"
+            },
+            "tails": {
+                "skin": "tails/tail_02",
+                "colors": [
+                    "#48B9D4",
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "tails"
+            },
+            "wings": {
+                "skin": "wings/wings_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "wings,null"
+            },
+            "skin_details": {
+                "skin": "skin_details/",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "0"
+            },
+            "bracelets": {
+                "skin": "bracelets/bracelet_01",
+                "colors": [
+                    "#92928F",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "bracelets"
+            },
+            "glasses": {
+                "skin": "glasses/glasses_01",
+                "colors": [
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "glasses"
+            }
+        },
+        {
+            "id": "test",
+            "skintone": {
+                "colors": [
+                    "#FAE2DB",
+                    "#DF9F8C"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_02",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "ears"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_own/eyes_01_own",
+                "colors": [
+                    "#ED762C",
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_02",
+                "colors": [
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_07",
+                "colors": [
+                    "#681A52",
+                    "",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [],
+                "tags": "dresses,null"
+            },
+            "coats": {
+                "skin": "coats/",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_03",
+                "colors": [
+                    "#86508D",
+                    "#FFA3A3",
+                    ""
+                ],
+                "tags": "skirts,bottoms"
+            },
+            "pants": {
+                "skin": "pants/",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_grin/mouths_03_grin",
+                "colors": [
+                    "#92928F",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_11",
+                "colors": [
+                    "#FFD71E",
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_01",
+                "colors": [
+                    "#b88768",
+                    "",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "belts": {
+                "skin": "belts/",
+                "colors": [
+                    "",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "horns": {
+                "skin": "horns/horns_02",
+                "colors": [
+                    "#ED462C",
+                    "#65E6A5",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "backpacks": {
+                "skin": "backpacks/backpack_02",
+                "colors": [
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "chokers": {
+                "skin": "chokers/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "hats": {
+                "skin": "hats/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "necklaces": {
+                "skin": "necklaces/necklace_03",
+                "colors": [
+                    "#FFD71E",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "earrings": {
+                "skin": "earrings/",
+                "colors": [
+                    ""
+                ],
+                "tags": "0"
+            },
+            "purses": {
+                "skin": "purses/purse_02",
+                "colors": [
+                    "#FFA3A3",
+                    "#A0E261",
+                    ""
+                ],
+                "tags": "purses,bags"
+            },
+            "tails": {
+                "skin": "tails/tail_02",
+                "colors": [
+                    "#48B9D4",
+                    "#19C6B4",
+                    ""
+                ],
+                "tags": "tails"
+            },
+            "wings": {
+                "skin": "wings/wings_null",
+                "colors": [
+                    "",
+                    ""
+                ],
+                "tags": "wings,null"
+            },
+            "skin_details": {
+                "skin": "skin_details/",
+                "colors": [
+                    "#b88768"
+                ],
+                "tags": "0"
+            },
+            "bracelets": {
+                "skin": "bracelets/bracelet_01",
+                "colors": [
+                    "#92928F",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "bracelets"
+            },
+            "glasses": {
+                "skin": "glasses/glasses_01",
+                "colors": [
+                    "#FF6998",
+                    ""
+                ],
+                "tags": "glasses"
+            }
+        },
+        {
+            "id": "maze",
+            "skintone": {
+                "colors": [
+                    "#A86A41",
+                    "#754631"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_02",
+                "colors": [
+                    ""
+                ],
+                "tags": "ears"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_owo/eyes_02_owo",
+                "colors": [
+                    "#FF696A",
+                    "#8D5052",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_01",
+                "colors": [
+                    "#631622",
+                    "#602628"
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_null",
+                "colors": [
+                    "#FFFFFA",
+                    "#491C60",
+                    "#92928F",
+                    ""
+                ],
+                "tags": "0"
+            },
+            "dresses": {
+                "skin": "dresses/dress_08",
+                "colors": [
+                    "#3F8881",
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "dresses"
+            },
+            "coats": {
+                "skin": "coats/coat_08",
+                "colors": [
+                    "#FCE6C5",
+                    "#FF696A",
+                    "",
+                    ""
+                ],
+                "tags": "coats"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_null",
+                "colors": [
+                    "#92928F",
+                    "#491C60",
+                    ""
+                ],
+                "tags": "skirts,bottoms,null"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [],
+                "tags": "pants,bottoms,null"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_smile/mouths_01_smile",
+                "colors": [
+                    "#602628",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_02",
+                "colors": [
+                    ""
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_11",
+                "colors": [
+                    "#631622",
+                    "#602628",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_07",
+                "colors": [
+                    "#3F8881",
+                    "#015467",
+                    "#FFF46A",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_null",
+                "colors": [
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "socks,null"
+            },
+            "belts": {
+                "skin": "belts/belt_03",
+                "colors": [
+                    "#AE5642",
+                    "#BBA959",
+                    "",
+                    ""
+                ],
+                "tags": "belts"
+            },
+            "hats": {
+                "skin": "hats/hat_06",
+                "colors": [
+                    "#0C6D63",
+                    "#FFFFFA",
+                    ""
+                ],
+                "tags": "hats"
+            },
+            "wings": {
+                "skin": "wings/wings_05",
+                "colors": [
+                    "#FF696A",
+                    "#FEB0CC",
+                    ""
+                ],
+                "tags": "wings"
+            },
+            "horns": {
+                "skin": "horns/horns_03",
+                "colors": [
+                    "#FF6998",
+                    "#602628",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "earrings": {
+                "skin": "earrings/earring_02",
+                "colors": [
+                    "#FFFFFA",
+                    ""
+                ],
+                "tags": "earrings"
+            }
+        },
+        {
+            "id": "liv",
+            "skintone": {
+                "colors": [
+                    "#CCBFF6",
+                    "#B896E2"
+                ]
+            },
+            "base": {
+                "skin": "base/base",
+                "colors": [],
+                "tags": "0"
+            },
+            "ears": {
+                "skin": "ears/ear_03",
+                "colors": [
+                    ""
+                ],
+                "tags": "ears"
+            },
+            "eyes": {
+                "skin": "eyes/eyes_owo/eyes_03_owo",
+                "colors": [
+                    "#90BDF2",
+                    "#7C68A6",
+                    ""
+                ],
+                "tags": "eyes",
+                "variant": "uwu"
+            },
+            "eyebrows": {
+                "skin": "eyebrows/eyebrows_01",
+                "colors": [
+                    "#015467",
+                    ""
+                ],
+                "tags": "eyebrows"
+            },
+            "tops": {
+                "skin": "tops/top_07",
+                "colors": [
+                    "#FCE6C5",
+                    "",
+                    "",
+                    ""
+                ],
+                "tags": "tops"
+            },
+            "dresses": {
+                "skin": "dresses/dress_null",
+                "colors": [],
+                "tags": "dresses,null"
+            },
+            "coats": {
+                "skin": "coats/coat_06",
+                "colors": [
+                    "#8D5052",
+                    "#8D5052",
+                    "",
+                    ""
+                ],
+                "tags": "coats"
+            },
+            "skirts": {
+                "skin": "skirts/skirt_05",
+                "colors": [
+                    "#D9C4A8",
+                    "#0C6D63",
+                    "#3F8881",
+                    ""
+                ],
+                "tags": "skirts,bottoms"
+            },
+            "pants": {
+                "skin": "pants/pants_null",
+                "colors": [
+                    "#3F8881",
+                    "",
+                    ""
+                ],
+                "tags": "pants,bottoms,null"
+            },
+            "mouths": {
+                "skin": "mouths/mouths_sad/mouths_01_sad",
+                "colors": [
+                    "#437B88",
+                    ""
+                ],
+                "tags": "mouths",
+                "variant": "smile"
+            },
+            "noses": {
+                "skin": "noses/nose_01",
+                "colors": [
+                    ""
+                ],
+                "tags": "noses"
+            },
+            "hair": {
+                "skin": "hair/hair_08",
+                "colors": [
+                    "#015467",
+                    ""
+                ],
+                "tags": "hair"
+            },
+            "shoes": {
+                "skin": "shoes/shoes_04",
+                "colors": [
+                    "#8D5052",
+                    "#602628",
+                    ""
+                ],
+                "tags": "shoes"
+            },
+            "feet": {
+                "skin": "feet/feet_base",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks_heels": {
+                "skin": "socks_heels/",
+                "colors": [],
+                "tags": "0"
+            },
+            "socks": {
+                "skin": "socks/socks_02",
+                "colors": [
+                    "#FCE6C5",
+                    "#3F8881",
+                    ""
+                ],
+                "tags": "socks"
+            },
+            "belts": {
+                "skin": "belts/belt_null",
+                "colors": [
+                    "",
+                    "#427C5F",
+                    ""
+                ],
+                "tags": "belts,null"
+            },
+            "glasses": {
+                "skin": "glasses/glasses_04",
+                "colors": [
+                    "#FCE6C5",
+                    ""
+                ],
+                "tags": "glasses"
+            },
+            "tails": {
+                "skin": "tails/tail_02",
+                "colors": [
+                    "#BFAFF4",
+                    "#0C6D63",
+                    ""
+                ],
+                "tags": "tails"
+            },
+            "horns": {
+                "skin": "horns/horns_06",
+                "colors": [
+                    "#E0A6F2",
+                    "#5680BD",
+                    ""
+                ],
+                "tags": "horns"
+            },
+            "earrings": {
+                "skin": "earrings/earring_01",
+                "colors": [
+                    "#69D1E6",
+                    ""
+                ],
+                "tags": "earrings"
+            },
+            "chokers": {
+                "skin": "chokers/choker_05",
+                "colors": [
+                    "#3F8881",
+                    "#FFF46A",
+                    ""
+                ],
+                "tags": "chokers,neckwear"
+            }
+        }
+    ]
+}

@@ -381,6 +381,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "little-tricky-prankster": { creatorId: "little-tricky-prankster", creatorName: "Little Tricky Prankster", creatorLabel: "BY LITTLE TRICKY PRANKSTER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "no-pain-no-gain": { creatorId: "no-pain-no-gain", creatorName: "No Pain No Gain", creatorLabel: "BY NO PAIN NO GAIN · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cube-builder": { creatorId: "cube-builder", creatorName: "Cube Builder", creatorLabel: "BY CUBE BUILDER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "elf-backpack": { creatorId: "elf-backpack", creatorName: "Elf Backpack", creatorLabel: "BY ELF BACKPACK · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "wonder-high-dressup": { creatorId: "wonder-high-dress-up", creatorName: "Wonder High Dress-Up", creatorLabel: "BY WONDER HIGH DRESS-UP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

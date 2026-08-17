@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/elf-backpack/index.html",
+    "/games/elf-backpack/js/poki-sdk-shim.js",
+    "/games/elf-backpack/js/tiptap-platform-bridge.js",
+    "/games/elf-backpack/js/tiptap-inline-1.js"
+  ]
+}

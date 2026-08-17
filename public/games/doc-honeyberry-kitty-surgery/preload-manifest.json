@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/doc-honeyberry-kitty-surgery/index.html",
+    "/games/doc-honeyberry-kitty-surgery/js/poki-sdk-shim.js",
+    "/games/doc-honeyberry-kitty-surgery/js/tiptap-platform-bridge.js"
+  ]
+}

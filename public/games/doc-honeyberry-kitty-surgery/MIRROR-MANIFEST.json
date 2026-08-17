@@ -1,0 +1,75 @@
+{
+  "name": "doc-honeyberry-kitty-surgery",
+  "sourcePage": "https://poki.com/en/g/doc-honeyberry-kitty-surgery",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2501,
+      "sha256": "7e3b5cb6335776503ac9ac54a3430dd5fa95aa0b13928f196bb9b10d35b093ee",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 182,
+      "sha256": "504e468486b4d6cf84dba9941b7de51e6d3e911a037fe067ec6e9cdba8446faa",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 946,
+      "sha256": "dc3bfaf9eeaa985c67cce81804b77529085c8dcf9a866288a28f14ca4f1616d8",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 869,
+      "sha256": "39396cb20c6366557935dc4c7163506147efc7e89b698f018bb56ffed9f0e67d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 212,
+      "sha256": "8b11b9b92d25fee7023e285115b6df1a42329c7c51785efab37b72557f5c232e",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "doc_honeyberry_kitty_surgery.js",
+      "bytes": 2033661,
+      "sha256": "4259fd2380ecd63a97a7810dd9b0a8b227f5edac7d2d00a8ca7f8087e6858297"
+    },
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12486,
+      "sha256": "eada1ce7864e25cff7baece57bc31a9a27b65270d6019f3d70d7b7fbdd164d57"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2501,
+      "sha256": "7e3b5cb6335776503ac9ac54a3430dd5fa95aa0b13928f196bb9b10d35b093ee"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 946,
+      "sha256": "dc3bfaf9eeaa985c67cce81804b77529085c8dcf9a866288a28f14ca4f1616d8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 869,
+      "sha256": "39396cb20c6366557935dc4c7163506147efc7e89b698f018bb56ffed9f0e67d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 212,
+      "sha256": "8b11b9b92d25fee7023e285115b6df1a42329c7c51785efab37b72557f5c232e"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

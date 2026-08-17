@@ -1,0 +1,295 @@
+{
+  "name": "elf-backpack",
+  "sourcePage": "https://poki.com/en/g/elf-backpack",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1592,
+      "sha256": "0f3eff406fc048c1fcbc8bac79af59646909298d78fa98248ee3bf769ca5bd82",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "86d3d3385c2da8099088b134580a1abf850c9f6be1fe86a49c58c84a09c56682",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "811e1d64e9c54330417a2eddcb46479f29bd5a2549a013650edd39f894e59df3",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "c633cec20f83337334e1094af46dfea7703346cfb420ddccd49d28a4bfc53721",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "42cef7064e815e5b5d3e1ff49cc0582ea93ade0a99acf644f4e0994ab18205b3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 215,
+      "sha256": "eaab39fb550e2bd45244ea1ed1100bb7508dd2826e232300b9a9172d6ba33d81"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 311033,
+      "sha256": "34e5248cd28569f59a9aa53f84c952b9d64ea9847928225b283bb31a866b965b"
+    },
+    {
+      "assetPath": "enemies.json",
+      "bytes": 11650,
+      "sha256": "fd88c6ddd632c9b645f7c70a23873306c18e640b9ac817ee7ed0fdbecc5e86df"
+    },
+    {
+      "assetPath": "fonts/SuperMorning-ZpZwZ.woff2",
+      "bytes": 52924,
+      "sha256": "993340eab4a747ebebd15c32ecba3efd7d1100f032514701422555a169c7d8b5"
+    },
+    {
+      "assetPath": "images/bg0_tile-sheet0.png",
+      "bytes": 28055,
+      "sha256": "f10ab02affc7fc4a7918e4e465824452b9a37e22c8176b11b96d3d893946ffac"
+    },
+    {
+      "assetPath": "images/bg0_tile-sheet1.png",
+      "bytes": 2044,
+      "sha256": "1905166e3013b09d4c153075ef164bef57f698419ed87110884a4b106d21bbb7"
+    },
+    {
+      "assetPath": "images/bg1_tile-sheet0.png",
+      "bytes": 32336,
+      "sha256": "508024437688377b6fd26e95dededcdffa44a6ad73a9c51f23bf13d8944ee19d"
+    },
+    {
+      "assetPath": "images/bg1_tile-sheet1.png",
+      "bytes": 12577,
+      "sha256": "8f02e31e8c25dbb9bbea3d63268954b32665e61ef751a2ef5d104450c5065764"
+    },
+    {
+      "assetPath": "images/bg2_tile-sheet0.png",
+      "bytes": 75288,
+      "sha256": "0ed56373da207d85928e0afc98a5cbb93c24527eac50290f6473ce22d2daaaa7"
+    },
+    {
+      "assetPath": "images/bg2_tile-sheet1.png",
+      "bytes": 9266,
+      "sha256": "dd35010850270a9da7b59e0fe54368acd1085731399f2680161997ae5965dbe1"
+    },
+    {
+      "assetPath": "images/bullet-sheet0.png",
+      "bytes": 63144,
+      "sha256": "580cc6993ae95dfc44a1d7ff97095c8d528035e712baa0e8af6d31ba0ff2e356"
+    },
+    {
+      "assetPath": "images/road_tile-sheet0.png",
+      "bytes": 14756,
+      "sha256": "ad57c0a356a1848f94b5b71523b95bc0a33903f8de7bf739d3fae56f89f7656e"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 330654,
+      "sha256": "93cd6b4a991725f2ccb1537d94742a9482385b46a013e2135e8610dcc1d300dc"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 177155,
+      "sha256": "794a7e46b66b0ada1f3c26e9a86c37f8ba10533648ddf4b26620259528204814"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 44415,
+      "sha256": "db243f5af8df6682e6f1e3a36959dcf0ad63556f3fce84d8bb6c1ae8679b7b20"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.png",
+      "bytes": 171340,
+      "sha256": "069ce2605df5bc47a0c618f26553742b655d0ded5725600fce8310d0ba8c7358"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.png",
+      "bytes": 326142,
+      "sha256": "8e44675a3004605739cd35bf703837ee0cfcaf6a55613b76453b24644600196c"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.png",
+      "bytes": 1016,
+      "sha256": "af848743145b89a364fd6843b3cd2fa40ba1d8183c8b941a7b7ff653719dc4e8"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.png",
+      "bytes": 121,
+      "sha256": "07f920f0b4b081199431ca25c48c32502efce605360a57bfa513847d8a5c5341"
+    },
+    {
+      "assetPath": "images/sky-sheet0.png",
+      "bytes": 170,
+      "sha256": "f4113b4ad9a04ed804d7663f45f5e61d8c9c383dd5f8134af34e45a6a15ded90"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1592,
+      "sha256": "0f3eff406fc048c1fcbc8bac79af59646909298d78fa98248ee3bf769ca5bd82"
+    },
+    {
+      "assetPath": "items.json",
+      "bytes": 2338,
+      "sha256": "dfb9179ee0e762dfe25750c5ead59debe27e5a7168de9a18ce4c054c975ff0e7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "811e1d64e9c54330417a2eddcb46479f29bd5a2549a013650edd39f894e59df3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "c633cec20f83337334e1094af46dfea7703346cfb420ddccd49d28a4bfc53721"
+    },
+    {
+      "assetPath": "locations.json",
+      "bytes": 33282,
+      "sha256": "58079bc81f257932e1321145343b90c92b735c68a0f5cd3b5a1dd31416ea2923"
+    },
+    {
+      "assetPath": "media/drop.webm",
+      "bytes": 5388,
+      "sha256": "3207c388518a6af78014eddd2a890f273d81bef8a31602998e9725142ed77652"
+    },
+    {
+      "assetPath": "media/enemy_death.webm",
+      "bytes": 12493,
+      "sha256": "72342d6c9dae7f491d877b010b2493a5bdd9f0a6d6ec0be3e50015c52a0494f0"
+    },
+    {
+      "assetPath": "media/round.webm",
+      "bytes": 34828,
+      "sha256": "199faa9256fbeb397fbdf37a58a7563e5f453cc9c4dd0905e528c74f6b5936e9"
+    },
+    {
+      "assetPath": "media/swing_0.webm",
+      "bytes": 4166,
+      "sha256": "62df155dd7c00d4df88e9c39975a661d47645a724dd3db710504142af18dcdb6"
+    },
+    {
+      "assetPath": "media/swing_1.webm",
+      "bytes": 5366,
+      "sha256": "04b8855a19de94b566dbe1db577b1a2c0c071d7c0dfae3788dd34f7e79403c12"
+    },
+    {
+      "assetPath": "media/swing_2.webm",
+      "bytes": 7324,
+      "sha256": "af8431d25f8de1c45670ac015caa5418e52c73ccb53cca43a7f59d1c2742f888"
+    },
+    {
+      "assetPath": "media/swing_3.webm",
+      "bytes": 4179,
+      "sha256": "14f818fa70506340080267a0348f3e97a02469a9b5cd002824c386f75a97fbe9"
+    },
+    {
+      "assetPath": "media/swing_4.webm",
+      "bytes": 4481,
+      "sha256": "09f696dd786b7944b6b59c76813b5f9e0a8e5bd6ebdfe431bdf78aff7f5120a9"
+    },
+    {
+      "assetPath": "media/theme.webm",
+      "bytes": 687924,
+      "sha256": "f6552b244d498ebdcb08fd70a93d6e54d099683b67ac0c49d00fa41fe222f35e"
+    },
+    {
+      "assetPath": "media/upgrade.webm",
+      "bytes": 34884,
+      "sha256": "2dbc66e32d7bb1a59db61f762930cd4726f445c6276520f4fc82e61475399320"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "42cef7064e815e5b5d3e1ff49cc0582ea93ade0a99acf644f4e0994ab18205b3"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 105,
+      "sha256": "6a2938ab51cd6675e1670cbe07004dd950145646717f7489900fcab7aa78226f"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1419386,
+      "sha256": "2091e72654e3da34915ee2f94b4c885cc16428139a566b9af58303bf41624028"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 122170,
+      "sha256": "0369179e594a47d917e97a7cae454e732f91b879b9e4e5f2e89bc58cce043522"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/objRefTable.js",
+      "bytes": 20970,
+      "sha256": "f529bc5c42893102b90d83bd2c5223af5f9ee85f272ab0db89a39bffe819f3ee"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/plugins/skymen_pokiSDK/c3runtime/main.js",
+      "bytes": 4861,
+      "sha256": "53be8d2ab04afb9b62dcafb0ec55d46849c02f7a12cbdebca089bd38bbeebbc8"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4799,
+      "sha256": "6173f57586040a4937f752c81f8f30586fbc50a8426180e5f65b52cf56115b9a"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2130,
+      "sha256": "b2589a820cd749918c45403e3aa5177c5f6374342e4ad25fbc6ae192dcca6815"
+    },
+    {
+      "assetPath": "workermain.js",
+      "bytes": 3419,
+      "sha256": "3bc13560c6cce96348aa6181968851d8830348aef5874d35ed6fd0c32e86fed6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
