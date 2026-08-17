@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/cook-house/index.html",
+    "/games/cook-house/js/poki-sdk-shim.js",
+    "/games/cook-house/js/tiptap-platform-bridge.js",
+    "/games/cook-house/js/tiptap-inline-1.js",
+    "/games/cook-house/js/tiptap-inline-2.js",
+    "/games/cook-house/js/tiptap-inline-3.js"
+  ]
+}

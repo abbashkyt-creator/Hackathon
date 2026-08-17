@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/swole-simulator/index.html",
+    "/games/swole-simulator/js/poki-sdk-shim.js",
+    "/games/swole-simulator/js/tiptap-platform-bridge.js",
+    "/games/swole-simulator/js/tiptap-inline-1.js"
+  ]
+}

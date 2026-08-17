@@ -1,0 +1,70 @@
+{
+  "name": "swole-simulator",
+  "sourcePage": "https://poki.com/en/g/swole-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "2bdaa2f9785d739fb8223feba75e386194a80651fc1f7e6f77c2f03d0ad21cd1",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "4b14ec9380f944ebb465035049a44eb3ac436a97dd5b54ed092f7e5203d4f69c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "547f81abd33cfef114402a84b2a18323f0abdb59b6d4b5748acec14d0912e994",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "cb4d12c19d3ce57669652d56a6ff49da1a825a46753c5134dfe6e20f94536fe7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "ea8cd13737b2729bc73e0da340cb4d0896a2bab3fa934ed00150cc1c923c425e",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "2bdaa2f9785d739fb8223feba75e386194a80651fc1f7e6f77c2f03d0ad21cd1"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "547f81abd33cfef114402a84b2a18323f0abdb59b6d4b5748acec14d0912e994"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1297,
+      "sha256": "0e50fd21ae3805d8b3dd077ac4d754e0278beab704109a4f394af756852b2a4d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "cb4d12c19d3ce57669652d56a6ff49da1a825a46753c5134dfe6e20f94536fe7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "ea8cd13737b2729bc73e0da340cb4d0896a2bab3fa934ed00150cc1c923c425e"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

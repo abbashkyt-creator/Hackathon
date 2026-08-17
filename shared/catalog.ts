@@ -486,6 +486,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "brainrot-puzzle": { creatorId: "brainrot-puzzle", creatorName: "Brainrot Puzzle", creatorLabel: "BY BRAINROT PUZZLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "fruits-of-fury": { creatorId: "fruits-of-fury", creatorName: "Fruits of Fury", creatorLabel: "BY FRUITS OF FURY · LOCAL SOURCE MIRROR", category: "Arcade" },
   "tiny-towers": { creatorId: "tiny-towers", creatorName: "Tiny Towers", creatorLabel: "BY TINY TOWERS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "swole-simulator": { creatorId: "swole-simulator", creatorName: "Swole Simulator", creatorLabel: "BY SWOLE SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cook-house": { creatorId: "cook-house", creatorName: "Cook House", creatorLabel: "BY COOK HOUSE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "chess-multiplayer": { creatorId: "chess-multiplayer", creatorName: "Chess Multiplayer", creatorLabel: "BY CHESS MULTIPLAYER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

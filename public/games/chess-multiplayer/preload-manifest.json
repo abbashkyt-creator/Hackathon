@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/chess-multiplayer/index.html",
+    "/games/chess-multiplayer/js/poki-sdk-shim.js",
+    "/games/chess-multiplayer/js/tiptap-platform-bridge.js",
+    "/games/chess-multiplayer/js/tiptap-inline-1.js"
+  ]
+}

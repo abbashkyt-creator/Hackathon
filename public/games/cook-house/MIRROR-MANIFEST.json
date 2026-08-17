@@ -1,0 +1,100 @@
+{
+  "name": "cook-house",
+  "sourcePage": "https://poki.com/en/g/cook-house",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4179,
+      "sha256": "184e10be9772cab887115deea1fcf015f24f23dbe2075f8715e52dd7fb570369",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "a7176babb595ade9ba59a1cb2a5fe7754370a75d45788944637f5f6734ef80da",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "b32da514c3b3861b37818a172a946d532b5b67324c22bf53a8d34d28d2a021b3",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "abd4c71d29f48860a32010c55dadf4a3e01024843add483451da4acf8f255cd5",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "5852990dcb33c3caf788f551361cbd0ddb47111451014cab908007c8786ba6c4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "cooking.wasm",
+      "bytes": 1938115,
+      "sha256": "d5e9a34d8165af19bb454b66d01d1d35f6dca36e24c135e8b379c7a9ff1c6d0e"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 40640,
+      "sha256": "019be0db747c39ebf7b298b11a46ed64f38e443d2b54fde2ff42202d5d9debbc"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4179,
+      "sha256": "184e10be9772cab887115deea1fcf015f24f23dbe2075f8715e52dd7fb570369"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "b32da514c3b3861b37818a172a946d532b5b67324c22bf53a8d34d28d2a021b3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 4974,
+      "sha256": "53b5387ca5e9a26b0ca7a8cce70566185821fcb6464fe231cd07bdfa9f9bd138"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 76,
+      "sha256": "6c2597ef14a27eb030253454313b5bf45870ecf2dfee1599e76c80e699073464"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 583,
+      "sha256": "10fe552f2b32ec8932fd16b531756fb4b7bbacac9fc614cfba6495b0c2153dee"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "abd4c71d29f48860a32010c55dadf4a3e01024843add483451da4acf8f255cd5"
+    },
+    {
+      "assetPath": "load_bar_bg.png",
+      "bytes": 831,
+      "sha256": "0577181bff095bc6f71be88e3791e0c3db26403306a211617617bc9494da7b4a"
+    },
+    {
+      "assetPath": "load_bar_fg.png",
+      "bytes": 2759,
+      "sha256": "7d3a7f728c6d8e4d002780f78ce38281373ed5adcfaf6112957b8d47d4ee439d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "5852990dcb33c3caf788f551361cbd0ddb47111451014cab908007c8786ba6c4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

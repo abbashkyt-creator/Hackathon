@@ -1,0 +1,115 @@
+{
+  "name": "chess-multiplayer",
+  "sourcePage": "https://poki.com/en/g/chess-multiplayer",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2846,
+      "sha256": "f209ff306af4b14ba8900f6aa2e239a6f919f309e5a82dfab19114aca7019970",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "4a4de83fcdeabf5d457d7145e44953dedb60ecaad6b3926dfc9724d906a578b4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "66493570ae5613a5d690642ed3971ee65dcb2d458a36561923d77066c6048b04",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "1ab49e5d2bc1b2e213af8e7ba3c1e2c6120f2ea2e59bf851e9dc6d05284ddee1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "aa7aa2cd3e14c50e4f7e475c242db57d88c265bcb31170b5031ec435b13e4a5c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "icon.png",
+      "bytes": 519,
+      "sha256": "aa04b2435b16c5b956c51028e5e3baa79ca54305f5f3c4ccdc7aeb81cca4d128"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2846,
+      "sha256": "f209ff306af4b14ba8900f6aa2e239a6f919f309e5a82dfab19114aca7019970"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "66493570ae5613a5d690642ed3971ee65dcb2d458a36561923d77066c6048b04"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 73,
+      "sha256": "66f912c02eed99ad823231e711c072f025f869d58c17c7d8f63ddd4ae2794dbe"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "1ab49e5d2bc1b2e213af8e7ba3c1e2c6120f2ea2e59bf851e9dc6d05284ddee1"
+    },
+    {
+      "assetPath": "logo.png",
+      "bytes": 13514,
+      "sha256": "efe3103e3473767687b4c700bdb6525b606d33358a60d0e4c3868053bd64e075"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "aa7aa2cd3e14c50e4f7e475c242db57d88c265bcb31170b5031ec435b13e4a5c"
+    },
+    {
+      "assetPath": "RobotoSlab-Bold.woff2",
+      "bytes": 52084,
+      "sha256": "b45c045d0bbe5983e59e929c9e1cc6b67a994b362432130a2716e099de21c7ed"
+    },
+    {
+      "assetPath": "script.js",
+      "bytes": 2013,
+      "sha256": "ede9f823199f64d7de12b1748c8aa2d58d41f92449ad68c3bc2992b23166ada9"
+    },
+    {
+      "assetPath": "sitelock.js",
+      "bytes": 61,
+      "sha256": "548857263ded99db2c6261080bc723b667ccabc19abff4a1643a345e61f18579"
+    },
+    {
+      "assetPath": "src/import-map.json",
+      "bytes": 40,
+      "sha256": "2be73d8f2e7e1d814627714ace691b6e1a9d445c779426a224e7f3685f0fa278"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/system.bundle.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 2898,
+      "sha256": "59d2f868bd9067a867593ab28b2bf6f70cf9c982a2326d6b43d46f6207f79041"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
