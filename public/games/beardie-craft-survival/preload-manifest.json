@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/beardie-craft-survival/index.html",
+    "/games/beardie-craft-survival/js/poki-sdk-shim.js",
+    "/games/beardie-craft-survival/js/tiptap-platform-bridge.js",
+    "/games/beardie-craft-survival/js/tiptap-inline-1.js",
+    "/games/beardie-craft-survival/js/tiptap-inline-2.js"
+  ]
+}

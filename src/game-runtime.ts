@@ -350,6 +350,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "ragdoll-drop": { embedded: true, preloadManifest: "/games/ragdoll-drop/preload-manifest.json", assetManifest: "/games/ragdoll-drop/MIRROR-MANIFEST.json", prepareByMount: true },
   "kates-cooking-party": { embedded: true, preloadManifest: "/games/kates-cooking-party/preload-manifest.json", assetManifest: "/games/kates-cooking-party/MIRROR-MANIFEST.json", prepareByMount: true },
   "dino-quake": { embedded: true, preloadManifest: "/games/dino-quake/preload-manifest.json", assetManifest: "/games/dino-quake/MIRROR-MANIFEST.json", prepareByMount: true },
+  "beardie-craft-survival": { embedded: true, preloadManifest: "/games/beardie-craft-survival/preload-manifest.json", assetManifest: "/games/beardie-craft-survival/MIRROR-MANIFEST.json", prepareByMount: true },
+  "pro-shooter": { embedded: true, preloadManifest: "/games/pro-shooter/preload-manifest.json", assetManifest: "/games/pro-shooter/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

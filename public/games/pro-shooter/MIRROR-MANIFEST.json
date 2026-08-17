@@ -1,0 +1,70 @@
+{
+  "name": "pro-shooter",
+  "sourcePage": "https://poki.com/en/g/pro-shooter",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 958,
+      "sha256": "212612ef021fd35aa58e0c67bb03f8a492e22185bfa32ec6f83e38bb58f44ccc",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "b15e680b3c127958ef6ff40218bbcc0fce73930479f27d3d8a2133d52ddd5d16",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d215f5f4e8b4dffc56765eaa047d0fda9bd6ce069f2f7d31025c7736135165f8",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "289fe3c477950213b2d7a46bd51ee62b66ed2a67d537099e95f9de3aa9f6df9b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "8d49ac753c49cb2a6078ec1b28c53bfb98a3776173dddafd41adf4068a28aea5",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 958,
+      "sha256": "212612ef021fd35aa58e0c67bb03f8a492e22185bfa32ec6f83e38bb58f44ccc"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d215f5f4e8b4dffc56765eaa047d0fda9bd6ce069f2f7d31025c7736135165f8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1292,
+      "sha256": "00244b0ff78b4ef89837e75070ab487250cf50ec564b36a58863ae61ccac417c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "289fe3c477950213b2d7a46bd51ee62b66ed2a67d537099e95f9de3aa9f6df9b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "8d49ac753c49cb2a6078ec1b28c53bfb98a3776173dddafd41adf4068a28aea5"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

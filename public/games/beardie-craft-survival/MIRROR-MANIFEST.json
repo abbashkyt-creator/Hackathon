@@ -1,0 +1,75 @@
+{
+  "name": "beardie-craft-survival",
+  "sourcePage": "https://poki.com/en/g/beardie-craft-survival",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 55512,
+      "sha256": "dec7473aeba08ad7efe24996b84a49865804f211d855a953f7dc402d0eed9d38",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "2903b720be57a78430dcfdf5e0cc221d4cdc3fae7fc452915e2c409fe890cce9",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "4126e2d6b31666ed4761237e556402e3e33ff0d0b6a8a2d9d6a2afdf1a7f4dbd",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "d1c33c7971ba1f28601df48f09572b307d01ee887d1073f304533418764a3860",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 312,
+      "sha256": "08557af8e9894e628fdc4bbe2cbe0558376491f4d1289658f9957b2b6ac9f62a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 55512,
+      "sha256": "dec7473aeba08ad7efe24996b84a49865804f211d855a953f7dc402d0eed9d38"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "4126e2d6b31666ed4761237e556402e3e33ff0d0b6a8a2d9d6a2afdf1a7f4dbd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 219,
+      "sha256": "a297735b52f20144bb4552e427deba55180d4b457b15b2b23ec876da6563ca16"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 3512,
+      "sha256": "9206a3e6323386d87cd6b753ccf7ca8d821482abdce2b9292880bc2b7074ede3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "d1c33c7971ba1f28601df48f09572b307d01ee887d1073f304533418764a3860"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 312,
+      "sha256": "08557af8e9894e628fdc4bbe2cbe0558376491f4d1289658f9957b2b6ac9f62a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

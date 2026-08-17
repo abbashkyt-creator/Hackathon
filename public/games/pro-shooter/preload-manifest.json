@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/pro-shooter/index.html",
+    "/games/pro-shooter/js/poki-sdk-shim.js",
+    "/games/pro-shooter/js/tiptap-platform-bridge.js",
+    "/games/pro-shooter/js/tiptap-inline-1.js"
+  ]
+}

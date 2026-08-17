@@ -1,0 +1,460 @@
+{
+  "name": "dino-quake",
+  "sourcePage": "https://poki.com/en/g/dino-quake",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1357,
+      "sha256": "a8a1d863bc9cc5630bc107f50ab8a20cb13148988bd903cbbf6792592b0760e2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "8cb0860fbece92a78e879d93c70b765b0a1cdaaf8e07039a755759ff9d405647",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "cd89c48f46718f2c2c1320483cf71d2356410ca593d36bea3c0f087735ee32cb",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "1d234b3adb2759a00b8b18feb4558af086e89ec8b74650b500fb44e3538d96ed",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "5bd85f73964873700709e216374b80d97022dfc543279979650dd1f7e4ebcdbd",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/audio/bgm/music_boss.ogg",
+      "bytes": 305803,
+      "sha256": "668f044f64fa94006ea835b87edc127f6969eb7cc30ea814b0dd2e84c8c49105"
+    },
+    {
+      "assetPath": "assets/audio/bgm/music_game_over.ogg",
+      "bytes": 18754,
+      "sha256": "ca263f4ec790f147ea9d68e94613ba53765c84a8640d9e083245bc10d70a65ac"
+    },
+    {
+      "assetPath": "assets/audio/bgm/music_level.ogg",
+      "bytes": 620117,
+      "sha256": "5c935a47ab4b67bfd3a1c9dfad3225ca0b2b71b3a584e4f2d411f2ba0816e453"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundAvalancheBigHit.ogg",
+      "bytes": 9374,
+      "sha256": "010e4b6392d2ca88954ed3c24df596ae7193a168cf35651d31f4b03a6117b4ae"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundAvalancheGetsEnemy.ogg",
+      "bytes": 7884,
+      "sha256": "6ac3c2d397033bbce56a3efc74f43dd8eee8b0dd594ab7881252022b7afc79e9"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundAvalancheMediumHit.ogg",
+      "bytes": 7313,
+      "sha256": "0ebfb93acbf4c5dc3ab4d090ec3e1cda0d1295675d4ba56a0d26f2dc79dbd048"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundAvalancheSmallHit.ogg",
+      "bytes": 7435,
+      "sha256": "cd6d041113d8f4afd0faf0b4a4a12418b3c5e22fffb8bc16b35173fe6fb42af2"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundBigQuake.ogg",
+      "bytes": 16679,
+      "sha256": "96cc7333eac3d73963e5f6c2594f816e3b6f882ca0a09e2524145c39ba0402a6"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundBossHurt.ogg",
+      "bytes": 27625,
+      "sha256": "5f3d0df53b89f2979b61041aed1bf3bc5cee9c1a820c4aff3d1fb99eac7a9796"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundCannon.ogg",
+      "bytes": 15772,
+      "sha256": "7d913ebc8fb050c3ab30265adf036594a8d587b7792792b9c3bec1b779c6e00f"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundCrate.ogg",
+      "bytes": 15752,
+      "sha256": "c1e7a0741fd8da50078f9ea1fb8e51a827c11dc197aa5ef997cd1089d3ce809b"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundDandelion.ogg",
+      "bytes": 29196,
+      "sha256": "208e6476a28eab98296cc4cb066334219e47e31a0aefef99f12e8151e4099040"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundDoorWalk.ogg",
+      "bytes": 12208,
+      "sha256": "75d402026d18fc09e5903300e8850fb3163ec72eb63c63761324189fb6c22c8b"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEat.ogg",
+      "bytes": 6715,
+      "sha256": "80f98b93b30066c6991e1dd10f05e27ef4b3e8f4cfccd651be9b961f984ec58c"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEggImpact.ogg",
+      "bytes": 5985,
+      "sha256": "ea29a839e1f5faffbc63c3e687577b72ce0a9b1fff1fa724a38418b81bfc5018"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEnemyHit.ogg",
+      "bytes": 7445,
+      "sha256": "08d6a548a1d998767acb0b7293750c9d5532902f0eebe007e0527023b89c9c20"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEnemyHurt.ogg",
+      "bytes": 12442,
+      "sha256": "aa650c065523559f57999c9f2fabb1c0b4d05ab43584ac524158e21bf4131d2d"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEnemyKickA.ogg",
+      "bytes": 13758,
+      "sha256": "7d017b4593f251596794fddd970a19160e01b16178995f09d4275c616a8a7b66"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEnemyKickB.ogg",
+      "bytes": 13747,
+      "sha256": "d4f5fc836f8314e69a83d91429c7b84ffbe4628a5a09a556e4b1ebea2df2c493"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundError.ogg",
+      "bytes": 8000,
+      "sha256": "f7d7e5f4bf6bb9bbc6cebc29a1eacef612ea7664881bb314414c9ebc8a41ab30"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundEyeBlink.ogg",
+      "bytes": 8870,
+      "sha256": "ee87e48e38d4a3583794ece746df46927433d8a810243926ef0af1df860cb754"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundFallDown.ogg",
+      "bytes": 20879,
+      "sha256": "336b1f16f36b8d8df2302f59fc5702c4f00a45596c2d08cef279bb4a4048925b"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundFireBullet.ogg",
+      "bytes": 6789,
+      "sha256": "98f77f49707feab22f55b89dce8c4b0f56fef4e78c34ade9e3d39f2c87f6773d"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundFlame.ogg",
+      "bytes": 19248,
+      "sha256": "032807dec709cf92d27aefcbeca6ba25c0eaf551d855f7581370788cbf35bafe"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundFrog.ogg",
+      "bytes": 14805,
+      "sha256": "c0424b9c20c007141c8c856aebb9eaa30a35ac64ac8b70fd871ed8010d9a1281"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundGameStart.ogg",
+      "bytes": 22517,
+      "sha256": "d37c882aa6891324dab5beb9467a9c58b5d703f352ae16d5ef4ea06d08eb60c0"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundGhostAppear.ogg",
+      "bytes": 18420,
+      "sha256": "01dfcec23cee5a99a031b7ac66e58e492fec90571205204620b22c5f16d46e96"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundGiantJump.ogg",
+      "bytes": 17133,
+      "sha256": "6b4bcd8a279ec44f811f642652c7e9e345798dc76feeee5cc105b1bc978982f0"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundGroundStomp.ogg",
+      "bytes": 15997,
+      "sha256": "28dc565881bb774d2d68cc24018a1d02e4114225ce39ea661524a6ac5f8a38c4"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundHudBack.ogg",
+      "bytes": 9382,
+      "sha256": "4928d7d1575e02e929efb4a25c79c55447ca6218af0bde975695a4277d15e7ba"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundHudMove.ogg",
+      "bytes": 7961,
+      "sha256": "004b6c4f555317abe6c457dc89afad6f7e21d0fe615ffd2e0d98f0204ccfe56a"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundHudSelectLong.ogg",
+      "bytes": 18874,
+      "sha256": "271eff77aea9ef885de5e25b1b2aff4c40cbe9562af8a09bc1f380b8df0ae845"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundHudSelectShort.ogg",
+      "bytes": 6809,
+      "sha256": "5e1c4298d670af5328c00eab796eee0034a26ee2e636cf889b99fecf4b0ba26c"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundHurryUpEnemy.ogg",
+      "bytes": 40182,
+      "sha256": "dafef086c7cee12d570a6f20f2f882256185e28044d402d4dcf39bf8f999b4a3"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundImpactBig.ogg",
+      "bytes": 15110,
+      "sha256": "388364d12eef09386e44bf9878f217a63a8855261f86c34e64dbfd054d65639a"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundJumpA.ogg",
+      "bytes": 8227,
+      "sha256": "68f15a40f650fbf764c87a9afdfb1e1acfc3b7b9a984530bebd9ff477796bee3"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundJumpB.ogg",
+      "bytes": 8715,
+      "sha256": "a37a3e67002f48d35cc508c4631ddf01480e96299b33ab8058a7cd1e573763e5"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundLaser.ogg",
+      "bytes": 10964,
+      "sha256": "4ad82a4a36172ebb1e4622428c4fc02f099df9f8421b13efb3114e6d32620e55"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundLastBossAttack.ogg",
+      "bytes": 30845,
+      "sha256": "e6062247f8bbf97c25bff78ca07392f182f732fce340b2449e9812fef61df1bc"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundLevelStart.ogg",
+      "bytes": 13051,
+      "sha256": "8173a32b495af51de69821b15571a24827aedd9cc7fbc252c6d5a78244c325b9"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundLogo.ogg",
+      "bytes": 30890,
+      "sha256": "965c3b6a981a03a536a8e2590c8b13d67bb68cf2e4983c301481b84641c5fb8d"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundMud.ogg",
+      "bytes": 15643,
+      "sha256": "46c364a153c6f73655b555a85ea08f48d3c5a0a4de04fdc15d2d9da82c9bc8e1"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundNextLevel.ogg",
+      "bytes": 22901,
+      "sha256": "c779e27da6d2260055e5cc987e59b521717e1b28c6ea2d15f25c88a0eea0dbb6"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundNoQuake.ogg",
+      "bytes": 7988,
+      "sha256": "d90d250eebc65cd9691f8d91a1a571b5df5f7c55845cdaf492d5b9e5a79b3820"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundPlayerDie.ogg",
+      "bytes": 15224,
+      "sha256": "6bff13bfbbedb980c5ba7d9485ade5971a0ffd3dd74301b026509109578d5b28"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundPoint.ogg",
+      "bytes": 5144,
+      "sha256": "abdcaa9f9723afb350fa1869ed57f96c96d06426e6cfca31b86c042ea4e55555"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundPointB.ogg",
+      "bytes": 11612,
+      "sha256": "088396884217e93014cbe670017443a906f18695f7c10f3324411a37af6eaa85"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundPop.ogg",
+      "bytes": 6678,
+      "sha256": "3a3f3238ccc07dbe71f5b58a48318a203da333fbe6857fbf926004ecd5b02099"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundPortals.ogg",
+      "bytes": 24258,
+      "sha256": "ba035cb57318cb2e829fdee8723b4bc58b5b961cf8f60e9cbb1184b0d7cfd125"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundPowerUp.ogg",
+      "bytes": 10156,
+      "sha256": "dd2c36754569faf8d8a0303e3f2397aaa18608d58c0fb5aa0d7627f8a4aafd52"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundQuake1.ogg",
+      "bytes": 9518,
+      "sha256": "44ec36de80bf5d6063f18b9a05e68cf7110018c6c6c98ccc50b7ed6f7cc94e03"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundQuake2.ogg",
+      "bytes": 8594,
+      "sha256": "aa3c421a7bd4d7e2cacb4a19e11ac26cd8026bb1ae23490619fe2ed19e700aa2"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundQuake3.ogg",
+      "bytes": 10474,
+      "sha256": "5e57c3db803848134066e2bdbf333f1f2634cbdc90cff7c8e0b9df35e5e05c81"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundRoar.ogg",
+      "bytes": 28106,
+      "sha256": "a1ead9ff755e046442c5ce544c6fa6ace109ade374cf0c9387eff5f7306ac634"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundRollBounce.ogg",
+      "bytes": 12078,
+      "sha256": "e09f19ea8be6beb2b34d1564ad73132564e511dcded8bc6911e55c4fabcaa66b"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundRollLoop.ogg",
+      "bytes": 8270,
+      "sha256": "0761f06d0b16722bc4e7893ebdce49d887fecafa1d37cb5c66e44135e2a47bb6"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundScreech.ogg",
+      "bytes": 17801,
+      "sha256": "3573b97bce1f3d43e68fef2a9c9042ef1860165d2dde14ed0dd110285c1d67b9"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundSiren.ogg",
+      "bytes": 11181,
+      "sha256": "03fdac4678a0a1ab0f070bdfda0ad4d531bd7a8a46bdd833293073bd23bb9b62"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundSnowball.ogg",
+      "bytes": 12864,
+      "sha256": "0900b0c9cc009ebf84ef5e63e22f9c8591914697cfbbfff317c55897882cb317"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundThrow.ogg",
+      "bytes": 11177,
+      "sha256": "911691d3a32f79439030623ed27b719847e32d64bacdd3f606d21b26a7a07c7b"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundTrexStomp.ogg",
+      "bytes": 25130,
+      "sha256": "9cbffc2abdbc7309f1412533de3b2315958ff8897b92fc26dd72b97b1b24a0ab"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundTurnipLetterImpact.ogg",
+      "bytes": 5794,
+      "sha256": "e8bfa85c25bfe942bb75165eae6824395e906839456d04742d3d139495121616"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundVenomBullet.ogg",
+      "bytes": 8612,
+      "sha256": "c0705d521d9bfbd53d8a29e5067bf3fc0b7e2af74b9ba47b4717829b911f5e9d"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundVoiceGreat.ogg",
+      "bytes": 8685,
+      "sha256": "157652ad96d585353d3834b192f5611d60e859e84581e0f43bc13c623128cdee"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundVoiceSuper.ogg",
+      "bytes": 11541,
+      "sha256": "21da39dcd45dec4fceb2f3a72602bdab558107ba78d4f832536dd7dd444468e1"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundVoiceWow.ogg",
+      "bytes": 10331,
+      "sha256": "8de67b824d802b6b6940f6f738555d6b13442c400fe957b56d4209d198e59dba"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundWaterBullet.ogg",
+      "bytes": 6565,
+      "sha256": "cf2738c19dc37a9410e28ddd8c40308c45ac5c9c38d74d182f44eedf4b07846a"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundWaterSplash.ogg",
+      "bytes": 11939,
+      "sha256": "8bff1dd5ecc0b9982e4b08a3ed3a8ccb7baaa54f5f633886b158b618fe63c041"
+    },
+    {
+      "assetPath": "assets/audio/sfx/SoundWaterSplashLow.ogg",
+      "bytes": 25837,
+      "sha256": "8ecb2d916ccd5431ba37d8bbabdc4ec7bb4f441564bbff2678b30f136b0a9902"
+    },
+    {
+      "assetPath": "assets/entities.png",
+      "bytes": 279618,
+      "sha256": "7300b4ded059053e69923b667db1ecee195132ac5152838d1fd23a1dfe641cef"
+    },
+    {
+      "assetPath": "assets/group_1.png",
+      "bytes": 77544,
+      "sha256": "012fe2f7322c03553163a4a896b5fb85b7edc44eb2ece853157d69fa3f14ace4"
+    },
+    {
+      "assetPath": "assets/hud_texture.png",
+      "bytes": 48126,
+      "sha256": "eeca888e5b02890b51b9359c61c4f8f204c7d2b8d622f2eadc10d5b50adc6e6f"
+    },
+    {
+      "assetPath": "assets/intro_texture.png",
+      "bytes": 14262,
+      "sha256": "22ab2067e5e34b1c04a2c0ab20ce664241d231af409c3697395c792f3e3c7051"
+    },
+    {
+      "assetPath": "assets/intro_texture_2.png",
+      "bytes": 52005,
+      "sha256": "5583e5cc62a21af2568df47379c94e2f9df86da18846f5c7f87dbba07d7e4a94"
+    },
+    {
+      "assetPath": "assets/sinusoidal_wave_texture.png",
+      "bytes": 217,
+      "sha256": "a90cec5d605b1866b173793709c4181f5d935b4288409c9375b7407659254c71"
+    },
+    {
+      "assetPath": "Dino Quake.js",
+      "bytes": 6271892,
+      "sha256": "18a8cd5b18be586a6ebc1dbd950d51c2f949f1938e8c369718558fbcb92dfce3"
+    },
+    {
+      "assetPath": "favicon.png",
+      "bytes": 13971,
+      "sha256": "56c2553b439b117417bb09b3c3474ee813492d8ff8f6b287ea67a631022d2b63"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1357,
+      "sha256": "a8a1d863bc9cc5630bc107f50ab8a20cb13148988bd903cbbf6792592b0760e2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "cd89c48f46718f2c2c1320483cf71d2356410ca593d36bea3c0f087735ee32cb"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 391,
+      "sha256": "ddb4e5048191c0dcc1ea3d05371d7910031a270a0e4a2dba9d17be001441af78"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 76,
+      "sha256": "6d18d72d1d707be293e88c8ab1e821121c5fe3197799a317c2c593fe45e6acf8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "1d234b3adb2759a00b8b18feb4558af086e89ec8b74650b500fb44e3538d96ed"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "5bd85f73964873700709e216374b80d97022dfc543279979650dd1f7e4ebcdbd"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

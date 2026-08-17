@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/doc-darling-bone-surgery/index.html",
+    "/games/doc-darling-bone-surgery/js/poki-sdk-shim.js",
+    "/games/doc-darling-bone-surgery/js/tiptap-platform-bridge.js"
+  ]
+}

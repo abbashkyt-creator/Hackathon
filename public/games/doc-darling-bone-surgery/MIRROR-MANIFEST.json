@@ -1,0 +1,75 @@
+{
+  "name": "doc-darling-bone-surgery",
+  "sourcePage": "https://poki.com/en/g/doc-darling-bone-surgery",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2485,
+      "sha256": "8d831264b27a654fa6bfade61b1423da3967c49725cce6cf0cb9b8277abbdf6c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 178,
+      "sha256": "58885a9fa823ba1608b2e6d37976d11d7e5b47657073254bca7b1b3c37f81028",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "51956921884092de3f496b0fa16e25d441a10d4426b17bdecd6cbfaaba7e22d2",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "90dc7846168d9ad4bea53b9afd04178b5003ed3378d65e27352b94785230e00c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 200,
+      "sha256": "3b0cf11d80b2ab7ca94753a53c74db2f31e1eecfc399d01f6a211812d185adc0",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "doc_darling_bone_surgery.js",
+      "bytes": 2098011,
+      "sha256": "8b369a81a41b528e4cad7a42d5b1051266761bc8e98985f28907914f3729aa87"
+    },
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12486,
+      "sha256": "eada1ce7864e25cff7baece57bc31a9a27b65270d6019f3d70d7b7fbdd164d57"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2485,
+      "sha256": "8d831264b27a654fa6bfade61b1423da3967c49725cce6cf0cb9b8277abbdf6c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 938,
+      "sha256": "51956921884092de3f496b0fa16e25d441a10d4426b17bdecd6cbfaaba7e22d2"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 865,
+      "sha256": "90dc7846168d9ad4bea53b9afd04178b5003ed3378d65e27352b94785230e00c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 200,
+      "sha256": "3b0cf11d80b2ab7ca94753a53c74db2f31e1eecfc399d01f6a211812d185adc0"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
