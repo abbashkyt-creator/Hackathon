@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "the-superhero-league-2"
   | "slime-dunk"
   | "grass-knight"
   | "gas-station"

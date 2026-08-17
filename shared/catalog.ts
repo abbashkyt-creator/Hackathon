@@ -356,6 +356,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "gas-station": { creatorId: "gas-station", creatorName: "Gas Station", creatorLabel: "BY GAS STATION · LOCAL SOURCE MIRROR", category: "Arcade" },
   "grass-knight": { creatorId: "grass-knight", creatorName: "Grass Knight", creatorLabel: "BY GRASS KNIGHT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "slime-dunk": { creatorId: "slime-dunk", creatorName: "Slime Dunk!", creatorLabel: "BY SLIME DUNK! · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "the-superhero-league-2": { creatorId: "the-superhero-league-2", creatorName: "The Superhero League 2", creatorLabel: "BY THE SUPERHERO LEAGUE 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

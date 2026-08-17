@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "the-superhero-league-2": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "slime-dunk": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "grass-knight": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "gas-station": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
