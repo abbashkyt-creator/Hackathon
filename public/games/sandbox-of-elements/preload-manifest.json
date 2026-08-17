@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/sandbox-of-elements/index.html",
+    "/games/sandbox-of-elements/js/poki-sdk-shim.js",
+    "/games/sandbox-of-elements/js/tiptap-platform-bridge.js"
+  ]
+}

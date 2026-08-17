@@ -1,0 +1,10 @@
+:root{
+    --button-border-color: rgb(124, 124, 129);
+}
+
+
+.drui-slot {
+    align-items: center;
+    /* background: rgb(255, 0, 255); */
+    border: 1px solid var(--button-border-color);
+}

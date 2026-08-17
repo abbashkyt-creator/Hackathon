@@ -1,0 +1,5 @@
+.drui-content{
+    user-select: none;
+    overflow-y: auto;
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+}

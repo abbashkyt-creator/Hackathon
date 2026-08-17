@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/perfect-shape/index.html",
+    "/games/perfect-shape/js/poki-sdk-shim.js",
+    "/games/perfect-shape/js/tiptap-platform-bridge.js",
+    "/games/perfect-shape/js/tiptap-inline-1.js"
+  ]
+}

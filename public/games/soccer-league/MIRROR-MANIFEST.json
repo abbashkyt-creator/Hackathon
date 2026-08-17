@@ -1,0 +1,70 @@
+{
+  "name": "soccer-league",
+  "sourcePage": "https://poki.com/en/g/soccer-league",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1285,
+      "sha256": "832ecb8fefdb5e5e23fcd47957a43e4664233c62ca83ed361dcdea97952dc58b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "b3e861c030f2d5e3f2833f26fa89130bf3fd20fa2e8f619ed631ac1cfb49a40d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "51121f6029255c79a14edb7b3060be913cfed6e96991dd3281ebfb209c0707f0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "ec31aef9e5105c1bc2d56030651d3fe3374c725f4a6fc9305abf021a83bc0c54",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 167,
+      "sha256": "7d4a2a97273e4f00ef12c5920290b6e5b9767467a4ae371b06dc53f7183ee16a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "a6dd187825b37de3e2d12508bfefafa510db6dffecdc8d3e5eeba5c94f28ebeb"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "51121f6029255c79a14edb7b3060be913cfed6e96991dd3281ebfb209c0707f0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1216,
+      "sha256": "ca63aaba94c410dce8af79aa2365a986d13466c689887775c331737a85832cfa"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "ec31aef9e5105c1bc2d56030651d3fe3374c725f4a6fc9305abf021a83bc0c54"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "a6c3c1b744339ae48e2267a5738a75f9f521c12e434cc642573252c2b245a7bd"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

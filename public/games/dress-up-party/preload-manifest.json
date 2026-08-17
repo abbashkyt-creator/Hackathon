@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/dress-up-party/index.html",
+    "/games/dress-up-party/js/poki-sdk-shim.js",
+    "/games/dress-up-party/js/tiptap-platform-bridge.js"
+  ]
+}

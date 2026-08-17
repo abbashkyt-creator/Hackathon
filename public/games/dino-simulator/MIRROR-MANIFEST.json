@@ -1,0 +1,100 @@
+{
+  "name": "dino-simulator",
+  "sourcePage": "https://poki.com/en/g/dino-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2970,
+      "sha256": "4b8365cbd81387951de7fcaf272a84d965a002d97823d631442d82efe7907b9a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "94dbe35a5cc24263af209baa001fc57e5676a32fdd3dd16eeb17d87acadd1ba4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "b2f474f682359d165fa40ba7c0e032d89feaa00061ab9fed353a6b792b259526",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "e81fd72772cb74e79b053a899036bcd0549556e31a19c38efb8cf96f0ab44d0c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 323,
+      "sha256": "15cef06f0b4dcfd8cd764a0988c06bb9a3d1be482c8332fb146997b36ceb67ff",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.apple-touch-icon.png",
+      "bytes": 112,
+      "sha256": "0cf3b7a4e032277baeb2209c8fee2f8b9d9cf7fb09990e775a70e6a5715b86b7"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2970,
+      "sha256": "4b8365cbd81387951de7fcaf272a84d965a002d97823d631442d82efe7907b9a"
+    },
+    {
+      "assetPath": "index.icon.png",
+      "bytes": 91,
+      "sha256": "c51496b33e3f1d38bbe7357932d65d40fa8c8d6ec20e59cbf45c722eb4ee5125"
+    },
+    {
+      "assetPath": "index.js",
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "b2f474f682359d165fa40ba7c0e032d89feaa00061ab9fed353a6b792b259526"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 229,
+      "sha256": "24a9ee79e2e3b457acfbefd8d67bf0a01c9b11d173da27e5106e6bebf7115b76"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 28,
+      "sha256": "5752c944d4643ae9356fa57f42e99d884195a31a071b3260a0a07e4aa4150606"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 12425,
+      "sha256": "970a1e89e318dfa875315b81639c4cb497a68a5ca81e59d25144c17792001caf"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "e81fd72772cb74e79b053a899036bcd0549556e31a19c38efb8cf96f0ab44d0c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 323,
+      "sha256": "15cef06f0b4dcfd8cd764a0988c06bb9a3d1be482c8332fb146997b36ceb67ff"
+    },
+    {
+      "assetPath": "startup.webp",
+      "bytes": 51246,
+      "sha256": "a6b2f833baf79e5e86d4be545d0ca3f70fbb7221dcbb71d11d9a8a5687613abc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

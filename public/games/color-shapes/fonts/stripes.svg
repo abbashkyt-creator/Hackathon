@@ -1,0 +1,19 @@
+<svg width="1170" height="458" viewBox="0 0 1170 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_944_12353" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1170" height="458">
+<rect width="1170" height="458" rx="30" fill="url(#paint0_linear_944_12353)"/>
+</mask>
+<g mask="url(#mask0_944_12353)">
+<line y1="-46.5" x2="1466.39" y2="-46.5" transform="matrix(-0.58586 -0.810412 0.58586 -0.810412 288.93 596.898)" stroke="#FFDB75" stroke-opacity="0.93" stroke-width="93"/>
+<line y1="-46.5" x2="1466.39" y2="-46.5" transform="matrix(-0.58586 -0.810412 0.58586 -0.810412 1295.24 596.898)" stroke="#FFDB75" stroke-opacity="0.93" stroke-width="93"/>
+<line y1="-46.5" x2="1466.39" y2="-46.5" transform="matrix(-0.58586 -0.810412 0.58586 -0.810412 792.082 596.898)" stroke="#FFDB75" stroke-opacity="0.93" stroke-width="93"/>
+<line y1="-46.5" x2="1466.39" y2="-46.5" transform="matrix(-0.58586 -0.810412 0.58586 -0.810412 540.508 596.898)" stroke="#FFDB75" stroke-opacity="0.93" stroke-width="93"/>
+<line y1="-46.5" x2="1466.39" y2="-46.5" transform="matrix(-0.58586 -0.810412 0.58586 -0.810412 1546.82 596.898)" stroke="#FFDB75" stroke-opacity="0.93" stroke-width="93"/>
+<line y1="-46.5" x2="1466.39" y2="-46.5" transform="matrix(-0.58586 -0.810412 0.58586 -0.810412 1043.66 596.898)" stroke="#FFDB75" stroke-opacity="0.93" stroke-width="93"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_944_12353" x1="585" y1="458" x2="585" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9" stop-opacity="0.19"/>
+<stop offset="1" stop-color="#737373"/>
+</linearGradient>
+</defs>
+</svg>

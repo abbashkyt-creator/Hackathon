@@ -1,0 +1,235 @@
+{
+  "name": "block-for-blood",
+  "sourcePage": "https://poki.com/en/g/block-for-blood",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1191,
+      "sha256": "b75a596bed24cf9fd22240a0118a2e893c812b8a5d3b811fce3906d22b40e271",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "7454e19dc144bfc1994abd89c82588dd92bc5cd4518da5110da61517bb9adc5a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "712f9b5595a1e6ea0dbc34df3f1b79c654c43f4c625450e5ff6a7349f89c9558",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "7d802f03e9b63d0765159b5d1d667b978b670ca1f805e14fce8bfe051e3ff83c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "cfcb120f48819f728d61951825f7fb70e9c528260d47e97b62992fc7da86df60",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2080459.json",
+      "bytes": 6382747,
+      "sha256": "0ff75687a9d7b363532ded256aac69751bde50ab9e354a9806b637aada6bd652"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 828594,
+      "sha256": "66a384aa264973de1b03d798d467adc4643c5b3f9c2ac3b768fea415c727ed60"
+    },
+    {
+      "assetPath": "files/assets/197683195/1/draco.wasm.wasm",
+      "bytes": 285747,
+      "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+    },
+    {
+      "assetPath": "files/assets/197683197/1/draco.js",
+      "bytes": 719410,
+      "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+    },
+    {
+      "assetPath": "files/assets/197683198/1/MonsterGrowl_BW.12705.mp3",
+      "bytes": 18826,
+      "sha256": "8d3ee17e00b452470b11d59ef78c53180740db62e82f2437bc497fe1884559c2"
+    },
+    {
+      "assetPath": "files/assets/197683463/1/HTML.html",
+      "bytes": 23833,
+      "sha256": "6a10dd0b1be52a4cc3b35a80dcc1de972323682d12843cb79a16d5afc55fb5ec"
+    },
+    {
+      "assetPath": "files/assets/197683600/1/CSS.css",
+      "bytes": 179607,
+      "sha256": "31dae34ac24765aed88ff20ce16fdff7decac1ed4f40b5bc7bbb5485325ba82a"
+    },
+    {
+      "assetPath": "files/assets/197683603/1/tr.json",
+      "bytes": 8765,
+      "sha256": "b167961481c8978cb255166867128e7902a9f27893b9c2134a88b948ab07cea2"
+    },
+    {
+      "assetPath": "files/assets/197683616/1/icon-mouseclick-outline.png",
+      "bytes": 1413,
+      "sha256": "efdc5e8e8879281044055add503c34504419dd594a83200790299ccb22d9e184"
+    },
+    {
+      "assetPath": "files/assets/197683746/1/Monster Death.mp3",
+      "bytes": 180798,
+      "sha256": "39546333d366e371da569a2f9d0622bfd51590a95d554c80d78f086d5ea56216"
+    },
+    {
+      "assetPath": "files/assets/197683752/1/popup.mp3",
+      "bytes": 6988,
+      "sha256": "4f59d872ff12d0be436a3d92f1e23592c6ecbbddeb814251b6dfb965c984723f"
+    },
+    {
+      "assetPath": "files/assets/197683957/1/pt.json",
+      "bytes": 8971,
+      "sha256": "a3ae09ce47af53e2cc6b83381467d75fc6364d8c296647c3033e20b828629d93"
+    },
+    {
+      "assetPath": "files/assets/197684115/1/ja.json",
+      "bytes": 10196,
+      "sha256": "03470c0f64d9a83d4d55f2d9d033d237bd77de31c12116fc6de87be82f4edd84"
+    },
+    {
+      "assetPath": "files/assets/197684120/1/es.json",
+      "bytes": 8859,
+      "sha256": "fcc86ffddd6059dc04459afef626303c7a81f5f584ca4c0f2f170c24d3cffde2"
+    },
+    {
+      "assetPath": "files/assets/197684121/1/it.json",
+      "bytes": 8879,
+      "sha256": "69cd303d29dd8261d88e3e95c3ac9fa8b17687c387376c3e6f2fc90afca29dd3"
+    },
+    {
+      "assetPath": "files/assets/197684124/1/ru.json",
+      "bytes": 11911,
+      "sha256": "9afbb3cc2b38fe2c272e7ac8581950b78e2a65bd64620c37a55386e95c8bb93e"
+    },
+    {
+      "assetPath": "files/assets/197684130/1/en.json",
+      "bytes": 8225,
+      "sha256": "47a07dc43411c0682c1e7739c620412b3c6557339307ad67cd6639fd21eb8825"
+    },
+    {
+      "assetPath": "files/assets/197684135/1/zh.json",
+      "bytes": 7853,
+      "sha256": "739cb19c9fb8100c9c1eb7a1687ff52f182656a0f9d0c97efd6b7bf1c8179362"
+    },
+    {
+      "assetPath": "files/assets/197684136/1/goblin.mp3",
+      "bytes": 18166,
+      "sha256": "76d163aae356b7c126c225d29fb27acb2f071107c933b75380083edcb4cc8475"
+    },
+    {
+      "assetPath": "files/assets/197691193/1/ammo.wasm.wasm",
+      "bytes": 659433,
+      "sha256": "772899614f44ea350189c1c7f181c9d76cf6820c3ead129e8e3d3c0f46dc1799"
+    },
+    {
+      "assetPath": "files/assets/197691195/1/draco.wasm.js",
+      "bytes": 58763,
+      "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+    },
+    {
+      "assetPath": "files/assets/197691196/1/basis.wasm.wasm",
+      "bytes": 611602,
+      "sha256": "70ed1e72dea7132706ee4e8637d9fc1e348ea03bb3a46644372f309067c47eef"
+    },
+    {
+      "assetPath": "files/assets/197691197/1/basis.wasm.js",
+      "bytes": 60106,
+      "sha256": "82143c2193310331a3186530cc1615950f5ddd4d308aa6a25d82ad1d5933c624"
+    },
+    {
+      "assetPath": "files/assets/197691198/1/basis.js",
+      "bytes": 1038957,
+      "sha256": "c85407f23254399027517c51dc129e49f3e4abec47450c8f144b2007f64565e9"
+    },
+    {
+      "assetPath": "files/assets/197691199/1/ammo.wasm.js",
+      "bytes": 391789,
+      "sha256": "02d64f358ec638f458fae29c291168ccd4f157a6a5622a4cd70760cc1b5cc15e"
+    },
+    {
+      "assetPath": "files/assets/197691200/1/ammo.js",
+      "bytes": 1895438,
+      "sha256": "2700ed751c7203f1a95cee96af69f34c0a1a9557ce52291ef0ecb8431796e562"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1191,
+      "sha256": "b75a596bed24cf9fd22240a0118a2e893c812b8a5d3b811fce3906d22b40e271"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "712f9b5595a1e6ea0dbc34df3f1b79c654c43f4c625450e5ff6a7349f89c9558"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "7d802f03e9b63d0765159b5d1d667b978b670ca1f805e14fce8bfe051e3ff83c"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 357,
+      "sha256": "be50df51ca1687da7e91f627c67d169584e65ed9fa12366b999c5ee2be06219b"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2296254,
+      "sha256": "a51b81ecd5daa716cb0f43140eb25ea1ab076bd121e743c7a4da7dc5cffe8f6a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "cfcb120f48819f728d61951825f7fb70e9c528260d47e97b62992fc7da86df60"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 372886,
+      "sha256": "7a4185787b4c57e334ce1e6c056563179133ad1c3d24f0281f324e5b95f1f58b"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 102224,
+      "sha256": "9675f362fe090541c9ac7033a8841d423fdee9ecb0f7111d0af1f9c80568d4f1"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 1707,
+      "sha256": "ca62490f9dd8e4cff78088998cf099541007cec589fc67114efd18e887eb10a6"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

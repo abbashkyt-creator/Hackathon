@@ -1,0 +1,145 @@
+{
+  "name": "cuboy-adventure",
+  "sourcePage": "https://poki.com/en/g/cuboy-adventure",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3290,
+      "sha256": "faeff9c8510fa13d1f1ac7750fb3d6a90e5daac88fb591a2bd1c4bee6911907a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "4cdeefcef8de7e6717092dfd2af94e656fc039e6ca86f8f7e744591727e1e922",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "f42756105ca00ac7550ebd8a61e23ec88d01019c8b25e85e95b580824dfacc48",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "b0c50bb37865a90f3687f943c9bb30c212969b69218b44f89648e973df9a0ec4",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 277,
+      "sha256": "f136da85854b75d3da39c030f66f9d08a0b08e3383b37c900c2881b546ddbc72",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Cuboy/aqh_pageBackground.js",
+      "bytes": 1406,
+      "sha256": "cdb8bdca0d803045636eca57370c1add7fa80b340ab46dfa8d43415c756d1c95"
+    },
+    {
+      "assetPath": "Cuboy/bqh_preventDefaultFix.js",
+      "bytes": 185,
+      "sha256": "fd56b145173cdb06eb8b2e9692aa8e1a79fb58be0e222318f6c404a3fa627632"
+    },
+    {
+      "assetPath": "Cuboy/cqh_Poki.js",
+      "bytes": 2516,
+      "sha256": "abff00bebe059ca6dbad0ebb4263a4d13a9353c813e16f51da758bb51d771624"
+    },
+    {
+      "assetPath": "Cuboy/Cuboy.js",
+      "bytes": 3825709,
+      "sha256": "050b5146786fb38ffd733be87df292c41b66aaa15935492243c49cd5038fabe8"
+    },
+    {
+      "assetPath": "Cuboy/Cuboy_texture_0.png",
+      "bytes": 1377,
+      "sha256": "d94f0ee66d9e31aface08fa9c121065843c0370075d3b8ba4a29d88d3c36bc42"
+    },
+    {
+      "assetPath": "Cuboy/Cuboy_texture_1.png",
+      "bytes": 46760,
+      "sha256": "748a059056dcc8ed079c29d8815904a3aeec6b44bf36fe5d9c6200a2cc76dc33"
+    },
+    {
+      "assetPath": "Cuboy/Cuboy_texture_2.png",
+      "bytes": 61579,
+      "sha256": "2e2b34a4587df58044a65f097384073b4d506e2342d4c6938a29a297ce81bac5"
+    },
+    {
+      "assetPath": "Cuboy/Cuboy_texture_3.png",
+      "bytes": 71130,
+      "sha256": "451466878f9b27a32d7ebbdf48f9415750dbb713a2aedf1748cd569fada467cf"
+    },
+    {
+      "assetPath": "Cuboy/Cuboy_texture_4.png",
+      "bytes": 51802,
+      "sha256": "a01b45786119d27e87350dd39ea17c8ccb11ba12a6db0bb9e263cf5dacb4ed38"
+    },
+    {
+      "assetPath": "Cuboy/eqh_statusBar.js",
+      "bytes": 757,
+      "sha256": "a784fae7238b714f9317373a25b2e56b52e7c1aa59b4d457fe68c77d3caea19c"
+    },
+    {
+      "assetPath": "Cuboy/splash.png",
+      "bytes": 14971,
+      "sha256": "e5238c0a06ac8daadc0bb1ff5357f0637cd0ad01f68f34ea2a97004d0afc9f41"
+    },
+    {
+      "assetPath": "Cuboy/tph_backButtonChecker.js",
+      "bytes": 537,
+      "sha256": "1514a5102505d0e6d1f7984c577726c53e8d1c13d0785e2fb14f5cc82a92597a"
+    },
+    {
+      "assetPath": "Cuboy/uph_browser_hdpi.js",
+      "bytes": 397,
+      "sha256": "db1a33154cd48c288e01fa9478dac207c7f61db3565aa3e542a84816420dd986"
+    },
+    {
+      "assetPath": "Cuboy/vph_GameAnalytics.js",
+      "bytes": 90902,
+      "sha256": "641bc475a64e38d02d396531502492eea62fc4e8e608a713c3902e91a78ed743"
+    },
+    {
+      "assetPath": "Cuboy/xph_GameAnalyticsExt.js",
+      "bytes": 3963,
+      "sha256": "2f4d4b1960b31f61204d0b3e6d0d5a765231214b533fa7b91d69bd72f64936f7"
+    },
+    {
+      "assetPath": "Cuboy/yph_ImageLoadBar.js",
+      "bytes": 2488,
+      "sha256": "df06a40899eb6e11e2f8ef7fd66be3ca1713563e19dfa64b4cee20c8823e49d8"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4586,
+      "sha256": "fbf73397b0d5146fe0785f46a091ed818e6a16da9e2928c3e34217f13b21c8fe"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "f42756105ca00ac7550ebd8a61e23ec88d01019c8b25e85e95b580824dfacc48"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "b0c50bb37865a90f3687f943c9bb30c212969b69218b44f89648e973df9a0ec4"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "0f5d014dccb3917f2cd6b7954e74fc3c5c79bbc6807ecc2a30b3348434513c8b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

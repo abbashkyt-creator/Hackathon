@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/robo-cleaner-simulator/index.html",
+    "/games/robo-cleaner-simulator/js/poki-sdk-shim.js",
+    "/games/robo-cleaner-simulator/js/tiptap-platform-bridge.js"
+  ]
+}

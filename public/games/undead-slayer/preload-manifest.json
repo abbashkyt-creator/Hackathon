@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/undead-slayer/index.html",
+    "/games/undead-slayer/js/poki-sdk-shim.js",
+    "/games/undead-slayer/js/tiptap-platform-bridge.js"
+  ]
+}

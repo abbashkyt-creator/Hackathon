@@ -1,0 +1,70 @@
+{
+  "name": "flip-pounce",
+  "sourcePage": "https://poki.com/en/g/flip-pounce",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "8c32016c51805fda6932e864a47f4531b171d2396e541dea06e2629af8b6962d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "d065d152a5e825597f7aa98d7b8104517ab28789137c4dc52c9634dba1804bc7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "866c594d2c77aa463d99e60d90e26aff2d0962e6681e6459250189a8c93d996b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "6da71a720b8e903ec2e36a9f803482601db2c7e0b4f7440182dd2a885267a755",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "e1609453082b1a435416032bed994049912fbc55e0d8c3fdd8ba543c098b7495",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "8c32016c51805fda6932e864a47f4531b171d2396e541dea06e2629af8b6962d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "866c594d2c77aa463d99e60d90e26aff2d0962e6681e6459250189a8c93d996b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1061,
+      "sha256": "989b6b5a1b10a339f6e91c60fe5315b3e135b6cfb358a5e8c67e6c3806ced9fc"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "6da71a720b8e903ec2e36a9f803482601db2c7e0b4f7440182dd2a885267a755"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "e1609453082b1a435416032bed994049912fbc55e0d8c3fdd8ba543c098b7495"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

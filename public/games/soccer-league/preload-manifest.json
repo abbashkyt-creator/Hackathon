@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/soccer-league/index.html",
+    "/games/soccer-league/js/poki-sdk-shim.js",
+    "/games/soccer-league/js/tiptap-platform-bridge.js"
+  ]
+}

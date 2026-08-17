@@ -1,0 +1,70 @@
+{
+  "name": "tiny-game-shop-tycoon",
+  "sourcePage": "https://poki.com/en/g/tiny-game-shop-tycoon",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "a75b19823b24288a8d7103d742dd55d95492e8a38da72214e751bef3fc864364",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "bf5265da24d0c8a3cabdf6e985881288fa9fcd3f9ea89018555904283b7e3c42",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "5481daa1dfd284be11b3007cb3a836cac12999e82742ffbec33927dda2a9ab40",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "f535e949d71053b6a8655d6ab6185bdd06097fabf30b4411347b782d7decb37e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "a3d9364f06d7d94b263e25d3754ceb3babdfd7b9ac29a8853cbd64d3163e7fe8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 849,
+      "sha256": "a75b19823b24288a8d7103d742dd55d95492e8a38da72214e751bef3fc864364"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "5481daa1dfd284be11b3007cb3a836cac12999e82742ffbec33927dda2a9ab40"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1025,
+      "sha256": "2692e17dd8cedacc9a110113c333ec499da85a257387b1d80fb11852e2ab049b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "f535e949d71053b6a8655d6ab6185bdd06097fabf30b4411347b782d7decb37e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 249,
+      "sha256": "a3d9364f06d7d94b263e25d3754ceb3babdfd7b9ac29a8853cbd64d3163e7fe8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

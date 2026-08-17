@@ -68,7 +68,7 @@ function runOne(slug) {
     const args = [join(ROOT, "scripts", "auto", "ingest-game.mjs"), slug, "--skip-verify"];
     const p = spawn(process.execPath, args, { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"] });
     let out = "";
-    const timeout = setTimeout(() => { try { p.kill("SIGKILL"); } catch {} }, 180_000); // 3 min timeout
+    const timeout = setTimeout(() => { try { p.kill("SIGKILL"); } catch {} }, 300_000); // 5 min timeout
     p.stdout.on("data", d => out += d);
     p.stderr.on("data", d => out += d);
     p.on("close", code => {

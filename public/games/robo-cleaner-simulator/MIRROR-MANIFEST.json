@@ -1,0 +1,165 @@
+{
+  "name": "robo-cleaner-simulator",
+  "sourcePage": "https://poki.com/en/g/robo-cleaner-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1185,
+      "sha256": "d940dc1e9b434501ffbc1c07ada313adb808665c5d06e63d68af057aed107787",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "3ef26d0f2611036dac9947975ae1f2a1cb23894d4c19a7ad84504b86cee8050a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "3d98a4bbfa37a1b103f0a758480c77cc2990dc8dcb5f267616f5ee69973a8f13",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "0d6dd35c2128bf967bcc2cca1cdf3d1bc694334c7d73406765af55b0461109cd",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 194,
+      "sha256": "b829866b42c5f03ab601d62a8a3ac78b4efb455500580cc969b24bf31286300f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2442538.json",
+      "bytes": 172455,
+      "sha256": "23c328cd9ccb6f777c2f9fe80a35b97782376d0af84ec8953bbab1f888fcafbc"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 105435,
+      "sha256": "929d35bf450087afdcbde8270da7caa0f6043ed08bbb5e0d58822d15d6442dd5"
+    },
+    {
+      "assetPath": "files/assets/279092622/1/ammo.wasm.js",
+      "bytes": 257380,
+      "sha256": "da55f36ea762ecffb53c1e4fe5671753daa872e6e1f32fc4cb10ef7c1c1f7810"
+    },
+    {
+      "assetPath": "files/assets/279092623/1/ammo.js",
+      "bytes": 1202416,
+      "sha256": "abafae61be7bcd6ba6dea40843dd2dc416a5a5f283ce2d901dc88ccc80ec494e"
+    },
+    {
+      "assetPath": "files/assets/279092624/1/ammo.wasm.wasm",
+      "bytes": 441312,
+      "sha256": "75d9f5516e4e545c17f04726efa863db956213879fd7fac94ba8060daa343857"
+    },
+    {
+      "assetPath": "files/assets/279092662/1/cash_register.mp3",
+      "bytes": 11256,
+      "sha256": "c3c076f172fae237e8afbbd9c26fdd1a616368646939063d6a2120e86a8d79e6"
+    },
+    {
+      "assetPath": "files/assets/279092681/1/bell.mp3",
+      "bytes": 9344,
+      "sha256": "6928f954760cd1e932d709816ca3ca3514486789881a1e1cad2930d5548d6419"
+    },
+    {
+      "assetPath": "files/assets/279093534/1/room.json",
+      "bytes": 28453,
+      "sha256": "0e6e8974e8a77d485d4c5786f7d729f83cd93d22a0f67fadf32fe425ad813399"
+    },
+    {
+      "assetPath": "files/assets/279357509/1/glossiness.jpg",
+      "bytes": 14560,
+      "sha256": "e314f6289f52f23aa62819f6bbcff2bc9d2998e3aafd202e7b56a0e4a2588efe"
+    },
+    {
+      "assetPath": "files/assets/279399107/1/interior_tiles_diff.jpg",
+      "bytes": 31985,
+      "sha256": "efd0ce0b7fb6bbb06d9dfb8d901c0d31dfa29133e948d3756e7feded85776efb"
+    },
+    {
+      "assetPath": "files/assets/279510755/1/laminate_floor_02_diff.jpg",
+      "bytes": 23709,
+      "sha256": "2f0edbab3abe58d9c457aa423c6e01357b868fa26bfe2384d7044b02e65c5165"
+    },
+    {
+      "assetPath": "files/assets/279521014/1/photo_studio_london_hall_1k_cubemap.png",
+      "bytes": 94341,
+      "sha256": "2806eee61ca205f65107c59ec1e6e0f26d2df41ed10b504f772ca3cfcf9b06d7"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1185,
+      "sha256": "d940dc1e9b434501ffbc1c07ada313adb808665c5d06e63d68af057aed107787"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "3d98a4bbfa37a1b103f0a758480c77cc2990dc8dcb5f267616f5ee69973a8f13"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "0d6dd35c2128bf967bcc2cca1cdf3d1bc694334c7d73406765af55b0461109cd"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 351,
+      "sha256": "f36b4530729af1a95a1fe88ae441fda2cf935a7e2187301c0bfcff95a092e536"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2373303,
+      "sha256": "972e394c9a7a3c49e215332e302511efc43e95bca3b7a5107c8850ed79303888"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 194,
+      "sha256": "b829866b42c5f03ab601d62a8a3ac78b4efb455500580cc969b24bf31286300f"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 78218,
+      "sha256": "54d6d502a23abc7f1a3141178fc771318dadcefbe371e909ce819b5703f43b64"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 14600,
+      "sha256": "e5c2cb3f82c8cc993bd28a13adcb91c078b952d0a0488bbbea4199a36260009e"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 1086,
+      "sha256": "740ff324c537b7193673902315320cf905ea582964faaffa228f6ed09fe6921f"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

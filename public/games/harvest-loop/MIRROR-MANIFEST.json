@@ -1,0 +1,70 @@
+{
+  "name": "harvest-loop",
+  "sourcePage": "https://poki.com/en/g/harvest-loop",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "1f91a056f39f7d8df52d055623997d760f5863e3e81bc75d505e2c20671ddf85",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "df74a88fe04b5d907dda9b807930b2dbff8183bffe6b9b3ffd447d15fcfd0923",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "c68dda470fa3f37a3f5c82e2cd1465f89bb866d1212ebf7a79ec8f98b5afe4b9",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "abf09d291ad0033af5e8710c24f6f89c5b84c4b3aaa800aaa9c94c256288af37",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "c0ae0ad2786176cb14fcfbf6fd5a773f0af3cac8c0df50970ce43fbebe2d87e6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "1f91a056f39f7d8df52d055623997d760f5863e3e81bc75d505e2c20671ddf85"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "c68dda470fa3f37a3f5c82e2cd1465f89bb866d1212ebf7a79ec8f98b5afe4b9"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1298,
+      "sha256": "b1d5abe38621f100c50a1f0da161a3d4d2a615ee9200e052b672b4a03d07cd47"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "abf09d291ad0033af5e8710c24f6f89c5b84c4b3aaa800aaa9c94c256288af37"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "c0ae0ad2786176cb14fcfbf6fd5a773f0af3cac8c0df50970ce43fbebe2d87e6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,80 @@
+{
+  "name": "chick-flix",
+  "sourcePage": "https://poki.com/en/g/chick-flix",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1776,
+      "sha256": "59f4d2894f5e0ee6348fc29fcc7c323042ecb048fbd23043361b07903b63c0bf",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "38a53d64667c1bf9facd68dc11a1cac0d9cc731794ecec5db02751b5b73504e5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "ad592967a923f0956cf9174e8fcd7777e7e59b54b2f97697dabb123f70e06aeb",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "845f197fbe754e7f90db6bcd45c384511342314620b6d2ab51f5913f30e792ee",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "3f35c3151f0cb07fe66c8460b10162c05dbfbc0cea8e5e60ce535af3f81dd4c6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "bin/bundle.js",
+      "bytes": 1627482,
+      "sha256": "db863f75d0f79eb7931ea70f326969e6971df3120a514aae7680bc814a91eb76"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1776,
+      "sha256": "59f4d2894f5e0ee6348fc29fcc7c323042ecb048fbd23043361b07903b63c0bf"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "ad592967a923f0956cf9174e8fcd7777e7e59b54b2f97697dabb123f70e06aeb"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 187,
+      "sha256": "94cc8f9720941b6ab348d872435b00e16a1449f956ceaaf3aa130426da3a7a32"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 59,
+      "sha256": "de5bb3f4b1049d2c84f9cb48705ceb157de6e29737e3e1fca82166e9e861e375"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "845f197fbe754e7f90db6bcd45c384511342314620b6d2ab51f5913f30e792ee"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "3f35c3151f0cb07fe66c8460b10162c05dbfbc0cea8e5e60ce535af3f81dd4c6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

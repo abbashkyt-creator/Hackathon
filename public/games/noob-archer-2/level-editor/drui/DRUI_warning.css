@@ -1,0 +1,19 @@
+.drui-warning {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid white;
+    user-select: none;
+}
+
+.drui-warning.drui-red {
+    background: rgba(248, 38, 31, 0.75);
+}
+
+.drui-warning.drui-orange {
+    background: rgba(230, 154, 13, 0.75);
+}
+
+.drui-warning.drui-sky {
+    background: rgba(128, 130, 255, 0.75);
+}

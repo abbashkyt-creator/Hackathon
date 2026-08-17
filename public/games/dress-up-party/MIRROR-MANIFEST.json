@@ -1,0 +1,70 @@
+{
+  "name": "dress-up-party",
+  "sourcePage": "https://poki.com/en/g/dress-up-party",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 6009,
+      "sha256": "3c2776c52a1a8da97551025baf35d37b8c7470b57ec8c2058cb7b08f05e325d5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "77ee1c4585e061a50466fd53cf74572fbf34bcc3786735c73d4f15b6c9478bea",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "1b125b58e9bd27946445662abf4ff0e71f3ec460fe175565585d286c5f25ee80",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "c5487d395a3d4c788f406abdbe626d096e79c54818524c3a2a097d3073b4f1e9",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 170,
+      "sha256": "231113652d15b9acbc752bc8924e2e4cc64f59976ccd1b65e151013e86d19425",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 48002,
+      "sha256": "45faf678f2df52c33f296f0f98acad8e605818548a511e02158841e06eabbe48"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 6804,
+      "sha256": "684f3db5911c738171f0e5d45befdeb0401e1ada16c8c87bd48a3ed7da41a545"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "1b125b58e9bd27946445662abf4ff0e71f3ec460fe175565585d286c5f25ee80"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "c5487d395a3d4c788f406abdbe626d096e79c54818524c3a2a097d3073b4f1e9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 170,
+      "sha256": "231113652d15b9acbc752bc8924e2e4cc64f59976ccd1b65e151013e86d19425"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/carnado-boat-racing/index.html",
+    "/games/carnado-boat-racing/js/poki-sdk-shim.js",
+    "/games/carnado-boat-racing/js/tiptap-platform-bridge.js"
+  ]
+}

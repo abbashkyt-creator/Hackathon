@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/color-shapes/index.html",
+    "/games/color-shapes/js/poki-sdk-shim.js",
+    "/games/color-shapes/js/tiptap-platform-bridge.js"
+  ]
+}

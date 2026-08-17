@@ -1,0 +1,70 @@
+{
+  "name": "ball-guys",
+  "sourcePage": "https://poki.com/en/g/ball-guys",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1273,
+      "sha256": "d18c79632f8159b70c2ff7c79f48d52f39360add8a81901c99f6858e5b368043",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "d2810160c1a028ef1b368cdf0ae38e836db15392bfa88b32e3a49d8f7bb23f5c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "3c51666e66229651748d37d40e98cedf7a41938f10df40e2c810f00efc97cbde",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "16a387fe3fc8b51367aa6ebd9be45ebd1d6e8bdbfd6a801a70ca39e50d4b200d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 155,
+      "sha256": "d24064ee6e4267630a83b82048fd8e4df48f5f1ba8126e3b88f12159139f96dd",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 825,
+      "sha256": "6e1c2e7b257bb5432dd34ee42dbe526c8bb5c2a1bcafdcdcf701001a022e13b9"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "3c51666e66229651748d37d40e98cedf7a41938f10df40e2c810f00efc97cbde"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1234,
+      "sha256": "79dbd7d120db74bdb4b3fa41fc84e656bc84c7df89d7b3a8f7cc383363f2e785"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "16a387fe3fc8b51367aa6ebd9be45ebd1d6e8bdbfd6a801a70ca39e50d4b200d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "fd8e1d85f3ae786f89c7522750bb41ed82f8d08ed3428221aed6af382d897623"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

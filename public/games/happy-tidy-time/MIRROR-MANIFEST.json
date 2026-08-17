@@ -1,0 +1,105 @@
+{
+  "name": "happy-tidy-time",
+  "sourcePage": "https://poki.com/en/g/happy-tidy-time",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1968,
+      "sha256": "b6dd6b88c6df3033a8834e4afd4fd71c63c289c085e27e8f580fe4e12fe8de80",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "7278f830761bedde62f39231c37622dc3b485bf969f2a9920bfecab5abe411d8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "dccac0f8d086124e230b7bdbffeebccf5996962aa09c948f4566126ff20bf186",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "965cdc9adbf494a13c00759b0125e571399913c59061d8d4659a0034c153c6bb",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 277,
+      "sha256": "a119f76b600db300fd9bbce8a358b4fba12ca036f802935b41ecada91a9a28bc",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12486,
+      "sha256": "eada1ce7864e25cff7baece57bc31a9a27b65270d6019f3d70d7b7fbdd164d57"
+    },
+    {
+      "assetPath": "happy_tidy_time.js",
+      "bytes": 2890991,
+      "sha256": "c89bb7c912d4a7c73451081c54f2f18996965c48b288bca555b9dd6555d9c413"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1968,
+      "sha256": "b6dd6b88c6df3033a8834e4afd4fd71c63c289c085e27e8f580fe4e12fe8de80"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "dccac0f8d086124e230b7bdbffeebccf5996962aa09c948f4566126ff20bf186"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 391,
+      "sha256": "ddb4e5048191c0dcc1ea3d05371d7910031a270a0e4a2dba9d17be001441af78"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 462,
+      "sha256": "399ba480862dcdecc3b255e44cfbfbb7ed4ea7b856c56adc8197fcf2f579f7f7"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "965cdc9adbf494a13c00759b0125e571399913c59061d8d4659a0034c153c6bb"
+    },
+    {
+      "assetPath": "mainMenu/achievements.json",
+      "bytes": 3425,
+      "sha256": "6ee4b7f7f6971d1d399285b4e9d8918c110a36a3eda019665a67bbded8c0bf3d"
+    },
+    {
+      "assetPath": "mainMenu/achievements.png",
+      "bytes": 161920,
+      "sha256": "4ee7b0eb67b0067cab9cceb2ff6a6ad295602e39e5d08feebef761b235f07940"
+    },
+    {
+      "assetPath": "mainMenu/button.json",
+      "bytes": 4138,
+      "sha256": "b3f9e5dcd323f2dbcc757ce26969a8bcc4f8d14600211513990424ae1e57e5a7"
+    },
+    {
+      "assetPath": "mainMenu/button.png",
+      "bytes": 39471,
+      "sha256": "51292cc4830d8a81565d5a21fc9d2afa1c39fb014e6c29c49b3b09d5603f6894"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 277,
+      "sha256": "a119f76b600db300fd9bbce8a358b4fba12ca036f802935b41ecada91a9a28bc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

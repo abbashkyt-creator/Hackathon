@@ -1,0 +1,245 @@
+{
+  "name": "color-shapes",
+  "sourcePage": "https://poki.com/en/g/color-shapes",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 442179,
+      "sha256": "47292e6c00bea4b24c1eefd9996282a2d5be17fce91d84fb57688f93eb11acd2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "f17e1a7efa7ce6e27710b9932372d0885b75b245bb7bb467089efbfca0374cad",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "b1ed7cf8c3bf9d155cceb97ca3426372dc4b69087edb371841c8abd0577b4f42",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "88a8402092dcea83950add0d7a2e91118a15be97fdf5a02e7cf6d7c3aaf25929",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 164,
+      "sha256": "eb69d507e05e350671357b6f54d7396d26c8080b3b399f902acead4dabf5723f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/audiosprite.mp3",
+      "bytes": 977232,
+      "sha256": "a9a6dad5a29be5d1ab30afa20c9b6bd0cf08f2497d032a3424d9807bf246a874"
+    },
+    {
+      "assetPath": "assets/back-btn.png",
+      "bytes": 556,
+      "sha256": "9f4144a45c52eb726d53927c99a9c6a24c263840b25f79fd2374f462b9980e8e"
+    },
+    {
+      "assetPath": "assets/logo-shapes.png",
+      "bytes": 175952,
+      "sha256": "483aa1e1fd64b7877c5d4d296675d1fc1a8432ab7be3389d11348aecde6d4a05"
+    },
+    {
+      "assetPath": "assets/mock.png",
+      "bytes": 221,
+      "sha256": "315a8c425e59cde2add0d22a0c844bd823e84a2a89144bd62e2ed7b9d83b7a41"
+    },
+    {
+      "assetPath": "fonts/art-gallery.svg",
+      "bytes": 10499,
+      "sha256": "9c51c8412ce0509c54a7bbd123f960ae2720f1e213df362d84e05185ac47550a"
+    },
+    {
+      "assetPath": "fonts/art-marathon.svg",
+      "bytes": 9741,
+      "sha256": "1487c607929ce4165ddd9874d482cffb6ddd57a3677feab3fe22190b714828f2"
+    },
+    {
+      "assetPath": "fonts/bomb.svg",
+      "bytes": 1572,
+      "sha256": "f502174dc286e640a52e257e2907b46c401b62e7e965b05ddb580e43ded1a755"
+    },
+    {
+      "assetPath": "fonts/bucket.svg",
+      "bytes": 1443,
+      "sha256": "1eb60ec1275cb97b1c2ef6490ed6f2bd780a35a24b1f5523b9463e1395df87b7"
+    },
+    {
+      "assetPath": "fonts/colors-icon.svg",
+      "bytes": 3006,
+      "sha256": "2213002f344451ba0885844bd0897f01e1f966f201fe39b29a2ed8ed7ff4aa62"
+    },
+    {
+      "assetPath": "fonts/daily-artist.svg",
+      "bytes": 18774,
+      "sha256": "8ba290233228d1513f1481e31e27756d60890af6a33b40345ccf45a3cee86e79"
+    },
+    {
+      "assetPath": "fonts/download-icon.svg",
+      "bytes": 1570,
+      "sha256": "104389a887b1b115f3477d00673d65b95784e9a3b0e81df993c0f677234f17fa"
+    },
+    {
+      "assetPath": "fonts/explosive-artist.svg",
+      "bytes": 8604,
+      "sha256": "d458360c2b66fbaa347e291abb7718e99d7a7dd8316d2ea8064ab6f3ca5f549c"
+    },
+    {
+      "assetPath": "fonts/flame-icon.svg",
+      "bytes": 5602,
+      "sha256": "ece989bfc0bb0639c14f6f34c23f1fbba8ab737752855c503eeefe66c5de69a0"
+    },
+    {
+      "assetPath": "fonts/flood-color.svg",
+      "bytes": 12550,
+      "sha256": "f593da70b1e7fd5efc230e45ddc766a0ab8dc8e00e8918b9dc17dfa736925e72"
+    },
+    {
+      "assetPath": "fonts/Fredoka-Variable.ttf",
+      "bytes": 159184,
+      "sha256": "2ba02e68b152868aef9ba28e24b3648c7d457fe6f25c761f2c2c53fb61a73fc8"
+    },
+    {
+      "assetPath": "fonts/gift-icon.svg",
+      "bytes": 5228,
+      "sha256": "1ac973c72de489a843e55d941b174c644cbd1d8a9875953a81f22c75148a3420"
+    },
+    {
+      "assetPath": "fonts/home.svg",
+      "bytes": 725,
+      "sha256": "e7bdbd73f50a149fa0e8cdc54dfdf9188d01ae8a0654f80216c2f5e170d5b2b6"
+    },
+    {
+      "assetPath": "fonts/locked.svg",
+      "bytes": 819,
+      "sha256": "54bdc5355f57e99c625d66b7a6e135e1272ef516d9de3a9443148d55ed4ba8f0"
+    },
+    {
+      "assetPath": "fonts/multicolor.svg",
+      "bytes": 2765,
+      "sha256": "02db48acaec39b942cf04b6201812719e068fabcc33bbc90bccc878297e29f97"
+    },
+    {
+      "assetPath": "fonts/pixel-painter.svg",
+      "bytes": 7329,
+      "sha256": "1297fbc67ea15b6024edd03813d47e6757f08778df0e8e97d731ddb26a40bc89"
+    },
+    {
+      "assetPath": "fonts/pointer.svg",
+      "bytes": 413,
+      "sha256": "424e1d60cf1fd90c462ad9a01457103363bdbc87b21a5629c898e9051bdea126"
+    },
+    {
+      "assetPath": "fonts/Polygon.svg",
+      "bytes": 344,
+      "sha256": "392baf431bf8c8859b8ecadb53f5dcbdc3c82a07c042a4551bb1fe8d1e35a742"
+    },
+    {
+      "assetPath": "fonts/replay-icon.svg",
+      "bytes": 1883,
+      "sha256": "a9884e505d7b4843708df4d62d521bb6528ca7ae35e08a5636cd6d5649f6fba2"
+    },
+    {
+      "assetPath": "fonts/roulette.svg",
+      "bytes": 1211,
+      "sha256": "f2849b0d936a4964287ab5b1f74cc3e1f9ec92f27e8fd5ea27db5968b2bafdd3"
+    },
+    {
+      "assetPath": "fonts/size-icon.svg",
+      "bytes": 468,
+      "sha256": "c81ca14969c919758e3c053a888a6efb1151e1e41d39aecae8191470d1ac5a53"
+    },
+    {
+      "assetPath": "fonts/star-white.svg",
+      "bytes": 769,
+      "sha256": "4696504d1bfbc288d491748e87f3f695e8805faa19e2dead4ea3ed8e43cd1836"
+    },
+    {
+      "assetPath": "fonts/star.svg",
+      "bytes": 4118,
+      "sha256": "801a1119aad2e1f2a841700f4ab2162b9d2c522c85a7b421d08bf5ae81efc6a8"
+    },
+    {
+      "assetPath": "fonts/stripes.svg",
+      "bytes": 1621,
+      "sha256": "26deaa8bbc3533a844ff8a7b53010ad61dd5e907309aeb0d720e57f616c973e6"
+    },
+    {
+      "assetPath": "fonts/ubuntu-bold.woff2",
+      "bytes": 28824,
+      "sha256": "e8cf57f52f3491e111f78b029664153c30c02c705963109df80ad606db4904e2"
+    },
+    {
+      "assetPath": "fonts/ubuntu-r.woff2",
+      "bytes": 25764,
+      "sha256": "264fe08032604316ba82a67b7cb72d27e9cb658a7f11f3198a95a62fd4d2558d"
+    },
+    {
+      "assetPath": "fonts/video-red.svg",
+      "bytes": 2540,
+      "sha256": "6f2d513a43eb5012715dd7657fc0281dbdbcdd8706fc4b8934e3e05669999307"
+    },
+    {
+      "assetPath": "fonts/video.svg",
+      "bytes": 1231,
+      "sha256": "e6fef8516f0c95dd2f2cd735d38f773130de4876c4204e9120dd7fe480fbf8f0"
+    },
+    {
+      "assetPath": "fonts/zoom-in.svg",
+      "bytes": 1227,
+      "sha256": "ceca89fb202450f3d61a17f2dba8a785a1649433bf02fb7dc02865f864e2a573"
+    },
+    {
+      "assetPath": "fonts/zoom-out.svg",
+      "bytes": 993,
+      "sha256": "74d34c4cfc9eb9b6b68413352dafb68fceaba091f353c1e7fe2b64b49296c606"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 442179,
+      "sha256": "47292e6c00bea4b24c1eefd9996282a2d5be17fce91d84fb57688f93eb11acd2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "b1ed7cf8c3bf9d155cceb97ca3426372dc4b69087edb371841c8abd0577b4f42"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "88a8402092dcea83950add0d7a2e91118a15be97fdf5a02e7cf6d7c3aaf25929"
+    },
+    {
+      "assetPath": "main.js",
+      "bytes": 989946,
+      "sha256": "ec8abbec9e6b99e6e23da9af3a69e04874588865154b8fc36417716fe9113bdc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 164,
+      "sha256": "eb69d507e05e350671357b6f54d7396d26c8080b3b399f902acead4dabf5723f"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 124096,
+      "sha256": "9a10e5e13ac0f57fe9461d0fcb34874109238dfd1a85440751412fbdcd783cf4"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

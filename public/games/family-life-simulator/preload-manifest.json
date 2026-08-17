@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/family-life-simulator/index.html",
+    "/games/family-life-simulator/js/poki-sdk-shim.js",
+    "/games/family-life-simulator/js/tiptap-platform-bridge.js",
+    "/games/family-life-simulator/js/tiptap-inline-1.js",
+    "/games/family-life-simulator/js/tiptap-inline-2.js"
+  ]
+}

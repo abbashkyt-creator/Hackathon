@@ -1,0 +1,75 @@
+{
+  "name": "family-life-simulator",
+  "sourcePage": "https://poki.com/en/g/family-life-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1032,
+      "sha256": "b980481cf6911cb77d2a12a74ed31e0def207ef72f4a342baf6a7e3cacdfd2c6",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "7463c017f2a3710eac9555b027a6400df5fa839612fdb522b34fc257f92a8287",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "76374cd4d45400d325aba70c7895d2a4386b68e0c01a4933c1ab976613cda697",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "d6d13036eee616f7634971802c202535c32a46acd452d4da7dab88a1abe230bc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 307,
+      "sha256": "0ff71000cc656a7191f01a341883ca295e4bc69b2676e80eb0b92f02dd8cd8ff",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1032,
+      "sha256": "b980481cf6911cb77d2a12a74ed31e0def207ef72f4a342baf6a7e3cacdfd2c6"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "76374cd4d45400d325aba70c7895d2a4386b68e0c01a4933c1ab976613cda697"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1030,
+      "sha256": "fdc26e22cc5377234d2ea0e1f71e834e876ee0040767b3464fafb365f04c5c91"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 2510,
+      "sha256": "115974c7dbba344124398f77483b3f3fef0511f075e2ac8be12680761224abb0"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "d6d13036eee616f7634971802c202535c32a46acd452d4da7dab88a1abe230bc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 307,
+      "sha256": "0ff71000cc656a7191f01a341883ca295e4bc69b2676e80eb0b92f02dd8cd8ff"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

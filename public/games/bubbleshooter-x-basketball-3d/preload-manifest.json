@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/bubbleshooter-x-basketball-3d/index.html",
+    "/games/bubbleshooter-x-basketball-3d/js/poki-sdk-shim.js",
+    "/games/bubbleshooter-x-basketball-3d/js/tiptap-platform-bridge.js"
+  ]
+}

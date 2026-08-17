@@ -1,0 +1,130 @@
+{
+  "name": "sandbox-of-elements",
+  "sourcePage": "https://poki.com/en/g/sandbox-of-elements",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1079,
+      "sha256": "f6e9390be7f29c856f1d150c27affb84c60c4815f19945dff90c3a63222d2819",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "1d74937663a807acb7fac45109db0ddad9dbce81fc33dede2306cd5714208b45",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "8170072079983ce4869e4c7c6d77b9d3ee35379b07ff005b629cfc44b5829480",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "4f28836662a1704ad470359170d73dfd0fdb20495e0743ec2312c2cba0eb50e6",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "338bcabfb4f08cb996d4765f4d68ae16a0db87fa58ba8098acb09aba4567a2c4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1079,
+      "sha256": "f6e9390be7f29c856f1d150c27affb84c60c4815f19945dff90c3a63222d2819"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "8170072079983ce4869e4c7c6d77b9d3ee35379b07ff005b629cfc44b5829480"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "4f28836662a1704ad470359170d73dfd0fdb20495e0743ec2312c2cba0eb50e6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "338bcabfb4f08cb996d4765f4d68ae16a0db87fa58ba8098acb09aba4567a2c4"
+    },
+    {
+      "assetPath": "src/audio/SoundEngine.js",
+      "bytes": 5910,
+      "sha256": "671200f77c5d79e3459f8f3daaded459bca65ccab764af1a8f33630ec645ed77"
+    },
+    {
+      "assetPath": "src/core/Materials.js",
+      "bytes": 25285,
+      "sha256": "0b608d1c66b50672764afd5c38a94fa75759e279e0b6da67280c4b922c2f5e9b"
+    },
+    {
+      "assetPath": "src/core/Quests.js",
+      "bytes": 8680,
+      "sha256": "47324093b1718ec31705604c9981d03763888acfc0977b316265a2469595a768"
+    },
+    {
+      "assetPath": "src/core/Recipes.js",
+      "bytes": 8536,
+      "sha256": "47ef57d3b21c160ff4f84828f83a6a29c579217efc0345fa21d90610c1b52975"
+    },
+    {
+      "assetPath": "src/core/Simulation.js",
+      "bytes": 63145,
+      "sha256": "e60df32f075bd320238f365ef443fc12421a967e6def5f32e9d0b5d069f55686"
+    },
+    {
+      "assetPath": "src/Game.js",
+      "bytes": 23373,
+      "sha256": "3134fe5b25eada5c4863cf44422d791ea64be4d4f40ab897bab3f0d691e9a571"
+    },
+    {
+      "assetPath": "src/i18n/ru.js",
+      "bytes": 1788,
+      "sha256": "ca13a066b803d309b30a8831f31c1a634b0c01e8b929e1ec21593d9d81cc9eb0"
+    },
+    {
+      "assetPath": "src/main.js",
+      "bytes": 13230,
+      "sha256": "dd075af12448b3540bc33678feb0c9d4955679570ea0e2886d4cb05b0f19991c"
+    },
+    {
+      "assetPath": "src/platform/PokiSDK.js",
+      "bytes": 5064,
+      "sha256": "11d46422901031ebd8989c6730dd473535648165285645029a327a3e290d885e"
+    },
+    {
+      "assetPath": "src/render/Renderer.js",
+      "bytes": 9219,
+      "sha256": "36f4f585a9377e0623f478b9c1f55aa4d92828c48954b3bb6572ddcbdebbed21"
+    },
+    {
+      "assetPath": "src/render/Sprites.js",
+      "bytes": 17722,
+      "sha256": "9701eb1f99cf0669082e19de4334bb20840b57ac8c858c7836d9ba2a39b35c90"
+    },
+    {
+      "assetPath": "src/ui/UI.js",
+      "bytes": 35706,
+      "sha256": "a5668548b0dfe6da8fdf1830c9a45c15028b0b10dcae06ffa132071955b2db7e"
+    },
+    {
+      "assetPath": "styles/main.css",
+      "bytes": 21891,
+      "sha256": "8c724f51aca2e09f3f2d787b164f54ffcb5772de7162e1cea4ace64e357008c5"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,85 @@
+{
+  "name": "build-your-island",
+  "sourcePage": "https://poki.com/en/g/build-your-island",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1230,
+      "sha256": "ad01895455b8df2be0b5a484a9c52fb04f263c5315ab1a91eba9447052d630f1",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "20b063d6ac3de9f9bda551a574736ca193d753f33dbcef9c74334ae903be1e60",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "699c29864eb9f14433b4a1dc67bb1accf2611a2212790d0a058e9586ea39ee4b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "4606536fa96a8e298ff1e145370d6ae8cb85546bd836bd01dd501b6e80f34fca",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 179,
+      "sha256": "f92e18b9d9cc7f89e7337f3b79aa5d74de0e0fb9f8d8f8dccd8e91d1a18b2b37",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/index-BIENVHFH.js",
+      "bytes": 734364,
+      "sha256": "e973b8ac0877f3a1aa2fc6394af4b0689a6ede17eeab8b2998b6eb9c32123eb6"
+    },
+    {
+      "assetPath": "assets/index-CjR-tCVD.css",
+      "bytes": 78346,
+      "sha256": "486729793ec565dfbc3edd3ba9060fc8da07364def9fd9b42f55a9a9dc9eb149"
+    },
+    {
+      "assetPath": "assets/react-DGg87m7X.js",
+      "bytes": 11322,
+      "sha256": "14c94689ea4e832ac09720641ba81c8538ba455473cd31a0bfca7b926791aa07"
+    },
+    {
+      "assetPath": "assets/three-Bws118-o.js",
+      "bytes": 562960,
+      "sha256": "0e1d00964c27b7e37fc2e698e8327fbef16f0bdf5babe038324f48f445bf3972"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1230,
+      "sha256": "ad01895455b8df2be0b5a484a9c52fb04f263c5315ab1a91eba9447052d630f1"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "699c29864eb9f14433b4a1dc67bb1accf2611a2212790d0a058e9586ea39ee4b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "4606536fa96a8e298ff1e145370d6ae8cb85546bd836bd01dd501b6e80f34fca"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 179,
+      "sha256": "f92e18b9d9cc7f89e7337f3b79aa5d74de0e0fb9f8d8f8dccd8e91d1a18b2b37"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

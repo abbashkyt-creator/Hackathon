@@ -1,0 +1,11 @@
+:root {
+    --panel-border-color: rgb(41, 41, 45);
+    --panel-background-color: rgb(15, 15, 17);
+}
+
+.drui-panel {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid  var(--panel-border-color);
+    background: var(--panel-background-color);
+}

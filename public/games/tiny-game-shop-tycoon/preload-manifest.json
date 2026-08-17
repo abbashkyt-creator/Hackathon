@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/tiny-game-shop-tycoon/index.html",
+    "/games/tiny-game-shop-tycoon/js/poki-sdk-shim.js",
+    "/games/tiny-game-shop-tycoon/js/tiptap-platform-bridge.js",
+    "/games/tiny-game-shop-tycoon/js/tiptap-inline-1.js"
+  ]
+}

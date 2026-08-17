@@ -1,0 +1,10 @@
+{
+	"gameVersion": "1.0.0",
+	"musicOn": true,
+	"levelLast": 0,
+	"levelsData": [],
+	"starsAmount": 0,
+	"gameComplete": 0,
+	"skinNow": "Default",
+	"skinsData": ["Default"]
+}

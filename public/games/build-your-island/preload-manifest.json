@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/build-your-island/index.html",
+    "/games/build-your-island/js/poki-sdk-shim.js",
+    "/games/build-your-island/js/tiptap-platform-bridge.js"
+  ]
+}

@@ -1,0 +1,13 @@
+:root {
+    --tree-border-color: rgb(41, 41, 45);
+    --tree-content-background: rgb(32, 32, 36);
+    --tree-text-color: rgb(255, 255, 255);
+}
+
+.drui-tree-padding-left {
+    padding-left: 16px;
+}
+
+.drui-tree-padding-right {
+    padding-left: 16px;
+}

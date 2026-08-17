@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/ball-guys/index.html",
+    "/games/ball-guys/js/poki-sdk-shim.js",
+    "/games/ball-guys/js/tiptap-platform-bridge.js"
+  ]
+}

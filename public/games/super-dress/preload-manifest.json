@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/super-dress/index.html",
+    "/games/super-dress/js/poki-sdk-shim.js",
+    "/games/super-dress/js/tiptap-platform-bridge.js"
+  ]
+}

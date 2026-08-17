@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/block-for-blood/index.html",
+    "/games/block-for-blood/js/poki-sdk-shim.js",
+    "/games/block-for-blood/js/tiptap-platform-bridge.js"
+  ]
+}

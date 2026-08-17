@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/flip-pounce/index.html",
+    "/games/flip-pounce/js/poki-sdk-shim.js",
+    "/games/flip-pounce/js/tiptap-platform-bridge.js",
+    "/games/flip-pounce/js/tiptap-inline-1.js"
+  ]
+}

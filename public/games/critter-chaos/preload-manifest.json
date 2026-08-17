@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/critter-chaos/index.html",
+    "/games/critter-chaos/js/poki-sdk-shim.js",
+    "/games/critter-chaos/js/tiptap-platform-bridge.js"
+  ]
+}

@@ -1,0 +1,44 @@
+:root {
+    --button-border-color: rgb(124, 124, 129);
+    --button-background: rgb(26, 26, 30);
+    --button-text-color: rgb(255, 255, 255);
+    --button-hover-background: rgb(99, 99, 99);
+    --button-active-background: rgb(48, 48, 48);
+}
+
+.drui-button {
+    font-size: 14px;
+    padding: 8px 12px;  
+    font-family: "Roboto", sans-serif;
+    color: var(--button-text-color);
+    background: var(--button-background);
+    transition: 0.125s;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid var(--button-background);
+}
+
+.drui-button.drui-button-border {
+    border: 1px solid var(--button-border-color);
+}
+
+.drui-button.drui-button-rounded {
+    border-radius: 4px;
+}
+
+.drui-button:hover {
+    background: var(--button-hover-background);
+    border: 1px solid white;
+}
+
+.drui-button:active {
+    background: var(--button-active-background);
+}
+
+.drui-button:disabled {
+    opacity: 0.25;
+}
+
+.drui-button:focus {
+    outline: none;
+}

@@ -1,0 +1,70 @@
+{
+  "name": "goods-master",
+  "sourcePage": "https://poki.com/en/g/goods-master",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "97ee08bac664db26fae969213ac469b7efe1b03c1e2cbfcfc05d0da5232238cf",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "39c0a49b3d35036ad9002a5cca5f7c5f9faca98b0a1303281fd94a16b0ddac16",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "de0495fc8028753d8a43900899ca6de4cc359c33d0b3ca0d5ce6c29ca5c49004",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "04b6b5a0e959e08fe67b7ee183cb3c4c9c0e2a0297008bd65d4e3c714a98f128",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "7b4b910c9541814772ab6790e3f231a5d96e53b053a2b2c30fd833850557fb45",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "97ee08bac664db26fae969213ac469b7efe1b03c1e2cbfcfc05d0da5232238cf"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "de0495fc8028753d8a43900899ca6de4cc359c33d0b3ca0d5ce6c29ca5c49004"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1190,
+      "sha256": "772a09ead3993f731ab6bfd5dca9dab20b4d034a2ae32cac3dc5a01b94bcd645"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "04b6b5a0e959e08fe67b7ee183cb3c4c9c0e2a0297008bd65d4e3c714a98f128"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "7b4b910c9541814772ab6790e3f231a5d96e53b053a2b2c30fd833850557fb45"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

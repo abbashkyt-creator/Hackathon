@@ -1,0 +1,411 @@
+<div id="crosshair" style="display:none"></div>
+<div class="zoom-detector zoom-feature"></div>
+<div id="game-loading" style="display:none">
+    <div class="game-loading-content animate__animated animate__pulse animate__infinite animate__faster">
+        i18n("map_loading")
+    </div>
+</div>
+<div id="game-joystick" style="display:none">
+    <div id="game-joystick-cursor"></div>
+</div>
+<div id="use-keyboard" class="animate__animated animate__pulse animate__infinite animate__faster zoom-feature"
+    style="display: none;">
+    <div class="use-keyboard-content"></div>
+    <div class="use-keyboard-text">i18n("Use your Keyboard")</div>
+</div>
+<div id="game-notifications" class="zoom-feature"></div>
+<div id="game-hud" class="zoom-feature">
+    <div id="game-hud-equipped-weapons"></div>
+    <div class="game-hud-mission" style="display:none">
+        <div class="game-hud-mission-keys animate__animated animate__pulse animate__infinite animate__faster"
+            style="display:none"></div>
+        <div class="game-hud-mission-message"></div>
+    </div>
+    <div class="game-hud-left">
+        <div class="game-hud-left-top poki-return-button">
+            <div class="game-hud-hp">
+                <div class="game-hud-hp-bar"></div>
+                <span class="game-hud-hp-text"></span>
+            </div>
+            <div class="game-hud-infos">
+                <div class="game-hud-money">0</div>
+                <div class="game-hud-keys">0</div>
+            </div>
+        </div>
+        <div class="game-hud-left-bottom">
+        </div>
+    </div>
+    <div class="game-hud-right">
+        <div class="game-hud-right-top">
+            <div class="game-hud-controls">
+                <button class="game-hud-volume-btn"></button>
+                <button class="game-hud-settings-btn"></button>
+            </div>
+            <div class="game-hud-actions">
+                <button class="game-hud-inventory-btn">
+                    i18n("Inventory")
+                    <div class="notification animate__animated animate__pulse animate__infinite animate__faster" style="display:none;"></div>
+                </button>
+            </div>
+            <div class="game-hud-adreward animate__animated" style="display:none">
+                <div class="game-hud-adreward-top">
+                    <div class="game-hud-adreward-icon item-rarity-common"></div>
+                    <div class="game-hud-adreward-text"></div>
+                </div>
+                <button id="game-hud-adreward-btn" class="animate__animated animate__pulse animate__infinite">
+                    <div class="game-hud-adreward-btn-icon"></div>
+                    <div class="game-hud-adreward-btn-text"></div>
+                </button>
+                <div class="game-hud-adreward-progress animate__animated animate__fadeIn">
+                    <div class="game-hud-adreward-progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="game-hud-right-bottom">
+        </div>
+    </div>
+</div>
+<div id="game-screens">
+    <section id="zb-inventory" class="zb-inventory zoom-feature" style="display:none">
+        <div class="zb-inventory-container">
+            <div class="zb-inventory-container-1">
+                <div class="zb-inventory-container-1-top">
+                    <div class="zb-inventory-container-1-top-title">i18n("Inventory")</div>
+                    <div class="zb-inventory-container-1-top-infos">
+                        <div class="zb-inventory-container-1-top-infos-money">0</div>
+                        <div class="zb-inventory-container-1-top-infos-keys">0</div>
+                    </div>
+                </div>
+                <div class="zb-inventory-container-1-middle">
+                    <div class="zb-inventory-container-1-middle-character">
+                    </div>
+                </div>
+                <div class="zb-inventory-container-1-bottom">
+                    <div class="zb-inventory-container-1-bottom-ammos">
+                        <div></div>
+                        <div class="zb-inventory-container-1-bottom-ammos-pistol">0</div>
+                        <div class="zb-inventory-container-1-bottom-ammos-rifle">0</div>
+                    </div>
+                    <div class="zb-inventory-container-1-bottom-equiped">
+                        <div class="zb-inventory-container-1-bottom-equiped-melee">
+                            <div class="zb-inventory-container-1-bottom-equiped-item"></div>
+                        </div>
+                        <div class="zb-inventory-container-1-bottom-equiped-pistol">
+                            <div class="zb-inventory-container-1-bottom-equiped-ammo"></div>
+                            <div class="zb-inventory-container-1-bottom-equiped-item"></div>
+                        </div>
+                        <div class="zb-inventory-container-1-bottom-equiped-rifle">
+                            <div class="zb-inventory-container-1-bottom-equiped-ammo"></div>
+                            <div class="zb-inventory-container-1-bottom-equiped-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="zb-inventory-container-2">
+                <div class="zb-inventory-container-2-nav">
+                    <button id="zb-inventory-nav-prev"></button>
+                    <div class="zb-inventory-container-2-nav-categories">
+                        <button id="zb-inventory-nav-melee" data-category="melee">
+                            <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.3546 21.8913L0.249311 20.1247L5.29965 13.5997L5.71516 13.9483L16.7125 -0.00162795L17.1483 5.27343L15.1862 10.4246L8.7817 17.6072L7.31354 16.3752L2.3546 21.8913Z" fill="black"/>
+                            </svg>
+                        </button>
+                        <button id="zb-inventory-nav-pistol" data-category="pistol">
+                            <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.43096 15.5642L6.51274 20.902L8.48672 20.1202L10.386 18.8646L8.7504 16.0317L9.12331 16.3333L11.267 15.2944L13.1755 14.1925L13.026 13.2451L13.533 12.9524L12.5861 11.3123L12.4366 10.3648L12.1439 9.85784L23.0581 3.55655L21.4053 0.693819L10.6805 7.32313L10.4912 6.99511L10.0737 7.23614L9.52274 6.2819L9.13508 6.50572L8.88696 5.45616L7.86689 4.65349L6.49517 5.44546L6.65045 6.74741L7.46515 7.46985L7.02922 7.40345L5.29965 8.40202L5.22988 9.0387L4.69312 9.3486L5.22683 10.273L0.810081 13.0218L2.10133 15.2583L3.43096 15.5642Z" fill="black"/>
+                            </svg>
+                        </button>
+                        <button id="zb-inventory-nav-rifle" data-category="rifle">
+                            <svg width="27" height="23" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.30013 22.1627L0.551039 17.4011L5.43635 13.9759L5.17453 13.5225L8.60596 11.5413L8.08232 10.6344L8.44161 10.1246L10.6475 8.85101L10.0097 8.3123L9.86207 7.49057L10.8425 6.92453L11.6112 7.68998L11.7588 8.51172L12.0039 8.37021L12.3967 9.05043L20.8443 3.87086L21.8582 4.49481L24.0641 3.22122L23.3761 0.897531L24.3565 0.331494L25.5347 2.37216L26.27 1.94764L26.9245 3.08134L19.9475 7.41186L20.602 8.54556L14.2294 12.2248L16.4047 14.2944L19.5437 15.203L19.5131 18.5462L18.5327 19.1123L14.1347 17.7212L10.3078 14.489L11.355 16.3029L10.6197 16.7274L11.4052 18.0879L8.70908 19.6445L7.00726 16.6968L5.01584 21.1721L3.30013 22.1627Z" fill="black"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <button id="zb-inventory-nav-next"></button>
+                </div>
+                <div class="zb-inventory-container-2-items">
+                </div>
+            </div>
+            <div class="zb-inventory-container-3">
+            </div>
+            <div class="zb-inventory-container-overlay" style="display: none;"></div>
+        </div>
+        <button id="zb-inventory-close"></button>
+    </section>
+    <section id="shop" class="shop zoom-feature" style="display:none">
+        <div class="shop-container">
+            <div class="shop-container-1">
+                <div class="shop-container-1-top">
+                    <div class="shop-container-1-top-title">i18n("Shop")</div>
+                    <div class="shop-container-1-top-infos">
+                        <div class="shop-container-1-top-infos-money">0</div>
+                    </div>
+                </div>
+                <div class="shop-container-1-bottom">
+                    <div class="shop-container-1-bottom-character">
+                    </div>
+                </div>
+            </div>
+            <div class="shop-container-2">
+                <div class="shop-container-2-nav">
+                    <button id="shop-nav-armor">i18n("Armors")</button>
+                </div>
+                <div class="shop-container-2-items">
+                </div>
+            </div>
+            <div class="shop-container-3">
+            </div>
+            <div class="shop-container-overlay" style="display: none;"></div>
+        </div>
+        <button id="shop-close"></button>
+    </section>
+    <section id="settings" class="zoom-feature" style="display:none">
+        <div class="settings-content animate__animated animate__bounceIn">
+            <div class="settings-header">
+                <div class="settings-title">i18n("Settings")</div>
+                <button class="btn btn-close"></button>
+            </div>
+            <div class="settings-box">
+                <div class="settings-box-list">
+                    <div class="settings-box-list-item" style="display:none;">
+                        <div class="settings-box-list-item-title">i18n("Language")</div>
+                        <div class="settings-box-list-item-content">
+                            <select id="settings-language">
+                                <option value="en">English</option>
+                                <option value="fr">Français</option>
+                                <option value="it">Italiano</option>
+                                <option value="es">Español</option>
+                                <option value="de">Deutsch</option>
+                                <option value="zh">简体中文</option>
+                                <option value="ja">日本語</option>
+                                <option value="ko">한국어</option>
+                                <option value="pt">Português</option>
+                                <option value="ru">Русский</option>
+                                <option value="tr">Türkçe</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="settings-box-list-item">
+                        <div class="settings-box-list-item-title">i18n("Sound Effects")</div>
+                        <div class="settings-box-list-item-content">
+                            <input type="range" id="settings-sound" min="0" max="1" step="0.01">
+                        </div>
+                    </div>
+                    <div class="settings-box-list-item">
+                        <div class="settings-box-list-item-title">i18n("Music")</div>
+                        <div class="settings-box-list-item-content">
+                            <input type="range" id="settings-music" min="0" max="1" step="0.01">
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-box-actions" style="display:none;">
+                    <button class="settings-box-actions-btn settings-box-actions-btn-secondary" id="settings-box-cancel">i18n("Cancel")</button>
+                    <button class="settings-box-actions-btn settings-box-actions-btn-primary" id="settings-box-confirm">i18n("Confirm")</button>
+                </div>
+                <div class="settings-box-privacy">
+                    <a href="https://purrfect.games/privacy-policy/" target="_blank">i18n("Privacy Policy")</a>
+                </div>
+            </div>
+        </div>
+        <div class="settings-overlay overlay"></div>
+    </section>
+    <section id="chest" class="chest zoom-feature" style="display:none">
+        <div class="chest-keys">0</div>
+        <button id="chest-close"></button>
+        <!-- First Case Opening Screen -->
+        <div class="chest-container-1">
+            <div class="chest-container-1-top">
+                <div class="chest-container-1-top-title animate__animated animate__bounceIn">i18n("Unlock Container")
+                </div>
+                <div class="chest-container-1-top-subtitle animate__animated animate__bounceIn"></div>
+            </div>
+            <div class="chest-container-1-bottom">
+                <div class="chest-container-1-bottom-items animate__animated animate__bounceIn"></div>
+                <div class="chest-container-1-bottom-price">
+                    <div class="chest-container-1-bottom-price-title animate__animated animate__bounceIn">i18n("Price")
+                    </div>
+                    <div class="chest-container-1-bottom-price-value animate__animated animate__bounceIn">0</div>
+                </div>
+                <div class="animate__animated animate__bounceIn">
+                    <button id="chest-open-btn">i18n("Open")</button>
+                </div>
+            </div>
+            <div class="chest-container-1-adreward animate__animated animate__fadeInRight animate__delay-1s">
+                <div class="chest-container-1-adreward-top">
+                    <div class="chest-container-1-adreward-icon item-rarity-common"></div>
+                    <div class="chest-container-1-adreward-text">i18n("Watch an Ad and Get 10 free keys")</div>
+                </div>
+                <button
+                    id="chest-adreward-btn"
+                    class="animate__animated animate__pulse animate__infinite"
+                    data-quantity="10"
+                >
+                    <div class="chest-container-1-adreward-btn-icon"></div>
+                    <div class="chest-container-1-adreward-btn-text">i18n("Get 10 Keys")</div>
+                </button>
+            </div>
+
+        </div>
+        <!-- Second Case Opening Screen -->
+        <div class="chest-container-2" style="display:none">
+            <div class="chest-items-carousel animate__animated animate__fadeIn animate__faster">
+                <!-- Items will be inserted here dynamically -->
+            </div>
+            <div class="chest-selector animate__animated animate__fadeIn animate__faster"></div>
+        </div>
+        <!-- Third Case Opening Screen -->
+        <div class="chest-container-3" style="display:none">
+            <div class="chest-container-3-top">
+                <div class="chest-container-3-top-title animate__animated animate__bounceIn"></div>
+                <div class="chest-container-3-top-subtitle animate__animated animate__bounceIn animate__delay-1s"></div>
+            </div>
+            <div class="chest-container-3-bottom">
+                <div class="chest-container-3-bottom-items"></div>
+                <div class="chest-container-3-bottom-damage">
+                    <div class="chest-container-1-bottom-damage-title animate__animated animate__bounceIn">
+                        i18n("Damage")
+                    </div>
+                    <div class="chest-container-1-bottom-damage-value animate__animated animate__bounceIn">0</div>
+                </div>
+                <div class="animate__animated animate__bounceIn">
+                    <button id="chest-continue-btn">i18n("Continue")</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="repair" class="repair zoom-feature" style="display:none">
+        <div class="repair-money">0</div>
+        <button id="repair-close"></button>
+        <div class="repair-container-1">
+            <div class="repair-container-1-top">
+                <div class="repair-container-1-top-title animate__animated animate__bounceIn">i18n("Repairer")</div>
+            </div>
+            <div class="repair-container-1-middle">
+                <div class="repair-container-1-middle-item animate__animated animate__bounceIn"></div>
+                <div class="repair-container-1-middle-condition">
+                    <div class="repair-container-1-middle-condition-title animate__animated animate__bounceIn">
+                        i18n("Condition")
+                    </div>
+                    <div class="repair-container-1-middle-condition-value animate__animated animate__bounceIn">0</div>
+                </div>
+                <div class="repair-container-1-middle-price">
+                    <div class="repair-container-1-middle-price-title animate__animated animate__bounceIn">i18n("Price")
+                    </div>
+                    <div class="repair-container-1-middle-price-value animate__animated animate__bounceIn">0</div>
+                </div>
+                <div class="animate__animated animate__bounceIn">
+                    <button id="repair-btn">i18n("Repair")</button>
+                </div>
+                <div class="repair-container-1-adreward">
+                    <div class="repair-container-1-adreward-top">
+                        <div class="repair-container-1-adreward-icon"></div>
+                        <div class="repair-container-1-adreward-text">i18n("Repair all inventory for free")</div>
+                    </div>
+                    <button
+                    id="repair-adreward-btn"
+                    class="animate__animated animate__pulse animate__infinite"
+                >
+                    <div class="repair-container-1-adreward-btn-icon"></div>
+                    <div class="repair-container-1-adreward-btn-text">i18n("Repair All")</div>
+                </button>
+                </div>
+            </div>
+            <div class="repair-container-1-bottom">
+                <div class="repair-container-1-bottom-items animate__animated animate__bounceIn"></div>
+            </div>
+        </div>
+    </section>
+    <section id="final" class="final zoom-feature animate__animated animate__fadeIn animate__faster"
+        style="display:none">
+        <div class="final-container">
+            <div class="final-container-top">
+                <div class="final-container-top-title animate__animated animate__bounceIn animate__delay-0-5s">
+                    i18n("Level
+                    Completed")</div>
+                <div class="final-container-top-subtitle animate__animated animate__bounceIn animate__delay-1s">
+                    i18n("Level 1")</div>
+                <div class="final-container-top-stats">
+                    <div class="final-container-top-stats-item animate__animated animate__bounceIn animate__delay-2s">
+                        <div class="final-container-top-stats-item-title">i18n("Zombies Killed")</div>
+                        <div id="final-zombies-killed" class="final-container-top-stats-item-value">0</div>
+                    </div>
+                    <div class="final-container-top-stats-item animate__animated animate__bounceIn animate__delay-2-5s">
+                        <div class="final-container-top-stats-item-title">i18n("Time Elapsed")</div>
+                        <div id="final-time-elapsed" class="final-container-top-stats-item-value">0:00</div>
+                    </div>
+                    <div class="final-container-top-stats-item animate__animated animate__bounceIn animate__delay-3s">
+                        <div class="final-container-top-stats-item-title">i18n("Deaths")</div>
+                        <div id="final-deaths" class="final-container-top-stats-item-value">0</div>
+                    </div>
+                    <div
+                        class="final-container-top-stats-item no-border-bottom animate__animated animate__bounceIn animate__delay-3-5s">
+                        <div class="final-container-top-stats-item-title">i18n("Money Earned")</div>
+                        <div id="final-money-earned" class="final-container-top-stats-item-value">0</div>
+                    </div>
+                    <div
+                        class="final-container-top-stats-item no-border-bottom animate__animated animate__bounceIn animate__delay-4s">
+                        <div class="final-container-top-stats-item-title">i18n("Key Earned")</div>
+                        <div id="final-key-earned" class="final-container-top-stats-item-value">0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="final-container-bottom">
+                <div class="final-container-bottom-continue animate__animated animate__bounceIn animate__delay-5s">
+                    <button id="final-continue-btn">i18n("Continue")</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="levelprogress" class="zoom-feature" style="display:none">
+        <div class="levelprogress-content animate__animated animate__bounceIn">
+            <button class="btn btn-close"></button>
+            <div class="levelprogress-icon animate__animated animate__flip animate__infinite animate__slow">
+            </div>
+            <div class="levelprogress-title">i18n("Do you want to continue with your save?")</div>
+            <div class="levelprogress-actions">
+                <button id="levelprogress-continue">i18n("Continue")</button>
+                <button id="levelprogress-reset">i18n("No, I want to restart")</button>
+            </div>
+        </div>
+        <div class="levelprogress-overlay overlay"></div>
+    </section>
+    <section id="gameover" class="zoom-feature" style="display:none">
+        <div class="gameover-container animate__animated animate__bounceIn animate__slow">
+            <div class="gameover-icon">
+            </div>
+            <div class="gameover-title">i18n("You are dead")</div>
+            <div class="gameover-adreward">
+                <div class="gameover-adreward-top">
+                    <div class="gameover-adreward-icon item-rarity-common"></div>
+                    <div class="gameover-adreward-text">i18n("Revive with Ammos and Weapons Fixed")</div>
+                </div>
+                <button
+                    id="gameover-adreward-btn"
+                    class="animate__animated animate__pulse animate__infinite"
+                >
+                    <div class="gameover-adreward-btn-icon"></div>
+                    <div class="gameover-adreward-btn-text">i18n("Revive")</div>
+                </button>
+            </div>
+            <div class="gameover-actions">
+                <button id="gameover-continue">i18n("Continue")</button>
+            </div>
+        </div>
+    </section>
+    <section id="playtest" class="zoom-feature" style="display:none">
+        <div class="playtest-content animate__animated animate__bounceIn">
+            <button class="btn btn-close"></button>
+            <div class="playtest-icon animate__animated animate__flip animate__infinite animate__slow">
+            </div>
+            <div class="playtest-title">i18n("Thank you for participating to our PlayTest, this game will be released
+                with more content soon!")</div>
+            <div class="playtest-actions">
+                <button id="playtest-continue">i18n("Continue")</button>
+            </div>
+        </div>
+        <div class="playtest-overlay overlay"></div>
+    </section>
+</div>
+<div id="tutorial-pointing" class="zoom-feature" style="display:none">
+    <div class="icon-pointing"></div>
+</div>

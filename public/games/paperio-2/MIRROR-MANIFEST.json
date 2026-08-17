@@ -1,0 +1,120 @@
+{
+  "name": "paperio-2",
+  "sourcePage": "https://poki.com/en/g/paperio-2",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 186530,
+      "sha256": "68932b727be95ed3ae73e302dc51b1987373a2858f84694504c306caaf1d622e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "44fb186ffa7167fed15786c89a03388f9e0a8ffcaf5a9ef2eb98685a92c4f5a8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "c80cf1950472f9872bcd2d69c36a3b69efa63392e603a57ec3d8a1c660300e51",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "68748b7679278bafc26287b171df14787b8f75bb36d798dbdf278176ca6b22e5",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 247,
+      "sha256": "d21dd802043293b716586ffd568a753d7e4ab3fcd78bf8d4e259a9d5e46646ba",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/index.css",
+      "bytes": 44823,
+      "sha256": "85421589d5dbb4cdc84545d32dcb2b50404dbe6c3b1b0c665b5257267a8f07a5"
+    },
+    {
+      "assetPath": "assets/Title.png",
+      "bytes": 26743,
+      "sha256": "e17c5401aa23538807da2b3bef4d6d8fe551ff3aac3f2858d3f99979c4d0c367"
+    },
+    {
+      "assetPath": "favicon.ico",
+      "bytes": 9662,
+      "sha256": "7da84eae490a532589eba467e75e9de99a64861f6f2cff20f55263207a57d8e2"
+    },
+    {
+      "assetPath": "favicons/apple-touch-icon.png",
+      "bytes": 11053,
+      "sha256": "4e6305552c8ad035191c728f75e7fb9b441c6a3219f52c7544e489fd183cf2c4"
+    },
+    {
+      "assetPath": "favicons/favicon.svg",
+      "bytes": 4097,
+      "sha256": "1636a7e66dfa4aa66ea2a61be502d959e883d687e8a3692385b6b29ecd408b9a"
+    },
+    {
+      "assetPath": "fbinstant.7.0.mock.js",
+      "bytes": 15645,
+      "sha256": "0ce75da1d95c239c847eea38a7ffb64a3f68032cbb91dfb65c02e449a20655dc"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 186530,
+      "sha256": "68932b727be95ed3ae73e302dc51b1987373a2858f84694504c306caaf1d622e"
+    },
+    {
+      "assetPath": "index.js",
+      "bytes": 2584838,
+      "sha256": "39fd7bf4ebd8bfd8cfd00cd84b4d6256b201aad2769150a46f15034c984c42a2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "c80cf1950472f9872bcd2d69c36a3b69efa63392e603a57ec3d8a1c660300e51"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 708196,
+      "sha256": "cecf4fbb8a6fc440f23e71810ebdc6f5802595a90bef59776485035c2dbd0592"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 663,
+      "sha256": "2f02da336add34746495ede27e7addaaeef36e0795b9771e2e5f25cd05626d59"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "68748b7679278bafc26287b171df14787b8f75bb36d798dbdf278176ca6b22e5"
+    },
+    {
+      "assetPath": "lib/VOODOO-H5SDK.poki.js",
+      "bytes": 549228,
+      "sha256": "6d67275cf998d3588492a3ef163deed114b76fef0f3bb217397cc6305dd7b742"
+    },
+    {
+      "assetPath": "manifest.webmanifest",
+      "bytes": 408,
+      "sha256": "386c8014e5f05679f804da48eb67e86220592f4a54516ec4637903f13ed1ec7b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 247,
+      "sha256": "d21dd802043293b716586ffd568a753d7e4ab3fcd78bf8d4e259a9d5e46646ba"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,100 @@
+{
+  "name": "knife-merge",
+  "sourcePage": "https://poki.com/en/g/knife-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5037,
+      "sha256": "6a39e609fad0447e1d544a9336171a6f47253cc9636f96aa09ff984a71c1bf2b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "4368da7ace5247ac0045c927bf623715fd1b4efefa2cef5cb157c31b7f452bdf",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "9284a5d85d9666ac46cbe043da78e9426eeda6e8917ec626983497c6b9c78862",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "630886339cd43dd2e19f3705f011c8593d4c2fd00681ca2fa3998343e0a0cf6d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "d4813ad23c5f3ee64ea033be69cba20d6683768e565fcd6c8ce673039781c1b9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47910,
+      "sha256": "03c17291b1fabb6e02b3bd337dbc808887b9d30ae82363ba242e38848852ffa8"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5037,
+      "sha256": "6a39e609fad0447e1d544a9336171a6f47253cc9636f96aa09ff984a71c1bf2b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "9284a5d85d9666ac46cbe043da78e9426eeda6e8917ec626983497c6b9c78862"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1457,
+      "sha256": "c175620899e918f96f217ac07ef07cf65135907940d14a34e6c0912606d12c1c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 243,
+      "sha256": "9e0ae8a393ae96499432f94131143053a120ce2294e0beb148ba914cdc3d8c7b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 1808,
+      "sha256": "37f3e9c0e6f2b4af10919ae98984a3e003dc6d6aa3a6775ae005b44284b2d96d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 43,
+      "sha256": "a0920528b597c9a33c4e6b85dba68eb71331d4cac8dcac3d50085761c93baeb8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "630886339cd43dd2e19f3705f011c8593d4c2fd00681ca2fa3998343e0a0cf6d"
+    },
+    {
+      "assetPath": "Knifemerge.wasm",
+      "bytes": 2563969,
+      "sha256": "542611d5b6922bff4972fd54dbfd8a8c5aa948a51bc8fd2f110199dd0ea35ffe"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "d4813ad23c5f3ee64ea033be69cba20d6683768e565fcd6c8ce673039781c1b9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

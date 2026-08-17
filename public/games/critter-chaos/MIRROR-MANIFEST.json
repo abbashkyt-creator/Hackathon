@@ -1,0 +1,145 @@
+{
+  "name": "critter-chaos",
+  "sourcePage": "https://poki.com/en/g/critter-chaos",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1082,
+      "sha256": "ff94efced36e764007541240bee344525bdd62450e46c8aab89c2105f2470d19",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "e9bb92c6b2ffde39fa745d20993f1cd4732a551135714d481267b9ee3acbb5e8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "706c84043a5da8acc61d37518bad49fec43481ee1df353aabab185de57b0b914",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "c0eccfcf9ba2f1dc3e01ac80106b7a4ec0e3d4878c68a523245cfffe7d92029e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 167,
+      "sha256": "c4217f41d6dca50e3425338ad0c512eb05556fa0edf11720941e420d9ebc7fe8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/bgm_battle-C_K3pdH8.mp3",
+      "bytes": 2369280,
+      "sha256": "1129d6f78462b22d3f007fcd4ad8ed27657e336748fdfe3e3f17407f8e42f1c0"
+    },
+    {
+      "assetPath": "assets/bgm_menu-Uk4udx4X.mp3",
+      "bytes": 1120980,
+      "sha256": "76a878dddc90f4874b7b506b1642b8120d056c9ee3b16630fc8da8a10cec5395"
+    },
+    {
+      "assetPath": "assets/bounce-Bwl_zfCc.mp3",
+      "bytes": 6864,
+      "sha256": "af23f6379106f318a99ae4b1c6dcf3c7b7677c0ea38fe5557aefd7914dbabc5e"
+    },
+    {
+      "assetPath": "assets/browserAll-CVc6R4uy.js",
+      "bytes": 43198,
+      "sha256": "1ba1fef6a45595f37aeca69dd642a95baf61215ce3368138d21fa086dc0e0bcb"
+    },
+    {
+      "assetPath": "assets/BufferResource-hdo-xgOy.js",
+      "bytes": 10611,
+      "sha256": "bf0fc8747895186fe4b78f69bbe4dd421209e77a093593a81d154397671760f0"
+    },
+    {
+      "assetPath": "assets/CanvasRenderer-CJfLasoS.js",
+      "bytes": 23313,
+      "sha256": "496ffc3c7cc0e636c3ddd3fbc565d1605a97be6c2ac623323144965def86efda"
+    },
+    {
+      "assetPath": "assets/capture1-4ArirNA7.mp3",
+      "bytes": 17901,
+      "sha256": "882ded948e85341f2dd8640fec6753dca5aaff04a2db3a41967df490b31a5a21"
+    },
+    {
+      "assetPath": "assets/capture2-PaFQ-guV.mp3",
+      "bytes": 17901,
+      "sha256": "7b7fdcde588eceeb5e5f5055127a928aa5722fc544238cdb45f57836810ed10e"
+    },
+    {
+      "assetPath": "assets/capture3-BdBu3xdO.mp3",
+      "bytes": 17901,
+      "sha256": "d15b1e0a990b668be32c687c7b54234a97a7b8c82b11c63ad1dfe009984287a9"
+    },
+    {
+      "assetPath": "assets/index-COMUA5EA.js",
+      "bytes": 782308,
+      "sha256": "f7ba5c84c00e8e5831889fd2faa10e60a1f11eafb07c119b3652c989cdf63f7a"
+    },
+    {
+      "assetPath": "assets/index-DJrd6Nkk.css",
+      "bytes": 1278,
+      "sha256": "16b58392d309ebc173d78ee33c2086944a573f09cb6e285727460dbfcf0fe6c1"
+    },
+    {
+      "assetPath": "assets/RenderTargetSystem-0rtQtJgl.js",
+      "bytes": 45870,
+      "sha256": "dc1f9a3200ad01c305ee6dd7a87d758879ce5e2b4f88a213dc32a994ff5cd666"
+    },
+    {
+      "assetPath": "assets/structure_destroy-CBPGS3-C.mp3",
+      "bytes": 17901,
+      "sha256": "1da1c13a88d7534a7d6d69668160456e5f9f3dc882df79054c8aa5809acc2035"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-CfxeXAHe.js",
+      "bytes": 68577,
+      "sha256": "51169af5318cc96b7db7ed6211086011618ddb6c1bd438abe5827a231159841a"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-dCYCxwCz.js",
+      "bytes": 38345,
+      "sha256": "e424fede4c36df5be046cfbaf9e726fdb2db5512b4316b321aa6bdfe52d3d314"
+    },
+    {
+      "assetPath": "assets/webworkerAll-DWNI9ifa.js",
+      "bytes": 11322,
+      "sha256": "8159a0dc99502259e88e36eb88593ce1f08b43b182f3747e51fe5e2c0f79ea2c"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1082,
+      "sha256": "ff94efced36e764007541240bee344525bdd62450e46c8aab89c2105f2470d19"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "706c84043a5da8acc61d37518bad49fec43481ee1df353aabab185de57b0b914"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "c0eccfcf9ba2f1dc3e01ac80106b7a4ec0e3d4878c68a523245cfffe7d92029e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 167,
+      "sha256": "c4217f41d6dca50e3425338ad0c512eb05556fa0edf11720941e420d9ebc7fe8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

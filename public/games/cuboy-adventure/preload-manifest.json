@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/cuboy-adventure/index.html",
+    "/games/cuboy-adventure/js/poki-sdk-shim.js",
+    "/games/cuboy-adventure/js/tiptap-platform-bridge.js",
+    "/games/cuboy-adventure/js/tiptap-inline-1.js",
+    "/games/cuboy-adventure/js/tiptap-inline-2.js"
+  ]
+}

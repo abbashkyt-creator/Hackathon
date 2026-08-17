@@ -1,0 +1,70 @@
+{
+  "name": "goalheads-io",
+  "sourcePage": "https://poki.com/en/g/goalheads-io",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "68da230798181a94a86dc0708acbd354703089eea836827932fedb294f0620ae",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "799aac01f105fa06534000aa6be3b19dc3e50303a679283ec3dced73cc2da0f4",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "5724d4ef8aab5819106daa47b5e5d13d16b4cacd805cb3e5f3350f00c43f4e91",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "eed789f17095f429a9f616976ce2af7dd2abcbec82ed62e7b41a95779617c59a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "ca8086d47fc50559ab086e4389388ea78402964bbe1b23fa17fd1b77824c5dfc",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "68da230798181a94a86dc0708acbd354703089eea836827932fedb294f0620ae"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "5724d4ef8aab5819106daa47b5e5d13d16b4cacd805cb3e5f3350f00c43f4e91"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1201,
+      "sha256": "d6dedbca66ed193f951320b62c08f9e8f7b9195498bf8e1f215f36429981c3ef"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "eed789f17095f429a9f616976ce2af7dd2abcbec82ed62e7b41a95779617c59a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "ca8086d47fc50559ab086e4389388ea78402964bbe1b23fa17fd1b77824c5dfc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,90 @@
+{
+  "name": "moto-trap",
+  "sourcePage": "https://poki.com/en/g/moto-trap",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1952,
+      "sha256": "ebe8c9512de95bbc3df8a0746a3177c7009aaf3c472a395e917dcf5c605cd04e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "9052c076b8518b03729905e9024a4e00740bbca7d49cd89e8da1ec34aeb0fd41",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "4aa28e84345f47e7d37ff02c3ed990e7399972f98aeb943002b39c493077c41e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "4c752226fe99acec1ca82767ef7aafe88422fd63608d525c4790b98f3d4247c0",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "cdecde057031443e8a0a6bf20513d40d8b7d40936c5fd1dbd3609502b8df127c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 721,
+      "sha256": "973a971305cb4eab73b11138235ba4f5fe3bf65928c96931facd3775ff39f4bd"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 956221,
+      "sha256": "24e4c944f8ec615376c40242ff6bb7f79f807e40b4f46072ee1176db9047aa56"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1594,
+      "sha256": "f59feea2e205562791d093d48d6ca9deb46dca9a844881e969d9b72cd50d928b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "4aa28e84345f47e7d37ff02c3ed990e7399972f98aeb943002b39c493077c41e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "4c752226fe99acec1ca82767ef7aafe88422fd63608d525c4790b98f3d4247c0"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 388,
+      "sha256": "667938cc1bbfa3d5d4bc8946e81c0bf56cc9f0b7372ca9e97ddc413f0fbba6c7"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1611597,
+      "sha256": "880ceabdedc329e27765f559ef326157ad421df93d0ae55ee544305655307845"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+:root {
+    --header-border-color: rgb(124, 124, 129);
+    --header-background: rgb(26, 26, 30);
+}
+
+.drui-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid var(--header-border-color);
+    background: var(--header-background);
+}

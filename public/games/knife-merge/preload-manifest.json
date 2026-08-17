@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/knife-merge/index.html",
+    "/games/knife-merge/js/poki-sdk-shim.js",
+    "/games/knife-merge/js/tiptap-platform-bridge.js",
+    "/games/knife-merge/js/tiptap-inline-1.js",
+    "/games/knife-merge/js/tiptap-inline-2.js",
+    "/games/knife-merge/js/tiptap-inline-3.js"
+  ]
+}

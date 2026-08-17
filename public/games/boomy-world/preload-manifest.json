@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/boomy-world/index.html",
+    "/games/boomy-world/js/poki-sdk-shim.js",
+    "/games/boomy-world/js/tiptap-platform-bridge.js",
+    "/games/boomy-world/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/paperio-2/index.html",
+    "/games/paperio-2/js/poki-sdk-shim.js",
+    "/games/paperio-2/js/tiptap-platform-bridge.js",
+    "/games/paperio-2/js/tiptap-inline-1.js",
+    "/games/paperio-2/js/tiptap-inline-2.js"
+  ]
+}

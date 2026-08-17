@@ -9,8 +9,8 @@
   "integrationFiles": [
     {
       "assetPath": "index.html",
-      "bytes": 9509,
-      "sha256": "d45422921232873bedb32fd2884ad566e053f746235fcf305f043302f1500f78",
+      "bytes": 10453,
+      "sha256": "4332262aeddc7b2084ad9feab974864ff8e3471f84c6b0aad0a786e4b38527a7",
       "purpose": "Localized entry"
     },
     {

@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/snow-yeet/index.html",
+    "/games/snow-yeet/js/poki-sdk-shim.js",
+    "/games/snow-yeet/js/tiptap-platform-bridge.js",
+    "/games/snow-yeet/js/tiptap-inline-1.js",
+    "/games/snow-yeet/js/tiptap-inline-2.js",
+    "/games/snow-yeet/js/tiptap-inline-3.js"
+  ]
+}

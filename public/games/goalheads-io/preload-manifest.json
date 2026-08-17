@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/goalheads-io/index.html",
+    "/games/goalheads-io/js/poki-sdk-shim.js",
+    "/games/goalheads-io/js/tiptap-platform-bridge.js",
+    "/games/goalheads-io/js/tiptap-inline-1.js"
+  ]
+}

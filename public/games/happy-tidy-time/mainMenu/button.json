@@ -1,0 +1,140 @@
+{
+"frames": {
+	"btnAchievements1.png": {
+		"frame": {"x":215, "y":92, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnAchievements2.png": {
+		"frame": {"x":486, "y":276, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnAlbum1.png": {
+		"frame": {"x":486, "y":184, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnAlbum2.png": {
+		"frame": {"x":399, "y":92, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnBack1.png": {
+		"frame": {"x":399, "y":0, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnBack2.png": {
+		"frame": {"x":394, "y":368, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnCredits1.png": {
+		"frame": {"x":394, "y":276, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnCredits2.png": {
+		"frame": {"x":394, "y":184, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnDu1.png": {
+		"frame": {"x":307, "y":92, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnDu2.png": {
+		"frame": {"x":307, "y":0, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnFoto1.png": {
+		"frame": {"x":302, "y":368, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnFoto2.png": {
+		"frame": {"x":302, "y":276, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnHome1.png": {
+		"frame": {"x":302, "y":184, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnHome2.png": {
+		"frame": {"x":486, "y":368, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnNext1.png": {
+		"frame": {"x":215, "y":0, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnNext2.png": {
+		"frame": {"x":210, "y":368, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnOke1.png": {
+		"frame": {"x":0, "y":123, "w":122, "h":122},
+		"spriteSourceSize": {"x":0,"y":0,"w":122,"h":122},
+		"sourceSize": {"w":122,"h":122}
+	},
+	"btnOke2.png": {
+		"frame": {"x":0, "y":0, "w":122, "h":122},
+		"spriteSourceSize": {"x":0,"y":0,"w":122,"h":122},
+		"sourceSize": {"w":122,"h":122}
+	},
+	"btnRandom1.png": {
+		"frame": {"x":105, "y":353, "w":104, "h":106},
+		"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+		"sourceSize": {"w":104,"h":106}
+	},
+	"btnRandom2.png": {
+		"frame": {"x":0, "y":353, "w":104, "h":106},
+		"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+		"sourceSize": {"w":104,"h":106}
+	},
+	"btnReset1.png": {
+		"frame": {"x":105, "y":246, "w":104, "h":106},
+		"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+		"sourceSize": {"w":104,"h":106}
+	},
+	"btnReset2.png": {
+		"frame": {"x":0, "y":246, "w":104, "h":106},
+		"spriteSourceSize": {"x":0,"y":0,"w":104,"h":106},
+		"sourceSize": {"w":104,"h":106}
+	},
+	"btnTasklist1.png": {
+		"frame": {"x":123, "y":0, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnTasklist2.png": {
+		"frame": {"x":210, "y":276, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnWaitingRoom1.png": {
+		"frame": {"x":123, "y":92, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	},
+	"btnWaitingRoom2.png": {
+		"frame": {"x":210, "y":184, "w":91, "h":91},
+		"spriteSourceSize": {"x":0,"y":0,"w":91,"h":91},
+		"sourceSize": {"w":91,"h":91}
+	}
+
+},
+"meta": {
+	"image": "button.png",
+	"size": {"w": 1024, "h": 512},
+	"scale": "1"
+}
+}

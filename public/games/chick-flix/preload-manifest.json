@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/chick-flix/index.html",
+    "/games/chick-flix/js/poki-sdk-shim.js",
+    "/games/chick-flix/js/tiptap-platform-bridge.js",
+    "/games/chick-flix/js/tiptap-inline-1.js",
+    "/games/chick-flix/js/tiptap-inline-2.js"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/fashion-dress-up-star/index.html",
+    "/games/fashion-dress-up-star/js/poki-sdk-shim.js",
+    "/games/fashion-dress-up-star/js/tiptap-platform-bridge.js",
+    "/games/fashion-dress-up-star/js/tiptap-inline-1.js",
+    "/games/fashion-dress-up-star/js/tiptap-inline-2.js",
+    "/games/fashion-dress-up-star/js/tiptap-inline-3.js"
+  ]
+}

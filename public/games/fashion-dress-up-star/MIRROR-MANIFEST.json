@@ -1,0 +1,100 @@
+{
+  "name": "fashion-dress-up-star",
+  "sourcePage": "https://poki.com/en/g/fashion-dress-up-star",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 7431,
+      "sha256": "143228436b6aeeb109efa41625949528002d2ceca5a1646e687c552345422caf",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 175,
+      "sha256": "b314317f343c8fc93259dc2411ff55416db73fadb784a68df20a25a2de9cfabe",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "bca5abfc5d72d543865d40fb53e7013a095303ed785c1d2b4a1ee9f3c291b138",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "a8beee472cacbc1b641ca54b2ee117b282f148c0555825473879a6d73aa1861b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 365,
+      "sha256": "25127882d4b3d74b1c2e14b67dad1471ae31af7cccc8f3072c35ab1974f0b81b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 48008,
+      "sha256": "e1790b5a65a49778116d4c510564de968510b77dea10d86408384ae9106a2516"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 7431,
+      "sha256": "143228436b6aeeb109efa41625949528002d2ceca5a1646e687c552345422caf"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 932,
+      "sha256": "bca5abfc5d72d543865d40fb53e7013a095303ed785c1d2b4a1ee9f3c291b138"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 3549,
+      "sha256": "c9de02bb5a23f942a5e2e9db2a382a072416f3d88fd0b2942989bfe9616906e0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 328,
+      "sha256": "097c7cbe2162e2bc44c17f2ba77f48b1a5791ed8be61ee90b278a53d1bdf8ad6"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 862,
+      "sha256": "a8beee472cacbc1b641ca54b2ee117b282f148c0555825473879a6d73aa1861b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 365,
+      "sha256": "25127882d4b3d74b1c2e14b67dad1471ae31af7cccc8f3072c35ab1974f0b81b"
+    },
+    {
+      "assetPath": "ViralOutfitStar.wasm",
+      "bytes": 2412376,
+      "sha256": "1f0126b31e590eeae2473e0b2907e223a8c0f4513324b512eed4578411e593df"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

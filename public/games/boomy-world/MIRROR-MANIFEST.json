@@ -1,0 +1,70 @@
+{
+  "name": "boomy-world",
+  "sourcePage": "https://poki.com/en/g/boomy-world",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "8ef89e55bab5b392d78e63eb2e5091312c0558d7577fa78ed770e3008fed904f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "1215f762573cfe50ec56ff1a1b3cea72f193d751260baf25d1ba145187ffc012",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "45a730c70ca8cdbf62bbc97e796df088aef6394320a680524367b7cc79fecfd1",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "0ee91dfcebf637c796be9e0eff41151efde55c4d890cc212064a107ca1910a31",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "443e7636e8414bd8aa83fa6fe857eed715c00eb8a7e4ff14a69b7445926d5b3f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "8ef89e55bab5b392d78e63eb2e5091312c0558d7577fa78ed770e3008fed904f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "45a730c70ca8cdbf62bbc97e796df088aef6394320a680524367b7cc79fecfd1"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1210,
+      "sha256": "0380b1f63f9f5ee9486b434256865c01a2dae88c4cc4b41db440d5bbc1cc2b81"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "0ee91dfcebf637c796be9e0eff41151efde55c4d890cc212064a107ca1910a31"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "443e7636e8414bd8aa83fa6fe857eed715c00eb8a7e4ff14a69b7445926d5b3f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

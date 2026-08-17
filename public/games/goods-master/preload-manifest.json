@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/goods-master/index.html",
+    "/games/goods-master/js/poki-sdk-shim.js",
+    "/games/goods-master/js/tiptap-platform-bridge.js",
+    "/games/goods-master/js/tiptap-inline-1.js"
+  ]
+}

@@ -37,7 +37,7 @@ function insertBeforeLine(r, needleSubstring, newLine) {
 function insertAfter(r, needle, block) { return insertAfterLine(r, needle, block); }
 function insertBefore(r, needle, block) { return insertBeforeLine(r, needle, block); }
 
-export function pascal(slug) { return slug.split("-").map(p=>p.charAt(0).toUpperCase()+p.slice(1)).join(""); }
+export function pascal(slug) { return (slug.charAt(0) >= '0' && slug.charAt(0) <= '9' ? 'G' : '') + slug.split("-").map(p=>p.charAt(0).toUpperCase()+p.slice(1)).join(""); }
 export function taglineFor(title) { return title.replace(/[^A-Za-z0-9 ]/g,"").trim().split(/\s+/).slice(0,3).join(" ").toUpperCase().slice(0,24)||"PLAY NOW"; }
 
 export function registerGame({ slug, title, creatorName, creatorId, category }) {
@@ -50,7 +50,7 @@ export function registerGame({ slug, title, creatorName, creatorId, category }) 
   ins("src/games/index.ts", "DriftBossGame", `export { ${comp} } from "./${comp}";`);
   ins("src/App.tsx", "DriftBossGame,", `  ${comp},`);
   ins("src/App.tsx", `"drift-boss": DriftBossGame,`, `  "${slug}": ${comp},`);
-  ins("src/App.tsx", `"drift-boss": "DRIFT! BOSS!",`, `  "${slug}": "${taglineFor(title)}",`);
+  ins("src/App.tsx", `"drift-boss": "DRIFT BOSS",`, `  "${slug}": "${taglineFor(title)}",`);
   insB("shared/catalog.ts", `  "drift-boss": {`, `  "${slug}": { creatorId: "${creatorId||"poki-mirror"}", creatorName: "${creatorName||"Poki Mirror"}", creatorLabel: "BY ${(creatorName||"POKI MIRROR").toUpperCase()} · LOCAL SOURCE MIRROR", category: "${category||"Arcade"}" },`);
   ins("src/types.ts", `  | "drift-boss"`, `  | "${slug}"`);
   insB("src/offline-catalog.ts", `slug: "drift-boss",`, `    { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },`);
