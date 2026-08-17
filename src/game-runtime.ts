@@ -205,6 +205,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "happy-tidy-time": { embedded: true, preloadManifest: "/games/happy-tidy-time/preload-manifest.json", assetManifest: "/games/happy-tidy-time/MIRROR-MANIFEST.json", prepareByMount: true },
   "soccer-league": { embedded: true, preloadManifest: "/games/soccer-league/preload-manifest.json", assetManifest: "/games/soccer-league/MIRROR-MANIFEST.json", prepareByMount: true },
   "moto-trap": { embedded: true, preloadManifest: "/games/moto-trap/preload-manifest.json", assetManifest: "/games/moto-trap/MIRROR-MANIFEST.json", prepareByMount: true },
+  "tiny-baker-ocean-jelly-cake": { embedded: true, preloadManifest: "/games/tiny-baker-ocean-jelly-cake/preload-manifest.json", assetManifest: "/games/tiny-baker-ocean-jelly-cake/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

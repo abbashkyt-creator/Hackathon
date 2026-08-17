@@ -50,7 +50,7 @@ describe("owned ad pipeline", () => {
           return false;
         }
       });
-    expect(indexes).toHaveLength(99);
+    expect(indexes).toHaveLength(readdirSync(join(root, "public", "games"), { withFileTypes: true }).filter(d => d.isDirectory() && d.name !== "_shared").length);
     for (const path of indexes) {
       const html = readFileSync(path, "utf8");
       const lock = html.indexOf('/games/_shared/network-lock.js');

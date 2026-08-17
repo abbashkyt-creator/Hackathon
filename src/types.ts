@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "tiny-baker-ocean-jelly-cake"
   | "moto-trap"
   | "soccer-league"
   | "happy-tidy-time"

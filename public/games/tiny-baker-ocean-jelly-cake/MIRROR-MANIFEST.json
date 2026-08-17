@@ -1,0 +1,110 @@
+{
+  "name": "tiny-baker-ocean-jelly-cake",
+  "sourcePage": "https://poki.com/en/g/tiny-baker-ocean-jelly-cake",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1701,
+      "sha256": "c9c96c6dbc383a8f44ec1f49bdeb3a4dcf0244139106197060d95cabd0fcd6d3",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 181,
+      "sha256": "0514387989545d13a584927352e6497c3aeb6e264897460574bcec05b5909762",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 944,
+      "sha256": "06c2662df378fe91b7f3ef70061d6961270ad0db620696397c45f348265dbded",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 868,
+      "sha256": "24a86cbb3d3e12630ea4ab641822a58ab0968fa5e2f2c53f0c0e1634cb9c997a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 337,
+      "sha256": "3d656a773d3a2b304183a2de7a548d99effd4680023c9dc8342fe873c1ab6f5d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "favicon.png",
+      "bytes": 12419,
+      "sha256": "16d266b28df0a0d190be2b53fe0d9c7b0ea909382ca865aa4f93af85c7ec8079"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1701,
+      "sha256": "c9c96c6dbc383a8f44ec1f49bdeb3a4dcf0244139106197060d95cabd0fcd6d3"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 944,
+      "sha256": "06c2662df378fe91b7f3ef70061d6961270ad0db620696397c45f348265dbded"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 391,
+      "sha256": "ddb4e5048191c0dcc1ea3d05371d7910031a270a0e4a2dba9d17be001441af78"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 486,
+      "sha256": "aa5a3f6d4c733209684c5a95a09af55e67756d1bf0d3d88ad8ecb5080899700f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 868,
+      "sha256": "24a86cbb3d3e12630ea4ab641822a58ab0968fa5e2f2c53f0c0e1634cb9c997a"
+    },
+    {
+      "assetPath": "mainmenu/achievements.json",
+      "bytes": 3222,
+      "sha256": "bc2f5cbaa350c42897f3374a1de618d3a2bbc4c33fb34463de8a049830d73bf1"
+    },
+    {
+      "assetPath": "mainmenu/achievements.png",
+      "bytes": 170785,
+      "sha256": "19b7545b074cf45d233256f6bc7579b80287db800cce54e736c9b06de149c947"
+    },
+    {
+      "assetPath": "manifest/game.json",
+      "bytes": 1416,
+      "sha256": "cc1ea681461cc81ba47bfc9bc88a7e48e8899eaae2b621b984ee35370b7511a0"
+    },
+    {
+      "assetPath": "manifest/task1.json",
+      "bytes": 2051,
+      "sha256": "900a32db7e36fee7c0ffc25808c1fc457cc108d03980cbb287484485974d6929"
+    },
+    {
+      "assetPath": "manifest/task2.json",
+      "bytes": 1058,
+      "sha256": "3c61b39cbeefbe196df286c5b0605e75e2c06d6068f9f48e0950594695ab1ed8"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 337,
+      "sha256": "3d656a773d3a2b304183a2de7a548d99effd4680023c9dc8342fe873c1ab6f5d"
+    },
+    {
+      "assetPath": "tiny_baker_ocean_jelly_cake.js",
+      "bytes": 2039909,
+      "sha256": "4f467202bf4074d21164d613f7fc36a7a02f7bf195dbfab3b23d5f8c5f297d97"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

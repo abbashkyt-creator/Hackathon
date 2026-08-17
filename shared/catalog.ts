@@ -242,6 +242,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "happy-tidy-time": { creatorId: "poki-mirror", creatorName: "Poki Mirror", creatorLabel: "BY POKI MIRROR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "soccer-league": { creatorId: "soccer-league", creatorName: "Soccer League", creatorLabel: "BY SOCCER LEAGUE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "moto-trap": { creatorId: "poki-mirror", creatorName: "Poki Mirror", creatorLabel: "BY POKI MIRROR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "tiny-baker-ocean-jelly-cake": { creatorId: "poki-mirror", creatorName: "Poki Mirror", creatorLabel: "BY POKI MIRROR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

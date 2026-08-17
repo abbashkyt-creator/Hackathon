@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/tiny-baker-ocean-jelly-cake/index.html",
+    "/games/tiny-baker-ocean-jelly-cake/js/poki-sdk-shim.js",
+    "/games/tiny-baker-ocean-jelly-cake/js/tiptap-platform-bridge.js",
+    "/games/tiny-baker-ocean-jelly-cake/js/tiptap-inline-1.js",
+    "/games/tiny-baker-ocean-jelly-cake/js/tiptap-inline-2.js"
+  ]
+}
