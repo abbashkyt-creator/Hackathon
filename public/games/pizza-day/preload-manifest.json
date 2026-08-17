@@ -3,8 +3,6 @@
     "/games/pizza-day/index.html",
     "/games/pizza-day/js/poki-sdk-shim.js",
     "/games/pizza-day/js/tiptap-platform-bridge.js",
-    "/games/pizza-day/scripts/modernjscheck.js",
-    "/games/pizza-day/scripts/supportcheck.js",
-    "/games/pizza-day/scripts/main.js"
+    "/games/pizza-day/js/tiptap-inline-1.js"
   ]
 }

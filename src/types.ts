@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "pizza-day"
   | "wonder-high-dressup"
   | "elf-backpack"
   | "cube-builder"

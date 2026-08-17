@@ -341,6 +341,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "cube-builder": { embedded: true, preloadManifest: "/games/cube-builder/preload-manifest.json", assetManifest: "/games/cube-builder/MIRROR-MANIFEST.json", prepareByMount: true },
   "elf-backpack": { embedded: true, preloadManifest: "/games/elf-backpack/preload-manifest.json", assetManifest: "/games/elf-backpack/MIRROR-MANIFEST.json", prepareByMount: true },
   "wonder-high-dressup": { embedded: true, preloadManifest: "/games/wonder-high-dressup/preload-manifest.json", assetManifest: "/games/wonder-high-dressup/MIRROR-MANIFEST.json", prepareByMount: true },
+  "pizza-day": { embedded: true, preloadManifest: "/games/pizza-day/preload-manifest.json", assetManifest: "/games/pizza-day/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
