@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "meme-madness"
+  | "i-am-hall-security"
   | "right-jump"
   | "drills-merge-master"
   | "beach-boxing-simulator"

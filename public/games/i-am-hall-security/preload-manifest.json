@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/i-am-hall-security/index.html",
+    "/games/i-am-hall-security/js/poki-sdk-shim.js",
+    "/games/i-am-hall-security/js/tiptap-platform-bridge.js",
+    "/games/i-am-hall-security/js/tiptap-inline-1.js"
+  ]
+}

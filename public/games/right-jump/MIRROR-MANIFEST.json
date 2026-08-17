@@ -1,0 +1,70 @@
+{
+  "name": "right-jump",
+  "sourcePage": "https://poki.com/en/g/right-jump",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "074d247458421c2854b2c252cdba336d51163ea4653787306cb3c007c941bc85",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "22e8dc11516fec42e360e3c077be9066b48582589e5dd5bd572da6a48eb6aa36",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "3b861633e39a8f04b70a119c9ad09014ca89f14e495de7097efbdb7fb4f739ad",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "a204bef0699ac6f7685071fe067765c134672e95b6cc923356883353113c942b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "58465622fa8e0e5c61a50e7a81e8beff48a12e54a5139ac26028f6c76fe03520",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "074d247458421c2854b2c252cdba336d51163ea4653787306cb3c007c941bc85"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "3b861633e39a8f04b70a119c9ad09014ca89f14e495de7097efbdb7fb4f739ad"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1203,
+      "sha256": "4b0eb1216d4049ea591119fb38ac7dfc5fecd65299c8955e0cfd94f9b3d7d855"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "a204bef0699ac6f7685071fe067765c134672e95b6cc923356883353113c942b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "58465622fa8e0e5c61a50e7a81e8beff48a12e54a5139ac26028f6c76fe03520"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

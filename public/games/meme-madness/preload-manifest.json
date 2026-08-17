@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/meme-madness/index.html",
+    "/games/meme-madness/js/poki-sdk-shim.js",
+    "/games/meme-madness/js/tiptap-platform-bridge.js",
+    "/games/meme-madness/js/tiptap-inline-1.js"
+  ]
+}

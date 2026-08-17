@@ -387,6 +387,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "beach-boxing-simulator": { embedded: true, preloadManifest: "/games/beach-boxing-simulator/preload-manifest.json", assetManifest: "/games/beach-boxing-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "drills-merge-master": { embedded: true, preloadManifest: "/games/drills-merge-master/preload-manifest.json", assetManifest: "/games/drills-merge-master/MIRROR-MANIFEST.json", prepareByMount: true },
   "right-jump": { embedded: true, preloadManifest: "/games/right-jump/preload-manifest.json", assetManifest: "/games/right-jump/MIRROR-MANIFEST.json", prepareByMount: true },
+  "i-am-hall-security": { embedded: true, preloadManifest: "/games/i-am-hall-security/preload-manifest.json", assetManifest: "/games/i-am-hall-security/MIRROR-MANIFEST.json", prepareByMount: true },
+  "meme-madness": { embedded: true, preloadManifest: "/games/meme-madness/preload-manifest.json", assetManifest: "/games/meme-madness/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
