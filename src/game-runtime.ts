@@ -355,6 +355,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "my-city-horse-stable": { embedded: true, preloadManifest: "/games/my-city-horse-stable/preload-manifest.json", assetManifest: "/games/my-city-horse-stable/MIRROR-MANIFEST.json", prepareByMount: true },
   "party-time": { embedded: true, preloadManifest: "/games/party-time/preload-manifest.json", assetManifest: "/games/party-time/MIRROR-MANIFEST.json", prepareByMount: true },
   "world-of-screw": { embedded: true, preloadManifest: "/games/world-of-screw/preload-manifest.json", assetManifest: "/games/world-of-screw/MIRROR-MANIFEST.json", prepareByMount: true },
+  "royal-flush-merge": { embedded: true, preloadManifest: "/games/royal-flush-merge/preload-manifest.json", assetManifest: "/games/royal-flush-merge/MIRROR-MANIFEST.json", prepareByMount: true },
+  "monster-max": { embedded: true, preloadManifest: "/games/monster-max/preload-manifest.json", assetManifest: "/games/monster-max/MIRROR-MANIFEST.json", prepareByMount: true },
+  "life-choices-2-life-simulator": { embedded: true, preloadManifest: "/games/life-choices-2-life-simulator/preload-manifest.json", assetManifest: "/games/life-choices-2-life-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

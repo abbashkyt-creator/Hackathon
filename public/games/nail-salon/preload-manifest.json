@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/nail-salon/index.html",
+    "/games/nail-salon/js/poki-sdk-shim.js",
+    "/games/nail-salon/js/tiptap-platform-bridge.js"
+  ]
+}

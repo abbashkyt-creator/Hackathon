@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/monster-max/index.html",
+    "/games/monster-max/js/poki-sdk-shim.js",
+    "/games/monster-max/js/tiptap-platform-bridge.js",
+    "/games/monster-max/js/tiptap-inline-1.js"
+  ]
+}

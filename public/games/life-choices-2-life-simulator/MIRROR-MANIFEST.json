@@ -1,0 +1,425 @@
+{
+  "name": "life-choices-2-life-simulator",
+  "sourcePage": "https://poki.com/en/g/life-choices-2-life-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1906,
+      "sha256": "bea873a41db2691827a91292fe9309599c31ae98ecb59a572897b0de99932981",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 183,
+      "sha256": "41230dea137b2c416a5bd7c25f815097a2dbb7db813aefc1deee9ec8d30b10d5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 948,
+      "sha256": "15d8a2f129f7151054aa27e1b94e9b1255ad523f7dfccafb388dcb05542fbe2b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 870,
+      "sha256": "0a09a092a0e0b71df2951da3fe9c5ead78d7b65e1aee93e3af4e71bcdcf3a016",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 281,
+      "sha256": "e085036e84f8ab214aeb160987087b7ceb54c1ba3c96e7da58ef512be854bc48",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 774,
+      "sha256": "e8d2ae4c24502b043f3ffef15a11abb2249f918a69c7af4052e3e00644832fb4"
+    },
+    {
+      "assetPath": "choices_deu.json",
+      "bytes": 1490002,
+      "sha256": "03fb7527eb1e01cace32f85168293eafe378ef07f6d78a349bb71e577221a5b7"
+    },
+    {
+      "assetPath": "choices_en.json",
+      "bytes": 1812874,
+      "sha256": "faa0bd981df47ddaddee071b7e68b7a09d9e40da9623e4b5e4ea7f461d5bcb04"
+    },
+    {
+      "assetPath": "choices_es.json",
+      "bytes": 1486979,
+      "sha256": "cea3ae8c56ef8b12a416017b9b1d04af7bcd89de5dfc5dbfbe139f5480220349"
+    },
+    {
+      "assetPath": "choices_fr.json",
+      "bytes": 1494197,
+      "sha256": "b32ed813bcf2f95722000c2a10f94a937b42559e1c5b35207274adcf7988cbf2"
+    },
+    {
+      "assetPath": "choices_por.json",
+      "bytes": 1476711,
+      "sha256": "e58a78379e1f2a8600b374c465c2df9030119372deda86f623c50be8895ce5e6"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 627077,
+      "sha256": "89252b43022371ff6d14dc058f4ddac9e7705924545544570a635a3bd83d1961"
+    },
+    {
+      "assetPath": "fonts/GameFont(patrick-hand).otf",
+      "bytes": 195780,
+      "sha256": "6c2ea1695ef6a3be7a47e089d117152fa3b557717bffae99ff405ef6a7625b74"
+    },
+    {
+      "assetPath": "fonts/riffic-bold.otf",
+      "bytes": 173676,
+      "sha256": "e512838f47581cc6409aafd45b7f70cac2b1452416b2b7befb996c07f89ed2ea"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 2823,
+      "sha256": "54b2560624b05fc29ac2719a807ae13e14c9011faed0dec34f30fcadc80c895b"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 530,
+      "sha256": "c2d3399921d94c9a6dc6dbe6f097282d211a487bebb92ed3539170d3f27a52a1"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 5416,
+      "sha256": "5e0d871db43232900e20f0264ee5ba6758a0a152f5df41827a15aac6916e4615"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 978,
+      "sha256": "76f2719bc2559e73d325f73dc20226e4e2ba27b1f6038029583ade71de171722"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 10523,
+      "sha256": "009f99cfa29e8b4aef15aa2ff18b973a32d23a924cdc3bcdd455b56cf8b841fa"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 1638,
+      "sha256": "6bb62b92b97cb3c88cdadf8d825a41f4b2c3d5c584c4b0ea6d0dfd149215fb1b"
+    },
+    {
+      "assetPath": "images/alltaskcompleted_bg-sheet0.webp",
+      "bytes": 145952,
+      "sha256": "41b5cd9baeaefe170dfee76dc72d0f22bd5da84fe795c67eb610d463d2a3ea30"
+    },
+    {
+      "assetPath": "images/alltaskcompleted_bg-sheet1.webp",
+      "bytes": 138616,
+      "sha256": "c3fffd3bfb62da016ad6d1f9bf9906a2f993daf485ad0ae35373c7a5e6e73260"
+    },
+    {
+      "assetPath": "images/feedbackiconportrait-sheet0.webp",
+      "bytes": 11714,
+      "sha256": "f72f45f486deb60a1c7f99cbab79bf6b73ccd5a49595a4d7a546cd4802f4b528"
+    },
+    {
+      "assetPath": "images/gamefinishcharacter-sheet0.webp",
+      "bytes": 73362,
+      "sha256": "d7823c537ef11401503bcc7fc0c9000ac1175cc2dcb947f874c0322ce13e7165"
+    },
+    {
+      "assetPath": "images/gamefinishcharacter-sheet1.webp",
+      "bytes": 17734,
+      "sha256": "591ba28834e86df8fe8483e0a658773bf4917f2511616d00edfd6c5fe510a5ba"
+    },
+    {
+      "assetPath": "images/luna_startpopup_bg-sheet0.webp",
+      "bytes": 60660,
+      "sha256": "1eb6fbcd83185d2f7087ecfb77f4f92b21f6436a7777614e87fdd2d0274cc510"
+    },
+    {
+      "assetPath": "images/luna_startpopup_bg-sheet1.webp",
+      "bytes": 41872,
+      "sha256": "f525ac8ff8b2293e4050979be399b8bcb6da8c4e4abefc19b9478ac3c054626f"
+    },
+    {
+      "assetPath": "images/luna_startpopup_bg-sheet2.webp",
+      "bytes": 52260,
+      "sha256": "c7dda1d5fbb394bb1b5929eaa6f4db0d8347501a014f864f35d6f9cdda326e61"
+    },
+    {
+      "assetPath": "images/luna_startpopup_bg-sheet3.webp",
+      "bytes": 88730,
+      "sha256": "c76b2c6dd8d832a89def3fe6d7d804be20ff3d2acf530f525c9781a397366e74"
+    },
+    {
+      "assetPath": "images/luna_startpopup_bg-sheet4.webp",
+      "bytes": 53334,
+      "sha256": "e7818e84b7ca63bc482d4901e0af0d213534d4bb432317dfb165dafbec4d8dc8"
+    },
+    {
+      "assetPath": "images/popupicons-sheet0.webp",
+      "bytes": 18780,
+      "sha256": "b9d6e42ed929f25716eedeeb466870eaba0a4ec7bda3a746caeec016b8c30a1a"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 181746,
+      "sha256": "a3cee55072d8e02e6118daa72386e67e4e071d8868b34d8736c824c477e52ed0"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 261874,
+      "sha256": "6915981d0e69055176fd66de64d0109ff9e3c2220ee453821acda3e1c1121527"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 201942,
+      "sha256": "ec3c7379d1c253fbdf6d8c474f8aa059d0f9edacd90498dfe4307671d71b80f5"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 215850,
+      "sha256": "5a55944ed272b73c5e9249de82787383a51518c5324ee439479b7f662f4b196e"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 177872,
+      "sha256": "b82c2de680fb270908f79549bfd2b94d0491ae9de66fac3994f8c60b01856c94"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 334628,
+      "sha256": "1b4ac7c3216495ef747d19bf3806ec9882cccb854a746a6f864af194d904d564"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 321992,
+      "sha256": "201876dc7a0b4610bf0b61d188c73f29e375a46e6a317226b7caf0c84a487d1f"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 246060,
+      "sha256": "87459a6b23ddf614bf91eb8a5f537825cd673d6b6498f954c247d20e9edb7c13"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 42270,
+      "sha256": "50c55cba70ace3ba99a7a7ca793cb396fdce8f9b93fcb51d49d6eb629208c751"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.webp",
+      "bytes": 6792,
+      "sha256": "5a1e45283baa55e9d78c42d90eb5e5deb2884502be9da6d5c63b7d533e49fcf1"
+    },
+    {
+      "assetPath": "images/shared-2-sheet0.webp",
+      "bytes": 124252,
+      "sha256": "58d8d6577452960da84735ddc00d6f82755ab8ee59b12f626748915315ca7ede"
+    },
+    {
+      "assetPath": "images/shared-2-sheet1.webp",
+      "bytes": 56008,
+      "sha256": "a297b056a17a96cdafbd798e57ac331c58dd6177c871c7aa8720cdd2c9b8bfdd"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 60354,
+      "sha256": "f8bdcfff2e7936a6af5a0eebba333449818a93513f4bfaab7c0e315bf5732a7b"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 1976,
+      "sha256": "399a9fab2bc82cace362f249b66746b2e771f0e06041408fe968ae3fbe701899"
+    },
+    {
+      "assetPath": "images/shared-3-sheet0.webp",
+      "bytes": 184454,
+      "sha256": "aedb77f87c5d0bcb6cb6a5417932eca1971a8d99dbaba1368d3e961c2a760f7f"
+    },
+    {
+      "assetPath": "images/shared-3-sheet1.webp",
+      "bytes": 76524,
+      "sha256": "9c6ebddf51b530ec501f9c50bff524028e36c9202d8e80011fb17a82325f5a0b"
+    },
+    {
+      "assetPath": "images/shared-3-sheet2.webp",
+      "bytes": 36392,
+      "sha256": "338f252f67d6d5179f56d7b527f59656c1ea09e4b7eff0fe5d59f5eb842caf01"
+    },
+    {
+      "assetPath": "images/shared-3-sheet3.webp",
+      "bytes": 6288,
+      "sha256": "d3bf4601a318cc8a0b9c3fa73fbd510a01f69c059f187f6469bbbbea76581293"
+    },
+    {
+      "assetPath": "images/tasks_player_thinking-sheet0.webp",
+      "bytes": 228438,
+      "sha256": "fda9393c520d986d8eef112949f0ab25a256d382637d49f3e5973d9113f27fe4"
+    },
+    {
+      "assetPath": "images/tasks_player_thinking2-sheet0.webp",
+      "bytes": 217844,
+      "sha256": "a1f3e1e775d21352a2976455a605471cf0f8f777d1afccc9c1e9cd9bac3b6ee1"
+    },
+    {
+      "assetPath": "images/tasks_player_thinking4-sheet0.webp",
+      "bytes": 86410,
+      "sha256": "7aa381e9d8d4aa8de527907112a9c5372b07328d4a1a7d34e7a846dd90370dc7"
+    },
+    {
+      "assetPath": "images/tasks_player_thinking4-sheet1.webp",
+      "bytes": 17274,
+      "sha256": "70085a4079bc7b5c5af63aabb59bf7a1bcc14f796d30ed2f19a91aa00c3f6eb6"
+    },
+    {
+      "assetPath": "images/task_object_1-sheet0.webp",
+      "bytes": 109066,
+      "sha256": "71aa0da1638d5a566e4a77bc6e3d5523c759d4e77e6df902c5105b672c300722"
+    },
+    {
+      "assetPath": "images/task_object_2-sheet0.webp",
+      "bytes": 138284,
+      "sha256": "42f2598d7dd7d135158e64d22375c9ff0eb49f88640795f4e0bf3ee70c6f39ea"
+    },
+    {
+      "assetPath": "images/task_object_2-sheet1.webp",
+      "bytes": 4894,
+      "sha256": "a873dae7e75a0af686929d061b8894486292262c5bab771ac4be2d2cf2ed540c"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1906,
+      "sha256": "bea873a41db2691827a91292fe9309599c31ae98ecb59a572897b0de99932981"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 948,
+      "sha256": "15d8a2f129f7151054aa27e1b94e9b1255ad523f7dfccafb388dcb05542fbe2b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 870,
+      "sha256": "0a09a092a0e0b71df2951da3fe9c5ead78d7b65e1aee93e3af4e71bcdcf3a016"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 281,
+      "sha256": "e085036e84f8ab214aeb160987087b7ceb54c1ba3c96e7da58ef512be854bc48"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1474458,
+      "sha256": "f50f11b71e536f1c7e492b4b1b5937421a47c2bd2d7b49800a155c9afd7641b4"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 121388,
+      "sha256": "4184bcc4de41fbc0fdce99e3ab93885aae0b58f68fac1f7812b4c6663da5591e"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4745,
+      "sha256": "e9b6c3ad78eefce680d3dd8bba33eed7260800b345a2e8cf7462f448a4d0c46b"
+    },
+    {
+      "assetPath": "stories_de.json",
+      "bytes": 317139,
+      "sha256": "d20e74e0e5162e5041517751235b68979e93688e9a68e37a5279182ced14caec"
+    },
+    {
+      "assetPath": "stories_en.json",
+      "bytes": 418121,
+      "sha256": "40e6ba9b9f6af2fbd54046580820a07f53e530b0c07421213a9bd37b17255c19"
+    },
+    {
+      "assetPath": "stories_es.json",
+      "bytes": 315362,
+      "sha256": "57c766a7e9adb1d5a270ea5d8e18d445a4ab34df5b2bba8381f75dc6f61f6757"
+    },
+    {
+      "assetPath": "stories_fr.json",
+      "bytes": 318241,
+      "sha256": "b66877ff307ca4984f7f66f68b6bee5b5b45e5026136afafb6655c53e8f68ec2"
+    },
+    {
+      "assetPath": "stories_pt.json",
+      "bytes": 315277,
+      "sha256": "0ce4a49479ee349dcba4bf5397a79691546b2c9e13d97191162f5ed369ac9654"
+    },
+    {
+      "assetPath": "strings_de.json",
+      "bytes": 12397,
+      "sha256": "89550ad1a5ab2fb319654268fe4e86cf88cf252aae638587273b91a3699a5f9e"
+    },
+    {
+      "assetPath": "strings_en.json",
+      "bytes": 11044,
+      "sha256": "ce537049bef07a421af4b132936bd84addade87492379b15112c195ea67fb237"
+    },
+    {
+      "assetPath": "strings_es.json",
+      "bytes": 11820,
+      "sha256": "a9b2fc683ccb9985022ecf0312e55048b33fe4dd084079371865d5a7d74df00e"
+    },
+    {
+      "assetPath": "strings_fr.json",
+      "bytes": 12091,
+      "sha256": "b349426b4ff5a9d78eb2fe1dd0d0f97486be7f6a893e70b6346ab4e76dba8340"
+    },
+    {
+      "assetPath": "strings_pt.json",
+      "bytes": 11680,
+      "sha256": "329c05a5b769b4ea81455488e6444ab569bf9e5fbdcdf058c80311150f877eec"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "2c6477dbfc9158996286851ab1bfd70ac5d44f93af94d96260b9129c5b378ed7"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

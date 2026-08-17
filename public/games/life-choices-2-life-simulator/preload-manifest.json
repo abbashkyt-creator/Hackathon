@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/life-choices-2-life-simulator/index.html",
+    "/games/life-choices-2-life-simulator/js/poki-sdk-shim.js",
+    "/games/life-choices-2-life-simulator/js/tiptap-platform-bridge.js",
+    "/games/life-choices-2-life-simulator/js/tiptap-inline-1.js"
+  ]
+}

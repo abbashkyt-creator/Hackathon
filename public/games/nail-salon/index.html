@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"
+    />
+
+    <style></style>
+  <style>* {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body,
+html {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: 0 0;
+
+  touch-action: none;
+  background: #172538;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*preloader**/
+#preloader-pf {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #172538;
+
+  z-index: 999;
+  touch-action: none;
+  transition: all 0.5s;
+}
+#preloader-bg {
+  position: absolute;
+  background: #172538;
+  width: 100%;
+  height: 100%;
+  opacity: 0.08;
+  animation-name: bg-drag;
+  animation-duration: 80s;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+#preloader-inner {
+  will-change: transform;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#preloader-center {
+  will-change: transform;
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.play {
+  will-change: transform;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  animation-name: play-pulse;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.gear {
+  will-change: transform;
+  position: absolute;
+  left: 45px;
+  animation-name: gear-turn;
+  animation-duration: 2.66s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#pf-title {
+  will-change: transform;
+  max-width: 30%;
+  max-height: 8%;
+  position: absolute;
+  bottom: 10vh;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+@keyframes gear-turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes play-pulse {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(0.9);
+  }
+  28% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bg-drag {
+  0% {
+    background-position-x: 0px;
+    background-position-y: 0px;
+  }
+  100% {
+    background-position-x: 5800px;
+    background-position-y: -2800px;
+  }
+}
+
+/*ttpreaload*/
+.preload-logo-container {
+  display: block;
+  position: absolute;
+}
+
+.glic {
+  animation: glitch 1s linear 0s 1;
+  /*   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%); */
+}
+
+.alfanim {
+  animation: alfa 0.2s linear 0s 1;
+}
+
+@keyframes glitch {
+  1% {
+    transform: scale(2, 0.1);
+  }
+  2% {
+    transform: scale(0.2, 1.5);
+  }
+  3% {
+    transform: scale(2, 0.1);
+  }
+  4% {
+    transform: scale(0.2, 1.5);
+  }
+  12% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes alfa {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* .glic:before,
+ .glic:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+} 
+
+.glic:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+} */
+
+@keyframes glitchTop {
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(-30px, -15px) skew(-50deg);
+  }
+  64% {
+    transform: translate(0px, -0px) skew(-0deg);
+  }
+  76% {
+    transform: translate(-0px, 0px);
+  }
+  78% {
+    transform: translate(340px, -50px) skew(150deg);
+  }
+  79% {
+    transform: translate(0px, -0px) skew(-0deg);
+  }
+}
+
+/* .glic:after {
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+} */
+
+@keyframes glitchBottom {
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}
+
+/**loading anim*/
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+/**loading**/
+#loading-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  flex-direction: column;
+  font-family: Arial;
+}
+
+#loading-wrapper > * {
+  padding: 1vmin;
+}
+
+#loading-logo-img {
+  position: relative;
+  width: 20vmin;
+  border-radius: 5vmin;
+}
+
+#loading-game-name {
+  position: relative;
+  font-size: 6vmin;
+  color: white;
+}
+
+#loading-progress-text {
+  position: relative;
+  font-size: 4vmin;
+  color: #999a9e;
+}
+
+#loading-privacy-text {
+  position: absolute;
+  font-size: 3vmin;
+  color: #999a9e;
+  text-align: center;
+  width: 90%;
+  word-wrap: break-word;
+  bottom: 5%;
+}
+
+/****privacy****/
+#privacy-policy-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+  font-family: sans-serif;
+}
+
+#privacy-policy-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65vmin;
+  height: 45vmin;
+  background: black;
+  color: white;
+  flex-direction: column;
+  padding: 4vmin;
+  border-radius: 5vmin;
+}
+
+#privacy-policy-logo {
+  width: 15vmin;
+  position: absolute;
+  top: 0vmin;
+  transform: translate(0, -50%);
+  border: 2vmin solid black;
+  border-radius: 4vmin;
+}
+
+#privacy-policy-container a {
+  color: #f99f0e;
+}
+
+#privacy-text-container {
+  width: 100%;
+  height: 90%;
+  font-size: 4.5vmin;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#privacy-text {
+  word-wrap: break-word;
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#privacy-btn {
+  height: 10%;
+  top: 80%;
+  font-size: 8vmin;
+  color: #f99f0e;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5vmin solid #f99f0e;
+  padding-top: 4vmin;
+}
+
+#pplink-close-btn {
+  background: white;
+  position: absolute;
+  top: 6%;
+  border-radius: 30%;
+  z-index: 999;
+  font-family: Arial;
+  border-bottom: 1vmin solid black;
+  font-size: 9vw;
+  width: 14vw;
+  height: 14vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style></head>
+  <body>
+    <div id="preloader-pf" style="user-select: none; pointer-events: none">
+      <div id="preloader-bg"></div>
+      <div id="preloader-inner">
+        <div id="preloader-center" style="display: none">
+          <div class="preload-logo-container" id="gp-org">
+            <img class="gear" src="assets/core/gear.svg" alt="gear" />
+            <img class="play" src="assets/core/play.svg" alt="gear" />
+          </div>
+        </div>
+
+        <img id="pf-title" src="assets/core/title.svg" />
+      </div>
+    </div>
+    <script>
+      (function () {
+        var gears = document.getElementById("preloader-center");
+        if (!gears) return;
+        function scaleGears() {
+          gears.style.display = "block";
+          var w = window.innerWidth;
+          var h = window.innerHeight;
+
+          var scale = Math.min((w * 0.45) / 250, (h * 0.3) / 220, 1);
+          gears.style.transform = "scale(" + scale + ")";
+        }
+
+        window.addEventListener("resize", scaleGears);
+        setTimeout(scaleGears, 500);
+        setTimeout(scaleGears, 1000);
+      })();
+    </script>
+    <!--preloader-end-->
+  <script type="text/javascript" src="main.js"></script></body>
+</html>

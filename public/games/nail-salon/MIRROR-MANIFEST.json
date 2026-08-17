@@ -1,0 +1,90 @@
+{
+  "name": "nail-salon",
+  "sourcePage": "https://poki.com/en/g/nail-salon",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 9072,
+      "sha256": "da377f9e70e82b40146622e2e1abccbe96a31f28aed6201e00cf502ad6577dae",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "b28bae105048acff8796f2bccd5369ccd00578b3f84ac254b780a6a00c06c46d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "068273a18ab2143598abc4c8a09931aabd760d14455e02bcaf621b67bf1cf728",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "9d8c223eb03ccd7250b70b445e2e4937644f8ce6fabcf804000e126fdbba9f76",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "49cf370e28146550b5373709b1d0ef35126298d78b63155cf4c1ab9656402703",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/core/gear.svg",
+      "bytes": 3996,
+      "sha256": "c9c0344157f147c5359149efcc49e6a5d2b5356185ac134136ee631ee0da4b51"
+    },
+    {
+      "assetPath": "assets/core/play.svg",
+      "bytes": 2526,
+      "sha256": "11d05d77766c8b85ddd54fdb5b97a50ec61a73007a093a15e17cdf967de3394f"
+    },
+    {
+      "assetPath": "assets/core/title.svg",
+      "bytes": 5333,
+      "sha256": "bb04db0aa0d0d0db1feaec03e3fbcd20311314094293f5f58b903178ee7f2249"
+    },
+    {
+      "assetPath": "assets/textures/stickerAtlas/texture.png",
+      "bytes": 100920,
+      "sha256": "af1c9b7511495f993536399ee52f1f4826400f21a08d769c6d94051573ae064d"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 9072,
+      "sha256": "da377f9e70e82b40146622e2e1abccbe96a31f28aed6201e00cf502ad6577dae"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "068273a18ab2143598abc4c8a09931aabd760d14455e02bcaf621b67bf1cf728"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "9d8c223eb03ccd7250b70b445e2e4937644f8ce6fabcf804000e126fdbba9f76"
+    },
+    {
+      "assetPath": "main.js",
+      "bytes": 2545153,
+      "sha256": "75282f603e860effb2abaddb414f4cee17f1d771f3a6eeea260e8f8f1bfa1be7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 158,
+      "sha256": "49cf370e28146550b5373709b1d0ef35126298d78b63155cf4c1ab9656402703"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

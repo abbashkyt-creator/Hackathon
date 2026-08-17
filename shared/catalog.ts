@@ -397,6 +397,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "my-city-horse-stable": { creatorId: "my-city-horse-stable", creatorName: "My City Horse Stable", creatorLabel: "BY MY CITY HORSE STABLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "party-time": { creatorId: "party-time", creatorName: "Party Time", creatorLabel: "BY PARTY TIME · LOCAL SOURCE MIRROR", category: "Arcade" },
   "world-of-screw": { creatorId: "world-of-screw", creatorName: "World of Screw", creatorLabel: "BY WORLD OF SCREW · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "royal-flush-merge": { creatorId: "royal-flush-merge", creatorName: "Royal Flush Merge", creatorLabel: "BY ROYAL FLUSH MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "monster-max": { creatorId: "monster-max", creatorName: "Monster Max", creatorLabel: "BY MONSTER MAX · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "life-choices-2-life-simulator": { creatorId: "life-choices-2-life-simulator", creatorName: "Life Choices 2: Life Simulator", creatorLabel: "BY LIFE CHOICES 2: LIFE SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
