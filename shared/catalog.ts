@@ -363,6 +363,10 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "papa-louie-3": { creatorId: "papa-louie-3", creatorName: "Papa Louie 3", creatorLabel: "BY PAPA LOUIE 3 · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mirror-image": { creatorId: "mirror-image", creatorName: "Mirror Image", creatorLabel: "BY MIRROR IMAGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "bos-bedroom": { creatorId: "bo-s-bedroom", creatorName: "Bo's Bedroom", creatorLabel: "BY BO'S BEDROOM · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "bubble-heroes": { creatorId: "bubble-heroes", creatorName: "Bubble Heroes", creatorLabel: "BY BUBBLE HEROES · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "racing-rampage": { creatorId: "racing-rampage", creatorName: "Racing Rampage", creatorLabel: "BY RACING RAMPAGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "snek-left": { creatorId: "snek-left", creatorName: "Snek Left", creatorLabel: "BY SNEK LEFT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "snow-riders": { creatorId: "snow-riders", creatorName: "Snow Riders", creatorLabel: "BY SNOW RIDERS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

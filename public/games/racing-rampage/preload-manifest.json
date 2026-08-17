@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/racing-rampage/index.html",
+    "/games/racing-rampage/js/poki-sdk-shim.js",
+    "/games/racing-rampage/js/tiptap-platform-bridge.js",
+    "/games/racing-rampage/js/tiptap-inline-1.js"
+  ]
+}

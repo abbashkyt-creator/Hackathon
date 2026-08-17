@@ -321,6 +321,10 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "papa-louie-3": { embedded: true, preloadManifest: "/games/papa-louie-3/preload-manifest.json", assetManifest: "/games/papa-louie-3/MIRROR-MANIFEST.json", prepareByMount: true },
   "mirror-image": { embedded: true, preloadManifest: "/games/mirror-image/preload-manifest.json", assetManifest: "/games/mirror-image/MIRROR-MANIFEST.json", prepareByMount: true },
   "bos-bedroom": { embedded: true, preloadManifest: "/games/bos-bedroom/preload-manifest.json", assetManifest: "/games/bos-bedroom/MIRROR-MANIFEST.json", prepareByMount: true },
+  "bubble-heroes": { embedded: true, preloadManifest: "/games/bubble-heroes/preload-manifest.json", assetManifest: "/games/bubble-heroes/MIRROR-MANIFEST.json", prepareByMount: true },
+  "racing-rampage": { embedded: true, preloadManifest: "/games/racing-rampage/preload-manifest.json", assetManifest: "/games/racing-rampage/MIRROR-MANIFEST.json", prepareByMount: true },
+  "snek-left": { embedded: true, preloadManifest: "/games/snek-left/preload-manifest.json", assetManifest: "/games/snek-left/MIRROR-MANIFEST.json", prepareByMount: true },
+  "snow-riders": { embedded: true, preloadManifest: "/games/snow-riders/preload-manifest.json", assetManifest: "/games/snow-riders/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

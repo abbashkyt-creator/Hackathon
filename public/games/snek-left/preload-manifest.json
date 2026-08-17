@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/snek-left/index.html",
+    "/games/snek-left/js/poki-sdk-shim.js",
+    "/games/snek-left/js/tiptap-platform-bridge.js"
+  ]
+}
