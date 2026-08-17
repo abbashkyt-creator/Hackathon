@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "scary-little-prankster"
   | "j-j-jump"
   | "cashchubbies-islands"
   | "chess-multiplayer"

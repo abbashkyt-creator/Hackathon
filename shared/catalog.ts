@@ -491,6 +491,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "chess-multiplayer": { creatorId: "chess-multiplayer", creatorName: "Chess Multiplayer", creatorLabel: "BY CHESS MULTIPLAYER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cashchubbies-islands": { creatorId: "cashchubbies-islands", creatorName: "Cashchubbies Islands", creatorLabel: "BY CASHCHUBBIES ISLANDS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "j-j-jump": { creatorId: "j-j-jump", creatorName: "J-J-Jump", creatorLabel: "BY J-J-JUMP · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "scary-little-prankster": { creatorId: "scary-little-prankster", creatorName: "Scary Little Prankster", creatorLabel: "BY SCARY LITTLE PRANKSTER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

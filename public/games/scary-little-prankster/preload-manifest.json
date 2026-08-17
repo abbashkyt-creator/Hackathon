@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/scary-little-prankster/index.html",
+    "/games/scary-little-prankster/js/poki-sdk-shim.js",
+    "/games/scary-little-prankster/js/tiptap-platform-bridge.js",
+    "/games/scary-little-prankster/js/tiptap-inline-1.js"
+  ]
+}
