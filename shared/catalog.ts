@@ -353,6 +353,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "neon-challenge-legends": { creatorId: "neon-challenge-legends", creatorName: "Neon Challenge Legends", creatorLabel: "BY NEON CHALLENGE LEGENDS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "ludo-king": { creatorId: "ludo-king", creatorName: "Ludo King", creatorLabel: "BY LUDO KING · LOCAL SOURCE MIRROR", category: "Arcade" },
   "idle-spinner-factory-builder": { creatorId: "idle-spinner-factory-builder", creatorName: "Idle Spinner Factory Builder", creatorLabel: "BY IDLE SPINNER FACTORY BUILDER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "gas-station": { creatorId: "gas-station", creatorName: "Gas Station", creatorLabel: "BY GAS STATION · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

@@ -311,6 +311,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "neon-challenge-legends": { embedded: true, preloadManifest: "/games/neon-challenge-legends/preload-manifest.json", assetManifest: "/games/neon-challenge-legends/MIRROR-MANIFEST.json", prepareByMount: true },
   "ludo-king": { embedded: true, preloadManifest: "/games/ludo-king/preload-manifest.json", assetManifest: "/games/ludo-king/MIRROR-MANIFEST.json", prepareByMount: true },
   "idle-spinner-factory-builder": { embedded: true, preloadManifest: "/games/idle-spinner-factory-builder/preload-manifest.json", assetManifest: "/games/idle-spinner-factory-builder/MIRROR-MANIFEST.json", prepareByMount: true },
+  "gas-station": { embedded: true, preloadManifest: "/games/gas-station/preload-manifest.json", assetManifest: "/games/gas-station/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

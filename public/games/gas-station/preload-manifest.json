@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/gas-station/index.html",
+    "/games/gas-station/js/poki-sdk-shim.js",
+    "/games/gas-station/js/tiptap-platform-bridge.js",
+    "/games/gas-station/js/tiptap-inline-1.js"
+  ]
+}

@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { GasStationGame } from "./GasStationGame";
 export { IdleSpinnerFactoryBuilderGame } from "./IdleSpinnerFactoryBuilderGame";
 export { LudoKingGame } from "./LudoKingGame";
 export { NeonChallengeLegendsGame } from "./NeonChallengeLegendsGame";
