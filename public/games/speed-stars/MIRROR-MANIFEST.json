@@ -1,0 +1,70 @@
+{
+  "name": "speed-stars",
+  "sourcePage": "https://poki.com/en/g/speed-stars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "c2e5ef958208e83febd215067a33556fd3e0ad2e97483d62ce9ee7b6cbcbc6aa",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "e6d6387c1ac0a6f159cd5ba1e27eec36489cbc491fa6f096032192920111b32e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "b1f3c0313cc6dc10829b32a2c943e53b7f9f286db9cf0773024ed90e66750e64",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "f25ebf482b2d5c73d2b023d82bf729c2242e7f387bdbbb2ac92d7ffdb9a3d08b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "ddbeea14996c2b4c7bfd1134ed5f384b11ce674333fa8ffac65794329e649b9d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "c2e5ef958208e83febd215067a33556fd3e0ad2e97483d62ce9ee7b6cbcbc6aa"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "b1f3c0313cc6dc10829b32a2c943e53b7f9f286db9cf0773024ed90e66750e64"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1204,
+      "sha256": "7abd8f9bfa468be6510746065690ec33f9bb60254a6816fd1886499a6e5d3890"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "f25ebf482b2d5c73d2b023d82bf729c2242e7f387bdbbb2ac92d7ffdb9a3d08b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "ddbeea14996c2b4c7bfd1134ed5f384b11ce674333fa8ffac65794329e649b9d"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

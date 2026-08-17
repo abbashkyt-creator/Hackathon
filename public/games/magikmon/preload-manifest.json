@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "/games/magikmon/index.html",
+    "/games/magikmon/js/poki-sdk-shim.js",
+    "/games/magikmon/js/tiptap-platform-bridge.js",
+    "/games/magikmon/js/base64.js",
+    "/games/magikmon/js/phaser.min.js",
+    "/games/magikmon/js/spriter.min.js",
+    "/games/magikmon/js/magikmons.min.js"
+  ]
+}

@@ -330,6 +330,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "human-bullet-gun": { embedded: true, preloadManifest: "/games/human-bullet-gun/preload-manifest.json", assetManifest: "/games/human-bullet-gun/MIRROR-MANIFEST.json", prepareByMount: true },
   "graveyard-shift": { embedded: true, preloadManifest: "/games/graveyard-shift/preload-manifest.json", assetManifest: "/games/graveyard-shift/MIRROR-MANIFEST.json", prepareByMount: true },
   "speed-stars": { embedded: true, preloadManifest: "/games/speed-stars/preload-manifest.json", assetManifest: "/games/speed-stars/MIRROR-MANIFEST.json", prepareByMount: true },
+  "brain-test-special": { embedded: true, preloadManifest: "/games/brain-test-special/preload-manifest.json", assetManifest: "/games/brain-test-special/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

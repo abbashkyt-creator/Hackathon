@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "brain-test-special"
   | "speed-stars"
   | "graveyard-shift"
   | "human-bullet-gun"

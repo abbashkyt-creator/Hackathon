@@ -1,0 +1,11 @@
+{
+	"name": "POKI_Brain_Test_POKI_Special",
+	"short_name": "POKI_Brain_Test_POKI_Special",
+	"description": "Brain Test: Tricky Puzzles",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#000000",
+	"icons": [],
+	"screenshots": []
+}

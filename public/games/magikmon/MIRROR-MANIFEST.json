@@ -1,0 +1,90 @@
+{
+  "name": "magikmon",
+  "sourcePage": "https://poki.com/en/g/magikmon",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2683,
+      "sha256": "846d6b01e16088a8dee8878599134af084a807ad09511f591f2753ed521ce12c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "36488b3fd37e720ecc09aa312a10952e3b2efb4701a0bc29c131b80b01ad404a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "d7bde76f06fb95245c5c193c7992a5630391e481bd2a4580ea98eada7d38bcc4",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "de121ea42fc109dd8834fb50db53f6c4eb869f81dc74e22154ababff53bc06ff",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 312,
+      "sha256": "cccbb2345817479870a34327549023d818f994b38c5d79b8804a291f9bb15449",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2683,
+      "sha256": "846d6b01e16088a8dee8878599134af084a807ad09511f591f2753ed521ce12c"
+    },
+    {
+      "assetPath": "js/base64.js",
+      "bytes": 3707,
+      "sha256": "d05c0bbcd5df63f42cf4de21da8e0a3aed67af767c83dbfbdd865b124971d1ee"
+    },
+    {
+      "assetPath": "js/easystar-0.2.3.js",
+      "bytes": 19435,
+      "sha256": "878f245e22f6f627e1d1bbb63af2c681c1909a2a3d051f1effbd6bff832cc42d"
+    },
+    {
+      "assetPath": "js/magikmons.min.js",
+      "bytes": 603743,
+      "sha256": "6df15eb2912dbb29de32d62fb029a4c77565ebaf4ec89d8eb733bb09b339971a"
+    },
+    {
+      "assetPath": "js/phaser.min.js",
+      "bytes": 791393,
+      "sha256": "73faf2bf53129423765dbeb3013c41211aa7f3252090ed5f8a1c1b3f79b0432a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "d7bde76f06fb95245c5c193c7992a5630391e481bd2a4580ea98eada7d38bcc4"
+    },
+    {
+      "assetPath": "js/spriter.min.js",
+      "bytes": 61749,
+      "sha256": "412221c34254431b1f2b92453e34ab3b50b4ddb31f8eedca3cdf893e7aeafd7f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "de121ea42fc109dd8834fb50db53f6c4eb869f81dc74e22154ababff53bc06ff"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 312,
+      "sha256": "cccbb2345817479870a34327549023d818f994b38c5d79b8804a291f9bb15449"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
