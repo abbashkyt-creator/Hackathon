@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/merge-and-double/index.html",
+    "/games/merge-and-double/js/poki-sdk-shim.js",
+    "/games/merge-and-double/js/tiptap-platform-bridge.js"
+  ]
+}

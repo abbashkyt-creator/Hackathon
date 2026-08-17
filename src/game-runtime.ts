@@ -463,6 +463,11 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "emoji-builder": { embedded: true, preloadManifest: "/games/emoji-builder/preload-manifest.json", assetManifest: "/games/emoji-builder/MIRROR-MANIFEST.json", prepareByMount: true },
   "vortex-racer": { embedded: true, preloadManifest: "/games/vortex-racer/preload-manifest.json", assetManifest: "/games/vortex-racer/MIRROR-MANIFEST.json", prepareByMount: true },
   "world-soccer-champions": { embedded: true, preloadManifest: "/games/world-soccer-champions/preload-manifest.json", assetManifest: "/games/world-soccer-champions/MIRROR-MANIFEST.json", prepareByMount: true },
+  "johnny-trigger-sniper-game": { embedded: true, preloadManifest: "/games/johnny-trigger-sniper-game/preload-manifest.json", assetManifest: "/games/johnny-trigger-sniper-game/MIRROR-MANIFEST.json", prepareByMount: true },
+  "chicken-merge-2": { embedded: true, preloadManifest: "/games/chicken-merge-2/preload-manifest.json", assetManifest: "/games/chicken-merge-2/MIRROR-MANIFEST.json", prepareByMount: true },
+  "flipside": { embedded: true, preloadManifest: "/games/flipside/preload-manifest.json", assetManifest: "/games/flipside/MIRROR-MANIFEST.json", prepareByMount: true },
+  "bloku": { embedded: true, preloadManifest: "/games/bloku/preload-manifest.json", assetManifest: "/games/bloku/MIRROR-MANIFEST.json", prepareByMount: true },
+  "car-parking-school": { embedded: true, preloadManifest: "/games/car-parking-school/preload-manifest.json", assetManifest: "/games/car-parking-school/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

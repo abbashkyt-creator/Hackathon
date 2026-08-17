@@ -1,0 +1,70 @@
+{
+  "name": "johnny-trigger-sniper-game",
+  "sourcePage": "https://poki.com/en/g/johnny-trigger-sniper-game",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 861,
+      "sha256": "03e171ff86c3379accb8c1a822e8e1495807e427980e762a1dd01e4290716491",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 180,
+      "sha256": "356b2ee7406ecc4d23ce5a553e6ff352e76776b07c9cb4626fb43cbded275666",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 942,
+      "sha256": "685713ffba8d55dfb139d095041fb899e6a9f4e57405783ffcc619e626542dde",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 867,
+      "sha256": "b32f4dd2eff5ec4e8bb2fc59fb186a5e5ad7128945e964a2f6712d824b596c2e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 269,
+      "sha256": "937b354c731722bdc3276988863bc177dae5b7ffd0027c238d82d25be5c64487",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 861,
+      "sha256": "03e171ff86c3379accb8c1a822e8e1495807e427980e762a1dd01e4290716491"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 942,
+      "sha256": "685713ffba8d55dfb139d095041fb899e6a9f4e57405783ffcc619e626542dde"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1264,
+      "sha256": "5a231e698a19e7aa8c8fd71570b02557677b00ee59ff01914af74a904156166a"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 867,
+      "sha256": "b32f4dd2eff5ec4e8bb2fc59fb186a5e5ad7128945e964a2f6712d824b596c2e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 269,
+      "sha256": "937b354c731722bdc3276988863bc177dae5b7ffd0027c238d82d25be5c64487"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

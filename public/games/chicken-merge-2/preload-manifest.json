@@ -3,9 +3,8 @@
     "/games/chicken-merge-2/index.html",
     "/games/chicken-merge-2/js/poki-sdk-shim.js",
     "/games/chicken-merge-2/js/tiptap-platform-bridge.js",
-    "/games/chicken-merge-2/poki_sitelock.js",
-    "/games/chicken-merge-2/jquery-2.1.1.min.js",
-    "/games/chicken-merge-2/spine_webgl.js",
-    "/games/chicken-merge-2/c2runtime.js"
+    "/games/chicken-merge-2/js/tiptap-inline-1.js",
+    "/games/chicken-merge-2/js/tiptap-inline-2.js",
+    "/games/chicken-merge-2/js/tiptap-inline-3.js"
   ]
 }

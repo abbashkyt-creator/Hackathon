@@ -505,6 +505,11 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "emoji-builder": { creatorId: "emoji-builder", creatorName: "Emoji Builder", creatorLabel: "BY EMOJI BUILDER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "vortex-racer": { creatorId: "vortex-racer", creatorName: "Vortex Racer", creatorLabel: "BY VORTEX RACER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "world-soccer-champions": { creatorId: "world-soccer-champions", creatorName: "World Soccer Champions", creatorLabel: "BY WORLD SOCCER CHAMPIONS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "johnny-trigger-sniper-game": { creatorId: "johnny-trigger-sniper-game", creatorName: "Johnny Trigger - Sniper Game", creatorLabel: "BY JOHNNY TRIGGER - SNIPER GAME · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "chicken-merge-2": { creatorId: "chicken-merge-2", creatorName: "Chicken Merge 2", creatorLabel: "BY CHICKEN MERGE 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "flipside": { creatorId: "flipside", creatorName: "Flipside", creatorLabel: "BY FLIPSIDE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "bloku": { creatorId: "bloku", creatorName: "Bloku!", creatorLabel: "BY BLOKU! · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "car-parking-school": { creatorId: "car-parking-school", creatorName: "Car Parking School", creatorLabel: "BY CAR PARKING SCHOOL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

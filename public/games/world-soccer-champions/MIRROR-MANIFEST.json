@@ -1,0 +1,70 @@
+{
+  "name": "world-soccer-champions",
+  "sourcePage": "https://poki.com/en/g/world-soccer-champions",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 851,
+      "sha256": "72ddcffa1a20936f979fc4e993ee4d1c104eccbc65f5af48a47f2582287437f8",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "253cd329e4767197daac2e44fc1991ef53702ca4948ac97703806a76221c1b5d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "d62d69bfce5e289db203e9acc6229d4c84e17a34faa99f288fc839ab92c3265c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "b4ee11f9b3d8e8fc431b299f3aad17fd771f42c683acaca4bb9fcb454cdf72c7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "5e9f0ddf41eb4ea574401d60c9c41c6f310cc277c1cb313f5a3e7d859e4c5dee",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 851,
+      "sha256": "72ddcffa1a20936f979fc4e993ee4d1c104eccbc65f5af48a47f2582287437f8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "d62d69bfce5e289db203e9acc6229d4c84e17a34faa99f288fc839ab92c3265c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1244,
+      "sha256": "48ea21c4115aa318183646f0e6d57f49addd959ef1f1ccdad76d323d8b7d504e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "b4ee11f9b3d8e8fc431b299f3aad17fd771f42c683acaca4bb9fcb454cdf72c7"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "5e9f0ddf41eb4ea574401d60c9c41c6f310cc277c1cb313f5a3e7d859e4c5dee"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

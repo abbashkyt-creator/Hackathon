@@ -1,0 +1,70 @@
+{
+  "name": "bloku",
+  "sourcePage": "https://poki.com/en/g/bloku",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 818,
+      "sha256": "b55bf1c40eafe948e3b5c78dc5715493570d739372e77a281adcf36a7727513e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 159,
+      "sha256": "9ff9c8fe1f87f223e208f89858ba65a41a36b1a559ec99d7f02a8c2ad0a2c4a3",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 900,
+      "sha256": "4e9c797a2b900154e82c3b2ae493627da0cfa308e56f6566fbfe8d56cf60d005",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 846,
+      "sha256": "1ca8de498c8efca58ec27852b986d9bb7b1b066af31ae8271377defa43102fe9",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "a41760964ad85635582032beab75d23cc1df1a8dd58023909ac04137d33842dd",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 818,
+      "sha256": "b55bf1c40eafe948e3b5c78dc5715493570d739372e77a281adcf36a7727513e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 900,
+      "sha256": "4e9c797a2b900154e82c3b2ae493627da0cfa308e56f6566fbfe8d56cf60d005"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 990,
+      "sha256": "7a7d56c1261ac5e982a87a6072b18cafa486f53dbe8dbd7569529e8fb9b559dd"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 846,
+      "sha256": "1ca8de498c8efca58ec27852b986d9bb7b1b066af31ae8271377defa43102fe9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 185,
+      "sha256": "a41760964ad85635582032beab75d23cc1df1a8dd58023909ac04137d33842dd"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/car-parking-school/index.html",
+    "/games/car-parking-school/js/poki-sdk-shim.js",
+    "/games/car-parking-school/js/tiptap-platform-bridge.js",
+    "/games/car-parking-school/js/tiptap-inline-1.js"
+  ]
+}

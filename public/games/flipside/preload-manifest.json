@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/flipside/index.html",
+    "/games/flipside/js/poki-sdk-shim.js",
+    "/games/flipside/js/tiptap-platform-bridge.js",
+    "/games/flipside/js/tiptap-inline-1.js"
+  ]
+}
