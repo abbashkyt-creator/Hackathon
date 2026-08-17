@@ -1,0 +1,476 @@
+{
+	"enemies": {
+        "enemy_0": {
+            "id": "spider",
+            "health": 5,
+            "damage": 1,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_1": {
+            "id": "bat",
+            "health": 10,
+            "damage": 2,
+            "attack_delay": 1,
+            "speed": 140,
+            "coins": 2
+        },
+        "enemy_2": {
+            "id": "fire_elemental",
+            "health": 15,
+            "damage": 3,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_3": {
+            "id": "golem",
+            "health": 20,
+            "damage": 3,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_4": {
+            "id": "mummy",
+            "health": 25,
+            "damage": 4,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_5": {
+            "id": "skeleton",
+            "health": 30,
+            "damage": 4,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_6": {
+            "id": "crystal_slime",
+            "health": 35,
+            "damage": 5,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_7": {
+            "id": "snow_goblin",
+            "health": 40,
+            "damage": 5,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_8": {
+            "id": "goblin",
+            "health": 50,
+            "damage": 5,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_9": {
+            "id": "goblin_warrior",
+            "health": 55,
+            "damage": 5,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_10": {
+            "id": "swamp_viper",
+            "health": 60,
+            "damage": 6,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_11": {
+            "id": "swamp_shaman",
+            "health": 65,
+            "damage": 6,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_12": {
+            "id": "scorpion",
+            "health": 70,
+            "damage": 6,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_13": {
+            "id": "sand_elemental",
+            "health": 75,
+            "damage": 6,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_14": {
+            "id": "mushroom",
+            "health": 80,
+            "damage": 7,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_15": {
+            "id": "silvan",
+            "health": 85,
+            "damage": 7,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_16": {
+            "id": "fire_shaman",
+            "health": 90,
+            "damage": 7,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_17": {
+            "id": "scarab",
+            "health": 95,
+            "damage": 7,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_18": {
+            "id": "necromancer",
+            "health": 100,
+            "damage": 8,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_19": {
+            "id": "dracula",
+            "health": 110,
+            "damage": 8,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_20": {
+            "id": "damned_deer",
+            "health": 120,
+            "damage": 8,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_21": {
+            "id": "white_bear",
+            "health": 130,
+            "damage": 8,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_22": {
+            "id": "stone_crab",
+            "health": 140,
+            "damage": 9,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_23": {
+            "id": "crystal_golem",
+            "health": 150,
+            "damage": 9,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_24": {
+            "id": "mosquito",
+            "health": 160,
+            "damage": 9,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_25": {
+            "id": "poisonous_frog",
+            "health": 170,
+            "damage": 9,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_26": {
+            "id": "sand_wasp",
+            "health": 180,
+            "damage": 10,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_27": {
+            "id": "sand_spirit",
+            "health": 190,
+            "damage": 10,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 1
+        },
+        "enemy_28": {
+            "id": "stump",
+            "health": 200,
+            "damage": 12,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_29": {
+            "id": "moss",
+            "health": 220,
+            "damage": 12,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_30": {
+            "id": "coal",
+            "health": 240,
+            "damage": 13,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_31": {
+            "id": "fire_harpy",
+            "health": 260,
+            "damage": 13,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_32": {
+            "id": "coffin",
+            "health": 280,
+            "damage": 14,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_33": {
+            "id": "graveyard_guard",
+            "health": 300,
+            "damage": 14,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_34": {
+            "id": "frostbite",
+            "health": 320,
+            "damage": 15,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_35": {
+            "id": "snowstorm_hydra",
+            "health": 340,
+            "damage": 15,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_36": {
+            "id": "crystal_jellyfish",
+            "health": 360,
+            "damage": 16,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_37": {
+            "id": "lord_of_spores",
+            "health": 380,
+            "damage": 16,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_38": {
+            "id": "water_lily",
+            "health": 400,
+            "damage": 17,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_39": {
+            "id": "leech",
+            "health": 420,
+            "damage": 17,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_40": {
+            "id": "goddess_of_sun",
+            "health": 440,
+            "damage": 18,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_41": {
+            "id": "skeleton_pharaoh",
+            "health": 460,
+            "damage": 18,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_42": {
+            "id": "spider_deer",
+            "health": 480,
+            "damage": 19,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_43": {
+            "id": "rotten_boar",
+            "health": 500,
+            "damage": 19,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_44": {
+            "id": "fiery_harpy",
+            "health": 520,
+            "damage": 20,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_45": {
+            "id": "lord_of_lava",
+            "health": 540,
+            "damage": 20,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_46": {
+            "id": "weeping_widow",
+            "health": 560,
+            "damage": 21,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_47": {
+            "id": "ash_knight",
+            "health": 580,
+            "damage": 21,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_48": {
+            "id": "icicle_guardian",
+            "health": 600,
+            "damage": 22,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_49": {
+            "id": "mutant_hare",
+            "health": 620,
+            "damage": 22,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_50": {
+            "id": "phosphorus_slug",
+            "health": 640,
+            "damage": 23,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_51": {
+            "id": "sulfur_elemental",
+            "health": 660,
+            "damage": 23,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_52": {
+            "id": "liquid",
+            "health": 680,
+            "damage": 24,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_53": {
+            "id": "lord_of_swamp",
+            "health": 700,
+            "damage": 24,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_54": {
+            "id": "sandy_robber",
+            "health": 720,
+            "damage": 25,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_55": {
+            "id": "sphinx",
+            "health": 740,
+            "damage": 25,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_56": {
+            "id": "demon_1",
+            "health": 800,
+            "damage": 30,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_57": {
+            "id": "demon_2",
+            "health": 820,
+            "damage": 30,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        },
+        "enemy_58": {
+            "id": "wizard",
+            "health": 900,
+            "damage": 40,
+            "attack_delay": 1,
+            "speed": 120,
+            "coins": 2
+        }
+    }
+}

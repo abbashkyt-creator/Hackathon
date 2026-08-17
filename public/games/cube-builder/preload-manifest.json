@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/cube-builder/index.html",
+    "/games/cube-builder/js/poki-sdk-shim.js",
+    "/games/cube-builder/js/tiptap-platform-bridge.js",
+    "/games/cube-builder/js/tiptap-inline-1.js",
+    "/games/cube-builder/js/tiptap-inline-2.js"
+  ]
+}
