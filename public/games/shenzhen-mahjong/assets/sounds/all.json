@@ -1,0 +1,49 @@
+{
+  "resources": [
+    "all.m4a",
+    "all.ogg",
+    "all.mp3"
+  ],
+  "spritemap": {
+    "all": {
+      "start": 0,
+      "end": 317,
+      "loop": false
+    },
+    "button": {
+      "start": 318,
+      "end": 319,
+      "loop": false
+    },
+    "fail": {
+      "start": 320,
+      "end": 322.4098185941043,
+      "loop": false
+    },
+    "loop": {
+      "start": 324,
+      "end": 381.49997732426306,
+      "loop": false
+    },
+    "puck": {
+      "start": 383,
+      "end": 383.1567346938775,
+      "loop": false
+    },
+    "remove": {
+      "start": 385,
+      "end": 385.1567346938775,
+      "loop": false
+    },
+    "win": {
+      "start": 387,
+      "end": 388.838231292517,
+      "loop": false
+    },
+    "shuffle": {
+      "start": 390,
+      "end": 390.441179138322,
+      "loop": false
+    }
+  }
+}

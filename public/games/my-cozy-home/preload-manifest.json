@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/my-cozy-home/index.html",
+    "/games/my-cozy-home/js/poki-sdk-shim.js",
+    "/games/my-cozy-home/js/tiptap-platform-bridge.js",
+    "/games/my-cozy-home/js/tiptap-inline-1.js",
+    "/games/my-cozy-home/js/tiptap-inline-2.js"
+  ]
+}
