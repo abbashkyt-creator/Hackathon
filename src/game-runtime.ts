@@ -415,6 +415,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "jetpack-fury": { embedded: true, preloadManifest: "/games/jetpack-fury/preload-manifest.json", assetManifest: "/games/jetpack-fury/MIRROR-MANIFEST.json", prepareByMount: true },
   "digger-escape": { embedded: true, preloadManifest: "/games/digger-escape/preload-manifest.json", assetManifest: "/games/digger-escape/MIRROR-MANIFEST.json", prepareByMount: true },
   "auto-ninja": { embedded: true, preloadManifest: "/games/auto-ninja/preload-manifest.json", assetManifest: "/games/auto-ninja/MIRROR-MANIFEST.json", prepareByMount: true },
+  "moving-blocks": { embedded: true, preloadManifest: "/games/moving-blocks/preload-manifest.json", assetManifest: "/games/moving-blocks/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cougar-simulator-big-cats": { embedded: true, preloadManifest: "/games/cougar-simulator-big-cats/preload-manifest.json", assetManifest: "/games/cougar-simulator-big-cats/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

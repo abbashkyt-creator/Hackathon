@@ -457,6 +457,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "jetpack-fury": { creatorId: "jetpack-fury", creatorName: "Jetpack Fury", creatorLabel: "BY JETPACK FURY · LOCAL SOURCE MIRROR", category: "Arcade" },
   "digger-escape": { creatorId: "digger-escape", creatorName: "Digger Escape", creatorLabel: "BY DIGGER ESCAPE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "auto-ninja": { creatorId: "auto-ninja", creatorName: "Auto Ninja", creatorLabel: "BY AUTO NINJA · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "moving-blocks": { creatorId: "moving-blocks", creatorName: "Moving Blocks", creatorLabel: "BY MOVING BLOCKS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cougar-simulator-big-cats": { creatorId: "cougar-simulator-big-cats", creatorName: "Cougar Simulator: Big Cats", creatorLabel: "BY COUGAR SIMULATOR: BIG CATS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

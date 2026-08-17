@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "cougar-simulator-big-cats"
+  | "moving-blocks"
   | "auto-ninja"
   | "digger-escape"
   | "jetpack-fury"

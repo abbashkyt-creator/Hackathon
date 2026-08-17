@@ -31,6 +31,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "cougar-simulator-big-cats": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "moving-blocks": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "auto-ninja": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "digger-escape": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "jetpack-fury": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

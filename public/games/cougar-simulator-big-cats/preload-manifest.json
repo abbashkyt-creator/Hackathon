@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/cougar-simulator-big-cats/index.html",
+    "/games/cougar-simulator-big-cats/js/poki-sdk-shim.js",
+    "/games/cougar-simulator-big-cats/js/tiptap-platform-bridge.js",
+    "/games/cougar-simulator-big-cats/js/tiptap-inline-1.js"
+  ]
+}
