@@ -1,0 +1,11 @@
+{
+	"name": "ItalianBrainrotCliker",
+	"short_name": "ItalianBrainrotCliker",
+	"description": "vera",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}
