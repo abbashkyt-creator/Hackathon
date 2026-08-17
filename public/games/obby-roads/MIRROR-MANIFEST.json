@@ -1,0 +1,90 @@
+{
+  "name": "obby-roads",
+  "sourcePage": "https://poki.com/en/g/obby-roads",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1029,
+      "sha256": "0b14f4c996558ea8d7e219bbbcb5689b79ccb986970a0ea0433a04537f767b47",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "4108182a2656a9aa1750f7cdb841accb5b9be1e2c96f555e6ecdfe387dd1f099",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "b08e038c39a9c7c3fdf15a8239856cccce7b062bb3dcd51be5eccf7a2ddb0e0b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "193eea512fb8ae6c13b571927ded5d39f67650fa1546b423dff2d77c9e4589a3",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "b25ab07ec2b649dbf60d555a24c2cd319f46e633971155308747ea17449d5390",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1029,
+      "sha256": "0b14f4c996558ea8d7e219bbbcb5689b79ccb986970a0ea0433a04537f767b47"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "b08e038c39a9c7c3fdf15a8239856cccce7b062bb3dcd51be5eccf7a2ddb0e0b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1204,
+      "sha256": "bbed83be48395f4f8e66d1a7c1c1d2503feec51e6e28d04b1354c2793ab05d1d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1093,
+      "sha256": "e2661c73f6ce35dd209b47e1b54ee4a03b1249c296e3f0039c707e9d336a839c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 790,
+      "sha256": "f43bc15a67f97afc9a6e16c79662fb699e8d72dbaaec003f0195e8cf243fcf89"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "193eea512fb8ae6c13b571927ded5d39f67650fa1546b423dff2d77c9e4589a3"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 299,
+      "sha256": "b25ab07ec2b649dbf60d555a24c2cd319f46e633971155308747ea17449d5390"
+    },
+    {
+      "assetPath": "scripts/auth.js",
+      "bytes": 19773,
+      "sha256": "10eda441980665300c0d05c4d91e9e017e2799cfeaf46fcdaf1841a5432e24ff"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 9020,
+      "sha256": "58781a9d229ff648d2b3d4653e7a150ceb6f8f01a51a6f51b95825df5ccbf29b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

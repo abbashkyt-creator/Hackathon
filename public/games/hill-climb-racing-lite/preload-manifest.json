@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/hill-climb-racing-lite/index.html",
+    "/games/hill-climb-racing-lite/js/poki-sdk-shim.js",
+    "/games/hill-climb-racing-lite/js/tiptap-platform-bridge.js",
+    "/games/hill-climb-racing-lite/js/tiptap-inline-1.js",
+    "/games/hill-climb-racing-lite/js/tiptap-inline-2.js",
+    "/games/hill-climb-racing-lite/js/tiptap-inline-3.js"
+  ]
+}

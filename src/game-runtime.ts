@@ -342,6 +342,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "elf-backpack": { embedded: true, preloadManifest: "/games/elf-backpack/preload-manifest.json", assetManifest: "/games/elf-backpack/MIRROR-MANIFEST.json", prepareByMount: true },
   "wonder-high-dressup": { embedded: true, preloadManifest: "/games/wonder-high-dressup/preload-manifest.json", assetManifest: "/games/wonder-high-dressup/MIRROR-MANIFEST.json", prepareByMount: true },
   "pizza-day": { embedded: true, preloadManifest: "/games/pizza-day/preload-manifest.json", assetManifest: "/games/pizza-day/MIRROR-MANIFEST.json", prepareByMount: true },
+  "obby-roads": { embedded: true, preloadManifest: "/games/obby-roads/preload-manifest.json", assetManifest: "/games/obby-roads/MIRROR-MANIFEST.json", prepareByMount: true },
+  "bacon-survivor": { embedded: true, preloadManifest: "/games/bacon-survivor/preload-manifest.json", assetManifest: "/games/bacon-survivor/MIRROR-MANIFEST.json", prepareByMount: true },
+  "hill-climb-racing-lite": { embedded: true, preloadManifest: "/games/hill-climb-racing-lite/preload-manifest.json", assetManifest: "/games/hill-climb-racing-lite/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

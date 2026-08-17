@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/bacon-survivor/index.html",
+    "/games/bacon-survivor/js/poki-sdk-shim.js",
+    "/games/bacon-survivor/js/tiptap-platform-bridge.js",
+    "/games/bacon-survivor/js/tiptap-inline-1.js",
+    "/games/bacon-survivor/js/tiptap-inline-2.js",
+    "/games/bacon-survivor/js/tiptap-inline-3.js"
+  ]
+}

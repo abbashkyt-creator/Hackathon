@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/obby-roads/index.html",
+    "/games/obby-roads/js/poki-sdk-shim.js",
+    "/games/obby-roads/js/tiptap-platform-bridge.js",
+    "/games/obby-roads/js/tiptap-inline-1.js",
+    "/games/obby-roads/js/tiptap-inline-2.js",
+    "/games/obby-roads/js/tiptap-inline-3.js"
+  ]
+}

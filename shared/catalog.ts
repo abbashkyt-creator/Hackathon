@@ -384,6 +384,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "elf-backpack": { creatorId: "elf-backpack", creatorName: "Elf Backpack", creatorLabel: "BY ELF BACKPACK · LOCAL SOURCE MIRROR", category: "Arcade" },
   "wonder-high-dressup": { creatorId: "wonder-high-dress-up", creatorName: "Wonder High Dress-Up", creatorLabel: "BY WONDER HIGH DRESS-UP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "pizza-day": { creatorId: "pizza-day", creatorName: "Pizza Day", creatorLabel: "BY PIZZA DAY · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "obby-roads": { creatorId: "obby-roads", creatorName: "Obby Roads", creatorLabel: "BY OBBY ROADS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "bacon-survivor": { creatorId: "bacon-survivor", creatorName: "Bacon Survivor", creatorLabel: "BY BACON SURVIVOR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "hill-climb-racing-lite": { creatorId: "hill-climb-racing-lite", creatorName: "Hill Climb Racing Lite", creatorLabel: "BY HILL CLIMB RACING LITE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

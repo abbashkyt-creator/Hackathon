@@ -1,0 +1,165 @@
+{
+  "name": "bacon-survivor",
+  "sourcePage": "https://poki.com/en/g/bacon-survivor",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3590,
+      "sha256": "0bfbf4ef83732e52cdee250aff2c2423898d30faef77aa86df18870afd39be2a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "57dc5820d7fd5e93aa0b7066f8f995461991a89cb6400997fe37766b9571232c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "d1ccbc35053c862408af7fc41ce60e0e015544946bd6253e1a3b18475e95de8e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "66eeb995edf9a8a6af93f26bdb541c78c7610ce02612fee1b68303ba99138a59",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 323,
+      "sha256": "4e270caf370011ea4c2701b873147ee8b592604c25f71d2ca4228a18c63fd502",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "html5game/aqh_ImageLoadBar.js",
+      "bytes": 105,
+      "sha256": "15c9e2a6800a3a76a1a3eb8f561ae008b527ceab2c81ccb43e60f4a3a40f8785"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive.js",
+      "bytes": 5984710,
+      "sha256": "ef2469033e2455905fe05c44dac4b0926e00e9866664c5c1ef382b03d89c81e3"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_0.png",
+      "bytes": 1349,
+      "sha256": "8901ccbd435f184509d51433e0c261195d998c3de451d268443cc0e1d0f22c91"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_1.png",
+      "bytes": 42958,
+      "sha256": "128137e2365984ddea230868f8ca056f4231f1f05dbcaa8b812448013a894720"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_2.png",
+      "bytes": 340438,
+      "sha256": "022cb2ed6476f4211b00ab10bd13b99dee14d2a0b5d1ad7c7ef1f1106d177cc7"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_3.png",
+      "bytes": 343881,
+      "sha256": "52ab7f96cbebb1cee70bc5efd221e82b006643fd1f82f1f9e6088289ae4e3d45"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_4.png",
+      "bytes": 487146,
+      "sha256": "53f82e76aee3dc0e2f42e8c604009d30fc55f60f1ffa4e96cbf9950154ba2cb2"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_5.png",
+      "bytes": 127147,
+      "sha256": "2b43e90802eb1c05d4c645e9f8f1c975f5e039a3fe656affdfda32834bc788b8"
+    },
+    {
+      "assetPath": "html5game/BaconMaySurvive_texture_6.png",
+      "bytes": 44170,
+      "sha256": "27a9e8a9025c6fe77fb606c591fa862b9ce36d8a5012fd6237dfc76b23430ed1"
+    },
+    {
+      "assetPath": "html5game/cqh_poki.js",
+      "bytes": 2850,
+      "sha256": "fd29e243ce805cc2814f27e1b7b1cdaa456392619cc7019f791bf3222bed0c1b"
+    },
+    {
+      "assetPath": "html5game/sound/worklets/audio-worklet.js",
+      "bytes": 26247,
+      "sha256": "c5551356c004ce277b865690a89511ba26f79e00059e3fa06f2439b544dd5329"
+    },
+    {
+      "assetPath": "html5game/vph_file_ensure.js",
+      "bytes": 276,
+      "sha256": "6c2fba35b1e52e3bde3260eb8f932c9dad6017c131bd5ac4b5ffcad8ad5717a6"
+    },
+    {
+      "assetPath": "html5game/winter.png",
+      "bytes": 33633,
+      "sha256": "68aa7aff07a20ecc5af6d5fa5543425234364bdafdebe238645508839b0c65f0"
+    },
+    {
+      "assetPath": "html5game/xph_GameAnalytics.js",
+      "bytes": 83225,
+      "sha256": "043285a0044043a45da37166c771f02f2d69ed05246ff964495142deab4c1224"
+    },
+    {
+      "assetPath": "html5game/yph_GameAnalyticsExt.js",
+      "bytes": 3560,
+      "sha256": "3978757c6cba9d1bdcd66eccb0fddd4ba2602f989bc1bbc3c2f2c4f86be68f77"
+    },
+    {
+      "assetPath": "html5game/zph_gmCallback.js",
+      "bytes": 982,
+      "sha256": "52fadbe6d9652b19b82164f7dbbdd90534e4956dc0e1090dd1f3fba50c8b0e51"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3590,
+      "sha256": "0bfbf4ef83732e52cdee250aff2c2423898d30faef77aa86df18870afd39be2a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "d1ccbc35053c862408af7fc41ce60e0e015544946bd6253e1a3b18475e95de8e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 3114,
+      "sha256": "f2ec0ccabbf80372d9261df1a6d9c39b96e2b26277f9d6b6f5fcd0a17c096ba6"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 98,
+      "sha256": "a073314bd614625e8cc62e2f59e9d0eee849cbb50cdddfd4c8fd3ed5cf830105"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 892,
+      "sha256": "d70f14fddc27ae2d136de36308ebd87d29887a5dd493d2ea5512554bab6f19ce"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 2039,
+      "sha256": "57487cd4029cae1ce184a927764cee013d3ba0da7c2afd8085859fb7eb2244b4"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "66eeb995edf9a8a6af93f26bdb541c78c7610ce02612fee1b68303ba99138a59"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 323,
+      "sha256": "4e270caf370011ea4c2701b873147ee8b592604c25f71d2ca4228a18c63fd502"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

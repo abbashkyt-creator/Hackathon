@@ -1,0 +1,90 @@
+{
+  "name": "hill-climb-racing-lite",
+  "sourcePage": "https://poki.com/en/g/hill-climb-racing-lite",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4171,
+      "sha256": "9d1ad97de36c7d50fb11d47914160d41bd451ef64f5934801be063a3451425e4",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "8f42b4d79b86cfc8db8097ae955a8322e00559fbd3cc46f75c239f56a1959768",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "d41c084933061e5e6e37ce69d8a7205fc34ec08b54d20a6c81aa90d8c1f4a139",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "f1d751ceefedb372328f4b75031997946754c090aaea01ba896811fbcb023499",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 371,
+      "sha256": "9e7ae60fee0a56c5fdf811bd7860c45870db9211e93a643704ebbbe4a8b97672",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47584,
+      "sha256": "5d3380993ce57720f5970370ba6bc54c48496c8c76ef51b7b316601ff6003dff"
+    },
+    {
+      "assetPath": "HCRLite.wasm",
+      "bytes": 2123609,
+      "sha256": "26febbf97f05b316a46f5a34b78a761d24fee3f37751f1e03fe027b78c6cfda3"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4171,
+      "sha256": "9d1ad97de36c7d50fb11d47914160d41bd451ef64f5934801be063a3451425e4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "d41c084933061e5e6e37ce69d8a7205fc34ec08b54d20a6c81aa90d8c1f4a139"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 2365,
+      "sha256": "5e395148dced1901e657e8284ca1137f0b89bb3e8acfb2c68b676ba6fdf0d6cd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 329,
+      "sha256": "3f8cbee2e4d8a55cb3bae02d8a8e3ba887a2108b3b5b51d904554cb9f7172b51"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "f1d751ceefedb372328f4b75031997946754c090aaea01ba896811fbcb023499"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 371,
+      "sha256": "9e7ae60fee0a56c5fdf811bd7860c45870db9211e93a643704ebbbe4a8b97672"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
