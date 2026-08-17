@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/ranch-ufo/index.html",
+    "/games/ranch-ufo/js/poki-sdk-shim.js",
+    "/games/ranch-ufo/js/tiptap-platform-bridge.js",
+    "/games/ranch-ufo/js/tiptap-inline-1.js"
+  ]
+}

@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "ranch-ufo": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "my-cozy-home": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "perfect-landing-plane-pilot": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "cow-castle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

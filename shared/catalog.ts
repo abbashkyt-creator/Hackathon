@@ -479,6 +479,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "cow-castle": { creatorId: "cow-castle", creatorName: "Cow Castle", creatorLabel: "BY COW CASTLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "perfect-landing-plane-pilot": { creatorId: "perfect-landing-plane-pilot", creatorName: "Perfect Landing, Plane Pilot", creatorLabel: "BY PERFECT LANDING, PLANE PILOT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "my-cozy-home": { creatorId: "my-cozy-home", creatorName: "My Cozy Home", creatorLabel: "BY MY COZY HOME · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "ranch-ufo": { creatorId: "ranch-ufo", creatorName: "Ranch UFO", creatorLabel: "BY RANCH UFO · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
