@@ -1,0 +1,130 @@
+{
+  "name": "car-detailing-master",
+  "sourcePage": "https://poki.com/en/g/car-detailing-master",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1062,
+      "sha256": "ebd2c326e37a122fcb830c90230da2e136609ba836794bfd1dcfe5d26098d83d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "931937d8a5813d7f18159d4d0d5a2e2721635273974f013165b173a387264d8c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "ad7c1863b00a5180a82e73434565e2186202ab74a31896f898140f4d7424fad9",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "a2b2562359f10e3b8d4d6a5ad949a798da9036295452132104a8a50e05b23c0e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 574,
+      "sha256": "8e9134d90a3fb3925ba76883eac20598f902bd73c35b7ab52fef08d1e795008e",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2372241.json",
+      "bytes": 45984,
+      "sha256": "2756a5a8302af0f5db5d58205446c8d5d095b69e2bc0388b0f050c475cde82cd"
+    },
+    {
+      "assetPath": "files/assets/241231997/1/logo.js",
+      "bytes": 125892,
+      "sha256": "e2cb061039bb7914ae1ed732b38e7307954eb205cf55883701d7d92159e6d578"
+    },
+    {
+      "assetPath": "files/assets/242062665/1/PokiSDKTest.js",
+      "bytes": 2110,
+      "sha256": "25e7c0a97bbbfab3e4589da0a088e41118c148772fe66d6e812327919d2d67a9"
+    },
+    {
+      "assetPath": "files/assets/242062667/1/PokiInterstitialAdHandler.js",
+      "bytes": 1573,
+      "sha256": "073ab3eed0597aeb2dc6bd08acf0487897b8a8e8f388233d29492d37e9be726c"
+    },
+    {
+      "assetPath": "files/assets/242062669/1/PokiRewardedAdHandler.js",
+      "bytes": 1340,
+      "sha256": "cf5f806ef65b843656625cdd4cd16ea44d03e2d2d086a3c0c3a007dc8baaa757"
+    },
+    {
+      "assetPath": "files/assets/275934604/1/Queue.js",
+      "bytes": 457,
+      "sha256": "b55f5f21bb45872525ceab4fc29170991e4798e71cf53f9d23612bea8ee0fc18"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1062,
+      "sha256": "ebd2c326e37a122fcb830c90230da2e136609ba836794bfd1dcfe5d26098d83d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "ad7c1863b00a5180a82e73434565e2186202ab74a31896f898140f4d7424fad9"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "a2b2562359f10e3b8d4d6a5ad949a798da9036295452132104a8a50e05b23c0e"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 379,
+      "sha256": "f590a665b7ec72dc6f4f5a6155ec174a00bc63ad44a3302ea5bec8a8d8250769"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2296254,
+      "sha256": "a51b81ecd5daa716cb0f43140eb25ea1ab076bd121e743c7a4da7dc5cffe8f6a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 574,
+      "sha256": "8e9134d90a3fb3925ba76883eac20598f902bd73c35b7ab52fef08d1e795008e"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 6829,
+      "sha256": "bb672bc56b25d0d94581de95139f60149e1abfc83f621c264c3dc8cbda68707d"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 2825,
+      "sha256": "df1439cdf81d9e258ee0832c50ea9c5f32001a348d226caf942ec014f8eb37af"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

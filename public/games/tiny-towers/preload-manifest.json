@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/tiny-towers/index.html",
+    "/games/tiny-towers/js/poki-sdk-shim.js",
+    "/games/tiny-towers/js/tiptap-platform-bridge.js",
+    "/games/tiny-towers/scripts/modernjscheck.js",
+    "/games/tiny-towers/scripts/supportcheck.js",
+    "/games/tiny-towers/scripts/main.js"
+  ]
+}

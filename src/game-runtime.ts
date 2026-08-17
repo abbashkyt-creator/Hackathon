@@ -441,6 +441,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "hot-air": { embedded: true, preloadManifest: "/games/hot-air/preload-manifest.json", assetManifest: "/games/hot-air/MIRROR-MANIFEST.json", prepareByMount: true },
   "master-assassin": { embedded: true, preloadManifest: "/games/master-assassin/preload-manifest.json", assetManifest: "/games/master-assassin/MIRROR-MANIFEST.json", prepareByMount: true },
   "sticker-book-puzzle": { embedded: true, preloadManifest: "/games/sticker-book-puzzle/preload-manifest.json", assetManifest: "/games/sticker-book-puzzle/MIRROR-MANIFEST.json", prepareByMount: true },
+  "brainrot-puzzle": { embedded: true, preloadManifest: "/games/brainrot-puzzle/preload-manifest.json", assetManifest: "/games/brainrot-puzzle/MIRROR-MANIFEST.json", prepareByMount: true },
+  "fruits-of-fury": { embedded: true, preloadManifest: "/games/fruits-of-fury/preload-manifest.json", assetManifest: "/games/fruits-of-fury/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

@@ -1,0 +1,95 @@
+{
+  "name": "fruits-of-fury",
+  "sourcePage": "https://poki.com/en/g/fruits-of-fury",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5430,
+      "sha256": "0b9428989ef72a63a182bdcef24ee7138d643df396fea5959c9ea04b1cd1f4cf",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "321a224d4ca9ecd860bb3e05f46ab6fc5872377cb699b71a216874a6488503f8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "81f9da22087d3675a95ee08c092c0b530175303ee70de6517851dfad1af09e3d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "5a91d252b09ce8cb23f828881ce35c396c1ad81d49b1d5d60d81964f5249a59f",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 323,
+      "sha256": "ad43798ac889ed7029456d6d744bc0ce3573603533843a9a83ae69dae142b132",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47544,
+      "sha256": "0ff66d78322b8684a40b353f11fbbdd4a4dc037d4ac56e8dd53360d80d844975"
+    },
+    {
+      "assetPath": "fruitsoffury.wasm",
+      "bytes": 2068695,
+      "sha256": "20e5f3450cb6ec4305379e90fdb69a7eb8c17b57b3ec5916d21a4398fe3facfa"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5430,
+      "sha256": "0b9428989ef72a63a182bdcef24ee7138d643df396fea5959c9ea04b1cd1f4cf"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "81f9da22087d3675a95ee08c092c0b530175303ee70de6517851dfad1af09e3d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 325,
+      "sha256": "e3aacd3b5dd4003b4c548447b48631a7aae799c3af990ab26a58402b6a56b9e8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 772,
+      "sha256": "359f1dbd58da00f343edd7dd076e41f61c88c7043d3204f948b9466661206faf"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "5a91d252b09ce8cb23f828881ce35c396c1ad81d49b1d5d60d81964f5249a59f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 323,
+      "sha256": "ad43798ac889ed7029456d6d744bc0ce3573603533843a9a83ae69dae142b132"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

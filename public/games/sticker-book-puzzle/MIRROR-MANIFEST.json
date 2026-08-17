@@ -1,0 +1,70 @@
+{
+  "name": "sticker-book-puzzle",
+  "sourcePage": "https://poki.com/en/g/sticker-book-puzzle",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 845,
+      "sha256": "9614603156fc6078474d8c4d8a522eb1b94be001c6b6087800888360441ea7a5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 173,
+      "sha256": "a50e55845ca3551182b3a642ae1d135473cf3e05327f6b9a9c84c3ba901e8136",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "fff78d8574d7a8ceb34e9afa1cadfeb818a84212cbc2e14dfb498e79a40cddbf",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "c1df8e9d4912d1495e59d6050369da529c476f7ad194cde3a418c68c7f957fbc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 241,
+      "sha256": "5ec2605f94ce13f5dffaf81e316f0714625ad4178e402d15dffada0fc84499c8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 845,
+      "sha256": "9614603156fc6078474d8c4d8a522eb1b94be001c6b6087800888360441ea7a5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 928,
+      "sha256": "fff78d8574d7a8ceb34e9afa1cadfeb818a84212cbc2e14dfb498e79a40cddbf"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1238,
+      "sha256": "d9de093323ee448df1ac26ee9830076e06bd97bb67b02e557295d6063d3e2376"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 860,
+      "sha256": "c1df8e9d4912d1495e59d6050369da529c476f7ad194cde3a418c68c7f957fbc"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 241,
+      "sha256": "5ec2605f94ce13f5dffaf81e316f0714625ad4178e402d15dffada0fc84499c8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/car-detailing-master/index.html",
+    "/games/car-detailing-master/js/poki-sdk-shim.js",
+    "/games/car-detailing-master/js/tiptap-platform-bridge.js",
+    "/games/car-detailing-master/files/assets/241231997/1/logo.js",
+    "/games/car-detailing-master/files/assets/242062665/1/PokiSDKTest.js",
+    "/games/car-detailing-master/files/assets/242062667/1/PokiInterstitialAdHandler.js",
+    "/games/car-detailing-master/files/assets/242062669/1/PokiRewardedAdHandler.js",
+    "/games/car-detailing-master/files/assets/275934604/1/Queue.js"
+  ]
+}
