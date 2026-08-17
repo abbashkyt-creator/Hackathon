@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/knockout-penguins/index.html",
+    "/games/knockout-penguins/js/poki-sdk-shim.js",
+    "/games/knockout-penguins/js/tiptap-platform-bridge.js",
+    "/games/knockout-penguins/js/tiptap-inline-1.js",
+    "/games/knockout-penguins/js/tiptap-inline-2.js",
+    "/games/knockout-penguins/js/tiptap-inline-3.js"
+  ]
+}

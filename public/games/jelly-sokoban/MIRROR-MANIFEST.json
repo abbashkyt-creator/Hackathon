@@ -1,0 +1,75 @@
+{
+  "name": "jelly-sokoban",
+  "sourcePage": "https://poki.com/en/g/jelly-sokoban",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 684,
+      "sha256": "3db84463bfc8eb9b1e7438c2063645d828490d55359a72350505214719648644",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "68d8f273ed1831471b3bca42187422bbbe3e2efb3683b3788f555b3ee310ab38",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "e0d786558f097a7324a7a17d4a4969b05382b24b13417d7dd20006fce99c4d44",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "25493e3d85c901a83c357d3c987b0c2cebcad6a4d81535e48c24dd7a7788e99f",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "87275927217c1b596df73e8d4f60b9ebaebe350e1be1dfd58411aaee92c964f3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 684,
+      "sha256": "3db84463bfc8eb9b1e7438c2063645d828490d55359a72350505214719648644"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "e0d786558f097a7324a7a17d4a4969b05382b24b13417d7dd20006fce99c4d44"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1713,
+      "sha256": "edc09f2276918fa7cecaff270b6b7c60f09891c4e5b11d5c2887df71fa942066"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "25493e3d85c901a83c357d3c987b0c2cebcad6a4d81535e48c24dd7a7788e99f"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 246,
+      "sha256": "20aa56801d1de1fa3e5982be3d48321e62ca23de3d0bec4eafc475ad3037e905"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "87275927217c1b596df73e8d4f60b9ebaebe350e1be1dfd58411aaee92c964f3"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

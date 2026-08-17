@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/basketball-real/index.html",
+    "/games/basketball-real/js/poki-sdk-shim.js",
+    "/games/basketball-real/js/tiptap-platform-bridge.js"
+  ]
+}

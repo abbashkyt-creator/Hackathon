@@ -1,0 +1,75 @@
+{
+  "name": "rail-in-the-air",
+  "sourcePage": "https://poki.com/en/g/rail-in-the-air",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4832,
+      "sha256": "ad32f0d97ef57d862865d56eda820cafa251acba4a1045e908580f9d5d7a4ea1",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "6ea932608dbe9fba884ed458e98e09ce3d5d4ff5a2efcb9bde1ea685274658c0",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "44d921459e07703ef00450b705cf54f4bd43084c91571b070cdf270348e78f56",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "f41aea1310b4f0384421343d3cab90c29bd96eda9a802905a8e08db1e25d9352",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "2bec9ada4336921577ddf18f28bda701e57a88a9c3d93d2a11e3e91d0475a542",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/icon-CRPZlS46.png",
+      "bytes": 93594,
+      "sha256": "2a9cb0edc9207ac36e1599292e344fbe4d3d59bb9e18754bb9c4cbe82d47f8f4"
+    },
+    {
+      "assetPath": "assets/index-B5hSLZni.js",
+      "bytes": 1849022,
+      "sha256": "58fcf08ba0b85376117d3b9d726d94ae362777d4a9280fc45a1bd6b2cb293418"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4832,
+      "sha256": "ad32f0d97ef57d862865d56eda820cafa251acba4a1045e908580f9d5d7a4ea1"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "44d921459e07703ef00450b705cf54f4bd43084c91571b070cdf270348e78f56"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "f41aea1310b4f0384421343d3cab90c29bd96eda9a802905a8e08db1e25d9352"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "2bec9ada4336921577ddf18f28bda701e57a88a9c3d93d2a11e3e91d0475a542"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,85 @@
+{
+  "name": "basketball-real",
+  "sourcePage": "https://poki.com/en/g/basketball-real",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1490,
+      "sha256": "798c1d78ddbb37c86ef56ee2cb3b2b9d11088c8bc49e71ca8bcf4c292ac90ee2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "fd181e7d411076dec7acc7fc03acc618b2f9dbcfe4657a5c21e0f89e357456da",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "c6ee053b24fb50d83f172012de013e8e5da2a60d504e4be927476aed8819e02a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "9046de2439aec9561132c7b18b4006dd2229180b0adfa31b98f3b71169ad064b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "661f28331cde68b538fa6409a92caff26854b9d3997c2b0e4f991ac2825a6c4b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "game.js",
+      "bytes": 200444,
+      "sha256": "e750dc3e808e2cfc020747960eecc85f7bec78786bd1e110bd1205d6ac32a29c"
+    },
+    {
+      "assetPath": "images/GLTFLoader.js",
+      "bytes": 84697,
+      "sha256": "1934fbb6b49c85c19f8ddc6b9212428366c7666ffb2e3cfcb66e0778f2e0023b"
+    },
+    {
+      "assetPath": "images/SkeletonUtils.js",
+      "bytes": 12553,
+      "sha256": "2e2c3b6bcfabc072cd79cb24a93d135080e2e70a5be4b6e0f031d3407957ed5a"
+    },
+    {
+      "assetPath": "images/three.min.js",
+      "bytes": 593604,
+      "sha256": "a572c55128b19deaca81d6e42ecd52e3a8846a8027cb7235efd2924876e75c75"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1490,
+      "sha256": "798c1d78ddbb37c86ef56ee2cb3b2b9d11088c8bc49e71ca8bcf4c292ac90ee2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "c6ee053b24fb50d83f172012de013e8e5da2a60d504e4be927476aed8819e02a"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "9046de2439aec9561132c7b18b4006dd2229180b0adfa31b98f3b71169ad064b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "661f28331cde68b538fa6409a92caff26854b9d3997c2b0e4f991ac2825a6c4b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/wreck-the-robot/index.html",
+    "/games/wreck-the-robot/js/poki-sdk-shim.js",
+    "/games/wreck-the-robot/js/tiptap-platform-bridge.js",
+    "/games/wreck-the-robot/js/tiptap-inline-1.js"
+  ]
+}

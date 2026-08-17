@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/magic-battleground/index.html",
+    "/games/magic-battleground/js/poki-sdk-shim.js",
+    "/games/magic-battleground/js/tiptap-platform-bridge.js",
+    "/games/magic-battleground/js/tiptap-inline-1.js"
+  ]
+}

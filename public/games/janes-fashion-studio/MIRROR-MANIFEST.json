@@ -1,0 +1,95 @@
+{
+  "name": "janes-fashion-studio",
+  "sourcePage": "https://poki.com/en/g/janes-fashion-studio",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5404,
+      "sha256": "8cb611941ad4ad4748f523c41b71d3d7b773f28b33a41226e99064cc286e355a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "a1818ed4512de67f8317351950640d643813cdd8bb2b6875cc53047ac698d73b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "95f25824053d6ab5f5809e64f4eeae9d814e851b69456ce85ffdf656863323d5",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "4f608e2ab468b26726e763fd63da6e04a0228ea062b581740a270265ce950eaa",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "1198dc3158760f87ca65e08a064a9197db76c51351b2b36f85089af31e208166",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 48014,
+      "sha256": "48e12fbb02e40c9416fe51398f89d3da6313f5c2dba899a45ae94b567d64cd15"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5404,
+      "sha256": "8cb611941ad4ad4748f523c41b71d3d7b773f28b33a41226e99064cc286e355a"
+    },
+    {
+      "assetPath": "JanesFashionStudio.wasm",
+      "bytes": 2598766,
+      "sha256": "4326e69a3655797e187e94ceb0e2d216ab8eb56552666cadb4c10ace9bd20fb0"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "95f25824053d6ab5f5809e64f4eeae9d814e851b69456ce85ffdf656863323d5"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 331,
+      "sha256": "b5dcefa9270a18d18d8f776eb9a3b08a4ffdbe2e0b672decb4d82b1049c8d831"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "4f608e2ab468b26726e763fd63da6e04a0228ea062b581740a270265ce950eaa"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "1198dc3158760f87ca65e08a064a9197db76c51351b2b36f85089af31e208166"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

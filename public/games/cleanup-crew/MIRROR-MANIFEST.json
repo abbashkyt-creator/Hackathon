@@ -1,0 +1,95 @@
+{
+  "name": "cleanup-crew",
+  "sourcePage": "https://poki.com/en/g/cleanup-crew",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5387,
+      "sha256": "3a5a52d01fc22fdef10b7b88887c7ce59908b33b03ea02cb90bd4ef29d985f83",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "41c34f349141670be691167abd15209b2dafb4cbe7d9a40b8fbc0efde3d3efc6",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "6fadb7ab75d0d181f7348b6e30db90ecb880305bdd30c552a8c291be85a643ca",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "34ce5434daac7e5d09ff178071e8c6bdfd5711f2432e02c1c23dcc91ff5f5280",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "443e8e303d795c5ebc1cedb1c6715a733efa471b9643a22ba90dc41f24b64e2b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "CleanupCrew.wasm",
+      "bytes": 2619265,
+      "sha256": "224e4a66d724fcc8d5f8a757262b761e7ca396b2ce840805b6ce11edbeb206ed"
+    },
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47998,
+      "sha256": "efc265babbc1245a9394be78df81f5e7bc2f9b9b944a479759555767c90b58d7"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5387,
+      "sha256": "3a5a52d01fc22fdef10b7b88887c7ce59908b33b03ea02cb90bd4ef29d985f83"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "6fadb7ab75d0d181f7348b6e30db90ecb880305bdd30c552a8c291be85a643ca"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 324,
+      "sha256": "1cbc6c1cb740a4fad03fbebf39b2935f15286d7c6d0c6bf599658aa5789ca28f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "34ce5434daac7e5d09ff178071e8c6bdfd5711f2432e02c1c23dcc91ff5f5280"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 311,
+      "sha256": "443e8e303d795c5ebc1cedb1c6715a733efa471b9643a22ba90dc41f24b64e2b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

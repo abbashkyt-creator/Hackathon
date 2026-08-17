@@ -1,0 +1,75 @@
+{
+  "name": "blast-buddies",
+  "sourcePage": "https://poki.com/en/g/blast-buddies",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 44312,
+      "sha256": "9e2afb6832f14910092e1bab908eec26b1f6f7907c1578d1b43fe7eb6602ec6a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "464aef3b180c9b115e1177adac449010ee5e7e7a6851082dd0a6306288fdeffc",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "c2244621742a60281ac76f1bc6c4b2185ebb8ebb908a001817c9b076b137e42b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "f418ebf3e8b82bf70575420e6ae5109fc8297569ede477e20deadf47e0c095b3",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "5c7301372c20d1bf9873215ab65f3fdd4c90465bc195d88710d84ebedfb6dc2c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 44312,
+      "sha256": "9e2afb6832f14910092e1bab908eec26b1f6f7907c1578d1b43fe7eb6602ec6a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "c2244621742a60281ac76f1bc6c4b2185ebb8ebb908a001817c9b076b137e42b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1618,
+      "sha256": "84f15b2c9172f197e1bf5042b5a6a5b6398edd0fc7b647e97fadaffba2494be3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "f418ebf3e8b82bf70575420e6ae5109fc8297569ede477e20deadf47e0c095b3"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "5c7301372c20d1bf9873215ab65f3fdd4c90465bc195d88710d84ebedfb6dc2c"
+    },
+    {
+      "assetPath": "textures/hud/BloodSplatter.png",
+      "bytes": 94123,
+      "sha256": "0a9a444d3518335a492e3b0eae40a243129d31ca7aa054812d5c153c6e1513ab"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

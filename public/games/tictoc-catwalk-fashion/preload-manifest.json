@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/tictoc-catwalk-fashion/index.html",
+    "/games/tictoc-catwalk-fashion/js/poki-sdk-shim.js",
+    "/games/tictoc-catwalk-fashion/js/tiptap-platform-bridge.js"
+  ]
+}

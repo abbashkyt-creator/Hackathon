@@ -1,0 +1,12 @@
+﻿{
+	"name": "Jelly Sokoban",
+	"short_name": "Jelly Sokoban",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"icons": [{
+		"src": "icon-128.png",
+		"sizes": "128x128",
+		"type": "image/png"
+	}]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "decor-life",
+  "sourcePage": "https://poki.com/en/g/decor-life",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 846,
+      "sha256": "770c18091bccc8a621cd4353bab8ff2b0314caec03f5ff6e8a0d88dca79771f8",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "7cc0d777676f20f726701f591b12f7b415a3b35e66703de1165b5d526b67a914",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "c9a746ada72962df170f9304884b7124c36652e334cb5c6735beb3ec58e608fc",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "2628feba0466b7d5b396b568d246f2d2d81b993db0257fe6e544046b7b48b632",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "bd5e4519724d412ae6a0542094ea17ad7d81e5627299e288070ac0b2ba0585fb",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 846,
+      "sha256": "770c18091bccc8a621cd4353bab8ff2b0314caec03f5ff6e8a0d88dca79771f8"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "c9a746ada72962df170f9304884b7124c36652e334cb5c6735beb3ec58e608fc"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1255,
+      "sha256": "d2bfc37b5d3a6408a0e7345aeac6306fde70ef2ee55462ac9b5cbfa656aec0dc"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "2628feba0466b7d5b396b568d246f2d2d81b993db0257fe6e544046b7b48b632"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "bd5e4519724d412ae6a0542094ea17ad7d81e5627299e288070ac0b2ba0585fb"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

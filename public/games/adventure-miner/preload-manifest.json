@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/adventure-miner/index.html",
+    "/games/adventure-miner/js/poki-sdk-shim.js",
+    "/games/adventure-miner/js/tiptap-platform-bridge.js",
+    "/games/adventure-miner/js/tiptap-inline-1.js"
+  ]
+}

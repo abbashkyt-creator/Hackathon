@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/jelly-sokoban/index.html",
+    "/games/jelly-sokoban/js/poki-sdk-shim.js",
+    "/games/jelly-sokoban/js/tiptap-platform-bridge.js",
+    "/games/jelly-sokoban/js/tiptap-inline-1.js"
+  ]
+}

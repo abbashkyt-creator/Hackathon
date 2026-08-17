@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/drift-hunters/index.html",
+    "/games/drift-hunters/js/poki-sdk-shim.js",
+    "/games/drift-hunters/js/tiptap-platform-bridge.js",
+    "/games/drift-hunters/js/tiptap-inline-1.js"
+  ]
+}

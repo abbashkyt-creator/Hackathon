@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/sprunki/index.html",
+    "/games/sprunki/js/poki-sdk-shim.js",
+    "/games/sprunki/js/tiptap-platform-bridge.js",
+    "/games/sprunki/script.js"
+  ]
+}

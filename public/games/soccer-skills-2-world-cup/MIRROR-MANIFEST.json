@@ -1,0 +1,150 @@
+{
+  "name": "soccer-skills-2-world-cup",
+  "sourcePage": "https://poki.com/en/g/soccer-skills-2-world-cup",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2321,
+      "sha256": "d6d75259bfaea4742ddd28e25c008db913a2cd31d2732a102e908930918e3cb2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "7d0353f6bd036607f7ba139123dc1e09f465d73046ef1d6edc15a05dd38fcc2f",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "f0cd90b1bb0f63ae8545f4f3962734d2066ad556f20c6f89173698a183cbf804",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "cdae9c79ff49b0cd08e73695cb3e001b476997ba65814ddce85a1c61dcd44b00",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 389,
+      "sha256": "d7590beb75e74fa9e55d9d460b8b7ce0bfd68847ce9f97d8abd43a523df063b6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "data/3D/ads.png",
+      "bytes": 143632,
+      "sha256": "e94883a10d73e04603f3e2e91095083f8174f1bb9940415c67930d71ac9874f4"
+    },
+    {
+      "assetPath": "data/3D/ballshad.png",
+      "bytes": 436,
+      "sha256": "fb7cab10b22d58cd5257b1d00672d914aec2fab489cc8286d8e71676263fa73a"
+    },
+    {
+      "assetPath": "data/3D/penball.png",
+      "bytes": 995,
+      "sha256": "b66e959890b26b225b38e5156552b622ace523ec93d3b728a66401a638d50bdb"
+    },
+    {
+      "assetPath": "data/3D/stad.png",
+      "bytes": 1668917,
+      "sha256": "b23d0754bb8e34c3736b749207f48a20f4a7a10a0576e7593c9b3d70381b637c"
+    },
+    {
+      "assetPath": "data/soundtrack/17.mp3",
+      "bytes": 30093,
+      "sha256": "e6b4d2c57157e6e5688f2e649c722752bab781d85da9b74e400882603801b068"
+    },
+    {
+      "assetPath": "data/soundtrack/18.mp3",
+      "bytes": 35108,
+      "sha256": "07a29ce480ff42d9ac89d0b23ec47fb0557aa18d33e03ab9fe19baff5bacac3d"
+    },
+    {
+      "assetPath": "data/soundtrack/19.mp3",
+      "bytes": 36989,
+      "sha256": "0067252273b4d289beff29b5d5cef6f8a63613da78d3bc9a28526ebf51f8e375"
+    },
+    {
+      "assetPath": "data/soundtrack/loop0.mp3",
+      "bytes": 592457,
+      "sha256": "fd20e88e4bee1fdfa1b6b42d85a196a12c59d444c113709cc3f281d6a8179bd8"
+    },
+    {
+      "assetPath": "data/soundtrack/loop1.mp3",
+      "bytes": 1376076,
+      "sha256": "e55a8155a84e2da6cd0787305bd35962b92d646acf03a62b0f8bf0ea7ed049f9"
+    },
+    {
+      "assetPath": "data/soundtrack/loop2.mp3",
+      "bytes": 1227546,
+      "sha256": "998f3b6122fe2b13b2b736c022635e347783ee9f93b9db15f521b8e1105f8942"
+    },
+    {
+      "assetPath": "data/soundtrack/loop3.mp3",
+      "bytes": 902791,
+      "sha256": "ae5bf44c31c3ddec7ff0aa3c8a3f5267f4c4f38c90000a38efb60007680f0935"
+    },
+    {
+      "assetPath": "gl-matrix-min.js",
+      "bytes": 55991,
+      "sha256": "fb4f71b2df9dd73212e35780bd10c25ce7f4307f7ddc4e1c4b8d212812098fc4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2321,
+      "sha256": "d6d75259bfaea4742ddd28e25c008db913a2cd31d2732a102e908930918e3cb2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "f0cd90b1bb0f63ae8545f4f3962734d2066ad556f20c6f89173698a183cbf804"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 340,
+      "sha256": "c3e95103fc75d02dc0657a3e547b92eaad12937abf8d670062fca8ccb97b5075"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 2623,
+      "sha256": "dae693768eae4730caf30cd2220e053fed6f0aea0f54c33673f9a798c83f3c26"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 1837,
+      "sha256": "979e52b26044bfb6e1ff514836e49b365543b7a394038853819c9deec3259d9c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "cdae9c79ff49b0cd08e73695cb3e001b476997ba65814ddce85a1c61dcd44b00"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 389,
+      "sha256": "d7590beb75e74fa9e55d9d460b8b7ce0bfd68847ce9f97d8abd43a523df063b6"
+    },
+    {
+      "assetPath": "soccerskills2.js",
+      "bytes": 238767,
+      "sha256": "28834609d81f857b30279f1307e9be33c621ebdf633c2af96b5e334a779d544b"
+    },
+    {
+      "assetPath": "worldcup/status.txt",
+      "bytes": 1326,
+      "sha256": "ce47b7397250ac4168246f23ff0fcbc7b855e626446c9be6e7c18df2a162996d"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

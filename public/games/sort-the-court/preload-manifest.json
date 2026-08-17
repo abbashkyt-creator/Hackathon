@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/sort-the-court/index.html",
+    "/games/sort-the-court/js/poki-sdk-shim.js",
+    "/games/sort-the-court/js/tiptap-platform-bridge.js",
+    "/games/sort-the-court/js/tiptap-inline-1.js"
+  ]
+}

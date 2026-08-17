@@ -1,0 +1,70 @@
+{
+  "name": "keyboard-warrior",
+  "sourcePage": "https://poki.com/en/g/keyboard-warrior",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 110097,
+      "sha256": "9938c1d42e08cc569b35b60f23c5136f46e2ecbfb99f52370afa1d29bf8e9d9f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "f37a3f73524e9ca0c800ecedf839a6da008aa68495aaa0379c2d2227e4690efc",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "b3f9eb9d04e346bffc1d898f0e08389dc966594a374b75195a231b27fa56eb6f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a296472b150e31a6cb114fa0dfc3fb5d2c94add78411b05164c749062d567256",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9a5faa0239cf08259012b6a0fb9ab709f70179b946d12d61b92318259472fd14",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 110097,
+      "sha256": "9938c1d42e08cc569b35b60f23c5136f46e2ecbfb99f52370afa1d29bf8e9d9f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "b3f9eb9d04e346bffc1d898f0e08389dc966594a374b75195a231b27fa56eb6f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 16922291,
+      "sha256": "fb552bf6462482d8d2ea4008c589186fb6f1d9a9682f209c5d60dabca66e54e3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a296472b150e31a6cb114fa0dfc3fb5d2c94add78411b05164c749062d567256"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "9a5faa0239cf08259012b6a0fb9ab709f70179b946d12d61b92318259472fd14"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

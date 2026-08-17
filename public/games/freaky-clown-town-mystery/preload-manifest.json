@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/freaky-clown-town-mystery/index.html",
+    "/games/freaky-clown-town-mystery/js/poki-sdk-shim.js",
+    "/games/freaky-clown-town-mystery/js/tiptap-platform-bridge.js",
+    "/games/freaky-clown-town-mystery/js/tiptap-inline-1.js"
+  ]
+}

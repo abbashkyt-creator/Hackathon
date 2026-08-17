@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/jelly-fruit-merge/index.html",
+    "/games/jelly-fruit-merge/js/poki-sdk-shim.js",
+    "/games/jelly-fruit-merge/js/tiptap-platform-bridge.js",
+    "/games/jelly-fruit-merge/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "real-city-bikes",
+  "sourcePage": "https://poki.com/en/g/real-city-bikes",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "18cd03d69164f3f3cce5d0933864a82d53fe158315c444022072a0f49f34d2d6",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "bc7a64f4eeaf5e62818391004ce5ff7e51edb18142f769aaebb310ac1e29f1c3",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "ac867c5c8c644dac4e73e370ba3d7530801a19a0b5db267f0cb1e6b7a260ecf1",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "37fbde55ab1f28b0bca573d1fc81ed4a1cfa0d0a97334a6a530e6ce06417e572",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "c34832706cbb396a5d42962b3044018f573b22aa4a5e78d760e9c964251ece73",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "18cd03d69164f3f3cce5d0933864a82d53fe158315c444022072a0f49f34d2d6"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "ac867c5c8c644dac4e73e370ba3d7530801a19a0b5db267f0cb1e6b7a260ecf1"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1078,
+      "sha256": "34448fa8f0b5d8ab0df533733ff2fd76b5a5b4afa36e2358f83d407e50415cc1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "37fbde55ab1f28b0bca573d1fc81ed4a1cfa0d0a97334a6a530e6ce06417e572"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "c34832706cbb396a5d42962b3044018f573b22aa4a5e78d760e9c964251ece73"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

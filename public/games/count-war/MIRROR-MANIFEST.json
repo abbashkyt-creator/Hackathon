@@ -1,0 +1,70 @@
+{
+  "name": "count-war",
+  "sourcePage": "https://poki.com/en/g/count-war",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 825,
+      "sha256": "1bc7131d1bee344f60a0fa24a20ed3917a6c69750a4a4689f3aba24efe7999b7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "ba23dd9891b7cffe857179ee489741e6d71b26eadf4ab1f63c836de2273e8a4d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "8bc770cceb4714c05c3e4d2f87a6fd39dee2b3660e80035a72dd0daf08a5da60",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "a07cb54d5456231862a7cec9820d6b1b0283f57589a566ff13f01e9b31d30a0a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "3dbf897d33938ed0f515a7dea62699cdf135f216dfe29bcfaa70ed3ee08b0d8b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 825,
+      "sha256": "1bc7131d1bee344f60a0fa24a20ed3917a6c69750a4a4689f3aba24efe7999b7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "8bc770cceb4714c05c3e4d2f87a6fd39dee2b3660e80035a72dd0daf08a5da60"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1334,
+      "sha256": "5f7d5d1ee90e30162a53548b1501917cdc06605e9a65b706ad4903f747efe685"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "a07cb54d5456231862a7cec9820d6b1b0283f57589a566ff13f01e9b31d30a0a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 201,
+      "sha256": "3dbf897d33938ed0f515a7dea62699cdf135f216dfe29bcfaa70ed3ee08b0d8b"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

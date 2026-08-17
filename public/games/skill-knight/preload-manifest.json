@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/skill-knight/index.html",
+    "/games/skill-knight/js/poki-sdk-shim.js",
+    "/games/skill-knight/js/tiptap-platform-bridge.js",
+    "/games/skill-knight/js/tiptap-inline-1.js"
+  ]
+}

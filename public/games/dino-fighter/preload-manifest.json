@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/dino-fighter/index.html",
+    "/games/dino-fighter/js/poki-sdk-shim.js",
+    "/games/dino-fighter/js/tiptap-platform-bridge.js",
+    "/games/dino-fighter/js/tiptap-inline-1.js"
+  ]
+}

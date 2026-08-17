@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/janes-fashion-studio/index.html",
+    "/games/janes-fashion-studio/js/poki-sdk-shim.js",
+    "/games/janes-fashion-studio/js/tiptap-platform-bridge.js",
+    "/games/janes-fashion-studio/js/tiptap-inline-1.js",
+    "/games/janes-fashion-studio/js/tiptap-inline-2.js",
+    "/games/janes-fashion-studio/js/tiptap-inline-3.js"
+  ]
+}

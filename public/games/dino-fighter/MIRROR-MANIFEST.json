@@ -1,0 +1,70 @@
+{
+  "name": "dino-fighter",
+  "sourcePage": "https://poki.com/en/g/dino-fighter",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "869c874c28e6dbfa62fafe8a1bc4fcfcbf9d591505693f675cb074b38f82d0f5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "0602691c44fa8760e75803db0da5fd4c3c686598370800627a162bbb0fd3ac89",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "39d55e6ded431310ce00c792db46ce14eb834d266e3b524871c3213fe62c3af1",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "ee0266b6ef5b08f2a986666820dc36b51c9a79566b8023c5f418de5c233b29cb",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "3e0176506e9767efb28f99d524b242576dd979e712f43d6f6d37518cad0a4dbf",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "869c874c28e6dbfa62fafe8a1bc4fcfcbf9d591505693f675cb074b38f82d0f5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "39d55e6ded431310ce00c792db46ce14eb834d266e3b524871c3213fe62c3af1"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1004,
+      "sha256": "d262a8f6e1ee90192eb80e6721932e4a6a170daef50c2967ec4e4170026bc4c1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "ee0266b6ef5b08f2a986666820dc36b51c9a79566b8023c5f418de5c233b29cb"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "3e0176506e9767efb28f99d524b242576dd979e712f43d6f6d37518cad0a4dbf"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

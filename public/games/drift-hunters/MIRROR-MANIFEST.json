@@ -1,0 +1,95 @@
+{
+  "name": "drift-hunters",
+  "sourcePage": "https://poki.com/en/g/drift-hunters",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1478,
+      "sha256": "58420398354b4e27b6ec7f28a21c62463ade55e067a12d0fb877a754fd3686d7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "f64d6af1ffbf1c128bdadf2ae3448d43f72cd75bcf62008ad412b7a90a446e28",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "22f901c6991e95d9ed77c569b3c700bc0526f689f91fd814921f88f06536f3f5",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "e679594ea63038d52e86b1d529cd4334d571b80761c1743e69410177143dbe9d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "2fb2685b4b7fb76fc4948be8a28d66ac2ab2704ffe0272480f086d305ee5cbc7",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1478,
+      "sha256": "58420398354b4e27b6ec7f28a21c62463ade55e067a12d0fb877a754fd3686d7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "22f901c6991e95d9ed77c569b3c700bc0526f689f91fd814921f88f06536f3f5"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 235,
+      "sha256": "9c78f87744400c88f1a4cd265d2d5185d242c8f3699934a34f47591b6a4d9397"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "e679594ea63038d52e86b1d529cd4334d571b80761c1743e69410177143dbe9d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "2fb2685b4b7fb76fc4948be8a28d66ac2ab2704ffe0272480f086d305ee5cbc7"
+    },
+    {
+      "assetPath": "screenshots/1-small.jpg",
+      "bytes": 2135,
+      "sha256": "a70ee93847f20f5e83a82a395bf085c9871eb19b9a5b7f7598f051c44cae36af"
+    },
+    {
+      "assetPath": "screenshots/1.jpg",
+      "bytes": 51581,
+      "sha256": "0689ca90b3c96701e58d64b62e0df8ec919569080a04f95db371279c2c534ca2"
+    },
+    {
+      "assetPath": "scripts/poki-unity-loader.js",
+      "bytes": 6494,
+      "sha256": "e6139cc0084b01159d4d7c204156792eed0f796c2703379cfbe801a7e52cc07c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 5548,
+      "sha256": "3af55e7f376cf95d752a5433a318fe70a709f3db890c4eded83573cc8690242d"
+    },
+    {
+      "assetPath": "thumbnail.jpg",
+      "bytes": 2860,
+      "sha256": "87f9121c2257d06d9ff4f208b2274155a4788e3c5a029690d594e81aa0e7f593"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

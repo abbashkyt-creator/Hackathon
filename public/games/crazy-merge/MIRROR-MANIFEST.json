@@ -1,0 +1,70 @@
+{
+  "name": "crazy-merge",
+  "sourcePage": "https://poki.com/en/g/crazy-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5388,
+      "sha256": "578f553f950eb4a858ec4bcc7721510aec27445fed929c64aa999cadf5db237b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "ecbc3141393c494b887f94c5ed8e45d9c72c613b41a3455d00a93952da7a4428",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "5c3afe59e5abaecdff67e7e99a1c5dcc20245921b527cc0259b19312a16474f0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "0237c233079378595296ca42fa30834b1c6437292fec3e4d63f5449cec24cf35",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "5c2f9dbad27d9021eb4e954973e6e84a7340ddd926ac080a4fc638d6e9589925",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47907,
+      "sha256": "e47d50cab70c6c13339b1170dbfe5b36bc5f704ff08d16eac477351ed22d26b2"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 7079,
+      "sha256": "eaf403a943f6ade69b16c8eadbb43eaaf0cc0013f1c63a95d7b5bd0c0a307ac4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "5c3afe59e5abaecdff67e7e99a1c5dcc20245921b527cc0259b19312a16474f0"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "0237c233079378595296ca42fa30834b1c6437292fec3e4d63f5449cec24cf35"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 161,
+      "sha256": "b708c698448d78b750a63e309a4e9747994c98055b990b5d459a9a244a609a3a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

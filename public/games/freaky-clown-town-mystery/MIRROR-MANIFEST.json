@@ -1,0 +1,70 @@
+{
+  "name": "freaky-clown-town-mystery",
+  "sourcePage": "https://poki.com/en/g/freaky-clown-town-mystery",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 986,
+      "sha256": "8824be4bc92d9d4adbf4111586925cac7e3719ad6c3a198b8e511234a7f4b037",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "75bf3f24765964e75113125d1f58b948770256fd4d3f27d0fd6cd92819ef0d1a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "85e0bd9bf0999a932af7b42c120067a178125d00bd1cb7e6ac7824d1da120a3f",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "68e4966f6ff2bf8c70792c0b296b98d3d49bd5d44ac88a8a330d6ee433e98ff1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "483c345235496c003c9158300c32f78900f697c9baecdc672a1dad9344bff7c7",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 986,
+      "sha256": "8824be4bc92d9d4adbf4111586925cac7e3719ad6c3a198b8e511234a7f4b037"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "85e0bd9bf0999a932af7b42c120067a178125d00bd1cb7e6ac7824d1da120a3f"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1311,
+      "sha256": "9fb626b1dbc74e73898edd87f5785824a9eedbdaa68dc4ea9c60f6a32ef10333"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "68e4966f6ff2bf8c70792c0b296b98d3d49bd5d44ac88a8a330d6ee433e98ff1"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "483c345235496c003c9158300c32f78900f697c9baecdc672a1dad9344bff7c7"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

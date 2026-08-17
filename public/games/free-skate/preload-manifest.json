@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/free-skate/index.html",
+    "/games/free-skate/js/poki-sdk-shim.js",
+    "/games/free-skate/js/tiptap-platform-bridge.js",
+    "/games/free-skate/js/tiptap-inline-1.js"
+  ]
+}

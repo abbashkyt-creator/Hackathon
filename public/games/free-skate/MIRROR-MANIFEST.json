@@ -1,0 +1,70 @@
+{
+  "name": "free-skate",
+  "sourcePage": "https://poki.com/en/g/free-skate",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "6aaa4ddb02c3cf1e3770967afde173900ffa4c9a0be6bc42b3c0eb1a3be7442a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "0ebe9d64d3e203ae779a5ea227a22743e42f9f122e5be610b931f901abc8fa4c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "1e4fbd3935ab491b870943ccde5ecfb36dc04ee77ca0e6e6c470bad697289bee",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "263778fc9457a1be555790646a2ad453182ab6a8523fa18e84f5281c5aff770b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "3904aef9eb9a07a75e3d6502cf8c64b06f3f78d02d0af82912134f85f17aab97",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "6aaa4ddb02c3cf1e3770967afde173900ffa4c9a0be6bc42b3c0eb1a3be7442a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "1e4fbd3935ab491b870943ccde5ecfb36dc04ee77ca0e6e6c470bad697289bee"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1222,
+      "sha256": "1f3df2d9eb5a2d88acfcca552f2102d34e60ca39f7664e6dc498d0f89e634327"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "263778fc9457a1be555790646a2ad453182ab6a8523fa18e84f5281c5aff770b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "3904aef9eb9a07a75e3d6502cf8c64b06f3f78d02d0af82912134f85f17aab97"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

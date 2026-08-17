@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/kpop-concert-dress-up/index.html",
+    "/games/kpop-concert-dress-up/js/poki-sdk-shim.js",
+    "/games/kpop-concert-dress-up/js/tiptap-platform-bridge.js",
+    "/games/kpop-concert-dress-up/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "name": "kpop-concert-dress-up",
+  "sourcePage": "https://poki.com/en/g/kpop-concert-dress-up",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1672,
+      "sha256": "68938d598c47c3a87698e01a440cb6bccbee8d10799393932cf35fe47b420fad",
+      "purpose": "Localized entry"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 332,
+      "sha256": "72cf082cc030cc9a0ca1db89aff5b17aaffee0412afb4821a66e9629802bbce2"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 832549,
+      "sha256": "fad0153a77c07711962ea1a729b6edd0050c2664240ae17da07b208db2b6102d"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 1238,
+      "sha256": "4f283741c29e1456a57cacd59e129184c16766dee109781706cb9e7fbeb25fc8"
+    },
+    {
+      "assetPath": "icons/loading-logo.png",
+      "bytes": 1238,
+      "sha256": "4f283741c29e1456a57cacd59e129184c16766dee109781706cb9e7fbeb25fc8"
+    },
+    {
+      "assetPath": "images/bgback-sheet0.webp",
+      "bytes": 104076,
+      "sha256": "9dffb11840e27f8abb12f4309d8f768fa2d7ab3922e886ae2c7ca9a828dbda7b"
+    },
+    {
+      "assetPath": "images/bgback-sheet1.webp",
+      "bytes": 63282,
+      "sha256": "ad4ce147846aa5d4fae206cb9c7632b38bb27a53cf66827c83e91758555484d3"
+    },
+    {
+      "assetPath": "images/bgceilshade-sheet0.webp",
+      "bytes": 40,
+      "sha256": "51a6de66ff644e6327259d5f45934e870057bba14953b986c0b0bf95cec83532"
+    },
+    {
+      "assetPath": "images/bgdressborder-sheet0.webp",
+      "bytes": 58,
+      "sha256": "7dfc5845526f8f931ba8fbbd12098e707f91760b859cef417473209b8cf1cd5a"
+    },
+    {
+      "assetPath": "images/bgpillar-sheet0.webp",
+      "bytes": 946,
+      "sha256": "4c34f42d3476bf316ad1bdfa4e0373afa13247e246f3ab79719fd92bc0cc63c6"
+    },
+    {
+      "assetPath": "images/bgplinth-sheet0.webp",
+      "bytes": 44,
+      "sha256": "c2785505be99c25624fd06454508c3e47bcdf35bff78bcbd1d72b4d206f36f55"
+    },
+    {
+      "assetPath": "images/bgroom-sheet0.webp",
+      "bytes": 61430,
+      "sha256": "272f7760a7975f4b98de2e6fd119d9fc760cf5bae55b6f39f1e8ebc1634a9e49"
+    },
+    {
+      "assetPath": "images/bgroom-sheet1.webp",
+      "bytes": 74694,
+      "sha256": "7fb16fb69b75af2ebe39df08fbd07db343598f3408d10007f21603c7c9c6df87"
+    },
+    {
+      "assetPath": "images/bgroom-sheet2.webp",
+      "bytes": 92,
+      "sha256": "04a8cf8ec6280cf40ea6a28d775d75e2e49313e5898f7f0df3456349a28917a0"
+    },
+    {
+      "assetPath": "images/boots-sheet0.webp",
+      "bytes": 50050,
+      "sha256": "2d1616bc19b9bebde9850c6c5627df5f81f1d921d84e1bbf269f958ce2690318"
+    },
+    {
+      "assetPath": "images/boots-sheet1.webp",
+      "bytes": 1270,
+      "sha256": "dc857bf99ae11fa610a372bb0fc828d82daaabca5487fccf1576a10c7a491f4a"
+    },
+    {
+      "assetPath": "images/bottoms-sheet0.webp",
+      "bytes": 120036,
+      "sha256": "cbc8064cb811cbe54435e5e82414b5cc4317dfa756f54e0a6dcf79bb56d5629d"
+    },
+    {
+      "assetPath": "images/bottoms-sheet1.webp",
+      "bytes": 10602,
+      "sha256": "0cbd377187b83f6544061fc506018ebdd8bbdb4b8a081c5a5ca207e355ee88b9"
+    },
+    {
+      "assetPath": "images/btnpopback-sheet0.webp",
+      "bytes": 6934,
+      "sha256": "3cc80f7d88fc0b4da00b53eb4c28121dfb3827d743f6d28e97e01154d3f3274f"
+    },
+    {
+      "assetPath": "images/colorbg-sheet0.webp",
+      "bytes": 44,
+      "sha256": "80db252bc948785d52545939c69619cd15f6dcb2dbb4fa2116d8ad2fc9942a3f"
+    },
+    {
+      "assetPath": "images/colordivider-sheet0.webp",
+      "bytes": 38,
+      "sha256": "a8aab87b60c7515c39fd69a87b44001648c09ef3d55ecbb7cf1dd6ba2728b7ad"
+    },
+    {
+      "assetPath": "images/decor-sheet0.webp",
+      "bytes": 27344,
+      "sha256": "f3cae05f1530b6c91a89a1d8f8de505ac39823feb671709cfd0845f055684bd6"
+    },
+    {
+      "assetPath": "images/decor-sheet1.webp",
+      "bytes": 500,
+      "sha256": "151a0f1914fc32d5b18c0e235f18ea78f7e9011687a9e18f10e761e3ced00fed"
+    },
+    {
+      "assetPath": "images/eyeliners-sheet0.webp",
+      "bytes": 19480,
+      "sha256": "63c040c70886e376a2f8ccd4cd914e121ebaac3d3e673a766d99693de2776ab3"
+    },
+    {
+      "assetPath": "images/eyes-sheet0.webp",
+      "bytes": 18554,
+      "sha256": "17ad1cfa01fe83cd63964f7859ecc11ee7c528394478c86e074278b24de1fa26"
+    },
+    {
+      "assetPath": "images/faceswitch-sheet0.webp",
+      "bytes": 7728,
+      "sha256": "69345a18e3ff55f1e48a1c2ed6c9e057fa995d77500710d30f932db3198d3323"
+    },
+    {
+      "assetPath": "images/hair-sheet0.webp",
+      "bytes": 177786,
+      "sha256": "d75705c838453e651d35d9b1a1b06640f1e282efe536835305eed2fde624ad7a"
+    },
+    {
+      "assetPath": "images/hair-sheet1.webp",
+      "bytes": 54726,
+      "sha256": "ee0668692244cab7e450f4f0cb4ed40363bbcf0e01e90679bda6d30db0075bda"
+    },
+    {
+      "assetPath": "images/mouth-sheet0.webp",
+      "bytes": 48952,
+      "sha256": "777a767956fceae8761b6a77576ecc0ac4c326a3ebe1e0ae5d8b4c233b9b7c23"
+    },
+    {
+      "assetPath": "images/progbarcircle-sheet0.webp",
+      "bytes": 6146,
+      "sha256": "16448af9214abc7fe887215c9b110c23842ecc1739dfc1fb688351f1f5b17475"
+    },
+    {
+      "assetPath": "images/progbarline-sheet0.webp",
+      "bytes": 38,
+      "sha256": "784f6053e47dcadaca0c2f58990d484643e782eef8486e4b9cd4afe163f155c3"
+    },
+    {
+      "assetPath": "images/scrollmask-sheet0.webp",
+      "bytes": 44,
+      "sha256": "23dfb81b5013903449a5aaa2c468e9383efd0636bbdcd900cd9b716d751dfdfc"
+    },
+    {
+      "assetPath": "images/scrollpane-sheet0.webp",
+      "bytes": 44,
+      "sha256": "a95418392b8c4dd8b17d91daa2d85060e649c529a86c2adf773d89aff314bd85"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 42876,
+      "sha256": "cb897af4233b3ee19067f0e48617625af9a5a7a6962ad7c6e0dfdf20efe5c5fa"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 100496,
+      "sha256": "b5a94e11150cdeb913e31958b28d1351928f0a47f8a98e6214ddc8514cba5bf6"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 136820,
+      "sha256": "86a33dc0522746a877cb09dca1e6fdf43fbd9cc298b8f6f24c458be903317216"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 56222,
+      "sha256": "66215cf3caf8518bee7e17b2cc8f1dfe3d421a519c2ce4f5d6537dc7d0c12680"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.webp",
+      "bytes": 7502,
+      "sha256": "5fd6ea6b4ff8a1c93db78de39a1404b1433625c44f13d1b67ebca0f2ebb5fa61"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.webp",
+      "bytes": 38,
+      "sha256": "eb1492050b78d60aefdacd70d1b6ff9637ab6c3fbcccbfb2560a0936ed03505a"
+    },
+    {
+      "assetPath": "images/shelfbg-sheet0.webp",
+      "bytes": 44,
+      "sha256": "7865b676ceeed3822a554e14fb42c0923789a361a0e452b307f6b39d43e5da09"
+    },
+    {
+      "assetPath": "images/shelfselector-sheet0.webp",
+      "bytes": 127920,
+      "sha256": "70d5895c1523fd135ba48e316b35fce1483435bb20786949a196b444f22d6bba"
+    },
+    {
+      "assetPath": "images/shelfselector-sheet1.webp",
+      "bytes": 104954,
+      "sha256": "55e377899a10138b86842feec4eccbe5350ea464613dd75c46430eb8f4e04bd4"
+    },
+    {
+      "assetPath": "images/shelftabicon-sheet0.webp",
+      "bytes": 4192,
+      "sha256": "b459810771c93d9984297615a6879d47cd37693e89af04ba8966957560bb7ea2"
+    },
+    {
+      "assetPath": "images/showscroll-sheet0.webp",
+      "bytes": 58,
+      "sha256": "1284a9dc0c0645b10e778b3583c6c2b5de8068ce7a17383f8748ddc95dd8d1e7"
+    },
+    {
+      "assetPath": "images/stageflash-sheet0.webp",
+      "bytes": 44,
+      "sha256": "cb2321cd1aa7b3e14ef243f9a8507f9572bc3b56f7620d20f2d45b7931e57951"
+    },
+    {
+      "assetPath": "images/stagefloor-sheet0.webp",
+      "bytes": 170,
+      "sha256": "b7ff08520f4cb15fba7f08ed33e6d29537597c29176299bcd382e1666ba90219"
+    },
+    {
+      "assetPath": "images/stagesmoke-sheet0.webp",
+      "bytes": 133422,
+      "sha256": "3a937e273a87b807ebcc8bfac14642bd5d6a31f9d0bd628f026b14fa398722f9"
+    },
+    {
+      "assetPath": "images/tops-sheet0.webp",
+      "bytes": 118860,
+      "sha256": "5a4c4e31e277939a57b578eebc5c9b2478fc1a459706a813d48c2ccd8bb86d63"
+    },
+    {
+      "assetPath": "images/tops-sheet1.webp",
+      "bytes": 5236,
+      "sha256": "5d954ac80836bc3ed3be47e48a6fdd47aeea5b036efde726ede27d9d9d3ec1c0"
+    },
+    {
+      "assetPath": "images/tops-sheet2.webp",
+      "bytes": 40,
+      "sha256": "870b1e0cdc6c05e8e41db7f365ce5927b83b4917d061aa47efae33491aa5ca5a"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1334,
+      "sha256": "94c8bd278470e213b6eeb83aa47b17b576bf2944e67f48a900d04414dfc5d002"
+    },
+    {
+      "assetPath": "outfits.json",
+      "bytes": 3114,
+      "sha256": "1548bdb93f41a1f01f1a10dc9373da8f3657f753ed395937bd2e21d10cc29933"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "stage.json",
+      "bytes": 969,
+      "sha256": "e51a657f20113415a65440a9d6990bb98d95f9546d1f5fdf4493741ec90ad01a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

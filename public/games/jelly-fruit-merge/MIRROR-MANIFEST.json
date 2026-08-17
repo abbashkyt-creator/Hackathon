@@ -1,0 +1,70 @@
+{
+  "name": "jelly-fruit-merge",
+  "sourcePage": "https://poki.com/en/g/jelly-fruit-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "643eb5dee693d8a1b89ef49934b407e4b66b3c424863f11125d4b0163b7c8e3b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "5b01a43e07653e90c06e805df8fc4db6fd1ad12e7f237f032208d43a7bf41b6c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "f38a5b0fd04e0d3c20eaa96dd3bc2033fb108cbb807ade12d2a290b2cb2daaca",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "012f714ad410d323b4143d90ea5cdf6b62a569097a876027c505dbbbd26322e3",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "e0044fa83287f1db835db4d6f138f17a487bac4d632d92139faf17936d943748",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "643eb5dee693d8a1b89ef49934b407e4b66b3c424863f11125d4b0163b7c8e3b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "f38a5b0fd04e0d3c20eaa96dd3bc2033fb108cbb807ade12d2a290b2cb2daaca"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1226,
+      "sha256": "df6fddde87f45af0722c21cf0b61b68728d88853e73143550c35f9366e912caf"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "012f714ad410d323b4143d90ea5cdf6b62a569097a876027c505dbbbd26322e3"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "e0044fa83287f1db835db4d6f138f17a487bac4d632d92139faf17936d943748"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

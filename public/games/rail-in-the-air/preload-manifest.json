@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/rail-in-the-air/index.html",
+    "/games/rail-in-the-air/js/poki-sdk-shim.js",
+    "/games/rail-in-the-air/js/tiptap-platform-bridge.js"
+  ]
+}

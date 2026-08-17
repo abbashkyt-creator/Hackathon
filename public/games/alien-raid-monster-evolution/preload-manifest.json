@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/alien-raid-monster-evolution/index.html",
+    "/games/alien-raid-monster-evolution/js/poki-sdk-shim.js",
+    "/games/alien-raid-monster-evolution/js/tiptap-platform-bridge.js",
+    "/games/alien-raid-monster-evolution/js/tiptap-inline-1.js"
+  ]
+}

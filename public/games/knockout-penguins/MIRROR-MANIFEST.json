@@ -1,0 +1,85 @@
+{
+  "name": "knockout-penguins",
+  "sourcePage": "https://poki.com/en/g/knockout-penguins",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1107,
+      "sha256": "71eabad8d35f627391da852823f7a3e7e4f811fa894f2ab83245cef8bdf4427e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "1c682d8a532f7114ed88ad1e7cc8cd65e5dcd81ef0974794d8ff57fce88dda44",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "ec47cf50d19cb9ca616241b28dbc524737bca3df42f222b850f7e42185ca8139",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "db9929f587b7cd4709240f2ae1beb5a709a2c14f8ab02d5e7f71a3d37fa82979",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 341,
+      "sha256": "38187d1424746ba378b22892555df667d2e73719dbe29516d667cc2bdcdaf921",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "Images/Icon.png",
+      "bytes": 9403,
+      "sha256": "59749e401a12b7203601ea8d3fc4ce634a3a1dc6142da13ac8dc364c1b40bdb4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1107,
+      "sha256": "71eabad8d35f627391da852823f7a3e7e4f811fa894f2ab83245cef8bdf4427e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "ec47cf50d19cb9ca616241b28dbc524737bca3df42f222b850f7e42185ca8139"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 517,
+      "sha256": "73509f69ab30115a09b585fff4dce68bc624aa85474d599dbc934250c02aa51a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1537,
+      "sha256": "684d1f2196d469153db14448158cff1a7a4df0f37e5946b988eaac83eb24c422"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 117,
+      "sha256": "8fe50aad8efc4220c2387d0e92b0c40525f6bfa167a4c63ed5f1b56fcabccc43"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "db9929f587b7cd4709240f2ae1beb5a709a2c14f8ab02d5e7f71a3d37fa82979"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 341,
+      "sha256": "38187d1424746ba378b22892555df667d2e73719dbe29516d667cc2bdcdaf921"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

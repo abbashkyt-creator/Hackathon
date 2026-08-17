@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/soccer-skills-2-world-cup/index.html",
+    "/games/soccer-skills-2-world-cup/js/poki-sdk-shim.js",
+    "/games/soccer-skills-2-world-cup/js/tiptap-platform-bridge.js",
+    "/games/soccer-skills-2-world-cup/js/tiptap-inline-1.js",
+    "/games/soccer-skills-2-world-cup/js/tiptap-inline-2.js",
+    "/games/soccer-skills-2-world-cup/js/tiptap-inline-3.js"
+  ]
+}

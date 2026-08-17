@@ -1,0 +1,70 @@
+{
+  "name": "wreck-the-robot",
+  "sourcePage": "https://poki.com/en/g/wreck-the-robot",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "db4f538522877db59dcbdf9b631270ee93964890b8e70edbc4f305cca29fa8de",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "591852348c4a8a573efa7de977a741233795715955298d2bd02df5ea13a01b25",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "b95c3a5d0a526bcfb30b616a4bed2d177c4fffb0a60ca7275876ef9f55a27c59",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "6e65cae8652c95dc19b9cae23d15e8dea0b005b03880ced67e80a410d82ced74",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "24e67dd4cb3c37978562999d008388b7332acb8086da7f5acc4de2914feb48e8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "db4f538522877db59dcbdf9b631270ee93964890b8e70edbc4f305cca29fa8de"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "b95c3a5d0a526bcfb30b616a4bed2d177c4fffb0a60ca7275876ef9f55a27c59"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 980,
+      "sha256": "b345e61b6654db6a32cdcf3efb060a7821bd3a8c311f9c44ec4f96d46cffa27c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "6e65cae8652c95dc19b9cae23d15e8dea0b005b03880ced67e80a410d82ced74"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "24e67dd4cb3c37978562999d008388b7332acb8086da7f5acc4de2914feb48e8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

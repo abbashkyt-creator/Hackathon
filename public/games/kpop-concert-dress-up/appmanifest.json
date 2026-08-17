@@ -1,0 +1,17 @@
+{
+	"name": "KPopDressUp",
+	"short_name": "KPopDressUp",
+	"description": "K-Pop Concert Dress Up",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#5f4186",
+	"icons": [
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}

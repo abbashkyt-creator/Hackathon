@@ -1,0 +1,70 @@
+{
+  "name": "sprunki",
+  "sourcePage": "https://poki.com/en/g/sprunki",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 11885,
+      "sha256": "7ac9d981be2ba6708980f98c978d078aee238e025a5237786c7fb2f8c52fbcd5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 161,
+      "sha256": "97e29f353ffcedacdd0af2db6fd069613dbba29f88ab45a2f4bfbc7fec0a9a05",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 904,
+      "sha256": "70b7878d77823ce06371853cde4703369c2c26600c0e1c149e3e97ee04eed1c6",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 848,
+      "sha256": "7de0148b5c92cbecd37ce2b8b7aed7b2163933908fe2c24374594017d81addb9",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 181,
+      "sha256": "cc9fc3e4652ee1ec53eaf5d1bc903bc332725507e79cb48988e8adac000d8f58",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 11885,
+      "sha256": "7ac9d981be2ba6708980f98c978d078aee238e025a5237786c7fb2f8c52fbcd5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 904,
+      "sha256": "70b7878d77823ce06371853cde4703369c2c26600c0e1c149e3e97ee04eed1c6"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 848,
+      "sha256": "7de0148b5c92cbecd37ce2b8b7aed7b2163933908fe2c24374594017d81addb9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 181,
+      "sha256": "cc9fc3e4652ee1ec53eaf5d1bc903bc332725507e79cb48988e8adac000d8f58"
+    },
+    {
+      "assetPath": "script.js",
+      "bytes": 2233878,
+      "sha256": "453b8f9bc1b608744bfc15db65119619cb2b16cff62e4120ade5feb2292bf419"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

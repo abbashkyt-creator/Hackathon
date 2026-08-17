@@ -1,0 +1,70 @@
+{
+  "name": "going-up-rooftop",
+  "sourcePage": "https://poki.com/en/g/going-up-rooftop",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 979,
+      "sha256": "113e88ae099fde8402c5233ae7939cda8d89021dcfc7eff0f1471ec653f307c5",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "d7e28a04a7873d424500234a3685b21e5e08e4fce0734640f787b31699ae2e9a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "ce17acece54a218a70cf8881e0999d636303ce36bc00ddd60c6f8208a39679ab",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "1e0379c8d66618887503e60540a405ffd822108651704344e9d0451264507367",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "0b7c6c47bf49014e898413c3355f3658bb47a088310822200821096a41f46230",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 979,
+      "sha256": "113e88ae099fde8402c5233ae7939cda8d89021dcfc7eff0f1471ec653f307c5"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "ce17acece54a218a70cf8881e0999d636303ce36bc00ddd60c6f8208a39679ab"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1102,
+      "sha256": "0cd8cb707001f79d2497d7d5c0d7b2aad669a4f887a749f5beb28c59b33ce6b1"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "1e0379c8d66618887503e60540a405ffd822108651704344e9d0451264507367"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "0b7c6c47bf49014e898413c3355f3658bb47a088310822200821096a41f46230"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
