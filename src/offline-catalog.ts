@@ -367,6 +367,8 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
     { slug: "graveyard-shift", title: "graveyard-shift", rule_text: "Play graveyard-shift.", accent: "#8b5cf6" },
     { slug: "speed-stars", title: "speed-stars", rule_text: "Play speed-stars.", accent: "#8b5cf6" },
     { slug: "brain-test-special", title: "brain-test-special", rule_text: "Play brain-test-special.", accent: "#8b5cf6" },
+    { slug: "cat-bird", title: "cat-bird", rule_text: "Play cat-bird.", accent: "#8b5cf6" },
+    { slug: "pizza-planet", title: "pizza-planet", rule_text: "Play pizza-planet.", accent: "#8b5cf6" },
     { slug: "drift-boss", title: "Drift Boss", rule_text: "Play Drift Boss.", accent: "#8b5cf6" },
     { slug: "little-farm-world", title: "little-farm-world", rule_text: "Play little-farm-world.", accent: "#8b5cf6" },
     { slug: "moms-diary-cooking-games", title: "moms-diary-cooking-games", rule_text: "Play moms-diary-cooking-games.", accent: "#8b5cf6" },

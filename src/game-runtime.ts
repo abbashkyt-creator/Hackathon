@@ -331,6 +331,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "graveyard-shift": { embedded: true, preloadManifest: "/games/graveyard-shift/preload-manifest.json", assetManifest: "/games/graveyard-shift/MIRROR-MANIFEST.json", prepareByMount: true },
   "speed-stars": { embedded: true, preloadManifest: "/games/speed-stars/preload-manifest.json", assetManifest: "/games/speed-stars/MIRROR-MANIFEST.json", prepareByMount: true },
   "brain-test-special": { embedded: true, preloadManifest: "/games/brain-test-special/preload-manifest.json", assetManifest: "/games/brain-test-special/MIRROR-MANIFEST.json", prepareByMount: true },
+  "cat-bird": { embedded: true, preloadManifest: "/games/cat-bird/preload-manifest.json", assetManifest: "/games/cat-bird/MIRROR-MANIFEST.json", prepareByMount: true },
+  "pizza-planet": { embedded: true, preloadManifest: "/games/pizza-planet/preload-manifest.json", assetManifest: "/games/pizza-planet/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

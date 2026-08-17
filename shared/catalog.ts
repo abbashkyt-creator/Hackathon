@@ -373,6 +373,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "graveyard-shift": { creatorId: "graveyard-shift", creatorName: "Graveyard Shift", creatorLabel: "BY GRAVEYARD SHIFT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "speed-stars": { creatorId: "speed-stars", creatorName: "Speed Stars", creatorLabel: "BY SPEED STARS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "brain-test-special": { creatorId: "brain-test-special", creatorName: "Brain Test Special", creatorLabel: "BY BRAIN TEST SPECIAL · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "cat-bird": { creatorId: "cat-bird", creatorName: "Cat Bird", creatorLabel: "BY CAT BIRD · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "pizza-planet": { creatorId: "pizza-planet", creatorName: "Pizza Planet", creatorLabel: "BY PIZZA PLANET · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

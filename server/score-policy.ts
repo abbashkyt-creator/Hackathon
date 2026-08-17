@@ -31,6 +31,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "pizza-planet": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "cat-bird": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "brain-test-special": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "speed-stars": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "graveyard-shift": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

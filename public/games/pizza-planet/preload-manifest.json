@@ -3,7 +3,7 @@
     "/games/pizza-planet/index.html",
     "/games/pizza-planet/js/poki-sdk-shim.js",
     "/games/pizza-planet/js/tiptap-platform-bridge.js",
-    "/games/pizza-planet/lib/GameAnalytics.js",
-    "/games/pizza-planet/PizzaPlanet1301bis.js"
+    "/games/pizza-planet/js/tiptap-inline-1.js",
+    "/games/pizza-planet/js/tiptap-inline-2.js"
   ]
 }
