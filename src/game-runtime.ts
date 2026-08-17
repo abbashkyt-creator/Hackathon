@@ -273,6 +273,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "count-war": { embedded: true, preloadManifest: "/games/count-war/preload-manifest.json", assetManifest: "/games/count-war/MIRROR-MANIFEST.json", prepareByMount: true },
   "lips-diy-master": { embedded: true, preloadManifest: "/games/lips-diy-master/preload-manifest.json", assetManifest: "/games/lips-diy-master/MIRROR-MANIFEST.json", prepareByMount: true },
   "going-up-rooftop": { embedded: true, preloadManifest: "/games/going-up-rooftop/preload-manifest.json", assetManifest: "/games/going-up-rooftop/MIRROR-MANIFEST.json", prepareByMount: true },
+  "keyboard-warrior": { embedded: true, preloadManifest: "/games/keyboard-warrior/preload-manifest.json", assetManifest: "/games/keyboard-warrior/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

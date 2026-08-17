@@ -315,6 +315,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "lips-diy-master": { creatorId: "poki-mirror", creatorName: "Poki Mirror", creatorLabel: "BY POKI MIRROR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "going-up-rooftop": { creatorId: "going-up-rooftop", creatorName: "Going Up Rooftop", creatorLabel: "BY GOING UP ROOFTOP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "lips-diy-master": { creatorId: "lips-diy-master", creatorName: "Lips Diy Master", creatorLabel: "BY LIPS DIY MASTER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "keyboard-warrior": { creatorId: "keyboard-warrior", creatorName: "Keyboard Warrior", creatorLabel: "BY KEYBOARD WARRIOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

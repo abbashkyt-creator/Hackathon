@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/keyboard-warrior/index.html",
+    "/games/keyboard-warrior/js/poki-sdk-shim.js",
+    "/games/keyboard-warrior/js/tiptap-platform-bridge.js",
+    "/games/keyboard-warrior/js/tiptap-inline-1.js"
+  ]
+}
