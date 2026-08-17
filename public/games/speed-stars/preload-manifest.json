@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/speed-stars/index.html",
+    "/games/speed-stars/js/poki-sdk-shim.js",
+    "/games/speed-stars/js/tiptap-platform-bridge.js",
+    "/games/speed-stars/js/tiptap-inline-1.js"
+  ]
+}

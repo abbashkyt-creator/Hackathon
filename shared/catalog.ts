@@ -371,6 +371,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "whip-flip": { creatorId: "whip-flip", creatorName: "Whip & Flip", creatorLabel: "BY WHIP & FLIP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "human-bullet-gun": { creatorId: "human-bullet-gun", creatorName: "Human Bullet Gun", creatorLabel: "BY HUMAN BULLET GUN · LOCAL SOURCE MIRROR", category: "Arcade" },
   "graveyard-shift": { creatorId: "graveyard-shift", creatorName: "Graveyard Shift", creatorLabel: "BY GRAVEYARD SHIFT · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "speed-stars": { creatorId: "speed-stars", creatorName: "Speed Stars", creatorLabel: "BY SPEED STARS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
