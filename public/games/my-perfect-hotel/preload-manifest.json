@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/my-perfect-hotel/index.html",
+    "/games/my-perfect-hotel/js/poki-sdk-shim.js",
+    "/games/my-perfect-hotel/js/tiptap-platform-bridge.js",
+    "/games/my-perfect-hotel/js/tiptap-inline-1.js"
+  ]
+}

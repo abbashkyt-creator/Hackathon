@@ -1,0 +1,355 @@
+{
+  "name": "four-in-a-row",
+  "sourcePage": "https://poki.com/en/g/four-in-a-row",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3608,
+      "sha256": "9e64b5d7a4fe93df3e8f2066a90a4ff2bf91b7baaf38c7129c60f6260c0fedce",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "3dc99191815437e189301b02c23fbacb5f5432e71f3e080abed9505d68c82e8d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "92c285beed70213e3cb957d43a39108256373ce4cc5704db4a9d1a74a4e1701a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "2d52d7d82b5099285cb9c05c6da43d0b4c7b898d24967a986722243cbe4e6c5a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "ff06e2cee263a9b863653a974df3e02b2817367885771bf113ee00d5b97e49d0",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "css/comfortaa-bold-webfont.eot",
+      "bytes": 56390,
+      "sha256": "1b950103223f2593c890152f1eb3a48fb041bb330db07bae2bd03195c1ea42ad"
+    },
+    {
+      "assetPath": "css/comfortaa-bold-webfont.svg",
+      "bytes": 150526,
+      "sha256": "514130d2b4f7b6acd5721da57afbb3b7a1403439759512289d8fbeb833f09f63"
+    },
+    {
+      "assetPath": "css/comfortaa-bold-webfont.ttf",
+      "bytes": 56284,
+      "sha256": "0cb5a9d59ad5a9265c3d1ea0ef2477cf1a3568f6504d1113072832ad21edd754"
+    },
+    {
+      "assetPath": "css/comfortaa-bold-webfont.woff",
+      "bytes": 27848,
+      "sha256": "68e9b5c187a2cc9bd5b718f8ef37374562b7718eff9ffffc36e5afecfb4b9a36"
+    },
+    {
+      "assetPath": "css/comfortaa-bold-webfont.woff2",
+      "bytes": 21600,
+      "sha256": "dc3ce8921fae35e18abb86c411d083ae8ae4c7e1fcd59f672ed8c2aa0a286418"
+    },
+    {
+      "assetPath": "css/main.css",
+      "bytes": 1776,
+      "sha256": "7debd60162217216cae716348cadc834a0f58b3cf7eaa5802d34d17a12d40066"
+    },
+    {
+      "assetPath": "css/orientation_utils.css",
+      "bytes": 669,
+      "sha256": "c87ba53e0bd0857e8b1dd26ec8f45486bbdff574327d1f80cbfd81a38d2616fd"
+    },
+    {
+      "assetPath": "css/reset.css",
+      "bytes": 858,
+      "sha256": "7b5be04e538eb27e858f26694e59bff49ea57d79cc125bdcfb10e35f1a93dfc1"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3608,
+      "sha256": "9e64b5d7a4fe93df3e8f2066a90a4ff2bf91b7baaf38c7129c60f6260c0fedce"
+    },
+    {
+      "assetPath": "js/CAIController.js",
+      "bytes": 16794,
+      "sha256": "1e90579522b96b51964a9d3fdc60954afe098a827ccf0fabc2b84fcf8529eb8c"
+    },
+    {
+      "assetPath": "js/CAreYouSurePanel.js",
+      "bytes": 2426,
+      "sha256": "f146db7a4e4526068c3913fdf9320a8a4a007f63fd4bc1b4caeea57ab48b4eb1"
+    },
+    {
+      "assetPath": "js/CBoard.js",
+      "bytes": 14569,
+      "sha256": "cf831b49e9f3d2ab705ee310afc6359b55caf944fceb81579a4e34bb751cda87"
+    },
+    {
+      "assetPath": "js/CCreditsPanel.js",
+      "bytes": 2160,
+      "sha256": "35ebc913a864950c2827f7f2f7948340ccf08c9a971b61b6648b933c5aded8a5"
+    },
+    {
+      "assetPath": "js/CDisc.js",
+      "bytes": 2301,
+      "sha256": "1ecc251beaac88261ec433ebea5c17739e363a5b9b5ccfcb3e10521463411eb3"
+    },
+    {
+      "assetPath": "js/CEndPanel.js",
+      "bytes": 4255,
+      "sha256": "f148ebc23e99869ecb2f268253a302bc8a850eaa449aac3652b4fd21da648978"
+    },
+    {
+      "assetPath": "js/CGame.js",
+      "bytes": 5411,
+      "sha256": "76467a5d8d89b2064cf8517f0f68061dac9e6e7dc7c3033a061583ee7b996c0b"
+    },
+    {
+      "assetPath": "js/CGfxButton.js",
+      "bytes": 4809,
+      "sha256": "05a809a504ffe1739f499a8136f0b07290d5940005eb4455fa255d2077331aab"
+    },
+    {
+      "assetPath": "js/CInterface.js",
+      "bytes": 5867,
+      "sha256": "6c05db5b67e8de9aeb539ee61bbdd9143a5c811cc088e013201ceb6e9056bd37"
+    },
+    {
+      "assetPath": "js/CLang.js",
+      "bytes": 879,
+      "sha256": "bd91da40a9f1ff4a764ee051f45279482837d7afb29f9a221aaffcc14d66d8c6"
+    },
+    {
+      "assetPath": "js/CMain.js",
+      "bytes": 9766,
+      "sha256": "2a3863eff11d705aca98db80f780600a0361e8a274319d415acf3d25f05402b0"
+    },
+    {
+      "assetPath": "js/CMenu.js",
+      "bytes": 4383,
+      "sha256": "80586d900957f99717e054ce0a91830a54a26686e39b2e5666786c5ac9cf1e7c"
+    },
+    {
+      "assetPath": "js/CModePanel.js",
+      "bytes": 4572,
+      "sha256": "d3dd898d0c61cc803a25c40af56b05b3042c7ef72b0f1fc89237d2d47ac71434"
+    },
+    {
+      "assetPath": "js/CMsgBox.js",
+      "bytes": 3269,
+      "sha256": "d226cd05fa5ca333d450536318a71a0bf51d086eb9317a7b769b46ed3d3e9f16"
+    },
+    {
+      "assetPath": "js/CPreloader.js",
+      "bytes": 2314,
+      "sha256": "9895de7f748d7a2ac4b331961e7837f40f3c87ca872b6f707ef26fee87d99f31"
+    },
+    {
+      "assetPath": "js/createjs-2015.11.26.min.js",
+      "bytes": 190630,
+      "sha256": "575c82f23dbb9285df2f62c7c8121c65d89e8137713110a149067d695975215e"
+    },
+    {
+      "assetPath": "js/CTextButton.js",
+      "bytes": 3704,
+      "sha256": "c837ca8ef7a7aeaf75b3b70134b060b2e1d22738f1efef23d4c2bbda54035af9"
+    },
+    {
+      "assetPath": "js/CTiePanel.js",
+      "bytes": 1906,
+      "sha256": "8ce9e9d3e21e8b570692f1f046ffbfb5c012c65886089772beb3101907a4ea76"
+    },
+    {
+      "assetPath": "js/ctl_utils.js",
+      "bytes": 20526,
+      "sha256": "75f11a0a96cbac7046d69ecfcc2862672c58e59d5ec71f2e3bcfbae8d64507f1"
+    },
+    {
+      "assetPath": "js/CToggle.js",
+      "bytes": 2990,
+      "sha256": "def709fa2e2cc5978a2520847fb971241fe66a76a86a540352d9de7cc79d280b"
+    },
+    {
+      "assetPath": "js/CTurnPanel.js",
+      "bytes": 1221,
+      "sha256": "e964a24d739e5f4d72d22a8cb107ae784b21eaab975880c0036882bb7192d54f"
+    },
+    {
+      "assetPath": "js/howler.min.js",
+      "bytes": 28798,
+      "sha256": "b1487ab759464e6a6bec40d74975b9e0d72b92175dfb4008fc52638045f5bb8d"
+    },
+    {
+      "assetPath": "js/jquery-2.0.3.min.js",
+      "bytes": 83612,
+      "sha256": "b13cb5989e08fcb02314209d101e1102f3d299109bdc253b62aa1da21c9e38ba"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "92c285beed70213e3cb957d43a39108256373ce4cc5704db4a9d1a74a4e1701a"
+    },
+    {
+      "assetPath": "js/settings.js",
+      "bytes": 978,
+      "sha256": "b403c5762a3599d3afff80ca3063c00b6a0929040843907db876953679f31ad5"
+    },
+    {
+      "assetPath": "js/sprite_lib.js",
+      "bytes": 1800,
+      "sha256": "ba826b631156b9b38ef881284462149180255f7f2b8e23007e5bd85467936bb3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 3242,
+      "sha256": "93f9a4f7eb607ab6db467706c802539d4e2a6bfff285becb1d22e248c7cf24c3"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "2d52d7d82b5099285cb9c05c6da43d0b4c7b898d24967a986722243cbe4e6c5a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "ff06e2cee263a9b863653a974df3e02b2817367885771bf113ee00d5b97e49d0"
+    },
+    {
+      "assetPath": "sprites/arrow.png",
+      "bytes": 2541,
+      "sha256": "e63f3a8ae99b4081d466ebfbe5544025545e25b65cb9ccfe86e297637f901c22"
+    },
+    {
+      "assetPath": "sprites/audio_icon.png",
+      "bytes": 4664,
+      "sha256": "7773fe8d838305df797939765879eb01bcede8b4b4e7d7ebac30952f9fb68d85"
+    },
+    {
+      "assetPath": "sprites/bg_game.jpg",
+      "bytes": 188386,
+      "sha256": "8841b6b0631742af372cd68c85e8fc3ab8462be4de1c9744a8611598337ddeb3"
+    },
+    {
+      "assetPath": "sprites/bg_menu.jpg",
+      "bytes": 315162,
+      "sha256": "315c14ce8e86815ace6ed5c95b04cc4f1e55910bf522291d041a349e218240c2"
+    },
+    {
+      "assetPath": "sprites/bg_selection.jpg",
+      "bytes": 220796,
+      "sha256": "05c53aaaa77a3c86d327c35132f7e07b2944e145faebb65022f43c902135ab52"
+    },
+    {
+      "assetPath": "sprites/bg_turn.png",
+      "bytes": 4056,
+      "sha256": "5b7c71e8e57cffd75da8b94318ce971fd542ae5d8189e812a10cc7dbf179cbac"
+    },
+    {
+      "assetPath": "sprites/board_back.png",
+      "bytes": 28247,
+      "sha256": "7c0a9cd6dce6f4acb91b53723d7534544bc893d08538fd365c2236d90f684dcf"
+    },
+    {
+      "assetPath": "sprites/board_front.png",
+      "bytes": 78279,
+      "sha256": "908c39f05316f645ee3ae7f0d5f2b927229d87fd99fafe1e9608baf7f14f95c1"
+    },
+    {
+      "assetPath": "sprites/but_cpu.png",
+      "bytes": 4881,
+      "sha256": "32b59b2f3c9d918a5947e0dc9471afce9873a47c0cff143a2ae1a69380a6a4d5"
+    },
+    {
+      "assetPath": "sprites/but_credits.png",
+      "bytes": 1032,
+      "sha256": "9373082099099831f26be8bea3b73a8083668d26d0c7e7c3b4d3dcd12b7bece9"
+    },
+    {
+      "assetPath": "sprites/but_exit.png",
+      "bytes": 1951,
+      "sha256": "c11b4ed07b2cc652f46b4354a9383b9ac12a0b00820f378234a96ac63e2ca919"
+    },
+    {
+      "assetPath": "sprites/but_fullscreen.png",
+      "bytes": 3683,
+      "sha256": "3c37a5882b19fa3f870d59a17dd45caad43be8f271bea0c029eae5317aef1b8e"
+    },
+    {
+      "assetPath": "sprites/but_home.png",
+      "bytes": 1589,
+      "sha256": "cbaa90f0a80200268b26044818b7f414ada55f7e5ee0160250c3de9480b2ddc6"
+    },
+    {
+      "assetPath": "sprites/but_human.png",
+      "bytes": 4643,
+      "sha256": "ddb025f8720f375fc77b8ecdeb602a4809595c0a4df855551b46c46a16aff28d"
+    },
+    {
+      "assetPath": "sprites/but_no.png",
+      "bytes": 2286,
+      "sha256": "a1de130ae94254024916362c8d57e497ec4c938f48cb2268b6f934f94429c75a"
+    },
+    {
+      "assetPath": "sprites/but_play.png",
+      "bytes": 3301,
+      "sha256": "15d900dbb0a2af78724b4f4ed9655bf24540246291e7e146c990c8b3a917b30c"
+    },
+    {
+      "assetPath": "sprites/but_restart.png",
+      "bytes": 2042,
+      "sha256": "b0dfa1c28f18549fac7ae474f23a91667787895f643a632e06620e874a8bda3f"
+    },
+    {
+      "assetPath": "sprites/but_yes.png",
+      "bytes": 2230,
+      "sha256": "e5f2960e01ca7ba45ac25f8e80e2debd3827d117c6e6d52c40ff2ea58f154970"
+    },
+    {
+      "assetPath": "sprites/ctl_logo.png",
+      "bytes": 10070,
+      "sha256": "9488f4142addd5eac7a8eb7468a195761cf303e3e9ee0bdf3631158643cc625c"
+    },
+    {
+      "assetPath": "sprites/disc.png",
+      "bytes": 5171,
+      "sha256": "7a9c7cbe64520a02dda734cdf44bfab827d5cfb826a895789e6d4539dc650c51"
+    },
+    {
+      "assetPath": "sprites/msg_box.png",
+      "bytes": 5824,
+      "sha256": "ce7eb74d0152bb002e469d50b128134192cd9bd54f66a7785c48e5af9fa898bb"
+    },
+    {
+      "assetPath": "sprites/progress.png",
+      "bytes": 7371,
+      "sha256": "6fd6e758f40c3be7391949b2e6f7b28befd2591a0d1372d8c44d700b8f13619e"
+    },
+    {
+      "assetPath": "sprites/time_icon.png",
+      "bytes": 2673,
+      "sha256": "55bb82f908fa0a3575bab5698accefddd6aeeb3279edd6777973715aeea841c7"
+    },
+    {
+      "assetPath": "sprites/win_effect.png",
+      "bytes": 13502,
+      "sha256": "bcea5ba6536df281fc8ce15507bc5ee6ed55dd749761d873b55c3f1d8a36cf0c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

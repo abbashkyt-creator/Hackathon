@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/ludo-hero/index.html",
+    "/games/ludo-hero/js/poki-sdk-shim.js",
+    "/games/ludo-hero/js/tiptap-platform-bridge.js"
+  ]
+}

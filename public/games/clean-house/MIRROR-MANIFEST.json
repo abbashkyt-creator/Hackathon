@@ -1,0 +1,70 @@
+{
+  "name": "clean-house",
+  "sourcePage": "https://poki.com/en/g/clean-house",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 836,
+      "sha256": "fab880602a36202cc537c2b302445eccb1f1d07f68f04a3c59d63638087c8064",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "dfdcb9644eb3660cf83e338866ae030157fc84e891dce2a1d164f04d12f2951e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "0b4defcf1410196f35596747309b346a6b783759d69e3f8d11ea391be83fa084",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "8d63e8f66dc9ed5a2d4621a5dece85a38daeefd7d47605ed07629e791f2a1a3c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "36c1e90fdf7515e6b267c79338d769dbe9eacf5b3f607849cd75501c37c0c8fc",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 836,
+      "sha256": "fab880602a36202cc537c2b302445eccb1f1d07f68f04a3c59d63638087c8064"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "0b4defcf1410196f35596747309b346a6b783759d69e3f8d11ea391be83fa084"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1219,
+      "sha256": "deeace398a1a4da6239d8bf61cf27e1ff9bbf16f6fc2496730a6a707abac57ce"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "8d63e8f66dc9ed5a2d4621a5dece85a38daeefd7d47605ed07629e791f2a1a3c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "36c1e90fdf7515e6b267c79338d769dbe9eacf5b3f607849cd75501c37c0c8fc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

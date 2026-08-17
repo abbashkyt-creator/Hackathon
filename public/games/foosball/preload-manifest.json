@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/foosball/index.html",
+    "/games/foosball/js/poki-sdk-shim.js",
+    "/games/foosball/js/tiptap-platform-bridge.js",
+    "/games/foosball/js/tiptap-inline-1.js"
+  ]
+}

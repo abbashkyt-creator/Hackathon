@@ -39,8 +39,8 @@ export function buildLocalIndex({ gameDir, slug, title, sourceIndexText }) {
     last = m.index + m[0].length;
   }
   bodyPieces.push(sourceIndexText.slice(last));
-  let css; while ((css = /<link[^>]*rel="stylesheet"[^>]*>/gi.exec(sourceIndexText)) !== null) { if (!/href="https?:\/\//.test(css[0])) headLinks.push(css[0]); }
-  let meta; while ((meta = /<meta[^>]*>/gi.exec(sourceIndexText)) !== null) { if (meta[0].includes("viewport")||meta[0].includes("charset")) headMetas.push(meta[0]); }
+  const cssRe = /<link[^>]*rel="stylesheet"[^>]*>/gi; let css; while ((css = cssRe.exec(sourceIndexText)) !== null) { if (!/href="https?:\/\//.test(css[0])) headLinks.push(css[0]); }
+  const metaRe = /<meta[^>]*>/gi; let meta; while ((meta = metaRe.exec(sourceIndexText)) !== null) { if (meta[0].includes("viewport")||meta[0].includes("charset")) headMetas.push(meta[0]); }
   const L = ["<!DOCTYPE html>","<html>","    <head>",`        <title>${title}</title>`,...headMetas,...headLinks,"",
     "        <script src=\"/games/_shared/network-lock.js\"></script>",
     "        <script src=\"/games/_shared/ad-client.js\"></script>",

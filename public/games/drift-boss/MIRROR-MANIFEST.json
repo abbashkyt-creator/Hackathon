@@ -1,0 +1,353 @@
+{
+  "name": "drift-boss",
+  "sourcePage": "https://poki.com/en/g/drift-boss",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3395,
+      "sha256": "ce3553555fe08f2a3241f9973ed9b5e930ba75610de4f3a54920edc7c5e3f608",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "2a2eeb25d949ce2e3eb81fa935aeb30d643094312e236eda0cacbc7d7ddff20a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 252,
+      "sha256": "a00ba1d93b22597a5cc58b48dd631ada671285071605a270549b310cb47f301b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "game.css",
+      "bytes": 6747,
+      "sha256": "0446c8955930e2cb6abc41d83db37f443546379e323d27de61a98c0e4e38e112"
+    },
+    {
+      "assetPath": "game.js",
+      "bytes": 4739005,
+      "sha256": "1ad789975c52312331353b7c279560fcd624edf58d8bc5bb8a520e860c883a88"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5257,
+      "sha256": "2b1ee351015b2961a34bb61e5d30346ccf8e3ff7347cfe56017eb958c64348b2"
+    },
+    {
+      "assetPath": "MANIFEST.json",
+      "bytes": 3997,
+      "sha256": "c84eddc6a7f4d7196818930b2c8e34c254b8f1a153e9eae321bcc9587ed8d2ad"
+    },
+    {
+      "assetPath": "media/audio/bgm.mp3",
+      "bytes": 456535,
+      "sha256": "54de8bb7f9e30ced4532e140ff38b4cf72b25d723a5a6a75324446210b02759e"
+    },
+    {
+      "assetPath": "media/audio/bgm.ogg",
+      "bytes": 612337,
+      "sha256": "8a78a12768bcc2b5f0a30a4e9948022f4a79482a80753fd7783484bbfb680410"
+    },
+    {
+      "assetPath": "media/audio/click.mp3",
+      "bytes": 17553,
+      "sha256": "a785767a944c185d90ba8416bd10a309a295aead9e129dffd6a9b249a2184737"
+    },
+    {
+      "assetPath": "media/audio/click.ogg",
+      "bytes": 14548,
+      "sha256": "d9c0be5d1d29f6a13e34c6d6d474ed561b3033eeb7631ca0533c423360bb3cd6"
+    },
+    {
+      "assetPath": "media/audio/coin.mp3",
+      "bytes": 11045,
+      "sha256": "bb86d0c9a04906cfa354d3bda8ee8937ddfb0d9d396f45fc7bf393f412a99b87"
+    },
+    {
+      "assetPath": "media/audio/coin.ogg",
+      "bytes": 17065,
+      "sha256": "4fde7d97223bc8e058bd4377c42d6e7c9420b77ab1d452ab022e5fd1cdf7a5a3"
+    },
+    {
+      "assetPath": "media/audio/crash.mp3",
+      "bytes": 17315,
+      "sha256": "eb8b97e0297c53ccdc753729503cf880bf0a39439a3816a333ceb7d9b62e505f"
+    },
+    {
+      "assetPath": "media/audio/crash.ogg",
+      "bytes": 17945,
+      "sha256": "891f1f5b6307a73c5dd7f104056deb6667c5dbafd0fcbbff7147aaff3cda80c3"
+    },
+    {
+      "assetPath": "media/audio/engine-in.mp3",
+      "bytes": 15173,
+      "sha256": "476315c5abc3302ac5cad75bd50a78d7002f3065df0286fc2c404ab753806107"
+    },
+    {
+      "assetPath": "media/audio/engine-in.ogg",
+      "bytes": 11619,
+      "sha256": "8c287d21a2daba7c8b4ff945da7224be5480d766a1eda1054199e6238bc3c29f"
+    },
+    {
+      "assetPath": "media/audio/engine-low.mp3",
+      "bytes": 28782,
+      "sha256": "2175b5851d92832e47df9bb419720e1494d4e54f244c11ed5aae7ba17dab4a1f"
+    },
+    {
+      "assetPath": "media/audio/engine-low.ogg",
+      "bytes": 17971,
+      "sha256": "2164c45867e9d15269a79023b67362d06057161daecfe2cabb4f2f52a4863ed0"
+    },
+    {
+      "assetPath": "media/audio/engine-out.mp3",
+      "bytes": 14810,
+      "sha256": "07c8119ae0b1c0c610645e099de08b7e5f6e09e19b305c663a9fb3b6422e381a"
+    },
+    {
+      "assetPath": "media/audio/engine-out.ogg",
+      "bytes": 11382,
+      "sha256": "6dd5d146ace3b70362dc9a32864d0a6bbabafbed7ed3f519a80cb98c0a8365c2"
+    },
+    {
+      "assetPath": "media/audio/engine.mp3",
+      "bytes": 95801,
+      "sha256": "da17219db01c1f83d882c60f0a99402c41fea0ce90abcb9da7378b6dd0b383d6"
+    },
+    {
+      "assetPath": "media/audio/engine.ogg",
+      "bytes": 38649,
+      "sha256": "a451b6524fd86c44b241bc583f19cf8b5ce1763ffc239b85602160bf2167475b"
+    },
+    {
+      "assetPath": "media/audio/opening/kittyopening.mp3",
+      "bytes": 11037,
+      "sha256": "c44d1a4be35da9c1313b75184e52dba74c86909f76546c3a5af4c3ecb7b47ca0"
+    },
+    {
+      "assetPath": "media/audio/opening/kittyopening.ogg",
+      "bytes": 11690,
+      "sha256": "48517e5b3f856a07483c9b367959a140ca2b9eb85350082a076bdf1cdb246012"
+    },
+    {
+      "assetPath": "media/audio/opening/opening.mp3",
+      "bytes": 14209,
+      "sha256": "5299ccf4cf22cc23c51fd64970f3a29df0cd3104ecfd37b609b6e330dd80a7a0"
+    },
+    {
+      "assetPath": "media/audio/opening/opening.ogg",
+      "bytes": 7867,
+      "sha256": "c07726b60359c8de3e80764287e4e378d77261f77ad352d43d3777069eb7c7a5"
+    },
+    {
+      "assetPath": "media/audio/play/static.mp3",
+      "bytes": 4596,
+      "sha256": "9d5f85df53550c4ade77fbcb7c41dbcb936a86c22b130ac278d78e891ce75409"
+    },
+    {
+      "assetPath": "media/audio/play/static.ogg",
+      "bytes": 5632,
+      "sha256": "1f026ff08f193151fb8f6d6c531442a7e2c04e1b57bd2e3030457a07f93a291f"
+    },
+    {
+      "assetPath": "media/audio/reward.mp3",
+      "bytes": 18880,
+      "sha256": "1f8cc734bdf07bc821c5c03d198e242fc8180ed9c381a945d962704642c0a81f"
+    },
+    {
+      "assetPath": "media/audio/reward.ogg",
+      "bytes": 23109,
+      "sha256": "1e2433da96dc2449eae1eb33007a4eb524953e1510c102d6b00ae52a6eb70d2b"
+    },
+    {
+      "assetPath": "media/audio/skid1.mp3",
+      "bytes": 22450,
+      "sha256": "265269dd30056180b7fe6b080afabe53b8c8418a5a8a45f507b66444829a28f7"
+    },
+    {
+      "assetPath": "media/audio/skid1.ogg",
+      "bytes": 25909,
+      "sha256": "2f5e51dadfd4c5336672ac98e20fd4c3fb0f5c6fab64543a90d5302c0a8c71ab"
+    },
+    {
+      "assetPath": "media/audio/skid2.mp3",
+      "bytes": 21330,
+      "sha256": "9a98d5f8e776df6bcf0dd453c42928c8d98115e90fc4b1965ac553247222ca33"
+    },
+    {
+      "assetPath": "media/audio/skid2.ogg",
+      "bytes": 26019,
+      "sha256": "c0dacf1ed77381a472b1f37113cf318204e53819f92206b94587d519d70347c5"
+    },
+    {
+      "assetPath": "media/audio/skid3.mp3",
+      "bytes": 21304,
+      "sha256": "bb027e427b05963ad0f730e880d0a4162996d93d3af1ea8dc1a431e96477e273"
+    },
+    {
+      "assetPath": "media/audio/skid3.ogg",
+      "bytes": 25905,
+      "sha256": "529b470e86b13b8cd2ac38b53a9262984ad5d7e91e83815d5a8081a21b2c34a4"
+    },
+    {
+      "assetPath": "media/graphics/misc/favicon.ico",
+      "bytes": 1150,
+      "sha256": "e8d25872dd663c47c40995317a407291eda8794590f9a5d6e108e90ccc103454"
+    },
+    {
+      "assetPath": "media/graphics/misc/invisible.png",
+      "bytes": 96,
+      "sha256": "05dec9c0353309a55af8c7a5b7ae9b5c693db189373af73cbb831ea10dd5190d"
+    },
+    {
+      "assetPath": "media/graphics/packed/texture.png",
+      "bytes": 202193,
+      "sha256": "64540a823b61a19c66c4a41e88cde34aed689d2b704c80f7f47866bb57ea04ce"
+    },
+    {
+      "assetPath": "media/graphics/splash/mobile/cover-start.jpg",
+      "bytes": 20029,
+      "sha256": "0ceb0feabcb65b3da4fbd541b7ed0132940ca7772fa38cc2441637a1626ccf7a"
+    },
+    {
+      "assetPath": "media/scenes/bg.png",
+      "bytes": 684,
+      "sha256": "a940937ffd7bd8122b4bac179d989ddf33536e4a9e1afb253be9792d31a9dad2"
+    },
+    {
+      "assetPath": "media/scenes/car_ambulance.png",
+      "bytes": 19091,
+      "sha256": "94b7cb197f038856febc4d6e4caa4813035cd0b1a3b0421f44ea8ec507d31cde"
+    },
+    {
+      "assetPath": "media/scenes/car_box.png",
+      "bytes": 15550,
+      "sha256": "59ff95609fa14b2e1de3819113e00d48c0268c655543d4b33301e2f2af578c4d"
+    },
+    {
+      "assetPath": "media/scenes/car_firefighter.png",
+      "bytes": 20982,
+      "sha256": "665d7fa91dc52aa011820e61f676ac02eeb27001726ffff4169f1a1853609047"
+    },
+    {
+      "assetPath": "media/scenes/car_ice_cream_truck.png",
+      "bytes": 21442,
+      "sha256": "135a1cf0d5c14c49a527256c46d7a08dbf71120f3a61b54f5b0b504db403341e"
+    },
+    {
+      "assetPath": "media/scenes/car_pickup.png",
+      "bytes": 19638,
+      "sha256": "e983c9efdab80e280575713a91da46fb9f7f43f4f6131dfe477a08815d8cf701"
+    },
+    {
+      "assetPath": "media/scenes/car_police.png",
+      "bytes": 17610,
+      "sha256": "00e00bba87b74df17ad8d97c6b11061cd7c3d0f6be9d5f5a89172ba95c32543b"
+    },
+    {
+      "assetPath": "media/scenes/car_standard.png",
+      "bytes": 21132,
+      "sha256": "3261683661e54a65132a6f3eee82c75ab8ded84a0353fb89bca1464d35ea1bd1"
+    },
+    {
+      "assetPath": "media/scenes/car_taxi.png",
+      "bytes": 17969,
+      "sha256": "aac6793ba7c048335293d00e3d8858b454acb08a5c93c3ef559d92dabb2941ed"
+    },
+    {
+      "assetPath": "media/scenes/coin.png",
+      "bytes": 2397,
+      "sha256": "fab6d36508b066e7faae91244ee327c9198d49041ea2fe17e408c66df80a3d47"
+    },
+    {
+      "assetPath": "media/scenes/confetti.png",
+      "bytes": 1148,
+      "sha256": "73b7b39323357d4a0205fc22c20bb2b70935cb260a1ee8060d4658feee6fa1e7"
+    },
+    {
+      "assetPath": "media/scenes/game-scene.babylon",
+      "bytes": 1056122,
+      "sha256": "e30e97ca9fff33ed93e0c2781afae2760fedaf28af51737e32990eefe91259cb"
+    },
+    {
+      "assetPath": "media/scenes/pattern_0.png",
+      "bytes": 1012,
+      "sha256": "b53fdd96e8012b92069b44a1754b69cd996f09a5e1bd2335201097b5c22522e8"
+    },
+    {
+      "assetPath": "media/scenes/pattern_1.png",
+      "bytes": 461,
+      "sha256": "115f9d5a581d0894e79f6c5a09c33d11f95189823cec6b9e3ffed3ccca62216d"
+    },
+    {
+      "assetPath": "media/scenes/pattern_2.png",
+      "bytes": 569,
+      "sha256": "06b4cb7a85dafb6f842b93bea623ca42dde049df8008b38f402c7c7d54943eda"
+    },
+    {
+      "assetPath": "media/scenes/pattern_3.png",
+      "bytes": 2005,
+      "sha256": "3350966271816aa1f37bdbca427746e8bb8bd8de0e080069cac20d63544366f9"
+    },
+    {
+      "assetPath": "media/scenes/pattern_4.png",
+      "bytes": 9400,
+      "sha256": "d0644a4034b864025bb0244291edadaeb689400e95bdd205aed9d50cb9cd8c2a"
+    },
+    {
+      "assetPath": "media/scenes/smoke.png",
+      "bytes": 3339,
+      "sha256": "c76c04e1c58446b8217fd1937cf3af4e91ac22df99ab280ee128cc4a56aba91f"
+    },
+    {
+      "assetPath": "media/scenes/start_line.png",
+      "bytes": 5289,
+      "sha256": "5d8a8bb9e6dc5cfa9fe5a56bcc568f56d2b29aba82a819d888eba595f883e9fe"
+    },
+    {
+      "assetPath": "media/scenes/trail.png",
+      "bytes": 440,
+      "sha256": "f76fecbd9303838dee9e65c7c3dab718028f32dcdb29cc99f5f81643c21e366f"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 277,
+      "sha256": "dc4916d567fb51b53162f771900159c30f2fc2777c4a5abde4b784d5abc032ba"
+    },
+    {
+      "assetPath": "test-min.html",
+      "bytes": 575,
+      "sha256": "c888cdf8a263d3e94f5d21914d39854e484d0cf7a2f3a38932df5aaf5cd80517"
+    },
+    {
+      "assetPath": "test-patched-index.html",
+      "bytes": 672,
+      "sha256": "5b89f5d5c3bf12606b9dbfca60f5c8f201588541574a494f4e801d60cab9c242"
+    },
+    {
+      "assetPath": "test-patched.js",
+      "bytes": 4739139,
+      "sha256": "9a34d59a473709f77fe229ceff504a4a41982294c2209389ae36ba85ed8d047d"
+    },
+    {
+      "assetPath": "test-real-index.html",
+      "bytes": 4451,
+      "sha256": "5f10c6f4e3de5d418753add32418c4c6726bf3f440aa907d1efa04a06b2eb844"
+    },
+    {
+      "assetPath": "test-wrapper.html",
+      "bytes": 259,
+      "sha256": "1725368fa9d7d8774bda3c8b2e6656264b0d7d91d1bbf821ba9a770728806427"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

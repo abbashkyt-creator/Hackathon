@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/brain-test-tricky-puzzles/index.html",
+    "/games/brain-test-tricky-puzzles/js/poki-sdk-shim.js",
+    "/games/brain-test-tricky-puzzles/js/tiptap-platform-bridge.js",
+    "/games/brain-test-tricky-puzzles/js/tiptap-inline-1.js"
+  ]
+}

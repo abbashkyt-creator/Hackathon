@@ -75,25 +75,6 @@
         <!-- Run the game code -->
         <script type="text/javascript" src="html5game/RetroBowl.js?ILABC=1551937871"></script>
         <!-- Poki gate (local shim) -->
-        <script>(function() {
-            function fin(ok) {
-                window.PokiSDK_OK = ok;
-                GameMaker_Init();
-            }
-            window.addEventListener("load", function(_) {
-                window.PokiSDK_loadState = 0;
-                if (window.PokiSDK) {
-                    PokiSDK.init().then(function() {
-                    fin(true);
-                }).catch(function() {
-                    fin(false);
-                });
-                } else {
-                    window.PokiSDK = null;
-                    fin(false);
-                }
-            });
-            })();
-        </script>
+        <script src="js/tiptap-inline-1.js"></script>
     </body>
 </html>

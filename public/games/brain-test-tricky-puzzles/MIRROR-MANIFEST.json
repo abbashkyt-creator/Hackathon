@@ -1,0 +1,120 @@
+{
+  "name": "brain-test-tricky-puzzles",
+  "sourcePage": "https://poki.com/en/g/brain-test-tricky-puzzles",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1691,
+      "sha256": "3f5c08cb6f6815256a471933aef3153b4c2066da6d8fa0e06c2e0aa74879e5fb",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 179,
+      "sha256": "057fa1523f97776f8e3270eed1f45d0a555caf9db285ff9a97fe2d2356bc0d1c",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "341df325fca2d8f171f573213ce0540caed29ff1e304075d1a63ef6de039fedd",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "77e3ddd24ca74777af5bc7a227b49ee54f6d223c5e8d618686a13f1e1552e82e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "a244f6bc6e5bb31fb2b4f7b6a40575cf97cf8a24f8ca156be9a790a1a0795ba4",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 243,
+      "sha256": "e359325e557e4cf3ab0972ffbdcb10c51624ab4c41a0b1b31867cc7bd124e695"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1691,
+      "sha256": "3f5c08cb6f6815256a471933aef3153b4c2066da6d8fa0e06c2e0aa74879e5fb"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 940,
+      "sha256": "341df325fca2d8f171f573213ce0540caed29ff1e304075d1a63ef6de039fedd"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 866,
+      "sha256": "77e3ddd24ca74777af5bc7a227b49ee54f6d223c5e8d618686a13f1e1552e82e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 265,
+      "sha256": "a244f6bc6e5bb31fb2b4f7b6a40575cf97cf8a24f8ca156be9a790a1a0795ba4"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 120910,
+      "sha256": "c754ec7ac3b1a54aa79af7870cb723fd6c84d7cb23f8606320b01ed9b50f5afd"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "f1663cceeb67ba35c5a5cbf58b56050ddbe5ec5680ea9e55837b57524f29b876"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "673447d8f0461a229a0e51adf4a2bb06dad16aade00b154d8a90304f0f1cfbbb"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "04bd11c311f0107c20d95e65d9a593ee5c92c7cb53507e10b680ece3de7add1c"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4745,
+      "sha256": "e9b6c3ad78eefce680d3dd8bba33eed7260800b345a2e8cf7462f448a4d0c46b"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

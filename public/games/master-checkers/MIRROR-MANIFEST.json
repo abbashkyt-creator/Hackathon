@@ -1,0 +1,425 @@
+{
+  "name": "master-checkers",
+  "sourcePage": "https://poki.com/en/g/master-checkers",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 4103,
+      "sha256": "8bac9bf094c9fe691ce3e3ab2ab3c7973c28794dacb893315e162cf8cc38d307",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "def35bf52eba0df7cb586c53420ddf244e823dcf6f4466e44ca413c554fc377e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "daac68d6997ec48853a876bf7162f15f55d83f6ff450599725955094e3e8f4bb",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "b3624782c9f1eaffc9684ddfa8fc1b3fd21b3a9a27ab6d87a06d5a4d73737b15",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "4e34a7d7756ca35211e8b353cb098991b9d1930d11ad3bd97c9af162ceab303c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "css/arial_rounded_mt_bold_bold-webfont.eot",
+      "bytes": 55406,
+      "sha256": "409fc8e6fdd44eefc796d952ff8f32093f1bf52305f5eec04322cb23af9accd8"
+    },
+    {
+      "assetPath": "css/arial_rounded_mt_bold_bold-webfont.svg",
+      "bytes": 104931,
+      "sha256": "a18a0039eb906812476baa37efe7dcd1b8fcd2ab34b420001f6f083c40f8f065"
+    },
+    {
+      "assetPath": "css/arial_rounded_mt_bold_bold-webfont.ttf",
+      "bytes": 55272,
+      "sha256": "8a41acf7de7597fe49c7f2a1200e0fdbd46915b850580b3e5a32fb8c91ce77d1"
+    },
+    {
+      "assetPath": "css/arial_rounded_mt_bold_bold-webfont.woff",
+      "bytes": 31176,
+      "sha256": "ccaac3208a36cc2bd6b0314bf2bfe3a3d7ce02216bd63625bf9e0810af5cf6cc"
+    },
+    {
+      "assetPath": "css/arial_rounded_mt_bold_bold-webfont.woff2",
+      "bytes": 24732,
+      "sha256": "fbcaab468e2a577024958b0db2aa96f3b63c8bc204037f1ebac1e1c285c3d298"
+    },
+    {
+      "assetPath": "css/ios_fullscreen.css",
+      "bytes": 1717,
+      "sha256": "d99ea542ab7b26c53aee3f94ddbc89b2482a63d7331b5972b41153ea51c2d800"
+    },
+    {
+      "assetPath": "css/main.css",
+      "bytes": 2369,
+      "sha256": "1271bcdbe1ac8f4b417cb0d1bda35c1f46214b1e63662039bf2174f82756b34f"
+    },
+    {
+      "assetPath": "css/orientation_utils.css",
+      "bytes": 669,
+      "sha256": "c87ba53e0bd0857e8b1dd26ec8f45486bbdff574327d1f80cbfd81a38d2616fd"
+    },
+    {
+      "assetPath": "css/reset.css",
+      "bytes": 858,
+      "sha256": "7b5be04e538eb27e858f26694e59bff49ea57d79cc125bdcfb10e35f1a93dfc1"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 4103,
+      "sha256": "8bac9bf094c9fe691ce3e3ab2ab3c7973c28794dacb893315e162cf8cc38d307"
+    },
+    {
+      "assetPath": "js/CAreYouSurePanel.js",
+      "bytes": 3582,
+      "sha256": "be7dbd691eb06772be30062f748647fc04df1993f171976d90b77b09c1225ae5"
+    },
+    {
+      "assetPath": "js/CCell.js",
+      "bytes": 5367,
+      "sha256": "18dce15a436024ecb8e45440722fcbaee2f88438a5a64c2be8ba1ec61eb8a9fd"
+    },
+    {
+      "assetPath": "js/CCreditsPanel.js",
+      "bytes": 2967,
+      "sha256": "a15cb533d5f34648f480bc0b672520265877a13b6a449b0b8ad514a3e7c3aa9c"
+    },
+    {
+      "assetPath": "js/CEndPanel.js",
+      "bytes": 4334,
+      "sha256": "d46c6a5760d7a2f7d419b96010175b4119e5196979a2013a1ee68d04d4022241"
+    },
+    {
+      "assetPath": "js/CGame.js",
+      "bytes": 49273,
+      "sha256": "debff977236ad415769736b8273947caaeb34486189596856d33fb9a08f9af2a"
+    },
+    {
+      "assetPath": "js/CGfxButton.js",
+      "bytes": 4376,
+      "sha256": "306b5dc3664a39c55bfff06a68b20c78db4d20d6615d24796ef57206c0ced91f"
+    },
+    {
+      "assetPath": "js/CInfoTurn.js",
+      "bytes": 3808,
+      "sha256": "2d8488635bbaa263c962ef906999bd1a5146b868a124ed59cd238eb331acff4e"
+    },
+    {
+      "assetPath": "js/CInterface.js",
+      "bytes": 8280,
+      "sha256": "4a07a44a4057b945d2f242f640297670dd89ffdb7c7970d15b16eb6501a3263e"
+    },
+    {
+      "assetPath": "js/CLang.js",
+      "bytes": 770,
+      "sha256": "0669fa7849f27c7ff3fe36606d04836f684ff8befd3e05a96c08b89b51664305"
+    },
+    {
+      "assetPath": "js/CMain.js",
+      "bytes": 9403,
+      "sha256": "e08dcfaf3c9eb96b334f6cc536b3333bb86ad86893496c9759297a45dde0a80b"
+    },
+    {
+      "assetPath": "js/CMenu.js",
+      "bytes": 5892,
+      "sha256": "1289af5cf706866a863463e5d404383976b7054814361581faee51a57cbec02b"
+    },
+    {
+      "assetPath": "js/CMessage.js",
+      "bytes": 1481,
+      "sha256": "46005c310b165c26532206fb08d5f9e79b806accc0c73b33d4db023cd8e28d4e"
+    },
+    {
+      "assetPath": "js/CModeMenu.js",
+      "bytes": 5475,
+      "sha256": "196efc1d5e12317eb63a04c99c317091a3dab578642265507f67dd2c4a2bad68"
+    },
+    {
+      "assetPath": "js/CMovingCell.js",
+      "bytes": 2518,
+      "sha256": "619f8d8738b45f8c269db91b08e15127359bd04eeeac6dd656d65678da456b4e"
+    },
+    {
+      "assetPath": "js/CPreloader.js",
+      "bytes": 4285,
+      "sha256": "a3b45675899a9a564cec4c5bf89b96b8994c28afbd6f09a2b8266dbccef4f16e"
+    },
+    {
+      "assetPath": "js/createjs.min.js",
+      "bytes": 242057,
+      "sha256": "e439bebf8de2df0582273906d2c1dceff2387c661efb2152ef1c28420ce4e7e5"
+    },
+    {
+      "assetPath": "js/CStartAnimation.js",
+      "bytes": 9013,
+      "sha256": "f3a236d2941a7a9b074e3c9ccfc5d041d9b69d1766cc83fe484421797e529ae7"
+    },
+    {
+      "assetPath": "js/CTextButton.js",
+      "bytes": 3581,
+      "sha256": "beaaaa067c81dc8de107b0964f69f57464a412abd1f544c13f4a3ba333d729af"
+    },
+    {
+      "assetPath": "js/CThinking.js",
+      "bytes": 2153,
+      "sha256": "451b7ea4b16bf6b4be3abdf8f11d58ebe83a460a8e2cef377878ba0fd300be24"
+    },
+    {
+      "assetPath": "js/ctl_utils.js",
+      "bytes": 24829,
+      "sha256": "5af0782734e9ce254c6c6c40c9c9b7fb50735e88b2a0b63703a0f858863af97c"
+    },
+    {
+      "assetPath": "js/CToggle.js",
+      "bytes": 3447,
+      "sha256": "e9857f08ba24cece3a543313a10495adace90fc4a3be4f6b25e00a923d81de73"
+    },
+    {
+      "assetPath": "js/CTree.js",
+      "bytes": 1580,
+      "sha256": "8d76e83bcb43ae795d2e9ede13ecb8dffe1c4910a3e87e9927d3d7cbdc15014c"
+    },
+    {
+      "assetPath": "js/CTreeDecision.js",
+      "bytes": 1428,
+      "sha256": "5feda6509c5fea8a3f1583f82be2acc5c146ed65c5d7590984873fb95a940183"
+    },
+    {
+      "assetPath": "js/howler.min.js",
+      "bytes": 32578,
+      "sha256": "d5538efc5c5c35a251241ffd2981d5b2ee25b6d568b029dc9adc2a94c2fdc5a8"
+    },
+    {
+      "assetPath": "js/ios_fullscreen.js",
+      "bytes": 4861,
+      "sha256": "a9e7d1cf19e365f921d11bcf60f7b25f7d0516756c8662e7e4d9c5913f3da5e4"
+    },
+    {
+      "assetPath": "js/jquery-3.2.1.min.js",
+      "bytes": 86659,
+      "sha256": "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de"
+    },
+    {
+      "assetPath": "js/platform.js",
+      "bytes": 40658,
+      "sha256": "ded43b6388d1b9019ed0e791b4b6d3c38a1080605273432c1f129ce4a512bb39"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "daac68d6997ec48853a876bf7162f15f55d83f6ff450599725955094e3e8f4bb"
+    },
+    {
+      "assetPath": "js/screenfull.js",
+      "bytes": 3598,
+      "sha256": "fe3b56c6697375ba61832e6760ce31e281a125878d978e58ce09507f384ae10c"
+    },
+    {
+      "assetPath": "js/settings.js",
+      "bytes": 1409,
+      "sha256": "9c0af7c323e2e582b06eed39e4a9e356197dcec011bf38de1908f8b25d9cc000"
+    },
+    {
+      "assetPath": "js/sprite_lib.js",
+      "bytes": 1800,
+      "sha256": "ba826b631156b9b38ef881284462149180255f7f2b8e23007e5bd85467936bb3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 3008,
+      "sha256": "10e225d252c5a36e75c12d29e55f0d32b2df577075e656549bfb3df8dd79b1ce"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "b3624782c9f1eaffc9684ddfa8fc1b3fd21b3a9a27ab6d87a06d5a4d73737b15"
+    },
+    {
+      "assetPath": "js/TreeModel.js",
+      "bytes": 10127,
+      "sha256": "0cc55d2014b543eef337108e6ff67fbe85c6c3a28dd1d93cacad3fecb7e0ad95"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "4e34a7d7756ca35211e8b353cb098991b9d1930d11ad3bd97c9af162ceab303c"
+    },
+    {
+      "assetPath": "sprites/200x200.jpg",
+      "bytes": 9424,
+      "sha256": "5d8dbb6e4a363022f15a1bcc91ba0dbcd4ae98bc66790efbe7bc7c2ecc633eeb"
+    },
+    {
+      "assetPath": "sprites/audio_icon.png",
+      "bytes": 9705,
+      "sha256": "759d682162f3adde88d20526a2248aec20aeb9e5791c7c83f0d74d5f5c8c0ca4"
+    },
+    {
+      "assetPath": "sprites/bg_game.jpg",
+      "bytes": 148063,
+      "sha256": "b9dba5c786f2f328f7c6327f62b2963d0a6bbdfec9a52f915ec74e5738d50886"
+    },
+    {
+      "assetPath": "sprites/bg_menu.jpg",
+      "bytes": 33544,
+      "sha256": "5ff454cfb555e6fb53dd81912f8f9ded52d13386f6f84d8bf5db49c10215fa68"
+    },
+    {
+      "assetPath": "sprites/bg_mod_menu.jpg",
+      "bytes": 152334,
+      "sha256": "b795ba401bf408e1fc31112db5e99f5970901cb079e7164c979421e18a6b7b5b"
+    },
+    {
+      "assetPath": "sprites/bg_tile.jpg",
+      "bytes": 593,
+      "sha256": "fa65991305afd5689f65ceb7028fb9c346a764a18ffb1b0106712c4f851681d2"
+    },
+    {
+      "assetPath": "sprites/but_credits.png",
+      "bytes": 5249,
+      "sha256": "efb9a2e38ebdee2fe36e84f9a18c5f4afe4680f197281932b5124e6b85c2e8e8"
+    },
+    {
+      "assetPath": "sprites/but_exit.png",
+      "bytes": 5493,
+      "sha256": "94fbccf07156c18005a904d14c4bd83df6b1a5491c3ec127fb5a8e3be6ae2470"
+    },
+    {
+      "assetPath": "sprites/but_fullscreen.png",
+      "bytes": 8823,
+      "sha256": "ad290de8067430bcdd7d732b856a13173bf7d69b08ecb80ca42d0cc698985174"
+    },
+    {
+      "assetPath": "sprites/but_no.png",
+      "bytes": 28895,
+      "sha256": "7c02387b05e0b3120ab02c17ff56a6e60b5c7a064ce58562bde06c7e4cf0df10"
+    },
+    {
+      "assetPath": "sprites/but_play.png",
+      "bytes": 31161,
+      "sha256": "7236024dd56449474843b4bfc1edc2ec4fca4f47e18e96834f50799958f1ed2d"
+    },
+    {
+      "assetPath": "sprites/but_settings.png",
+      "bytes": 5238,
+      "sha256": "01631dde84ed27f6f3d30a09b424b993b7e2cdb35bacdc70dcfcb7e5438c7285"
+    },
+    {
+      "assetPath": "sprites/but_start.png",
+      "bytes": 410,
+      "sha256": "320f8113748526313ac024d4e3fc9b5f27cf723276186f1e260625aeb8d2a2c5"
+    },
+    {
+      "assetPath": "sprites/but_yes.png",
+      "bytes": 29540,
+      "sha256": "b4594d963963247de3fe84226e582cd12220fa1cf5f14da0bb5ecc1802edacc4"
+    },
+    {
+      "assetPath": "sprites/chip_box.png",
+      "bytes": 60191,
+      "sha256": "a9aeab8dc0057b5b72a7f7d52599c03348423aa178e893a24fd709f9d2179b6a"
+    },
+    {
+      "assetPath": "sprites/chip_flip_black.png",
+      "bytes": 9210,
+      "sha256": "130c503102977e2b3d58a44a9ad5a001416678514d67d78fa4d0ae77fdd7b7a0"
+    },
+    {
+      "assetPath": "sprites/chip_flip_white.png",
+      "bytes": 15202,
+      "sha256": "79a29cbff0c756a8ad3534b79f6a72e3186b55a1fee9f7d17f438646510f9c83"
+    },
+    {
+      "assetPath": "sprites/chip_vertical_black.png",
+      "bytes": 676,
+      "sha256": "2a49de7ec8617eb2e1a3073cef4e220c381b286c36402fdebf64db17d7210b48"
+    },
+    {
+      "assetPath": "sprites/chip_vertical_white.png",
+      "bytes": 1600,
+      "sha256": "c86946f10c6b6ad6df5b75739f79b4d3ec7be4b540364008151981847ea22a2d"
+    },
+    {
+      "assetPath": "sprites/grid_8.png",
+      "bytes": 379218,
+      "sha256": "64a6e16cf6e935379f74a2cc3e4765e70bc539309925f99da8209b20d1e8ec06"
+    },
+    {
+      "assetPath": "sprites/highlight.png",
+      "bytes": 2756,
+      "sha256": "fd687ab9731e0430a5669df80cb8edc2fc68037bbbf0498a62b951361bef09e8"
+    },
+    {
+      "assetPath": "sprites/logo_ctl.png",
+      "bytes": 20042,
+      "sha256": "9e61024399406f59b10a4dc32c7aea87f4cc7bc19ef6643830ab69a6ccb89269"
+    },
+    {
+      "assetPath": "sprites/logo_menu.png",
+      "bytes": 213813,
+      "sha256": "3717efb1ba08b2f66745f89cea60fc0c5ecd1c2e4c7e992d0f81cc21591e2b64"
+    },
+    {
+      "assetPath": "sprites/message.png",
+      "bytes": 15818,
+      "sha256": "0aa5676caf8c895946f9eeda2d2b80b650556701cf0f2ce715a5ef22ad5db2ea"
+    },
+    {
+      "assetPath": "sprites/msg_box.png",
+      "bytes": 317220,
+      "sha256": "ab0986d4b2966605ee7f2da8e2f7044e7e601a0b0c2f1bdac64f6f7c3e1634af"
+    },
+    {
+      "assetPath": "sprites/pawn.png",
+      "bytes": 12966,
+      "sha256": "0cd63027fd019d5219f229f31246fbd994556240830295e93f812e2e89e3a5ef"
+    },
+    {
+      "assetPath": "sprites/player_panel.png",
+      "bytes": 7210,
+      "sha256": "2f85eec46c8abc1f93f458b64c14136961ec96add7773b89130d40b7ce020622"
+    },
+    {
+      "assetPath": "sprites/progress_bar.png",
+      "bytes": 292,
+      "sha256": "dcf1bff6f4e6df3d77051ac8a3336852a7be1b37cd5f133afca0cb1782d067f7"
+    },
+    {
+      "assetPath": "sprites/swipe.png",
+      "bytes": 1042,
+      "sha256": "1218a99f2494384c1b07bd1019cd2eb729e02098345ad5a7fcfb4cc361425787"
+    },
+    {
+      "assetPath": "sprites/vs_man_panel.png",
+      "bytes": 83859,
+      "sha256": "e315617f711450ad0c118fe0d05100a8338fca365d150602ebc484850b73332f"
+    },
+    {
+      "assetPath": "sprites/vs_pc_panel.png",
+      "bytes": 89812,
+      "sha256": "0265b73056c835ee7487cb1104f2e3048fe24c92db79114246cedc4a7e574ad8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

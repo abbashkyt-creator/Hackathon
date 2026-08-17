@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/domino/index.html",
+    "/games/domino/js/poki-sdk-shim.js",
+    "/games/domino/js/tiptap-platform-bridge.js",
+    "/games/domino/js/tiptap-inline-1.js"
+  ]
+}

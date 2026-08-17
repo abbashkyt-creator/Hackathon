@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/beauty-salon/index.html",
+    "/games/beauty-salon/js/poki-sdk-shim.js",
+    "/games/beauty-salon/js/tiptap-platform-bridge.js",
+    "/games/beauty-salon/js/tiptap-inline-1.js",
+    "/games/beauty-salon/js/tiptap-inline-2.js"
+  ]
+}

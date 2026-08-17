@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/moto-x3m/index.html",
+    "/games/moto-x3m/js/poki-sdk-shim.js",
+    "/games/moto-x3m/js/tiptap-platform-bridge.js"
+  ]
+}

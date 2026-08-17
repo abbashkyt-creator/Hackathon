@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/monkey-mart/index.html",
+    "/games/monkey-mart/js/poki-sdk-shim.js",
+    "/games/monkey-mart/js/tiptap-platform-bridge.js",
+    "/games/monkey-mart/js/tiptap-inline-1.js",
+    "/games/monkey-mart/js/tiptap-inline-2.js",
+    "/games/monkey-mart/js/tiptap-inline-3.js"
+  ]
+}

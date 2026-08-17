@@ -1,0 +1,220 @@
+{
+  "name": "domino",
+  "sourcePage": "https://poki.com/en/g/domino",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1583,
+      "sha256": "2011b55c3ea5cb64e4a41594eb635fd4b1bcd2f2dc9dbea210d093d8ed88f8f7",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 160,
+      "sha256": "8dfacefb514690d76f2e31a1a971d3d9b99bf3527969f7f6984564183387d053",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 902,
+      "sha256": "a59edac6f2b2b031f6d5fafac7571920a01b5294a2d0f79bdfc093195fb28dcc",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 847,
+      "sha256": "fdaec12a496161b096be7f669dcb38a6435cdef285bb51b577bdb022f0951c19",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 189,
+      "sha256": "61c81e07c1931c1517da2c0360d6d3a74279f4c9be936579159f07ff9e16e31b",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 215,
+      "sha256": "ba09f49d89c7251ef0f1165d0b4edc503539cd39c441e8e0fd5e7aa1816a4836"
+    },
+    {
+      "assetPath": "botnames.json",
+      "bytes": 26152,
+      "sha256": "68a433e7e67322cf015f432b7b66532155454116198d4a65e8380f9cc485874e"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 250324,
+      "sha256": "367b0198cca611f45a30a88cedf0c38b9dfa207119218daef510247609d3b4af"
+    },
+    {
+      "assetPath": "images/domino-sheet0.webp",
+      "bytes": 446286,
+      "sha256": "3f28547c0b6129fc7d183cd7ea4bf9ada7f0307d83c26f035e64a3b01bafd8f2"
+    },
+    {
+      "assetPath": "images/domino-sheet1.webp",
+      "bytes": 139064,
+      "sha256": "69c6199a094a1218da24286321d2348381042cbb49c23b79f6613de9539fd4bc"
+    },
+    {
+      "assetPath": "images/icon-sheet0.webp",
+      "bytes": 94878,
+      "sha256": "7cee31f3bc7ea1351f6be395c31f9e3439edb58384b5f3c55b3b3b37897e4ab4"
+    },
+    {
+      "assetPath": "images/particle_sprite-sheet0.webp",
+      "bytes": 1568,
+      "sha256": "a5e2d46e37c40d1fd1694c9dbdb996b92817488f16725beda90b4f50d1043d46"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 28650,
+      "sha256": "f99b7253a5f446ed5f1d49501770b9b727c4849e18ce4e0280e10febb1dd5c7e"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 76158,
+      "sha256": "7ddc4eb9760f98c77a869782fd9daed867dba76cd5c9553e27cdb2a397036c98"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 43426,
+      "sha256": "02d857b488f8b357241ebae263d64951d43438c9c8f03ae5b0a2ee098ddbc807"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 198,
+      "sha256": "14fab2644c347394cf5bb228f46efd2470773f27b4da0da4035740a2adc944b2"
+    },
+    {
+      "assetPath": "images/sprite2-sheet0.webp",
+      "bytes": 6144,
+      "sha256": "47ec1d8f3bb25f547292907efd53d7696e96619776cfd10ff174dafc1bf3f970"
+    },
+    {
+      "assetPath": "images/stars-sheet0.webp",
+      "bytes": 183324,
+      "sha256": "b6d4a6c9f3e20a200af1f063c8daba74a09c109224f7fe5a08383855d48d944c"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.webp",
+      "bytes": 44,
+      "sha256": "7c642755e167a62b2d6e81ce19a6ec78c6f685ced802efe1740240a684572e9a"
+    },
+    {
+      "assetPath": "images/tiledbackground2-sheet0.webp",
+      "bytes": 44,
+      "sha256": "0bdf3858f3b984821d192b95bc9476b476a1121dd5e7004d0a7da11096c51383"
+    },
+    {
+      "assetPath": "images/рамка-sheet0.webp",
+      "bytes": 151356,
+      "sha256": "fd175a767d2565eab5b3a5e8b8298bbe712e1ac53a5d8927e9df3524e5029ff8"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1583,
+      "sha256": "2011b55c3ea5cb64e4a41594eb635fd4b1bcd2f2dc9dbea210d093d8ed88f8f7"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 902,
+      "sha256": "a59edac6f2b2b031f6d5fafac7571920a01b5294a2d0f79bdfc093195fb28dcc"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 847,
+      "sha256": "fdaec12a496161b096be7f669dcb38a6435cdef285bb51b577bdb022f0951c19"
+    },
+    {
+      "assetPath": "language.json",
+      "bytes": 22900,
+      "sha256": "3474e95b8280ca018f19d05f082f2134a4e62b244126373127b7f01ed2978d86"
+    },
+    {
+      "assetPath": "league names.json",
+      "bytes": 10718,
+      "sha256": "f1a9bf4177479208dfcd373e114013f8e028eae7b3d5d7a65977df539aa09c48"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 189,
+      "sha256": "61c81e07c1931c1517da2c0360d6d3a74279f4c9be936579159f07ff9e16e31b"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 94,
+      "sha256": "a806e1222c3b2f891aa15d441650c9167b6ba6d0e8157417ecdeccb3d8479c47"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1451232,
+      "sha256": "3f1aa97d58473e2a8f0e36544f837e246ffeef5d74f81e948080928d5adfdc11"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 131839,
+      "sha256": "84e1fa98edfed16afe595a6f2e6f2fcf903636d5215c9fd76ca2392f90d3639d"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/objRefTable.js",
+      "bytes": 16095,
+      "sha256": "c8939e39b541c03a13b3e70d7494c3ddb4c78a37730aca2bf5904bbe1d405c00"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/project/javaScriptInEvents.js",
+      "bytes": 513,
+      "sha256": "17ea2cb03eb7bea2a7b23ee229fadd80a4568b6b24231fc739efe9acdeb57d19"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

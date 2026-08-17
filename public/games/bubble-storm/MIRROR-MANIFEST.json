@@ -1,0 +1,105 @@
+{
+  "name": "bubble-storm",
+  "sourcePage": "https://poki.com/en/g/bubble-storm",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2252,
+      "sha256": "e218b60af5c59da96fb97ff1a77df5819a63eb0e20ba5d6a4e3b92e420739320",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "8032f491a124ccbe184927f560c887d51ba5c5207507e0c3eea52aa8143d722f",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "e09aedc8df0c1c8a678c38812681bab563a0113c309a8276dd19a0ef746233bf",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "5979c74c47dc6479e8e6224d4efbb611141575557d88444e08711a1ab6088675",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "b7f7efa35f2e8bf3c25266d67a56ced90aff00d9c7bf6d708bc3c4b48e7cc55a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/bg/bg.png",
+      "bytes": 267021,
+      "sha256": "499d20831d955ae35f9d8b8f9fb754c03bb3479a899ee2f61faf72568d787900"
+    },
+    {
+      "assetPath": "assets/bg/bg0.png",
+      "bytes": 258425,
+      "sha256": "169956e1f7fbb2f9e848b558fb401e78daaa7172faef613a926fc51c2f9f4003"
+    },
+    {
+      "assetPath": "assets/font/Righteous.ttf",
+      "bytes": 40892,
+      "sha256": "4c3cdc5de2d70c4ee75fc9c1723a6b8f2d7316f49b383335fd8257a17dd88ade"
+    },
+    {
+      "assetPath": "assets/img/line.json",
+      "bytes": 17884,
+      "sha256": "ff08f332ce93f97c38fa90cb44d157d266a3f684d52fbd469c79834c10017b8b"
+    },
+    {
+      "assetPath": "assets/sounds/all.json",
+      "bytes": 1099,
+      "sha256": "e4e8749b1030812b1349bc940bd218a0223d0b9a367ddfe1d5aeddcec2b0620f"
+    },
+    {
+      "assetPath": "assets/sounds/all.mp3",
+      "bytes": 92386,
+      "sha256": "d13995d71ae8d09b1b083c2da5eaeb973b2c824b4f0932a6b9625705fa1c890b"
+    },
+    {
+      "assetPath": "bundle.min.js",
+      "bytes": 1036544,
+      "sha256": "234dc5e7116f7d8e94bf1c63eed760e52acbbe5c7c87ea08cd55819e36971490"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2252,
+      "sha256": "e218b60af5c59da96fb97ff1a77df5819a63eb0e20ba5d6a4e3b92e420739320"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "e09aedc8df0c1c8a678c38812681bab563a0113c309a8276dd19a0ef746233bf"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1087,
+      "sha256": "b101591c099699848bd059a3b349d5895163bfcf2e768cc07c181e55ad0d4d1f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "5979c74c47dc6479e8e6224d4efbb611141575557d88444e08711a1ab6088675"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "b7f7efa35f2e8bf3c25266d67a56ced90aff00d9c7bf6d708bc3c4b48e7cc55a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

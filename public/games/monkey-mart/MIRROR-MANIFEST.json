@@ -1,0 +1,115 @@
+{
+  "name": "monkey-mart",
+  "sourcePage": "https://poki.com/en/g/monkey-mart",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 6148,
+      "sha256": "dc14ac6d1a923dc1db35d4f6e369fcb89241221c82149a397999dfa2cbb24741",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "91a249102683129dd495de9e31bc941d85f69ecfe81b36ca2eb89457ae881ff3",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d8995bdf83410c01ee5b17ba384c90861163b896aff501e3652d01b24fea1904",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "101f9dc268bc809cac2b3eac3d8716daad511bc129caf73a71f06e7c0bec7bc2",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "6ef6107c20d7f73d25500da5ae6e903e6385e1a3b1796d90709d5b8cfcd6c7af",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47998,
+      "sha256": "a69a7e47a2ee06ff5f12b3fb3a2329504edeac1368191c34a75d1ee22386d27a"
+    },
+    {
+      "assetPath": "GameAnalytics.js",
+      "bytes": 89864,
+      "sha256": "06ced5cf1d8f7be1932745b404b57bd0396a38be230909201317ba1f1175356f"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 6148,
+      "sha256": "dc14ac6d1a923dc1db35d4f6e369fcb89241221c82149a397999dfa2cbb24741"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d8995bdf83410c01ee5b17ba384c90861163b896aff501e3652d01b24fea1904"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 2462,
+      "sha256": "fdb1c2e4a6f64cbaf9c10d4de1599208cc58ced8b3bdeb6917d401431c1f9acb"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1173,
+      "sha256": "d4827878a8f1792d66e2a8ade29ceb1246d3e0fe948d92f399be215fcf57a8a8"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 317,
+      "sha256": "7aebc9e9f472715f491f77d51902200c4a5400fb3fdabb458fe037b08b091a56"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 1982,
+      "sha256": "21bca966d64ed8262e891e906af6ce99723a4dce8d06042222a6b806cf5e01fc"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "101f9dc268bc809cac2b3eac3d8716daad511bc129caf73a71f06e7c0bec7bc2"
+    },
+    {
+      "assetPath": "load_bar_bg.png",
+      "bytes": 501,
+      "sha256": "f06cb8fecf5103bf06cdddb84da98e7ad5e5cb449ea2a6b09ad08e339335052b"
+    },
+    {
+      "assetPath": "load_bar_fg.png",
+      "bytes": 485,
+      "sha256": "2fc56e4780c2ae86ef5e11d53c2372207fe6e1d167fe6a3f13b60d0c3802caea"
+    },
+    {
+      "assetPath": "MonkeyMart.wasm",
+      "bytes": 2498710,
+      "sha256": "4394414eea38ac50b8b4a08d5fa7a16805afea3dd2e357575a5775403c74f78e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "6ef6107c20d7f73d25500da5ae6e903e6385e1a3b1796d90709d5b8cfcd6c7af"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

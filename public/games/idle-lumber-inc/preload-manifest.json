@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/idle-lumber-inc/index.html",
+    "/games/idle-lumber-inc/js/poki-sdk-shim.js",
+    "/games/idle-lumber-inc/js/tiptap-platform-bridge.js",
+    "/games/idle-lumber-inc/js/tiptap-inline-1.js"
+  ]
+}

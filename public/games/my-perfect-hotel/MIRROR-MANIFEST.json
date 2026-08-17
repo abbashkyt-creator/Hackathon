@@ -1,0 +1,70 @@
+{
+  "name": "my-perfect-hotel",
+  "sourcePage": "https://poki.com/en/g/my-perfect-hotel",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 846,
+      "sha256": "38887b64e682bd18741177bbffa1e6ef94b9a4dd2b690005a294380ceb34671e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "2ac5670202ab0b75430a04b937de88ddb09eae996f18b19fc7ba2cfddca51d5d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "a835d72c4cab2736fb3b30bd3f2a4fb9e4bfee8272dae030d12a67990a826b21",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a5054b08803c423cbf0af237ecf1662eb538d799b4293308ce563c9d0ac9e984",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "56fc22e399e0140545f6dce4cbf107876779fdb00402cd059df9353d686ddb87",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 846,
+      "sha256": "38887b64e682bd18741177bbffa1e6ef94b9a4dd2b690005a294380ceb34671e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "a835d72c4cab2736fb3b30bd3f2a4fb9e4bfee8272dae030d12a67990a826b21"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1237,
+      "sha256": "d6463bdb60d8c317cc2ba79caded99cd953757d9b90d794d43e072dca81f20e2"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "a5054b08803c423cbf0af237ecf1662eb538d799b4293308ce563c9d0ac9e984"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "56fc22e399e0140545f6dce4cbf107876779fdb00402cd059df9353d686ddb87"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

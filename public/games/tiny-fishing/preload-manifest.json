@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/tiny-fishing/index.html",
+    "/games/tiny-fishing/js/poki-sdk-shim.js",
+    "/games/tiny-fishing/js/tiptap-platform-bridge.js",
+    "/games/tiny-fishing/js/tiptap-inline-1.js",
+    "/games/tiny-fishing/js/tiptap-inline-2.js"
+  ]
+}

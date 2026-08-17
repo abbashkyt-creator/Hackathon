@@ -1,0 +1,70 @@
+{
+  "name": "idle-lumber-inc",
+  "sourcePage": "https://poki.com/en/g/idle-lumber-inc",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 844,
+      "sha256": "7f9a8fc007e5f4911adf87ed47ef94a733370652c70d8a439e1786e4700e4e10",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "928f8747aa4277d67ea86ac7117d3321c4450463ac938cfd47e55dcfb6504971",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "b694439f06c3a459989e0fc7d1dad61d279678cc0ead181e41195310402eb79d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "887db82c58442ba1e5c606acfc2ab8f97a10363ff9bf72355ee35e898e5fe8f6",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "b49e8e621ca9402eee89f0e26edfcc00dc08f0aa4912cf1b763863906e5da771",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 844,
+      "sha256": "7f9a8fc007e5f4911adf87ed47ef94a733370652c70d8a439e1786e4700e4e10"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "b694439f06c3a459989e0fc7d1dad61d279678cc0ead181e41195310402eb79d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1332,
+      "sha256": "47c98e35e4a6182417947f22584e1538742662436855961af6e8bd310c465536"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "887db82c58442ba1e5c606acfc2ab8f97a10363ff9bf72355ee35e898e5fe8f6"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "b49e8e621ca9402eee89f0e26edfcc00dc08f0aa4912cf1b763863906e5da771"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

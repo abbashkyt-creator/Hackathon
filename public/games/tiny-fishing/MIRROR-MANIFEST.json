@@ -1,0 +1,170 @@
+{
+  "name": "tiny-fishing",
+  "sourcePage": "https://poki.com/en/g/tiny-fishing",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3623,
+      "sha256": "003536f22be643de6b63a5ed9dd55ec91c00b2aaebed51629039c11f43eb7bc0",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "708494ced30f0165adb1f0405b067f41fa5e68ed682574980d71fd221c64bd1b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "43d3652a2c5adca45a88c2143a40411e4037f29865309a9af0295e2f46391549",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "9fa4f07f7ab453313c109e1fc0fe5e7635b5d8841c0a71ea3114e818f45a1211",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 262,
+      "sha256": "00c4ee3a6d48cde37d06ca2ab1a22833374061f4f5c299d6251bba24ed6819d9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "html5game/aqh_GameAnalytics.js",
+      "bytes": 65042,
+      "sha256": "f9aac755fd4f3bb2ecd563ccd017378bfd2561f7f342f2e0a6d2d79e4452bc32"
+    },
+    {
+      "assetPath": "html5game/bg.png",
+      "bytes": 14555,
+      "sha256": "485fce7f4058a0b9ef3f23541b5fbbc3e86efe00abfcf6954fbc13211a94d0df"
+    },
+    {
+      "assetPath": "html5game/bh5logo.png",
+      "bytes": 2694,
+      "sha256": "e95792566bc5495199cdf7185a65827e407eb1c59ebae307c53c486b06855263"
+    },
+    {
+      "assetPath": "html5game/bqh_GameAnalyticsExt.js",
+      "bytes": 3728,
+      "sha256": "355b88a06c5a2cc040d9c01f36c03b94b5d7ce825b08ba0af5754a5004af87f3"
+    },
+    {
+      "assetPath": "html5game/caption.png",
+      "bytes": 20189,
+      "sha256": "c086f609c4b75b40fb7fa52b1a60ebad5bc62f843edc54fadea1844e6c80fe61"
+    },
+    {
+      "assetPath": "html5game/cqh_djs.js",
+      "bytes": 4471,
+      "sha256": "cf986c4341685a11bb75d3f532bb8dfaccf0ccee3ed39b80e5a22a416a3c4498"
+    },
+    {
+      "assetPath": "html5game/eqh_gamesnacks.js",
+      "bytes": 3541,
+      "sha256": "57d7c2cc8ad46928aad33ef3305c0181c5d33ec1a32285325a4bb92042437a16"
+    },
+    {
+      "assetPath": "html5game/TinyFishing.js",
+      "bytes": 1916042,
+      "sha256": "bf7905cc4cd4e628529e0069df2f46344f9bb6253e879c416b43d744ccf39396"
+    },
+    {
+      "assetPath": "html5game/TinyFishing_texture_0.png",
+      "bytes": 131961,
+      "sha256": "5dfc00879e6520513e3ad6536ca1eceabe95443178c1e6404665f67668abfd82"
+    },
+    {
+      "assetPath": "html5game/TinyFishing_texture_1.png",
+      "bytes": 226225,
+      "sha256": "1e3da32533b26f292410c2371fcf7e8cc9143ed5fe3368d057702e37d53174b9"
+    },
+    {
+      "assetPath": "html5game/TinyFishing_texture_2.png",
+      "bytes": 268953,
+      "sha256": "583171587c4a33931de2e0c4f736fe6421e2c811fe60c4357d81fcef4b39d5e3"
+    },
+    {
+      "assetPath": "html5game/TinyFishing_texture_3.png",
+      "bytes": 122023,
+      "sha256": "803b1bd96ee280c3cfd322605b8a378191693f9b4c29520136e762c66d7dae9d"
+    },
+    {
+      "assetPath": "html5game/TinyFishing_texture_4.png",
+      "bytes": 7079,
+      "sha256": "d96d7f2e6a4868a100bce711f4eb8f2e245e6058d61f89c3c5e7a76c42473eb3"
+    },
+    {
+      "assetPath": "html5game/tph_PokiExt.js",
+      "bytes": 7500,
+      "sha256": "9a0401fc21529208f301cb959e541d17bcb9419b58d95659261919288a0b505d"
+    },
+    {
+      "assetPath": "html5game/uph_cookieManager.js",
+      "bytes": 1244,
+      "sha256": "a862504b40ff338d278adfd116473eef03f82e7dd7dd7cf4c8feea6bde6c8291"
+    },
+    {
+      "assetPath": "html5game/vph_HTML5Func.js",
+      "bytes": 4993,
+      "sha256": "a2eb8f6def0d4de919c5cbbf29a69bae309d3e6aaddfd27befa38e0547eef26c"
+    },
+    {
+      "assetPath": "html5game/wph_API_Fullscreen.js",
+      "bytes": 3580,
+      "sha256": "2c4006f8cf1e308cb11b56c665db38d4dcfac8ca0a8b9b74ce12c1abc953f4c8"
+    },
+    {
+      "assetPath": "html5game/xph_external.js",
+      "bytes": 594,
+      "sha256": "5b333d5f2b7d31f73cda57ebb8c9f9e3e613d17af271123298a5a790cc2b7927"
+    },
+    {
+      "assetPath": "html5game/zph_djl.js",
+      "bytes": 5711,
+      "sha256": "418f9eb111c384d69cc3291696967141f10c058da309715d66f3b8237d6f113a"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3623,
+      "sha256": "003536f22be643de6b63a5ed9dd55ec91c00b2aaebed51629039c11f43eb7bc0"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "43d3652a2c5adca45a88c2143a40411e4037f29865309a9af0295e2f46391549"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 175,
+      "sha256": "11362b32362981071fa6bbbc7f0da0d7810fa36dbf81ff07d14a3328b999b67d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 1030,
+      "sha256": "55ef7b5aac45329a7144ce80daa4e7112ecce75332537b2720eb7506227ededa"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "9fa4f07f7ab453313c109e1fc0fe5e7635b5d8841c0a71ea3114e818f45a1211"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 262,
+      "sha256": "00c4ee3a6d48cde37d06ca2ab1a22833374061f4f5c299d6251bba24ed6819d9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

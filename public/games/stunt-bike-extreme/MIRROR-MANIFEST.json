@@ -1,0 +1,70 @@
+{
+  "name": "stunt-bike-extreme",
+  "sourcePage": "https://poki.com/en/g/stunt-bike-extreme",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 850,
+      "sha256": "492d83592e072cd02e1e0ea050cbd9aa6efda99dfa31b102ada01448c4169b61",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "17c81d29ef4de84500333a758f6abd9d47218d4b4821adffd4683ccd7ef0ce34",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "222d24a42a6029f5822917da0de20f24eb8a92e6eb36c56770623a460835572d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "e0888ad382a8f48948d3eb421275c791c047bcf1f839fd26d95dfc4320bd111d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "07a52389539a71836c7bd7f8dceace548dbc49318880d227b7953c97f09f54e6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 850,
+      "sha256": "492d83592e072cd02e1e0ea050cbd9aa6efda99dfa31b102ada01448c4169b61"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "222d24a42a6029f5822917da0de20f24eb8a92e6eb36c56770623a460835572d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1153,
+      "sha256": "db2ae75035b13dfed8f7e81dc763450c6f3693e0ba857814c778fecab877f719"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "e0888ad382a8f48948d3eb421275c791c047bcf1f839fd26d95dfc4320bd111d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "07a52389539a71836c7bd7f8dceace548dbc49318880d227b7953c97f09f54e6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

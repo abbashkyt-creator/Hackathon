@@ -37,7 +37,28 @@ export type GameSlug =
   | "tic-tac-toe"
   | "go-battle-2"
   | "stickman-battle"
-  | "retro-bowl";
+  | "retro-bowl"
+  | "drift-boss"
+  | "brain-test-tricky-puzzles"
+  | "snapstyle-dress-up"
+  | "my-perfect-hotel"
+  | "idle-lumber-inc"
+  | "stunt-bike-extreme"
+  | "clean-house"
+  | "phone-case-diy"
+  | "fashion-fix-studio"
+  | "beauty-salon"
+  | "tiny-fishing"
+  | "eggy-car"
+  | "monkey-mart"
+  | "four-in-a-row"
+  | "master-checkers"
+  | "spider-solitaire"
+  | "bubble-storm"
+  | "moto-x3m"
+  | "ludo-hero"
+  | "foosball"
+  | "domino";
 
 export interface GameDefinition {
   slug: GameSlug;

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/four-in-a-row/index.html",
+    "/games/four-in-a-row/js/poki-sdk-shim.js",
+    "/games/four-in-a-row/js/tiptap-platform-bridge.js",
+    "/games/four-in-a-row/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/drift-boss/index.html",
+    "/games/drift-boss/js/poki-sdk-shim.js",
+    "/games/drift-boss/js/tiptap-platform-bridge.js",
+    "/games/drift-boss/js/tiptap-inline-1.js",
+    "/games/drift-boss/js/tiptap-inline-2.js"
+  ]
+}

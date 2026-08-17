@@ -1,0 +1,70 @@
+{
+  "name": "snapstyle-dress-up",
+  "sourcePage": "https://poki.com/en/g/snapstyle-dress-up",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3250,
+      "sha256": "7452885a15296c33ea2f5d93207e40b5a1fe021ef396fc0775e80f623adaf128",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "c5dc4ab1103ca320f9e07efc97ae62823c26d633032527b9185627d8a3f7e94b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "f6b58902dcd48b2eba0a74d0e8b0c556de8b8f255b130cae028e95567e3b637d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "9c2e769f98da690f68c359af64d9d856b95692687fee513741ef5931ba962216",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "48e5b622c494a4ce0b55a6ca88368aa2ef5af1b634f6773ea0a32554e35b8fbc",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3250,
+      "sha256": "7452885a15296c33ea2f5d93207e40b5a1fe021ef396fc0775e80f623adaf128"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "f6b58902dcd48b2eba0a74d0e8b0c556de8b8f255b130cae028e95567e3b637d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1618,
+      "sha256": "aa3494bd411f29c3ddad124e2ac132e215ad4075932b1960eff372f69f9bf83d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "9c2e769f98da690f68c359af64d9d856b95692687fee513741ef5931ba962216"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 237,
+      "sha256": "48e5b622c494a4ce0b55a6ca88368aa2ef5af1b634f6773ea0a32554e35b8fbc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

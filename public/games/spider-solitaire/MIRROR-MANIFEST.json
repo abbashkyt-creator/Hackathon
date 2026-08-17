@@ -1,0 +1,415 @@
+{
+  "name": "spider-solitaire",
+  "sourcePage": "https://poki.com/en/g/spider-solitaire",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2694,
+      "sha256": "9ba21d7ba9386e4b1107c855df05cdce2a2fddb0a3707c6bbd705a87061a0aaa",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "d091d0ef118b9327a3d8a5c8c0fe3fbdc5faa2fd3ad59046d6d2b32062caec89",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "26b86f1549b375c87b44bd371dfee8b16279a776fd98c8e0e5420e0eb0318c5b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f6d0214d1ce84e3b93de8fd98eec45d9358eaebb253144a6cb594c4dff83580e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 176,
+      "sha256": "3fd2cb7ae210668ced0f10d3b1d2cd47667981886bb28e5be4d5333b1094c1f8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/Arimo-VariableFont_wght.ttf",
+      "bytes": 490800,
+      "sha256": "40e9601222a202d75c4a1aa132bfe914119349e52bbe5f4441ee5674d3bc8d0a"
+    },
+    {
+      "assetPath": "assets/Background/bg.png",
+      "bytes": 463517,
+      "sha256": "dcf71c7f9b89a4ac3912779123c33501524dafee4c498a7074bcbb8fb96d9a43"
+    },
+    {
+      "assetPath": "assets/Background/bg2.png",
+      "bytes": 274684,
+      "sha256": "9bcc03e4ac5ab9e06b5186b5e12ea138469d2ff06c1adcfbe173af6da921a44f"
+    },
+    {
+      "assetPath": "assets/Background/bg2_landscape.png",
+      "bytes": 240227,
+      "sha256": "1941bb3b7b9b45620695342371b6e2017b33e185e7965903454c89fee447c49f"
+    },
+    {
+      "assetPath": "assets/Background/bg3.png",
+      "bytes": 370869,
+      "sha256": "aed945efdab180e3a9250a1558172ad0fca4b8eb7ec5289bb3706f484cdf7536"
+    },
+    {
+      "assetPath": "assets/Background/bg3_landscape.png",
+      "bytes": 291942,
+      "sha256": "44c58bc9491b54ba9dc17eacff80fbcb1fc560ed4b322ea378e4e08c28a92570"
+    },
+    {
+      "assetPath": "assets/Background/bg4.png",
+      "bytes": 52304,
+      "sha256": "0f4f41b5b4955acdd0a9f1286dca84050203898209d02ae3c19b544fe656d70c"
+    },
+    {
+      "assetPath": "assets/Background/bg4_landscape.png",
+      "bytes": 59427,
+      "sha256": "9ce49dd06310508b7885ce5855647f9b3d1592b81d0f176d22a971516d929c84"
+    },
+    {
+      "assetPath": "assets/Background/bg_landscape.png",
+      "bytes": 411025,
+      "sha256": "432812ed35f055d4d01c6b1683bf50b09df943d67d39673e9d8885763fcdb1c7"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_12.png",
+      "bytes": 6133,
+      "sha256": "c749baa1c3346c72f04eebd811297592014a96c61d1fcf10e6fac8cc2d3f4e78"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_13.png",
+      "bytes": 5083,
+      "sha256": "1f325d23a9e395a707023912ffa5a8169ec6602407f72651f779feabf8b09e1d"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_15.png",
+      "bytes": 7406,
+      "sha256": "ba165b1c001f5df69912c1e9c262ea16cfef3811e6b290d9e334c8307d419e63"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_18.png",
+      "bytes": 6186,
+      "sha256": "4a5054673761b1149c29d03244beba97b07bcc8ea5c256ea9ce3267df1b40799"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_19.png",
+      "bytes": 4725,
+      "sha256": "cd8d3fe4a71d9cc9f6adcd60bef1d05cdcde2017b6859db94b583ae76e835482"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_20.png",
+      "bytes": 7246,
+      "sha256": "5b21fea1a14dfa7e5f35e4105899f4cfc2c21ef42abda812760769dd227b2209"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_23.png",
+      "bytes": 7088,
+      "sha256": "6c17438fa7ca6211bfc28f5a242901c3ff67dd5f7732ee773cd5b813d9e0414b"
+    },
+    {
+      "assetPath": "assets/CARDS/backs/card_back_24.png",
+      "bytes": 7518,
+      "sha256": "9ebc1d541ef05c9ff33182c745725f588c431367f37af5bce0b6f98beb40ed05"
+    },
+    {
+      "assetPath": "assets/CARDS/deck_1/card_back.png",
+      "bytes": 2193,
+      "sha256": "54fa98f17c534f2e53251dd60a4aa7abe151e3f95a00535ed65ba558afc68615"
+    },
+    {
+      "assetPath": "assets/CARDS/highlight/card_drag.png",
+      "bytes": 564,
+      "sha256": "90795a5929c83c4620cabec434cbd8cfcd4fddfef9371dba1115dc517f6bda9f"
+    },
+    {
+      "assetPath": "assets/CARDS/highlight/card_highlight.png",
+      "bytes": 1143,
+      "sha256": "a48d3ccb9c3b685cb73a2e474038edf16cddc2cf39ae62f80bb54c9f6dcb0959"
+    },
+    {
+      "assetPath": "assets/CARDS/highlight/card_highlight_deck.png",
+      "bytes": 1572,
+      "sha256": "b9fa9a8fa69b970070a66cacf7a40c0bcd642f999f86ec2e052504c9b8486c2b"
+    },
+    {
+      "assetPath": "assets/icons/AdtextIcon.png",
+      "bytes": 322,
+      "sha256": "a3a53dfd87610df921908845cf59ae30a23b6e1a8cfad35088e719b27e4dfeff"
+    },
+    {
+      "assetPath": "assets/icons/game_button.png",
+      "bytes": 3390,
+      "sha256": "9427afecd7788293977c2302fa81fafcbbd11efe12bb8877c8c813669aac1792"
+    },
+    {
+      "assetPath": "assets/icons/hint_button.png",
+      "bytes": 2760,
+      "sha256": "874aee6f31000c082f3e6ae8526f18eda106c83924ca977683ffe8e1536a487a"
+    },
+    {
+      "assetPath": "assets/icons/setting_button.png",
+      "bytes": 4019,
+      "sha256": "9240f042b61f31cf92d6b2c5d7bf5c867ed3ba6710319e77899df7381dc41912"
+    },
+    {
+      "assetPath": "assets/icons/undo_button.png",
+      "bytes": 2593,
+      "sha256": "0dcef43393b48ae52720dd325eb40fe6b4aca7db9e474ca17d5000035393735f"
+    },
+    {
+      "assetPath": "assets/icons/wand_button.png",
+      "bytes": 1611,
+      "sha256": "9b1d8f80b2044b1b44446e623849c94eefeed816001ae51c888dc301035b8b5a"
+    },
+    {
+      "assetPath": "assets/Overpass-VariableFont_wght.ttf",
+      "bytes": 318416,
+      "sha256": "0e8b7954ab18b4d34720a742bd88b2257a6c25ffdc78fe22012b094918a30a63"
+    },
+    {
+      "assetPath": "assets/ScoringToggles/score_selector_cumulative.png",
+      "bytes": 663,
+      "sha256": "17b58058be285ee294d063750f48d0f80ab330d2c4897c6f68f0626430f70e43"
+    },
+    {
+      "assetPath": "assets/ScoringToggles/score_selector_standard.png",
+      "bytes": 733,
+      "sha256": "d9f5cece169008bfa848b38866f1df892c1b6170c5b551d120ad38611ba1a6d4"
+    },
+    {
+      "assetPath": "assets/ScoringToggles/score_selector_vegas.png",
+      "bytes": 95,
+      "sha256": "6f743abfb4bf4c1d20f2f9ff741f7afab51764e6a5d2bfdeba8d9642e9e9ad2d"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Button-02.mp3",
+      "bytes": 3892,
+      "sha256": "49df7e317dc0e34a2423a5d1f9f0b204426f115b562ef4a000cc8d3a7c753106"
+    },
+    {
+      "assetPath": "assets/SOUNDS/CardsMoveEachOthers-01.mp3",
+      "bytes": 14756,
+      "sha256": "ca399cef84152aeb15bdd415d8182904632a669db56441d0bb1e8b2aca5f747e"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Deal-New-01.mp3",
+      "bytes": 10365,
+      "sha256": "ea5e5e94bbbaf4e646c2bf4428aae64beb6b0c225d0388694623f52facd23db2"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Gong-01.mp3",
+      "bytes": 35163,
+      "sha256": "8ac482047d5401288097c7365308314b4eb5537d4d3ad9e118346f4783562488"
+    },
+    {
+      "assetPath": "assets/SOUNDS/HintButton-02.mp3",
+      "bytes": 21318,
+      "sha256": "537eeb8d725c5f8fec13545395b3450d7e0f9aed1e173f3bbe7e777db2bbc42c"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/1.mp3",
+      "bytes": 55632,
+      "sha256": "6cfd344b341315d67880110c835c30aafdfe53c3e4b9693c0cb7381f3f42a25a"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/10.mp3",
+      "bytes": 17957,
+      "sha256": "71efe5bb1dbfef793098e3003443127726334ee73ab63372f8c9bdbdce568a37"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/11.mp3",
+      "bytes": 31147,
+      "sha256": "f037c727b808bd08600d0dcaba870ada35fa7c159dea6a9d64723e29e1d5892d"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/12.mp3",
+      "bytes": 51966,
+      "sha256": "6ed5319cb4705bd1487cdc688bd3c1bf555e63f0984f9d605069be9f6e36f726"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/13.mp3",
+      "bytes": 53162,
+      "sha256": "dc32faffc038e2a4e570cce61bb07e7438a810d75c2a90c3478e3cd693a06e54"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/14.mp3",
+      "bytes": 55166,
+      "sha256": "241d749ae050b0b1eb35463e3496d2f13346892dbad5ac1dddefd82fad0d157f"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/2.mp3",
+      "bytes": 53191,
+      "sha256": "d876a33b1193d8f803b37280f00509e95cb964eded72bc44e7025f0722383634"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/3.mp3",
+      "bytes": 58978,
+      "sha256": "c65329ff79c38cc73e80a2d0e6a2b1c8afd64882e8c07d2d051e2b5ebe06694f"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/4.mp3",
+      "bytes": 59168,
+      "sha256": "696f5284eb7b2d0f057e8f4296765b0ca48ecd2a0a614f54bb2fd89574ac9d72"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/5.mp3",
+      "bytes": 51920,
+      "sha256": "9c92986036033daa87c77acdbde44f4efa9b964591fc8a78f721ce242c449760"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/6.mp3",
+      "bytes": 40557,
+      "sha256": "827f73ccfbe1223837779f6acd5b041f06d3400c53a750d64725d8943ca27aa8"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/7.mp3",
+      "bytes": 31059,
+      "sha256": "0f5958748afc2d1ed670b450718b3ae39a414636584d30a62717be0699f249a5"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/8.mp3",
+      "bytes": 16684,
+      "sha256": "579fc41b1bd2b46570d2d50770d62ec1367076c2682472603140a95f763216c6"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Piano/9.mp3",
+      "bytes": 14369,
+      "sha256": "9f46a38e7e7fc99f9387d2f02a12c3aaadd89530f18df8d54678c4abc75cb7f2"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Pick-New-01.mp3",
+      "bytes": 7547,
+      "sha256": "9d663152c39cef8b57be8bcb2bb563361e370f5286f3f14c3dbca2ad75c75c94"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Place-New-01.mp3",
+      "bytes": 5356,
+      "sha256": "249a6596a1728832606587b2d5ee542ebc00d09c57d566e7f775bf96f3a5a81e"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Rotate-New-02.mp3",
+      "bytes": 11726,
+      "sha256": "a72254657a7d0b60e261e9db21b492689ae6e0a16b0e4e2d6975e7cdcbc4bd96"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Shuffling-01.mp3",
+      "bytes": 21837,
+      "sha256": "3f37762814028c17b9b277a08caf4ccbe6974118c57200f8381d80b6e3b5e3d7"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Undo-02.mp3",
+      "bytes": 9734,
+      "sha256": "f90e055abc99d410775bcdedddce20c21023ba87c092c8c4fd0b7282155f1522"
+    },
+    {
+      "assetPath": "assets/SOUNDS/Wrong-02.mp3",
+      "bytes": 2742,
+      "sha256": "ea0c0e9ec2485be9d85aee57177321d4d522f51b9de83c8b46a3f3478886b0d0"
+    },
+    {
+      "assetPath": "assets/spinner/spinner.png",
+      "bytes": 34208,
+      "sha256": "e7b350f099fce7299475504adb6bfeff42fc9080f743576d0cfb5145d4375e21"
+    },
+    {
+      "assetPath": "assets/toggleButton/toggle_BTN01.png",
+      "bytes": 324,
+      "sha256": "62a51e9e9d0beed1bbd86077e5907c78b1e851ae27a6321a98534741b5daa6c9"
+    },
+    {
+      "assetPath": "assets/toggleButton/toggle_green.png",
+      "bytes": 516,
+      "sha256": "9822d43aa13fe6aaa0d9e8ddbe1223079793c17bcc71e688d4ef944aa91e1821"
+    },
+    {
+      "assetPath": "assets/toggleButton/toggle_grey01.png",
+      "bytes": 509,
+      "sha256": "04d344cbc15c505b6c8d99ab27097d0121a060230dee18d7eaa413ca779878f7"
+    },
+    {
+      "assetPath": "assets/tutorial_image_1.png",
+      "bytes": 63052,
+      "sha256": "ddddeddfe9ef6c195fdfd1e8531e74cc6c8c2c6f43e3657ce457230e435b3629"
+    },
+    {
+      "assetPath": "assets/tutorial_image_2.png",
+      "bytes": 60804,
+      "sha256": "39b88e9ab75cb02964e0f4353dfd6667647b8914db56e891488d960a924988b5"
+    },
+    {
+      "assetPath": "assets/tutorial_image_3.png",
+      "bytes": 72726,
+      "sha256": "5ad6ba228f089bef2ee468fb8e93922a567d1f8dee3703c646db40cf10bf1cfd"
+    },
+    {
+      "assetPath": "assets/under_cards.png",
+      "bytes": 170,
+      "sha256": "b14e6ec209da829f00b579bb41633d3d1ed52d34daedbacf7e545f1891e9c02d"
+    },
+    {
+      "assetPath": "fonts/google-fonts-4.css",
+      "bytes": 624,
+      "sha256": "d8eb25fe8d5e8c83e2191b3d6528bbf193653adf95f495fc9bace337f9d7a857"
+    },
+    {
+      "assetPath": "fonts.css",
+      "bytes": 218,
+      "sha256": "d25972092671c05de1fe2a129e854a5c8d6ad93779586119a6e9227a2d6c48a1"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2694,
+      "sha256": "9ba21d7ba9386e4b1107c855df05cdce2a2fddb0a3707c6bbd705a87061a0aaa"
+    },
+    {
+      "assetPath": "js/game.js",
+      "bytes": 395308,
+      "sha256": "9080511566753aa192370e1b1752cdf438a280c2019466d68d2ef8564d80f736"
+    },
+    {
+      "assetPath": "js/jquery.min.js",
+      "bytes": 86709,
+      "sha256": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf"
+    },
+    {
+      "assetPath": "js/phaser-no-physics.min.js",
+      "bytes": 567805,
+      "sha256": "aab8169062c662566f41c2ca38231b9337fb0b50685e1379c12329398e2f351f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "26b86f1549b375c87b44bd371dfee8b16279a776fd98c8e0e5420e0eb0318c5b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f6d0214d1ce84e3b93de8fd98eec45d9358eaebb253144a6cb594c4dff83580e"
+    },
+    {
+      "assetPath": "js/webfontloader.js",
+      "bytes": 12505,
+      "sha256": "e0ee294b5487df566aad23b603fd902535634cfa957be8e7620396515afb1047"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 176,
+      "sha256": "3fd2cb7ae210668ced0f10d3b1d2cd47667981886bb28e5be4d5333b1094c1f8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

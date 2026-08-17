@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/stunt-bike-extreme/index.html",
+    "/games/stunt-bike-extreme/js/poki-sdk-shim.js",
+    "/games/stunt-bike-extreme/js/tiptap-platform-bridge.js",
+    "/games/stunt-bike-extreme/js/tiptap-inline-1.js"
+  ]
+}

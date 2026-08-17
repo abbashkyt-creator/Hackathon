@@ -74,7 +74,7 @@ export class CdpPage {
     const id = this.nid++; this.ws.send(JSON.stringify({ id, method, params }));
     return new Promise((ok, fail) => { const t = setTimeout(() => { this.pending.delete(id); fail(new Error(`${method} timeout ${timeout}ms`)); }, timeout); this.pending.set(id, { resolve: v => { clearTimeout(t); ok(v); }, reject: e => { clearTimeout(t); fail(e); } }); });
   }
-  on(method, handler) { (this.ev.get(method) ?? this.ev.set(method, [])).get(method).push(handler); }
+  on(method, handler) { if (!this.ev.has(method)) this.ev.set(method, []); this.ev.get(method).push(handler); }
   close() { try { this.ws.close(); } catch {} }
 }
 

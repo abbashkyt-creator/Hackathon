@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/eggy-car/index.html",
+    "/games/eggy-car/js/poki-sdk-shim.js",
+    "/games/eggy-car/js/tiptap-platform-bridge.js",
+    "/games/eggy-car/js/tiptap-inline-1.js",
+    "/games/eggy-car/js/tiptap-inline-2.js",
+    "/games/eggy-car/js/tiptap-inline-3.js"
+  ]
+}

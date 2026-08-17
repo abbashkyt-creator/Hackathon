@@ -1,0 +1,185 @@
+{
+  "name": "moto-x3m",
+  "sourcePage": "https://poki.com/en/g/moto-x3m",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1530,
+      "sha256": "03f43fd1cb698c9019657893c70fd9f55496ee0040c716008c9f4044bed84221",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "ed3105f3737ea31e148ad13279f87ad482a0e61bc29b0ed9f82e3a169152e086",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "249ebc5ca1327f2571a9331f06e89dcb8dc071da4d9af17c74b3a1733f80f20e",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "3c5c44f3b37002b7f74086052b04c6691d9d6be3e9d6f9eafd8bc9d35c270ca2",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 152,
+      "sha256": "c1e351f759a72247be96c6f5899b5326aac696a917c0161b122e6ef926e692c3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/css/AllerDisplay.css",
+      "bytes": 460,
+      "sha256": "da78a95b8c6a6a280bbfcacbc25949453fbc4bc4a1a1977af264a1a5afa474ac"
+    },
+    {
+      "assetPath": "assets/css/app.css",
+      "bytes": 1946,
+      "sha256": "ad8abcc6a736f7a6e65facbaaae11b731a4e9e1dcfc5c878c9f545dab4cad01a"
+    },
+    {
+      "assetPath": "assets/css/CfCrackBold.css",
+      "bytes": 464,
+      "sha256": "49b402e7e33e143f4f77584a771290e85b0d5232c2e788fd16d8e23f1938ad61"
+    },
+    {
+      "assetPath": "assets/css/impact.css",
+      "bytes": 408,
+      "sha256": "6f74b87d864824130dc170855c3c69e6392c542a09a04f280c3329b87c9303fe"
+    },
+    {
+      "assetPath": "assets/fonts/AllerDisplay/AllerDisplay.eot",
+      "bytes": 23914,
+      "sha256": "b71da0b1c73398a2dda0e56e5408bc8ebda44cbf6e05c4679428297d647a9569"
+    },
+    {
+      "assetPath": "assets/fonts/AllerDisplay/AllerDisplay.svg",
+      "bytes": 82825,
+      "sha256": "752613d3c536892817fc98326cc34d796102e084691e7fa2e81695494ba83f32"
+    },
+    {
+      "assetPath": "assets/fonts/AllerDisplay/AllerDisplay.ttf",
+      "bytes": 23724,
+      "sha256": "8ee8ad70eb3e5327298d59009f39a38ba1cacd9adcc86a7bc614c011f9d28d9a"
+    },
+    {
+      "assetPath": "assets/fonts/AllerDisplay/AllerDisplay.woff",
+      "bytes": 13996,
+      "sha256": "c8669779da3e34ddaca97b765de5ff83618faf377390538df4e597a9700f0a1a"
+    },
+    {
+      "assetPath": "assets/fonts/CfCrackBold/cfcrackandbold.eot",
+      "bytes": 93352,
+      "sha256": "afcc9332025f41ac8ef80552e2359675033771133c6c8b9d61e5212f305b7be2"
+    },
+    {
+      "assetPath": "assets/fonts/CfCrackBold/cfcrackandbold.svg",
+      "bytes": 230078,
+      "sha256": "92ce5125f217b64f2e1aec52194fd3aa47d34d3023e33c56d581821d55453a5f"
+    },
+    {
+      "assetPath": "assets/fonts/CfCrackBold/cfcrackandbold.ttf",
+      "bytes": 93212,
+      "sha256": "041491b57f5e56aeaaaec93fbce88670264811c63c2fa49411442545067b42a4"
+    },
+    {
+      "assetPath": "assets/fonts/CfCrackBold/cfcrackandbold.woff",
+      "bytes": 57060,
+      "sha256": "3cbf3bb4cd4d86796929c03bd4dc1e57d64876db341c9072b3c86090bf5c4ca8"
+    },
+    {
+      "assetPath": "assets/fonts/Impact/impact.eot",
+      "bytes": 136238,
+      "sha256": "3edfd8e06bda88db19981920700db1dc02f3d5df57a47e045a28daf7c9c125cc"
+    },
+    {
+      "assetPath": "assets/fonts/Impact/impact.svg",
+      "bytes": 194140,
+      "sha256": "5038b109bc4a53e26d7aac9aa27d83b6cd2dc9d007fadeabcf62e5faaf24193c"
+    },
+    {
+      "assetPath": "assets/fonts/Impact/impact.ttf",
+      "bytes": 136076,
+      "sha256": "00f1fc230ac99f9b97ba1a7c214eb5b909a78660cb3826fca7d64c3af5a14848"
+    },
+    {
+      "assetPath": "assets/fonts/Impact/impact.woff",
+      "bytes": 68564,
+      "sha256": "a238b1ca4def2588d3298b1e595cd186c6e8451fc3ce1b163502c784ac94d1e9"
+    },
+    {
+      "assetPath": "assets/images/rotate.png",
+      "bytes": 3444,
+      "sha256": "764379db7d4f583e81eb8d57b7b511ee33b79f05d8d42bc17fdd8a6340131942"
+    },
+    {
+      "assetPath": "assets/lib/dragonBones.min.js",
+      "bytes": 189336,
+      "sha256": "82fd9eb27fc120de11eff1204ecc39c07cd471dbcd113f881e71900b413be779"
+    },
+    {
+      "assetPath": "assets/lib/nape.min.js",
+      "bytes": 1775999,
+      "sha256": "33a5441b0906732f17c8ef35961e5a7a6379f7c8788aedec39d12183c6517347"
+    },
+    {
+      "assetPath": "assets/lib/phaser-cachebuster.min.js",
+      "bytes": 969,
+      "sha256": "2d72c03e41c44988c2679e6cf3f534676a04c477d7f204ee56f4bec37c041d0e"
+    },
+    {
+      "assetPath": "assets/lib/phaser-super-storage.min.js",
+      "bytes": 10717,
+      "sha256": "1c4dba377a10edd3f3991d37a423a831e19216c30e5ed23d040759bda1a29dca"
+    },
+    {
+      "assetPath": "assets/lib/phaser.min.js",
+      "bytes": 791196,
+      "sha256": "c486bae6284f32862362ceba611981806fde7b2b912893874101b8d76c40f29f"
+    },
+    {
+      "assetPath": "assets/lib/pksl.js",
+      "bytes": 1039,
+      "sha256": "703c57b11d82c7b901ad9aaf782b4bbcf61b2d75ee847bfeeed18db7066846a0"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1530,
+      "sha256": "03f43fd1cb698c9019657893c70fd9f55496ee0040c716008c9f4044bed84221"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "249ebc5ca1327f2571a9331f06e89dcb8dc071da4d9af17c74b3a1733f80f20e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "3c5c44f3b37002b7f74086052b04c6691d9d6be3e9d6f9eafd8bc9d35c270ca2"
+    },
+    {
+      "assetPath": "motox3m.min.js",
+      "bytes": 1106935,
+      "sha256": "068023562e86db10143564abb1f8869ed9314e23c4f0f6a505352f82cf3de794"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 152,
+      "sha256": "c1e351f759a72247be96c6f5899b5326aac696a917c0161b122e6ef926e692c3"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

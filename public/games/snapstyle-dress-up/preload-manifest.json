@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/snapstyle-dress-up/index.html",
+    "/games/snapstyle-dress-up/js/poki-sdk-shim.js",
+    "/games/snapstyle-dress-up/js/tiptap-platform-bridge.js",
+    "/games/snapstyle-dress-up/js/tiptap-inline-1.js"
+  ]
+}

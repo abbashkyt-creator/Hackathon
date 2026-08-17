@@ -1,6 +1,6 @@
 /**
  * lib/register.mjs — register a mirrored game in every product surface.
- * Anchor-based insertions (before the "four-in-a-row" entry in each file).
+ * Anchor-based insertions (after the "drift-boss" entry in each file).
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -21,16 +21,16 @@ export function registerGame({ slug, title, creatorName, creatorId, category }) 
   if (!existsSync(wp)) writeFileSync(wp, wrapper, "utf8");
   const ins = (r,n,b) => { try { return insertAfter(r,n,b); } catch(e) { console.warn(e.message); return false; } };
   const insB = (r,n,b) => { try { return insertBefore(r,n,b); } catch(e) { console.warn(e.message); return false; } };
-  ins("src/games/index.ts", "export { FourInARowGame }", `export { ${comp} } from "./${comp}";`);
-  ins("src/App.tsx", "FourInARowGame,", `  ${comp},`);
-  ins("src/App.tsx", `"four-in-a-row": FourInARowGame,`, `  "${slug}": ${comp},`);
-  ins("src/App.tsx", `"four-in-a-row": "CONNECT FOUR",`, `  "${slug}": "${taglineFor(title)}",`);
-  insB("shared/catalog.ts", `  "four-in-a-row": {`, `  "${slug}": { creatorId: "${creatorId||"poki-mirror"}", creatorName: "${creatorName||"Poki Mirror"}", creatorLabel: "BY ${(creatorName||"POKI MIRROR").toUpperCase()} · LOCAL SOURCE MIRROR", category: "${category||"Arcade"}" },\n`);
-  ins("src/types.ts", `  | "four-in-a-row"`, `  | "${slug}"`);
-  insB("src/offline-catalog.ts", `    {\n      slug: "four-in-a-row",`, `    { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },\n`);
-  insB("src/game-runtime.ts", `  "four-in-a-row": {`, `  "${slug}": { embedded: true, preloadManifest: "/games/${slug}/preload-manifest.json", assetManifest: "/games/${slug}/MIRROR-MANIFEST.json", prepareByMount: true },\n`);
-  insB("server/db.ts", `    {\n      slug: "four-in-a-row",`, `  { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },\n`);
-  ins("server/score-policy.ts", `  "four-in-a-row": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`, `  "${slug}": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`);
+  ins("src/games/index.ts", "export { DriftBossGame }", `export { ${comp} } from "./${comp}";`);
+  ins("src/App.tsx", "DriftBossGame,", `  ${comp},`);
+  ins("src/App.tsx", `"drift-boss": DriftBossGame,`, `  "${slug}": ${comp},`);
+  ins("src/App.tsx", `"drift-boss": "DRIFT`, `  "${slug}": "${taglineFor(title)}",`);
+  insB("shared/catalog.ts", `  "drift-boss": {`, `  "${slug}": { creatorId: "${creatorId||"poki-mirror"}", creatorName: "${creatorName||"Poki Mirror"}", creatorLabel: "BY ${(creatorName||"POKI MIRROR").toUpperCase()} · LOCAL SOURCE MIRROR", category: "${category||"Arcade"}" },\n`);
+  ins("src/types.ts", `  | "drift-boss"`, `  | "${slug}"`);
+  insB("src/offline-catalog.ts", `    {\n      slug: "drift-boss",`, `    { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },\n`);
+  insB("src/game-runtime.ts", `  "drift-boss": {`, `  "${slug}": { embedded: true, preloadManifest: "/games/${slug}/preload-manifest.json", assetManifest: "/games/${slug}/MIRROR-MANIFEST.json", prepareByMount: true },\n`);
+  insB("server/db.ts", `  {\n    slug: "drift-boss",`, `  { slug: "${slug}", title: "${title}", rule_text: "Play ${title}.", accent: "#8b5cf6" },\n`);
+  ins("server/score-policy.ts", `  "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`, `  "${slug}": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },`);
   return [];
 }
 

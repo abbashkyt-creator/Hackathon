@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/clean-house/index.html",
+    "/games/clean-house/js/poki-sdk-shim.js",
+    "/games/clean-house/js/tiptap-platform-bridge.js",
+    "/games/clean-house/js/tiptap-inline-1.js"
+  ]
+}

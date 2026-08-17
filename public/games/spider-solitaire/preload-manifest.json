@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/spider-solitaire/index.html",
+    "/games/spider-solitaire/js/poki-sdk-shim.js",
+    "/games/spider-solitaire/js/tiptap-platform-bridge.js"
+  ]
+}

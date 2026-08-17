@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/master-checkers/index.html",
+    "/games/master-checkers/js/poki-sdk-shim.js",
+    "/games/master-checkers/js/tiptap-platform-bridge.js",
+    "/games/master-checkers/js/tiptap-inline-1.js"
+  ]
+}

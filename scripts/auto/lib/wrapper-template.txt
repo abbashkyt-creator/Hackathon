@@ -34,7 +34,7 @@ export function GAME_COMPONENT({
 
   useEffect(() => {
     if (!active) return;
-    const onMsg = (ev) => {
+    const onMsg = (ev: MessageEvent) => {
       if (ev.origin !== window.location.origin || ev.source !== frameRef.current?.contentWindow || ev.data?.source !== GAME_SOURCE || ev.data.type !== "score" || ev.data.final !== true) return;
       const score = Number(ev.data.score);
       if (!Number.isSafeInteger(score) || score < 0) return;
