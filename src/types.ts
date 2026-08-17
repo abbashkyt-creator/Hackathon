@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "cube-miner-escape-from-prison"
   | "a-cleaning-story"
   | "cafe-bara"
   | "bee-sort-by-sam"

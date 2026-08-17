@@ -1,0 +1,595 @@
+{
+  "name": "cube-miner-escape-from-prison",
+  "sourcePage": "https://poki.com/en/g/cube-miner-escape-from-prison",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2072,
+      "sha256": "b3d32f058c89a3b69e76543ce916e6839c9e08caa6c39c6b796beb2344d8b895",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 183,
+      "sha256": "e1ce5c9fcd355fe70f1c1caea60fb073769a0a736070567a6674caa7bdf95a0a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 948,
+      "sha256": "90367df115dbffcd776ce497be32ce4f577ac126e883ea72e6cf72394e57de04",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 870,
+      "sha256": "b21753cb7e6e6adf9eaf5122c9e63cca987d046004c53222dfe7b085fe072861",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 281,
+      "sha256": "4867ecb7c2d2f6686efef5acb352a1c0a80d4a7c272e46a6f2c38b6385f86531",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 761,
+      "sha256": "864db288d4ea7e3970ce70a8fe28a14e20429cdaac101a750561c17838b6a49f"
+    },
+    {
+      "assetPath": "arrayquests.json",
+      "bytes": 12912,
+      "sha256": "fe8da782b5c2cd413ba70b1bd7b55fbf48f19b1d2975f5c08ee8c8872f0de31c"
+    },
+    {
+      "assetPath": "blocksettings.json",
+      "bytes": 14850,
+      "sha256": "3c2005706b656e3dd24ec9d6328c1ae8cfc03a3f14c7ce1125ce66b1a1d88c64"
+    },
+    {
+      "assetPath": "box2d.wasm",
+      "bytes": 246906,
+      "sha256": "980c1932c6b690cc927a5df0cf2b483b58740979f2966922a2f1c9af7270a80e"
+    },
+    {
+      "assetPath": "costitem.json",
+      "bytes": 26833,
+      "sha256": "856e0e2ac42c6e6734f4b711c1da6dcd623447177584376db351303160235592"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 3348190,
+      "sha256": "95e4699f438e629dcf24feff4dd5c980df26dd90eaed84b6b94108aa1f20ae29"
+    },
+    {
+      "assetPath": "file.css",
+      "bytes": 233,
+      "sha256": "eaee041f92b6569b8d074dbf35fb50bc0c835748207d03030cdd3dbb7c0321dd"
+    },
+    {
+      "assetPath": "icons/icon-128.png",
+      "bytes": 23439,
+      "sha256": "dd6a992288233dd6f52e79642628faa474812cbf6f0c07b52b4c45d7a9c2353a"
+    },
+    {
+      "assetPath": "icons/icon-16.png",
+      "bytes": 783,
+      "sha256": "83b96b8cd0e94077c36b28b0d09cd1e281dc11240cd3da7d10282a750e24e230"
+    },
+    {
+      "assetPath": "icons/icon-256.png",
+      "bytes": 78992,
+      "sha256": "01ab911ac1ad0ac67f9b845ac6e763e33ef892f7b08663b627fae93eca01ae42"
+    },
+    {
+      "assetPath": "icons/icon-32.png",
+      "bytes": 2344,
+      "sha256": "32dbbf2de673705325d88ccc1cb3059e5efef51f231768c826974878727c2d0f"
+    },
+    {
+      "assetPath": "icons/icon-512.png",
+      "bytes": 243464,
+      "sha256": "6da7739d355acc1a2623204b88b266c40ad00817ab970084d6b789b53bcd9137"
+    },
+    {
+      "assetPath": "icons/icon-64.png",
+      "bytes": 7213,
+      "sha256": "8591c0943372bf02b474cde31ea5db4d3c0f9903ae11a8e9749e774b08432d45"
+    },
+    {
+      "assetPath": "images/atopfiller-sheet0.webp",
+      "bytes": 38,
+      "sha256": "8726b982f029e3c4f88995f4ffd3e7c5019750a79576a05f01b1d665cfa6fc25"
+    },
+    {
+      "assetPath": "images/backfn1-sheet0.webp",
+      "bytes": 1174,
+      "sha256": "a68296db97446ea32f50f1e89b98d27073048f4892f8cead19c55c28891c45b1"
+    },
+    {
+      "assetPath": "images/backfn2-sheet0.webp",
+      "bytes": 3562,
+      "sha256": "9c83f09b6df13ab8d696bdf0b3cd4c8de1fb757897158f6ebf30584369b809f8"
+    },
+    {
+      "assetPath": "images/backfn3-sheet0.webp",
+      "bytes": 2758,
+      "sha256": "641bddbe751e4ad37e6f2f76c82175c7dd11e082ba5de4463feeb88362e3f70d"
+    },
+    {
+      "assetPath": "images/bardebt-sheet0.webp",
+      "bytes": 70,
+      "sha256": "3f8c4570521c77e1206f67b35f8ee9f7b75d0d148c21093e304283e8150f0b69"
+    },
+    {
+      "assetPath": "images/bordersolid-sheet0.webp",
+      "bytes": 44,
+      "sha256": "e0ea1d3352eea2b4efe2f7267ec57a5a414e3fd036f367b2fb15c80c3f5bc90c"
+    },
+    {
+      "assetPath": "images/btn-sheet0.webp",
+      "bytes": 18780,
+      "sha256": "195464354e724165e9d78628a0fc3eeeeda5a7afc94e250edacc0f0b6f1d4f65"
+    },
+    {
+      "assetPath": "images/btn-sheet1.webp",
+      "bytes": 1742,
+      "sha256": "385fc674d0f5bb6f74316b851ba1147147585700f39a44157a46a76546d4b57d"
+    },
+    {
+      "assetPath": "images/butongamemachine-sheet0.webp",
+      "bytes": 1554,
+      "sha256": "901b43105d734bbad1a50bf73eb993a7e11e58c0256235cc55471f9584624700"
+    },
+    {
+      "assetPath": "images/carparts-sheet0.webp",
+      "bytes": 7066,
+      "sha256": "fe0aaca57a47bbc82f895f0d791cd556b580801d2963d3c9675723216406b5ba"
+    },
+    {
+      "assetPath": "images/cloud-sheet0.webp",
+      "bytes": 1616,
+      "sha256": "af510323767c1efa7046acf92272bcd8c2a86baaef5054597f3144c71faa105f"
+    },
+    {
+      "assetPath": "images/cloud-sheet1.webp",
+      "bytes": 64,
+      "sha256": "c1e786a6d36fdb578c47457650aa35fdcdb757e997ef72826e322f590ef7f3af"
+    },
+    {
+      "assetPath": "images/decoranimated-sheet0.webp",
+      "bytes": 76034,
+      "sha256": "49452e94e032bb324aaf504678bf9d7181a47322a99fea3bd93ba5d95b444610"
+    },
+    {
+      "assetPath": "images/decoranimated-sheet1.webp",
+      "bytes": 9948,
+      "sha256": "a6514f90449bf7727c37af13c0d58c85dd1704b6544a08c577d08b96e58d13e3"
+    },
+    {
+      "assetPath": "images/decoranimated-sheet2.webp",
+      "bytes": 68,
+      "sha256": "1bb918a50c53dabc5a030ab28e69f6b93b6a3655201295b4e663a7d814fe858b"
+    },
+    {
+      "assetPath": "images/destroystate-sheet0.webp",
+      "bytes": 458,
+      "sha256": "342b60dc9f8f55492db9b397885b527646590bf1134b617a9825b9ca2bd9cad9"
+    },
+    {
+      "assetPath": "images/expbarfill-sheet0.webp",
+      "bytes": 64,
+      "sha256": "d2e6b5b1c631393b712aed37253ffe95f00dbfa2f726333adfacda00e339a3a2"
+    },
+    {
+      "assetPath": "images/explosion-sheet0.webp",
+      "bytes": 2402,
+      "sha256": "0118354fef86725a63517e39b8ce8eece0583c930eb723e3b6455487cac4d079"
+    },
+    {
+      "assetPath": "images/explosionui-sheet0.webp",
+      "bytes": 2402,
+      "sha256": "0118354fef86725a63517e39b8ce8eece0583c930eb723e3b6455487cac4d079"
+    },
+    {
+      "assetPath": "images/exptradefiller-sheet0.webp",
+      "bytes": 76,
+      "sha256": "6cb45b832907f1ed617d891318041c2e4cc8e62c5c1e6773779a9de1dcef3600"
+    },
+    {
+      "assetPath": "images/exptradetile-sheet0.webp",
+      "bytes": 68,
+      "sha256": "6ed88f109530333d74fa99a59d75d76a91cdcdb815dacf67ed503b1840c12a56"
+    },
+    {
+      "assetPath": "images/fire-sheet0.webp",
+      "bytes": 846,
+      "sha256": "94a14d7ec0952f2a84715f578cbe0b6c7c1064de7e6d2909b8e36842ac30403c"
+    },
+    {
+      "assetPath": "images/fuel-sheet0.webp",
+      "bytes": 82,
+      "sha256": "c1b57e6bb3a7960ae8745a2ac5a396359a7394220718817c8a833c821b1c3cb7"
+    },
+    {
+      "assetPath": "images/gamemachinecharacter-sheet0.webp",
+      "bytes": 652,
+      "sha256": "d2d8af5572af77506bf8771b73c6331c32f67cc12f2ece1c318783419c8b8399"
+    },
+    {
+      "assetPath": "images/gamemachinecharacter-sheet1.webp",
+      "bytes": 114,
+      "sha256": "e2a0cd891e4ec6e0cacbcc8848e534785f1839860547df927e871043318ddb95"
+    },
+    {
+      "assetPath": "images/gamemachineobjects-sheet0.webp",
+      "bytes": 29822,
+      "sha256": "647fc408dc7cc46eb057b62e3d995c9ad3ee5a1dc986d67c22bb22a590d7dcf9"
+    },
+    {
+      "assetPath": "images/gamemachineobjects-sheet1.webp",
+      "bytes": 660,
+      "sha256": "000d43caf07e4adf654043a72dd2d104d5c0a8d3fd1ec10c7f5eff8eb6800e4a"
+    },
+    {
+      "assetPath": "images/gamemachineobjects-sheet2.webp",
+      "bytes": 2828,
+      "sha256": "28c50b376acfed493a57d0b928db3b8bdff83cb380d383b5553248e9d2b4fe74"
+    },
+    {
+      "assetPath": "images/healtui-sheet0.webp",
+      "bytes": 418,
+      "sha256": "44d2fbd678d62e140f738256622efc4dca32f05943f8ab8fbc0a72b080c95a09"
+    },
+    {
+      "assetPath": "images/helpingtutorial-sheet0.webp",
+      "bytes": 1398,
+      "sha256": "d3d540b12cdee106db6aa40c360faa3c3ea5f09c26a3437a985bde1bc7737477"
+    },
+    {
+      "assetPath": "images/hpmobsbar-sheet0.webp",
+      "bytes": 38,
+      "sha256": "791bc2ad5de31421e7bb5f4e9742a27d6496f507c19eb622e90ccec6fc62c31f"
+    },
+    {
+      "assetPath": "images/hpmobsfiller-sheet0.webp",
+      "bytes": 38,
+      "sha256": "60e7bce75bcbed19b6cf28d8f6aa1bbddcb0a803891e957ef021d2766a4fe7da"
+    },
+    {
+      "assetPath": "images/icon-sheet0.webp",
+      "bytes": 23582,
+      "sha256": "0329ec0dd6e716e95e4f7a184b1c0bc3ed7e0946d6635c95590f46294783b55a"
+    },
+    {
+      "assetPath": "images/icon-sheet1.webp",
+      "bytes": 23796,
+      "sha256": "61b56ceab6777dbcd66e3c2004afe3bf346a761475e2ccea84140ab18f6d1236"
+    },
+    {
+      "assetPath": "images/icon-sheet2.webp",
+      "bytes": 1792,
+      "sha256": "5a9524900dbe6744f59bb93b1c280b1d07f8ce847ce872499ea643e2fe27bc7d"
+    },
+    {
+      "assetPath": "images/iconforshop-sheet0.webp",
+      "bytes": 17964,
+      "sha256": "d425fb9c1a41f40e94fc464b4e8f20d39e9e5cb1d16b580b912fe5d500ff3384"
+    },
+    {
+      "assetPath": "images/iconforshop-sheet1.webp",
+      "bytes": 758,
+      "sha256": "81a90760a32cccfae56ebb5d3f8df5fbd635afb5a040fd96b414543188771c97"
+    },
+    {
+      "assetPath": "images/inventoryselectwindow-sheet0.webp",
+      "bytes": 364,
+      "sha256": "4c71d7db28db75da207061bd7ef0e335db04623564895fb85906a52cd663ffbd"
+    },
+    {
+      "assetPath": "images/itemcraft-sheet0.webp",
+      "bytes": 3030,
+      "sha256": "2232a4f0170f370472ee6df0773097a0e973e84569a278375bd09a4518c79cd6"
+    },
+    {
+      "assetPath": "images/itemcraft-sheet1.webp",
+      "bytes": 14190,
+      "sha256": "b30640734a45ba0d3f8f088f9c6dd3e5eec25b11c925d3186b5f578edb3fd74c"
+    },
+    {
+      "assetPath": "images/itemdrop-sheet0.webp",
+      "bytes": 13280,
+      "sha256": "97e7caaf0eddba78555ac17de2b4ae7f0854afb34eeb0288278c35fad489f9b8"
+    },
+    {
+      "assetPath": "images/iteminventory-sheet0.webp",
+      "bytes": 17950,
+      "sha256": "f6efcda74a0588bba153b362a4fafb56b46434f429034e52e6c39ef4899710f2"
+    },
+    {
+      "assetPath": "images/iteminventory-sheet1.webp",
+      "bytes": 13714,
+      "sha256": "745816058ae2b44ebd0c52890132905f392161e25b1025174ccdf00cb179c6c1"
+    },
+    {
+      "assetPath": "images/jailstone-sheet0.webp",
+      "bytes": 318,
+      "sha256": "6a25ed072ea9633f0d8138a2f355a803497a3c2cae643451aa2066d11f247a2a"
+    },
+    {
+      "assetPath": "images/justline-sheet0.webp",
+      "bytes": 38,
+      "sha256": "c58b6a6570f385c8ca45895b3ecd530a14d2fd77a5c8f54b579ff79f9204419a"
+    },
+    {
+      "assetPath": "images/justsolid-sheet0.webp",
+      "bytes": 38,
+      "sha256": "12ee311e14f9132ef627267ff3af58ba326b12503e97de98542f94d623b2cc16"
+    },
+    {
+      "assetPath": "images/logomenublock-sheet0.webp",
+      "bytes": 824,
+      "sha256": "826e6a59b9e6d26235093b2c3f620311d7de7c883a4b47546f8e866713369f24"
+    },
+    {
+      "assetPath": "images/magma-sheet0.webp",
+      "bytes": 952,
+      "sha256": "d93f22d4737dfa71d01b3d81a1900ff8e987c5d68586598705872ad9a7403e01"
+    },
+    {
+      "assetPath": "images/mobspart-sheet0.webp",
+      "bytes": 930,
+      "sha256": "8ecbfefc9576e4edc1c7b040b3bd8b9b11f768c85dd9b47d718f6958278cf3ba"
+    },
+    {
+      "assetPath": "images/noobinventory-sheet0.webp",
+      "bytes": 840,
+      "sha256": "4ade38331884d59fcbd08e4a243880348bdf3466cec12532988403a062ee00ec"
+    },
+    {
+      "assetPath": "images/noob_head-sheet0.webp",
+      "bytes": 454,
+      "sha256": "d851fb1c591adc18fd7221d353f37d57af2439e7e24626841b276dae7955534d"
+    },
+    {
+      "assetPath": "images/noob_part-sheet0.webp",
+      "bytes": 366,
+      "sha256": "7ead260fa6733b238213328766dad884bc02b336fee41e7c9ff6c1ca200f5fb8"
+    },
+    {
+      "assetPath": "images/npc-sheet0.webp",
+      "bytes": 6148,
+      "sha256": "fbfc8c213a342d40364502fa25bee99868402307e6af5b4efe2b72d451e9d703"
+    },
+    {
+      "assetPath": "images/npc-sheet1.webp",
+      "bytes": 5090,
+      "sha256": "7c929bcd32160b61916ac6fb407a852ea6f35145dde6842de52b4bf7ca3520ba"
+    },
+    {
+      "assetPath": "images/npc-sheet2.webp",
+      "bytes": 614,
+      "sha256": "0df1590eab89bbf5b73ca02d36a5d5957b6a7becaccffefc3e04c83543bc51d3"
+    },
+    {
+      "assetPath": "images/questselementui-sheet0.webp",
+      "bytes": 538,
+      "sha256": "778bdcde49608eea55afe808857e829dc7fbcff423d3821f43cd1f147ab18124"
+    },
+    {
+      "assetPath": "images/questselementui-sheet1.webp",
+      "bytes": 444,
+      "sha256": "0811d57b7f0b6129b233ac1cb91f13615c933c4e157738357e487b9e5e20be78"
+    },
+    {
+      "assetPath": "images/questselementui-sheet2.webp",
+      "bytes": 128,
+      "sha256": "95c34d798baaa25c5775c047da9d69cfd52bfdd57134ce73946b0e8634ee30da"
+    },
+    {
+      "assetPath": "images/reputationbarfill-sheet0.webp",
+      "bytes": 64,
+      "sha256": "d2e6b5b1c631393b712aed37253ffe95f00dbfa2f726333adfacda00e339a3a2"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 169012,
+      "sha256": "158c4aeb51706bc73b4f7311fa75b115b2d8d2fcda9bf6c83eaefaa6909ad1ee"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 2996,
+      "sha256": "466ae8738a696a733b742d5e9c029e5c89135d022e2e9c7527ec68b2525c4336"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 2934,
+      "sha256": "8f55ec6b36f0cde5a197a649298fbee39dc4ab71aeb67c36f57f11bbb8ee1afd"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 242,
+      "sha256": "0473fdf21b375e4e8c910d8b52634b6ec0bf7d14e1039c41a9c956a107cbe31e"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 16190,
+      "sha256": "dc63d9534cefbc738f2fbeebe3bfe7526169d36b2732fdac5fd7a1ab5e7ba733"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 102850,
+      "sha256": "243181d20f41c261bfbbe35aa14445ea7d3a31beef444b85466379030fd90b75"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 13170,
+      "sha256": "423481a8c05501974953827f03dc1c1ed807e82d8eb40e68c7203c96108ecf11"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 1688,
+      "sha256": "d2eddf3807e115cb9649a24242416c1937b019de23f751c4457cf95d02c9d216"
+    },
+    {
+      "assetPath": "images/shared-1-sheet4.webp",
+      "bytes": 274,
+      "sha256": "acb40ea74c2cc2f7c1e9a531e9c0076e6e031731c93ec0e17d1fd869a9aa9843"
+    },
+    {
+      "assetPath": "images/shared-1-sheet5.webp",
+      "bytes": 29064,
+      "sha256": "2ae80539766dfb5c809e2e4a2581c454f7797940fa87cf874ac6b420af580d86"
+    },
+    {
+      "assetPath": "images/tbblack-sheet0.webp",
+      "bytes": 34,
+      "sha256": "15ba73ac76eec3ebfe42d676ebbff7af2c687f952b3eefd5716ca5ca0e309691"
+    },
+    {
+      "assetPath": "images/tbfade-sheet0.webp",
+      "bytes": 64,
+      "sha256": "8110b4819221bd3ff183f81b0911b8313c3491c985f1c09411d91f7d6514c034"
+    },
+    {
+      "assetPath": "images/tblogo-sheet0.webp",
+      "bytes": 38,
+      "sha256": "12ee311e14f9132ef627267ff3af58ba326b12503e97de98542f94d623b2cc16"
+    },
+    {
+      "assetPath": "images/tbmount-sheet0.webp",
+      "bytes": 3354,
+      "sha256": "4c48f6834b693e795bfbf0c83435fc306e0f93e350ec351da9b9b44cf10cb678"
+    },
+    {
+      "assetPath": "images/tbused-sheet0.webp",
+      "bytes": 38,
+      "sha256": "5e7a79e500c6ff1a92d38390fa8d41ce40cc3b3e0a8093d734a341c5221eda4f"
+    },
+    {
+      "assetPath": "images/tbusedwafer-sheet0.webp",
+      "bytes": 38,
+      "sha256": "0fe2bdc103a58e7b5362d9bfe83b44cf36cabe6a94989dbfcd29658dba80b35a"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.webp",
+      "bytes": 55558,
+      "sha256": "8a4326736e6d070aa4672e82385eaddc0c2e7d6d28b912f9630934f9c1c343ec"
+    },
+    {
+      "assetPath": "images/tiledbackground3-sheet0.webp",
+      "bytes": 38,
+      "sha256": "e7de7bc1ada784479924302f4f9d09e222975c47425680b894279e9ca461509e"
+    },
+    {
+      "assetPath": "images/tutorialnpc-sheet0.webp",
+      "bytes": 584,
+      "sha256": "8c3b3e77cb3d600efa403169eb33cb2e3b8d7a5fe972b91b188658c6412b3719"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2072,
+      "sha256": "b3d32f058c89a3b69e76543ce916e6839c9e08caa6c39c6b796beb2344d8b895"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 948,
+      "sha256": "90367df115dbffcd776ce497be32ce4f577ac126e883ea72e6cf72394e57de04"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 870,
+      "sha256": "b21753cb7e6e6adf9eaf5122c9e63cca987d046004c53222dfe7b085fe072861"
+    },
+    {
+      "assetPath": "perks.json",
+      "bytes": 7032,
+      "sha256": "104c81c13ed87fac15473c8ff4fdd33b9cedb4d2b5de48c9e6a336428384c6f1"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 281,
+      "sha256": "4867ecb7c2d2f6686efef5acb352a1c0a80d4a7c272e46a6f2c38b6385f86531"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 172,
+      "sha256": "30e319e9ccd7536846bc26212337e19aff33b9dbd4d02a2b55384a1496520b92"
+    },
+    {
+      "assetPath": "scripts/c3runtime.js",
+      "bytes": 1927176,
+      "sha256": "cfbbaa4aa6bd93cb8a0c81c7274e3e2625001aeb4d377bb387f7157c5323280b"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 135526,
+      "sha256": "2524d6b05499ab57986325e6c0c5049cc136577382069392afdf9bd63c837dab"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/objRefTable.js",
+      "bytes": 40901,
+      "sha256": "dbe645e925d92bb60dd0e201c1861bb297c1208eb664cf58dfe99d92277ce40c"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/project/javaScriptInEvents.js",
+      "bytes": 6615,
+      "sha256": "da648cf3233324de412494fd04932e39344e73716c1a23c66e92f9f6b7608259"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    },
+    {
+      "assetPath": "trader.json",
+      "bytes": 12370,
+      "sha256": "90539839c3dc721fa5d52aeac5f66c3f49e5ea46c9b2b04af1d98354ebcb3616"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
