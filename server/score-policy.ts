@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "tiny-towers": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "fruits-of-fury": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "brainrot-puzzle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "sticker-book-puzzle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

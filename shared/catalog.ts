@@ -485,6 +485,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "sticker-book-puzzle": { creatorId: "sticker-book-puzzle", creatorName: "Sticker Book Puzzle", creatorLabel: "BY STICKER BOOK PUZZLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "brainrot-puzzle": { creatorId: "brainrot-puzzle", creatorName: "Brainrot Puzzle", creatorLabel: "BY BRAINROT PUZZLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "fruits-of-fury": { creatorId: "fruits-of-fury", creatorName: "Fruits of Fury", creatorLabel: "BY FRUITS OF FURY · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "tiny-towers": { creatorId: "tiny-towers", creatorName: "Tiny Towers", creatorLabel: "BY TINY TOWERS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

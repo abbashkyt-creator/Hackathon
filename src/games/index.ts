@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { TinyTowersGame } from "./TinyTowersGame";
 export { FruitsOfFuryGame } from "./FruitsOfFuryGame";
 export { BrainrotPuzzleGame } from "./BrainrotPuzzleGame";
 export { StickerBookPuzzleGame } from "./StickerBookPuzzleGame";
