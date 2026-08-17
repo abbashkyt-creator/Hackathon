@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "nail-salon"
   | "life-choices-2-life-simulator"
   | "monster-max"
   | "royal-flush-merge"

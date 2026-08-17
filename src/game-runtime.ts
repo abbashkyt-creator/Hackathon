@@ -358,6 +358,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "royal-flush-merge": { embedded: true, preloadManifest: "/games/royal-flush-merge/preload-manifest.json", assetManifest: "/games/royal-flush-merge/MIRROR-MANIFEST.json", prepareByMount: true },
   "monster-max": { embedded: true, preloadManifest: "/games/monster-max/preload-manifest.json", assetManifest: "/games/monster-max/MIRROR-MANIFEST.json", prepareByMount: true },
   "life-choices-2-life-simulator": { embedded: true, preloadManifest: "/games/life-choices-2-life-simulator/preload-manifest.json", assetManifest: "/games/life-choices-2-life-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
+  "nail-salon": { embedded: true, preloadManifest: "/games/nail-salon/preload-manifest.json", assetManifest: "/games/nail-salon/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

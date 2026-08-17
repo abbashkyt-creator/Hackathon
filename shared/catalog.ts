@@ -400,6 +400,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "royal-flush-merge": { creatorId: "royal-flush-merge", creatorName: "Royal Flush Merge", creatorLabel: "BY ROYAL FLUSH MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "monster-max": { creatorId: "monster-max", creatorName: "Monster Max", creatorLabel: "BY MONSTER MAX · LOCAL SOURCE MIRROR", category: "Arcade" },
   "life-choices-2-life-simulator": { creatorId: "life-choices-2-life-simulator", creatorName: "Life Choices 2: Life Simulator", creatorLabel: "BY LIFE CHOICES 2: LIFE SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "nail-salon": { creatorId: "nail-salon", creatorName: "Nail Salon", creatorLabel: "BY NAIL SALON · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

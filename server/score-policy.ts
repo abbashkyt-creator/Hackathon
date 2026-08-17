@@ -31,6 +31,7 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "nail-salon": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "life-choices-2-life-simulator": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "monster-max": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "royal-flush-merge": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

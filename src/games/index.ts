@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { NailSalonGame } from "./NailSalonGame";
 export { LifeChoices2LifeSimulatorGame } from "./LifeChoices2LifeSimulatorGame";
 export { MonsterMaxGame } from "./MonsterMaxGame";
 export { RoyalFlushMergeGame } from "./RoyalFlushMergeGame";
