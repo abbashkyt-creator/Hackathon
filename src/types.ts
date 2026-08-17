@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "world-of-screw"
+  | "party-time"
   | "my-city-horse-stable"
   | "pro-shooter"
   | "beardie-craft-survival"

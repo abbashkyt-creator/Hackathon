@@ -31,6 +31,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "world-of-screw": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "party-time": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "my-city-horse-stable": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "pro-shooter": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "beardie-craft-survival": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

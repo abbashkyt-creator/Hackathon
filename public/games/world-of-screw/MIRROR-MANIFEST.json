@@ -1,0 +1,70 @@
+{
+  "name": "world-of-screw",
+  "sourcePage": "https://poki.com/en/g/world-of-screw",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "6b067e3f5fecbe79d0e66cef23b8a226b1a8c858e08bc96ec77bef953307cac4",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "b95f448586f222f4db9f97c86e3a2c79108d7b6c0f22cbbc61ac8033e1e38ba5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "c1856edb2f0c3276ce1984189fde60fe6525d2bc2d0038725dc6ed36b29ef35c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "6849aabb04139851582a6f05496b814df75d3242f27b49e94aa188b952a4988e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "f9254f0416188bbbb44f550957651ff511252a62494ac90384edcf3de3fb3efa",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 835,
+      "sha256": "6b067e3f5fecbe79d0e66cef23b8a226b1a8c858e08bc96ec77bef953307cac4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "c1856edb2f0c3276ce1984189fde60fe6525d2bc2d0038725dc6ed36b29ef35c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1218,
+      "sha256": "007d458d68871206039240e559d2fb55cc9f88bad744549e86d97eb4e2ee75cf"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "6849aabb04139851582a6f05496b814df75d3242f27b49e94aa188b952a4988e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 221,
+      "sha256": "f9254f0416188bbbb44f550957651ff511252a62494ac90384edcf3de3fb3efa"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

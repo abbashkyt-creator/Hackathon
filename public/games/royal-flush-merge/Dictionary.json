@@ -1,0 +1,20 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "Slime": 100,
+        "Wave": 1,
+        "World": 1,
+        "Ladder": 0,
+        "SlotLevel2": 0,
+        "SlotLevel3": 0,
+        "Slot1": 0,
+        "Slot2": 0,
+        "Slot3": 0,
+        "Droprate": 5,
+        "Inv": "\"1\"",
+        "NewWeapon": 1,
+        "SwordLevel": 1,
+        "BallLevel": 1,
+        "BagLevel": 1
+    }
+}

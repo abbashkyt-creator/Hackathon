@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/party-time/index.html",
+    "/games/party-time/js/poki-sdk-shim.js",
+    "/games/party-time/js/tiptap-platform-bridge.js",
+    "/games/party-time/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/world-of-screw/index.html",
+    "/games/world-of-screw/js/poki-sdk-shim.js",
+    "/games/world-of-screw/js/tiptap-platform-bridge.js",
+    "/games/world-of-screw/js/tiptap-inline-1.js"
+  ]
+}

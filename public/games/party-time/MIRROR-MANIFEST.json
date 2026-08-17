@@ -1,0 +1,70 @@
+{
+  "name": "party-time",
+  "sourcePage": "https://poki.com/en/g/party-time",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "737c2f7e88bc233fa41173cab4b2da71f4a69c20a3f99716a705539011baedc2",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "a04b131d44a7c0381d0d0e5e5c7f30154b2e26182261c41be028d1d9cd9263ad",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "4d1dd92be37fb9d8dbc51b4589e0408e746541a8f117219828db60475a5ecf61",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "8341d0de9da9fc61e278b2da913f42eac8fee9b9fb715a2fc367f4cb96d2ef11",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "ed8aefed026c7fd5b007f5414df31cc6917a3dd7c21ebd70f675d02cc04755b9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "737c2f7e88bc233fa41173cab4b2da71f4a69c20a3f99716a705539011baedc2"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "4d1dd92be37fb9d8dbc51b4589e0408e746541a8f117219828db60475a5ecf61"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1224,
+      "sha256": "aac8e0c69f28e291d5d650f351a26366f4c5540877f3e316a7f653e24fc9751d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "8341d0de9da9fc61e278b2da913f42eac8fee9b9fb715a2fc367f4cb96d2ef11"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "ed8aefed026c7fd5b007f5414df31cc6917a3dd7c21ebd70f675d02cc04755b9"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

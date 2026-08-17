@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/royal-flush-merge/index.html",
+    "/games/royal-flush-merge/js/poki-sdk-shim.js",
+    "/games/royal-flush-merge/js/tiptap-platform-bridge.js",
+    "/games/royal-flush-merge/scripts/modernjscheck.js",
+    "/games/royal-flush-merge/scripts/supportcheck.js",
+    "/games/royal-flush-merge/scripts/offlineclient.js",
+    "/games/royal-flush-merge/scripts/main.js",
+    "/games/royal-flush-merge/scripts/register-sw.js"
+  ]
+}

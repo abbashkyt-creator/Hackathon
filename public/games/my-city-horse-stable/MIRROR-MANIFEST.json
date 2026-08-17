@@ -1,0 +1,70 @@
+{
+  "name": "my-city-horse-stable",
+  "sourcePage": "https://poki.com/en/g/my-city-horse-stable",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 847,
+      "sha256": "86e16ad6900124686e957771e586215622a050c7c1306fd353fc2c6e0086314c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "6e20c8ed0380b4004fc4bbb058e5e903b8276cfd4e649604096f7e3c92787692",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "5563785875659154dc8793ec203618fcee96344512219a31eb4b64bcb4385a63",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "66471e5ae3cc0067b30ac0a1567826cb320a1eeee02de7bd772ae50b51c3ef3a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 245,
+      "sha256": "77142fbf5a91572e06ccbd8a5b8acab8bfc7964af91e684d6b1a4114c5a45180",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 847,
+      "sha256": "86e16ad6900124686e957771e586215622a050c7c1306fd353fc2c6e0086314c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "5563785875659154dc8793ec203618fcee96344512219a31eb4b64bcb4385a63"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1288,
+      "sha256": "93da2416b6f9d96c2cda72fc38b3b4ad112ebf477e1bc0e573f5c68c0d3895e2"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "66471e5ae3cc0067b30ac0a1567826cb320a1eeee02de7bd772ae50b51c3ef3a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 245,
+      "sha256": "77142fbf5a91572e06ccbd8a5b8acab8bfc7964af91e684d6b1a4114c5a45180"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

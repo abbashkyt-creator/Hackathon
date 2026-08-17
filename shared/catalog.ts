@@ -395,6 +395,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "beardie-craft-survival": { creatorId: "beardie-craft-survival", creatorName: "Beardie Craft Survival", creatorLabel: "BY BEARDIE CRAFT SURVIVAL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "pro-shooter": { creatorId: "pro-shooter", creatorName: "Pro Shooter", creatorLabel: "BY PRO SHOOTER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "my-city-horse-stable": { creatorId: "my-city-horse-stable", creatorName: "My City Horse Stable", creatorLabel: "BY MY CITY HORSE STABLE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "party-time": { creatorId: "party-time", creatorName: "Party Time", creatorLabel: "BY PARTY TIME · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "world-of-screw": { creatorId: "world-of-screw", creatorName: "World of Screw", creatorLabel: "BY WORLD OF SCREW · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

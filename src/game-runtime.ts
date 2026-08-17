@@ -353,6 +353,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "beardie-craft-survival": { embedded: true, preloadManifest: "/games/beardie-craft-survival/preload-manifest.json", assetManifest: "/games/beardie-craft-survival/MIRROR-MANIFEST.json", prepareByMount: true },
   "pro-shooter": { embedded: true, preloadManifest: "/games/pro-shooter/preload-manifest.json", assetManifest: "/games/pro-shooter/MIRROR-MANIFEST.json", prepareByMount: true },
   "my-city-horse-stable": { embedded: true, preloadManifest: "/games/my-city-horse-stable/preload-manifest.json", assetManifest: "/games/my-city-horse-stable/MIRROR-MANIFEST.json", prepareByMount: true },
+  "party-time": { embedded: true, preloadManifest: "/games/party-time/preload-manifest.json", assetManifest: "/games/party-time/MIRROR-MANIFEST.json", prepareByMount: true },
+  "world-of-screw": { embedded: true, preloadManifest: "/games/world-of-screw/preload-manifest.json", assetManifest: "/games/world-of-screw/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
