@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/pets-park/index.html",
+    "/games/pets-park/js/poki-sdk-shim.js",
+    "/games/pets-park/js/tiptap-platform-bridge.js",
+    "/games/pets-park/js/tiptap-inline-1.js"
+  ]
+}

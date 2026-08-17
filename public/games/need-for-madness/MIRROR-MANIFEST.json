@@ -1,0 +1,90 @@
+{
+  "name": "need-for-madness",
+  "sourcePage": "https://poki.com/en/g/need-for-madness",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2051,
+      "sha256": "2bae01106947cfa42a85ebca52189a819e9d16a0f7db242b3d6b0802741b082a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "33fe2320b3368126f50be38e0be7cebd713175ff35d4104564878061bf76d67b",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "d696db582ca602315acb8679835edbd1e755db86fdaeb9d0153127f637ad3e25",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f56a21f85f60e3d1c1a3973d62ddc97e55e131db287e6e8165949a976125c8aa",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "186ecd0fa9c9791a2071b8575fa9bde35a0f0a6cabbe3f1dda390b1d80ed4e4a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "data/3D/textures/halo.png",
+      "bytes": 5629,
+      "sha256": "27bd6132b5db5d8aad255e3e673a909682073545840d4992f827d2752db7ac19"
+    },
+    {
+      "assetPath": "data/music/shift.mp3",
+      "bytes": 6107136,
+      "sha256": "ba441f46a460927ed63e986b419af2f58a916b04241a7bba39695cef98acad2c"
+    },
+    {
+      "assetPath": "gl-matrix-min.js",
+      "bytes": 55991,
+      "sha256": "fb4f71b2df9dd73212e35780bd10c25ce7f4307f7ddc4e1c4b8d212812098fc4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2051,
+      "sha256": "2bae01106947cfa42a85ebca52189a819e9d16a0f7db242b3d6b0802741b082a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "d696db582ca602315acb8679835edbd1e755db86fdaeb9d0153127f637ad3e25"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 5620,
+      "sha256": "c8bed01f4432b4ca4755c1c912b6f94887b31f5b42e95e23e5f1a07b63ab5411"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f56a21f85f60e3d1c1a3973d62ddc97e55e131db287e6e8165949a976125c8aa"
+    },
+    {
+      "assetPath": "needmad.js",
+      "bytes": 322134,
+      "sha256": "863af24beea1e75d6b4daa596df50077a0688118cb0dec0e42bddc436b6b71a3"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 229,
+      "sha256": "186ecd0fa9c9791a2071b8575fa9bde35a0f0a6cabbe3f1dda390b1d80ed4e4a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

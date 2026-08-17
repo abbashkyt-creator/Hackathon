@@ -483,6 +483,7 @@ const GAME_SEED: StoredGameRecord[] = [
   { slug: "diva-hair-salon", title: "diva-hair-salon", rule_text: "Play diva-hair-salon.", accent: "#8b5cf6" },
   { slug: "screw-jam-puzzle", title: "screw-jam-puzzle", rule_text: "Play screw-jam-puzzle.", accent: "#8b5cf6" },
   { slug: "need-for-madness", title: "need-for-madness", rule_text: "Play need-for-madness.", accent: "#8b5cf6" },
+  { slug: "pets-park", title: "pets-park", rule_text: "Play pets-park.", accent: "#8b5cf6" },
   { slug: "drift-boss", title: "Drift Boss", rule_text: "Play Drift Boss.", accent: "#8b5cf6" },
   { slug: "little-farm-world", title: "little-farm-world", rule_text: "Play little-farm-world.", accent: "#8b5cf6" },
   { slug: "moms-diary-cooking-games", title: "moms-diary-cooking-games", rule_text: "Play moms-diary-cooking-games.", accent: "#8b5cf6" },

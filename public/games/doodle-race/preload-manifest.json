@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/doodle-race/index.html",
+    "/games/doodle-race/js/poki-sdk-shim.js",
+    "/games/doodle-race/js/tiptap-platform-bridge.js",
+    "/games/doodle-race/lib/GameAnalytics.js",
+    "/games/doodle-race/ADoodleRace0707bis.js"
+  ]
+}

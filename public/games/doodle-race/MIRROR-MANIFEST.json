@@ -1,0 +1,90 @@
+{
+  "name": "doodle-race",
+  "sourcePage": "https://poki.com/en/g/doodle-race",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1732,
+      "sha256": "ff3ca0553dc030de5e34a9d37932cf4dc21de48b39eaee55872749f64e2c5713",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "14bd5f3d2b89548358f182504041b7be865dc977f79e162a7cfd7b12f0a8e20a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "21d2b23a4bd2466716c7ba5f754817b07d707d96640899b5d1c57974d6f0e962",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "7e28fee9656476597497cd65adeff82f954e1f42dfaec9adffb75e7cd8a8e0dc",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 256,
+      "sha256": "9b1c1fd3ff427d7365eaaca7db5db144274a5e282ba8bc0678f03c7881a60d6c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "ADoodleRace0707bis.js",
+      "bytes": 2973661,
+      "sha256": "7a18364dedb52fb07bea0471c80c6cff7c98622f47c93fd1c828347feae95b08"
+    },
+    {
+      "assetPath": "favicon.png",
+      "bytes": 13676,
+      "sha256": "1a9c0cd2805cbece19067a701b6347ad21704e76789242b085a892ad255b4b4a"
+    },
+    {
+      "assetPath": "FMsounds/applause.mp3",
+      "bytes": 17971,
+      "sha256": "97579f5412d33c33373c4544945d5a2fd9c6b8cda92622ed96d43da787b2af52"
+    },
+    {
+      "assetPath": "FMsounds/click.mp3",
+      "bytes": 1253,
+      "sha256": "5f317efe30daf10ec87ad1da70d9798ab54d03015723f156ccc3d7c00f2fa4be"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1732,
+      "sha256": "ff3ca0553dc030de5e34a9d37932cf4dc21de48b39eaee55872749f64e2c5713"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "21d2b23a4bd2466716c7ba5f754817b07d707d96640899b5d1c57974d6f0e962"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "7e28fee9656476597497cd65adeff82f954e1f42dfaec9adffb75e7cd8a8e0dc"
+    },
+    {
+      "assetPath": "lib/GameAnalytics.js",
+      "bytes": 90915,
+      "sha256": "31a960241a5795e5eb283bd6fd262500c1812c06faa88df70a0416dfec548595"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 256,
+      "sha256": "9b1c1fd3ff427d7365eaaca7db5db144274a5e282ba8bc0678f03c7881a60d6c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
