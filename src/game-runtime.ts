@@ -450,6 +450,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "cashchubbies-islands": { embedded: true, preloadManifest: "/games/cashchubbies-islands/preload-manifest.json", assetManifest: "/games/cashchubbies-islands/MIRROR-MANIFEST.json", prepareByMount: true },
   "j-j-jump": { embedded: true, preloadManifest: "/games/j-j-jump/preload-manifest.json", assetManifest: "/games/j-j-jump/MIRROR-MANIFEST.json", prepareByMount: true },
   "scary-little-prankster": { embedded: true, preloadManifest: "/games/scary-little-prankster/preload-manifest.json", assetManifest: "/games/scary-little-prankster/MIRROR-MANIFEST.json", prepareByMount: true },
+  "hexellent": { embedded: true, preloadManifest: "/games/hexellent/preload-manifest.json", assetManifest: "/games/hexellent/MIRROR-MANIFEST.json", prepareByMount: true },
+  "harvest-simulator": { embedded: true, preloadManifest: "/games/harvest-simulator/preload-manifest.json", assetManifest: "/games/harvest-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

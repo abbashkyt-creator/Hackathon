@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/hexellent/index.html",
+    "/games/hexellent/js/poki-sdk-shim.js",
+    "/games/hexellent/js/tiptap-platform-bridge.js",
+    "/games/hexellent/js/tiptap-inline-1.js",
+    "/games/hexellent/js/tiptap-inline-2.js",
+    "/games/hexellent/js/tiptap-inline-3.js"
+  ]
+}

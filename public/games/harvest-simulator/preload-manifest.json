@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/harvest-simulator/index.html",
+    "/games/harvest-simulator/js/poki-sdk-shim.js",
+    "/games/harvest-simulator/js/tiptap-platform-bridge.js"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "scary-little-prankster",
+  "sourcePage": "https://poki.com/en/g/scary-little-prankster",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 980,
+      "sha256": "89fd754a6d00dd900ce4495f82f01ca40ceb6349acf609b58a4f5763671e52ed",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "0123ed3db56d838006c15a4a8ae55363604d1f4c6f4270a462b6c84083510364",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "4cfcabd9e2fdaded4431cd98ed1f4e666a104f4754b7f0fcba7e371365900f01",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "44861675680ae690a62f0c4e710733901c3dc97ad6e8109358c3659486872f76",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "e56891b8d71402c4e8c4a6b91376e14e73746c14fbcf3e5a7b64d1c38f59c1cc",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 980,
+      "sha256": "89fd754a6d00dd900ce4495f82f01ca40ceb6349acf609b58a4f5763671e52ed"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "4cfcabd9e2fdaded4431cd98ed1f4e666a104f4754b7f0fcba7e371365900f01"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1310,
+      "sha256": "c5f950b1aeee051a35c2e5bd85be8b01433f3cb014f116c9b2d54bfbe250b00d"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "44861675680ae690a62f0c4e710733901c3dc97ad6e8109358c3659486872f76"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "e56891b8d71402c4e8c4a6b91376e14e73746c14fbcf3e5a7b64d1c38f59c1cc"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

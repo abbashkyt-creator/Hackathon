@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/tank-vs-zombies/index.html",
+    "/games/tank-vs-zombies/js/poki-sdk-shim.js",
+    "/games/tank-vs-zombies/js/tiptap-platform-bridge.js",
+    "/games/tank-vs-zombies/scripts/modernjscheck.js",
+    "/games/tank-vs-zombies/scripts/supportcheck.js",
+    "/games/tank-vs-zombies/scripts/offlineclient.js",
+    "/games/tank-vs-zombies/scripts/main.js",
+    "/games/tank-vs-zombies/scripts/register-sw.js"
+  ]
+}

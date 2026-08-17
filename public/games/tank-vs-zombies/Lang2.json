@@ -1,0 +1,325 @@
+{
+    "c2array": true,
+    "size": [
+        9,
+        11,
+        1
+    ],
+    "data": [
+        [
+            [
+                "ENGLISH"
+            ],
+            [
+                "BOXES"
+            ],
+            [
+                "DUEL"
+            ],
+            [
+                "ADVENTURES"
+            ],
+            [
+                "BUY"
+            ],
+            [
+                "NEXT BONUS"
+            ],
+            [
+                "MY GAME"
+            ],
+            [
+                "OUT OF BULLETS"
+            ],
+            [
+                "DAILY BONUS"
+            ],
+            [
+                "ALL COLLECTED"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "DEUTSCH"
+            ],
+            [
+                "BOXEN"
+            ],
+            [
+                "DUELL"
+            ],
+            [
+                "ADVENTUREN"
+            ],
+            [
+                "KAUFEN"
+            ],
+            [
+                "NAECHSTER BONUS"
+            ],
+            [
+                "MEIN SPIEL"
+            ],
+            [
+                "KEINE KUGELN"
+            ],
+            [
+                "TÄGLICHER BONUS"
+            ],
+            [
+                "ALLE GESAMMELTEN"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "FRANCAIS"
+            ],
+            [
+                "BOITES"
+            ],
+            [
+                "DUEL"
+            ],
+            [
+                "AVENTURES"
+            ],
+            [
+                "ACHETER"
+            ],
+            [
+                "PROCHAIN BONUS"
+            ],
+            [
+                "MON JEU"
+            ],
+            [
+                "À COURT DE BALLES"
+            ],
+            [
+                "BONUS QUOTIDIEN"
+            ],
+            [
+                "TOUTES COLLECTEES"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "ITALIANO"
+            ],
+            [
+                "SCATOLE"
+            ],
+            [
+                "DUELLO"
+            ],
+            [
+                "AVVENTURE"
+            ],
+            [
+                "ACQUISTO"
+            ],
+            [
+                "PROSSIMO BONUS"
+            ],
+            [
+                "IL MIO GIOCO"
+            ],
+            [
+                "ESAURITI I PROIETTILI"
+            ],
+            [
+                "BONUS GIORNALIERO"
+            ],
+            [
+                "TUTTI RACCOLTI"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "PORTUGUES"
+            ],
+            [
+                "CAIXAS"
+            ],
+            [
+                "DUELO"
+            ],
+            [
+                "AVENTURAS"
+            ],
+            [
+                "COMPRAR"
+            ],
+            [
+                "PROXIMO BONUS"
+            ],
+            [
+                "MEU JOGO"
+            ],
+            [
+                "SEM BALAS"
+            ],
+            [
+                "BÔNUS DIÁRIO"
+            ],
+            [
+                "TUDO COLETADO"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "ESPANOL"
+            ],
+            [
+                "CAJAS"
+            ],
+            [
+                "DUELO"
+            ],
+            [
+                "AVENTURAS"
+            ],
+            [
+                "COMPRAR"
+            ],
+            [
+                "SIGUIENTE BONO"
+            ],
+            [
+                "MI JUEGO"
+            ],
+            [
+                "SIN BULLETES"
+            ],
+            [
+                "BONO DIARIO"
+            ],
+            [
+                "TODO RECOGIDO"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "УКРАЇНСЬКА"
+            ],
+            [
+                "КОРОБКИ"
+            ],
+            [
+                "ДУЕЛЬ"
+            ],
+            [
+                "ПРИГОДИ"
+            ],
+            [
+                "КУПИТИ"
+            ],
+            [
+                "НАСТУПНИЙ БОНУС"
+            ],
+            [
+                "МОЯ ГРА"
+            ],
+            [
+                "ЗАКІНЧИЛИСЯ НАБОЇ"
+            ],
+            [
+                "ЩОДЕННИЙ БОНУС"
+            ],
+            [
+                "ВСЕ ЗІБРАНО"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "РУССКИЙ"
+            ],
+            [
+                "ЯЩИКИ"
+            ],
+            [
+                "ДУЭЛЬ"
+            ],
+            [
+                "ПРИКЛЮЧЕНИЯ"
+            ],
+            [
+                "КУПИТЬ"
+            ],
+            [
+                "СЛЕДУЮЩИЙ БОНУС"
+            ],
+            [
+                "МОЯ ИГРА"
+            ],
+            [
+                "КОНЧИЛИСЬ ПУЛИ"
+            ],
+            [
+                "ЕЖЕДНЕВНЫЙ БОНУС"
+            ],
+            [
+                "ВСЕ СОБРАНО"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "Bahasa Indonesia"
+            ],
+            [
+                "KOTAK"
+            ],
+            [
+                "DUEL"
+            ],
+            [
+                "PETUALANGAN"
+            ],
+            [
+                "BELI"
+            ],
+            [
+                "BONUS BERIKUTNYA"
+            ],
+            [
+                "PERMAINAN SAYA"
+            ],
+            [
+                "HABIS PELURU"
+            ],
+            [
+                "BONUS HARIAN"
+            ],
+            [
+                "SEMUA DIKUMPULKAN"
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}

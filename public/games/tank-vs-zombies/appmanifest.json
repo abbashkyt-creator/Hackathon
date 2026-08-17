@@ -1,0 +1,11 @@
+{
+	"name": "Tank vs Zombies",
+	"short_name": "Tank vs Zombies",
+	"description": "tank vs zombie, smart shoot 2d, tank battle, logic game",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#000000",
+	"icons": [],
+	"screenshots": []
+}

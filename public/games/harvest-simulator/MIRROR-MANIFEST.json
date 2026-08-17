@@ -1,0 +1,185 @@
+{
+  "name": "harvest-simulator",
+  "sourcePage": "https://poki.com/en/g/harvest-simulator",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1195,
+      "sha256": "29a18dc7d461e980080bbc46fd73c31870628cd0446727cc1992354fb9889b1f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "d911f19cc0a2795cf73975241f0e039338964ce5625a7e740f68c28491e99727",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "81c5afb0663e30652e56b92576771e76c4ca702ecdf6ae6fabdd7de48d798a45",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "a9d16dd38d21ca5f6b757c4baec708f701a24ea5207584a0f9997584e0c66231",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 179,
+      "sha256": "61adb35557569985d7e1491c811caf844e3debec259257cecd045ab6e4820740",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "1338353.json",
+      "bytes": 169398,
+      "sha256": "5065b12a25ebb31dc1fa96830c46b9e14ee8c47b34ee5c483d46039cd0e257ca"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 164658,
+      "sha256": "4c3a1d1bde6607d5262e5d6843dddce22b0e415d787e9fab2d92d63e4da889e1"
+    },
+    {
+      "assetPath": "files/assets/216704388/1/LilitaOne-Regular.png",
+      "bytes": 46526,
+      "sha256": "f7966844e514b3d52dff5b0568f89f5e237c2da739d4480798a86bc3195050cc"
+    },
+    {
+      "assetPath": "files/assets/216880835/1/atlas.png",
+      "bytes": 35995,
+      "sha256": "930469c762db4657004d07e5f3d9a197cd12b056ebf1a62610df2f88eea5232a"
+    },
+    {
+      "assetPath": "files/assets/217506516/1/harvest_models_fbx.json",
+      "bytes": 24001,
+      "sha256": "3080a0dfe056f91675689c314ba4fe2d8a176a0e0af25c160ffb077bfd974c49"
+    },
+    {
+      "assetPath": "files/assets/217517793/1/dirt.jpg",
+      "bytes": 18704,
+      "sha256": "c143e1a59a0f2be2534abf3ce5c4ecbaea1c1fe83bd05d43e8dee147f420ea5d"
+    },
+    {
+      "assetPath": "files/assets/217517907/1/ammo.wasm.js",
+      "bytes": 257380,
+      "sha256": "da55f36ea762ecffb53c1e4fe5671753daa872e6e1f32fc4cb10ef7c1c1f7810"
+    },
+    {
+      "assetPath": "files/assets/217517908/1/ammo.js",
+      "bytes": 1202416,
+      "sha256": "abafae61be7bcd6ba6dea40843dd2dc416a5a5f283ce2d901dc88ccc80ec494e"
+    },
+    {
+      "assetPath": "files/assets/217517909/1/ammo.wasm.wasm",
+      "bytes": 441312,
+      "sha256": "75d9f5516e4e545c17f04726efa863db956213879fd7fac94ba8060daa343857"
+    },
+    {
+      "assetPath": "files/assets/217527119/1/engine_loop.mp3",
+      "bytes": 28104,
+      "sha256": "f6a563fea9a472bf8a7472754b57c0e6db6924f671de1ab4cedf9a9795515dd7"
+    },
+    {
+      "assetPath": "files/assets/217616603/1/skybox.png",
+      "bytes": 127,
+      "sha256": "64ebd5246ed510f03f60b3a7283032e866b7915d644725e42730d40f5a42c010"
+    },
+    {
+      "assetPath": "files/assets/217651241/1/cash_register.mp3",
+      "bytes": 11256,
+      "sha256": "c3c076f172fae237e8afbbd9c26fdd1a616368646939063d6a2120e86a8d79e6"
+    },
+    {
+      "assetPath": "files/assets/217656529/1/pop.mp3",
+      "bytes": 4510,
+      "sha256": "98dd6d23172a1091465151ae9f93cd9fee51547b95ada2c1abdf42ac5b0db721"
+    },
+    {
+      "assetPath": "files/assets/217659916/1/cutting_loop.mp3",
+      "bytes": 45637,
+      "sha256": "4f75ed8d193f0b6ced81a513c1172d2c60c20b98e0a375dec643b074128bdc40"
+    },
+    {
+      "assetPath": "files/assets/217661605/1/ambient_sound.mp3",
+      "bytes": 62117,
+      "sha256": "4fee0165dded4cb2de7087c3708b266051e0ef40bfd179a14f238ba1aaaae101"
+    },
+    {
+      "assetPath": "files/assets/217819432/1/bell.mp3",
+      "bytes": 9344,
+      "sha256": "6928f954760cd1e932d709816ca3ca3514486789881a1e1cad2930d5548d6419"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1195,
+      "sha256": "29a18dc7d461e980080bbc46fd73c31870628cd0446727cc1992354fb9889b1f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "81c5afb0663e30652e56b92576771e76c4ca702ecdf6ae6fabdd7de48d798a45"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "a9d16dd38d21ca5f6b757c4baec708f701a24ea5207584a0f9997584e0c66231"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 361,
+      "sha256": "4ffa6bfa08ea5a7f00468c4ec4d6438ef701c2d4979c762600e3f8fc6175fe16"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 1766329,
+      "sha256": "7ad502873aa814fc5b2c74193806e088e92acc087230a11116c1a615804e1145"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 179,
+      "sha256": "61adb35557569985d7e1491c811caf844e3debec259257cecd045ab6e4820740"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 55191,
+      "sha256": "68163ab721e12f6e00bfbff224a68e474cc994b594bd2c5c8a725f7fe286c55c"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 7345,
+      "sha256": "1cf4f05c738b3615f6cab7dee3fee69d4d77beb29be67b739a8b86cd36e4b49e"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 987,
+      "sha256": "21c7afa921496fb3920a55066ceede92f642aa8714205911cd186f34b2e1cd38"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12272,
+      "sha256": "92f28e46fe6fb9e488e2126f46b180fe783adc679a7548867786675708ecedfd"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
