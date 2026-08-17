@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/fishing-league/index.html",
+    "/games/fishing-league/js/poki-sdk-shim.js",
+    "/games/fishing-league/js/tiptap-platform-bridge.js",
+    "/games/fishing-league/files/assets/212606172/1/Utils.js",
+    "/games/fishing-league/files/assets/212606740/1/PokiPlugin.js",
+    "/games/fishing-league/playcanvas-stable.min.js",
+    "/games/fishing-league/__settings__.js",
+    "/games/fishing-league/__modules__.js"
+  ]
+}

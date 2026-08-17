@@ -1,0 +1,115 @@
+{
+  "name": "eyes-drop",
+  "sourcePage": "https://poki.com/en/g/eyes-drop",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2584,
+      "sha256": "ed205867cd97337471ad7c1abbca5b3999994c62b37ca59908007c810fbdf001",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "ad30afcf1feadb6d18fc0f8c6d36f800b13e36ea9e00bb6839ae3a1b8d958ccb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "4d8bd2b4ac53519fc7fb0b2a62264b5d39131d78044182399c43211aba9c209d",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "a078611c47cd8ce771a320db9b4de137717a7770b041ee03ba726a79bf3b6ed9",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 293,
+      "sha256": "144e1cc3e29357e01f1d4f4251a33bc699aee1571dcb0da0cb4481054004cc44",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "application.44e37.js",
+      "bytes": 4000,
+      "sha256": "a2dbd465c531a2a24601501c71a6e7991a80001f5212b6c7aaa29f8a584d1c4d"
+    },
+    {
+      "assetPath": "index.23c7b.js",
+      "bytes": 824,
+      "sha256": "7fc12b0341019ced07a0917fee91f6d32a27487b7d027c0af37caaef4faec6b2"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2584,
+      "sha256": "ed205867cd97337471ad7c1abbca5b3999994c62b37ca59908007c810fbdf001"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "4d8bd2b4ac53519fc7fb0b2a62264b5d39131d78044182399c43211aba9c209d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 335,
+      "sha256": "86f5e118ca413600b1dd3ef89df459daf1c099bda2c242e02e883cd2cd626bf5"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 594,
+      "sha256": "bf7c139112910bf048b75e35f4fb55b5b2b7d5f4ff28966a86eb9a29228b0861"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 79,
+      "sha256": "e160fc059cdc865215a3482f6eba8c4de618d92f5540fcc72c9b4855e28b12c8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "a078611c47cd8ce771a320db9b4de137717a7770b041ee03ba726a79bf3b6ed9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 293,
+      "sha256": "144e1cc3e29357e01f1d4f4251a33bc699aee1571dcb0da0cb4481054004cc44"
+    },
+    {
+      "assetPath": "src/import-map.24935.json",
+      "bytes": 46,
+      "sha256": "034d85875d4c4bbb394cd4c0d26563d981d744690f61794d150740384b436d38"
+    },
+    {
+      "assetPath": "src/polyfills.bundle.5adbf.js",
+      "bytes": 14750,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "assetPath": "src/settings.e5df1.json",
+      "bytes": 2238,
+      "sha256": "85d21de790591eaf93937ba3751d1efd5efb9c329070c9c59661e7d6bbc8bc4b"
+    },
+    {
+      "assetPath": "src/system.bundle.543e6.js",
+      "bytes": 12259,
+      "sha256": "90f192f3b04f7fcb5bba9c15745cdd1a798d9b855f752c5ee7e48bb526dd543d"
+    },
+    {
+      "assetPath": "style.f76d1.css",
+      "bytes": 1283,
+      "sha256": "b9dac5de1b7792243a6432dfe553901f0a235f41edb42c719d482d1c17016a2f"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

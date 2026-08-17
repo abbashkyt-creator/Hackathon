@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/sushi-merge/index.html",
+    "/games/sushi-merge/js/poki-sdk-shim.js",
+    "/games/sushi-merge/js/tiptap-platform-bridge.js",
+    "/games/sushi-merge/js/tiptap-inline-1.js",
+    "/games/sushi-merge/js/tiptap-inline-2.js",
+    "/games/sushi-merge/js/tiptap-inline-3.js"
+  ]
+}

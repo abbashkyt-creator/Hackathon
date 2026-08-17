@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/calamari/index.html",
+    "/games/calamari/js/poki-sdk-shim.js",
+    "/games/calamari/js/tiptap-platform-bridge.js",
+    "/games/calamari/js/tiptap-inline-1.js"
+  ]
+}

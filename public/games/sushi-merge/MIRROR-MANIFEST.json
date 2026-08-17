@@ -1,0 +1,95 @@
+{
+  "name": "sushi-merge",
+  "sourcePage": "https://poki.com/en/g/sushi-merge",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5247,
+      "sha256": "65777efddab651cfee33b7bb16dac261517c48f379d5137d46148b2d153cf66e",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "6f3ee8e7213f4347051346912f770b5c781b0bf8b0998430e897220ec77a74ca",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "ab7299c55168fe9b1ca738d7cb4a68f111488de3fe8d25e139f7ed29c608ba0b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "c6e4329f1cde4fab15941a7808970e83a4c81745328566a3a9eaecbae74cfd2a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "b2ee177dfbeabed6e18b9da8b04a51db92821a174a889a4668ac57df3dedac4d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47588,
+      "sha256": "7568b26729be6e39fe7541e9e7fedd85199a3176731a68938b81914152dcb9bd"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5247,
+      "sha256": "65777efddab651cfee33b7bb16dac261517c48f379d5137d46148b2d153cf66e"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "ab7299c55168fe9b1ca738d7cb4a68f111488de3fe8d25e139f7ed29c608ba0b"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 323,
+      "sha256": "adf0d48f11b78ab78dd36401a4b45eec35506a1b53f9974af8594d3b45fdef7a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 475,
+      "sha256": "dd69f8ef2d14f75b84ad7cfcdce518badd97baa006a38ea1cffb91624a0bfb93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "c6e4329f1cde4fab15941a7808970e83a4c81745328566a3a9eaecbae74cfd2a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "b2ee177dfbeabed6e18b9da8b04a51db92821a174a889a4668ac57df3dedac4d"
+    },
+    {
+      "assetPath": "SushiMerge.wasm",
+      "bytes": 2471081,
+      "sha256": "91c2314bb183a227c6db034908a337cfc0b5fdddf3de47aef0e1216dfc142060"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -510,6 +510,10 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "flipside": { creatorId: "flipside", creatorName: "Flipside", creatorLabel: "BY FLIPSIDE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "bloku": { creatorId: "bloku", creatorName: "Bloku!", creatorLabel: "BY BLOKU! · LOCAL SOURCE MIRROR", category: "Arcade" },
   "car-parking-school": { creatorId: "car-parking-school", creatorName: "Car Parking School", creatorLabel: "BY CAR PARKING SCHOOL · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "eyes-drop": { creatorId: "eyes-drop", creatorName: "Eyes Drop", creatorLabel: "BY EYES DROP · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "sushi-merge": { creatorId: "sushi-merge", creatorName: "Sushi Merge", creatorLabel: "BY SUSHI MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "blumgi-merge": { creatorId: "blumgi-merge", creatorName: "Blumgi Merge", creatorLabel: "BY BLUMGI MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "calamari": { creatorId: "calamari", creatorName: "Calamari", creatorLabel: "BY CALAMARI · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

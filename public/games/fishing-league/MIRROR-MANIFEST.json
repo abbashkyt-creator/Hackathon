@@ -1,0 +1,410 @@
+{
+  "name": "fishing-league",
+  "sourcePage": "https://poki.com/en/g/fishing-league",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 769,
+      "sha256": "2d27e993a26d97e45cce84c9aeb544d913ccdb251d1b00c0b721d8f21b921600",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 168,
+      "sha256": "fc793985d06c8e63d8f5d64711880e8b41b9a288a3e1811a55b4a85c7d546ff0",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "efe42b66c2733f56679dc3b11f2fcd189818800f8545a4d428bdad57b44c988b",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "1b7fcfd2f3e4d57c77cc633690bc061c5dec5265994651f7aa858db0fab14204",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 444,
+      "sha256": "97be4a4ba6166e4bb711bc17a1d8c8e3b2948bcefe41ec7f2ac7921934c4711c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2160745.json",
+      "bytes": 361299,
+      "sha256": "fc1a0f62430ce6c8a1ea3d875588b4823251495534fb2b3ca00a3386416c98e7"
+    },
+    {
+      "assetPath": "2160752.json",
+      "bytes": 12958,
+      "sha256": "32f08fdd2a02237c6db0a06eabd569bc99e608f0d895f7427f7f58f0a5a314ff"
+    },
+    {
+      "assetPath": "2160755.json",
+      "bytes": 4589692,
+      "sha256": "2b4f64819437f76beb961f4b6e8ea18a8565f564178ee2e48d3ecf1fb429ba51"
+    },
+    {
+      "assetPath": "2161527.json",
+      "bytes": 7590,
+      "sha256": "ba0087dca693d53ebccb9aa22625e29ca557b4ba407996f8c81c0b3ea68f1805"
+    },
+    {
+      "assetPath": "2208704.json",
+      "bytes": 675947,
+      "sha256": "7ee4a0112558c43db061adf554394c3f22238c257efcad2e7ebc97c99c74987c"
+    },
+    {
+      "assetPath": "2234206.json",
+      "bytes": 288008,
+      "sha256": "44e1eff8fb0cf8d2e062defebba5055bccca48ffccc2b3cb2a1e89d79308e84d"
+    },
+    {
+      "assetPath": "2252084.json",
+      "bytes": 534341,
+      "sha256": "92dcf251dc9067b7de5b474a0d52836c1d8d902e8ff1d391483b0a09d5a73b47"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 1848033,
+      "sha256": "b3eca8cb60dde29a0259fd39326875cc9ce676ec60b709aae03648ad1a4f17f3"
+    },
+    {
+      "assetPath": "files/assets/212606083/1/Clash.jpg",
+      "bytes": 76009,
+      "sha256": "3d0d11a409f4df913045f664b8302cb61396f51d5b9c757da5269be1888be779"
+    },
+    {
+      "assetPath": "files/assets/212606086/1/Emoji-Rage.png",
+      "bytes": 5925,
+      "sha256": "16ea97f2bd92d721efc2ec34d1ac7852176e50bc3fd2c1d9ca0cef607be573f7"
+    },
+    {
+      "assetPath": "files/assets/212606089/1/arrow.png",
+      "bytes": 654,
+      "sha256": "b9e3f7da9b506b7b70543ec64893e1bd683b21daf59480b29260a2c175a508c9"
+    },
+    {
+      "assetPath": "files/assets/212606090/1/A-TruckGlasses.png",
+      "bytes": 19055,
+      "sha256": "c79809b160dca03af1c4f8fb39111674d37bc51daba4a8c81d55b7c25b861341"
+    },
+    {
+      "assetPath": "files/assets/212606097/1/Check-Icon-Toggle.png",
+      "bytes": 2158,
+      "sha256": "4c42146cf945e77cb092a758078c48e35626e3a0e5b1547abfd84042140e4ee9"
+    },
+    {
+      "assetPath": "files/assets/212606104/1/A-TruckGlasses.json",
+      "bytes": 953,
+      "sha256": "2da5c9819f8bf035ef68eef65072cdecb6a09d7f5a9c80024692ed1690030c4e"
+    },
+    {
+      "assetPath": "files/assets/212606105/1/dance.png",
+      "bytes": 1066,
+      "sha256": "20b2d0bd1f98448dcf8d91108a14aec60e32773925bc41ee7f3a6a06b7b8095a"
+    },
+    {
+      "assetPath": "files/assets/212606108/1/Simple-Rectangle.png",
+      "bytes": 759,
+      "sha256": "c61528351ac728d14de26862bc553f6287f5083bc49a918e46ed12f0f8bd6f08"
+    },
+    {
+      "assetPath": "files/assets/212606115/1/shoes_5.json",
+      "bytes": 945,
+      "sha256": "ce2769f847612a37602409c3fcf848503f0d4ded96d55fdeeab5eed99fd1f00e"
+    },
+    {
+      "assetPath": "files/assets/212606116/1/Viking.png",
+      "bytes": 11620,
+      "sha256": "16bfe39923cc6beb06acc38c018bf8a724bd6e7e3272875f824fac6236456d0a"
+    },
+    {
+      "assetPath": "files/assets/212606138/1/Spikey_Glasses.png",
+      "bytes": 20413,
+      "sha256": "a90bdb228bd1fba0d956e3795fbf34643272614975c9f963cedc752ec53fa40a"
+    },
+    {
+      "assetPath": "files/assets/212606145/1/VikingDefaultMaterial12.png",
+      "bytes": 850177,
+      "sha256": "55cf1094ed361d4607aa03e930bca3a44de429da20272a5242eafaf439ab8409"
+    },
+    {
+      "assetPath": "files/assets/212606151/1/Level-4-Thumbnail.jpg",
+      "bytes": 39021,
+      "sha256": "e053c6e1a7652c0f8d7526c8d987b07a427888e1647e5706bd0b4534308b92ca"
+    },
+    {
+      "assetPath": "files/assets/212606165/1/A-TruckGlasses.jpg",
+      "bytes": 45030,
+      "sha256": "1d50cbe4148f2599ff4578b5707b3988ee28c435952ec305fe42e0dcfb90d854"
+    },
+    {
+      "assetPath": "files/assets/212606169/1/Cloth-Icon.png",
+      "bytes": 979,
+      "sha256": "a27368db845a3eeb43fb2ab0d41faeb96ebd714c9beaaaa094c75452fd565822"
+    },
+    {
+      "assetPath": "files/assets/212606172/1/Utils.js",
+      "bytes": 61932,
+      "sha256": "78ef228c478712447d1759cedce908a9198d0a9322a5f6d9b9d3428d7cfd1e44"
+    },
+    {
+      "assetPath": "files/assets/212606184/1/LCD-Text.jpg",
+      "bytes": 9125,
+      "sha256": "80793aae827641242bb5b419e121ea217d097fc0a718ecd304d99486e69993df"
+    },
+    {
+      "assetPath": "files/assets/212606187/1/Golden-Coin.png",
+      "bytes": 2608,
+      "sha256": "13bfc78af103b590c1da1521d44b0877c6f4bf267d1d0992e85ed76be3ff0d13"
+    },
+    {
+      "assetPath": "files/assets/212606189/1/Baseballer_Texture.png",
+      "bytes": 60672,
+      "sha256": "a4a81c9d18820f67bd12ec56b71b26fb07212863448074e93edfdfbe903bb2d2"
+    },
+    {
+      "assetPath": "files/assets/212606208/1/Blush_Breeze_thumb.png",
+      "bytes": 22482,
+      "sha256": "686edd7a9cdfc4bc042c71d95ad6f7c5071b0017f4c767e711dcfa28b5a1f47c"
+    },
+    {
+      "assetPath": "files/assets/212606212/1/gym_logo.png",
+      "bytes": 12798,
+      "sha256": "57a974312d9a32e8de3dbb32e84c0dbde255658bb0fd82be0e2def7a6cd48831"
+    },
+    {
+      "assetPath": "files/assets/212606216/1/Ribbon-Green.png",
+      "bytes": 4206,
+      "sha256": "2f23bb5e3120f557374d2be3d294b62d301d876af7aa68451765119e467f6713"
+    },
+    {
+      "assetPath": "files/assets/212606220/1/Anime_Glasses.jpg",
+      "bytes": 28343,
+      "sha256": "49c1a271c1b32ad8e2efccc71e70f696f830e43cf88a9d57eb36d38ffd67808e"
+    },
+    {
+      "assetPath": "files/assets/212606226/1/TODO.md.txt",
+      "bytes": 8479,
+      "sha256": "c6dbc3c8fba561f1013171aa30e3dab4013b51072250d8e82a16233e27c7222a"
+    },
+    {
+      "assetPath": "files/assets/212606235/1/Quest-Icon.png",
+      "bytes": 1506,
+      "sha256": "9166e40ace9d1e7a632e6851e009bcc19df8f6fd7fc912e8319d1efe96d31684"
+    },
+    {
+      "assetPath": "files/assets/212606252/1/Confetti.png",
+      "bytes": 635,
+      "sha256": "af311fe44b3a754c879458e4a80a806a58dac53b4fac9a74baa723ad028032a6"
+    },
+    {
+      "assetPath": "files/assets/212606255/1/Astronaut.json",
+      "bytes": 29537,
+      "sha256": "f903d2fe1a9b217bd2c7577251332e7fe90d852253a445c06ad755a9e6139038"
+    },
+    {
+      "assetPath": "files/assets/212606259/1/Value-Rectangle.png",
+      "bytes": 484,
+      "sha256": "15b3c448c762cd707d0389a90eb539ca79ddbeb14d7394bdf3a1e620ff6d0bf9"
+    },
+    {
+      "assetPath": "files/assets/212606266/1/Suit_Texture.png",
+      "bytes": 72625,
+      "sha256": "128072cb197719483f716946b203c075442ad32566445538a133bcddbec592e6"
+    },
+    {
+      "assetPath": "files/assets/212606272/1/WizardDefaultMaterial1.png",
+      "bytes": 985826,
+      "sha256": "ce3d8a3f5f5c2485daf054b5af3d007be7993ec5011e0d1f625cbc08c3962431"
+    },
+    {
+      "assetPath": "files/assets/212606283/1/Upgrade-Yellow-Icon.png",
+      "bytes": 3849,
+      "sha256": "6d78d4017ba393a6b9bda823340f6fe76337ca9b8ecc72ca792e9697d1e1597b"
+    },
+    {
+      "assetPath": "files/assets/212606286/1/Icon_StatsIcon_Skeleton.Png",
+      "bytes": 1755,
+      "sha256": "6163d32d278efe91bf17e6bb0ebd09d0e7db96353bbdada2d99d3673f6d16951"
+    },
+    {
+      "assetPath": "files/assets/212606296/1/Viking.json",
+      "bytes": 22798,
+      "sha256": "057dd3ab4a1a08d43329c2d68bf3a1828b234ea766137f178bcd2142945c1432"
+    },
+    {
+      "assetPath": "files/assets/212606311/1/Glasses_01.png",
+      "bytes": 16814,
+      "sha256": "c8dd6d03dba0e9ffe1b5548f0f02a52949c1b1c8633bda09eb1411d03dad257d"
+    },
+    {
+      "assetPath": "files/assets/212606324/1/Interface-Rectangle.png",
+      "bytes": 11295,
+      "sha256": "716f6dfcdc2e4efa8c734a5aef31afb4638450e883f1d99179d959ca5b8fc4ad"
+    },
+    {
+      "assetPath": "files/assets/212606328/1/Sky-Day.png",
+      "bytes": 5744,
+      "sha256": "69ae644ff867c1519f7f2cf48f344d7ec3f80f2fae1f0c5e22a431cbf281a08e"
+    },
+    {
+      "assetPath": "files/assets/212606331/1/Prism_Apex_thumb.png",
+      "bytes": 23600,
+      "sha256": "4dcb21288d529b0d8f6799e176f95bf612f75efc7a5c020320d3f5cbf6888324"
+    },
+    {
+      "assetPath": "files/assets/212606332/1/Wizard-Head.png",
+      "bytes": 4934,
+      "sha256": "4ccad38a0fbed71696d3752a948d367c3623994b0d0e057bfd545e4e8d3b3a85"
+    },
+    {
+      "assetPath": "files/assets/212606333/1/Wizard.png",
+      "bytes": 12189,
+      "sha256": "bb143b42de128c6db88df148d3e86792decbbb2db96fc7a1204d5259312116da"
+    },
+    {
+      "assetPath": "files/assets/212606334/1/Sorcerer.png",
+      "bytes": 31722,
+      "sha256": "ffc61ab3f75944defd66c7a43ed531461ed1171a731c28241bcefef90459250e"
+    },
+    {
+      "assetPath": "files/assets/212606336/1/Vertical-Light.png",
+      "bytes": 560,
+      "sha256": "439b81cbf55805c3f37582f0276f20d96cd716fdaea1eb8641d5f8550b3da1a9"
+    },
+    {
+      "assetPath": "files/assets/212606337/1/protein-powder-borded.png",
+      "bytes": 2210,
+      "sha256": "d770fca1d5df5d5f42207d0098f6821499408ca27e14b88a8d9b608e892bcbf5"
+    },
+    {
+      "assetPath": "files/assets/212606339/1/Palette.png",
+      "bytes": 5072,
+      "sha256": "abed93eea2bb4026047a9cb1be8630b55001446d4d341af29c60e043fe5a1d4e"
+    },
+    {
+      "assetPath": "files/assets/212606342/1/Park-003.jpg",
+      "bytes": 15729,
+      "sha256": "c5f3fad9bb9a26576779b63f63933547f209a5bff0547f1828bdd66a12c28889"
+    },
+    {
+      "assetPath": "files/assets/212606343/1/Footballer-Head.png",
+      "bytes": 6618,
+      "sha256": "8a26a28cb31ace4de6c1d30420a1512133d4d982b4ee8d407c2ace32e2f40c7b"
+    },
+    {
+      "assetPath": "files/assets/212606351/1/Swimmer_Face.png",
+      "bytes": 42985,
+      "sha256": "f59cb741ffa0eb7b482866bd633c301c0528e7e8f512deee98220f227351135a"
+    },
+    {
+      "assetPath": "files/assets/212606353/1/Smoke.png",
+      "bytes": 938,
+      "sha256": "e3452690a5631d7a3a73ea7fe616ff03cc18becd74509668f7dd9235e1e939ed"
+    },
+    {
+      "assetPath": "files/assets/212606354/1/Astronaut.jpg",
+      "bytes": 62824,
+      "sha256": "77b810d5d0ddee0ea47e290520bd91e8cd860b7881ff93ef3f330f25f117a2e9"
+    },
+    {
+      "assetPath": "files/assets/212606355/1/Icon_ImageIcon_Trophy_m.png",
+      "bytes": 2195,
+      "sha256": "8f535b547e077145eb0bf4938f1452d9efad6926356750c79e1199701ff873d9"
+    },
+    {
+      "assetPath": "files/assets/212606740/1/PokiPlugin.js",
+      "bytes": 10764,
+      "sha256": "aca46a9922e5a5e5043f552ce4363ef165f0182572b8e73ff916f585e8c94b53"
+    },
+    {
+      "assetPath": "files/assets/225946961/1/ammo.js",
+      "bytes": 1895438,
+      "sha256": "2700ed751c7203f1a95cee96af69f34c0a1a9557ce52291ef0ecb8431796e562"
+    },
+    {
+      "assetPath": "files/assets/225946962/1/ammo.wasm.js",
+      "bytes": 391789,
+      "sha256": "02d64f358ec638f458fae29c291168ccd4f157a6a5622a4cd70760cc1b5cc15e"
+    },
+    {
+      "assetPath": "files/assets/225946963/1/ammo.wasm.wasm",
+      "bytes": 659433,
+      "sha256": "772899614f44ea350189c1c7f181c9d76cf6820c3ead129e8e3d3c0f46dc1799"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 769,
+      "sha256": "2d27e993a26d97e45cce84c9aeb544d913ccdb251d1b00c0b721d8f21b921600"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 918,
+      "sha256": "efe42b66c2733f56679dc3b11f2fcd189818800f8545a4d428bdad57b44c988b"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 855,
+      "sha256": "1b7fcfd2f3e4d57c77cc633690bc061c5dec5265994651f7aa858db0fab14204"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 355,
+      "sha256": "b564cb65d38aa76b59890336b1e87587e198ce557093a46fd15bf44c8a0b3437"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 1766329,
+      "sha256": "7ad502873aa814fc5b2c74193806e088e92acc087230a11116c1a615804e1145"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 444,
+      "sha256": "97be4a4ba6166e4bb711bc17a1d8c8e3b2948bcefe41ec7f2ac7921934c4711c"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 462353,
+      "sha256": "5d5990774c261ea551c75c58aae1c33caf870956a46efc7f9aab4c3aea2b292d"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 4683,
+      "sha256": "f4053a9925a079c61dec2beca32a03a7ffcca04c68b795778a5fee2fd95e3253"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 1777,
+      "sha256": "0a684ec3f88a11ec8381f98423ecbcd9344cc29a7f77d71e8a8e9b811eba5467"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

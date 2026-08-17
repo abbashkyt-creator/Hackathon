@@ -1,0 +1,75 @@
+{
+  "name": "calamari",
+  "sourcePage": "https://poki.com/en/g/calamari",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2187,
+      "sha256": "a003e33375a184ff68629c592e030949d34bf3eae1aff38cbc392c91f313cb46",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "cd208f89476963e336e1fc24ba94b87f39c6456a56afd584bde44e0acdbe28c5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "d93bea14222a8c42438dbe833419a3603eb254d7dd56864d7c5b5456680c0f06",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "0c2eb1c29b8fc73c3a1e7c1664b0a77fba65f5c3aaa4e3f1e1eaf5cfdedf226e",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "fd27450e2ad5a0d4860f8b8e54d4a35a29f69a072c9a78cf6667d2c19cd9ba15",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2187,
+      "sha256": "a003e33375a184ff68629c592e030949d34bf3eae1aff38cbc392c91f313cb46"
+    },
+    {
+      "assetPath": "js/loader.js",
+      "bytes": 6366,
+      "sha256": "24bd5bca2d4325821002a1fb28cf978a4181db073e6196250372fbf47ef3308d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "d93bea14222a8c42438dbe833419a3603eb254d7dd56864d7c5b5456680c0f06"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1993,
+      "sha256": "e5f78ef4eb8b61c99162849d4cc79bc29928206c80097589247282dbe66f2bfe"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "0c2eb1c29b8fc73c3a1e7c1664b0a77fba65f5c3aaa4e3f1e1eaf5cfdedf226e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 197,
+      "sha256": "fd27450e2ad5a0d4860f8b8e54d4a35a29f69a072c9a78cf6667d2c19cd9ba15"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
