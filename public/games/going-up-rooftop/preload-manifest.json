@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/going-up-rooftop/index.html",
+    "/games/going-up-rooftop/js/poki-sdk-shim.js",
+    "/games/going-up-rooftop/js/tiptap-platform-bridge.js",
+    "/games/going-up-rooftop/js/tiptap-inline-1.js"
+  ]
+}

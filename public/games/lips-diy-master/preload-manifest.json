@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/lips-diy-master/index.html",
+    "/games/lips-diy-master/js/poki-sdk-shim.js",
+    "/games/lips-diy-master/js/tiptap-platform-bridge.js",
+    "/games/lips-diy-master/js/tiptap-inline-1.js",
+    "/games/lips-diy-master/js/tiptap-inline-2.js"
+  ]
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>cart-ts</title>
+        <script>
+            // Prevent scroll (source: poki sdk)
+            window.addEventListener('keydown', (ev) => {
+                if (['ArrowDown', 'ArrowUp', ' '].includes(ev.key)) {
+                    ev.preventDefault();
+                }
+            });
+            // Prevent context menu (right click)
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        </script>
+
+        <style>
+            body {
+                margin: 0;
+                /* Убираем скролл */
+                overflow: hidden;
+
+                /* Убираем лонгтап на IOS */
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            canvas {
+                display: block;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            #loading-screen {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                color: white;
+                font-size: 2rem;
+                z-index: 1000;
+            }
+
+            #loading-icon {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 20px;
+            }
+        </style>
+
+        <script>
+            // Загружаем GameAnalytics отдельным скриптом из файла (лежит в public/gameanalytics/). Потому что если npm бандл
+            // использовать то надо ждать загрузки всего главного JS файла с игрой. А так GA начнет грузиться сразу.
+            // А из файла потому что CDN версия требует доступа к внешнему серверу. Не охота лишнее разрешение на поки просить.
+
+            // Ниже это код взят с https://docs.gameanalytics.com/event-tracking-and-integrations/sdks-and-collection-api/open-source-sdks/javascript#the-javascript-ga-snippet
+            // Чтобы инициализировать GA сразу же как только она будет загружена, и если какие-то команды до загрузки будут вызваны, они будут поставлены в очередь.
+            (function (window, document) {
+                var scriptTagName = 'script';
+                var gaGlobalName = 'GameAnalytics';
+                window[gaGlobalName] =
+                    window[gaGlobalName] ||
+                    function () {
+                        (window[gaGlobalName].q = window[gaGlobalName].q || []).push(arguments);
+                    };
+
+                var gaScript = document.createElement(scriptTagName);
+                var firstScript = document.getElementsByTagName(scriptTagName)[0];
+
+                gaScript.async = true;
+                gaScript.src = 'gameanalytics/GameAnalytics.js';
+
+                // Вставляем скрипт перед первым тегом <script>
+                firstScript.parentNode.insertBefore(gaScript, firstScript);
+            })(window, document);
+
+            GameAnalytics('setEnabledInfoLog', true);
+            GameAnalytics('setEnabledVerboseLog', true);
+            GameAnalytics('configureBuild', '2.0.1');
+            GameAnalytics('initialize', 'f0bb17b3cef86952a24d60fadff9337a', '176f1f15ef82f9f08cba342886a3ac9ba16de8e0');
+        </script>
+        <script src="https://game-cdn.poki.com/scripts/v2/poki-sdk.js"></script>
+      <script type="module" crossorigin src="./assets/index-B5hSLZni.js"></script>
+    </head>
+    <body>
+        <div id="loading-screen">
+            <img src="./assets/icon-CRPZlS46.png" alt="Loading Icon" id="loading-icon" />
+            <span>Loading...</span>
+        </div>
+        <canvas id="application-canvas"></canvas>
+
+        <script>
+            document.addEventListener('gameLoaded', () => {
+                const loadingScreen = document.getElementById('loading-screen');
+                if (loadingScreen) {
+                    loadingScreen.style.display = 'none';
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/count-war/index.html",
+    "/games/count-war/js/poki-sdk-shim.js",
+    "/games/count-war/js/tiptap-platform-bridge.js",
+    "/games/count-war/js/tiptap-inline-1.js"
+  ]
+}

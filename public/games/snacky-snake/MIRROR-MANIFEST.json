@@ -1,0 +1,70 @@
+{
+  "name": "snacky-snake",
+  "sourcePage": "https://poki.com/en/g/snacky-snake",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "3ec8f76c9ed8cf0e21260fa4fd11d44675814443a2b30567201345c7def5ccbf",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "592a23814ae12f6edc5b4920f22f020aee82dda43c0d43d2b39342d666e6b981",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "9a4fdda6f0ab884c5be84b4d129e41644d71966b58aeb9d5fd4bac24cd1c7bef",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "22382653162a3ff09c5f4694036337971bfb72bd37e80fbce389077fae8670d1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "f8d6a44323ceed766f25d8eabad0435e819ceb43f12c2762f35f23c157281d18",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "3ec8f76c9ed8cf0e21260fa4fd11d44675814443a2b30567201345c7def5ccbf"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "9a4fdda6f0ab884c5be84b4d129e41644d71966b58aeb9d5fd4bac24cd1c7bef"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1218,
+      "sha256": "042e8c4e8547bb415ce5337149d5119cae585c3a87b1615c121e06327ab3bc44"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "22382653162a3ff09c5f4694036337971bfb72bd37e80fbce389077fae8670d1"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "f8d6a44323ceed766f25d8eabad0435e819ceb43f12c2762f35f23c157281d18"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

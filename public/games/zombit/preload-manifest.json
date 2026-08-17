@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/zombit/index.html",
+    "/games/zombit/js/poki-sdk-shim.js",
+    "/games/zombit/js/tiptap-platform-bridge.js"
+  ]
+}

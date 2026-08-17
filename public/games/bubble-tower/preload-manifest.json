@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/bubble-tower/index.html",
+    "/games/bubble-tower/js/poki-sdk-shim.js",
+    "/games/bubble-tower/js/tiptap-platform-bridge.js",
+    "/games/bubble-tower/js/tiptap-inline-1.js"
+  ]
+}

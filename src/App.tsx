@@ -460,6 +460,7 @@ const GAME_EYEBROWS: Record<GameSlug, string> = {
   "stickman-battle": "FIGHT!",
   "retro-bowl": "TOUCHDOWN!",
   "drift-boss": "DRIFT BOSS",
+  "lips-diy-master": "LIPSDIYMASTER",
   "going-up-rooftop": "GOINGUPROOFTOP",
   "lips-diy-master": "LIPS",
   "count-war": "COUNTWAR",

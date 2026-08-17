@@ -1,0 +1,290 @@
+{
+  "name": "carnado-bike-stunt",
+  "sourcePage": "https://poki.com/en/g/carnado-bike-stunt",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1197,
+      "sha256": "db026c81659e2e597a75a9734f4637c8a6351703fd6bdd974e6a2a07168557ef",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 172,
+      "sha256": "7ec5b72bb0f007c2300231fb33c9a71b870be27ca5595b05cf2e50b808b39e75",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "3467041048e1d57c85c9540b814375501a3075be406dacd69e70173ea9799b21",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "c90d54e4a81bb7fcd9d95419c547a487806156541f2cba5f3c6443a2319a290b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 182,
+      "sha256": "dc28796b7985bb83e507c5df30c20e8b77ca9452cffd2c794a613da453c376c3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2438555.json",
+      "bytes": 11100,
+      "sha256": "945e40d5775919b9ba93481c8214c7b56fbb8ed56fd8417d4d021dc3ba4a6ddb"
+    },
+    {
+      "assetPath": "2438556.json",
+      "bytes": 50977,
+      "sha256": "fa359fac13c0caea9c75345e19f7b544d4e804717f358217259974ad244b6020"
+    },
+    {
+      "assetPath": "2438559.json",
+      "bytes": 27993,
+      "sha256": "611d15dbcc13382344ad664f480c429a7e8986374bf4f5adf594f816b392345d"
+    },
+    {
+      "assetPath": "2438560.json",
+      "bytes": 212175,
+      "sha256": "3b69cea51b62f12ede52fae77292f8dfc92fffabc36642ff06a646f743e96fb5"
+    },
+    {
+      "assetPath": "2438561.json",
+      "bytes": 343117,
+      "sha256": "5f6ef994cc69b5fc5c7b5b9d19e52e6f3d15fc8ca29e47a60702749f07f2f227"
+    },
+    {
+      "assetPath": "2438563.json",
+      "bytes": 242635,
+      "sha256": "b2389bd1ea3cc09f906cecabd259d6adb229b984512c6a0c94565037e2cb5fa1"
+    },
+    {
+      "assetPath": "2438566.json",
+      "bytes": 36639,
+      "sha256": "538b8dc4ce6ba62c11c5e405d2596730c19d6c8ff7f406cd1132071d4df3ad5f"
+    },
+    {
+      "assetPath": "2438567.json",
+      "bytes": 1253539,
+      "sha256": "fb1de5a12cb7db6ac6cc679fa16d2182343d9c9e9a7dde9da516be8c867cb51a"
+    },
+    {
+      "assetPath": "2508130.json",
+      "bytes": 673273,
+      "sha256": "c8cdeb05648b82ab8e85ae247700a32c2c381349c4b1d9d1b5186727a40f9ef3"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 11710573,
+      "sha256": "892b54640520655e602e057ed266e4e6bbb91d0778c62339bda707101e7fd843"
+    },
+    {
+      "assetPath": "files/assets/278392829/1/basis.wasm.js",
+      "bytes": 60106,
+      "sha256": "82143c2193310331a3186530cc1615950f5ddd4d308aa6a25d82ad1d5933c624"
+    },
+    {
+      "assetPath": "files/assets/278392831/1/motorbike3.json",
+      "bytes": 4355,
+      "sha256": "fc392836424f0227a9628a4eb7079e3551406b89d6e0a61403cfa763b8bdae5e"
+    },
+    {
+      "assetPath": "files/assets/278392900/1/pointerLock.js",
+      "bytes": 3298,
+      "sha256": "29ebd335a7973ee95e0cc03e92e2e30edaadba0e1948902eeed9c16d3e893d0d"
+    },
+    {
+      "assetPath": "files/assets/278392937/1/checkSquare.json",
+      "bytes": 5016,
+      "sha256": "fa6705bfe534cbb0eacf62d0d8b5df0b4be58f9932d383bb4f79324a3a7e3463"
+    },
+    {
+      "assetPath": "files/assets/278392966/1/StuntSquarePrefab.json",
+      "bytes": 20007,
+      "sha256": "930682214792eea661d37537078534d6f222ca231d5507dad5a6ea22c30c7f5f"
+    },
+    {
+      "assetPath": "files/assets/278392987/1/Road 1.json",
+      "bytes": 43045,
+      "sha256": "7eb02b76fcc663c498e44bfd36a216fb0b88aeda15dbf39853bf74fc6f12ef9b"
+    },
+    {
+      "assetPath": "files/assets/278393065/1/smoke_forAiRacer.json",
+      "bytes": 2317,
+      "sha256": "306ba96e0b3f284125ea99be84c6e1c8e4cd258b79434b91b2124259290d3560"
+    },
+    {
+      "assetPath": "files/assets/278393073/1/Buildings 3.json",
+      "bytes": 1128,
+      "sha256": "ca28cb66173d67cc4d247254bbcaa4c5ec1c002de394e07c60a807b5b24ce2b4"
+    },
+    {
+      "assetPath": "files/assets/278393097/1/NOS.json",
+      "bytes": 2324,
+      "sha256": "cb0c58aa52e1bdb8b932a97827f9a2d89496f333e466c35e299eece059c6de95"
+    },
+    {
+      "assetPath": "files/assets/278393100/1/nameCanvasBG.json",
+      "bytes": 6639,
+      "sha256": "57c8070442649bd0a6b002bcfdf10fd80b16f6ee2e5d9532cba6eab73c732884"
+    },
+    {
+      "assetPath": "files/assets/278393101/1/nameCanvas.json",
+      "bytes": 2545,
+      "sha256": "eecb3d38039d9f14eeaf79008704c7104955780716547212f051de926865106b"
+    },
+    {
+      "assetPath": "files/assets/278393104/1/Buildings 1.json",
+      "bytes": 1109,
+      "sha256": "d9441f7d5c852484e07d8f8a4a243c1af208a47d3701c26425b2e91dea750e60"
+    },
+    {
+      "assetPath": "files/assets/278393111/1/Jump Ramp.json",
+      "bytes": 2712,
+      "sha256": "9d32ad21edfe4bd00618242b940ed768a6a0b56232437be9c9f2eedc534e7581"
+    },
+    {
+      "assetPath": "files/assets/278393149/1/ammo.wasm.wasm",
+      "bytes": 659433,
+      "sha256": "772899614f44ea350189c1c7f181c9d76cf6820c3ead129e8e3d3c0f46dc1799"
+    },
+    {
+      "assetPath": "files/assets/278393150/1/ammo.wasm.js",
+      "bytes": 391789,
+      "sha256": "02d64f358ec638f458fae29c291168ccd4f157a6a5622a4cd70760cc1b5cc15e"
+    },
+    {
+      "assetPath": "files/assets/278393231/1/basis.wasm.wasm",
+      "bytes": 611602,
+      "sha256": "70ed1e72dea7132706ee4e8637d9fc1e348ea03bb3a46644372f309067c47eef"
+    },
+    {
+      "assetPath": "files/assets/278393393/1/basis.js",
+      "bytes": 1038957,
+      "sha256": "c85407f23254399027517c51dc129e49f3e4abec47450c8f144b2007f64565e9"
+    },
+    {
+      "assetPath": "files/assets/278393446/1/CAR 1 GIFT.json",
+      "bytes": 18765,
+      "sha256": "b8aca7ebb6578e6c3c4020661321eb5a942304c60dc023ad4a5e450ac82dc172"
+    },
+    {
+      "assetPath": "files/assets/278393522/1/Road ZigZag.json",
+      "bytes": 195670,
+      "sha256": "08f0c0cc73500453edd19e8aec42cebd451363c7cdcc89b82c1db70130bc7568"
+    },
+    {
+      "assetPath": "files/assets/278393706/1/MIS BOX 1.json",
+      "bytes": 2107,
+      "sha256": "5697b7e800ebead43646ce894f269140fe5ac040e521bffb4e138b65649b0da4"
+    },
+    {
+      "assetPath": "files/assets/278393709/1/Fly Process.json",
+      "bytes": 1344,
+      "sha256": "2fc6d411b5d2f76de7894d52d60761454026e18fc3fb1c869b845bd51cfb4a26"
+    },
+    {
+      "assetPath": "files/assets/278393759/1/carnado_carSound.mp3",
+      "bytes": 4144,
+      "sha256": "f81c99b11097d1c8261e912fd6ddef03be505a54f7695cf5e87dde12bb60db60"
+    },
+    {
+      "assetPath": "files/assets/278393811/1/KEY COLLECTABLE 1.json",
+      "bytes": 2147,
+      "sha256": "8fca23dce5e1e32715116f9ba4985fac0f653d3313aeb4303751b888361091ad"
+    },
+    {
+      "assetPath": "files/assets/278394370/1/draco.wasm.wasm",
+      "bytes": 285747,
+      "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+    },
+    {
+      "assetPath": "files/assets/278394375/1/draco.js",
+      "bytes": 719410,
+      "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+    },
+    {
+      "assetPath": "files/assets/278394388/1/draco.wasm.js",
+      "bytes": 58763,
+      "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+    },
+    {
+      "assetPath": "files/assets/278395152/1/ammo.js",
+      "bytes": 1895438,
+      "sha256": "2700ed751c7203f1a95cee96af69f34c0a1a9557ce52291ef0ecb8431796e562"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 703,
+      "sha256": "6fa74c3847fce93d8b55e43ab4139e734e27c563b32edbad2c425b05aaaa0aff"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 926,
+      "sha256": "3467041048e1d57c85c9540b814375501a3075be406dacd69e70173ea9799b21"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 859,
+      "sha256": "c90d54e4a81bb7fcd9d95419c547a487806156541f2cba5f3c6443a2319a290b"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 363,
+      "sha256": "d80d9bcc69e177d8f790ecf466a6b026528639bbf313564f27903bf3ed7cab59"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2318111,
+      "sha256": "63d353bd48a27c2671e1292366419b3664acf30fbe9d0dfe08fcb4f1b75976cd"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 431,
+      "sha256": "16d802dd8178ae26e552184fa67e2dad334d45c87156b31be2355b6f820c5f52"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 371952,
+      "sha256": "53cb70a65e9fda1a03feb78d2312a417babb53d525e8d2cff25ad5ea8878732a"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 100178,
+      "sha256": "6658cd84eb8032864701276c108d570c904266a5282f2a8044f97b87d91cad0e"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 2630,
+      "sha256": "7f839253962eb3f6bc3f1fa5adedd5c1a6a2f5a414a54c288213a6b08ce736bc"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

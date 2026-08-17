@@ -1,0 +1,33 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "energy": 100,
+        "coins": 0,
+        "hit": 1,
+        "max_deep": 0,
+        "seed": "RZIYXCICFR",
+        "data": "",
+        "dead": 0,
+        "bomb": 2,
+        "radar": 1,
+        "stone": 0,
+        "stone_max": 0,
+        "gold": 0,
+        "gold_max": 0,
+        "diamond": 0,
+        "diamond_max": 0,
+        "ruby": 0,
+        "ruby_max": 0,
+        "emerald": 0,
+        "emerald_max": 0,
+        "sapphire": 0,
+        "saphire_max": 0,
+        "citrine": 0,
+        "citrine_max": 0,
+        "silver": 0,
+        "silver_max": 0,
+        "tasks": "0|0|0|0|0|0",
+        "pickaxe_level": 1,
+        "energy_level": 0
+    }
+}

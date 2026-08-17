@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/carnado-bike-stunt/index.html",
+    "/games/carnado-bike-stunt/js/poki-sdk-shim.js",
+    "/games/carnado-bike-stunt/js/tiptap-platform-bridge.js"
+  ]
+}

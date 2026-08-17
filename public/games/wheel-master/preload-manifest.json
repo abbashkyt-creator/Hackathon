@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/wheel-master/index.html",
+    "/games/wheel-master/js/poki-sdk-shim.js",
+    "/games/wheel-master/js/tiptap-platform-bridge.js",
+    "/games/wheel-master/js/tiptap-inline-1.js",
+    "/games/wheel-master/js/tiptap-inline-2.js"
+  ]
+}

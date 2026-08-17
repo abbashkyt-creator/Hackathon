@@ -1,0 +1,70 @@
+{
+  "name": "world-of-yarn",
+  "sourcePage": "https://poki.com/en/g/world-of-yarn",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "366ada20a72f500236b790690b7849cea68c8bf79a04a9b2561621f92f065c0b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "e4c47ae9bb2bcd7c06483d261d1ab216432ae021d64bf3c4de8ab81579f88625",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "d20759e687046752d718bd168369ff1e0ca48719dd64e9d4c505913a58e54d39",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "893ea4c256345333e4dc299f6244a219d07f340de437a89c4a7ec7dcebabcbd8",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "1c2cdd87cbd936006ae6875fcab45508ab2a133edf8fe2e2612b45e492c9eb1d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "366ada20a72f500236b790690b7849cea68c8bf79a04a9b2561621f92f065c0b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "d20759e687046752d718bd168369ff1e0ca48719dd64e9d4c505913a58e54d39"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1216,
+      "sha256": "f35e2ed7cfbbc05af75380c3dd50caf93081141e6c5179effeafb2b322c3de94"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "893ea4c256345333e4dc299f6244a219d07f340de437a89c4a7ec7dcebabcbd8"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "1c2cdd87cbd936006ae6875fcab45508ab2a133edf8fe2e2612b45e492c9eb1d"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

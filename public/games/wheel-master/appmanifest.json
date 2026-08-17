@@ -1,0 +1,12 @@
+{
+	"name": "Wheel Master",
+	"short_name": "Wheel Master",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#86e6fe",
+	"icons": [],
+	"screenshots": [],
+	"theme_color": "#86e6fe"
+}

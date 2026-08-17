@@ -1,0 +1,11 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "0": "{\"price\":90,\"label\":\"COLLECT 50 STONES\",\"type\": \"collect\", \"goal\":50 ,\"item\": \"stone\"}",
+        "1": "{\"price\":100,\"label\":\"DIG a HOLE 100m\",\"type\": \"depth\", \"goal\": 100}",
+        "2": "{\"price\":200,\"label\":\"COLLECT 20 DIAMONDS\",\"type\": \"collect\", \"goal\": 20,\"item\": \"diamond\"}",
+        "3": "{\"price\":250,\"label\":\"COLLECT 100 GOLD\",\"type\": \"collect\", \"goal\": 100,\"item\": \"gold\"}",
+        "4": "{\"price\":300,\"label\":\"DIG a HOLE 300m\",\"type\": \"depth\", \"goal\": 300}",
+        "5": "{\"price\":150,\"label\":\"COLLECT 20 CITRINE\",\"type\": \"collect\", \"goal\":20 ,\"item\": \"citrine\"}"
+    }
+}

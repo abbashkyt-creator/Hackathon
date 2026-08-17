@@ -1,0 +1,11 @@
+{
+	"name": "Satisbox Builder Game",
+	"short_name": "Satisbox Builder Game",
+	"description": "BUILDER GAMES: Dozer and Trucks",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}

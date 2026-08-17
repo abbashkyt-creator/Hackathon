@@ -1,0 +1,13 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "stone": "{\"sell_price\":1,\"tile_ID\":9}",
+        "gold": "{\"sell_price\":5,\"tile_ID\":20}",
+        "diamond": "{\"sell_price\":40,\"tile_ID\":21}",
+        "ruby": "{\"sell_price\":25,\"tile_ID\":22}",
+        "emerald": "{\"sell_price\":15,\"tile_ID\":23}",
+        "sapphire": "{\"sell_price\":10,\"tile_ID\":24}",
+        "citrine": "{\"sell_price\":12,\"tile_ID\":25}",
+        "silver": "{\"sell_price\":3,\"tile_ID\":26}"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/satisbox-builder/index.html",
+    "/games/satisbox-builder/js/poki-sdk-shim.js",
+    "/games/satisbox-builder/js/tiptap-platform-bridge.js",
+    "/games/satisbox-builder/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "bubble-tower",
+  "sourcePage": "https://poki.com/en/g/bubble-tower",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "b5d156f973b3cfbc9e15479322c34f06c4f0c6c0cfb4801748dd118508110553",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "24a921c8649a41d98b22366016ebddf9ad09d62e1d43eec5caede066c5b83744",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "1450fffe126c91d552a2166fde3167c44de2220b5ddabc08a2647e509e5ffe67",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "b2f9d4a5d2a3bdf2134546139715be2533a690bf1ddf4f4c1b4c8b280bcc16b1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "c245ac29cb09c552dd70b115adca54bd8f1df97b685f2281c336f71c9a424881",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "b5d156f973b3cfbc9e15479322c34f06c4f0c6c0cfb4801748dd118508110553"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "1450fffe126c91d552a2166fde3167c44de2220b5ddabc08a2647e509e5ffe67"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1049,
+      "sha256": "f2fa8dc102edbc064baa500e9ad650e5a94340cdba660a78f5306030df862a97"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "b2f9d4a5d2a3bdf2134546139715be2533a690bf1ddf4f4c1b4c8b280bcc16b1"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "c245ac29cb09c552dd70b115adca54bd8f1df97b685f2281c336f71c9a424881"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

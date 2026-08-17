@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/snacky-snake/index.html",
+    "/games/snacky-snake/js/poki-sdk-shim.js",
+    "/games/snacky-snake/js/tiptap-platform-bridge.js",
+    "/games/snacky-snake/js/tiptap-inline-1.js"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/bunny-miner/index.html",
+    "/games/bunny-miner/js/poki-sdk-shim.js",
+    "/games/bunny-miner/js/tiptap-platform-bridge.js",
+    "/games/bunny-miner/js/tiptap-inline-1.js"
+  ]
+}

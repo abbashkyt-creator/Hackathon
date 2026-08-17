@@ -1,0 +1,285 @@
+{
+  "name": "zombit",
+  "sourcePage": "https://poki.com/en/g/zombit",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1058,
+      "sha256": "4b8108196bcd5de2dde4bd2b8e343689badd4736724a7bab8ea2f4eb24e2660d",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 160,
+      "sha256": "99c4291967c1df07eb005254df91efaa64596e9381ceeca4dfd5f92892c03fc0",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 902,
+      "sha256": "2be6554b4d18ebaed50b233e94d6eccd5d608bbde57e1562732157b36b816ff8",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 847,
+      "sha256": "f5408c0c70b74221ca0d78fc257f863d10fffb294411ec632194702c86cd9d2d",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 146,
+      "sha256": "0a5dfa2f019b95abe437a27578cd98c750f88f441d994442bdc96ec5d4deba79",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/base_1-D4FSOYPm.png",
+      "bytes": 33010,
+      "sha256": "948795390cf6f056ddc0d4043d61d3241ca57ac883473ed9973ef37096d0bdef"
+    },
+    {
+      "assetPath": "assets/base_2-DaN1_jRV.png",
+      "bytes": 37653,
+      "sha256": "dee454462de3609f78dc3b885c805578fc9f32bf9c651bc7f8c70f1c1d6ff17b"
+    },
+    {
+      "assetPath": "assets/base_3-DuQfzs9d.png",
+      "bytes": 41339,
+      "sha256": "0dcac056324789e61db420c8d3583c133d207637f29dac558156affd32240874"
+    },
+    {
+      "assetPath": "assets/base_4-DCHllsl5.png",
+      "bytes": 46460,
+      "sha256": "1ad362894a6472960d2ea69e0b517db8d95679655dcaea219d313e3147ed9376"
+    },
+    {
+      "assetPath": "assets/bgm-pQ_roIQP.mp3",
+      "bytes": 2459941,
+      "sha256": "6c8733df0de0fcb59920fd9f4f2a8b91f424e9617dca74298961b651a1050208"
+    },
+    {
+      "assetPath": "assets/BitmapFont-C_EJRKzV.js",
+      "bytes": 12028,
+      "sha256": "7d75003a6b581723535a199531c4abf331a8857928ccd345b2b913d71e174742"
+    },
+    {
+      "assetPath": "assets/browserAll-h8jiEDh_.js",
+      "bytes": 41304,
+      "sha256": "5accd32e5c03cf81e9116e7994f8444fea2ac73e7910888274bded1c1847d67a"
+    },
+    {
+      "assetPath": "assets/BufferResource-B9KLNNuz.js",
+      "bytes": 9486,
+      "sha256": "30dab328572f5b80a97e256989077d58cd772c84e6d53a73fc4372c9b2e81ca2"
+    },
+    {
+      "assetPath": "assets/CanvasRenderer-DNmYNCoP.js",
+      "bytes": 17066,
+      "sha256": "8c57c516e009ab2eb24989e151541c5befa3aa03f6f1253ae748a40a5bbef424"
+    },
+    {
+      "assetPath": "assets/coin-kyMmebx6.png",
+      "bytes": 7126,
+      "sha256": "129ac3b69b2e4b8404737137258cd3a1322ed9f9edcef20d4b16f2b332ade00e"
+    },
+    {
+      "assetPath": "assets/coincollect-D1-PGk5n.mp3",
+      "bytes": 25388,
+      "sha256": "cff49dddb6c60fbb3923a5eaa8060d845e21ff639c50e99eece098d02935319f"
+    },
+    {
+      "assetPath": "assets/Filter-C2W6nlit.js",
+      "bytes": 904,
+      "sha256": "2066f424a99bbba68a5007ee0877e9e143c15af1107f673ab6455be0119b607b"
+    },
+    {
+      "assetPath": "assets/fire_pistol-CBoltsZG.mp3",
+      "bytes": 17901,
+      "sha256": "e519e7ca7d52c73d2a596889654532572e0a1b75fdfd84f2b9f1e76cefc2d704"
+    },
+    {
+      "assetPath": "assets/forge_1-eNBkTeGh.png",
+      "bytes": 44574,
+      "sha256": "be890eb69881087867b69f23b1f6a99699b85f18e14da916a8efe9ec39736013"
+    },
+    {
+      "assetPath": "assets/forge_2-C-KornWM.png",
+      "bytes": 47992,
+      "sha256": "2ac9aac28cb0395ed34ff286cb30b4ff34439fcd9a67576819bbcc5bf62f4840"
+    },
+    {
+      "assetPath": "assets/gun-E2Yw_W1l.mp3",
+      "bytes": 23661,
+      "sha256": "d9da4bc84f466fe934903a344c0c94208854789814cb355d26ab098497a9f9cc"
+    },
+    {
+      "assetPath": "assets/gunrange-C2uUXTs1.png",
+      "bytes": 35394,
+      "sha256": "821be49cba453c155b8a3b029c6b8c0d4835db081b85633e6d14d1cd51c6d655"
+    },
+    {
+      "assetPath": "assets/gym-C549zrYZ.png",
+      "bytes": 34205,
+      "sha256": "22d4e096345a42fb1422150964911a0ff15e1002c4dcabad42ffa7ad9009a24e"
+    },
+    {
+      "assetPath": "assets/index-D3VTESIA.css",
+      "bytes": 505,
+      "sha256": "236d736c6df022fd6b47e2657e9e78cc3ce32f7ee95783f823f5785e15483225"
+    },
+    {
+      "assetPath": "assets/index-Ia_8tTSE.js",
+      "bytes": 667584,
+      "sha256": "4ec4223194de2b244930d89c45668d9a35abd314839537876020cae216a3f210"
+    },
+    {
+      "assetPath": "assets/logdrop-Bl3W2d24.mp3",
+      "bytes": 25389,
+      "sha256": "8fcc5d906a41d08c095d57e89f77d7103ca4b6605b900a8e02fb0c8e37653947"
+    },
+    {
+      "assetPath": "assets/logdump-DNu_Fmqk.mp3",
+      "bytes": 25389,
+      "sha256": "70d65dd3dd4da93ec0f6a47d3cba70a39cfbe42b43a3ce1f273151d2e813de89"
+    },
+    {
+      "assetPath": "assets/logpickup-OImyfaE6.mp3",
+      "bytes": 25389,
+      "sha256": "88878fb0392376ffa686bbc5d507e7e1628b9138b82667277e3d4849d4f62e1c"
+    },
+    {
+      "assetPath": "assets/petyard-qK9eewaA.png",
+      "bytes": 51841,
+      "sha256": "7361a26dba2d37bdd0ddc5c06cd3c57c53f1d57ecdc66e9a804561f8aa53e8fa"
+    },
+    {
+      "assetPath": "assets/RenderTargetSystem-D9nHKGVS.js",
+      "bytes": 45457,
+      "sha256": "fb3eaa47f9fc373d80682d615333e8c3010003ca15c41a668e47582eb6969d14"
+    },
+    {
+      "assetPath": "assets/tree1-D5c-mwW0.png",
+      "bytes": 16954,
+      "sha256": "e88577bf3c201e7f74702f253b20033fb47eb9d4a81af0f81e5a70f4df5fbc23"
+    },
+    {
+      "assetPath": "assets/tree2-BLc4e6q3.png",
+      "bytes": 29814,
+      "sha256": "d1d5f6e8d56c5c0405aa115670c233b0e9b8ef00cbc1cd524f29e2e7afcc9def"
+    },
+    {
+      "assetPath": "assets/tree3-DMa2slmU.png",
+      "bytes": 19910,
+      "sha256": "9ae045a8c2b2d0f36117213a722ba6e254eecf0d90056ea00a47fec15b440ed5"
+    },
+    {
+      "assetPath": "assets/tree4-OgMI5Ot-.png",
+      "bytes": 19998,
+      "sha256": "d7146230e34af3134425207bfb163fd2adc1c59529d01afcf02af6ca3476ff1c"
+    },
+    {
+      "assetPath": "assets/treefall-CcVUtFX2.mp3",
+      "bytes": 25389,
+      "sha256": "57b9ff0483d6bb87b65a956b75b6dd35a0d7cbe7642307570318d37cc3d90135"
+    },
+    {
+      "assetPath": "assets/turretshoot-BpUkqBDq.mp3",
+      "bytes": 25389,
+      "sha256": "3a7302e30fa116cc1daa11c393c5c5cec6b369a923af77596dedf8956dffc10b"
+    },
+    {
+      "assetPath": "assets/turret_1-DVLl_O7-.png",
+      "bytes": 5578,
+      "sha256": "c1929d3b1e6840e3172832debadf989787f86a4a094ac9d237eef80a0f14fc11"
+    },
+    {
+      "assetPath": "assets/turret_2-DeykcU_D.png",
+      "bytes": 7437,
+      "sha256": "b5839468533242bfb4d03b373e9b6457f4ede071c93077d525a3470db1289a68"
+    },
+    {
+      "assetPath": "assets/turret_3-BGX5WAF2.png",
+      "bytes": 6829,
+      "sha256": "a236d7624fe8ea3af54947558d85e916682f706a8e8ddcbafa17b079c8e091b2"
+    },
+    {
+      "assetPath": "assets/ui_panel_wood-4fCouWTl.webp",
+      "bytes": 17182,
+      "sha256": "95fe06ce0e0b40cc1eccabf594586a1c89b23f52c190798b78ea6f2b856bc9b5"
+    },
+    {
+      "assetPath": "assets/upgradesuccess-BsuAmwcP.mp3",
+      "bytes": 25389,
+      "sha256": "3b09c3861863a01f7940f4df5721062f4474391b76a34bddf046a488a1499652"
+    },
+    {
+      "assetPath": "assets/weaponswing-DE9Emnce.mp3",
+      "bytes": 25389,
+      "sha256": "aa68e742fcb06761dbe0477061ce1a22299943b9edf48cfeb20fc3d07963977c"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-DzreyXaX.js",
+      "bytes": 68418,
+      "sha256": "534c6e091e7344139a4e6c14344667364ae927bb7a25061526828d39fb95a526"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-Dk3hrE5y.js",
+      "bytes": 38200,
+      "sha256": "8c7895ebbb8f2cc8c86753f84dd5d6818ea4841d75351aaf65be93c20e029fa4"
+    },
+    {
+      "assetPath": "assets/webworkerAll-z3J98AK0.js",
+      "bytes": 11879,
+      "sha256": "6ca4db3360aa88f3b1be9ce6605eb93aaa96edebbb8e8ee27289ccb05b76ed9c"
+    },
+    {
+      "assetPath": "assets/woodchop-BqQSAGlR.mp3",
+      "bytes": 25389,
+      "sha256": "99703573ff10eec6f2225f4fe2c7b4322c6c5c0823b1f5afd10f28d2b065d955"
+    },
+    {
+      "assetPath": "assets/zombiebosskill-C_3ykHFK.mp3",
+      "bytes": 25389,
+      "sha256": "2818c3a4af21b99a71b4b515a52ea0cca5ad3d4321d36bda83f4b01881170eb5"
+    },
+    {
+      "assetPath": "assets/zombiedogkill-Zruq3xWo.mp3",
+      "bytes": 25389,
+      "sha256": "b70546a1e1e47d31456fb35610d24d682f54eb0b0a1069d3de654562fca76b64"
+    },
+    {
+      "assetPath": "assets/zombieminionkill-BdamGdEU.mp3",
+      "bytes": 25389,
+      "sha256": "c932612338bf5b7ca09a9aa3fa8a6273048cd07ed730496c507385382ea34881"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1058,
+      "sha256": "4b8108196bcd5de2dde4bd2b8e343689badd4736724a7bab8ea2f4eb24e2660d"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 902,
+      "sha256": "2be6554b4d18ebaed50b233e94d6eccd5d608bbde57e1562732157b36b816ff8"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 847,
+      "sha256": "f5408c0c70b74221ca0d78fc257f863d10fffb294411ec632194702c86cd9d2d"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 146,
+      "sha256": "0a5dfa2f019b95abe437a27578cd98c750f88f441d994442bdc96ec5d4deba79"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

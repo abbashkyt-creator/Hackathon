@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/goal-gang/index.html",
+    "/games/goal-gang/js/poki-sdk-shim.js",
+    "/games/goal-gang/js/tiptap-platform-bridge.js",
+    "/games/goal-gang/js/tiptap-inline-1.js",
+    "/games/goal-gang/js/tiptap-inline-2.js"
+  ]
+}
