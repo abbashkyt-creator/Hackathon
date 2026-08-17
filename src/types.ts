@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "blocky-out"
   | "squid-dash"
   | "porki-poke"
   | "evolution-game"

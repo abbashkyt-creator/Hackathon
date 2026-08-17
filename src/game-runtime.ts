@@ -382,6 +382,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "evolution-game": { embedded: true, preloadManifest: "/games/evolution-game/preload-manifest.json", assetManifest: "/games/evolution-game/MIRROR-MANIFEST.json", prepareByMount: true },
   "porki-poke": { embedded: true, preloadManifest: "/games/porki-poke/preload-manifest.json", assetManifest: "/games/porki-poke/MIRROR-MANIFEST.json", prepareByMount: true },
   "squid-dash": { embedded: true, preloadManifest: "/games/squid-dash/preload-manifest.json", assetManifest: "/games/squid-dash/MIRROR-MANIFEST.json", prepareByMount: true },
+  "blocky-out": { embedded: true, preloadManifest: "/games/blocky-out/preload-manifest.json", assetManifest: "/games/blocky-out/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

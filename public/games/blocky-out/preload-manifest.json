@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/blocky-out/index.html",
+    "/games/blocky-out/js/poki-sdk-shim.js",
+    "/games/blocky-out/js/tiptap-platform-bridge.js",
+    "/games/blocky-out/js/tiptap-inline-1.js"
+  ]
+}
