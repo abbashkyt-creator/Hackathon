@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/family-tree/index.html",
+    "/games/family-tree/js/poki-sdk-shim.js",
+    "/games/family-tree/js/tiptap-platform-bridge.js",
+    "/games/family-tree/js/tiptap-inline-1.js"
+  ]
+}

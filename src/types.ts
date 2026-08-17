@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "family-tree"
   | "calamari"
   | "blumgi-merge"
   | "sushi-merge"

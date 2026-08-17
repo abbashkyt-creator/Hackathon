@@ -514,6 +514,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "sushi-merge": { creatorId: "sushi-merge", creatorName: "Sushi Merge", creatorLabel: "BY SUSHI MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "blumgi-merge": { creatorId: "blumgi-merge", creatorName: "Blumgi Merge", creatorLabel: "BY BLUMGI MERGE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "calamari": { creatorId: "calamari", creatorName: "Calamari", creatorLabel: "BY CALAMARI · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "family-tree": { creatorId: "family-tree", creatorName: "Family Tree!", creatorLabel: "BY FAMILY TREE! · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

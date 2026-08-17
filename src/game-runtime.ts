@@ -472,6 +472,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "sushi-merge": { embedded: true, preloadManifest: "/games/sushi-merge/preload-manifest.json", assetManifest: "/games/sushi-merge/MIRROR-MANIFEST.json", prepareByMount: true },
   "blumgi-merge": { embedded: true, preloadManifest: "/games/blumgi-merge/preload-manifest.json", assetManifest: "/games/blumgi-merge/MIRROR-MANIFEST.json", prepareByMount: true },
   "calamari": { embedded: true, preloadManifest: "/games/calamari/preload-manifest.json", assetManifest: "/games/calamari/MIRROR-MANIFEST.json", prepareByMount: true },
+  "family-tree": { embedded: true, preloadManifest: "/games/family-tree/preload-manifest.json", assetManifest: "/games/family-tree/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
