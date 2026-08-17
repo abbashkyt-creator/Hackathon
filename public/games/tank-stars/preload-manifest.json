@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/tank-stars/index.html",
+    "/games/tank-stars/js/poki-sdk-shim.js",
+    "/games/tank-stars/js/tiptap-platform-bridge.js",
+    "/games/tank-stars/js/tiptap-inline-1.js"
+  ]
+}

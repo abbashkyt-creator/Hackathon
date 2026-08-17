@@ -303,6 +303,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "cat-simulator": { embedded: true, preloadManifest: "/games/cat-simulator/preload-manifest.json", assetManifest: "/games/cat-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "fashion-legends": { embedded: true, preloadManifest: "/games/fashion-legends/preload-manifest.json", assetManifest: "/games/fashion-legends/MIRROR-MANIFEST.json", prepareByMount: true },
   "mine-and-dig": { embedded: true, preloadManifest: "/games/mine-and-dig/preload-manifest.json", assetManifest: "/games/mine-and-dig/MIRROR-MANIFEST.json", prepareByMount: true },
+  "tank-stars": { embedded: true, preloadManifest: "/games/tank-stars/preload-manifest.json", assetManifest: "/games/tank-stars/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

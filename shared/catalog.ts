@@ -345,6 +345,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "cat-simulator": { creatorId: "cat-simulator", creatorName: "Cat Simulator", creatorLabel: "BY CAT SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
   "fashion-legends": { creatorId: "fashion-legends", creatorName: "Fashion Legends", creatorLabel: "BY FASHION LEGENDS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mine-and-dig": { creatorId: "mine-and-dig", creatorName: "Mine and Dig", creatorLabel: "BY MINE AND DIG · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "tank-stars": { creatorId: "tank-stars", creatorName: "Tank Stars", creatorLabel: "BY TANK STARS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
