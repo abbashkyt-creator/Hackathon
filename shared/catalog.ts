@@ -463,6 +463,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "basketball-superstars": { creatorId: "basketball-superstars", creatorName: "Basketball Superstars", creatorLabel: "BY BASKETBALL SUPERSTARS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "gobattle2": { creatorId: "gobattle-2", creatorName: "GoBattle 2", creatorLabel: "BY GOBATTLE 2 · LOCAL SOURCE MIRROR", category: "Arcade" },
   "samurai-punch": { creatorId: "samurai-punch", creatorName: "Samurai Punch", creatorLabel: "BY SAMURAI PUNCH · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "brainrot-clicker": { creatorId: "brainrot-clicker", creatorName: "Brainrot Clicker", creatorLabel: "BY BRAINROT CLICKER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "elemental-master": { creatorId: "elemental-master", creatorName: "Elemental Master", creatorLabel: "BY ELEMENTAL MASTER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "merge-zoo": { creatorId: "merge-zoo", creatorName: "Merge Zoo", creatorLabel: "BY MERGE ZOO · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

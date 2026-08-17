@@ -1,0 +1,70 @@
+{
+  "name": "samurai-punch",
+  "sourcePage": "https://poki.com/en/g/samurai-punch",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "99d8ec19dd2d0c2816fbcad026ade4a884264e1f41c598e9e3dc106510255fe0",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "facb227516375d8c689149e1c7918023cf2eef55c0831e0e84212bdf60e16fcd",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "071e044a82813a8571416cdc3a87976dcc125971de500461e4fec0c08d32e4c1",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "a89636ddaa1a3e7e25a7c0b22f4a58165d24ecaeb98a85a99c669a4a39603a73",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "31b6c4f1f344577eeffad302b32a6bc0aa88860a242a47b0db815c1ffaabdcd8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 833,
+      "sha256": "99d8ec19dd2d0c2816fbcad026ade4a884264e1f41c598e9e3dc106510255fe0"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "071e044a82813a8571416cdc3a87976dcc125971de500461e4fec0c08d32e4c1"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1219,
+      "sha256": "3aa226cb2d5c8b81fe1f777d15a76bf7a9b82b36e44cd5e20dc9b5cf6f4d64bc"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "a89636ddaa1a3e7e25a7c0b22f4a58165d24ecaeb98a85a99c669a4a39603a73"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 217,
+      "sha256": "31b6c4f1f344577eeffad302b32a6bc0aa88860a242a47b0db815c1ffaabdcd8"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

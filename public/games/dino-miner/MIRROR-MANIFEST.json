@@ -1,0 +1,165 @@
+{
+  "name": "dino-miner",
+  "sourcePage": "https://poki.com/en/g/dino-miner",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1147,
+      "sha256": "945389c53d85f396d8d8da7ced37b966de90e8f181cc013f03b44381f03c0c22",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "4ee9386640d250a3d220101525b0329fc7915e82d838c5c70101eef28faf63e2",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "560a4fa393396cb3033c8d79c551b04d993db6826df68453927a2175f171e8b9",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "270df78eacf51249862ff10515b2a1a29c25568be6edf2026bec6f3023644e08",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 298,
+      "sha256": "59d0eba7ef060dc17fbfcd15c675ffafddae3cc8dd51b8d8f20d21819140447a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 217,
+      "sha256": "0b8de9929990592b58f9dfa3fb365ce23c4fb5c7e4ec0ce7f2341da64004ceac"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 1356048,
+      "sha256": "147c93877bd933b878f67e26b6921ff6df6950f92086f73817168eaaf6e2a7ea"
+    },
+    {
+      "assetPath": "images/en_demon_mask-sheet0.webp",
+      "bytes": 7140,
+      "sha256": "b6ce90e3bc0efe2d80e82b4c4986e85efe1e063813de2f0ed11c8ca0981790d4"
+    },
+    {
+      "assetPath": "images/en_ghost_mask-sheet0.webp",
+      "bytes": 1982,
+      "sha256": "ce8bcec246509ed7f7057ba7e4c0bde27d8dc7a0e098a44ca1d6841bb36025db"
+    },
+    {
+      "assetPath": "images/en_golem_mask-sheet0.webp",
+      "bytes": 2474,
+      "sha256": "1e43dfa73730327b732d1665128e4ebffb2faa74db8ed069fb73ee6385589f40"
+    },
+    {
+      "assetPath": "images/en_king_mask-sheet0.webp",
+      "bytes": 5006,
+      "sha256": "4331cb5381225a9c2d6e2bfca00565031aa27dc0ddc45fa7a96bd941cc80edfe"
+    },
+    {
+      "assetPath": "images/en_skeleton_mask-sheet0.webp",
+      "bytes": 5872,
+      "sha256": "fa7d05317666e9c8a7ba84ee102a90094a94b2f314ef619339453a61e93d1834"
+    },
+    {
+      "assetPath": "images/en_slime_mask-sheet0.webp",
+      "bytes": 1198,
+      "sha256": "28f274cb2057c1e6823d3b088bd3564316571411efcc2663e107deae562e68c3"
+    },
+    {
+      "assetPath": "images/en_slime_mask2-sheet0.webp",
+      "bytes": 1198,
+      "sha256": "e530951114ce459b25d7f8e293b41e3c35aaf4146de43cfa4ddedc1ad47b6ffe"
+    },
+    {
+      "assetPath": "images/en_spikes-sheet0.webp",
+      "bytes": 380,
+      "sha256": "4e9381c3c5396c632f5421db6109c587aebba218ba37fa58b223f89fb7374318"
+    },
+    {
+      "assetPath": "images/en_statue-sheet0.webp",
+      "bytes": 1346,
+      "sha256": "619110f333523368c2928d5e04663e6684a07c6e1d8aedd2de516ab7b292085f"
+    },
+    {
+      "assetPath": "images/projectile_skeleton-sheet0.webp",
+      "bytes": 326,
+      "sha256": "c969cd8e47cc008c467e88c9df0b2aedd5524f983ce0e445c92a53c7e48f62d8"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 31880,
+      "sha256": "a7c5fc95ba2c57f5bba0212883adee8168306caf8bc0285286eb432926d1d0e9"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 3222,
+      "sha256": "610316ab47a97ea0f9fbb8c597d057aaa597d081d740caf49d3bb8405f385d4d"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 2052,
+      "sha256": "50493a3f8959c26afe27756f6206ab25b7317e7fc4772dd8b2091e47c2e3cc56"
+    },
+    {
+      "assetPath": "images/shared-1-sheet3.webp",
+      "bytes": 114,
+      "sha256": "3a8ae3b14110faa1546e946b836b61a97f0f0ce3ade0c11b9d7638812f6f605a"
+    },
+    {
+      "assetPath": "images/shared-2-sheet2.webp",
+      "bytes": 4678,
+      "sha256": "268c5cc7baf17a705c2c5021870cf0fffdd89b8e5ea21d115a96ee141b1ed433"
+    },
+    {
+      "assetPath": "images/shared-2-sheet3.webp",
+      "bytes": 2264,
+      "sha256": "8fc73d871fadce5f98087d6471d30f2e0d820cd08583f34c115bbee5a7ebdad7"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1147,
+      "sha256": "945389c53d85f396d8d8da7ced37b966de90e8f181cc013f03b44381f03c0c22"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "560a4fa393396cb3033c8d79c551b04d993db6826df68453927a2175f171e8b9"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "270df78eacf51249862ff10515b2a1a29c25568be6edf2026bec6f3023644e08"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 298,
+      "sha256": "59d0eba7ef060dc17fbfcd15c675ffafddae3cc8dd51b8d8f20d21819140447a"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

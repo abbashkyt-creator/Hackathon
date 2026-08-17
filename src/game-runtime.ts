@@ -421,6 +421,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "basketball-superstars": { embedded: true, preloadManifest: "/games/basketball-superstars/preload-manifest.json", assetManifest: "/games/basketball-superstars/MIRROR-MANIFEST.json", prepareByMount: true },
   "gobattle2": { embedded: true, preloadManifest: "/games/gobattle2/preload-manifest.json", assetManifest: "/games/gobattle2/MIRROR-MANIFEST.json", prepareByMount: true },
   "samurai-punch": { embedded: true, preloadManifest: "/games/samurai-punch/preload-manifest.json", assetManifest: "/games/samurai-punch/MIRROR-MANIFEST.json", prepareByMount: true },
+  "brainrot-clicker": { embedded: true, preloadManifest: "/games/brainrot-clicker/preload-manifest.json", assetManifest: "/games/brainrot-clicker/MIRROR-MANIFEST.json", prepareByMount: true },
+  "elemental-master": { embedded: true, preloadManifest: "/games/elemental-master/preload-manifest.json", assetManifest: "/games/elemental-master/MIRROR-MANIFEST.json", prepareByMount: true },
+  "merge-zoo": { embedded: true, preloadManifest: "/games/merge-zoo/preload-manifest.json", assetManifest: "/games/merge-zoo/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

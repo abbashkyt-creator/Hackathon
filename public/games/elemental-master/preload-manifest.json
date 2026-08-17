@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/elemental-master/index.html",
+    "/games/elemental-master/js/poki-sdk-shim.js",
+    "/games/elemental-master/js/tiptap-platform-bridge.js",
+    "/games/elemental-master/js/tiptap-inline-1.js",
+    "/games/elemental-master/js/tiptap-inline-2.js"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/brainrot-clicker/index.html",
+    "/games/brainrot-clicker/js/poki-sdk-shim.js",
+    "/games/brainrot-clicker/js/tiptap-platform-bridge.js",
+    "/games/brainrot-clicker/js/tiptap-inline-1.js",
+    "/games/brainrot-clicker/js/tiptap-inline-2.js"
+  ]
+}

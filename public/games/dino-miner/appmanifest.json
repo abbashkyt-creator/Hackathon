@@ -1,0 +1,11 @@
+{
+	"name": "Dino Miner",
+	"short_name": "Dino Miner",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}

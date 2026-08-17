@@ -1,0 +1,26 @@
+{
+  "name": "merge-zoo",
+  "sourcePage": "https://poki.com/en/g/merge-zoo",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2509,
+      "sha256": "231dc1206adce67e2a2fb7bb73cdb334d3f630c8dd267e19f231c0605e69a179",
+      "purpose": "Localized entry"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2839,
+      "sha256": "75d1cb8c8b96db9ea1ab1d904a568577d6f0a7353d6475d8592868a8227e3dc1"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

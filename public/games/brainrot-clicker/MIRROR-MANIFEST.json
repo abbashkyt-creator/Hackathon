@@ -1,0 +1,190 @@
+{
+  "name": "brainrot-clicker",
+  "sourcePage": "https://poki.com/en/g/brainrot-clicker",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3732,
+      "sha256": "18fe8425d1c26e2ec8e7c0ccb46b53fdcb7ea19248e04b7140ace50766fc5e7a",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 170,
+      "sha256": "c5700c0c5b1ee12cc56e831eeb6074b68dc6dde993a83645f7439c912d102812",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "ed4352ea0214ff0824d9397132a2ad357a5d485048b265e3fe5e99d219b1eda2",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f902c8a629daa237e87cbb5114a27fcbc974d9fd2ae9578cf216ab88462609dd",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 282,
+      "sha256": "73699615da9c4d978e07abcdc8e9ffaeaf3f5551ff444552e3a997e315726090",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 248,
+      "sha256": "ebcb14a184588d3964cf2c1254abb8265672bc02b29f613e5888f7d33abd1d38"
+    },
+    {
+      "assetPath": "bgimg.webp",
+      "bytes": 143872,
+      "sha256": "d0a53ff82ad279b46172ed7fe6b90b069fb167db1bb88e85bcc87d19b8be447e"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 187326,
+      "sha256": "1fe5cadfeb1c9d220016ae37b3da1b167303e5993f5ab5ba9edc80f1b07f9642"
+    },
+    {
+      "assetPath": "images/bottommenuline-sheet0.png",
+      "bytes": 82,
+      "sha256": "574cd8684cbd5790b1ec79c80fa45144b5da446bd7424bba135ac5eba97176de"
+    },
+    {
+      "assetPath": "images/gamebg-sheet0.png",
+      "bytes": 1163,
+      "sha256": "9b4bc1be1633f333046b31476da7dab8a43deb7a39e254652dff006100e22625"
+    },
+    {
+      "assetPath": "images/iconsmain-sheet0.png",
+      "bytes": 15088,
+      "sha256": "04533c551e02333392c2349ab163ca9ee2dd0a4f65ad8111da3b25f59997bf1c"
+    },
+    {
+      "assetPath": "images/iconsmain-sheet1.png",
+      "bytes": 2142,
+      "sha256": "40e23d8dd5c8ae0ceafbf2ca48ab886ef7a3772bb1c7f1e6244826685c0aa2a7"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 144370,
+      "sha256": "93652668d7e758f4137d3d7db6e36c139be68a3ee2fd0fdccde19e894580787f"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 42177,
+      "sha256": "3074326bb4ec243ec5d162aee673961b88b6a4613cf1e92694cd36b36dbdeb15"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 20702,
+      "sha256": "4b4c6e0eaed0f582d6655dfdbfbf948e9a7feb41ec0ae643b161a9ac59a37665"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.png",
+      "bytes": 844,
+      "sha256": "6941dc77ac0163d62b55f97c0bedb58ffe0ebf16dbca2f6a5b774dd8aa2f1a2e"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.png",
+      "bytes": 94,
+      "sha256": "d06cc3388ced5b051ccac358ccf150c0f1b9648c6c58a1ff6542f9e60c342c62"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.png",
+      "bytes": 44304,
+      "sha256": "17504212da3d049943385f76c408e26096fec0245f89e1d6ac6b3f52b2b82638"
+    },
+    {
+      "assetPath": "images/skin-sheet0.png",
+      "bytes": 502558,
+      "sha256": "965a0c4901d103a24cf25e94d7dc0100df74afbc72b24bc4fb187f9ce6f441ba"
+    },
+    {
+      "assetPath": "images/skin-sheet1.png",
+      "bytes": 394247,
+      "sha256": "21c7114d553631b3df34b0dd00eb01da8142df064494c5adc653862999ddeb00"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3732,
+      "sha256": "18fe8425d1c26e2ec8e7c0ccb46b53fdcb7ea19248e04b7140ace50766fc5e7a"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 922,
+      "sha256": "ed4352ea0214ff0824d9397132a2ad357a5d485048b265e3fe5e99d219b1eda2"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 6259,
+      "sha256": "ab14bfbc59463704fe540bdc92ec74be0d16f07349cd5ddcac025a6dbf84239a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 857,
+      "sha256": "f902c8a629daa237e87cbb5114a27fcbc974d9fd2ae9578cf216ab88462609dd"
+    },
+    {
+      "assetPath": "loading.png",
+      "bytes": 964,
+      "sha256": "cf23355f5b218fce2204460cf8859c077ee44507d794e39387a6a47c9c4c98f9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 282,
+      "sha256": "73699615da9c4d978e07abcdc8e9ffaeaf3f5551ff444552e3a997e315726090"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1368812,
+      "sha256": "9c8d107f6e5a8f696d26ec775e2b857fad9938e948e1e5b8c303bfd9aa57d63e"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 118250,
+      "sha256": "b3e77a766e50a8b8365c585c634b11f95f0ee21d33a9e26b90f694330b72771c"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4745,
+      "sha256": "e9b6c3ad78eefce680d3dd8bba33eed7260800b345a2e8cf7462f448a4d0c46b"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

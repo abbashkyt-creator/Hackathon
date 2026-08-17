@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/merge-zoo/index.html",
+    "/games/merge-zoo/js/poki-sdk-shim.js",
+    "/games/merge-zoo/js/tiptap-platform-bridge.js",
+    "/games/merge-zoo/js/tiptap-inline-1.js",
+    "/games/merge-zoo/js/tiptap-inline-2.js"
+  ]
+}

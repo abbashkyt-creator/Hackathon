@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/dino-miner/index.html",
+    "/games/dino-miner/js/poki-sdk-shim.js",
+    "/games/dino-miner/js/tiptap-platform-bridge.js",
+    "/games/dino-miner/scripts/modernjscheck.js",
+    "/games/dino-miner/scripts/supportcheck.js",
+    "/games/dino-miner/scripts/main.js"
+  ]
+}
