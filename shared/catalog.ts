@@ -391,6 +391,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "blumgi-bounce": { creatorId: "blumgi-bounce", creatorName: "Blumgi Bounce", creatorLabel: "BY BLUMGI BOUNCE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "ragdoll-drop": { creatorId: "ragdoll-drop", creatorName: "Ragdoll Drop", creatorLabel: "BY RAGDOLL DROP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "kates-cooking-party": { creatorId: "kate-s-cooking-party", creatorName: "Kate's Cooking Party", creatorLabel: "BY KATE'S COOKING PARTY · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "dino-quake": { creatorId: "dino-quake", creatorName: "Dino Quake", creatorLabel: "BY DINO QUAKE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

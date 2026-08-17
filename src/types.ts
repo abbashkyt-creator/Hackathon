@@ -39,6 +39,7 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "dino-quake"
   | "kates-cooking-party"
   | "ragdoll-drop"
   | "blumgi-bounce"

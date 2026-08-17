@@ -1,0 +1,9 @@
+{
+  "critical": [
+    "/games/dino-quake/index.html",
+    "/games/dino-quake/js/poki-sdk-shim.js",
+    "/games/dino-quake/js/tiptap-platform-bridge.js",
+    "/games/dino-quake/js/tiptap-inline-1.js",
+    "/games/dino-quake/js/tiptap-inline-2.js"
+  ]
+}
