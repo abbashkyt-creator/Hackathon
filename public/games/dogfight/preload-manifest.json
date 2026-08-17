@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/dogfight/index.html",
+    "/games/dogfight/js/poki-sdk-shim.js",
+    "/games/dogfight/js/tiptap-platform-bridge.js"
+  ]
+}

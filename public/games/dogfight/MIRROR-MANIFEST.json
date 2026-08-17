@@ -1,0 +1,135 @@
+{
+  "name": "dogfight",
+  "sourcePage": "https://poki.com/en/g/dogfight",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1554,
+      "sha256": "e976fded6e3c0ba1ef5df6103daaeeb261147a6623bd52f2939ef416bfea129c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 162,
+      "sha256": "f7e17d6094097e60513d7a297b0b4c111d224b780e1c0969fc37b40c477ae8f7",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "2ce73789cb2ee07909ddc061c848e7c39bdc284faeed04f3e6e3aa9ccd52daec",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "ec2802808f84575301dd78aaf8490eb69a62da1a8a15ba4a384d318c005c0087",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 152,
+      "sha256": "c4ceb887455f713ba8ac1649413b71afa4f580e7c431ed6d4ed3e48cdb65b97f",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "fileconfig.json",
+      "bytes": 54990,
+      "sha256": "ad18c5713c285cc9504b2c2cf3cb9bbf0509846d53e98b8a2e2e885680bc309b"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1554,
+      "sha256": "e976fded6e3c0ba1ef5df6103daaeeb261147a6623bd52f2939ef416bfea129c"
+    },
+    {
+      "assetPath": "index.js",
+      "bytes": 140,
+      "sha256": "acd4e2f62b0e2e835c9b2ac3196b2ba0c279c1e6455fb9cc6ed790ee37da8eeb"
+    },
+    {
+      "assetPath": "js/bundle.js",
+      "bytes": 223436,
+      "sha256": "142839f611d30289bf9b674498b82c2704667c8f964f993de55aab22609639cc"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 906,
+      "sha256": "2ce73789cb2ee07909ddc061c848e7c39bdc284faeed04f3e6e3aa9ccd52daec"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 849,
+      "sha256": "ec2802808f84575301dd78aaf8490eb69a62da1a8a15ba4a384d318c005c0087"
+    },
+    {
+      "assetPath": "libs/min/laya.core.min.js",
+      "bytes": 467832,
+      "sha256": "e3cc7ca6c33f4e37bcf1c60a48d34005e5d7abdbb95a8750b85895a5b0b1c0b2"
+    },
+    {
+      "assetPath": "libs/min/laya.ui.min.js",
+      "bytes": 110994,
+      "sha256": "c0b0f3f1bcd4255d7bef503054e8f7640752ffa1d06c49ed38718def0853d543"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 152,
+      "sha256": "c4ceb887455f713ba8ac1649413b71afa4f580e7c431ed6d4ed3e48cdb65b97f"
+    },
+    {
+      "assetPath": "res/atlas/effects.json",
+      "bytes": 38226,
+      "sha256": "f709c4acf2501d47d4481655a06ea0545f8f5fd628f2a67124bb42919a74c5b6"
+    },
+    {
+      "assetPath": "res/cfg/GunCfg.json",
+      "bytes": 10758,
+      "sha256": "cad747116b57eee4ebcf9c2224d1c84d9c8988822df0ebdbf89107cf5cb27d8d"
+    },
+    {
+      "assetPath": "res/cfg/Local.json",
+      "bytes": 328241,
+      "sha256": "113fd8c123fd6bb9eeecf55e3d6aadc2350432f25fdd0b63756f9d77d5c93754"
+    },
+    {
+      "assetPath": "res/cfg/MissionCfg.json",
+      "bytes": 91627,
+      "sha256": "7ca1b0d5ffe54e7ce87a64bdf9d50d0269d134c6551eb6ecc98dc63ad66a0d03"
+    },
+    {
+      "assetPath": "res/cfg/ObjectCfg.json",
+      "bytes": 67471,
+      "sha256": "130a3c76a83e0efa1f4d9eb9fb8958a981f9507278f4bc85067c80b746ed3a37"
+    },
+    {
+      "assetPath": "res/sound/bgMusic0.mp3",
+      "bytes": 379542,
+      "sha256": "a727b6520550e863f2bd37b32fa7d6d91627fc3f40ce2de6e8c63efa524e7401"
+    },
+    {
+      "assetPath": "res/sound/jam.mp3",
+      "bytes": 3768,
+      "sha256": "f86d86bbc9339b7ee9d5c244884906b719d3d94d2e03e61b2cf9e656240c9557"
+    },
+    {
+      "assetPath": "res/sound/success.mp3",
+      "bytes": 45514,
+      "sha256": "2fff26e92d3ab763590d84ad15c7486bbce8ee6e8b3adbbe5ac06cf3ca076f9f"
+    },
+    {
+      "assetPath": "version.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

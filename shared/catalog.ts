@@ -445,6 +445,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "screw-jam-puzzle": { creatorId: "screw-jam-puzzle", creatorName: "Screw Jam Puzzle", creatorLabel: "BY SCREW JAM PUZZLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "need-for-madness": { creatorId: "need-for-madness", creatorName: "Need for Madness", creatorLabel: "BY NEED FOR MADNESS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "pets-park": { creatorId: "pets-park", creatorName: "Pets Park", creatorLabel: "BY PETS PARK · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "doodle-race": { creatorId: "doodle-race", creatorName: "Doodle Race", creatorLabel: "BY DOODLE RACE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

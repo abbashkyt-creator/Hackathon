@@ -403,6 +403,7 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "screw-jam-puzzle": { embedded: true, preloadManifest: "/games/screw-jam-puzzle/preload-manifest.json", assetManifest: "/games/screw-jam-puzzle/MIRROR-MANIFEST.json", prepareByMount: true },
   "need-for-madness": { embedded: true, preloadManifest: "/games/need-for-madness/preload-manifest.json", assetManifest: "/games/need-for-madness/MIRROR-MANIFEST.json", prepareByMount: true },
   "pets-park": { embedded: true, preloadManifest: "/games/pets-park/preload-manifest.json", assetManifest: "/games/pets-park/MIRROR-MANIFEST.json", prepareByMount: true },
+  "doodle-race": { embedded: true, preloadManifest: "/games/doodle-race/preload-manifest.json", assetManifest: "/games/doodle-race/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
