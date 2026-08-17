@@ -3,8 +3,6 @@
     "/games/brainrot-craft/index.html",
     "/games/brainrot-craft/js/poki-sdk-shim.js",
     "/games/brainrot-craft/js/tiptap-platform-bridge.js",
-    "/games/brainrot-craft/scripts/modernjscheck.js",
-    "/games/brainrot-craft/scripts/supportcheck.js",
-    "/games/brainrot-craft/scripts/main.js"
+    "/games/brainrot-craft/js/tiptap-inline-1.js"
   ]
 }

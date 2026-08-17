@@ -39,6 +39,8 @@ export type GameSlug =
   | "stickman-battle"
   | "retro-bowl"
   | "drift-boss"
+  | "tower-merge"
+  | "brainrot-craft"
   | "circloo-xl"
   | "bounce-ball"
   | "dino-miner"

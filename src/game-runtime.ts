@@ -427,6 +427,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "dino-miner": { embedded: true, preloadManifest: "/games/dino-miner/preload-manifest.json", assetManifest: "/games/dino-miner/MIRROR-MANIFEST.json", prepareByMount: true },
   "bounce-ball": { embedded: true, preloadManifest: "/games/bounce-ball/preload-manifest.json", assetManifest: "/games/bounce-ball/MIRROR-MANIFEST.json", prepareByMount: true },
   "circloo-xl": { embedded: true, preloadManifest: "/games/circloo-xl/preload-manifest.json", assetManifest: "/games/circloo-xl/MIRROR-MANIFEST.json", prepareByMount: true },
+  "brainrot-craft": { embedded: true, preloadManifest: "/games/brainrot-craft/preload-manifest.json", assetManifest: "/games/brainrot-craft/MIRROR-MANIFEST.json", prepareByMount: true },
+  "tower-merge": { embedded: true, preloadManifest: "/games/tower-merge/preload-manifest.json", assetManifest: "/games/tower-merge/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

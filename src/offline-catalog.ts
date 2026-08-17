@@ -463,6 +463,8 @@ export const OFFLINE_BOOTSTRAP: BootstrapData = {
     { slug: "dino-miner", title: "dino-miner", rule_text: "Play dino-miner.", accent: "#8b5cf6" },
     { slug: "bounce-ball", title: "bounce-ball", rule_text: "Play bounce-ball.", accent: "#8b5cf6" },
     { slug: "circloo-xl", title: "circloo-xl", rule_text: "Play circloo-xl.", accent: "#8b5cf6" },
+    { slug: "brainrot-craft", title: "brainrot-craft", rule_text: "Play brainrot-craft.", accent: "#8b5cf6" },
+    { slug: "tower-merge", title: "tower-merge", rule_text: "Play tower-merge.", accent: "#8b5cf6" },
     { slug: "drift-boss", title: "Drift Boss", rule_text: "Play Drift Boss.", accent: "#8b5cf6" },
     { slug: "little-farm-world", title: "little-farm-world", rule_text: "Play little-farm-world.", accent: "#8b5cf6" },
     { slug: "moms-diary-cooking-games", title: "moms-diary-cooking-games", rule_text: "Play moms-diary-cooking-games.", accent: "#8b5cf6" },
