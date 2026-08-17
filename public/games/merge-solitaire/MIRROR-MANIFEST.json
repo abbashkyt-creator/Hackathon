@@ -1,0 +1,95 @@
+{
+  "name": "merge-solitaire",
+  "sourcePage": "https://poki.com/en/g/merge-solitaire",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3632,
+      "sha256": "92bb74bb96aac707db115490d34f9b77d5df22aa89bb9b608375c4f00d8f0f23",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "2120161401e8f93172af5ac10d51502ed5893ddd2f3173574d5f74a7e3226df5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "fa844441baaa6731e42f5a1cbfe8037bcc06b2bf66331a54fefdb802e57c58f5",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "9744662c64746550daf8010b7acfe41223e160e894bc49ae29b69a2d5481b584",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "a8ff256b562817254fee17db4576ba2046865c890e505e840b458c279bf9e3f3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/bg/bg0.jpg",
+      "bytes": 20978,
+      "sha256": "f8d0281ef6194b9626c4ef6fde51dfd5d2037232d5316f5891e0d4fe04cf3f7e"
+    },
+    {
+      "assetPath": "assets/font/coiny-regular.ttf",
+      "bytes": 88036,
+      "sha256": "3cd40b333dd59f1e121d87f5873e3de4a368360225c1035e363356f53e0e2997"
+    },
+    {
+      "assetPath": "assets/img/line.json",
+      "bytes": 19330,
+      "sha256": "cddd56acbbb01e4d14595621188dfd2809add415407ccc9429f0080474dfe143"
+    },
+    {
+      "assetPath": "assets/sounds/all.json",
+      "bytes": 1087,
+      "sha256": "a24f46b6d4ba50022b288fc3b868000c541fe908adc47e2297219f9eb4d12f8c"
+    },
+    {
+      "assetPath": "assets/sounds/all.mp3",
+      "bytes": 188412,
+      "sha256": "316f108f539a2bbe62495d3ca3ce80bf2a5f8ef0b53f6ebd179a6afeef07031a"
+    },
+    {
+      "assetPath": "bundle.min.js",
+      "bytes": 1292094,
+      "sha256": "2dad810d79d48a003a01a08298bd78c3df38e4ed25afccc491cf1af3a9aaa050"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3632,
+      "sha256": "92bb74bb96aac707db115490d34f9b77d5df22aa89bb9b608375c4f00d8f0f23"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "fa844441baaa6731e42f5a1cbfe8037bcc06b2bf66331a54fefdb802e57c58f5"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "9744662c64746550daf8010b7acfe41223e160e894bc49ae29b69a2d5481b584"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "a8ff256b562817254fee17db4576ba2046865c890e505e840b458c279bf9e3f3"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

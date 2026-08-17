@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/blockpost/index.html",
+    "/games/blockpost/js/poki-sdk-shim.js",
+    "/games/blockpost/js/tiptap-platform-bridge.js",
+    "/games/blockpost/js/tiptap-inline-1.js"
+  ]
+}

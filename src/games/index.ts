@@ -38,6 +38,8 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { BlockpostGame } from "./BlockpostGame";
+export { Run3Game } from "./Run3Game";
 export { AntArtTycoonGame } from "./AntArtTycoonGame";
 export { CrazyDescentGame } from "./CrazyDescentGame";
 export { FlyingWheelsEvolutionGame } from "./FlyingWheelsEvolutionGame";

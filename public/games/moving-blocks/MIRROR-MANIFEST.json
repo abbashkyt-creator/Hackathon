@@ -1,0 +1,110 @@
+{
+  "name": "moving-blocks",
+  "sourcePage": "https://poki.com/en/g/moving-blocks",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 615,
+      "sha256": "c841fb390b5e4ef9ccb11b29bc90c9445e054d690aaf192eac56f1f44adb8c03",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "f5a034725c8073b32a664f1e4e81c764ee8657daf6d88df3eb3a82c6afe60fdb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "0a6ccd0f882d65984cc769570cf076cabc47bcf789b601758fb81fa002304462",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "80a06ad9a6b4c9e45300fc37495c6343cc206e16d5de228697615f30cdf9e27b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 167,
+      "sha256": "4935773f993a0328de132fbe002b1458aecce57a2b0d1f65f4edec6a0d6a6a4a",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/browserAll-B83woMZ5.js",
+      "bytes": 43108,
+      "sha256": "a7c210663b761fa13b37381a5ea8caca455b5c55892a5b2e0ee294010a0ba622"
+    },
+    {
+      "assetPath": "assets/colorToUniform-DMDXqlfN.js",
+      "bytes": 4174,
+      "sha256": "f890fa318ff592f1aecdbca0f33cc1e179dbeb1d428c4de13782849cc38f23b7"
+    },
+    {
+      "assetPath": "assets/index-CUlT5p8T.js",
+      "bytes": 379163,
+      "sha256": "fcc031dd05a36274e901d016e76ecb96f5b51f7ac404e4b297fb600ceb9a7448"
+    },
+    {
+      "assetPath": "assets/SharedSystems-C0bkUSrt.js",
+      "bytes": 55318,
+      "sha256": "8723338dad9e043ed2443e2a2a8ec18e7a5d2dc06149177ac0b7812be7e294d1"
+    },
+    {
+      "assetPath": "assets/WebGLRenderer-DJphdaaK.js",
+      "bytes": 63417,
+      "sha256": "ef776b322694ccfe67ff0d7fe903182fdef7fc59c0336e3050a8e65ea27c7444"
+    },
+    {
+      "assetPath": "assets/WebGPURenderer-DyMAsvWP.js",
+      "bytes": 37165,
+      "sha256": "5d48ab8fdbcd4fd2b1a5f108c04c43ff2d38fbc6e397e2cdb1ed16fd2dc3a952"
+    },
+    {
+      "assetPath": "assets/webworkerAll-BSKl6jgn.js",
+      "bytes": 56386,
+      "sha256": "f9086d2adf6a7023c446fd47d78540be38e467b7df885f77c07e0a13a6ae8728"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 615,
+      "sha256": "c841fb390b5e4ef9ccb11b29bc90c9445e054d690aaf192eac56f1f44adb8c03"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "0a6ccd0f882d65984cc769570cf076cabc47bcf789b601758fb81fa002304462"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "80a06ad9a6b4c9e45300fc37495c6343cc206e16d5de228697615f30cdf9e27b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 167,
+      "sha256": "4935773f993a0328de132fbe002b1458aecce57a2b0d1f65f4edec6a0d6a6a4a"
+    },
+    {
+      "assetPath": "sprites/tutorial/Keyboard_01.png",
+      "bytes": 1026,
+      "sha256": "cb06bd4e20acbc445fa0e502c7f78dd6d0478550e2d3018fc59f3325aa29b7a5"
+    },
+    {
+      "assetPath": "sprites/tutorial/Keyboard_02.png",
+      "bytes": 1039,
+      "sha256": "c1b01a3964d5a6115f75261c67d19ab2ccfe46863e9880992931016d347f3ef6"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

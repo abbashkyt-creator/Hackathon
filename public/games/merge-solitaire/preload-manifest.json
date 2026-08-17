@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/merge-solitaire/index.html",
+    "/games/merge-solitaire/js/poki-sdk-shim.js",
+    "/games/merge-solitaire/js/tiptap-platform-bridge.js"
+  ]
+}

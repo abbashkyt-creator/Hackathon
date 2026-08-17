@@ -31,6 +31,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "blockpost": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "run-3": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "ant-art-tycoon": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "crazy-descent": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "flying-wheels-evolution": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },

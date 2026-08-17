@@ -409,6 +409,8 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "flying-wheels-evolution": { embedded: true, preloadManifest: "/games/flying-wheels-evolution/preload-manifest.json", assetManifest: "/games/flying-wheels-evolution/MIRROR-MANIFEST.json", prepareByMount: true },
   "crazy-descent": { embedded: true, preloadManifest: "/games/crazy-descent/preload-manifest.json", assetManifest: "/games/crazy-descent/MIRROR-MANIFEST.json", prepareByMount: true },
   "ant-art-tycoon": { embedded: true, preloadManifest: "/games/ant-art-tycoon/preload-manifest.json", assetManifest: "/games/ant-art-tycoon/MIRROR-MANIFEST.json", prepareByMount: true },
+  "run-3": { embedded: true, preloadManifest: "/games/run-3/preload-manifest.json", assetManifest: "/games/run-3/MIRROR-MANIFEST.json", prepareByMount: true },
+  "blockpost": { embedded: true, preloadManifest: "/games/blockpost/preload-manifest.json", assetManifest: "/games/blockpost/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

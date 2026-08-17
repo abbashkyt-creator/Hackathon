@@ -451,6 +451,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "flying-wheels-evolution": { creatorId: "flying-wheels-evolution", creatorName: "Flying Wheels Evolution", creatorLabel: "BY FLYING WHEELS EVOLUTION · LOCAL SOURCE MIRROR", category: "Arcade" },
   "crazy-descent": { creatorId: "crazy-descent", creatorName: "Crazy Descent", creatorLabel: "BY CRAZY DESCENT · LOCAL SOURCE MIRROR", category: "Arcade" },
   "ant-art-tycoon": { creatorId: "ant-art-tycoon", creatorName: "Ant Art Tycoon", creatorLabel: "BY ANT ART TYCOON · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "run-3": { creatorId: "run-3", creatorName: "Run 3", creatorLabel: "BY RUN 3 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "blockpost": { creatorId: "blockpost", creatorName: "Blockpost", creatorLabel: "BY BLOCKPOST · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
