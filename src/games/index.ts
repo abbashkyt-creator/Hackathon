@@ -38,6 +38,8 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { MineAndDigGame } from "./MineAndDigGame";
+export { FashionLegendsGame } from "./FashionLegendsGame";
 export { CatSimulatorGame } from "./CatSimulatorGame";
 export { FlatBaseballGame } from "./FlatBaseballGame";
 export { DivaMakeupStudioGame } from "./DivaMakeupStudioGame";

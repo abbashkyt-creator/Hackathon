@@ -343,6 +343,8 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "diva-makeup-studio": { creatorId: "diva-makeup-studio", creatorName: "Diva Makeup Studio", creatorLabel: "BY DIVA MAKEUP STUDIO · LOCAL SOURCE MIRROR", category: "Arcade" },
   "flat-baseball": { creatorId: "flat-baseball", creatorName: "Flat Baseball", creatorLabel: "BY FLAT BASEBALL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cat-simulator": { creatorId: "cat-simulator", creatorName: "Cat Simulator", creatorLabel: "BY CAT SIMULATOR · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "fashion-legends": { creatorId: "fashion-legends", creatorName: "Fashion Legends", creatorLabel: "BY FASHION LEGENDS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "mine-and-dig": { creatorId: "mine-and-dig", creatorName: "Mine and Dig", creatorLabel: "BY MINE AND DIG · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

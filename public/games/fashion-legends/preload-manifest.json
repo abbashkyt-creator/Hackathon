@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/fashion-legends/index.html",
+    "/games/fashion-legends/js/poki-sdk-shim.js",
+    "/games/fashion-legends/js/tiptap-platform-bridge.js",
+    "/games/fashion-legends/js/tiptap-inline-1.js"
+  ]
+}

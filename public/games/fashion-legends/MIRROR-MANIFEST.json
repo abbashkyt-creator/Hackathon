@@ -1,0 +1,70 @@
+{
+  "name": "fashion-legends",
+  "sourcePage": "https://poki.com/en/g/fashion-legends",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "8bdfb7b12c8ea653dadec9d887822fc5cec112920021838aa96208eb4f9ec7de",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "9baaf82fb34a79bbed49606b9d7dcdcfece084cda48b5d765f1c924a807e1481",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "fbe2b18c106b7bf97aa7b753f1475fb684c94faa451504390229014d35e7a5b0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "736d5ebe0276c4194b6bfae68067e4094a3efa9ae04083a1a0c5a647f8add652",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "32dc6423e1a1a09263c3519966472c591ab8efe1826738363d8374fafd10e933",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 837,
+      "sha256": "8bdfb7b12c8ea653dadec9d887822fc5cec112920021838aa96208eb4f9ec7de"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "fbe2b18c106b7bf97aa7b753f1475fb684c94faa451504390229014d35e7a5b0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1296,
+      "sha256": "07cc903a0d9a798533c149bc8b3cdb68e4d12db4adff206511d05d814b741693"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "736d5ebe0276c4194b6bfae68067e4094a3efa9ae04083a1a0c5a647f8add652"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 225,
+      "sha256": "32dc6423e1a1a09263c3519966472c591ab8efe1826738363d8374fafd10e933"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

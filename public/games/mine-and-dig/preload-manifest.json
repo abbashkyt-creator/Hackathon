@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/mine-and-dig/index.html",
+    "/games/mine-and-dig/js/poki-sdk-shim.js",
+    "/games/mine-and-dig/js/tiptap-platform-bridge.js",
+    "/games/mine-and-dig/js/tiptap-inline-1.js"
+  ]
+}

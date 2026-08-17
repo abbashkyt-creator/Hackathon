@@ -31,6 +31,8 @@ export const GAME_SCORE_POLICIES = {
   "stickman-battle": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "retro-bowl": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "drift-boss": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "mine-and-dig": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
+  "fashion-legends": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "cat-simulator": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "flat-baseball": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
   "diva-makeup-studio": { maxScore: 200_000, maxPerSecond: 90, burstAllowance: 120 },
