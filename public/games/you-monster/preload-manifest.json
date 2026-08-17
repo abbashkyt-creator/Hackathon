@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/you-monster/index.html",
+    "/games/you-monster/js/poki-sdk-shim.js",
+    "/games/you-monster/js/tiptap-platform-bridge.js",
+    "/games/you-monster/js/tiptap-inline-1.js"
+  ]
+}

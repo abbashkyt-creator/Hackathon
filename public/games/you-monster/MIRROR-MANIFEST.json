@@ -1,0 +1,305 @@
+{
+  "name": "you-monster",
+  "sourcePage": "https://poki.com/en/g/you-monster",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1852,
+      "sha256": "2b2c9a8d832c93aeba90aaa14549692441ecb263f68ea1c2d73fd37e917241e3",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "05faf302ecc0b5f5f2186231ee820a5d08ff3e449bcdb482d77f240d0c9e8e72",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "92df216dd2309f407ba86c7d35b0134343420d6d2c254990bd9328c51c6c4aa0",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "368ea5852fffb904397c693f720b0167ea00e77c0f308fdf92f240b3da362990",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "7df62b76de1cd94d16c423a02d17dbde7d529996b0790fcfead6b796fb55ded7",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 351,
+      "sha256": "b1bf4b1997715465f80ab7dbfef43dddd816d52b22f61cb1f0d1e87f8664c93b"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 858174,
+      "sha256": "f00bb1ce9a8ceaeb580d9a51aceb3e26201835053aa54435ae03498ae53eaf1f"
+    },
+    {
+      "assetPath": "icons/Poki-icon-128.png",
+      "bytes": 6995,
+      "sha256": "e51ccce984ce719f2cda29ac2fa3ecba31dc199f12221a002a78a7618419e7d5"
+    },
+    {
+      "assetPath": "images/armorpiece-sheet0.webp",
+      "bytes": 35938,
+      "sha256": "86b5633577357e95f87bd16a5161b244b48a816c8e1889e2a6728408e95e37d4"
+    },
+    {
+      "assetPath": "images/carpiece-sheet0.webp",
+      "bytes": 22174,
+      "sha256": "52e105452d481e38d034beccea7ce96564ea2b12f2e062a3bf358169a2077b33"
+    },
+    {
+      "assetPath": "images/doorpiece-sheet0.webp",
+      "bytes": 30528,
+      "sha256": "928167d3da65470e6cda33176a2cd28a417d9dcc74f89d05dcb810a70bd89350"
+    },
+    {
+      "assetPath": "images/glasspiece-sheet0.webp",
+      "bytes": 8546,
+      "sha256": "bbd7787bd5adc80cf8762e9886744ca3b7cf83c0d2a213b6ff3368c83e6f34b4"
+    },
+    {
+      "assetPath": "images/monsterarmor-sheet0.webp",
+      "bytes": 56982,
+      "sha256": "8ffcf1d12afac2f2104c5c6071d1c8272a7a4ddc073992c0dac04bf02a7ff674"
+    },
+    {
+      "assetPath": "images/monsterghosteffect-sheet0.webp",
+      "bytes": 16386,
+      "sha256": "927e8abc887573ccfcfe6b0ae6e0a953e6c6b906c46a8a500b04bb807eccc92d"
+    },
+    {
+      "assetPath": "images/monsterjaw-sheet0.webp",
+      "bytes": 11242,
+      "sha256": "e251a26bc925998f1c8218356c4aad367e61a94361ca13afe2c429286af1b059"
+    },
+    {
+      "assetPath": "images/monstermask-sheet0.webp",
+      "bytes": 9578,
+      "sha256": "292d0042d4ca31d051936c0f3bb68e6b0086d4a6e5d00ea02ebd69ec0a4e9b9c"
+    },
+    {
+      "assetPath": "images/monstermover-sheet0.webp",
+      "bytes": 5044,
+      "sha256": "c9b6e5ed87c8b630e0686263f1a0a5c19c7a7a63b4362957e6f5e5859214e5fc"
+    },
+    {
+      "assetPath": "images/monsterpiece-sheet0.webp",
+      "bytes": 35748,
+      "sha256": "d6fa809d7af24163b9fe182e5eaccaabbfa6a3b49de8a76ee32f5d44198ab47f"
+    },
+    {
+      "assetPath": "images/obstaclepiece-sheet0.webp",
+      "bytes": 39686,
+      "sha256": "08c312ef58a31461663275e2d476ff7217de7dd1b948d3885ab236654e72fcc8"
+    },
+    {
+      "assetPath": "images/obstaclepiece-sheet1.webp",
+      "bytes": 106,
+      "sha256": "280de9cbbe3e46b8debb92634710da756085b6fd06f4c40267f8b98cf6b579fe"
+    },
+    {
+      "assetPath": "images/obstaclepiece-sheet2.webp",
+      "bytes": 34,
+      "sha256": "86be52bdb7547413cafb3ed175a806a798c65de98b40849e0b974c47d187de65"
+    },
+    {
+      "assetPath": "images/roomobstacle-sheet0.webp",
+      "bytes": 11368,
+      "sha256": "f36c3f57cb948e783e3f390cc210cee57e08480cf151736342bd0027a27fe94a"
+    },
+    {
+      "assetPath": "images/roomobstacle-sheet1.webp",
+      "bytes": 512,
+      "sha256": "17c48ab0e735a8ab49f34fb41b04130e19bbc948f9360899ff38a7dd77ef6f79"
+    },
+    {
+      "assetPath": "images/roomobstaclebackdrop-sheet0.webp",
+      "bytes": 54,
+      "sha256": "d50d0e3b834e5acd4059ac7159325115368d78a48307393cb71436079df4d767"
+    },
+    {
+      "assetPath": "images/roomobstacleoutline-sheet0.webp",
+      "bytes": 6404,
+      "sha256": "094fd76ec8a767060b4d32467480acc1b2e4efde32784b7109514c0ca4c5370a"
+    },
+    {
+      "assetPath": "images/roomobstacleoutline-sheet1.webp",
+      "bytes": 654,
+      "sha256": "c696e091fa0adb412f91e016d4b30021397a8f89501a066659cf99d94708aefe"
+    },
+    {
+      "assetPath": "images/roomobstacleoutline-sheet2.webp",
+      "bytes": 58,
+      "sha256": "63202c66d1595acb87cf3ad085c8d25fce095e2cb9809644206e1c329054f636"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.webp",
+      "bytes": 62316,
+      "sha256": "745cd4419432c0b30a0fccbaa08011065604127a8aad75725b965ce04038b56b"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.webp",
+      "bytes": 30950,
+      "sha256": "5dde3b397bf6baaee122337047e8d42606a88c9471461348e0e8e5dd20a18b02"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.webp",
+      "bytes": 1046,
+      "sha256": "d07acc1806c58517d8c21efcc93f74aa9203cdf84952beb41d7938d7a275f0a3"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.webp",
+      "bytes": 664,
+      "sha256": "555a30731ff31a74a93ff5a57525e18d8b6903ff62374856d853cdb239ed9adb"
+    },
+    {
+      "assetPath": "images/shared-1-sheet0.webp",
+      "bytes": 30816,
+      "sha256": "c7a380349ff9c0f8348cad1da82f20011a9d202b0e0df8a924c059920fd530eb"
+    },
+    {
+      "assetPath": "images/shared-1-sheet1.webp",
+      "bytes": 14202,
+      "sha256": "d5026c84bb0c7de26f8cb0db84fbbee16157ceee9486788ccf56403ee9c43cc8"
+    },
+    {
+      "assetPath": "images/shared-1-sheet2.webp",
+      "bytes": 384,
+      "sha256": "bc077d2960fa24822865d9929fe16353dfc2386c04f584b4b4f55078ba522f98"
+    },
+    {
+      "assetPath": "images/tiledarmorbar-sheet0.webp",
+      "bytes": 356,
+      "sha256": "de9d573350273c34b10a341a51d7674f11f000f7224a6291c129ce15351e4e69"
+    },
+    {
+      "assetPath": "images/tiledbackground-sheet0.webp",
+      "bytes": 116,
+      "sha256": "326323b05c1e8a5ff3d2e8197ad073dd1f87653e24744e99ac3d6c7e6367540b"
+    },
+    {
+      "assetPath": "images/tiledbackground2-sheet0.webp",
+      "bytes": 318,
+      "sha256": "c8c8c6ac4d252535ef62486aae9e80618083f2ae14a82c1cb8c39aad0f57fef2"
+    },
+    {
+      "assetPath": "images/tiledbackground3-sheet0.webp",
+      "bytes": 60,
+      "sha256": "fd29e88245cd9b8f102c534ddf12c9dabd1518b01b78a10eab4727574f4117a0"
+    },
+    {
+      "assetPath": "images/tiledbackground4-sheet0.webp",
+      "bytes": 60,
+      "sha256": "943d855e0415b40fc32b5bb5e279f25214a6fe3cab09b46609d877f39fcaeaaf"
+    },
+    {
+      "assetPath": "images/tiledhpbar-sheet0.webp",
+      "bytes": 356,
+      "sha256": "de9d573350273c34b10a341a51d7674f11f000f7224a6291c129ce15351e4e69"
+    },
+    {
+      "assetPath": "images/tiledhpbg-sheet0.webp",
+      "bytes": 356,
+      "sha256": "de9d573350273c34b10a341a51d7674f11f000f7224a6291c129ce15351e4e69"
+    },
+    {
+      "assetPath": "images/zombie-sheet0.webp",
+      "bytes": 27782,
+      "sha256": "08f3f2e9d7fa1ba595f6990f5825e0900038fe4a558373c6f4a9996543d1ebff"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1852,
+      "sha256": "2b2c9a8d832c93aeba90aaa14549692441ecb263f68ea1c2d73fd37e917241e3"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "92df216dd2309f407ba86c7d35b0134343420d6d2c254990bd9328c51c6c4aa0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "368ea5852fffb904397c693f720b0167ea00e77c0f308fdf92f240b3da362990"
+    },
+    {
+      "assetPath": "monsters.json",
+      "bytes": 678,
+      "sha256": "4898764de1924b3155b740d9853c7dba428aa791d69402d780564e356aa6e78e"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "7df62b76de1cd94d16c423a02d17dbde7d529996b0790fcfead6b796fb55ded7"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1662750,
+      "sha256": "7509adaa8bb53c252f8af8f098e25e09a7d479fd1e1f5ad59d97e9c031711f1e"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 128317,
+      "sha256": "253a852399e43d6f5405365c83f62f11c8923585c37a20ed0ae2d8218484fe0b"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/offlineclient.js",
+      "bytes": 564,
+      "sha256": "44528959a159dc4de5fb7d49a26b54abcb44206459a38456f971405a67307c7e"
+    },
+    {
+      "assetPath": "scripts/register-sw.js",
+      "bytes": 270,
+      "sha256": "07d5fbd78fa3d5979c08a240d3006f070e5892cddd2f61e2bd8d6ee70a5d51b8"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "f84e2e89b8f3e8d47c4b9222cbfdd0b7ea465e3b0efbd2884c479b392c32e391"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

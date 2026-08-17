@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/push-titans/index.html",
+    "/games/push-titans/js/poki-sdk-shim.js",
+    "/games/push-titans/js/tiptap-platform-bridge.js",
+    "/games/push-titans/js/tiptap-inline-1.js",
+    "/games/push-titans/js/tiptap-inline-2.js",
+    "/games/push-titans/js/tiptap-inline-3.js"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "ludo-king",
+  "sourcePage": "https://poki.com/en/g/ludo-king",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 2506,
+      "sha256": "6f35bf24dac304fff47d960c689110edebaf28cbc76892401dd19da07350a69c",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "6da3b3d71b99b16cc86c35ac8f44525a966548f05ac7b0761567351b3ba2fddb",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "1bfd43cfea788ff7dd34bc9d4ecaf1d2e0726d9b75afd853d291faa1ea983b98",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "d86994f354ec4c28fb4daade45d7b1e76326b275be458007cbc082be947472ba",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 293,
+      "sha256": "869ccffaf325f906b753a4eb79f4513d3590c8c015e800196b4c41f0793f47a9",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "closebut.png",
+      "bytes": 3857,
+      "sha256": "f4877bdb85393833cfd33d56e1d08745a65b6d315710e7f106c01efa75c2bb1d"
+    },
+    {
+      "assetPath": "favicon.8de18.ico",
+      "bytes": 1186,
+      "sha256": "ef99235bb0d2abc51dfe4176564003e2a3850b3df8ce670864e53d3346a14481"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 2506,
+      "sha256": "6f35bf24dac304fff47d960c689110edebaf28cbc76892401dd19da07350a69c"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "1bfd43cfea788ff7dd34bc9d4ecaf1d2e0726d9b75afd853d291faa1ea983b98"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1031,
+      "sha256": "eff26289068a8d6265c9c0348fb1d8006441b21c82cc0ff8789a876ae3ee16e3"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 789,
+      "sha256": "65a575e620657f2bd2fc32e3d791955200a9e0d0bcf5574ea04c11c6bf656048"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 923,
+      "sha256": "c008bf6d6aa4819aafd826e54b0cb89d95e6b419a1184cfd0a62dc23b2ea6189"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 3210,
+      "sha256": "b1f21b6ed52424d1e123b4d1967b087f9209fbd177d0d2e43ccf2638df9c1166"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "d86994f354ec4c28fb4daade45d7b1e76326b275be458007cbc082be947472ba"
+    },
+    {
+      "assetPath": "lk_h5_bg.jpg",
+      "bytes": 51351,
+      "sha256": "35422a4ee5289dbb2801c98bcd94c6c46feedd9410b9340718e1b06cf1be07c0"
+    },
+    {
+      "assetPath": "login_btn.png",
+      "bytes": 6670,
+      "sha256": "627a94b325d9778f5d6eca27ea57fd9301f42093264883b4c103b46abba1a7c1"
+    },
+    {
+      "assetPath": "main.433b4.js",
+      "bytes": 5061,
+      "sha256": "a0ae5da2e93c5f504f77a62ad47820e166c3f61e52409c567a091f5a5394faeb"
+    },
+    {
+      "assetPath": "popup_bg.png",
+      "bytes": 9313,
+      "sha256": "84a9a15dcd070b683d9e1df4f9361e509decb716d678c93d1c7a9b85b447df41"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 293,
+      "sha256": "869ccffaf325f906b753a4eb79f4513d3590c8c015e800196b4c41f0793f47a9"
+    },
+    {
+      "assetPath": "src/assets/scripts/socket.io.f7b34.js",
+      "bytes": 61623,
+      "sha256": "af38234e341dfe16185ecaef3a0bd71158a6000abdde117122199199a0cab372"
+    },
+    {
+      "assetPath": "src/assets/scripts/utility/CryptoJS/components/aes.bec19.js",
+      "bytes": 13151,
+      "sha256": "0934798e39ed32af7659f9a5470c52bf6f74dbbd21ea341b0b3206f71a499785"
+    },
+    {
+      "assetPath": "src/assets/scripts/utility/CryptoJS/components/index.ead0d.js",
+      "bytes": 43825,
+      "sha256": "795195fd00994d3bcd994c9c02a1e0ca67bf17155751c2b3fd4f7cb4aa1377cd"
+    },
+    {
+      "assetPath": "src/assets/scripts/utility/jquery-3.3.1.min.31e10.js",
+      "bytes": 86559,
+      "sha256": "3e85fc5e11ee6177494c47bdda00f42fc6df0021148626322ebed082530edabe"
+    },
+    {
+      "assetPath": "src/assets/scripts/utility/Moment.b6e0e.js",
+      "bytes": 53425,
+      "sha256": "09724d3838a026a7cb7062dbaef0b6afe136d4be210ade0fe09d109ea89c3021"
+    },
+    {
+      "assetPath": "src/settings.ecdbd.js",
+      "bytes": 557,
+      "sha256": "9d657a13020fb4078cbbb997b0e4f24c039d29eb76768509a2713956fbaa0162"
+    },
+    {
+      "assetPath": "style-desktop.81ede.css",
+      "bytes": 3483,
+      "sha256": "14283b0ff4172eb0348b59efb67194f7bad7a50d930ed7d21e20fd7d3f884420"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

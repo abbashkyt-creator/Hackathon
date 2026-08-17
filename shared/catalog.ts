@@ -346,6 +346,13 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "fashion-legends": { creatorId: "fashion-legends", creatorName: "Fashion Legends", creatorLabel: "BY FASHION LEGENDS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "mine-and-dig": { creatorId: "mine-and-dig", creatorName: "Mine and Dig", creatorLabel: "BY MINE AND DIG · LOCAL SOURCE MIRROR", category: "Arcade" },
   "tank-stars": { creatorId: "tank-stars", creatorName: "Tank Stars", creatorLabel: "BY TANK STARS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "4th-and-goal-2026": { creatorId: "4th-and-goal-2026", creatorName: "4th and Goal 2026", creatorLabel: "BY 4TH AND GOAL 2026 · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "punchy-guy": { creatorId: "punchy-guy", creatorName: "Punchy Guy", creatorLabel: "BY PUNCHY GUY · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "you-monster": { creatorId: "you-monster", creatorName: "You Monster!", creatorLabel: "BY YOU MONSTER! · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "push-titans": { creatorId: "push-titans", creatorName: "Push Titans", creatorLabel: "BY PUSH TITANS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "neon-challenge-legends": { creatorId: "neon-challenge-legends", creatorName: "Neon Challenge Legends", creatorLabel: "BY NEON CHALLENGE LEGENDS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "ludo-king": { creatorId: "ludo-king", creatorName: "Ludo King", creatorLabel: "BY LUDO KING · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "idle-spinner-factory-builder": { creatorId: "idle-spinner-factory-builder", creatorName: "Idle Spinner Factory Builder", creatorLabel: "BY IDLE SPINNER FACTORY BUILDER · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

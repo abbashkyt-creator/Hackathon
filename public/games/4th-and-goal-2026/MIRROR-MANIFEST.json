@@ -1,0 +1,70 @@
+{
+  "name": "4th-and-goal-2026",
+  "sourcePage": "https://poki.com/en/g/4th-and-goal-2026",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "f8ff6f8f90f3d080da4ebbbb2938034fc10f6404b91e3bab61b31c7921272ff9",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "cc531fa8a6cac66c79b0b5ad9f0112352e6581fc7b8a03e69d9efe5065e672b8",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "fde9fc72a7733b4584f6e124714d81a75a4fd8740d9b3a6cdbd3206eaf38930c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "867c08779f90290a6dfab3cf4fe27acdbcb76b418286f9718e265132f3aff81c",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "0cb76982cae0ecb96e61da3dbe075fbd4f1d2d2005fcbb654de73a9e51fcd75c",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 841,
+      "sha256": "f8ff6f8f90f3d080da4ebbbb2938034fc10f6404b91e3bab61b31c7921272ff9"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "fde9fc72a7733b4584f6e124714d81a75a4fd8740d9b3a6cdbd3206eaf38930c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1076,
+      "sha256": "fd4860ad514c5653db0f07004e590fa6daadab682aa5b4455ac4aaf1e9d61a66"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "867c08779f90290a6dfab3cf4fe27acdbcb76b418286f9718e265132f3aff81c"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 233,
+      "sha256": "0cb76982cae0ecb96e61da3dbe075fbd4f1d2d2005fcbb654de73a9e51fcd75c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

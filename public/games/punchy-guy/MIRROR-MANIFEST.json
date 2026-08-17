@@ -1,0 +1,70 @@
+{
+  "name": "punchy-guy",
+  "sourcePage": "https://poki.com/en/g/punchy-guy",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "8354670a562b3c41d68e30f5adf16f173186825ed2fa534be38c0935bd43a2ce",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "ac6495229eeafd7a33e249adcc9944176a1943b2d3865ca5a29a0c6497f19f41",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "69fcf6e828945103296ee4e893b93a1de7a3c3945234893c78ef04b58c542722",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "9340b34e6006332fc8e11cd8e7ca2cf535dc0c244aba4a5177abf07f9245c87a",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "2453e6938a62fa1a1df21e13ee7559b15658d81e6698c5760ef80a3bfd9854da",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "8354670a562b3c41d68e30f5adf16f173186825ed2fa534be38c0935bd43a2ce"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "69fcf6e828945103296ee4e893b93a1de7a3c3945234893c78ef04b58c542722"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1303,
+      "sha256": "c0dab566284463f791afd17074f4541991f1fe8864d9d6ff11797196795eaac9"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "9340b34e6006332fc8e11cd8e7ca2cf535dc0c244aba4a5177abf07f9245c87a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "2453e6938a62fa1a1df21e13ee7559b15658d81e6698c5760ef80a3bfd9854da"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

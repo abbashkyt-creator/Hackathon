@@ -1,0 +1,350 @@
+{
+  "name": "deadrise-io",
+  "sourcePage": "https://poki.com/en/g/deadrise-io",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 779,
+      "sha256": "c90a0cba7f2026239493b62764ac874efe61e3587e7c17c731849cf7df9976e0",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "e96b0bbc0d44d0d636841e968cb37a140d52266af5af51e29dd95e31f550a737",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "2aaec02d6e0de27749c91ceeaaa127dad693a121ad2e82732226c86360a5e1db",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "30e65ce75e189a02b7985defb56e5436125a817c576800d3dff540f2fe4edce1",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 402,
+      "sha256": "17124dcb4724b08c7288134a55a836460748744cd1b9aaab94c13e2e6d2a7b4d",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "2446326.json",
+      "bytes": 22363,
+      "sha256": "d03e76e1321039f3b270eb27cb803653e6be3ee8791c27296e851a9fb618ac45"
+    },
+    {
+      "assetPath": "2446327.json",
+      "bytes": 62520,
+      "sha256": "a098bb503a979a9788737ac02da52c15134a7694393353ef36cbf23e1999c499"
+    },
+    {
+      "assetPath": "2446328.json",
+      "bytes": 106201,
+      "sha256": "032755a54205a9cb35f3cde91fbb9081332d0331fdb2e5f4e3a7ecc3d278d974"
+    },
+    {
+      "assetPath": "2446329.json",
+      "bytes": 35806,
+      "sha256": "0d7d1c6d4604a6b159dbf090a5662381cd4064527637a2d034540abc7202ca8d"
+    },
+    {
+      "assetPath": "2446330.json",
+      "bytes": 51184,
+      "sha256": "21892bdaacf795c0f0d6ac78e49d86d7c9087150638fdd869c4f6d69f8c1bda1"
+    },
+    {
+      "assetPath": "config.json",
+      "bytes": 1634935,
+      "sha256": "68dffc5c70b4d0585e602e04193fdabfa7e59fd14733f1dc8bb4ebeaa64e5fd0"
+    },
+    {
+      "assetPath": "files/assets/279910620/1/Environment 1-ZombieSpawnPoints.json",
+      "bytes": 6550,
+      "sha256": "77d1818c57e76f333725298bf93b5a24f15fbd3c352385b8dd8d446d3bf631c2"
+    },
+    {
+      "assetPath": "files/assets/279910622/1/Rock_Face.jpeg",
+      "bytes": 20657,
+      "sha256": "5a58f14416071ac65d04364f7162733baed36f765371bb88038c6cf09a669f4b"
+    },
+    {
+      "assetPath": "files/assets/279910627/1/Surrounding Mountains.json",
+      "bytes": 618,
+      "sha256": "bd1e1bb519de778f5a3591a60ba8af0caae3b111773c4435b6f6f26d97f393b4"
+    },
+    {
+      "assetPath": "files/assets/279910628/1/Pipes_Oil_Tanks_Containers_Light_Poles_1024x1024.jpeg",
+      "bytes": 126284,
+      "sha256": "05bb22ff9b64c3fddb8313c9bafde2944fe12f6ac21cdb9ed70191c74cca19fb"
+    },
+    {
+      "assetPath": "files/assets/279910630/1/Warehouse Environment Collider Joined.json",
+      "bytes": 610,
+      "sha256": "2ed89887cee2fbb0f76883f20c93340ad0a0cd7726019223a7cba216601ec798"
+    },
+    {
+      "assetPath": "files/assets/279910637/1/Road_Concrete2_1024x1024.jpeg",
+      "bytes": 109256,
+      "sha256": "494a1dc444789cfd078578c45fcf9c47d00f2fc69dc3eb02bfd5b10d7111d356"
+    },
+    {
+      "assetPath": "files/assets/279910638/1/Warehouse Environment Complete Joined.json",
+      "bytes": 2417,
+      "sha256": "cbca03b4d3830b5305b4a41c05a87a7b63700d50386151aff66ed7cc52af628c"
+    },
+    {
+      "assetPath": "files/assets/279910639/1/Generator_Electrical_Box_1024x512.jpeg",
+      "bytes": 51695,
+      "sha256": "3281fd1b28728f14c986287de51134489026a39a85b1495f829390189ab8bceb"
+    },
+    {
+      "assetPath": "files/assets/279910640/1/Asphalt_1024x1024.jpeg",
+      "bytes": 95208,
+      "sha256": "a8aff47b0bde85ab0cf18ea42fce9ef3b4ad8bda62d70f5363badae153f50c3c"
+    },
+    {
+      "assetPath": "files/assets/279910641/1/Barrel_Scene_1024x1024.jpeg",
+      "bytes": 109920,
+      "sha256": "33a1308dfbd20308f17c48a64119909f8d38ac71217845ede6bd7ac66be119ec"
+    },
+    {
+      "assetPath": "files/assets/279910642/1/Bridge_Concrete3_Concrete1_1024x1024.jpeg",
+      "bytes": 86403,
+      "sha256": "5f04357f08b26cac93c45d537f4b6c400549ce9d5f0c705829622f6914e42321"
+    },
+    {
+      "assetPath": "files/assets/279910643/1/Grill_512x512.png",
+      "bytes": 16791,
+      "sha256": "9065cdd67b761c93cb4350f0591d2bdc799020562fa0602a39a9fd794c1504a3"
+    },
+    {
+      "assetPath": "files/assets/279910644/1/Hangars_1024x1024.jpeg",
+      "bytes": 124659,
+      "sha256": "33ddddc71e063c4192cb44119aee16b72a97c1d3206f711b019a6134da2fe36f"
+    },
+    {
+      "assetPath": "files/assets/279910647/1/Action buttons (1).png",
+      "bytes": 2724,
+      "sha256": "939c9a436c51ae566ea587e759bc13b6fc0f7bc0bc777888dd6d19643ed72562"
+    },
+    {
+      "assetPath": "files/assets/279910652/1/Church Env-doors.json",
+      "bytes": 1600,
+      "sha256": "101397382d403fa76e209ff9a78432f39543fa6f23a09796ed7cf3720ede87e0"
+    },
+    {
+      "assetPath": "files/assets/279910653/1/Dirt_Ground_basecolor.jpeg",
+      "bytes": 58183,
+      "sha256": "c3a553ffeb5cc6b602844938ef5f8433bfcb0b3a48f592321f85cd52d4dcaca5"
+    },
+    {
+      "assetPath": "files/assets/279910659/1/Road_Block_512x512.jpeg",
+      "bytes": 30033,
+      "sha256": "502b4049cc70eefa4148e58349a5aaa99971c37bdebbd55a62190ca179644f55"
+    },
+    {
+      "assetPath": "files/assets/279910662/1/Environment 3-ZombieSpawnPoints.json",
+      "bytes": 3660,
+      "sha256": "ebfa950cd5dc18ebb4cd9e2acb8c9f4ef49ec11d88affbb91fe06c1d577d39cd"
+    },
+    {
+      "assetPath": "files/assets/279910664/1/Environment 2-ZombieSpawnPoints.json",
+      "bytes": 3330,
+      "sha256": "ac18fac7474c50d5bdc643281feab3d2f113fe2dd1c06feface68a906ea53962"
+    },
+    {
+      "assetPath": "files/assets/279910672/1/ACRFire2.wav",
+      "bytes": 57102,
+      "sha256": "93f26b3162acf958a49508fe6904f776dc82d5f1ee684b2320c8dc5c0e8d82bf"
+    },
+    {
+      "assetPath": "files/assets/279910673/1/ACRFire1.wav",
+      "bytes": 62876,
+      "sha256": "d0022ba266d8ce8e1a22d525e8f395c18930ad14ebec2a0e3569692fafb911dc"
+    },
+    {
+      "assetPath": "files/assets/279910674/1/ACRFire3.wav",
+      "bytes": 69338,
+      "sha256": "2c6f11316272710e24a48505a7f9a90861ae4937d237c7b171c4a7d27b950223"
+    },
+    {
+      "assetPath": "files/assets/279910678/1/ConcreteWalking1.wav",
+      "bytes": 126510,
+      "sha256": "60cbbb021d390836cbe822fa3eae9e29f680cf437f6f650eab0dad6d265c5826"
+    },
+    {
+      "assetPath": "files/assets/279910679/1/ConcreteWalking5.wav",
+      "bytes": 86650,
+      "sha256": "8030d98e8f3fb30f2f2071a71f7d32575aa0d0e0dbd83d5a3b8f935a7dd6c563"
+    },
+    {
+      "assetPath": "files/assets/279910680/1/ConcreteWalking10.wav",
+      "bytes": 129054,
+      "sha256": "7ba1840a11605b4afd62ce517616c313862110ee62b676f74fdf141cb84f00c8"
+    },
+    {
+      "assetPath": "files/assets/279910681/1/ConcreteWalking8.wav",
+      "bytes": 102762,
+      "sha256": "255536f44c6b6a74d9da372666463c91a0e3a4d52b8e51c41352d00ed481538a"
+    },
+    {
+      "assetPath": "files/assets/279910682/1/ConcreteWalking3.wav",
+      "bytes": 102762,
+      "sha256": "a1776309aa26143c71809c5daf1b33f59c1366365e11112504cd920a1fcf76c8"
+    },
+    {
+      "assetPath": "files/assets/279910683/1/ConcreteWalking2.wav",
+      "bytes": 85802,
+      "sha256": "ef45f94976b9606d7943f52e7c7005a5f88ce2b0e781f5d9015e47c41a7a474d"
+    },
+    {
+      "assetPath": "files/assets/279910684/1/ConcreteWalking6.wav",
+      "bytes": 107002,
+      "sha256": "8c3fd80eebb93aa43ff9ea73413c785f81da6022872b55c8c51fb182f1d84c18"
+    },
+    {
+      "assetPath": "files/assets/279910685/1/ConcreteWalking7.wav",
+      "bytes": 112094,
+      "sha256": "0697d34e160361cd279a4a41021ea62b57516677750203c5319639bc8715c46e"
+    },
+    {
+      "assetPath": "files/assets/279910686/1/ConcreteWalking4.wav",
+      "bytes": 93434,
+      "sha256": "a3792f660972aae901313863640586440c2325506d090c38b822e203f341f814"
+    },
+    {
+      "assetPath": "files/assets/279910715/1/draco.wasm.js",
+      "bytes": 58763,
+      "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+    },
+    {
+      "assetPath": "files/assets/279910716/1/draco.js",
+      "bytes": 719410,
+      "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+    },
+    {
+      "assetPath": "files/assets/279910774/1/GameAnalytics.js",
+      "bytes": 90915,
+      "sha256": "31a960241a5795e5eb283bd6fd262500c1812c06faa88df70a0416dfec548595"
+    },
+    {
+      "assetPath": "files/assets/279911547/1/basis.wasm.wasm",
+      "bytes": 611602,
+      "sha256": "70ed1e72dea7132706ee4e8637d9fc1e348ea03bb3a46644372f309067c47eef"
+    },
+    {
+      "assetPath": "files/assets/279911548/1/basis.js",
+      "bytes": 1038957,
+      "sha256": "c85407f23254399027517c51dc129e49f3e4abec47450c8f144b2007f64565e9"
+    },
+    {
+      "assetPath": "files/assets/279911549/1/basis.wasm.js",
+      "bytes": 60106,
+      "sha256": "82143c2193310331a3186530cc1615950f5ddd4d308aa6a25d82ad1d5933c624"
+    },
+    {
+      "assetPath": "files/assets/279911655/1/draco.wasm.wasm",
+      "bytes": 285747,
+      "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+    },
+    {
+      "assetPath": "files/assets/282005862/1/recast.wasm.js",
+      "bytes": 216705,
+      "sha256": "2f67831a1bae844815710135d29e710f3ea3ea210da7a28e984f8302c16d56b7"
+    },
+    {
+      "assetPath": "files/assets/282005863/1/recast.wasm.wasm",
+      "bytes": 360946,
+      "sha256": "19f48621742e0a5e3d8690e10bdac82dcbe18153bfffaa694ac1eb388336a879"
+    },
+    {
+      "assetPath": "files/assets/284753439/1/ammo.js",
+      "bytes": 1895438,
+      "sha256": "2700ed751c7203f1a95cee96af69f34c0a1a9557ce52291ef0ecb8431796e562"
+    },
+    {
+      "assetPath": "files/assets/284753440/1/ammo.wasm.js",
+      "bytes": 391789,
+      "sha256": "02d64f358ec638f458fae29c291168ccd4f157a6a5622a4cd70760cc1b5cc15e"
+    },
+    {
+      "assetPath": "files/assets/284753441/1/ammo.wasm.wasm",
+      "bytes": 659433,
+      "sha256": "772899614f44ea350189c1c7f181c9d76cf6820c3ead129e8e3d3c0f46dc1799"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 779,
+      "sha256": "c90a0cba7f2026239493b62764ac874efe61e3587e7c17c731849cf7df9976e0"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "2aaec02d6e0de27749c91ceeaaa127dad693a121ad2e82732226c86360a5e1db"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "30e65ce75e189a02b7985defb56e5436125a817c576800d3dff540f2fe4edce1"
+    },
+    {
+      "assetPath": "manifest.json",
+      "bytes": 375,
+      "sha256": "25fbcc5429a2f6f5269a175eb8783b7306473b8e1da5e4a2659736c34fc1cf2e"
+    },
+    {
+      "assetPath": "playcanvas-stable.min.js",
+      "bytes": 2296254,
+      "sha256": "a51b81ecd5daa716cb0f43140eb25ea1ab076bd121e743c7a4da7dc5cffe8f6a"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 402,
+      "sha256": "17124dcb4724b08c7288134a55a836460748744cd1b9aaab94c13e2e6d2a7b4d"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 736,
+      "sha256": "14621356b978e60a93d3667bbcbb05dc88e9469a5b2e000c02eee95f6e714646"
+    },
+    {
+      "assetPath": "__game-scripts.js",
+      "bytes": 759579,
+      "sha256": "9620f51faf5e72de9d5f188a0263fdbb9791e8bc658e48a5f6e584d0dc01b78c"
+    },
+    {
+      "assetPath": "__loading__.js",
+      "bytes": 15248,
+      "sha256": "d88ab549b25b7b9f0169935b01a196d7ca62d551a9673f6a13c7fe537aa90c24"
+    },
+    {
+      "assetPath": "__modules__.js",
+      "bytes": 1733,
+      "sha256": "e5646af826aa774cabfb7b54ba05210419719a803ef51d90b0d9e3338832db97"
+    },
+    {
+      "assetPath": "__settings__.js",
+      "bytes": 3958,
+      "sha256": "2e19afd1ed2b35774cef173b6c0378310a862c6ef1baa1b3184c04c180920ce7"
+    },
+    {
+      "assetPath": "__start__.js",
+      "bytes": 12226,
+      "sha256": "8c53fb0478d6781585e5795c86fe4e0645a1fa314a712c08d4af988b92234239"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

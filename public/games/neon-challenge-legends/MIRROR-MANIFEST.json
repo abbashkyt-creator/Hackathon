@@ -1,0 +1,70 @@
+{
+  "name": "neon-challenge-legends",
+  "sourcePage": "https://poki.com/en/g/neon-challenge-legends",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 851,
+      "sha256": "f23bd10a725c6a739a8ab516194c4a30784d57593477c38f4e253348dd6edd7f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 176,
+      "sha256": "928dac313ff4062e7d91e3b1b94b05fe1bbd43117d38c4a82ac28b8b583e0e4d",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "0e6e5124f2309140aa7e3dd328011627edc184d9c0f89b5151276ef4fde03dfa",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "40a122603877af5ed497ca94bfee8235fcc4d9edc3a31b83869f15276c1196fe",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "8ee4205fc7892f0f62254258661492ec33e95ca77a1743e4b65ce611017bbae0",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 851,
+      "sha256": "f23bd10a725c6a739a8ab516194c4a30784d57593477c38f4e253348dd6edd7f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 934,
+      "sha256": "0e6e5124f2309140aa7e3dd328011627edc184d9c0f89b5151276ef4fde03dfa"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1163,
+      "sha256": "48fbf662405a415d89bdfa056fa79cf46cbb417e8b994cf66b117b02b0d2cc3e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 863,
+      "sha256": "40a122603877af5ed497ca94bfee8235fcc4d9edc3a31b83869f15276c1196fe"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 253,
+      "sha256": "8ee4205fc7892f0f62254258661492ec33e95ca77a1743e4b65ce611017bbae0"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

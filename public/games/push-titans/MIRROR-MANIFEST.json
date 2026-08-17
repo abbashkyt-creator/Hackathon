@@ -1,0 +1,100 @@
+{
+  "name": "push-titans",
+  "sourcePage": "https://poki.com/en/g/push-titans",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 5440,
+      "sha256": "0766effd65c19a54cce2bc922374eca56079638fcf986aec9b0bc0abe45505da",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "293d9b66821390f8998c5dbc47c0f0ab5573a27ede426c2769c7a27359930ea2",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d1ce021dcaadf61814c79c47950c244469aa35cb749ce99c7c5c17f3703df3a6",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "527736784d9367128fe919d2a09acd152b579b5e6fcd029c38643b6dc7d164d9",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "8c0f30de02f595bdc2834456a638076665809a967313ab614dc110d54b90ef36",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 48436,
+      "sha256": "d3492d9ee44e49be86ae3cb414681deba6f4f2d60c92f92167802ae315d1e9cc"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 5440,
+      "sha256": "0766effd65c19a54cce2bc922374eca56079638fcf986aec9b0bc0abe45505da"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "d1ce021dcaadf61814c79c47950c244469aa35cb749ce99c7c5c17f3703df3a6"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 245,
+      "sha256": "78081b1ecd8e747959994da2f6ebed498b0d68ddff47107dfaeadfbcc51187ce"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 6419,
+      "sha256": "e2051e86402e252679246cd466ae3ad26ab37c11ea8b50459c89b9d505aeade9"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 178,
+      "sha256": "c81e36a16f1a7867c8db50b972e4e2206f3adddf413d749cc7adfc00a5a1f46d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 445,
+      "sha256": "2a88f13b6d20b535ba8f59604929b40c478baeeac19b7c17e6ebe6f8139b8baf"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "527736784d9367128fe919d2a09acd152b579b5e6fcd029c38643b6dc7d164d9"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 305,
+      "sha256": "8c0f30de02f595bdc2834456a638076665809a967313ab614dc110d54b90ef36"
+    },
+    {
+      "assetPath": "PushTitans.wasm",
+      "bytes": 2263380,
+      "sha256": "3b27fe616368780a917d2753ebc9808f356f933d0d3f2d8ddd353a950d39ce11"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

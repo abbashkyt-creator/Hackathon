@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/4th-and-goal-2026/index.html",
+    "/games/4th-and-goal-2026/js/poki-sdk-shim.js",
+    "/games/4th-and-goal-2026/js/tiptap-platform-bridge.js",
+    "/games/4th-and-goal-2026/js/tiptap-inline-1.js"
+  ]
+}

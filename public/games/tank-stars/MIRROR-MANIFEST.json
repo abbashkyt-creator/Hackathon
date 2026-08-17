@@ -1,0 +1,70 @@
+{
+  "name": "tank-stars",
+  "sourcePage": "https://poki.com/en/g/tank-stars",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "b79368abd433c0ca1d6919848d2b3ae0cf4a34cae6846addddeac6e2c0fb04de",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 164,
+      "sha256": "41095584af5c84347147a07497e80927ec5a898021758df2dcc44154068733be",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "52f736b36819b5dd0cf366f96b612f53fa678122bd5bb86ca52592f638ca0aba",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "cbe8f1d1b57512c867ab2a991809aa66b392e511ac932f6385f7cb3b12c29987",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "4695da953c35352decc21be8477b0eba0905de32c25ef7db9560b9d72f3bd527",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 827,
+      "sha256": "b79368abd433c0ca1d6919848d2b3ae0cf4a34cae6846addddeac6e2c0fb04de"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 910,
+      "sha256": "52f736b36819b5dd0cf366f96b612f53fa678122bd5bb86ca52592f638ca0aba"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1220,
+      "sha256": "6934185fc2876e805eca8f0048f428a7385631aa768eb4a075eadf0b339ce9ef"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 851,
+      "sha256": "cbe8f1d1b57512c867ab2a991809aa66b392e511ac932f6385f7cb3b12c29987"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 205,
+      "sha256": "4695da953c35352decc21be8477b0eba0905de32c25ef7db9560b9d72f3bd527"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

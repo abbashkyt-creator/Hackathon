@@ -1,0 +1,70 @@
+{
+  "name": "mine-and-dig",
+  "sourcePage": "https://poki.com/en/g/mine-and-dig",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "fda6eaee9e114637ff8c02de6bf5a17f4fb3c87cb2eed30a53fda0f4ec2f3af6",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 166,
+      "sha256": "af2b05d2610af81890b6adb67e9b6daeed601ec754b6fbb8c96026550f29d549",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "6b0c934627a533e96d9bd7c9b04214c32de269a5e8e005319078c6c93bd2131c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "474244583f31226d9f4e4ab46753986ec8151fecf97c27ed3acfabf236472c9b",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "34f9e94f9b70d776c9e3f27d854643a6499ffbee6940a2710b7018784a990306",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 831,
+      "sha256": "fda6eaee9e114637ff8c02de6bf5a17f4fb3c87cb2eed30a53fda0f4ec2f3af6"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 914,
+      "sha256": "6b0c934627a533e96d9bd7c9b04214c32de269a5e8e005319078c6c93bd2131c"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1255,
+      "sha256": "5512deaa6deccaf0aa345f562fb8822757cc17ec5faf8ce24e397398099e1a0f"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 853,
+      "sha256": "474244583f31226d9f4e4ab46753986ec8151fecf97c27ed3acfabf236472c9b"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 213,
+      "sha256": "34f9e94f9b70d776c9e3f27d854643a6499ffbee6940a2710b7018784a990306"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

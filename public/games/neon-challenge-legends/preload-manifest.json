@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/neon-challenge-legends/index.html",
+    "/games/neon-challenge-legends/js/poki-sdk-shim.js",
+    "/games/neon-challenge-legends/js/tiptap-platform-bridge.js",
+    "/games/neon-challenge-legends/js/tiptap-inline-1.js"
+  ]
+}

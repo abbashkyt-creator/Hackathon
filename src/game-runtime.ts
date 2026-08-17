@@ -304,6 +304,13 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "fashion-legends": { embedded: true, preloadManifest: "/games/fashion-legends/preload-manifest.json", assetManifest: "/games/fashion-legends/MIRROR-MANIFEST.json", prepareByMount: true },
   "mine-and-dig": { embedded: true, preloadManifest: "/games/mine-and-dig/preload-manifest.json", assetManifest: "/games/mine-and-dig/MIRROR-MANIFEST.json", prepareByMount: true },
   "tank-stars": { embedded: true, preloadManifest: "/games/tank-stars/preload-manifest.json", assetManifest: "/games/tank-stars/MIRROR-MANIFEST.json", prepareByMount: true },
+  "4th-and-goal-2026": { embedded: true, preloadManifest: "/games/4th-and-goal-2026/preload-manifest.json", assetManifest: "/games/4th-and-goal-2026/MIRROR-MANIFEST.json", prepareByMount: true },
+  "punchy-guy": { embedded: true, preloadManifest: "/games/punchy-guy/preload-manifest.json", assetManifest: "/games/punchy-guy/MIRROR-MANIFEST.json", prepareByMount: true },
+  "you-monster": { embedded: true, preloadManifest: "/games/you-monster/preload-manifest.json", assetManifest: "/games/you-monster/MIRROR-MANIFEST.json", prepareByMount: true },
+  "push-titans": { embedded: true, preloadManifest: "/games/push-titans/preload-manifest.json", assetManifest: "/games/push-titans/MIRROR-MANIFEST.json", prepareByMount: true },
+  "neon-challenge-legends": { embedded: true, preloadManifest: "/games/neon-challenge-legends/preload-manifest.json", assetManifest: "/games/neon-challenge-legends/MIRROR-MANIFEST.json", prepareByMount: true },
+  "ludo-king": { embedded: true, preloadManifest: "/games/ludo-king/preload-manifest.json", assetManifest: "/games/ludo-king/MIRROR-MANIFEST.json", prepareByMount: true },
+  "idle-spinner-factory-builder": { embedded: true, preloadManifest: "/games/idle-spinner-factory-builder/preload-manifest.json", assetManifest: "/games/idle-spinner-factory-builder/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

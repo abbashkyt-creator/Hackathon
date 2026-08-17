@@ -1,0 +1,12 @@
+{
+  "critical": [
+    "/games/deadrise-io/index.html",
+    "/games/deadrise-io/js/poki-sdk-shim.js",
+    "/games/deadrise-io/js/tiptap-platform-bridge.js",
+    "/games/deadrise-io/files/assets/279910774/1/GameAnalytics.js",
+    "/games/deadrise-io/playcanvas-stable.min.js",
+    "/games/deadrise-io/__settings__.js",
+    "/games/deadrise-io/__modules__.js",
+    "/games/deadrise-io/__start__.js"
+  ]
+}

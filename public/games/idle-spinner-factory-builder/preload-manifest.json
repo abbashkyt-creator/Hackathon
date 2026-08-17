@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/idle-spinner-factory-builder/index.html",
+    "/games/idle-spinner-factory-builder/js/poki-sdk-shim.js",
+    "/games/idle-spinner-factory-builder/js/tiptap-platform-bridge.js"
+  ]
+}

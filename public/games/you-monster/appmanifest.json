@@ -1,0 +1,17 @@
+{
+	"name": "MonstersIO",
+	"short_name": "MonstersIO",
+	"description": "Eat and grow, fight other monsters",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#6c85ab",
+	"icons": [
+		{
+			"src": "icons/Mobile-icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}

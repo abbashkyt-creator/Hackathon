@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/punchy-guy/index.html",
+    "/games/punchy-guy/js/poki-sdk-shim.js",
+    "/games/punchy-guy/js/tiptap-platform-bridge.js",
+    "/games/punchy-guy/js/tiptap-inline-1.js"
+  ]
+}
