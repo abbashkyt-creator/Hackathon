@@ -394,6 +394,7 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "dino-quake": { creatorId: "dino-quake", creatorName: "Dino Quake", creatorLabel: "BY DINO QUAKE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "beardie-craft-survival": { creatorId: "beardie-craft-survival", creatorName: "Beardie Craft Survival", creatorLabel: "BY BEARDIE CRAFT SURVIVAL · LOCAL SOURCE MIRROR", category: "Arcade" },
   "pro-shooter": { creatorId: "pro-shooter", creatorName: "Pro Shooter", creatorLabel: "BY PRO SHOOTER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "my-city-horse-stable": { creatorId: "my-city-horse-stable", creatorName: "My City Horse Stable", creatorLabel: "BY MY CITY HORSE STABLE · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

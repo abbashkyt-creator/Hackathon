@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/my-city-horse-stable/index.html",
+    "/games/my-city-horse-stable/js/poki-sdk-shim.js",
+    "/games/my-city-horse-stable/js/tiptap-platform-bridge.js",
+    "/games/my-city-horse-stable/js/tiptap-inline-1.js"
+  ]
+}
