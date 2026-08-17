@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/subway-surfers-match/index.html",
+    "/games/subway-surfers-match/js/poki-sdk-shim.js",
+    "/games/subway-surfers-match/js/tiptap-platform-bridge.js",
+    "/games/subway-surfers-match/js/tiptap-inline-1.js",
+    "/games/subway-surfers-match/js/tiptap-inline-2.js",
+    "/games/subway-surfers-match/js/tiptap-inline-3.js"
+  ]
+}

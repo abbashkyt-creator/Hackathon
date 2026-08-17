@@ -1,0 +1,100 @@
+{
+  "name": "subway-surfers-match",
+  "sourcePage": "https://poki.com/en/g/subway-surfers-match",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 8193,
+      "sha256": "e0800efb5d2b8fe5d82e9da533877ddefd56cd287054356f2e5fe80625f37b85",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 174,
+      "sha256": "c73e4d8b1e49a601ca1f6a5e5b214312504f73992e324d7cf44bf301b52d4384",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "3f1a7c74add14918994d5bced3bbb9524c00d39d69ffceec8d43ecb618503cc5",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "ca484fa4acdaead947c4384034d12d7170dbe596c9a2186746ffa9a882ef4c57",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "7954b0830ff3c24c843560bc63f62c392d40d2ddc508556aba92eea48c659b28",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47579,
+      "sha256": "88c960f512e1c57c2c3e3064b133661ef4e15e4ffe958b6433f0eefa5ed41ebf"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 8193,
+      "sha256": "e0800efb5d2b8fe5d82e9da533877ddefd56cd287054356f2e5fe80625f37b85"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 930,
+      "sha256": "3f1a7c74add14918994d5bced3bbb9524c00d39d69ffceec8d43ecb618503cc5"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 3549,
+      "sha256": "c9de02bb5a23f942a5e2e9db2a382a072416f3d88fd0b2942989bfe9616906e0"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 240,
+      "sha256": "3a27963a197f09124f5ab2118cc888bb86c02ab1167d821c0dcf1db36932cc11"
+    },
+    {
+      "assetPath": "js/tiptap-inline-3.js",
+      "bytes": 177,
+      "sha256": "44f4d8a0bd9bd7745307feedfbe762cb631f94565d557271d8330582fb74bb9d"
+    },
+    {
+      "assetPath": "js/tiptap-inline-4.js",
+      "bytes": 316,
+      "sha256": "3309162b04d660335002eeb4a230e5739bf7ad60fbe8fb8e916c2d96d90f86e4"
+    },
+    {
+      "assetPath": "js/tiptap-inline-5.js",
+      "bytes": 761,
+      "sha256": "e8df962cd2e7a2524fc04cbed803c29877f5f82328eea7191372d2a11266ac93"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 861,
+      "sha256": "ca484fa4acdaead947c4384034d12d7170dbe596c9a2186746ffa9a882ef4c57"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 359,
+      "sha256": "7954b0830ff3c24c843560bc63f62c392d40d2ddc508556aba92eea48c659b28"
+    },
+    {
+      "assetPath": "SSM.wasm",
+      "bytes": 2184761,
+      "sha256": "294fc56d70abaefd4d3bbb370c58cc72c5cb9b730eefb1347b5f858bc24835d7"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,75 @@
+{
+  "name": "scary-teacher-playtime-adventure",
+  "sourcePage": "https://poki.com/en/g/scary-teacher-playtime-adventure",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1056,
+      "sha256": "66f9bb7645869ae4fd9ef629a3e02e1e3e4b2a7b5354548d2b42ade888831c5f",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 186,
+      "sha256": "29f4f4b2ca41c14065fad8636bd8455194e2734590f9a001041ca7b3e52e9f60",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 954,
+      "sha256": "b0504ffc676bbdf0f9fe1acebf4b5827e74ece47e9d0147669c975b36b748904",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 873,
+      "sha256": "a935e4caa5af0c127c7dce17470893c58b5a0bf214f945003b037cb3d7f170b4",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 362,
+      "sha256": "8e487f8163572a6234e4b5b6a393a525796e5269878deb59c1358a736a2c1006",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1056,
+      "sha256": "66f9bb7645869ae4fd9ef629a3e02e1e3e4b2a7b5354548d2b42ade888831c5f"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 954,
+      "sha256": "b0504ffc676bbdf0f9fe1acebf4b5827e74ece47e9d0147669c975b36b748904"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1030,
+      "sha256": "1ddde1b67998d24480a7664c77fe8cd2eb962ac647bf43b2c5c7f5e083847c0e"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 2510,
+      "sha256": "115974c7dbba344124398f77483b3f3fef0511f075e2ac8be12680761224abb0"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 873,
+      "sha256": "a935e4caa5af0c127c7dce17470893c58b5a0bf214f945003b037cb3d7f170b4"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 362,
+      "sha256": "8e487f8163572a6234e4b5b6a393a525796e5269878deb59c1358a736a2c1006"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

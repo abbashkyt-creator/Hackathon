@@ -359,6 +359,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "monster-max": { embedded: true, preloadManifest: "/games/monster-max/preload-manifest.json", assetManifest: "/games/monster-max/MIRROR-MANIFEST.json", prepareByMount: true },
   "life-choices-2-life-simulator": { embedded: true, preloadManifest: "/games/life-choices-2-life-simulator/preload-manifest.json", assetManifest: "/games/life-choices-2-life-simulator/MIRROR-MANIFEST.json", prepareByMount: true },
   "nail-salon": { embedded: true, preloadManifest: "/games/nail-salon/preload-manifest.json", assetManifest: "/games/nail-salon/MIRROR-MANIFEST.json", prepareByMount: true },
+  "subway-surfers-blast": { embedded: true, preloadManifest: "/games/subway-surfers-blast/preload-manifest.json", assetManifest: "/games/subway-surfers-blast/MIRROR-MANIFEST.json", prepareByMount: true },
+  "subway-surfers-match": { embedded: true, preloadManifest: "/games/subway-surfers-match/preload-manifest.json", assetManifest: "/games/subway-surfers-match/MIRROR-MANIFEST.json", prepareByMount: true },
+  "scary-teacher-playtime-adventure": { embedded: true, preloadManifest: "/games/scary-teacher-playtime-adventure/preload-manifest.json", assetManifest: "/games/scary-teacher-playtime-adventure/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
