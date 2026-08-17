@@ -38,6 +38,7 @@ export { GoBattle2Game } from "./GoBattle2Game";
 export { StickmanBattleGame } from "./StickmanBattleGame";
 export { RetroBowlGame } from "./RetroBowlGame";
 export { DriftBossGame } from "./DriftBossGame";
+export { SquidDashGame } from "./SquidDashGame";
 export { PorkiPokeGame } from "./PorkiPokeGame";
 export { EvolutionGameGame } from "./EvolutionGameGame";
 export { TheRealJuggleGame } from "./TheRealJuggleGame";

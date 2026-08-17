@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/squid-dash/index.html",
+    "/games/squid-dash/js/poki-sdk-shim.js",
+    "/games/squid-dash/js/tiptap-platform-bridge.js",
+    "/games/squid-dash/js/tiptap-inline-1.js"
+  ]
+}
