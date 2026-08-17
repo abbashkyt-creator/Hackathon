@@ -1,0 +1,10 @@
+{
+  "critical": [
+    "/games/the-superhero-league/index.html",
+    "/games/the-superhero-league/js/poki-sdk-shim.js",
+    "/games/the-superhero-league/js/tiptap-platform-bridge.js",
+    "/games/the-superhero-league/js/tiptap-inline-1.js",
+    "/games/the-superhero-league/js/tiptap-inline-2.js",
+    "/games/the-superhero-league/js/tiptap-inline-3.js"
+  ]
+}

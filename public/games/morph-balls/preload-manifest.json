@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/morph-balls/index.html",
+    "/games/morph-balls/js/poki-sdk-shim.js",
+    "/games/morph-balls/js/tiptap-platform-bridge.js",
+    "/games/morph-balls/js/tiptap-inline-1.js"
+  ]
+}

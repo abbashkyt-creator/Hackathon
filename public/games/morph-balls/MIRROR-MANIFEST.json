@@ -1,0 +1,70 @@
+{
+  "name": "morph-balls",
+  "sourcePage": "https://poki.com/en/g/morph-balls",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "10467ed0e5edb745f6782619055effa720ba936daf5ace6048ef94df594b2624",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 165,
+      "sha256": "fa28673a1e29f242b2e6b27d0fd6ea5dfced116af864964d721eac6cabf323e2",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "a5c450c3d61c8c8d525752cfd12c99eb3450a8714d7682e878ad8a51b77d686a",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "67a4cd3adbaad44623b43d121624dd509cf95005aa08f57c60e8dda354820e27",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "c45b62c78a936a927a6f12d889bfc6643ba828e889d4ad2fe214e3d43f2104c3",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "index.html",
+      "bytes": 829,
+      "sha256": "10467ed0e5edb745f6782619055effa720ba936daf5ace6048ef94df594b2624"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 912,
+      "sha256": "a5c450c3d61c8c8d525752cfd12c99eb3450a8714d7682e878ad8a51b77d686a"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 1202,
+      "sha256": "9812a206be6f5e8abeba7d2c5cc27ff6007e1d0f2d2bd61903b230dc6221372e"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 852,
+      "sha256": "67a4cd3adbaad44623b43d121624dd509cf95005aa08f57c60e8dda354820e27"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 209,
+      "sha256": "c45b62c78a936a927a6f12d889bfc6643ba828e889d4ad2fe214e3d43f2104c3"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

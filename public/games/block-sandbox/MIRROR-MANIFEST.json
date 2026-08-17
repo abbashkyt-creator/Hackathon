@@ -1,0 +1,135 @@
+{
+  "name": "block-sandbox",
+  "sourcePage": "https://poki.com/en/g/block-sandbox",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 1218,
+      "sha256": "fc1dba4ff56f04bb40604e27ec37fa0a9ed2386a82205559b50204254622c13b",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 167,
+      "sha256": "98b8ac9025144e1a9382654b67331d09c36b66d00414e5c52b3f5e8ed207ae3e",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "fac9bf68274020072b092b0a5066f1e3d4d34948562720cc825e3607a39a7069",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "41f475a85d4a33e6cbb866971f12bf1640dcfe4be8bcc70f7564758e73a01351",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 316,
+      "sha256": "f1b11cb6c3d9a7d316cfbd63181abfed6effb226cbb6df3f0b115baecb6835a6",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 231,
+      "sha256": "313d6f25d52f6bac4bdcf88d3be4bbdc7ca23becd3f0fe525df6f01fe08c30ff"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 450688,
+      "sha256": "02a8d3e31c4cb00e1c80dae9c8972acc13fcb5cdd36065c0bf456fcdd183282c"
+    },
+    {
+      "assetPath": "images/cell-sheet0.png",
+      "bytes": 127,
+      "sha256": "04901194367978cb8d5c0c20dd1d345af0c56848fd3497de63c25953eba5b27a"
+    },
+    {
+      "assetPath": "images/obj-sheet0.png",
+      "bytes": 4244,
+      "sha256": "d1ebcdf2798c583e505a3e62d8e37c2f040646646b86a78a6ca346fc30463dab"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 30673,
+      "sha256": "d49ef4ad2a55078b649bd9cb2d4be0254615e917f8d82017d2ce1de950cd476d"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 20488,
+      "sha256": "2d581f688b6fb7ce8bae62a49c008745ae2149b1be4bc87260fd7c40a162b4c4"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 2302,
+      "sha256": "c09e39c64b9f3c46901473ae356f8bef64d9c0f6d8ac6df41934f31c315a3f65"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.png",
+      "bytes": 205,
+      "sha256": "631180514c85eb6ebeaa7403ddb487224414842c4f4084618f62ecbee65ccd0a"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.png",
+      "bytes": 82,
+      "sha256": "83c9b8ce1937570a40bcedde29457a4ab7865ca1db23a46d2d68e6b1949f3c28"
+    },
+    {
+      "assetPath": "images/slide-sheet0.png",
+      "bytes": 91,
+      "sha256": "ba0c844ee3bdf2e1de09c400a787ce9463646c2b1e7de73c465af7c87be9288d"
+    },
+    {
+      "assetPath": "images/tile-sheet0.png",
+      "bytes": 2197,
+      "sha256": "b149158ea3cc7276bf64839e928964a7f8c7b15ca73398bbf579ddedea8065e5"
+    },
+    {
+      "assetPath": "images/weapon-sheet0.png",
+      "bytes": 2712,
+      "sha256": "df53285ef489075050ad39483516ce5ed448a936f47deba32b1205d3e05e0df4"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 1218,
+      "sha256": "fc1dba4ff56f04bb40604e27ec37fa0a9ed2386a82205559b50204254622c13b"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 916,
+      "sha256": "fac9bf68274020072b092b0a5066f1e3d4d34948562720cc825e3607a39a7069"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 854,
+      "sha256": "41f475a85d4a33e6cbb866971f12bf1640dcfe4be8bcc70f7564758e73a01351"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 316,
+      "sha256": "f1b11cb6c3d9a7d316cfbd63181abfed6effb226cbb6df3f0b115baecb6835a6"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3431,
+      "sha256": "3e2e4ef222a408ec8d22d34064796796f4301452149e456e8a35efd58e4a103f"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2412,
+      "sha256": "ee0ac75ccbcc30038805fb739aa9b1c4604deaea7ee1798e5fa3d72a19bbc55a"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

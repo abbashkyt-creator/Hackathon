@@ -437,6 +437,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "cafe-bara": { creatorId: "cafe-bara", creatorName: "Cafe Bara", creatorLabel: "BY CAFE BARA · LOCAL SOURCE MIRROR", category: "Arcade" },
   "a-cleaning-story": { creatorId: "a-cleaning-story", creatorName: "A Cleaning Story", creatorLabel: "BY A CLEANING STORY · LOCAL SOURCE MIRROR", category: "Arcade" },
   "cube-miner-escape-from-prison": { creatorId: "cube-miner", creatorName: "Cube Miner", creatorLabel: "BY CUBE MINER · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "the-superhero-league": { creatorId: "the-superhero-league", creatorName: "The Superhero League", creatorLabel: "BY THE SUPERHERO LEAGUE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "snow-plow": { creatorId: "snow-plow", creatorName: "Snow Plow", creatorLabel: "BY SNOW PLOW · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "morph-balls": { creatorId: "morph-balls", creatorName: "Morph Balls", creatorLabel: "BY MORPH BALLS · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",

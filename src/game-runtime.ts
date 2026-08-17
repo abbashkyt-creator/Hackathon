@@ -395,6 +395,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "cafe-bara": { embedded: true, preloadManifest: "/games/cafe-bara/preload-manifest.json", assetManifest: "/games/cafe-bara/MIRROR-MANIFEST.json", prepareByMount: true },
   "a-cleaning-story": { embedded: true, preloadManifest: "/games/a-cleaning-story/preload-manifest.json", assetManifest: "/games/a-cleaning-story/MIRROR-MANIFEST.json", prepareByMount: true },
   "cube-miner-escape-from-prison": { embedded: true, preloadManifest: "/games/cube-miner-escape-from-prison/preload-manifest.json", assetManifest: "/games/cube-miner-escape-from-prison/MIRROR-MANIFEST.json", prepareByMount: true },
+  "the-superhero-league": { embedded: true, preloadManifest: "/games/the-superhero-league/preload-manifest.json", assetManifest: "/games/the-superhero-league/MIRROR-MANIFEST.json", prepareByMount: true },
+  "snow-plow": { embedded: true, preloadManifest: "/games/snow-plow/preload-manifest.json", assetManifest: "/games/snow-plow/MIRROR-MANIFEST.json", prepareByMount: true },
+  "morph-balls": { embedded: true, preloadManifest: "/games/morph-balls/preload-manifest.json", assetManifest: "/games/morph-balls/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,
