@@ -1,0 +1,315 @@
+{
+  "name": "kigurumi-dress-up",
+  "sourcePage": "https://poki.com/en/g/kigurumi-dress-up",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 3643,
+      "sha256": "bbf30ae7fbc12910bfc432c7ef6cb376378ed0a2cf4923b78fb5a19d0c9c4dff",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 171,
+      "sha256": "137216ed351bdc5f33723830d54c544df86520d27ced948ff1e1f8964490752a",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "296e8d826ab5eb374ba553d16823fbe768a7743f9ea150909b6c2ba4fdc5eb56",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "58171c336dc87d914a359281bc969bf8b39c9cb00f03bfc4a2e6980916605056",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 287,
+      "sha256": "a0915fe3945b68c017108662ea1f0a772ed205fb85276c5974824402e3b3fcc8",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "ad.json",
+      "bytes": 4561,
+      "sha256": "6d3b3e294568be46f8d2cbb122d9efac2c58f7e1b8893ed5b34c8633b56742e1"
+    },
+    {
+      "assetPath": "appmanifest.json",
+      "bytes": 218,
+      "sha256": "6c0753b326cfb745258c8357256ae0b8fd33f79ca6bcd079896a5098e4b27f51"
+    },
+    {
+      "assetPath": "bgimg.webp",
+      "bytes": 46826,
+      "sha256": "55d33a731177f4de8f1c446ae9c18a2f5110f0eab00ea94f7df4523bd93e4da4"
+    },
+    {
+      "assetPath": "data.json",
+      "bytes": 216666,
+      "sha256": "538e008a33ed88210da462414407b6e55a6aead6fd0d3c0f55c14047884bcbf2"
+    },
+    {
+      "assetPath": "images/cloth-sheet0.png",
+      "bytes": 221273,
+      "sha256": "f8270de83dd1c14f3601f3c6b397acc1c5a774d40ce27c41274488323b4a4dd2"
+    },
+    {
+      "assetPath": "images/cloth-sheet1.png",
+      "bytes": 103826,
+      "sha256": "8c26c34af6778fd6bedba08b827352692df0154670ef905c623b67ab5c10c314"
+    },
+    {
+      "assetPath": "images/cloth-sheet10.png",
+      "bytes": 211899,
+      "sha256": "9396f440ad0103261b4b50016d6b1bbef08a1aca083c6df9abbb6a7fb00173af"
+    },
+    {
+      "assetPath": "images/cloth-sheet11.png",
+      "bytes": 178417,
+      "sha256": "ca9460b302b0c49c8115341c3a31f62c3c670b0109c5782cb32f2eaa2b841967"
+    },
+    {
+      "assetPath": "images/cloth-sheet12.png",
+      "bytes": 136372,
+      "sha256": "33197bf595a2ce2060bf0e03e87992e1599b18a23427b2afcc00606f713647a1"
+    },
+    {
+      "assetPath": "images/cloth-sheet13.png",
+      "bytes": 237340,
+      "sha256": "3bde792a47cfdb4dc0553bdec73efd13329ebc850d0ed4b87ca8fefbec1f6809"
+    },
+    {
+      "assetPath": "images/cloth-sheet14.png",
+      "bytes": 332788,
+      "sha256": "bb347a267e6158b658353f5d7846fa534d203942a23315e99d465cb7f43db717"
+    },
+    {
+      "assetPath": "images/cloth-sheet15.png",
+      "bytes": 242013,
+      "sha256": "a62be0a4312ed152babcdb6e906b99fa9878276603ed9ecc0add9900975810f2"
+    },
+    {
+      "assetPath": "images/cloth-sheet16.png",
+      "bytes": 224031,
+      "sha256": "0ecec855fe05ecfe7514ebf060c82495aa5164fc1fe325623a5f6a207c95ca41"
+    },
+    {
+      "assetPath": "images/cloth-sheet17.png",
+      "bytes": 238973,
+      "sha256": "66cac5c285fa8a4da427b40bb7845dfa941e9d8e6a64eb129a628d70a45a260e"
+    },
+    {
+      "assetPath": "images/cloth-sheet18.png",
+      "bytes": 60289,
+      "sha256": "967d7b6de18eddecd967beb0d2f1988779518a1785c550947d7830d2e91ef725"
+    },
+    {
+      "assetPath": "images/cloth-sheet19.png",
+      "bytes": 6671,
+      "sha256": "cf80b003ef8f0863eb35a3f97a5365590cef8901438ed014d7153f70f553f34d"
+    },
+    {
+      "assetPath": "images/cloth-sheet2.png",
+      "bytes": 177217,
+      "sha256": "6ba42cdcdb06fffb5897a655d2d0958cdd159f1443eaaed036a1e96ef4218d78"
+    },
+    {
+      "assetPath": "images/cloth-sheet3.png",
+      "bytes": 200795,
+      "sha256": "98ae668ab271932a7e342e6295567ba1959a09b9f56866c628b31949543fbdb1"
+    },
+    {
+      "assetPath": "images/cloth-sheet4.png",
+      "bytes": 149818,
+      "sha256": "feb1e4d1a6da648c85c467af12fe535eec850d2f898a26abb4a33886cc5df034"
+    },
+    {
+      "assetPath": "images/cloth-sheet5.png",
+      "bytes": 228355,
+      "sha256": "5a255de417dcd389dfc9366d707ee6fb3e831e95c5ac63f06ecb201bbf7236da"
+    },
+    {
+      "assetPath": "images/cloth-sheet6.png",
+      "bytes": 168972,
+      "sha256": "747eefc2066f78c522bda8eb1fb512b9bcf691cdeecbc9ec3573387d86a22a85"
+    },
+    {
+      "assetPath": "images/cloth-sheet7.png",
+      "bytes": 127814,
+      "sha256": "fd56746ad20038762801b50a1cef5cfc2009cb92f5e6f5c36045ca9733c05d76"
+    },
+    {
+      "assetPath": "images/cloth-sheet8.png",
+      "bytes": 165916,
+      "sha256": "9e2fe82541a0f7529896b201115da44b292753b2f279f5ff78aa36c1a5dec85b"
+    },
+    {
+      "assetPath": "images/cloth-sheet9.png",
+      "bytes": 161518,
+      "sha256": "3b18b6f4159b76b7879a6f3521e84c2984aed76a8356eb11eb3cadb1053ddf23"
+    },
+    {
+      "assetPath": "images/icons-sheet0.png",
+      "bytes": 93077,
+      "sha256": "b13769efa1a5f12446527dce251da27bca46dd9fe5f36221b0fc413da8fec778"
+    },
+    {
+      "assetPath": "images/menubg2-sheet0.png",
+      "bytes": 285,
+      "sha256": "6f4caa8b980d07a8afa42fc554614a847c28fa052e014af2fb2f240090f5a205"
+    },
+    {
+      "assetPath": "images/paint-sheet0.png",
+      "bytes": 354,
+      "sha256": "af8db3ce9d1e319c958405306c21fe931648df6a437914befb1f2a2cefb86f69"
+    },
+    {
+      "assetPath": "images/shared-0-sheet0.png",
+      "bytes": 282890,
+      "sha256": "7538ba391475b71d6869bc99d07dfcf468c03c265e828e066dcafba667672409"
+    },
+    {
+      "assetPath": "images/shared-0-sheet1.png",
+      "bytes": 430025,
+      "sha256": "a88245a8e79ce121de7eba8797e737dd252048efff884c7ce8efeca27a6de344"
+    },
+    {
+      "assetPath": "images/shared-0-sheet10.png",
+      "bytes": 1778,
+      "sha256": "f98ca84764a9d15aed808a9f3a422c8caf66e4a3f673f331a31c2d9b4f69a174"
+    },
+    {
+      "assetPath": "images/shared-0-sheet11.png",
+      "bytes": 140,
+      "sha256": "37ab9fae61775b50564909e5a020c2104f8abb7df7dea5d0446ac37e1b341340"
+    },
+    {
+      "assetPath": "images/shared-0-sheet12.png",
+      "bytes": 93,
+      "sha256": "b645b852fcb19a892c0cb660b56c89bbd68e513971a027b80748ec662aaaaec5"
+    },
+    {
+      "assetPath": "images/shared-0-sheet2.png",
+      "bytes": 316327,
+      "sha256": "1b057b73a04a283b342007190aa1108045dc9009b7818aa9c6f05d2c28098788"
+    },
+    {
+      "assetPath": "images/shared-0-sheet3.png",
+      "bytes": 273893,
+      "sha256": "a3fe7caa3d882619230ed47ecddb03d81199b4e89467a470dbdbb576c78adc42"
+    },
+    {
+      "assetPath": "images/shared-0-sheet4.png",
+      "bytes": 345223,
+      "sha256": "ca5d3229769b15cbc05dae39b38b08e6cf8f1558aff28b223c92458425d7dce4"
+    },
+    {
+      "assetPath": "images/shared-0-sheet5.png",
+      "bytes": 206208,
+      "sha256": "31de2ce8322db4779657037522b4553db39246d12a802a536af79fc4d4ec9a4a"
+    },
+    {
+      "assetPath": "images/shared-0-sheet6.png",
+      "bytes": 100109,
+      "sha256": "26a62d8aa7a154afd836b7857724902a1b44e2817dea7b0521a84846409e89b2"
+    },
+    {
+      "assetPath": "images/shared-0-sheet7.png",
+      "bytes": 64854,
+      "sha256": "43175da1b4366f4b4883b6d96980e9e3c60b36c283fe999ad81158b733456e15"
+    },
+    {
+      "assetPath": "images/shared-0-sheet8.png",
+      "bytes": 55351,
+      "sha256": "d4d0a73a78551bd8b6122a96eaec295c5822bba3f6517ba18af784c1bfab9f4c"
+    },
+    {
+      "assetPath": "images/shared-0-sheet9.png",
+      "bytes": 15179,
+      "sha256": "1e86b3b531caca8056026d57a9c7e7ccd54d1cfc62a02489185974b9c5df3dbd"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 3643,
+      "sha256": "bbf30ae7fbc12910bfc432c7ef6cb376378ed0a2cf4923b78fb5a19d0c9c4dff"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 924,
+      "sha256": "296e8d826ab5eb374ba553d16823fbe768a7743f9ea150909b6c2ba4fdc5eb56"
+    },
+    {
+      "assetPath": "js/tiptap-inline-1.js",
+      "bytes": 6254,
+      "sha256": "e972a50d29052d9ac8aa32f262b95ef7844a1c3c8a227095835164d059402d61"
+    },
+    {
+      "assetPath": "js/tiptap-inline-2.js",
+      "bytes": 210,
+      "sha256": "cb9a86ea9472479439d7416840a3caf7986d9d573f7e3faadf860f62e225be20"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 858,
+      "sha256": "58171c336dc87d914a359281bc969bf8b39c9cb00f03bfc4a2e6980916605056"
+    },
+    {
+      "assetPath": "loading.png",
+      "bytes": 1818,
+      "sha256": "16db8ca523a71ef13c01f78a60d69dfd00afb79a5cd24ab6539838743a958f02"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 287,
+      "sha256": "a0915fe3945b68c017108662ea1f0a772ed205fb85276c5974824402e3b3fcc8"
+    },
+    {
+      "assetPath": "scripts/c3main.js",
+      "bytes": 1372892,
+      "sha256": "c942edb35365f798532d2a787853106fed7296ec36319adc399e8f134aada536"
+    },
+    {
+      "assetPath": "scripts/dispatchworker.js",
+      "bytes": 3451,
+      "sha256": "dad4c4dbc5a124550a43d497d829b2b5f38619febd0deee28bf136017a216723"
+    },
+    {
+      "assetPath": "scripts/jobworker.js",
+      "bytes": 2406,
+      "sha256": "5beca2dcd2915b2846192c20913133dfaa5ad6263194b6ad0f02cf7642a7dd51"
+    },
+    {
+      "assetPath": "scripts/main.js",
+      "bytes": 118050,
+      "sha256": "84d43c2cce5836a59643d203493704880f76b6e41063f04e37842adfdaa142a7"
+    },
+    {
+      "assetPath": "scripts/modernjscheck.js",
+      "bytes": 153,
+      "sha256": "914af3dc0bb16c71e2be8fec8b8353fde0b4f8c49bcfd7c978020d7cf297ee23"
+    },
+    {
+      "assetPath": "scripts/supportcheck.js",
+      "bytes": 4743,
+      "sha256": "3054ea9413671bc90d8c0e63d238d1810b71b0e58c648769ef7d06e7ffdadd3c"
+    },
+    {
+      "assetPath": "style.css",
+      "bytes": 1945,
+      "sha256": "70eefe4754fae10c3c9190a535f80178d0fc3bbb759a2ff45629d30f3bb40707"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

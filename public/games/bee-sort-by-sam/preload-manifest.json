@@ -1,0 +1,8 @@
+{
+  "critical": [
+    "/games/bee-sort-by-sam/index.html",
+    "/games/bee-sort-by-sam/js/poki-sdk-shim.js",
+    "/games/bee-sort-by-sam/js/tiptap-platform-bridge.js",
+    "/games/bee-sort-by-sam/js/tiptap-inline-1.js"
+  ]
+}

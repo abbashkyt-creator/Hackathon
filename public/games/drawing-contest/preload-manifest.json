@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/drawing-contest/index.html",
+    "/games/drawing-contest/js/poki-sdk-shim.js",
+    "/games/drawing-contest/js/tiptap-platform-bridge.js"
+  ]
+}

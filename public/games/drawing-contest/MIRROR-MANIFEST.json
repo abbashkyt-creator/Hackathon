@@ -1,0 +1,435 @@
+{
+  "name": "drawing-contest",
+  "sourcePage": "https://poki.com/en/g/drawing-contest",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 39249,
+      "sha256": "1d7d13ad70160b57aecabc3023f511cc0bf7b8682451a8d880ea8e5af03d19a4",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 169,
+      "sha256": "8dac8bfadb2fc1408d86b0802b3b4f508942b84d613949c4c513d47a574b61e5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "fdc632386d18a80b065e56c6d4df512b36342ec221088964baf37a62bec7c87c",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "d9efcd83a59ab754dd86881b34a56c9c0e76b8dd545e6f634d736b1c72021dc7",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "22eafd7c0da1f27b34b60f8a1886e3375dbefdec081e2e33745cd8104085f559",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "assets/back-btn.png",
+      "bytes": 632,
+      "sha256": "b594b1362580743b706292b8edc10a6246e3b4e9c5bd94aee85596c2fa8c9cfe"
+    },
+    {
+      "assetPath": "assets/background.jpeg",
+      "bytes": 90600,
+      "sha256": "a0a31e383c19feb4b9f322724983277140107c31cd4f6664726feba6c4cb1817"
+    },
+    {
+      "assetPath": "assets/drawing-transition-sprite.png",
+      "bytes": 240612,
+      "sha256": "f748a8cbbc8fdb726e91359365a534a03fa5f5caec1345dcb588fd62923186e0"
+    },
+    {
+      "assetPath": "fonts/ads.svg",
+      "bytes": 1998,
+      "sha256": "615001bfd981f1f797de98cf6a6c790c16a9fc81e12a3f6a8ef76c83dd79133d"
+    },
+    {
+      "assetPath": "fonts/arial.woff2",
+      "bytes": 21436,
+      "sha256": "7ec155c18c8188e8fa644ef04723753e86172d804e9ae7d0887d60f04adef755"
+    },
+    {
+      "assetPath": "fonts/badge-1.svg",
+      "bytes": 5731,
+      "sha256": "55744dd885d413fe8106f0060bb8512cbf66f953c880195292f2e0826fc68d61"
+    },
+    {
+      "assetPath": "fonts/badge-2.svg",
+      "bytes": 5841,
+      "sha256": "fc64b7c03edb314a7fe5921c4a14ae3496ebaf475d9e9329f67f65a276b5d00a"
+    },
+    {
+      "assetPath": "fonts/badge-3.svg",
+      "bytes": 6314,
+      "sha256": "aef49244fe80c61a4d5ac81ff1c1848f67f21e54009acd196f68b1491cc658f4"
+    },
+    {
+      "assetPath": "fonts/brick-wall.svg",
+      "bytes": 11254,
+      "sha256": "413e33c234189d9ee5c603536f670886e952a8a3400d1d025aa2e0893b661d7d"
+    },
+    {
+      "assetPath": "fonts/check-icon.svg",
+      "bytes": 480,
+      "sha256": "6ca7cb2c95eb7ccb9b009f61acb3f36f059f39be86fa9e3cb7e608dc7ec05163"
+    },
+    {
+      "assetPath": "fonts/circle-mask.svg",
+      "bytes": 125,
+      "sha256": "161793ff85eb7e5be50147783e99d5c8007ad5100c23b43d6b0accd4a873b7df"
+    },
+    {
+      "assetPath": "fonts/close-tick-button.svg",
+      "bytes": 1062,
+      "sha256": "c9131f5b0d2a3fa9a71ab3ff68aac1e597f6a2e5104f38af22193d81738a21ab"
+    },
+    {
+      "assetPath": "fonts/coin.svg",
+      "bytes": 2440,
+      "sha256": "a3d6b15ea4d8cb8df92ef488ff9e6e38f0dd553899cafdaa3863217528e255b3"
+    },
+    {
+      "assetPath": "fonts/curtain.svg",
+      "bytes": 14520,
+      "sha256": "0743f9ed53528626317f3504f0efb538813f2b7eaf91f290212a0746c84b3e24"
+    },
+    {
+      "assetPath": "fonts/customize-avatar.svg",
+      "bytes": 2340,
+      "sha256": "2846a0363fb9553a1a4c15617b094eb3ac9a2fec2a4c72dac25581eb19b10745"
+    },
+    {
+      "assetPath": "fonts/customize-shapes.svg",
+      "bytes": 6448,
+      "sha256": "ec47dc431af17a7541b6350dfdd149236b6187eaf22f0f42ac66ba100df0d320"
+    },
+    {
+      "assetPath": "fonts/de.svg",
+      "bytes": 334,
+      "sha256": "3f6dc3fa445f3225e6ed2a1b4bcdb6b74684b5804e6bb2cb6b50aa0325b8d81a"
+    },
+    {
+      "assetPath": "fonts/easel.svg",
+      "bytes": 3269,
+      "sha256": "f54e390b3c8ae5c1313270e658669fc31c1e1fca52fb212939f2dbd4da138095"
+    },
+    {
+      "assetPath": "fonts/eraser.svg",
+      "bytes": 607,
+      "sha256": "b75b1e43fa011149e2548d7e766dcca6cabba59e6f0a115e86085d4aa511e491"
+    },
+    {
+      "assetPath": "fonts/es.svg",
+      "bytes": 311,
+      "sha256": "0b92378703f20195dce1ef6fdbf161d9f943da50d71f032b53db467d6050c72a"
+    },
+    {
+      "assetPath": "fonts/finding-players-background.svg",
+      "bytes": 909,
+      "sha256": "5541220785d768c04a72c16bb862bff81c23c6c4f6d3e4ff4c12e1c16c863125"
+    },
+    {
+      "assetPath": "fonts/Floraless.ttf",
+      "bytes": 109424,
+      "sha256": "0b9e28d30a837d8db5a498721d229ad4d8301b0d189a426bb46d6ff3104a0582"
+    },
+    {
+      "assetPath": "fonts/fr.svg",
+      "bytes": 340,
+      "sha256": "1d0c12a2157fc4a25fb7eb4e989b7555289c118fcb20c5eacebbfe0dafcbe30c"
+    },
+    {
+      "assetPath": "fonts/golden-plate.svg",
+      "bytes": 661,
+      "sha256": "d1dde8874c764cf85dde2cc81e8647f3a3bedda841527202d21471f0bfdddaeb"
+    },
+    {
+      "assetPath": "fonts/hands.svg",
+      "bytes": 16354,
+      "sha256": "3ba252116a4abc47a68b3c7b9827ab7bd91b34090488c24261767f97a4597e96"
+    },
+    {
+      "assetPath": "fonts/home-button.svg",
+      "bytes": 3674,
+      "sha256": "3a9ece1e8d8a0e865ee7206a3fd6afd928706e15880f1b41c237a5cd850bf11e"
+    },
+    {
+      "assetPath": "fonts/hud-ads-video.svg",
+      "bytes": 8582,
+      "sha256": "57062b9b325dfbc2ab102ed5adb14243b93b390f5f075251059c2f3aadb68ec3"
+    },
+    {
+      "assetPath": "fonts/hud-background.svg",
+      "bytes": 934,
+      "sha256": "fee480b27afd0a7a8f989f9c0adb26d1afb51f754df5b762292a1c96492ef868"
+    },
+    {
+      "assetPath": "fonts/info-icon.svg",
+      "bytes": 414,
+      "sha256": "7ed099eb735d88615117c7141ee98bac38b6760baa82cfbe11cdeabfcda288f0"
+    },
+    {
+      "assetPath": "fonts/it.svg",
+      "bytes": 340,
+      "sha256": "8f3ce99568a7c2e2560aa69cb825ac34a68dd483ffcb5c71a1204d52f882f45e"
+    },
+    {
+      "assetPath": "fonts/lamp.svg",
+      "bytes": 2281,
+      "sha256": "cab95a7994564ed662347c1fb16730934209a9587b7867b559926e46006642a6"
+    },
+    {
+      "assetPath": "fonts/loader-paper.svg",
+      "bytes": 2129,
+      "sha256": "1ea9bdded2eff9dcac92beabfd72919eb09e39e0f90e19a00ca03ac7a9aa45e6"
+    },
+    {
+      "assetPath": "fonts/logo.svg",
+      "bytes": 182212,
+      "sha256": "c2a702f3dcd1c76953180f26f638f40289d5c1bad86c79e8f5922a6f63b3f293"
+    },
+    {
+      "assetPath": "fonts/notification-close-button.svg",
+      "bytes": 358,
+      "sha256": "fdd4b3f406971cb8d4966018bc0955ce42313e29aae575be9f2bc6f5d832153b"
+    },
+    {
+      "assetPath": "fonts/padlock.svg",
+      "bytes": 628,
+      "sha256": "458dfda9e900af79651cf0af4868f42b8b8b5967dfca58dfbb5a2ccd3ebe31c3"
+    },
+    {
+      "assetPath": "fonts/painting-frame.svg",
+      "bytes": 1701,
+      "sha256": "87ba7ac968139fd57ae7f28b5d4d00888f0d919d3654904ff5e4795f9b201b8a"
+    },
+    {
+      "assetPath": "fonts/paper-shadow.svg",
+      "bytes": 397,
+      "sha256": "2c65c4595a93604f6484e6eb08fecf49b507a93b1d74b1411e969439427e60b0"
+    },
+    {
+      "assetPath": "fonts/penIcon.svg",
+      "bytes": 456,
+      "sha256": "2a0236610ff90783a39630f689ecf5e234642d0eafaaf541049ca006e2081b91"
+    },
+    {
+      "assetPath": "fonts/primary-button.svg",
+      "bytes": 972,
+      "sha256": "6f589eccd5591c5f8f3005ad104c90eca1373f0a9137bb847b86270d7f1352c5"
+    },
+    {
+      "assetPath": "fonts/pt.svg",
+      "bytes": 686,
+      "sha256": "2333b293cbc44e8b736565ac84d4bd03cb136f017e5194d321dcc8ca46aa0464"
+    },
+    {
+      "assetPath": "fonts/rate-background.svg",
+      "bytes": 907,
+      "sha256": "53fe5dcab660b4b93d2176ad8290814e7cc872260c0386b27834344c1132d951"
+    },
+    {
+      "assetPath": "fonts/redo.svg",
+      "bytes": 666,
+      "sha256": "f417dc5172348f60b52809d591a3c5689b9c2afd94e0eddf2bceb543d78ea7be"
+    },
+    {
+      "assetPath": "fonts/rounded-button.svg",
+      "bytes": 316,
+      "sha256": "ce52dac9662043db5b31d6095141a7728960ec7dee9370ec2679217ea9adbe75"
+    },
+    {
+      "assetPath": "fonts/rounded-star.svg",
+      "bytes": 847,
+      "sha256": "74d9c972e7d1184df4bdd6d7d3e62ed304638c12f6215abdbb9c4fb84e921a94"
+    },
+    {
+      "assetPath": "fonts/sand-clock.svg",
+      "bytes": 2448,
+      "sha256": "6a8b69402e5053195decdb7853f1b15cb46a9348709e424a39da3f32991ecaa6"
+    },
+    {
+      "assetPath": "fonts/scroll-arrows.svg",
+      "bytes": 1122,
+      "sha256": "c9c59626342bf8e868e9edc6b7eff915d55016aa9b3a1123a23af120185fe688"
+    },
+    {
+      "assetPath": "fonts/selectors-background.svg",
+      "bytes": 553,
+      "sha256": "953c3c4eab91746fd36ff7e7bda29e6e5d61facfe3b115b3d2b46ca923e43379"
+    },
+    {
+      "assetPath": "fonts/selectors-close-button.svg",
+      "bytes": 436,
+      "sha256": "db3e8b437b6b0fb4a76ba917db73ecef381de92188ca9c1e39b53384219fe4ef"
+    },
+    {
+      "assetPath": "fonts/shape-placement-buttons-background.svg",
+      "bytes": 321,
+      "sha256": "393c548f449ade60bc04d758c666b84719890d3f7b6a0021f442bd2d93657967"
+    },
+    {
+      "assetPath": "fonts/shape-placement-cancel-button.svg",
+      "bytes": 734,
+      "sha256": "ee66d2f66e853e76beb68982c7d0c69630417bf38cb7370bbf5eee428eb7a4d6"
+    },
+    {
+      "assetPath": "fonts/shape-placement-confirm-button.svg",
+      "bytes": 490,
+      "sha256": "51f6b6f0a694fa7617451e61074dcd5d44e802cf3ef7ec3c6e5acf7b289821e7"
+    },
+    {
+      "assetPath": "fonts/shapesIcon.svg",
+      "bytes": 4676,
+      "sha256": "7a669c3c79e2ac8dee25d81327cf9cca16a7a43e43f4e3bc7e1f9689db93d095"
+    },
+    {
+      "assetPath": "fonts/Signika-Bold.ttf",
+      "bytes": 276904,
+      "sha256": "3ab70135c2fef76719f1d9049f9f9d992bbf39b777bee4548086fbf5e3fdc2fd"
+    },
+    {
+      "assetPath": "fonts/Signika-Light.ttf",
+      "bytes": 276668,
+      "sha256": "d6d895efc864406ac4f1c7069a7c5ea35695a0802756a2812cd42b68f806a075"
+    },
+    {
+      "assetPath": "fonts/Signika-Medium.ttf",
+      "bytes": 276872,
+      "sha256": "c56c6726992dd5c407adf73625682262cd5f3aa4fe084777aaa5f60d8a94de39"
+    },
+    {
+      "assetPath": "fonts/Signika-Regular.ttf",
+      "bytes": 276876,
+      "sha256": "8cdd6bebc766b05fe5492913d9a10d66fd2c85f8df2ce2b0864ace65a01b7e38"
+    },
+    {
+      "assetPath": "fonts/Signika-SemiBold.ttf",
+      "bytes": 276904,
+      "sha256": "53ac2bdb5ac6372633519db9659a92d6d277b5a8c6776cd166d5198486c086ee"
+    },
+    {
+      "assetPath": "fonts/star-selected.svg",
+      "bytes": 556,
+      "sha256": "1a26b640e7ba14730d825d4f19e7db8c4ad013b75802800acf623f0e8029c22e"
+    },
+    {
+      "assetPath": "fonts/star.svg",
+      "bytes": 556,
+      "sha256": "ad9335137677c3d9d404e80de56e0bc957c8bd0df91522b5739f1cfd30944383"
+    },
+    {
+      "assetPath": "fonts/start-button.svg",
+      "bytes": 972,
+      "sha256": "c0abcc15fec053549c810f69df00b7f8505492e38c59cbb90f4283f6d57c9238"
+    },
+    {
+      "assetPath": "fonts/Stories.otf",
+      "bytes": 36568,
+      "sha256": "b16f93ce765e203aeebebc1e31d60eb693c695db1a9c9337ad588232967d9323"
+    },
+    {
+      "assetPath": "fonts/tape.svg",
+      "bytes": 1352,
+      "sha256": "a54c9e1ad6474f242290ec99c3b2f97de8338087dc3137e2ad8e41705dd43f12"
+    },
+    {
+      "assetPath": "fonts/toolbar-background.svg",
+      "bytes": 907,
+      "sha256": "474be6ba79ab916ed711f9b6c11c4d9f24529cb919936185f205e989a249344c"
+    },
+    {
+      "assetPath": "fonts/ubuntu-bold.woff2",
+      "bytes": 28824,
+      "sha256": "e8cf57f52f3491e111f78b029664153c30c02c705963109df80ad606db4904e2"
+    },
+    {
+      "assetPath": "fonts/ubuntu-r.woff2",
+      "bytes": 25764,
+      "sha256": "264fe08032604316ba82a67b7cb72d27e9cb658a7f11f3198a95a62fd4d2558d"
+    },
+    {
+      "assetPath": "fonts/undo.svg",
+      "bytes": 668,
+      "sha256": "972245218bfadb18a49749a9907cabd9a86385f1601ed8e6a837b70e46cd2dba"
+    },
+    {
+      "assetPath": "fonts/us.svg",
+      "bytes": 723,
+      "sha256": "7f3012f520e4aefcff6acbb8cc7198fee604f3f806fd228f59c94077437bda82"
+    },
+    {
+      "assetPath": "fonts/width-big.svg",
+      "bytes": 173,
+      "sha256": "1ef80c0eaa60490e38ce00538eb4868a1e601300605086fa1478a120ffb7527b"
+    },
+    {
+      "assetPath": "fonts/width-bigger.svg",
+      "bytes": 171,
+      "sha256": "6ca56aa6852008870578dcdf5cf67bc592edcc576ccd33282fdf15a2afaa9be2"
+    },
+    {
+      "assetPath": "fonts/width-medium.svg",
+      "bytes": 173,
+      "sha256": "7c088db5c75f8e2774925fb942d1641c7f245739b4a1b183a44ff3e30d1d67c5"
+    },
+    {
+      "assetPath": "fonts/width-selector-background.svg",
+      "bytes": 845,
+      "sha256": "2e482b233bc21c98adcd100f1b88ddf9f9b35b4496a74452742ba8b205f21f50"
+    },
+    {
+      "assetPath": "fonts/width-small.svg",
+      "bytes": 174,
+      "sha256": "b8affef168fea839f7ef63c8041668e027a1f9657c47659e826c702ac4c200d1"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 39249,
+      "sha256": "1d7d13ad70160b57aecabc3023f511cc0bf7b8682451a8d880ea8e5af03d19a4"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 920,
+      "sha256": "fdc632386d18a80b065e56c6d4df512b36342ec221088964baf37a62bec7c87c"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 856,
+      "sha256": "d9efcd83a59ab754dd86881b34a56c9c0e76b8dd545e6f634d736b1c72021dc7"
+    },
+    {
+      "assetPath": "main.js",
+      "bytes": 5364524,
+      "sha256": "6122352d6d950b52fe47db73531abb9433cd6ddd3c3516f838e83cd69554a688"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 173,
+      "sha256": "22eafd7c0da1f27b34b60f8a1886e3375dbefdec081e2e33745cd8104085f559"
+    },
+    {
+      "assetPath": "styles.css",
+      "bytes": 1160899,
+      "sha256": "4257c86ae1171f1a696525d143057164165fd5203512223ad2192470d945b79c"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,70 @@
+{
+  "name": "cafe-bara",
+  "sourcePage": "https://poki.com/en/g/cafe-bara",
+  "sourceRoot": "",
+  "gameId": "",
+  "gameVersionId": "",
+  "capturedWith": "auto-ingest-pipeline",
+  "captureHashNote": "Auto-generated manifest",
+  "integrationFiles": [
+    {
+      "assetPath": "index.html",
+      "bytes": 6356,
+      "sha256": "4663a4751b4beeaf97288dba56542da487f9d6864a4a3aca892e4e6567186a52",
+      "purpose": "Localized entry"
+    },
+    {
+      "assetPath": "NOTICE.txt",
+      "bytes": 163,
+      "sha256": "1594203bcdf23bbd417da917e3c064cb3fc0f0592b0c950dfc01c765029fead5",
+      "purpose": "Notice"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "32a4aa8b53e7cecbbfa1f76bcfd7c43d4bc021ec967a1e77a782538619447d96",
+      "purpose": "SDK shim"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "83e7001742211be2b4f12b76b4150eb7714acbf221b98395c9ae91f7a1f4f583",
+      "purpose": "Bridge"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 155,
+      "sha256": "db5e0a1bf845158036ee0436871a51ab0d1d9bc1e21e276d3dbacc488b154b29",
+      "purpose": "Preload manifest"
+    }
+  ],
+  "files": [
+    {
+      "assetPath": "dmloader.js",
+      "bytes": 47585,
+      "sha256": "919d948f243b9a820d6dea945eeafb3e8571ba2c43d66181d0178cb2381a5ecb"
+    },
+    {
+      "assetPath": "index.html",
+      "bytes": 6356,
+      "sha256": "4663a4751b4beeaf97288dba56542da487f9d6864a4a3aca892e4e6567186a52"
+    },
+    {
+      "assetPath": "js/poki-sdk-shim.js",
+      "bytes": 908,
+      "sha256": "32a4aa8b53e7cecbbfa1f76bcfd7c43d4bc021ec967a1e77a782538619447d96"
+    },
+    {
+      "assetPath": "js/tiptap-platform-bridge.js",
+      "bytes": 850,
+      "sha256": "83e7001742211be2b4f12b76b4150eb7714acbf221b98395c9ae91f7a1f4f583"
+    },
+    {
+      "assetPath": "preload-manifest.json",
+      "bytes": 155,
+      "sha256": "db5e0a1bf845158036ee0436871a51ab0d1d9bc1e21e276d3dbacc488b154b29"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

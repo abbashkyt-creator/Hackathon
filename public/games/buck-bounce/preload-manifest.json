@@ -3,8 +3,6 @@
     "/games/buck-bounce/index.html",
     "/games/buck-bounce/js/poki-sdk-shim.js",
     "/games/buck-bounce/js/tiptap-platform-bridge.js",
-    "/games/buck-bounce/scripts/modernjscheck.js",
-    "/games/buck-bounce/scripts/supportcheck.js",
-    "/games/buck-bounce/scripts/main.js"
+    "/games/buck-bounce/js/tiptap-inline-1.js"
   ]
 }

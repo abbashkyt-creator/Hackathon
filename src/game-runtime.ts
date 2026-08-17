@@ -389,6 +389,9 @@ const RUNTIMES: Partial<Record<GameSlug, GameRuntime>> = {
   "right-jump": { embedded: true, preloadManifest: "/games/right-jump/preload-manifest.json", assetManifest: "/games/right-jump/MIRROR-MANIFEST.json", prepareByMount: true },
   "i-am-hall-security": { embedded: true, preloadManifest: "/games/i-am-hall-security/preload-manifest.json", assetManifest: "/games/i-am-hall-security/MIRROR-MANIFEST.json", prepareByMount: true },
   "meme-madness": { embedded: true, preloadManifest: "/games/meme-madness/preload-manifest.json", assetManifest: "/games/meme-madness/MIRROR-MANIFEST.json", prepareByMount: true },
+  "buck-bounce": { embedded: true, preloadManifest: "/games/buck-bounce/preload-manifest.json", assetManifest: "/games/buck-bounce/MIRROR-MANIFEST.json", prepareByMount: true },
+  "kigurumi-dress-up": { embedded: true, preloadManifest: "/games/kigurumi-dress-up/preload-manifest.json", assetManifest: "/games/kigurumi-dress-up/MIRROR-MANIFEST.json", prepareByMount: true },
+  "bee-sort-by-sam": { embedded: true, preloadManifest: "/games/bee-sort-by-sam/preload-manifest.json", assetManifest: "/games/bee-sort-by-sam/MIRROR-MANIFEST.json", prepareByMount: true },
   "drift-boss": { embedded: true, preloadManifest: "/games/drift-boss/preload-manifest.json", assetManifest: "/games/drift-boss/MIRROR-MANIFEST.json", prepareByMount: true },
   "penalty-shooters-2": {
     embedded: true,

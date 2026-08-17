@@ -1,0 +1,7 @@
+{
+  "critical": [
+    "/games/cafe-bara/index.html",
+    "/games/cafe-bara/js/poki-sdk-shim.js",
+    "/games/cafe-bara/js/tiptap-platform-bridge.js"
+  ]
+}

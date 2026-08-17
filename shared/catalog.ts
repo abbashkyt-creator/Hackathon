@@ -431,6 +431,9 @@ export const GAME_CATALOG_METADATA: Record<string, GameCatalogMetadata> = {
   "right-jump": { creatorId: "right-jump", creatorName: "Right Jump", creatorLabel: "BY RIGHT JUMP · LOCAL SOURCE MIRROR", category: "Arcade" },
   "i-am-hall-security": { creatorId: "i-am-hall-security", creatorName: "I Am Hall Security", creatorLabel: "BY I AM HALL SECURITY · LOCAL SOURCE MIRROR", category: "Arcade" },
   "meme-madness": { creatorId: "meme-madness", creatorName: "Meme Madness", creatorLabel: "BY MEME MADNESS · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "buck-bounce": { creatorId: "buck-bounce", creatorName: "Buck Bounce", creatorLabel: "BY BUCK BOUNCE · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "kigurumi-dress-up": { creatorId: "kigurumi-dress-up", creatorName: "Kigurumi Dress Up", creatorLabel: "BY KIGURUMI DRESS UP · LOCAL SOURCE MIRROR", category: "Arcade" },
+  "bee-sort-by-sam": { creatorId: "bee-sort-by-sam", creatorName: "Bee Sort by Sam", creatorLabel: "BY BEE SORT BY SAM · LOCAL SOURCE MIRROR", category: "Arcade" },
   "drift-boss": {
     creatorId: "poki-mirror",
     creatorName: "Drift Boss",
