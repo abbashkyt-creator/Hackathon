@@ -13,7 +13,7 @@ Tip Tap Games is a mobile-first, vertical feed of instant one-thumb mini games. 
 ## What ships
 
 - Exact one-screen vertical swipe feed with endless shuffled recycling
-- 25 different instant games across action, arcade, puzzle, runner, and sports
+- About 370 game integrations in `src/games/`, wrapping third-party web games in `public/games/`, across action, arcade, puzzle, runner and sports (the first version had 25)
 - Strict active-card lifecycle: inactive games stop their timers and animation frames
 - Guest-first play with no registration wall
 - PostgreSQL production persistence and local SQLite development persistence
@@ -183,7 +183,7 @@ The app never seeds fake players or fake leaderboard scores. Populate the judgin
 ```text
 server/             API, database, OAuth, validation, SSE
 shared/catalog.ts   authoritative creator and category metadata shared by client and server
-src/games/          25 isolated game integrations and implementations
+src/games/          about 370 game integrations, wrapping the third-party games in public/games/
 src/App.tsx         feed, discovery, saved/following, sharing, auth and ranking UI
 public/             PWA, icons, social preview and authorized local game assets
 tests/              policy, persistence, API and game-integration tests
