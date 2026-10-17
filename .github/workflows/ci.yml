@@ -1,9 +1,8 @@
 name: quality-gate
 
+# Not maintained after the hackathon: run by hand from the Actions tab.
 on:
-  push:
-    branches: ["main"]
-  pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read

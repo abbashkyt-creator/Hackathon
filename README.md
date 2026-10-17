@@ -1,5 +1,10 @@
 # Tip Tap Games
 
+> **What is mine and what isn't.** This was a 12-hour hackathon build.
+> - **Mine:** the feed, the score-validation server and the leaderboards, in `src/`, `server/`, `shared/`, `scripts/` and `tests/`.
+> - **Not mine:** `public/games/` holds third-party web games used in the demo. They are not my work, and the credit belongs to their original authors.
+> - **CI:** the quality-gate workflow was not maintained after the event, so it now runs only on manual dispatch.
+
 **Doomscroll — except you're the one playing.**
 
 Tip Tap Games is a mobile-first, vertical feed of instant one-thumb mini games. The first game is already live when the page opens. Finish a run and the score is written to a real database, ranked immediately, and ready to share as a server-backed challenge.
