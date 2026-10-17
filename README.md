@@ -1,8 +1,9 @@
 # Tip Tap Games
 
-> **What is mine and what isn't.** This was a 12-hour hackathon build.
-> - **Mine:** the feed, the score-validation server and the leaderboards, in `src/`, `server/`, `shared/`, `scripts/` and `tests/`.
-> - **Not mine:** `public/games/` holds third-party web games used in the demo. They are not my work, and the credit belongs to their original authors.
+> **How this was built, and what is whose.** A hackathon project from July 2026, extended in August.
+> - **Built with AI coding agents that I directed.** The Codex agent wrote the first version: its 38 commits run from 25 Jul to 11 Aug, starting with "Build complete Tip Tap Games hackathon app". The later commits mostly add games to the catalogue.
+> - **The project's own code:** the feed, the score-validation server and the leaderboards, in `src/`, `server/`, `shared/`, `scripts/` and `tests/`.
+> - **Not ours:** `public/games/` holds third-party web games used in the demo. They are not my work, and the credit belongs to their original authors.
 > - **CI:** the quality-gate workflow was not maintained after the event, so it now runs only on manual dispatch.
 
 **Doomscroll — except you're the one playing.**
